@@ -1,0 +1,390 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "Not a question: polarization not uniform across regions and topics (part of C2), placed here. The paper contrasts its result with 'uniformly low' polarization (p.22); framing not flagged."
+      },
+      {
+        "match": [],
+        "note": "Quote marked NOT IN PAPER (it spans the page 1-2 break). The abstract's own strong wording ('measurable consequences'), so not flagged; no gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Introduction background (p.2): regional policy differences became politicized along partisan lines. Accurate, not a question and not in the gold."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x2",
+            "text": "Says the paper argues against the idea that social media discourse is unrepresentative; the paper concedes Twitter data 'may not fully capture the views and sentiments of the broader American and Canadian public' and reflects 'a vocal subset' (p.24)."
+          }
+        ],
+        "note": "Quote is the p.22 vaccination/conspiracy sentence, which says nothing about representativeness."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F3",
+            "text": "Says the paper argues that public health outcomes are influenced by the timing of policy announcements; the paper only reports that polarization peaks coincide with contentious events, noting 'direct causal evidence is not available' (p.17)."
+          }
+        ],
+        "note": "Does not state F3 itself: the claim is about outcomes, not polarization spikes."
+      },
+      {
+        "match": [],
+        "note": "Polarization evolves over time: too general to state F3 (no event link, no days-scale spikes). Quote is the rapid daily fluctuations sentence (p.16)."
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [4] (same error, and quote NOT IN PAPER)"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [2]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "Straw view (outcomes determined solely by medical factors) the paper never discusses; no gold answer. Not flagged."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [10]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [17]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [23]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Discourse correlated with real-world events: the event-linkage half of F3 in the question slot. Lenient call; quote is the rapid daily fluctuations sentence (p.16)."
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [17]"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says the paper argues polarization is a cause of social fragmentation; the paper says the high U.S. polarization levels 'indicate a more divided society' (p.23), not that polarization causes it."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [2]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Straw view the paper does not argue against; its quote does not state the claim. No gold answer; not flagged."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [17]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [42]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [23]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [31]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [43]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [39]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [51]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [42]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [23]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [2]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [50]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [63]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [66]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [57]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [54]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      },
+      {
+        "match": [],
+        "note": "repeat of [17]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [71]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [23]; quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [64]"
+      },
+      {
+        "match": [],
+        "note": "Only quote marked NOT IN PAPER; no credit, and no gold answer it would state."
+      }
+    ],
+    "central_claim": [],
+    "evidence": [],
+    "key_findings": [],
+    "scope_and_limits": [],
+    "theoretical_positioning": [],
+    "interlocutor_claim": []
+  }
+}

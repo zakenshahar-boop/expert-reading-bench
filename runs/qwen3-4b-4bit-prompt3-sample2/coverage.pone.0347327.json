@@ -1,0 +1,154 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Regional and event variation (Q1); correlates only as 'public health outcomes' (part of Q3). Methods aim (Q2) is in the quote, not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1, plus U.S. vaccination correlation (F2) placed here. No B1 catch."
+      },
+      {
+        "partial": [
+          "C2"
+        ],
+        "note": "Cross-national difference only (conclusion and abstract wording), as in the calibration."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Event-linked short spikes; a finding."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1",
+          "E3",
+          "E5"
+        ],
+        "note": "'Over 50 million tweets from late 2020' (E1 partial); three topics without conspiracy or method (E5 partial); profile and activity classification without validation (E3 partial)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E2"
+        ],
+        "note": "Quote marked NOT IN PAPER (close paraphrase of p.4). Would have matched E2."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3",
+          "E6"
+        ],
+        "note": "Quote marked NOT IN PAPER. Would have given E3's validation half and E6."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1",
+          "F2"
+        ],
+        "note": "Conservative regions higher in both countries (F1 abstract wording, no topic split or Canadian non-significance) and U.S. vaccination correlation (F2's U.S. half)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Peaks around the election and vaccine announcements, lasting days. 'In response to' not flagged, as in the calibration."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4",
+          "F5"
+        ],
+        "note": "Quote marked NOT IN PAPER. Would have given Canada's lower polarization (F5) and the Canadian conspiracy null (F4)."
+      },
+      {
+        "partial": [
+          "F2",
+          "F4"
+        ],
+        "note": "Conclusion wording (p.25): Canada weaker on vaccination (F2's second half) and conspiracy (F4, comparative only). 'Suggesting that institutional and political factors moderate' keeps the paper's hedge ('may be mediated', 'can moderate', p.25); not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F6"
+        ],
+        "note": "Quote marked NOT IN PAPER (p.23 sentence with a trailing period and no citations). Would have matched F6."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3",
+          "L9"
+        ],
+        "note": "Quote marked NOT IN PAPER (two separate sentences joined)."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Quote marked NOT IN PAPER (elided). Would have been T1 partial."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": "I3",
+            "text": "Says prior work (ref. 94) found a strong negative correlation between conspiracy theories and polarization in Canada, which the paper disputes. Ref. 94 found reduced negative sentiment in Canadian vaccine tweets during 2020 (p.24); the paper contrasts that with its own null conspiracy correlation."
+          }
+        ],
+        "note": "Quote marked NOT IN PAPER; no credit. Flagged because it misstates what ref. 94 found, as the calibration did for the like entry."
+      }
+    ]
+  }
+}

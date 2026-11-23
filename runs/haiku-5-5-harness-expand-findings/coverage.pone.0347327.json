@@ -1,0 +1,284 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Regional variation (Q1) and the three correlates (Q3). Methods aim (Q2) not stated."
+      },
+      {
+        "match": [],
+        "note": "Added entry. The topic-conditioning premise of the method (p.4), which the paper states as a hypothesis it adopts, not a question it tests. Related to Q2's methods aim but does not state it."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Added entry. Temporal, event-driven variation (Q1's second part, repeat of Q1) with the finding that spikes are short-lived (F3, placed here)."
+      },
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Added entry. The abstract's hedged suggestion that online discussion 'potentially' drives opinion change: the authors' interpretation (in the spirit of F-n1), reported with its hedge. Not a question in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "As in the original note: abstract wording for C1 (credited per its decision), plus the U.S. vaccination correlation (F2) placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "Period, countries and 1% sample; corpus size left out."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Vaccination rates a year after the tweets."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against voter registration records only."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Added entry. Profile location fields, geocoding and census check (p.6)."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Added entry. Case and death data (p.5); together with entry 1 it gives two of E6's three outside sources, but no election results."
+      },
+      {
+        "partial": [
+          "E5"
+        ],
+        "note": "Added entry. Hashtag-based topic definition (18,000 / 3,600 hashtags, 631 relevant; p.5); topics and the fine-tuned classifiers not named."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Added entry. Two-step classifier (RoBERTa-large on profiles, then activity MLP on mean-pooled embeddings; p.8). With entries 2 and 7 the note covers all of E3, but each entry gives one half."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Added entry. Validation against election results (0.802, 0.815; p.8), the other half of E3 again."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "Added entry. RoBERTa embedding space and C-index separation of left and right users."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "No masks/vaccines vs lockdowns split, no Canadian non-significance. 'Across the topics examined' follows p.13; not flagged."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "Canada half of F2, with the paper's explanation."
+      },
+      {
+        "partial": [
+          "F3"
+        ],
+        "note": "Rise and decay within days; events not mentioned."
+      },
+      {
+        "partial": [
+          "F4"
+        ],
+        "note": "Conspiracy volume vs daily polarization; conservatives' higher conspiracy-posting rate not stated."
+      },
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Appended entry. U.S. masks and vaccines significant, lockdowns not (p.16): F1's U.S. half. With entry 0 the note still lacks F1's Canadian non-significance."
+      },
+      {
+        "partial": [
+          "F4"
+        ],
+        "note": "Appended entry. Conservatives tweet conspiracy-related content at higher rates (p.21): F4's first half. 'Tweet ... content', not 'endorse', so not F-x3."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Appended entry. No correlation between aggregate polarization and pandemic severity in either country (S6 Fig caption, p.27). Accurate; not in the gold."
+      },
+      {
+        "partial": [
+          "F7"
+        ],
+        "note": "Appended entry. Quebec highest on vaccines (p.24); F7 is Quebec highest overall, with the English-only caveat, which is not given here."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Appended entry. Delaware high; Arkansas, Alabama, Idaho low (p.23)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Duplicates the previous entry."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Added entry. Restates the Canada half of F2 (and the paper's explanation) as a limitation."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Added entry. Time gap between tweets and vaccination, link suggestive only (p.25)."
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. The paper's own hedge on event peaks (p.17). Accurate; not a separate gold limit."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Added entry. The Canadian non-significance (F1's Canada part) restated as a limitation, with the paper's few-regions reason. Points out the non-significance but not that the abstract says otherwise, so no B1 catch."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approaches over network ones. No T0."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Same literature (embeddings vs lexicon strategies)."
+      },
+      {
+        "match": [
+          "T3"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Added entry. Each group has its own lexicon, so the method conditions on topic (p.4): the prior-work claim I7 that the method must handle, placed here."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "L1"
+        ],
+        "note": "Added entry. Semantic similarity only a proxy that may miss signals (p.24): the limitation L1, placed here."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Owen et al. is correct for ref. 94."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Added entry. Merkley et al. is correct for ref. 103."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Burns et al. (ref. 96, name correct): Conservative supporters in Canada more likely to refuse vaccination (p.24). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Added entry. Background on Democratic adherence to distancing (p.2): the neutral I-n1."
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Added entry. Earlier studies (refs 10, 62) found conservative states more polarized; the paper says it is consistent with them (p.23). The extension is stated in theoretical_positioning."
+      }
+    ]
+  },
+  "joined": [
+    "E3",
+    "F2",
+    "F4"
+  ]
+}

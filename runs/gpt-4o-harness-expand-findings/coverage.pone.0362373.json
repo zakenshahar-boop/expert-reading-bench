@@ -1,0 +1,217 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Same entry and call as Task E."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I6"
+        ],
+        "note": "Added entry. Not a question: the prevention-program presumption that friendships rest on risky behavior is I6 (the abstract's 'challenge assumptions' sentence, C3, is the same idea and is not credited twice)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Same as Task E."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Same as Task E."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Added entry. Cross-sectional survey only (padding)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Added entry. Measured domains without the specific measures."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Added entry. Directed nominations (Network Canvas accurate), without the up-to-10 detail."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Added entry. ERGMs per school; no terms or AMEs."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Added entry. Repeats ERGMs (padding)."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Added entry. Repeats the sample description; quote adds 'cross-sectional'."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q1"
+        ],
+        "note": "Added entry. Restates the study's aim (three of the four attribute groups), a question answer, in the evidence slot."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Same as Task E."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "The note says substance use 'does not consistently influence' friendship formation; the paper reports no consistent association and warns against reading its results causally."
+          }
+        ],
+        "note": "Same as Task E."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Same as Task E."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Same as Task E."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Appended. Depression half of F4; 'negligible associations' is the paper's wording (p.13)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Appended. Sexual orientation homophily, the part of F3 missing from entry 2."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Same entry as Task E, now grounded."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Added entry. Cross-sectional design cannot capture change over time: not L3 (neither selection versus influence nor association versus cause); closest to L4's single time point and school transitions."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Added entry. Selection versus influence; the quote gives the cross-sectional ERGM reason."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added entry. Other developmental stages."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L1"
+        ],
+        "note": "Added entry. Repeats the heterogeneous-schools half of L1 (padding)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Added entry. Repeats entry 1 without the design (padding)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Same as Task E."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Added entry. 'Moves beyond generalizations' is the paper's own wording for the testing half of T3, without what is replicated and what is disputed."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Same entry as Task E, now grounded: finding right, but not that the paper builds on it or calls it descriptive."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Added entry. States the heterogeneous-school research claim (abstract wording) without the paper's dispute of its generalization."
+      }
+    ]
+  },
+  "joined": [
+    "F3",
+    "F4"
+  ]
+}

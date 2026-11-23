@@ -1,0 +1,31 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {"match": ["Q3"], "partial": ["Q1"], "note": "Role of substance use (Q3); 'other individual characteristics' without naming depression or AI identity (Q1 partial). Same call as for the earlier haiku note's first entry."}
+    ],
+    "central_claim": [
+      {"match": ["C1"], "note": "'Primarily driven' follows the abstract's 'primary drivers'; not flagged."}
+    ],
+    "evidence": [
+      {"match": ["E1"], "partial": ["E3"], "note": "Data source (E1, without 'cross-sectional'); ERGMs named without per-school estimation or AMEs."}
+    ],
+    "key_findings": [
+      {"match": ["F2"]},
+      {"match": ["F1"], "note": "Core null; exceptions not named."},
+      {"match": [], "partial": ["F3"], "note": "No sexual orientation."},
+      {"match": [], "partial": ["F4"], "flags": [{"type": "overclaim (mild)", "gold": "F-x2", "text": "The note says AI identity 'does not significantly influence' friendship formation; the paper reports that AI identity was 'largely unassociated' with ties and warns against causal readings (p.17)."}], "note": "AI identity half of F4."}
+    ],
+    "scope_and_limits": [
+      {"match": [], "ungrounded": ["L1"], "note": "Only quote marked NOT IN PAPER."}
+    ],
+    "theoretical_positioning": [
+      {"match": [], "misplaced": ["C3"], "note": "Abstract's implication sentence; C3 is a central claim. 'Challenges' is the paper's word."}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "ungrounded": ["I2"], "note": "Only quote marked NOT IN PAPER. Would have been I2 partial at most (no 'descriptive' note)."}
+    ]
+  }
+}

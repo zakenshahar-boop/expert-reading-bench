@@ -1,0 +1,245 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q4"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [
+          "C3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2",
+          "E7"
+        ],
+        "note": "Pairs 247 with the analysis counts 49, 128 and 70: correct."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2",
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      },
+      {
+        "match": [
+          "T3"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ]
+  }
+}

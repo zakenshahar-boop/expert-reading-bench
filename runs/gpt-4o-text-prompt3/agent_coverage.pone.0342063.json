@@ -1,0 +1,97 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Moderation plus the conservative hesitancy half; liberals-regardless and the booster part are missing (scored like Task B central_claim[0])."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey of 683 participants (dates only in the quote); no Qualtrics Panels or convenience sample, no screening numbers. Measures are only named."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E4",
+          "E3"
+        ],
+        "note": "Both quotes are elided paraphrases marked NOT IN PAPER. Would be E4 (social and economic items) and E3 (zip code plus 2020 election results, though '% Republican vote' is not said)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1; lower vaccination and boosting rates not stated."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Conservative halves of the hesitancy (F2) and booster (F3) interactions; the liberals-regardless parts are missing. The quote supports only the hesitancy part."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Interaction not significant for initial vaccination (vs booster status); no mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Says generalization is limited by 'demographic limitations' without saying White and Black only or online panel; the quote has the specifics."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Builds on the orientation and climate literatures and extends them by testing their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Prior studies link conservatism to hesitancy, but the claim states no stance (builds on); lower uptake is only in the quote."
+      }
+    ]
+  },
+  "joined": []
+}

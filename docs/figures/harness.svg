@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 444" width="820" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" role="img" aria-label="Coverage and serious flags for each model under each harness setting">
+<rect width="820" height="444" fill="#ffffff"/>
+<text x="20.0" y="22.0" text-anchor="start" fill="#16202e" font-size="15" font-weight="600">What each harness setting does to coverage and serious flags</text>
+<line x1="330.0" x2="330.0" y1="56" y2="430" stroke="#d5d9df"/>
+<text x="330.0" y="48.0" text-anchor="middle" fill="#5b6470">0%</text>
+<line x1="405.0" x2="405.0" y1="56" y2="430" stroke="#d5d9df"/>
+<text x="405.0" y="48.0" text-anchor="middle" fill="#5b6470">25%</text>
+<line x1="480.0" x2="480.0" y1="56" y2="430" stroke="#d5d9df"/>
+<text x="480.0" y="48.0" text-anchor="middle" fill="#5b6470">50%</text>
+<line x1="555.0" x2="555.0" y1="56" y2="430" stroke="#d5d9df"/>
+<text x="555.0" y="48.0" text-anchor="middle" fill="#5b6470">75%</text>
+<line x1="630.0" x2="630.0" y1="56" y2="430" stroke="#d5d9df"/>
+<text x="630.0" y="48.0" text-anchor="middle" fill="#5b6470">100%</text>
+<text x="650.0" y="48.0" text-anchor="start" fill="#5b6470">serious flags</text>
+<text x="20.0" y="73.0" text-anchor="start" fill="#16202e" font-weight="600">Qwen3 4B (local)</text>
+<text x="320.0" y="73.0" text-anchor="end" fill="#5b6470">alone</text>
+<rect x="330.0" y="60" width="62.6" height="18" rx="2" fill="#3b6fb6"/>
+<text x="398.6" y="73.0" text-anchor="start" fill="#16202e">21%</text>
+<circle cx="654" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="662" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="670" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="678" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="686" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="694" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="702" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="710" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="718" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="726" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="734" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="742" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="750" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="758" cy="69" r="3.2" fill="#b4442f"/>
+<circle cx="766" cy="69" r="3.2" fill="#b4442f"/>
+<text x="320.0" y="99.0" text-anchor="end" fill="#5b6470">quotes confirmed</text>
+<rect x="330.0" y="86" width="95.5" height="18" rx="2" fill="#9db8dc"/>
+<text x="431.5" y="99.0" text-anchor="start" fill="#16202e">32%</text>
+<circle cx="654" cy="95" r="3.2" fill="#b4442f"/>
+<circle cx="662" cy="95" r="3.2" fill="#b4442f"/>
+<circle cx="670" cy="95" r="3.2" fill="#b4442f"/>
+<circle cx="678" cy="95" r="3.2" fill="#b4442f"/>
+<circle cx="686" cy="95" r="3.2" fill="#b4442f"/>
+<circle cx="694" cy="95" r="3.2" fill="#b4442f"/>
+<circle cx="702" cy="95" r="3.2" fill="#b4442f"/>
+<circle cx="710" cy="95" r="3.2" fill="#b4442f"/>
+<text x="320.0" y="125.0" text-anchor="end" fill="#5b6470">quotes confirmed, claims re-checked</text>
+<rect x="330.0" y="112" width="69.8" height="18" rx="2" fill="#9db8dc"/>
+<text x="405.8" y="125.0" text-anchor="start" fill="#16202e">23%</text>
+<circle cx="654" cy="121" r="3.2" fill="#b4442f"/>
+<text x="20.0" y="161.0" text-anchor="start" fill="#16202e" font-weight="600">GPT-4o</text>
+<text x="320.0" y="161.0" text-anchor="end" fill="#5b6470">alone</text>
+<rect x="330.0" y="148" width="63.4" height="18" rx="2" fill="#3b6fb6"/>
+<text x="399.4" y="161.0" text-anchor="start" fill="#16202e">21%</text>
+<circle cx="654" cy="157" r="3.2" fill="#b4442f"/>
+<text x="320.0" y="187.0" text-anchor="end" fill="#5b6470">quotes confirmed</text>
+<rect x="330.0" y="174" width="71.4" height="18" rx="2" fill="#9db8dc"/>
+<text x="407.4" y="187.0" text-anchor="start" fill="#16202e">24%</text>
+<circle cx="654" cy="183" r="3.2" fill="#b4442f"/>
+<circle cx="662" cy="183" r="3.2" fill="#b4442f"/>
+<text x="320.0" y="213.0" text-anchor="end" fill="#5b6470">quotes confirmed, claims re-checked</text>
+<rect x="330.0" y="200" width="65.8" height="18" rx="2" fill="#9db8dc"/>
+<text x="401.8" y="213.0" text-anchor="start" fill="#16202e">22%</text>
+<circle cx="654" cy="209" r="3.2" fill="#b4442f"/>
+<circle cx="662" cy="209" r="3.2" fill="#b4442f"/>
+<text x="320.0" y="239.0" text-anchor="end" fill="#5b6470">quotes confirmed, asked for more</text>
+<rect x="330.0" y="226" width="110.7" height="18" rx="2" fill="#9db8dc"/>
+<text x="446.7" y="239.0" text-anchor="start" fill="#16202e">37%</text>
+<circle cx="654" cy="235" r="3.2" fill="#b4442f"/>
+<circle cx="662" cy="235" r="3.2" fill="#b4442f"/>
+<circle cx="670" cy="235" r="3.2" fill="#b4442f"/>
+<text x="320.0" y="265.0" text-anchor="end" fill="#5b6470">asked for more, key findings too</text>
+<rect x="330.0" y="252" width="114.7" height="18" rx="2" fill="#9db8dc"/>
+<text x="450.7" y="265.0" text-anchor="start" fill="#16202e">38%</text>
+<circle cx="654" cy="261" r="3.2" fill="#b4442f"/>
+<circle cx="662" cy="261" r="3.2" fill="#b4442f"/>
+<circle cx="670" cy="261" r="3.2" fill="#b4442f"/>
+<text x="20.0" y="301.0" text-anchor="start" fill="#16202e" font-weight="600">Claude Haiku 5.5</text>
+<text x="320.0" y="301.0" text-anchor="end" fill="#5b6470">alone</text>
+<rect x="330.0" y="288" width="111.5" height="18" rx="2" fill="#3b6fb6"/>
+<text x="447.5" y="301.0" text-anchor="start" fill="#16202e">37%</text>
+<text x="650.0" y="301.0" text-anchor="start" fill="#5b6470">none</text>
+<text x="320.0" y="327.0" text-anchor="end" fill="#5b6470">quotes confirmed</text>
+<rect x="330.0" y="314" width="111.5" height="18" rx="2" fill="#9db8dc"/>
+<text x="447.5" y="327.0" text-anchor="start" fill="#16202e">37%</text>
+<text x="650.0" y="327.0" text-anchor="start" fill="#5b6470">none</text>
+<text x="320.0" y="353.0" text-anchor="end" fill="#5b6470">quotes confirmed, claims re-checked</text>
+<rect x="330.0" y="340" width="93.0" height="18" rx="2" fill="#9db8dc"/>
+<text x="429.0" y="353.0" text-anchor="start" fill="#16202e">31%</text>
+<text x="650.0" y="353.0" text-anchor="start" fill="#5b6470">none</text>
+<text x="320.0" y="379.0" text-anchor="end" fill="#5b6470">quotes confirmed, asked for more</text>
+<rect x="330.0" y="366" width="191.7" height="18" rx="2" fill="#9db8dc"/>
+<text x="527.7" y="379.0" text-anchor="start" fill="#16202e">64%</text>
+<text x="650.0" y="379.0" text-anchor="start" fill="#5b6470">none</text>
+<text x="320.0" y="405.0" text-anchor="end" fill="#5b6470">asked for more, key findings too</text>
+<rect x="330.0" y="392" width="206.1" height="18" rx="2" fill="#9db8dc"/>
+<text x="542.1" y="405.0" text-anchor="start" fill="#16202e">69%</text>
+<text x="650.0" y="405.0" text-anchor="start" fill="#5b6470">none</text>
+</svg>

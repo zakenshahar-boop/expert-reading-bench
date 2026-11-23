@@ -1,0 +1,100 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Leaves out the improved sense of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Describes the advertisement, not the counter-narrative."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a possible account, the hedged form."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

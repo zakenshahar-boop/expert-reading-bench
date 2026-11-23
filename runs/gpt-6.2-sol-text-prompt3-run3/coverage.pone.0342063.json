@@ -1,0 +1,198 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Q2: 'largely examined ... separately' keeps a hedge comparable to the paper's 'little research on the interaction'."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Initial vs booster and attitude vs receipt comparison (p.7); accurate, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E7"
+        ],
+        "note": "Reason for the quota design; the quotas are in [2]."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Age range, race split, 76%/53% vaccinated/boosted; accurate descriptives."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "The model controls and perceived-access item; the regression design is in [12]."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported status half of E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hesitancy scale half of E5."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "CFA and alpha = .93; accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Bivariate tests (p.4)."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "OLS and logistic models, political predictors added to controls, then the interaction."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Missing-data handling, R 4.4.1, two-sided .05."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ethics approval and consent."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction with shape (p.10); accurate, no gold finding for booster hesitancy alone (as in the calibration file)."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Non-significant interaction for initial receipt plus the authors' hedged mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Mechanism not tested (L6); social pressure given as one possibility (T3's substance, placed in limits). The two alternatives (liberal environments exert more influence vs conservatives more responsive) are both offered by the paper on p.10."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two strands (orientation, climate) combined by testing their interaction. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Ronn, Menzies and Salomon (ref. 19) checked: correct. Vaccination-rate half of I3 (the booster-rate half, ref. 20, is not given), with the builds-on stance."
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "'Few studies have examined' keeps the paper's hedge ('little research')."
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Hesitancy half of C1: climate more strongly tied to hesitancy for conservatives than liberals (p.8). No direction and no 'liberals low regardless'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Booster half of C1 for conservatives (more likely boosted in liberal regions, p.10), reported as the authors' novel finding. Together with [0] still lacks the liberals-regardless part and the hesitancy direction, so not joined."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Online self-report nonprobability convenience sample, US, March-April 2023; Qualtrics Panels named in [4]. Final N = 683 without the 1,777/970 figures (partial E2, as in calibration)."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Adapted seven-item AAVS plus self-reported status; booster hesitancy items also correct."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Larger marginalization project and race by income quotas, Qualtrics Panels."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Nested models (Model 1-3) called 'hierarchical'; accurate. Interaction term and controls stated."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Steeper rise in conservative regions; 'liberals low regardless of climate' missing."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction with its shape (p.10): accurate, but no gold finding covers booster hesitancy (consistent with the earlier judge)."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Mechanism not assessed (L6); names social pressure as an example of the unassessed mechanism, which is the T3 suggestion reported as untested, placed in limits."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two strands (orientation, climate) combined into one moderation model; 'confirm that work' is true to 'consistent with previous findings'. T0 not stated."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Ronn, Menzies and Salomon (ref. 19) correct; vaccination-rate half of I3 (booster-rate half, ref. 20, not given)."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Liu and Li (ref. 21) correct."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Cowan, Mark and Reich (ref. 18) correct."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Bolsen and Palm (ref. 17) correct."
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Carried over from qwen3-4b-harness-slots2/coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as what the paper argues rather than as a question, but its subject is the spillover of the 'convicted criminal' ad onto perceptions of people with records (Q1)."
+      },
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "States the counter-narrative's mitigating effect; its subject is Q2. Could instead be read as a misplaced half of C1."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x3",
+            "text": "'Exposure to a stigmatizing label of Trump' attributes the effect to the label; the stimulus was the mugshot with the label, and the paper says the two cannot be disentangled (p.17). The quotes say 'advertisement with the ... label'."
+          }
+        ],
+        "note": "Gives the harm to perceptions and the counter-narrative's mitigation; omits that the ad improved feelings of representation, although the first quote says so."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Names the three arms, without the counts."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Lists all six primary outcomes (p.7)."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Prolific and the July 12-13, 2025 dates (the rest of E1; 2,500 recruited is the paper's pre-exclusion figure), plus the manipulation check on emotional reactions (E7)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "'Exposure to a stigmatizing label of convicted criminal' attributes the effect to the label; the stimulus was the mugshot with the label, and the paper says the two cannot be disentangled (p.17). The quote says 'advertisement with the ... label'."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "'The negative effects of stigmatizing language' attributes the ad's effect to the language; the paper's quote speaks of 'the negative effects of the advertisement', and image and label cannot be separated (p.17)."
+          }
+        ],
+        "note": "Keeps the offset relation to the ad's effect, so no F-x2 flag."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F11",
+            "text": "Says the counter-narrative increased perceived public-service motives of officials. The paper finds it reduced them relative to the ad alone (H1F, beta = -0.098, p.11, not robust to Bonferroni). The quote is a hypothesis. The value-of-representation half is accurate (H1C, p.11)."
+          }
+        ],
+        "note": "No credit because half the entry is reversed."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives durability only (behavior is in entry 2)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "note": "No match carried over for this claim."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

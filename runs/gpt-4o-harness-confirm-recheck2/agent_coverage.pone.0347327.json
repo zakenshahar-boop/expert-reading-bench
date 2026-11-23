@@ -1,0 +1,96 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "The title restated: regional and temporal variation in both countries. No Q2 or Q3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract's conservative-regions claim (credited per C1's decision; 'significantly' and 'in both countries' dropped, no Canadian non-significance, no B1 catch), plus the U.S. vaccination correlation (F2's U.S. half) placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "'Over 50 million tweets from late 2020' only."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "The abstract's statement of the methodological aim (Q2), with no detail of the method (E2)."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher, more so in the U.S.; no masks/vaccines vs lockdowns split and no Canadian non-significance."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Event-linked spikes lasting a few days."
+      },
+      {
+        "partial": [
+          "F6"
+        ],
+        "note": "Exceptions in both directions, but no states named."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "partial": [
+          "L2"
+        ],
+        "note": "Twitter may not capture the broader public; the engaged/partisan reason and 'vocal subset' are not stated."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "partial": [
+          "T3"
+        ],
+        "note": "Extends earlier research with geographic and temporal resolution; does not say it agrees with their finding on right-leaning regions. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "partial": [
+          "I1"
+        ],
+        "note": "The prior claim (refs 10, 62) is stated, but not the paper's stance toward it (agrees and extends); the quote carries 'consistent with'."
+      }
+    ]
+  }
+}

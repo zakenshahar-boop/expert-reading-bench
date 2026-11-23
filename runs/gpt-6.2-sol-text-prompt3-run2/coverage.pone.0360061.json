@@ -1,0 +1,280 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E2",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "American users and 'not only deprivation or personality, but also engagement'; Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question (p.13), accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question (p.5), phrased as a question; accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "note": "'Not only deprivation, marginalization or personality ... also associated with forms of engagement valued as democratic citizenship' is C2. The positive direction and the indicators-and-antecedents framing of C1 are not stated, so C1 is not credited."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Six-wave US YouGov panel linked to X activity, Jan 2019 to Jan 2021; 2,567 linked and 3,643 X-only kept apart. The post count is in evidence[2]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Reason for the US focus (p.6), accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "9,250,180 posts, not joined to the 2,567; unit of analysis is the panelist."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Definition of political hostility (p.2), accurate."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "SU word embeddings, combined 'political hate' vector, cosine similarity, averaged per user."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Face validity summary (p.7), accurate."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "AFINN and Perspective API as secondary outcomes; the correlation details are accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Expert-label validation and supervised classifier robustness check (p.7), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Criterion validity checks (p.8), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "External validity checks (p.8), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ecological validity checks (p.8), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Education and efficacy measures (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Interest and knowledge measures (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Participation batteries (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Leader thermometer measure (p.9), accurate; not framed as the L5 limitation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Controls (p.9-11), accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Pooled OLS with clustered SEs, imputation/FIML; RI-CLPM is in evidence[19]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Robustness analyses as method (p.12-13); the share-of-political-posts result itself (F6) is in key_findings."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Moderation design (p.13), accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only; OLS is in evidence[16]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Negative-binomial count models and descriptive network visualization (p.10, p.15), accurate; no centrality inference drawn."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Multiple-testing corrections (p.10), accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Strongest for interest, knowledge, online participation; positive; after controls."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Robust to the share of political posts, 'if anything slightly stronger'; component and classifier measures broadly consistent (p.12-13)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the qualification: clearest for online and offline participation, 8 of 18 survive BH correction. No F-x2 flag."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Adding an account without adjudicating between the literatures is the paper's stance, not a limitation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Excludes nonpolitical toxicity, not a hate-speech measure, not the only measure (p.3, p.7, p.8); accurate."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "The Danish appendix evidence is reported as tentative, inside the limitation; not scored separately as F-b1."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ],
+        "note": "Moderation is descriptive, not causal, and exploratory for indicators without robust support (p.5, p.14)."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Data availability (p.2, p.6), accurate."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Classical engagement theory (p.15), with the indicators treated separately."
+      },
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Revisionist / motivated-reasoning and polarization view, extended from misinformation sharing to online hostility."
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Ref. 20 is Almond and Verba (checked in paper.xml)."
+      }
+    ]
+  }
+}

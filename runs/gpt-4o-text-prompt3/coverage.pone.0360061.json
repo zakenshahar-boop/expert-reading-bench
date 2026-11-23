@@ -1,0 +1,78 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Does not say which indicators are strongest."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'The association between engagement and hostility is stronger among users with higher levels of affective polarization', with no qualification. The paper calls the support partial."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T3"
+        ],
+        "partial": [
+          "T1"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      }
+    ]
+  }
+}

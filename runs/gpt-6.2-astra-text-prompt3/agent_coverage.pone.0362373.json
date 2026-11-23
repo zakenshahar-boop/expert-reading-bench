@@ -1,0 +1,250 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "Q1",
+    "E3",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Whether substance use is associated with nominations (sender, receiver, homophily) in AI-majority schools 'as it often does in racially heterogeneous schools': Q2 and Q3; also the substance use part of Q1."
+      },
+      {
+        "match": [
+          "Q4"
+        ],
+        "note": "Reciprocity, friends of friends, and degree concentration."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Depression part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "AI identity part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Demographic part of Q1 (gender, grade, sexual orientation)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "'Existing friendships' stands for the structural mechanisms (reciprocity, transitivity) the quote does not name, a loose wording; with shared demographics against substance use it states C1. The depression and AI identity clause is the abstract's (F4 content, not credited here)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note says reservation schools 'should not be treated as interchangeable' in prevention design; the paper says interventions 'may need to be calibrated to school-specific relational ecologies rather than applied uniformly across reservation settings' (p.16)."
+          }
+        ],
+        "note": "Accurate to p.16 apart from the hedge; school-specific calibration is not C3, which is about the assumption that friendship rests on substance use."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2",
+          "E7"
+        ],
+        "note": "Three schools on one Northern Plains reservation, grades 9 and 10 (E1, as in the qwen-slots calibration; 'cross-sectional' is in the next entry); 263 respondents and 247 with complete network data, stages named correctly (E2; 77% not given, treated as detail); school types (E7)."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Directed nominations, up to ten friends from a roster; adds 'cross-sectional survey'."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Advisory board review of measures (p.6): accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Substance use as binary ever-use; ceremonial tobacco excluded (p.7)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Six CES-D questions and six adapted MEIM affirmation and belonging items."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Demographic terms as description and adjustment, straight versus non-straight (p.6, p.8): accurate. This is the first sentence of L6 without its causal caveat (which the note gives in scope_and_limits), so not credited as misplaced."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Per-school base ERGM and substance models with sender/receiver/similarity terms and the two-path term; AMEs in the next entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "AMEs comparable across schools."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Peer-perception imputation and the sensitivity analysis; the change in some significance levels is accurate (p.7)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ],
+        "note": "Substance-only robustness check; accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Goodness-of-fit check against 100 simulated networks (p.12): accurate, not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity given through the descriptive rates (the norm in all three schools) and transitivity net of two-paths."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "'Strength varied' is accurate (Table 3)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Both exceptions located; marijuana homophily correctly called marginal."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Two grades at one time point; developmental change and school transitions."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper offers kinship networks as a possible arena for identity effects and calls for research in heterogeneous schools (p.15); the note keeps the hedge. Not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Future-research points from p.17 (community contexts, governance, qualitative work on using friendships in interventions). Does not claim the authors said three schools cannot disentangle school features (L-x1)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Network analysis kept, with mechanism strength treated as culturally and institutionally contingent; as the haiku calibration entry (T2, T1 partial). 'Extend' is not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors 'revise rather than reject network-based prevention'; the paper says the findings 'challenge assumptions underpinning many network-based prevention programs' and that endogenous factors suggest 'a promising direction' (p.1, p.14)."
+          }
+        ],
+        "note": "Same call as the haiku 'revise the assumptions of network-based prevention work' entry: the challenge to prevention assumptions and the call for strengths-based alternatives is C3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      }
+    ]
+  }
+}

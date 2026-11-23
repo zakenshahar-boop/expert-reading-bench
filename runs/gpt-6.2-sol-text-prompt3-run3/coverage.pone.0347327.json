@@ -1,0 +1,256 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E3",
+    "E5",
+    "E6",
+    "L3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional variation and change around events."
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "All three correlates."
+      },
+      {
+        "match": [],
+        "note": "Method question on separating polarization from group lexicons (p.4). Related to Q2 and I7 but states neither; same call as the earlier judge on an equivalent entry."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "note": "Not uniform: region, leaning, intervention (p.25). The added hedged mediation suggestion keeps 'suggests'; not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "Methodological aim (p.3) placed as a central claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Dates, 1% sample, about 12.6M and 46.6M tweets (12,552,213 rounds to 12.6M)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Three topics, multi-label, conspiracy category counting promotion and rebuttal; no method."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hashtag annotation and fine-tuned RoBERTa classifiers. With entry 1, E5 is stated in full."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Two-step classifier with activity thresholds, no validation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "U.S. two parties; Canadian party families (p.4). Accurate method detail; not stated as a limit."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records. With entry 4, E3 in full."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "User-level averaged embeddings and C-index separation of partisan groups."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Subsampling approximation (p.11). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Election vote margins as the comparison; plus temporal event method."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Cases, deaths and vaccination a year later. With entry 9, all three E6 sources."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1",
+          "F5"
+        ],
+        "note": "F1 in full; Canada lower overall and non-significant association covers F5."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "partial": [
+          "F7"
+        ],
+        "note": "Delaware vs Idaho, Alabama, Arkansas (F6). Quebec highest on vaccines, no caveat: part of F7."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "U.S. -0.77; Canada not the same, positive among 12 regions excluding Nunavut (S3 Fig), called exploratory. No B2 catch."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Peaks coincide with events, rise and subside within days."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Conservatives 'posted about' conspiracy theories; U.S. small negative, Canada not significant."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Proxy that can miss signals (p.24)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L1"
+        ],
+        "note": "Sarcasm and indirect disagreement (p.10): the example part of L1."
+      },
+      {
+        "match": [
+          "L8"
+        ],
+        "note": "Parties not distinguished within Canadian families; Bloc and minor parties excluded."
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "note": "Self-reported information may be inaccurate, plus voter-record and matching caveats."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported locations, VPNs and fake accounts add error."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Bots inflate the apparent divide. With entry 6, L3 in full."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No firm conclusion from the Canadian vaccination correlation; mandate account conjectural ('We assume', S3 Fig caption p.26). Accurate; not in the gold."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Correlations do not imply causation (p.25), plus the hedge on event peaks (p.17)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No single explanation identified (p.23). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Future-work items from the conclusion (p.26). Accurate; not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Embedding literature vs dictionary methods; text-only choice without dismissing network methods (p.3). No T0."
+      },
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Builds on prior findings of conservative-linked division and adds within-country, temporal and event detail (p.22)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Ref. 103 is Merkley E et al.; 'Eric' is beyond the paper's initial but not wrong in substance; not flagged."
+      }
+    ]
+  }
+}

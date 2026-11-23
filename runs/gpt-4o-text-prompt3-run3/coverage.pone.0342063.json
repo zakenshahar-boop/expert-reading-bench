@@ -1,0 +1,99 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1; the liberals-low-regardless part is missing. 'Moderates' is the paper's framing; not flagged, as in the calibration file."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey and N = 683; no convenience sample, Qualtrics Panels or exclusion figures in the claim (dates only in the quote)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3",
+          "E4"
+        ],
+        "note": "Both quotes NOT IN PAPER (ellipsis splices). Would be at most partial for E4 and E3 (no averaging/scale, no % Republican vote)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Vaccine-hesitancy part of F1 only; booster hesitancy and uptake missing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; liberals-regardless part missing."
+      },
+      {
+        "match": [],
+        "note": "Quote NOT IN PAPER (truncated splice). Booster hesitancy pattern; would be unlisted at best."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3",
+          "F4"
+        ],
+        "note": "Quote NOT IN PAPER (ellipsis splice). Would be partial F3 (no shape) and partial F4 (no mandates explanation)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Builds on research linking orientation and climate to hesitancy and extends it with their interaction. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Quote NOT IN PAPER (truncated). Would be I1 (plus the climate literature), without naming a stance beyond background."
+      }
+    ]
+  }
+}

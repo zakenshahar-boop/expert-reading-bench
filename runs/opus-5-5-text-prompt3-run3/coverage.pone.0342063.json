@@ -1,0 +1,178 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E1"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "'Little is known' keeps the hedge."
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Both halves for hesitancy, as in the calibration note."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Repeats the p.8 summary: climate matters more for conservatives."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online US survey, spring 2023, N = 683; no convenience sample or Qualtrics here (given in [1])."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Nonprobability convenience sample from Qualtrics Panels (rest of E1); race-by-income quotas and the marginalization project (E7)."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Steeper rise in conservative regions; the liberals-low-regardless part is not stated."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Also states the social-pressure suggestion as an untested possibility (T3), placed in limits. 'The effect' is loose wording for an association; not flagged since the entry is about the untested mechanism."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper offers both explanations as possibilities (p.10) without testing them; accurate, not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Consistent with both prior strands; repeats T1."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Rönn et al. (ref. 19) correct; vaccination-rate half of I3 only (no booster-rate study), so not joined."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Liu and Li (ref. 21) correct."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Cowan, Mark and Reich (ref. 18) correct."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Bolsen and Palm (ref. 17) correct."
+      }
+    ]
+  }
+}

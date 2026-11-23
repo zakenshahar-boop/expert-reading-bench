@@ -1,0 +1,82 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "'Primarily driven by' follows the abstract."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "No mention of the two exceptions; says 'influence'."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1"
+        ],
+        "note": "Quote not in the paper as given."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I2"
+        ],
+        "note": "Quote not in the paper as given."
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as what the paper argues, but its subject is the spillover of the 'convicted criminal' label onto perceptions of people with records (Q1), as the p.2 quote on social categorization says. No positive alternative is named, so no misplaced C2."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the ad's harm to perceptions and the improvement in feelings of representation (abstract wording); omits the counter-narrative's offset."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E2: total N and the three named arms (the arm counts are in the quote; treated as detail, as the earlier judge did for 'roughly evenly' without counts). E1 partial: survey experiment with self-identified Democrats, without pre-registration, Prolific or the dates."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "The counter-narrative's amelioration of the ad's effect on perceptions is the finding F2, placed in evidence. Keeps 'before the advertisement' implicitly via 'ameliorated the negative effects of the ... advertisement'."
+      }
+    ],
+    "key_findings": [],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives durability only (and only for the counter-narrative); L5 also covers single vs repeated exposure and behavior."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Rewritten at re-check to 'the study is associated with the possibility that the counter-narrative would influence actual voting behavior'. The paper names behavior as an open question (p.17: 'to what extent would these treatments translate to shifted decision-making and behavior'); the rewrite garbles the limitation into a suggested link to voting."
+          }
+        ],
+        "note": "Rewrite no longer states the limitation; the original L5 partial is not kept."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "'Does not fully disentangle' is softer than the paper's 'not possible to disentangle' (p.17); same substance."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Rewritten to 'are associated with individual perceptions'; meaning kept. No stance stated."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting as the grounding for the counter-narrative (p.3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "The disputed claim, that stigmatizing language can be used effectively to win support, is the Democratic Party's implied strategy (neutral I-b1), not a peer's claim. The quote is about negative ads being used less by poll leaders, which the claim does not state."
+      }
+    ]
+  }
+}

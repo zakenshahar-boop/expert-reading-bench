@@ -1,0 +1,121 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Carried over from qwen3-4b-harness-slots2/coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [],
+    "central_claim": [],
+    "evidence": [
+      {
+        "match": [],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "The substance-use null is a finding (abstract wording, keeps 'consistent')."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Depression and AI identity null is a finding."
+      },
+      {
+        "match": [],
+        "note": "No match carried over for this claim."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Students, grades, three schools, reservation; 'cross-sectional survey' not stated (treated as in Task B evidence entry 0)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Lists the measured domains without the specific measures."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "partial": [
+          "E6"
+        ],
+        "note": "Up to 10 nominations (E4). Peer perceptions used to infer substance use, without saying it was only for missing answers or the sensitivity analysis (E6 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Directed ties only; the up-to-10 nomination detail is in the previous entry."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Names ERGMs and the MCMLE estimation (accurate, p.9); per-school estimation, terms and AMEs not given."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity only; depression not mentioned here."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Challenge to the assumptions of network-based prevention programs is the implication in C3, without the call for culturally grounded theory. 'Absence of substance use effects' is the paper's p.14 wording."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Association-versus-cause consequence without the cross-sectional design or selection-versus-influence point (same call as Task B)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "note": "No match carried over for this claim."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I4",
+            "text": "The note says the paper disputes the risky-behavior assumption 'in adolescent populations'; the paper says the assumption 'does not hold in our study', i.e. for 9th and 10th grade AI youth in these schools."
+          }
+        ],
+        "note": "Names the conventional assumption of the adolescent health literature (I4) but drops the scope of the dispute; same call as Task C's interlocutor entry."
+      }
+    ]
+  }
+}

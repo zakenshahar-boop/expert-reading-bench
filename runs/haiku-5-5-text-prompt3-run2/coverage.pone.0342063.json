@@ -1,0 +1,116 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "F4"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Final N = 683 without the screening figures."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction for vaccine and booster hesitancy, without its shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster interaction significant with OR < 1, without the shape (given in [3])."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Non-significant interaction for vaccination; mandates explanation in [4]."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Liberals boosted regardless; conservatives in conservative climates much less likely. Both halves of F3 without the percentages."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Mandates explanation, correctly reported as untested ('likely reflects')."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Consequence given: pooled estimates may hide heterogeneity."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "'First to examine' matches p.7 'first assessment'."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Rönn et al. (ref. 19) correct; vaccination-rate half of I3."
+      }
+    ]
+  }
+}

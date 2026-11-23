@@ -1,0 +1,109 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by hand by the assistant on 2026-11-20; the 'alternative to' wording was accepted as T4 by the labeler the same day.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q1",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3",
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E4",
+          "E6",
+          "E5"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F7",
+          "F1"
+        ],
+        "note": "States positive associations above 0.2 with interest and online participation as examples; the 'strongest for' wording is in its central claim, not here. F1 credited. JUDGMENT CALL."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L1",
+          "L5",
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T4"
+        ],
+        "note": "Says 'an alternative to ... rather than an adjudication between them'. Accepted by the labeler."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ]
+      }
+    ]
+  }
+}

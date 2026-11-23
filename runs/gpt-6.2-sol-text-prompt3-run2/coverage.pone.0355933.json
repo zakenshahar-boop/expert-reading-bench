@@ -1,0 +1,297 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E3",
+    "E4",
+    "L5",
+    "L7"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Representation by own elected officials (Q3), plus officials' motives, which the paper names as a purpose (p.4)."
+      },
+      {
+        "match": [
+          "Q2",
+          "Q4"
+        ],
+        "note": "Offsetting the ad's harm (Q2) and reducing support for using the ad (H1A, Q4)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Pre-registered supplemental heterogeneity by system-impact status (p.7); accurate, not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Both halves of the trade-off and the near-complete offset ('almost entirely ameliorated', p.15)."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Prolific, July 12-13 2025, U.S. Democrats; pre-registration is given in entry 6. Matched in full as the earlier judge did for a Prolific/Democrats description without pre-registration."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Attention checks, duplicates, completion codes and likely nonhuman (bot) responses removed; final N 2,439."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Sample demographics (p.8); accurate, not a gold answer."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "Three arms with counts; ordering of outcomes and stimuli accurate (p.5)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3 (mugshot labeled CONVICTED CRIMINAL, in the quote; claim says 'captioned in capital letters')."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3: edited Nevada Current excerpt about formerly incarcerated lawmaker Jackson."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Supplies the pre-registration part of E1 (already matched in entry 0); the two hypothesis sets are accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Measurement format of the outcomes; part of E4."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "misplaced": [
+          "L7"
+        ],
+        "note": "Five-item perceptions index is part of E4; its low-end reliability (alpha 0.71, p.7) is the first half of the L7 limitation, as the earlier judge credited."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "The two single-item representation outcomes."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Quality-of-representation and motives indices."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "Two-item ad support index (part of E4) and the emotional-reaction manipulation check (E7)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "OLS with HC-2 SEs, treatment-only and covariate models; balance result is an accurate extra."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Supplemental analyses listed (p.11-12); accurate, not a gold answer."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'before seeing the ad' and 'compared with seeing the ad alone'."
+      },
+      {
+        "match": [
+          "F3",
+          "F5"
+        ],
+        "partial": [
+          "F11"
+        ],
+        "note": "F3: ad raised representation and public-service motives. F5: counter-narrative lowered federal Democratic representation vs ad alone. F11 partial: Bonferroni caveat given for the ad-vs-control motives result only, not the counter-narrative comparison."
+      },
+      {
+        "match": [
+          "F9"
+        ],
+        "unlisted": true,
+        "note": "H1C 0.79 SD increase is accurate but not in the gold (as the earlier judge treated it); the complexity null is F9."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Item-level split (only explicit support significant) is accurate (p.11)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ],
+        "note": "Preliminary evidence; replication in other contexts/less transparent designs is accurate (p.17) but durability is not in the claim."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Also the moderation point (p.16, ref 76), accurate."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability part of L5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Repeated-exposure part of L5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Behavior part of L5."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Narrow representation measures, second half of L7."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Index reliability satisfactory but not strong, first half of L7."
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "States the deservingness-versus-stigma-reduction possibility but not that the author thinks stigma reduction more likely (the quote has it)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Long-term implications for solidarity left for future research (p.18); accurate, not a gold limit."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting and counter-stereotype; the policy-alignment signal is the paper's own rationale (p.3-4)."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as tentative, as the paper does."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Refs 8-10 are Denver, Ballou & DeWitt; Harris & Socia; Imhoff (paper.xml): attribution correct."
+      }
+    ]
+  }
+}

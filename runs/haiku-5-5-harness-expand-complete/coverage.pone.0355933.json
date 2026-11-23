@@ -1,0 +1,272 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ],
+        "note": "Same as the original note: spillover to perceptions (Q1) and representation (Q3), and whether the counter-narrative offsets it (Q2)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. The paper's closing rhetorical question ('was it worth it?', p.18); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. The paper's own position (p.2) that acknowledging the convictions was necessary but stigmatizing terms were not; accurate, not a gold question or claim."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "Added. The alternative of juxtaposing the convictions with counter-narratives from system-involved representatives (p.18) is the recommendation in C2, placed in the question slot."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. Keeps the paper's hedge ('may have facilitated', p.16); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "L6"
+        ],
+        "note": "Added. Whether results replicate during a campaign is the L6 limitation."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Rewritten. Adds the 0.83 SD effect (p.15, correct), both comparisons (vs no ad, vs ad alone) and the 'preliminary' hedge, all true to the paper. Still omits that the ad improved feelings of representation, so C1 stays partial."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Same as the original. E3 partial: ad half only (the counter-narrative half is in entry 6)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "misplaced": [
+          "L7"
+        ],
+        "note": "Added. The five-item perceptions index is part of E4; its only moderate reliability (alpha 0.71, 'lower end of the threshold', p.7) is the first half of the L7 limitation."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Added. The Trump-ad-alone reference category is stated in the paper (p.9-10)."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Rewritten. Adds the reCAPTCHA 0.50 threshold and the paper's note that the threshold raises valid concerns (p.8); accurate. Credit unchanged."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Added. The reported result is in the paper (p.10, p.17)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. System-impacted subsample n = 521 vs 1,918 (p.13); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Added. Counter-narrative half of E3 (edited news excerpt about a formerly incarcerated lawmaker; 'prosecutor versus the felon' is in the excerpt, p.6)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. Balance-check method (p.8); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. Balance-check result (p.9); accurate, not a gold answer."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the relative-to-ad-alone comparison (p.15 wording)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Gives both the representation and the public-service-motives increases; names representation quality as unhypothesized, as p.11 does."
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added. Social desirability, eased but not ruled out by the manipulation check (p.17)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Added. Gives the gap to behavior; durability is in entry 5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Added. Gives durability (with other contexts and less transparent designs); the behavior part is in entry 4."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Added."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Added. Concern about AI agents completing online surveys (p.17). The paper uses this point partly to put the concern in context, but it does list it as a limitation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. The caution on supplemental analyses (p.11) is accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "note": "Added. Repeats entry 8 almost word for word (padding); no credit."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ],
+        "note": "Added. The Bonferroni caveat on the public-serving motives result is the finding F11 (given here for the ad-vs-control comparison only), placed in the limits slot."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "note": "Same as the original."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Same as the original; reported as a possible account."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Added. Perspective-getting as the grounding of the counter-narrative (p.3)."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Added. Repeats T2 (perspective-getting and counter-stereotype research, p.15)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I5"
+        ],
+        "note": "Added. The evidence that policy alignment matters more than affect for feelings of representation, used to qualify the emotional-mobilization rationale (p.3), is the interlocutor claim I5."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. Accurate to p.2; not a gold interlocutor (I2 is the meta-analysis, in the next entry)."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Added."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. Accurate to p.3 ('little to no demonstrable effects'); not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. Accurate to p.3 (citation 22); not a gold answer."
+      }
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "paper_id": "pone.0355933",
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "track": "text",
+  "prompt_version": 3,
+  "temperature": 0.0,
+  "harness": [
+    "notes from qwen3-4b-4bit-prompt3 (repaired)",
+    "quotes confirmed"
+  ],
+  "model_calls": 14,
+  "seconds": 113.2,
+  "summary": {
+    "quotes found": 17,
+    "pages corrected": 0,
+    "repairs that worked": 1,
+    "repair attempts": 14,
+    "claims dropped, no quote": 6,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper argues against the use of stigmatizing labels like 'convicted criminal' in political advertising, as such language leads to negative spillover effects on public perceptions of individuals with criminal records.\", \"quotes\": [{\"text\": \"The more negative angle for campaign advertisements and rhetoric is important to note: prior evidence on the effects of negative campaign advertisements suggests that they tend to be utilized less by those leading in the polls [4,5] and that Democrats tend to respond more to positive ads, compared to Republicans [6].\", \"page\": 2}, {\"text\": \"Thus, even if the intention of the advertisements depicting Trump as a \\\"convict,\\\" \\\"criminal,\\\" or \\\"felon\\\" were intended for purpose of impacting solely the likelihood of his ability to win the presidential election (e.g., encouraging action and anger towards Trump), social categorization theory [12–15] would suggest that the effects of utilizing this label likely spilled over.\", \"page\": 2}, {\"text\": \"The extent to which individuals feel angry towards those with criminal records has been found to be associated with greater support for more punitive justice system policy [11].\", \"page\": 2}]}], \"central_claim\": [{\"claim\": \"Exposure to a political advertisement labeling Donald Trump as a 'convicted criminal' significantly decreases Democrats' positive perceptions of individuals with criminal records, but increases perceived feelings of representation.\", \"quotes\": [{\"text\": \"Results suggest that exposure to the Trump advertisement with the \\\"convicted criminal\\\" label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The study used a survey experiment with 2,439 participants, including self-identified Democrats, who were randomly assigned to one of three treatment groups: control, exposure to the Trump advertisement alone, or exposure to a counter-narrative before the advertisement.\", \"quotes\": [{\"text\": \"The 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812).\", \"page\": 4}]}, {\"claim\": \"The counter-narrative, featuring a formerly incarcerated state representative, significantly ameliorated the negative effects of the stigmatizing advertisement on perceptions of individuals with criminal records.\", \"quotes\": [{\"text\": \"Findings suggest that the counter-stereotype vastly ameliorated the negative effects of the advertisement on Democrats’ perceptions of individuals with criminal records.\", \"page\": 1}]}, {\"claim\": \"The study found that exposure to the stigmatizing advertisement significantly reduced perceived public service motives of elected officials.\", \"quotes\": [{\"text\": \"Being presented with the Democratic party’s Trump advertisement alone, labeling him as a \\\"convicted criminal,\\\" will significantly decrease (positive) motives of elected officials (i.e., more strongly believe that they are motivated by self-interest over serving the public), on average, relative to not being exposed to this advertisement.\", \"page\": 7}]}], \"key_findings\": [{\"claim\": \"Exposure to the stigmatizing advertisement significantly decreased positive perceptions of individuals with criminal records by 0.83 standard deviation units.\", \"quotes\": [{\"text\": \"exposure to the counter-narrative prior to being presented with the Trump advertisement increased positive perceptions of individuals with criminal records by more than 0.8 standard deviation (SD) units, compared to those presented with the Trump advertisement alone ( β̂2 = 0.83, SE = 0.041).\", \"page\": 11}]}, {\"claim\": \"The counter-narrative significantly increased perceived value of representation in government by 0.79 standard deviation units.\", \"quotes\": [{\"text\": \"H1C’s tests reported similar magnitudes of effect, with the initial exposure to the counter-narrative demonstrating a 0.79 SD unit increase in the perceived value of diversity of life experience as an important component of strengthening democracy, relative to those only presented with the Trump advertisement before answering outcome questions ( β̂2 = 0.790, SE = 0.047).\", \"page\": 11}]}, {\"claim\": \"The counter-narrative significantly reduced perceived quality of Democratic representation in federal government by 0.33 standard deviation units.\", \"quotes\": [{\"text\": \"exposure to the counter-narrative significantly decreased quality of Democratic representation in federal government, relative to just Trump advertisement exposure ( β̂2 = −0.332, SE = 0.048).\", \"page\": 11}]}], \"scope_and_limits\": [{\"claim\": \"The study does not establish whether the effects of the counter-narrative on perceptions of individuals with criminal records would persist beyond the immediate post-exposure period.\", \"quotes\": [{\"text\": \"the durability of effects. First, it could be the case that participants were subject to the Hawthorne effect, resulting in outcomes being driven – in some capacity – by social desirability bias.\", \"page\": 17}]}, {\"claim\": \"The study does not provide evidence on whether the counter-narrative would influence actual voting behavior, only on self-reported perceptions and attitudes.\", \"quotes\": [{\"text\": \"to what extent would these treatments translate to shifted decision-making and behavior, as opposed to self-reported perceptions and attitudes?\", \"page\": 17}]}, {\"claim\": \"The study's findings may not generalize to non-Democratic voters or to different political contexts, as it was conducted with a specific demographic and time frame.\", \"quotes\": [{\"text\": \"Relatedly, the extent to which these results would replicate in other contexts and in less-transparent designs is unclear, as is the durability of effects.\", \"page\": 17}]}, {\"claim\": \"The study does not fully disentangle the impact of the stigmatizing label from the visual image of Trump's mugshot.\", \"quotes\": [{\"text\": \"it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed, and thus, this is recommended for exploration in future work.\", \"page\": 17}]}], \"theoretical_positioning\": [{\"claim\": \"The paper situates its analysis within social categorization theory, which posits that salient group labels and group exemplars influence individual perceptions and can lead to negative spillover effects.\", \"quotes\": [{\"text\": \"social categorization theory articulates the implications and process of how individuals come to assign and distinguish individuals into groups, with much of the theory and evidence pointing to the importance of category salience and the role of group exemplars and prototypes [16].\", \"page\": 2}]}, {\"claim\": \"The paper builds on the theoretical foundation of perspective-getting, arguing that sharing the perspective of a formerly incarcerated representative can counteract negative stigmatizing effects.\", \"quotes\": [{\"text\": \"Thus, sharing political messaging highlighting dedicated, system-impacted representatives that may provide both their perspective (i.e., encouraging empathy, positive emotions, and understanding) as well as one that signals their policy alignment (i.e., dedication to justice system reform), would be well-suited to addressing both the affective and policy representation avenues for bolstering support.\", \"page\": 3}]}], \"interlocutor_claim\": [{\"claim\": \"The paper disputes the claim that stigmatizing language in political advertising can be used effectively to promote political support, by showing that such language leads to negative spillover effects on public perceptions of individuals with criminal records.\", \"quotes\": [{\"text\": \"The more negative angle for campaign advertisements and rhetoric is important to note: prior evidence on the effects of negative campaign advertisements suggests that they tend to be utilized less by those leading in the polls [4,5] and that Democrats tend to respond more to positive ads, compared to Republicans [6].\", \"page\": 2}]}, {\"claim\": \"The paper refutes the idea that policy support and public perceptions of individuals with criminal records are aligned, by showing that stigmatizing language leads to negative perceptions despite potential policy support.\", \"quotes\": [{\"text\": \"Public support for the social safety net is quite strong – estimates suggest that a majority of U.S. residents support universal health insurance, extension of unemployment benefits, and other safety-net related policies [23] – yet, this does not necessarily coincide with positive perceptions of those who utilize these programs.\", \"page\": 3}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"The perceptions of individuals with criminal records outcome included an index, where participants were presented with five statements and were asked how much they agreed with each on a seven-point Likert scale from \\\"Strongly disagree\\\" to \\\"Strongly agree.\\\" Example statements in this index included \\\"People with criminal records deserve to have the same level of opportunity for civic participation as those without criminal records,\\\" and \\\"Most people with criminal records do not positively contribute to their communities,\\\" the latter of which was reverse-coded. In terms of reliability, the Cronbach’s alpha coefficient was 0.71, reflecting the lower end of the threshold for adequate reliability [59].\", \"page\": 7}"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "{\"text\": \"The perceptions of individuals with criminal records outcome included an index, where participants were presented with five statements and were asked how much they agreed with each on a seven-point Likert scale from \\\"Strongly disagree\\\" to \\\"Strongly agree.\\\" Example statements in this index included \\\"People with criminal records deserve to have the same level of opportunity for civic participation as those without criminal records,\\\" and \\\"Most people with criminal records do not positively contribute to their communities,\\\" the latter of which was reverse-coded. In terms of reliability, the Cronbach’s alpha coefficient was 0.71, reflecting the lower end of the threshold for adequate reliability [59].\", \"page\": 7}"
+    },
+    {
+      "step": "drop",
+      "slot": "evidence",
+      "why": "no confirmed quote",
+      "claim": "The study measured perceptions of individuals with criminal records through a five-item index, with reliability assessed via Cronbach’s alpha of 0.71."
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"exposure to the Democratic party’s Trump advertisement alone, labeling him as a \\\"convicted criminal,\\\" will significantly decrease (positive) motives of elected officials (i.e., more strongly believe that they are motivated by self-interest over serving the public), on average, relative to not being exposed to this advertisement.\", \"page\": 7}"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 2,
+      "result": "repaired",
+      "raw": "{\"text\": \"Being presented with the Democratic party’s Trump advertisement alone, labeling him as a \\\"convicted criminal,\\\" will significantly decrease (positive) motives of elected officials (i.e., more strongly believe that they are motivated by self-interest over serving the public), on average, relative to not being exposed to this advertisement.\", \"page\": 7}"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"those assigned to the counter-narrative first condition reported significantly higher, on average, agreement to having an emotional reaction to this narrative, relative to both the Control group (ATE = −0.156, robust SE = 0.047) and the Trump Ad Alone (ATE = −0.135, robust SE = 0.048), while these latter two groups were not significantly different from one another (difference of 0.021 and robust SE of 0.05).\", \"page\": 10}"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "{\"text\": \"those assigned to the counter-narrative first condition reported significantly higher, on average, agreement to having an emotional reaction to this narrative, relative to both the Control group (ATE = −0.156, robust SE = 0.047) and the Trump Ad Alone (ATE = −0.135, robust SE = 0.048), while these latter two groups were not significantly different from one another (difference of 0.021 and robust SE of 0.05).\", \"page\": 10}"
+    },
+    {
+      "step": "drop",
+      "slot": "evidence",
+      "why": "no confirmed quote",
+      "claim": "The study used a manipulation check to assess emotional reactions to the counter-narrative, finding that participants in the counter-narrative first group reported significantly higher emotional reactions."
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"exposure to the Trump advertisement significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049).\", \"page\": 1}"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "{\"text\": \"exposure to the Trump advertisement significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049).\", \"page\": 1}"
+    },
+    {
+      "step": "drop",
+      "slot": "key_findings",
+      "why": "no confirmed quote",
+      "claim": "The stigmatizing advertisement significantly increased perceived self-interest motives among elected officials."
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"for the items about possession of having a criminal record being a reflection of someone’s character, that most people with criminal records do not positively contribute to their communities (which was reverse-coded), and that labeling people with records as 'criminals' may do more harm than good, the Trump advertisement exposure appeared to be significantly more damaging to perceptions of individuals with criminal records for those who are system-impacted.\", \"page\": 14}"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "{\"text\": \"for the items about possession of having a criminal record being a reflection of someone’s character, that most people with criminal records do not positively contribute to their communities (which was reverse-coded), and that labeling people with records as 'criminals' may do more harm than good, the Trump advertisement exposure appeared to be significantly more damaging to perceptions of individuals with criminal records for those who are system-impacted.\", \"page\": 14}"
+    },
+    {
+      "step": "drop",
+      "slot": "key_findings",
+      "why": "no confirmed quote",
+      "claim": "System-impacted individuals showed significantly more positive perceptions of individuals with criminal records than non-impacted individuals, especially when exposed to the stigmatizing advertisement."
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "theoretical_positioning",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"Thus, in this context, once the label of ‘felon’ and ‘convicted criminal’ was applied to Donald J. Trump – and done so quite routinely and saliently – theory and evidence would predict greater homogenization and spillover perceptions from Trump, such that perceptions of individuals with records would be worsened amongst Democrats after exposure to the advertisement, including its affixed, \\\"convicted criminal\\\" label.\", \"page\": 2}"
+    },
+    {
+      "step": "repair",
+      "slot": "theoretical_positioning",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "{\"text\": \"Thus, in this context, once the label of ‘felon’ and ‘convicted criminal’ was applied to Donald J. Trump – and done so quite routinely and saliently – theory and evidence would predict greater homogenization and spillover perceptions from Trump, such that perceptions of individuals with records would be worsened amongst Democrats after exposure to the advertisement, including its affixed, \\\"convicted criminal\\\" label.\", \"page\": 2}"
+    },
+    {
+      "step": "drop",
+      "slot": "theoretical_positioning",
+      "why": "no confirmed quote",
+      "claim": "The paper extends social categorization theory by applying it to political messaging and the potential for stigmatizing language to affect public perceptions of individuals with criminal records."
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "interlocutor_claim",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"exposure to the Trump advertisement significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049).\", \"page\": 1}"
+    },
+    {
+      "step": "repair",
+      "slot": "interlocutor_claim",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "{\"text\": \"exposure to the Trump advertisement significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049).\", \"page\": 1}"
+    },
+    {
+      "step": "drop",
+      "slot": "interlocutor_claim",
+      "why": "no confirmed quote",
+      "claim": "The paper challenges the assumption that stigmatizing language increases perceived representation, by demonstrating that such language actually decreases perceived public service motives of elected officials."
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    }
+  ]
+}

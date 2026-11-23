@@ -1,0 +1,196 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "'Largely examined ... separately' keeps the paper's hedge."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Initial doses vs boosters: accurate to p.7, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "States that climate is tied to hesitancy mainly for conservatives (the p.8 sentence, one of C1's spans) without the direction (conservatives in liberal areas less hesitant) or that liberals are low regardless; partial. Adds booster uptake (yes) and initial vaccine uptake (no), as p.8 says."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E7"
+        ],
+        "note": "Reason part of E7 (data from a larger marginalization project); the quotas are in [2]."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Race by income quotas at $70,000 with gender cap."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Age range and counts vaccinated/boosted (p.5): accurate descriptives, not in the gold."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported status half of E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hesitancy scale half of E5 (seven adapted items, five-point); booster items also correct."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "CFA and alpha .93 for both scales (p.5): accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Controls and the vaccine-access item; the models are in [12]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Bivariate tests (p.4): accurate, not in the gold."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Missing-data exclusion, R 4.4.1, two-sided .05 (p.5): accurate, not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction with shape, incl. slightly lower hesitancy for liberals in conservative climates (p.10): accurate, no gold finding covers it."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Non-significant interaction for initial vaccination, without the mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Mechanism not tested (L6); social pressure as one possibility is T3, placed in limits. The two alternative readings (liberal environments exert more influence vs conservatives more responsive) are both offered by the paper on p.10."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Extends the orientation and climate literatures by testing their interaction. T0 not stated."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Ronn, Menzies and Salomon (ref. 19) correct; vaccination-rate half of I3 only."
+      }
+    ]
+  }
+}

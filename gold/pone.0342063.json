@@ -1,0 +1,680 @@
+{
+  "paper_id": "pone.0342063",
+  "doi": "10.1371/journal.pone.0342063",
+  "title": "Regional political climate's moderating role in the association between political conservatism and COVID-19 vaccine hesitancy in the United States",
+  "status": "drafted by the assistant, reviewed and corrected by the labeler on 2026-11-21",
+  "sources_used": "data/plos/pone.0342063/reviews.md (two review rounds, five reviewers, the editor's own detailed comments) and paper.pdf. The first author response is cut off in the published history and the second is an attachment that was not published, so author responses contribute little here.",
+  "origin_key": {
+    "R1..R5": "reviewer restated or raised it (round in parentheses)",
+    "AR1": "author response, round 1",
+    "ED": "academic editor's comments (round in parentheses)",
+    "paper": "taken from the published paper only; no one in the review history said it"
+  },
+  "slots": {
+    "question": {
+      "acceptable": [
+        {
+          "id": "Q1",
+          "answer": "How regional political climate moderates the relationship between a person's political conservatism and COVID-19 vaccine hesitancy and uptake.",
+          "origin": [
+            "R3(1)",
+            "R4(1)",
+            "R4(2)",
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 1,
+              "text": "The goal of the present research was to examine how political climate moderates the relationship between self-reported political conservatism and COVID-19 vaccine hesitancy and uptake"
+            },
+            {
+              "page": 2,
+              "text": "we examined the moderating role of political climate on the association between individual political orientation and COVID-19 vaccine hesitancy"
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "answer": "The research gap: personal political orientation and local political climate have each been studied, but little research had examined their interaction.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "there has been little research on the interaction between personal political orientation and local political climate"
+            }
+          ],
+          "decided": "Labeler, 2026-11-21: accepted as the research gap; wording changed from 'but not their interaction', which claimed more than the paper does."
+        }
+      ],
+      "rejected": [],
+      "borderline": []
+    },
+    "central_claim": {
+      "acceptable": [
+        {
+          "id": "C1",
+          "answer": "Political climate is tied to hesitancy and booster uptake mainly for conservatives: liberals are less hesitant wherever they live, while conservatives in liberal areas are less hesitant than conservatives in conservative areas.",
+          "origin": [
+            "R4(1)",
+            "R4(2)",
+            "R5(1)"
+          ],
+          "spans": [
+            {
+              "page": 1,
+              "text": "conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions"
+            },
+            {
+              "page": 8,
+              "text": "has a stronger association with vaccine and booster hesitancy for individuals who are higher on political conservatism as compared to those who are politically liberal"
+            },
+            {
+              "page": 10,
+              "text": "political climate in the US is associated with vaccine hesitancy and uptake for politically conservative individuals"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "C-x1",
+          "answer": "Liberal political climates cause, or have an impact on, conservatives' willingness to vaccinate.",
+          "origin": [
+            "R4(2) quoting the revised draft's abstract",
+            "R2(1)"
+          ],
+          "why": "Reviewer 4 asked for causal wording to be removed. The published paper keeps only a hedged suggestion and states that no causal or directional reading is warranted.",
+          "counter_span": {
+            "page": 10,
+            "text": "this data is cross-sectional and we cannot assume causal or directional associations"
+          }
+        }
+      ],
+      "borderline": []
+    },
+    "evidence": {
+      "acceptable": [
+        {
+          "id": "E1",
+          "answer": "An online self-report survey of a nonprobability convenience sample, recruited in the United States through Qualtrics Panels between March 8 and April 19, 2023.",
+          "origin": [
+            "R2(1)",
+            "R4(1)",
+            "R4(2)",
+            "ED(1)"
+          ],
+          "required": true,
+          "spans": [
+            {
+              "page": 2,
+              "text": "This was an online self-reported study in which a nonprobability convenience sample was recruited from the United States between March 8 and April 19, 2023"
+            },
+            {
+              "page": 3,
+              "text": "Participants were a convenience sample recruited through Qualtrics Panels"
+            }
+          ]
+        },
+        {
+          "id": "E2",
+          "answer": "A final sample of 683 participants. Qualtrics collected data from 1,777 and marked 970 as failing quality screens; further exclusions followed for invalid or unmatched zip codes.",
+          "origin": [
+            "R2(1)",
+            "R5(1)",
+            "R3(1)"
+          ],
+          "spans": [
+            {
+              "page": 5,
+              "text": "The final sample for these analyses included 683 participants"
+            },
+            {
+              "page": 5,
+              "text": "Qualtrics Panels collected data from 1777 participants, and identified 970 participants as not passing all quality screens"
+            }
+          ]
+        },
+        {
+          "id": "E3",
+          "answer": "Regional political climate is the percent Republican vote in the 2020 presidential election for the participant's zip code.",
+          "origin": [
+            "R2(1)",
+            "R3(1)",
+            "R4(1)",
+            "R4(2)",
+            "R5(1)"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "We used this % Republican vote by zip code as a measure of conservative regional climate"
+            }
+          ]
+        },
+        {
+          "id": "E4",
+          "answer": "Political conservatism is the average of two self-rated items, social and economic, each on a 0 to 10 scale.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "These two items were averaged to form a political conservatism scale"
+            }
+          ]
+        },
+        {
+          "id": "E5",
+          "answer": "Hesitancy is measured with seven items adapted from the Attitudes towards Adult Vaccination Scale; vaccine and booster status are self-reported.",
+          "origin": [
+            "R2(1)",
+            "R4(1)"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "was measured using the seven items from the Attitudes towards Adult Vaccination Scale"
+            },
+            {
+              "page": 3,
+              "text": "Self-reported vaccine status and booster status were assessed through individual items"
+            }
+          ]
+        },
+        {
+          "id": "E6",
+          "answer": "Linear regressions for hesitancy and logistic regressions for vaccine and booster status, each with a conservatism by climate interaction and demographic controls.",
+          "origin": [
+            "R4(1)",
+            "ED(1)"
+          ],
+          "spans": [
+            {
+              "page": 4,
+              "text": "Model 3 included all variables from Model 2 and the interaction between political conservatism and conservative regional climate"
+            },
+            {
+              "page": 5,
+              "text": "we ran two sets of generalized linear models with logit link"
+            }
+          ]
+        },
+        {
+          "id": "E7",
+          "answer": "The sample was recruited in four quota groups by race (Black or White only) and income (above or below the US median), because the data came from a larger project on marginalization.",
+          "origin": [
+            "R2(1)",
+            "R5(1)",
+            "ED(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 4,
+              "text": "the sample was recruited across four quota groups based on race and income"
+            }
+          ]
+        }
+      ],
+      "rejected": [],
+      "borderline": []
+    },
+    "key_findings": {
+      "acceptable": [
+        {
+          "id": "F1",
+          "tier": "core",
+          "answer": "Political conservatism and a conservative regional climate are each associated with more vaccine and booster hesitancy and with lower vaccination and boosting.",
+          "origin": [
+            "R2(1)",
+            "R4(2)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "Political conservatism and conservative regional climate were both associated with higher levels of COVID-19 vaccine and booster hesitancy and lower rates of self-reported vaccination and boosting"
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "tier": "core",
+          "answer": "For hesitancy the two interact: liberals are low in hesitancy regardless of climate, and hesitancy rises with conservatism more steeply in conservative climates.",
+          "origin": [
+            "R4(1)",
+            "R4(2)",
+            "R5(1)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "As political conservatism increases vaccine hesitancy also increases, but this increase is even greater for individuals who live in a more conservative regional climate"
+            },
+            {
+              "page": 1,
+              "text": "such that liberals were less likely to be hesitant regardless of political climate"
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "tier": "core",
+          "answer": "For booster uptake the same interaction appears: conservatives in liberal climates are more likely to be boosted than conservatives in conservative climates (about 60% against under 35% for the most conservative), while liberals are likely to be boosted anywhere.",
+          "origin": [
+            "R4(1)",
+            "R4(2)",
+            "R5(1)"
+          ],
+          "spans": [
+            {
+              "page": 8,
+              "text": "The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted"
+            },
+            {
+              "page": 10,
+              "text": "conservative individuals are more likely to received booster doses in liberal regions"
+            }
+          ]
+        },
+        {
+          "id": "F4",
+          "tier": "secondary",
+          "answer": "There is no significant interaction for initial vaccination status; the authors attribute the difference to vaccine mandates.",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 7,
+              "text": "The interaction between political conservatism and conservative regional climate (Table 6) was not significant"
+            },
+            {
+              "page": 10,
+              "text": "likely reflects the high prevalence of COVID-19 vaccine mandates"
+            }
+          ],
+          "decided": "Labeler, 2026-11-21: substantively important, but kept secondary because no reviewer restated it and core status follows reviewer agreement."
+        },
+        {
+          "id": "F5",
+          "tier": "secondary",
+          "answer": "Vaccine hesitancy and booster hesitancy are strongly correlated (r = .84).",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 5,
+              "text": "Vaccine hesitancy was positively correlated with booster hesitancy (r = .84"
+            }
+          ]
+        },
+        {
+          "id": "F6",
+          "tier": "secondary",
+          "answer": "Unvaccinated and unboosted participants were younger, had lower incomes, were more conservative and lived in more conservative climates.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 5,
+              "text": "Unvaccinated participants were significantly younger"
+            },
+            {
+              "page": 5,
+              "text": "lived in more conservative regional climates"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "F-x1",
+          "answer": "The study shows that social pressure, group polarization or social influence explains why conservatives in liberal areas are less hesitant.",
+          "origin": [
+            "R2(1) on the submitted draft",
+            "R4(2)"
+          ],
+          "why": "The draft asserted group polarization as the mechanism. The published paper names social pressure only as an example and says the mechanism was not assessed.",
+          "counter_span": {
+            "page": 10,
+            "text": "While we did not asses the mechanism through which this occurs"
+          }
+        }
+      ],
+      "borderline": []
+    },
+    "scope_and_limits": {
+      "acceptable": [
+        {
+          "id": "L1",
+          "answer": "Zip-code vote share is a proxy for political climate; other differences between zip codes, such as population density, could produce the associations.",
+          "origin": [
+            "R2(1)",
+            "R4(1)",
+            "R4(2)",
+            "R5(1)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "other zip code-based differences could be driving the associations noted in this paper"
+            }
+          ]
+        },
+        {
+          "id": "L2",
+          "answer": "The data are cross-sectional, so no causal or directional conclusion follows.",
+          "origin": [
+            "R2(1)",
+            "R4(1)",
+            "R4(2)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "this data is cross-sectional and we cannot assume causal or directional associations"
+            }
+          ]
+        },
+        {
+          "id": "L3",
+          "answer": "Vaccine status is self-reported and open to social desirability and recall bias.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "we cannot assume that reported vaccine status reflects actual vaccine status"
+            }
+          ]
+        },
+        {
+          "id": "L4",
+          "answer": "The sample is an online panel of White and Black participants only and may not generalize to the wider US population.",
+          "origin": [
+            "ED(1)",
+            "R5(1)",
+            "R4(2)",
+            "R2(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "our sample includes only White and Black participants recruited through Qualtrics Panels, and may not generalize to broader populations in the United States"
+            }
+          ]
+        },
+        {
+          "id": "L5",
+          "answer": "Effect modification by demographic factors was not tested, so the pooled associations are averages and Simpson's paradox cannot be excluded.",
+          "origin": [
+            "ED(2)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "we cannot exclude the possibility that heterogeneity across demographic subgroups could produce aggregation effects such as Simpson’s paradox"
+            }
+          ]
+        },
+        {
+          "id": "L6",
+          "answer": "The mechanism linking climate to conservatives' vaccination was not assessed.",
+          "origin": [
+            "R2(1)",
+            "R4(1)",
+            "R4(2)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "While we did not asses the mechanism through which this occurs"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "L-x1",
+          "answer": "The authors acknowledge that losing most of the initial sample to quality screens may bias the results.",
+          "origin": [
+            "R2(1)",
+            "R5(1)",
+            "R4(2)"
+          ],
+          "why": "Three reviewers raised attrition. The published paper reports the exclusions and never names them as a limitation, so this is a reviewer's criticism, not something the authors say."
+        },
+        {
+          "id": "L-x2",
+          "answer": "The hesitancy scale was modified without re-validation, which the authors note as a limitation.",
+          "origin": [
+            "R2(1)",
+            "R4(1)"
+          ],
+          "why": "The authors answered this by adding a factor analysis and reliability figures; it is not a stated limitation.",
+          "counter_span": {
+            "page": 5,
+            "text": "The vaccine hesitancy items demonstrated adequate reliability"
+          }
+        },
+        {
+          "id": "L-x3",
+          "answer": "The authors note that no correction for multiple comparisons was applied.",
+          "origin": [
+            "R2(1)"
+          ],
+          "why": "Raised by a reviewer; the published paper does not mention it."
+        }
+      ],
+      "borderline": []
+    },
+    "theoretical_positioning": {
+      "not_stated_is_acceptable": true,
+      "acceptable": [
+        {
+          "id": "T0",
+          "part": "framework",
+          "tier": "primary",
+          "answer": "The paper names no theoretical framework.",
+          "origin": [
+            "R2(1)"
+          ],
+          "decided": "Labeler decision, 2026-11-21: saying there is no actual theory earns extra credit; the two-literatures answer (T1) is also fine.",
+          "spans": []
+        },
+        {
+          "id": "T1",
+          "part": "framework",
+          "tier": "secondary",
+          "answer": "The paper places itself in two empirical literatures: one linking individual political orientation to vaccine hesitancy, one linking regional political climate to it.",
+          "origin": [
+            "R2(1)",
+            "R4(2)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "Previous studies have focused on either political orientation or political climate"
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "part": "stance",
+          "answer": "Combines and extends: it brings the two literatures together by testing their interaction, which it presents as a first.",
+          "origin": [
+            "R4(2)",
+            "R1(1)"
+          ],
+          "spans": [
+            {
+              "page": 7,
+              "text": "The present research provides the first assessment of the potential interaction between political orientation, political climate, and COVID vaccination"
+            }
+          ]
+        },
+        {
+          "id": "T3",
+          "part": "framework",
+          "tier": "secondary",
+          "answer": "The authors suggest social pressure as a possible explanation, without assessing it.",
+          "origin": [
+            "R4(1)",
+            "R4(2)"
+          ],
+          "decided": "Labeler, 2026-11-21: credited, because it is true to the paper.",
+          "spans": [
+            {
+              "page": 10,
+              "text": "these findings suggest that environmental factors (e.g., social pressure) may impact decisions to receive annual COVID-19 doses"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "T-x1",
+          "answer": "The paper works within group polarization theory.",
+          "origin": [
+            "R2(1) quoting the submitted draft"
+          ],
+          "why": "The draft's introduction invoked group polarization. Reviewer 2 called it name-dropping, and it does not appear in the published paper."
+        },
+        {
+          "id": "T-x2",
+          "answer": "The paper works within research on resistance to persuasion.",
+          "origin": [
+            "R2(1) quoting the submitted draft"
+          ],
+          "why": "Also in the draft's introduction and absent from the published paper."
+        },
+        {
+          "id": "T-x3",
+          "answer": "The study is grounded in, or applies, social influence theory.",
+          "origin": [
+            "R4(1)"
+          ],
+          "why": "Reviewer 4 suggested these literatures. The published paper mentions social pressure once, as an example of a mechanism it did not assess. Flagged as an unsupported attribution (labeler, 2026-11-21).",
+          "counter_span": {
+            "page": 10,
+            "text": "these findings suggest that environmental factors (e.g., social pressure) may impact decisions to receive annual COVID-19 doses"
+          },
+          "flag": "unsupported attribution"
+        }
+      ],
+      "borderline": []
+    },
+    "interlocutor_claim": {
+      "acceptable": [
+        {
+          "id": "I1",
+          "answer": "Prior US studies: political conservatism is consistently associated with greater COVID-19 vaccine hesitancy and lower uptake. The paper builds on this and replicates it.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "political conservatism has been consistently associated with greater COVID-19 vaccine hesitancy"
+            }
+          ]
+        },
+        {
+          "id": "I2",
+          "answer": "Prior studies treat either political orientation or political climate, not both. The paper builds on them by examining the two together.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "While previous research has identified the unique impact of both political orientation and political climate on vaccination attitudes"
+            },
+            {
+              "page": 10,
+              "text": "Previous studies have focused on either political orientation or political climate"
+            }
+          ]
+        },
+        {
+          "id": "I3",
+          "answer": "Prior area-level studies: Democratic vote share in 2020 is positively associated with vaccination and booster rates at county and state level. The paper builds on this with an individual-level test.",
+          "origin": [
+            "R4(1)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "a positive association between Democratic vote share"
+            }
+          ]
+        },
+        {
+          "id": "I4",
+          "answer": "Prior work: the partisan divide in hesitancy may be due in part to the politicization of COVID-19. The paper builds on this as background.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "the increased partisan divide in vaccine hesitancy may be attributed, at least in part, to the politicization of COVID-19"
+            }
+          ]
+        },
+        {
+          "id": "I5",
+          "answer": "Prior work: political orientation has become a better predictor of hesitancy than demographics, pandemic fear or trust in health institutions. The paper builds on this.",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "political orientation has become a better predictor of vaccine hesitancy than demographic variables, pandemic-related fear, and trust in health institutions"
+            }
+          ]
+        },
+        {
+          "id": "I6",
+          "answer": "Prior research: people living in states with higher Republican vote shares were more likely to report vaccine hesitancy (ref. 21). The paper builds on this. Unlike I3, which ties a region's vote share to its aggregate vaccination rate, this ties it to individual respondents' reported hesitancy.",
+          "origin": [
+            "paper (added by the labeler, 2026-11-21)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "those who lived in states with higher Republican vote shares in the 2020 presidential election were more likely to report vaccine hesitancy"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "I-x1",
+          "answer": "The paper cites claims that President Trump downplayed the pandemic or called it a hoax.",
+          "origin": [
+            "R2(1) quoting the submitted draft"
+          ],
+          "why": "In the draft, removed in revision. A model that gives this is not reading the published paper."
+        },
+        {
+          "id": "I-x2",
+          "answer": "The paper cites a study in which Republicans were more willing to vaccinate after watching a video of Trump.",
+          "origin": [
+            "R2(1) quoting the submitted draft"
+          ],
+          "why": "In the draft, removed in revision."
+        }
+      ],
+      "borderline": []
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural and demographic organization, not risky behaviors: the abstract's own wording."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Cross-sectional network data, three reservation schools (E1); N = 247 from the abstract without naming the stage (E2 part); ERGMs named (E3 part)."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "partial": [
+          "E5"
+        ],
+        "note": "Up to 10 directed nominations, Network Canvas (E4); only the AI identity measure of E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Peer-perception imputation; no sensitivity analysis."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "AMEs comparable across schools (implies per-school models); the robustness models with structural terms and substance use are described as a method, without their result, so no F7."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No consistent sender, receiver or homophily effects; isolated effects did not replicate (paper's wording). Exceptions not named, as in the calibrated F1 matches."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "The contrast with non-AI populations is the paper's, for depression."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5",
+          "F1"
+        ],
+        "note": "Incoming ties centralized only in School C (F5 half, no outdegree); substance homophily only in School B is a detail of F1. Context-dependence follows the paper's 'suggest' (p.16)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3",
+          "L4"
+        ],
+        "note": "Selection versus influence and association versus cause (L3); one developmental period at one time point (L4, credited when the developmental stage is mentioned)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Bias such as false consensus; not that it could inflate similarity among friends."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors 'revise' the generalizations of peer-network research; the paper says it 'moves beyond generalizations' and tests whether one finding generalizes (T3 dropped 'revises')."
+          }
+        ],
+        "note": "Testing half of T3, without what is replicated and what is disputed."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Endogenous mechanisms shaped by community norms (T2); 'universal but calibrated by context' is the paper's p.14 wording. Same call as calibration."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Paper's wording ('challenge assumptions'), no flag."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Receiver and homophily both given, with the dispute; refs 13 (Ali), 11 (Schaefer, Haas, Bishop), 22 (Haas and Schaefer) correctly attributed."
+      },
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ]
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 1 is McFarland et al. 2014; the paper does cite it for homophily on deviant behaviors growing with school size (p.15). Accurate, not a gold answer."
+      }
+    ]
+  }
+}

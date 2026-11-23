@@ -1,0 +1,491 @@
+{
+  "paper_id": "pone.0360061",
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "track": "text",
+  "prompt_version": 3,
+  "temperature": 0.0,
+  "harness": [
+    "notes from qwen3-4b-harness-slots (complete)",
+    "quotes confirmed",
+    "claims re-checked"
+  ],
+  "model_calls": 31,
+  "seconds": 127.2,
+  "summary": {
+    "quotes found": 31,
+    "pages corrected": 0,
+    "repairs that worked": 0,
+    "repair attempts": 0,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 3,
+    "claims rewritten at re-check": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper argues that online political hostility is associated with political engagement and its antecedents, such as political interest, political knowledge, and participation, rather than being solely linked to deprivation, marginalization, or personality-based factors like the Dark Triad.\", \"quotes\": [{\"text\": \"We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents.\", \"page\": 2}]}, {\"claim\": \"The paper argues against the idea that politically engaged users are only engaged in benign or constructive political discourse, suggesting instead that such engagement can lead to more polarized and antagonistic behavior.\", \"quotes\": [{\"text\": \"recent research suggests that such engagement may also be associated with more polarized and antagonistic behavior\", \"page\": 1}]}, {\"claim\": \"The paper argues against the notion that online political hostility is limited to fringe or isolated users, by showing that hostile users are more active and have greater reach on X/Twitter.\", \"quotes\": [{\"text\": \"The greater engagement of hostile social media users may thus provide them with a higher reacher than other users.\", \"page\": 1}]}, {\"claim\": \"The paper argues against the idea that affective polarization is merely a correlate of hostility, instead suggesting it may condition the relationship between political engagement and hostility by shaping emotional orientations toward political opponents.\", \"quotes\": [{\"text\": \"Affective polarization may condition the association between political engagement and online political hostility because it shapes the emotional orientation of political involvement.\", \"page\": 5}]}], \"central_claim\": [{\"claim\": \"Online political hostility is positively associated with indicators of political engagement and its antecedents, such as political interest, political knowledge, and online participation.\", \"quotes\": [{\"text\": \"Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation.\", \"page\": 1}]}, {\"claim\": \"Politically hostile users on X/Twitter post more frequently, have more friends and followers, and thus have greater potential reach.\", \"quotes\": [{\"text\": \"The count-model results indicate that higher political hostility is associated with more posts and with larger numbers of followers and, to a lesser extent, friends.\", \"page\": 15}]}], \"evidence\": [{\"claim\": \"The study uses a dataset combining panel survey data with online behavioral data from X (formerly Twitter) to examine associations between online political hostility and indicators of political engagement.\", \"quotes\": [{\"text\": \"We rely on a data infrastructure combining panel survey data with online behavioral data from X (see also [59]).\", \"page\": 6}]}, {\"claim\": \"The panel survey data includes measures of education, internal efficacy, political knowledge, political interest, and self-reported participation in both offline and online political activities.\", \"quotes\": [{\"text\": \"From the surveys, we obtained individual-level measures of respondents’ education, sense of internal efficacy, political knowledge, political interest, self-reported participation in offline settings, and self-reported participation in online settings.\", \"page\": 8}]}, {\"claim\": \"The online behavioral data consists of 9,250,180 posts scraped from 2,567 panelists between March 2019 and January 2021.\", \"quotes\": [{\"text\": \"During this period, we managed to scrape 9,250,180 posts from our panelists.\", \"page\": 6}]}, {\"claim\": \"The primary measure of online political hostility is based on a word embeddings approach called the Super-Unsupervised (SU) approach.\", \"quotes\": [{\"text\": \"Our key measure of online political hostility is based on a word embeddings approach termed the Super-Unsupervised (SU) approach [60].\", \"page\": 6}]}, {\"claim\": \"The SU approach calculates hostility scores by measuring the cosine similarity between individual posts and a combined 'political hate' word vector derived from political and hate-related terms.\", \"quotes\": [{\"text\": \"Third, we use this combined measure to calculate the cosine similarity between individual posts and the \\\"political hate\\\" word vector: If a post contains many words that are close to the \\\"political hate\\\" word vector, it receives a higher hostility score; if the post is further away from the word vector, it receives a lower hostility score.\", \"page\": 7}]}, {\"claim\": \"The study includes a secondary robustness measure using the AFINN sentiment dictionary to assign sentiment scores to individual words.\", \"quotes\": [{\"text\": \"First, we use a classical dictionary-based sentiment approach, the AFINN dictionary [64], which assigns sentiment scores ranging from −5 (very negative) to 5 (very positive) to individual words.\", \"page\": 8}]}, {\"claim\": \"The study includes a measure of affective polarization based on feeling thermometer ratings of three Republican and three Democratic political leaders.\", \"quotes\": [{\"text\": \"We used respondents’ party identification to distinguish in-party from out-party leaders and calculated the difference between average in-party and out-party leader ratings.\", \"page\": 9}]}, {\"claim\": \"The study controls for Big Five personality traits, party identification, age, gender, and income in its analyses.\", \"quotes\": [{\"text\": \"We include the Big Five personality traits as broad control variables for stable individual differences in motivational, emotional, and cognitive dispositions [74–76].\", \"page\": 9}]}, {\"claim\": \"The study uses a Random-Intercept Cross-Lagged Panel Model (RI-CLPM) to analyze temporal within-person associations between political engagement and online political hostility.\", \"quotes\": [{\"text\": \"For the panel analyses, we use Random-Intercept Cross-Lagged Panel Models (RI-CLPM). These models separate stable between-person differences from within-person change and therefore reduce concerns that the associations are entirely driven by stable time-invariant characteristics such as long-standing socioeconomic factors or broad personality traits.\", \"page\": 10}]}], \"key_findings\": [{\"claim\": \"Online political hostility is positively associated with political interest, political knowledge, and online participation.\", \"quotes\": [{\"text\": \"Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation.\", \"page\": 1}]}, {\"claim\": \"Users with higher levels of affective polarization show stronger associations between political engagement and online political hostility.\", \"quotes\": [{\"text\": \"These associations are more pronounced for some indicators, especially online and offline participation, among users with more polarized affect directed towards US political leaders.\", \"page\": 1}]}, {\"claim\": \"Politically hostile users post more frequently and have more friends and followers, indicating greater activity and potential reach on X/Twitter.\", \"quotes\": [{\"text\": \"A change from the mean level of hostility to 1.5 standard deviations above the mean is associated with an increase in the number of posts from around 420 to around 900 and an increase in the number of followers from around 220 to around 370.\", \"page\": 15}]}, {\"claim\": \"The study finds that online political hostility is linked to political engagement and its antecedents, such as education and internal efficacy, beyond explanations based on deprivation or personality.\", \"quotes\": [{\"text\": \"We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents.\", \"page\": 2}]}], \"scope_and_limits\": [{\"claim\": \"The paper does not establish a causal relationship between political engagement and online political hostility.\", \"quotes\": [{\"text\": \"we do not draw conclusions about formal network influence, centrality, or community structure.\", \"page\": 15}]}, {\"claim\": \"The paper does not claim that political engagement causes online political hostility.\", \"quotes\": [{\"text\": \"The findings should overall be interpreted as associational rather than causal.\", \"page\": 16}]}, {\"claim\": \"The paper does not show that political engagement directly causes hostility in a one-way direction.\", \"quotes\": [{\"text\": \"The findings should overall be interpreted as associational rather than causal.\", \"page\": 16}]}, {\"claim\": \"The paper does not demonstrate that the observed associations are due to time-varying confounding or reciprocal relationships.\", \"quotes\": [{\"text\": \"Time-varying confounding, measurement error, and reciprocal relationships may remain.\", \"page\": 10}]}, {\"claim\": \"The paper does not claim that the Big Five personality traits directly test personality-based accounts of online hostility.\", \"quotes\": [{\"text\": \"The Big Five controls help assess whether the associations between political engagement and online political hostility remain after accounting for broad personality differences.\", \"page\": 10}]}, {\"claim\": \"The paper does not show that the observed patterns of hostility apply to all social media platforms.\", \"quotes\": [{\"text\": \"the associations observed here may not generalize directly to platforms with different affordances, audiences, moderation systems, or norms of interaction.\", \"page\": 16}]}, {\"claim\": \"The paper does not establish that users with high political hostility have formal network influence or are central in online communities.\", \"quotes\": [{\"text\": \"we do not draw conclusions about formal network influence, centrality, or community structure.\", \"page\": 15}]}], \"theoretical_positioning\": [{\"claim\": \"The authors position their study within the classical theory of political engagement and extend it by examining the link between political engagement and online political hostility, arguing that such hostility is associated with engagement indicators rather than just deprivation or personality-based explanations.\", \"quotes\": [{\"text\": \"We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents.\", \"page\": 2}]}], \"interlocutor_claim\": [{\"claim\": \"The paper disputes the claim that hostile political expression is limited to fringe audiences by showing that hostile users are more active and have greater reach on X/Twitter.\", \"quotes\": [{\"text\": \"The greater engagement of hostile social media users may thus provide them with a higher reacher than other users.\", \"page\": 1}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "recheck",
+      "slot": "question",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "The paper argues that online political hostility is associated with political engagement and its antecedents, such as political interest, political knowledge, and participation, rather than being solely linked to deprivation, marginalization, or personality-based factors like the Dark Triad.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "question",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "The paper argues against the idea that politically engaged users are only engaged in benign or constructive political discourse, suggesting instead that such engagement can lead to more polarized and antagonistic behavior.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "question",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "The paper argues against the notion that online political hostility is limited to fringe or isolated users, by showing that hostile users are more active and have greater reach on X/Twitter.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "question",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "The paper argues against the idea that affective polarization is merely a correlate of hostility, instead suggesting it may condition the relationship between political engagement and hostility by shaping emotional orientations toward political opponents.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "central_claim",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "yes",
+      "claim": "Online political hostility is positively associated with indicators of political engagement and its antecedents, such as political interest, political knowledge, and online participation.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "central_claim",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "Politically hostile users on X/Twitter post more frequently, have more friends and followers, and thus have greater potential reach.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The study uses a dataset combining panel survey data with online behavioral data from X (formerly Twitter) to examine associations between online political hostility and indicators of political engagement.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The panel survey data includes measures of education, internal efficacy, political knowledge, political interest, and self-reported participation in both offline and online political activities.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The online behavioral data consists of 9,250,180 posts scraped from 2,567 panelists between March 2019 and January 2021.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The primary measure of online political hostility is based on a word embeddings approach called the Super-Unsupervised (SU) approach.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "no",
+      "claim": "The SU approach calculates hostility scores by measuring the cosine similarity between individual posts and a combined 'political hate' word vector derived from political and hate-related terms.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The study includes a secondary robustness measure using the AFINN sentiment dictionary to assign sentiment scores to individual words.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The study includes a measure of affective polarization based on feeling thermometer ratings of three Republican and three Democratic political leaders.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "no",
+      "claim": "The study controls for Big Five personality traits, party identification, age, gender, and income in its analyses.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "evidence",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The study uses a Random-Intercept Cross-Lagged Panel Model (RI-CLPM) to analyze temporal within-person associations between political engagement and online political hostility.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "key_findings",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "yes",
+      "claim": "Online political hostility is positively associated with political interest, political knowledge, and online participation.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "key_findings",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "yes",
+      "claim": "Users with higher levels of affective polarization show stronger associations between political engagement and online political hostility.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "key_findings",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "Politically hostile users post more frequently and have more friends and followers, indicating greater activity and potential reach on X/Twitter.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "key_findings",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "yes",
+      "claim": "The study finds that online political hostility is linked to political engagement and its antecedents, such as education and internal efficacy, beyond explanations based on deprivation or personality.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "scope_and_limits",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "no",
+      "claim": "The paper does not establish a causal relationship between political engagement and online political hostility.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "scope_and_limits",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The paper does not claim that political engagement causes online political hostility.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "scope_and_limits",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "The paper does not show that political engagement directly causes hostility in a one-way direction.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "scope_and_limits",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "no",
+      "attribution": "none",
+      "claim": "The paper does not demonstrate that the observed associations are due to time-varying confounding or reciprocal relationships.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "scope_and_limits",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The paper does not claim that the Big Five personality traits directly test personality-based accounts of online hostility.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "scope_and_limits",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "The paper does not show that the observed patterns of hostility apply to all social media platforms.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "scope_and_limits",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "none",
+      "claim": "The paper does not establish that users with high political hostility have formal network influence or are central in online communities.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "theoretical_positioning",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The authors position their study within the classical theory of political engagement and extend it by examining the link between political engagement and online political hostility, arguing that such hostility is associated with engagement indicators rather than just deprivation or personality-based explanations.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "theoretical_positioning",
+      "verdict": "dropped",
+      "supported": "no",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The authors integrate findings from both socioeconomic and psychological perspectives on online hostility, using the classical framework of political engagement to provide a broader context for understanding the relationship between engagement and hostility.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "interlocutor_claim",
+      "verdict": "dropped",
+      "supported": "no",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The paper builds on the claim that affective polarization increases political engagement by suggesting it also intensifies online political hostility, rather than merely increasing participation.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "interlocutor_claim",
+      "verdict": "dropped",
+      "supported": "no",
+      "direction": "none",
+      "attribution": "none",
+      "claim": "The paper challenges the notion that online political hostility is primarily driven by personality-based traits like the Dark Triad, by emphasizing instead its connection to political engagement and its antecedents.",
+      "new_claim": null
+    },
+    {
+      "step": "recheck",
+      "slot": "interlocutor_claim",
+      "verdict": "kept",
+      "supported": "yes",
+      "direction": "yes",
+      "attribution": "no",
+      "claim": "The paper disputes the claim that hostile political expression is limited to fringe audiences by showing that hostile users are more active and have greater reach on X/Twitter.",
+      "new_claim": null
+    }
+  ]
+}

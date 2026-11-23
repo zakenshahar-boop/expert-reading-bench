@@ -1,0 +1,96 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Generic 'stigmatizing language in political advertisements', but the quote ties it to this ad; perceptions (Q1) and representation (Q3)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x3",
+            "text": "Says 'stigmatizing language in political ads' worsens perceptions. The paper tested one advertisement (mugshot plus the 'CONVICTED CRIMINAL' label) and says the image and wording cannot be disentangled (p.17); it does not show that the language itself, or political ads in general, have this effect."
+          }
+        ],
+        "note": "Gives the harm to perceptions and the counter-narrative's mitigation; omits the improvement in representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Survey experiment (E1 without Democrats, Prolific, dates or pre-registration) and N = 2,439 in three groups (E2 without the arms' names or counts in the claim)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'The counter-narrative increased positive perceptions' drops that it was shown before the ad and compared with the ad alone; there was no counter-narrative-only arm (p.16)."
+          }
+        ],
+        "note": "Only quote is NOT IN PAPER: it recasts hypothesis H1B (p.6, 'will significantly increase') as a result. No credit."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Names the quality of Democratic representation; omits the increase in belief in public-service motives."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "note": "Restates the paper's list of limitation dimensions (p.16) and garbles it: the paper lists design/modality, external validity and measurement as separate dimensions. No specific limitation or consequence; no credit, no flag."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Garbled wording, but it is the meta-analysis claim (ref 7, p.2)."
+      }
+    ]
+  }
+}

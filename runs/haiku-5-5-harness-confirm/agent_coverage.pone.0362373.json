@@ -1,0 +1,125 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Carried over from haiku-5-5-text-prompt3/agent_coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Names substance use (Q3) and 'other individual characteristics' without depression or AI identity (Q1 partial). The setting contrast is framed as a gap, not as whether heterogeneous-school patterns hold, so Q2 is not credited. 'Has not examined' is softer-sounding than it looks: it says heterogeneous-school research did not cover this setting, consistent with 'remains understudied'; not flagged."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording 'rather than risky behaviors' plus 'not a consistent organizing factor' keeps the qualifier."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "ERGMs named, but not per-school estimation, terms or AMEs."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F2"
+        ],
+        "match": [],
+        "note": "Reciprocity only; transitivity not mentioned."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "States the core null; the exceptions are details (one given in entry 4)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade homophily; sexual orientation homophily omitted. 'Primary axes' is the paper's wording."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity only, with the borderline School C receiver effect correctly qualified; depression not mentioned."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "The School B alcohol homophily exception is a detail of F1 (merged F6); no second point. Saying only alcohol showed homophily matches the results text ('but not ... for other substances'); marijuana was p < 0.10."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional design plus the association-versus-cause consequence."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Names the ERGM endogenous-process framework (T1, without actor-attribute effects) and the cultural-contingency argument (T2), presented as an argument, not a finding. 'Extend' read as describing the argument, not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors 'revise' the assumptions of network-based prevention work; the paper says the findings 'challenge assumptions underpinning many network-based prevention programs'."
+          }
+        ],
+        "note": "The challenge to prevention assumptions and call for culturally grounded theory and interventions is C3, a central-claim answer."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Gives the receiver-effect half of I1 (not homophily) and the paper's dispute for AI-majority schools. Ali et al. 2014 is listed in Table 1 among studies reporting a positive receiver effect; the reference list is not in the reading view, so the [13] = Ali et al. link was not checked but is plausible. Not flagged."
+      }
+    ]
+  },
+  "joined": []
+}

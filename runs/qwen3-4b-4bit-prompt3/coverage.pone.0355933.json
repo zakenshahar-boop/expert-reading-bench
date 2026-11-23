@@ -1,0 +1,153 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Leaves out the counter-narrative."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "'Exposure to the stigmatizing advertisement significantly reduced perceived public service motives of elected officials.' The paper reports an increase."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E7"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The counter-narrative raised the perceived value of diverse representation by 0.79 standard deviations. In the paper (hypothesis 1C), not in the gold."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "'The stigmatizing advertisement significantly increased perceived self-interest motives among elected officials.' The paper reports the opposite: more belief in public-serving motives."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "note": "Reports levels among system-impacted respondents, not the larger effect."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L10",
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "The party's strategy as the position disputed (neutral I-b1)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "'Such language actually decreases perceived public service motives of elected officials.' The paper reports an increase, and names no one who holds the assumption the note says it challenges."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "note": "The gap between policy support and perceptions; not attributed to an interlocutor."
+      }
+    ]
+  }
+}

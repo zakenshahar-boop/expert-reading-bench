@@ -1,0 +1,204 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Carried over from qwen3-4b-harness-slots/coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as 'the paper argues that' climate moderates, but the substance and quote are the study's goal; the paper's title frames it as climate's moderating role."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says 'liberal political climates reduce vaccine hesitancy among politically conservative individuals'. The paper reports an association and states it 'cannot assume causal or directional associations' (p.10)."
+          }
+        ],
+        "note": "A finding (conservative half of C1) restated in the question slot in causal form; no credit."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says booster likelihood 'is influenced by' conservatism and regional climate. The paper reports associations and an interaction (OR = .84) and allows only a hedged 'may impact' for environmental factors."
+          }
+        ],
+        "note": "A vague restatement of a booster finding in the question slot; does not state the shape of F3, so no misplaced credit."
+      },
+      {
+        "match": [],
+        "note": "Restates only the liberal half of F3 (liberals boosted regardless of climate) in the question slot; too partial for misplaced credit."
+      },
+      {
+        "match": [],
+        "note": "Restates part of F4 (interaction not significant for initial vaccination, unlike booster status) in the question slot, without the mandates explanation; too partial for misplaced credit. Accurate to the paper."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 (hesitancy); liberals' low hesitancy regardless of climate is not stated here. 'Moderates the effect' not flagged: the paper speaks of moderation and of 'average effects'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Booster half of C1, both liberal and conservative parts. 'Significantly higher' for liberals is loose (the paper says 'more likely'), not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Booster percentages (over 65% liberals regardless; 60% vs under 35% for the most conservative) match p.8."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "unlisted": true,
+        "match": [],
+        "note": "Booster hesitancy items from a 2022 survey (ref. 25): accurate, not in the gold (E5 covers the vaccine hesitancy scale)."
+      },
+      {
+        "unlisted": true,
+        "match": [],
+        "note": "CFA and alpha = .93 for both scales: accurate to p.5, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Linear and logistic regressions with controls, but no mention of the conservatism by climate interaction term. Lists controls without gender; minor."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported vaccine and booster status (half of E5); the hesitancy scale is not named. Quote is a fragment about the booster item."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Zip-code exclusions and final N = 683, without the Qualtrics screening numbers."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Convenience sample through Qualtrics Panels; E1 also credited in entry [0]."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; liberals-regardless part missing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberal half of F3. The quote given (p.10, booster hesitancy slightly lower for liberals in conservative climates) does not support the claim about booster receipt; the p.8 passage would. 'Significantly higher' is loose wording."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3, with the 60% vs under 35% quote."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Says the interaction is significant for booster hesitancy and booster status (p.10), without the shape; F3 already partly credited in [1] and [2]."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Names only the climate literature (broadened to 'health behaviors'; the paper says COVID-19 vaccine hesitancy and uptake) and the extension by testing moderation."
+      },
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Prior research treated orientation or climate separately; the paper adds their interaction. 'Refinement' is close enough to the paper's 'novel' extension."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper disputes a claim that political climate has no effect on vaccine hesitancy. The paper cites no such claim; it builds on prior studies that found climate associated with hesitancy and uptake (refs 19-21)."
+          }
+        ]
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Builds on the conservatism-hesitancy association. The quote is the paper's own result from the abstract rather than the cited literature."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I2",
+            "text": "Says the paper challenges the idea that political orientation alone determines vaccine behavior. No cited work claims this; the paper builds on studies of orientation and of climate separately (p.2, p.10)."
+          },
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says regional climate 'significantly influences conservative individuals' decisions to receive boosters'. The paper reports an association and rules out causal or directional readings (p.10)."
+          }
+        ]
+      }
+    ]
+  }
+}

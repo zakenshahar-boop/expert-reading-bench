@@ -1,0 +1,91 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and temporal patterns in the two countries; the method aim (Q2) is in the quote, not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract-level wording, credited per C1's decision. 'Significant differences between the US and Canada' echoes the abstract's 'particularly pronounced in the United States'; not flagged. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E5"
+        ],
+        "note": "'Over 50 million tweets from late 2020' without dates or country split; three topics without conspiracy or method. Same call as the earlier judge on the same abstract sentence."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Text-based method with language embeddings; no C-index or left/right separation."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2; Canada not mentioned."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Would match F3, but its only quote is marked NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "note": "Some conservative states unexpectedly low; no states named and the liberal exception not in the claim."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Causality not established (p.16), as the earlier judge credited."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "'Extends' with fine-grained resolution, but no agreement with prior findings; same call as the earlier judge on a similar entry. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "note": "Prior research on Democratic adherence to guidelines: the neutral I-n1, but its only quote is marked NOT IN PAPER, so ungrounded and no neutral credit."
+      }
+    ]
+  }
+}

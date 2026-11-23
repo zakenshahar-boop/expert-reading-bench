@@ -1,0 +1,182 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Added entry. Restates Q1 (the interaction of orientation and climate); the quote has the gap, but the claim does not state it, so not Q2."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Moderation plus the conservative hesitancy half; liberals-regardless and the booster part are missing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey of 683 participants; no Qualtrics or convenience sample here (given in [2]), no screening numbers."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Added entry. Demographic controls only; no model type or interaction term."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Added entry. Convenience sample via Qualtrics Panels."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Added entry. Zip code plus 2020 presidential results; '% Republican vote' is not said but the measure is identified."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Added entry. Repeats E1 and N = 683."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Added entry. Linear regressions for hesitancy; no logistic models or interaction term."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1; lower vaccination and boosting not stated."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Conservative halves of the hesitancy and booster interactions; the liberals-regardless parts are missing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Non-significant vaccination interaction; no mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "'Demographic limitations' without saying White and Black only or online panel."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Added entry. 'Does not account for' other zip-code differences: the paper's proxy caveat."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Added entry. Effect modification not assessed, without the consequence (pooled averages, Simpson's paradox)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Added entry. Self-report with the consequence (may not reflect actual status)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Added entry. Repeats [5] almost verbatim: padding."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Added entry. Repeats [1], adding the recruitment method, but still no White and Black only."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Added entry. Repeats [0]: padding."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Prior studies link conservatism to hesitancy; no stance stated, and lower uptake only in the quote."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "Added entry. Prior research on each factor (I2) and the gap with the paper's hedge 'little research' (Q2, question slot); treated as in Task D."
+      }
+    ]
+  },
+  "joined": []
+}

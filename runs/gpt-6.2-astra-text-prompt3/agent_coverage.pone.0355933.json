@@ -1,0 +1,278 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E1",
+    "E2",
+    "E3",
+    "L5",
+    "L7"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Also adds officials' motives, which the paper names on p.4."
+      },
+      {
+        "match": [
+          "Q2",
+          "Q4"
+        ],
+        "note": "Primary purpose from p.4 (Q2) and support for using the ad, hypothesis 1A (Q4)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Heterogeneity by system-impact status (p.7); accurate, not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "misplaced": [
+          "F8"
+        ],
+        "note": "The ad's two effects (part of C1); the size comparison (0.30-0.34 vs 0.83) is finding F8, placed here."
+      },
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "note": "Near-offset by the legislator's account is the other part of C1; the recommendation to test messages giving formerly incarcerated representatives a voice instead of stigmatizing attacks is C2."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E6"
+        ],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Prolific, U.S. Democrats, July 12-13 2025 (E1 without 'experiment' and pre-registration, which are in entries 1 and 5); final N 2,439 (part of E2); exclusions including likely bots (E6)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "The experiment and its three arms, without the arm counts in the claim (counts in the quote); 'experiment' completes E1 with entries 0 and 5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3. Accurate to p.4-6."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Two preregistered contrasts; HC-2 least squares with and without covariates."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Balance check also given (accurate, not gold)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Supplemental analyses and the 521 system-impacted respondents (p.12-13); accurate, not gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Item-level figures (-1.251, -1.018) are correct (p.12)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "The 0.79 SD value-of-representation increase (H1C) is accurate but not gold."
+      },
+      {
+        "match": [
+          "F5",
+          "F9"
+        ],
+        "partial": [
+          "F3"
+        ],
+        "note": "Ad made Democrats feel better represented: F3 without the public-service motives part. Counter-narrative lowered quality of Democratic representation by 0.33 SD (F5). The null on complexity of representation is the specific H1E null (F9)."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Item-level split is accurate (p.11)."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "The main effect of system-impact status is accurate, not gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L10"
+        ],
+        "note": "Restriction to Democrats with its consequence (does not speak to Republicans, independents, the whole electorate)."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Also the possibility that the negative ad moderates the narrative's effect (p.16)."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "Omits that the author thinks stigma reduction more likely (in the quote, not the claim)."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Inferred purpose / social desirability, not excluded by the emotional-reaction check."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability and repeated exposure; behavior is in entry 7."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Attitudes, not behavior; durability is in entry 6."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Reliability half of L7; the remark that the harm-of-label item may measure something else is accurate (p.13, hedged as one possibility)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Narrow representation measures: the other half of L7."
+      },
+      {
+        "match": [
+          "L11"
+        ],
+        "note": "The opening clause that racial attitudes predicted 'several' outcomes is background here and weaker than F7; not credited as misplaced F7."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ],
+        "note": "Bonferroni caveat in both comparisons is finding F11, placed in limits."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Gives the policy-support vs. perceptions disconnect via the welfare analogy (p.3) but not the motivated-reasoning suggestion that T3 is about."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "'Rather than asking respondents to imagine incarceration' is a description of perspective-getting vs. perspective-taking the paper does not spell out, but it is not wrong; not flagged."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Affective and policy avenues of representation combined in the counter-narrative (p.3-4); accurate, not gold."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Explicitly a possible interpretation, not a demonstrated mechanism."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Author attribution (refs 8-10) checked in paper.xml."
+      }
+    ]
+  }
+}

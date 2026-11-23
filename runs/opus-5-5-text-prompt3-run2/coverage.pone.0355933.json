@@ -1,0 +1,235 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E1"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Perceptions (Q1) and sense of being represented (Q3), in the paper's own p.4 wording."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper's own position (p.2); accurate, not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad worsened perceptions and improved representation; the counter-narrative half is in entry 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Counter-narrative shown first largely removed the harm: the other half of C1."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Pre-registered survey experiment (part of E1); Prolific, the date and the Democratic sample are in entry 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Prolific, July 2025, U.S. Democrats: the rest of E1. Describes the sample restriction as design, not as a limit, so no misplaced L10."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Names the outcome families; item counts are detail."
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "misplaced": [
+          "T5"
+        ],
+        "note": "F3 as in the calibration note (representation and public-service motives). The author's reference-point suggestion, quoted with 'Prospect Theory in action', is T5, a theory-slot answer, reported as a suggestion."
+      },
+      {
+        "match": [
+          "F4",
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "note": "Gives only the larger ad effect among system-impacted respondents; the gold answer covers effects generally (the counter-narrative interaction too)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Social desirability not ruled out, but omits that the manipulation check eases the concern."
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ],
+        "note": "Durability, repeated exposure, behavior (L5) and post-election fielding (L6)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Perceptions index reliability only; not the narrow measurement of representation."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "States the deservingness possibility; the claim omits that the author thinks stigma reduction more likely (the quote has it)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ],
+        "note": "Bonferroni caveat (here for H1F only) is the finding F11, placed in limits; same call as the calibration note."
+      },
+      {
+        "match": [
+          "L11"
+        ],
+        "note": "Gives the consequence (cannot show whether the ad shifts racial attitudes); the future-research remark is not needed for the substance."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate to p.15; not a limitation in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "The claim that representation outcomes are limited in the perspective-getting literature is the paper's (p.17)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate to p.3-4 (affective and policy avenues); not a gold answer."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Refs 8-10 are Denver et al., Harris & Socia, Imhoff: attribution correct."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Policy alignment matters for feelings of representation, set against affect-driven appeals; the calibration note credited the same content as I5. Refs 30-32 as cited."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 54 is Martinez (2024); accurate to p.4, not a gold interlocutor."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Ref 7 is Lau, Sigelman, Rovner: correct."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Westwood (ref 62) is accurate to p.17, but cited in the limitations to contextualize a caveat, so not a gold interlocutor."
+      }
+    ]
+  }
+}

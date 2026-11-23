@@ -1,0 +1,235 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Accurate to p.10 and correctly labeled as an untested possible explanation, but it is the authors' speculation, not the paper's research question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. A future-research question from p.10; accurate, not the paper's own question (and does not say the mechanism was not assessed, so not L6)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Future-research direction from p.10; accurate, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "States both halves (conservatives in liberal regions less hesitant; liberals low regardless). 'Moderates' is the paper's own framing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hesitancy scale (seven AAVS items, modified for COVID-19); self-reported status comes in [6]."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Four race by income quota groups, accurate to p.4. The reason (a larger project on marginalization) is not given; counted as a match since the design is stated in full."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Final N = 683 after quality and zip-code exclusions, without the 1,777 and 970 figures."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "OLS for hesitancy and logit GLMs for status with controls, but the conservatism by climate interaction term is not mentioned here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported vaccine and booster status (the other half of E5)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2",
+          "E6"
+        ],
+        "note": "Added entry. Repeats N = 683 and adds the per-outcome Ns (655-664, p.9, accurate), and says the interaction models had the listed controls."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Added entry. Repeats N = 683; 342 Black and 341 White matches Table 1. Mostly padding."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Says the hesitancy interaction is significant, without its shape; the shape is in [3]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberal half and conservatives' dependence on climate, without the direction."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Appended entry. Hesitancy half of F1 (main associations with vaccine and booster hesitancy, p.7); the status half is in [6]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Appended entry. The booster hesitancy interaction is significant (\u03b2 = .09, p = .003, p.7): accurate, but no gold finding covers booster hesitancy alone and no shape is given."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Appended entry. Status half of F1 (negative main associations with vaccine and booster status, p.7)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "partial": [
+          "L1"
+        ],
+        "note": "Proxy named without the consequence; the consequence is given in [4]."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported status mentioned without the bias it opens."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Added entry. Effect modification not tested, with the consequence (pooled estimates may hide subgroup differences)."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Added entry. Other zip-code differences, e.g. population density."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "'But not both together' is true to the paper's 'Previous studies have focused on either...'."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Added entry. Consistent with the two prior literatures (p.10); repeats T1."
+      },
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Added entry. The social-pressure suggestion reported as tentative and untested, as the paper does; 'social-influence lens' is not presented as the paper's framework, so not T-x3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Liu and Li (ref. 21) checked: correct."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Added entry. Cowan et al. (ref. 18) checked against the reference list: correct."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Added entry. R\u00f6nn et al. (ref. 19) correct; the vaccination-rate half of I3, with its use as background."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Added entry. Hao and Shao (ref. 20) correct; the booster-rate half of I3, no stance stated."
+      }
+    ]
+  },
+  "joined": [
+    "E5",
+    "E6",
+    "I3",
+    "F1"
+  ]
+}

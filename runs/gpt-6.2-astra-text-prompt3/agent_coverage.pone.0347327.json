@@ -1,0 +1,270 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "Q3",
+    "E3",
+    "E5",
+    "E6"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "Fine-grained (place, issue, time) measurement aim, with the lexicon concern."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Regional variation (Q1, credited as in calibration without the events part, which entry 2 gives) and the ideological-leaning correlate (one of Q3's three)."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Event-driven, temporal part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Vaccination correlate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Conspiracy correlate. With entries 1 and 3 states all of Q3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "Methodological contribution (scalable, fine-resolution indicator) stated as a claim; it is Q2's aim. Uncertain call."
+      },
+      {
+        "match": [
+          "C2"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Not uniform, varies by intervention, politics and events (C2); U.S. link to later vaccination is F2's U.S. half, placed here."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Authors' hedged interpretation ('may be mediated', p.25) kept with its hedge. Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Policy implication (p.26). Accurate; not in the gold."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "'12.6 million' is 12,552,213 rounded; the paper says approximately 12.5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Topics and the conspiracy coding (including rebuttal); method in entry 2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Annotated hashtags and fine-tuned RoBERTa classifiers; topics in entry 1. Together they state E5."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Two-step profile/activity classifier; validation in entry 5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records. With entry 4 states E3."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "User-averaged embeddings, C-index separation of the two partisan groups."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Subsampling approximation (p.11). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Comparison with election vote margins."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Temporal design: pre-selected events, peak inspection, event-triggered averaging. Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Cases/deaths and vaccination a year later. With entry 8 states all three outside sources of E6."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1",
+          "F6"
+        ],
+        "note": "Masks/vaccines vs lockdowns, Canada not significant (F1); Delaware, Idaho, Alabama, Arkansas exceptions (F6). The quote on Canada's lower overall level is not stated in the claim."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reports the S3 Fig positive Canadian correlation with its caveat, as F2's note allows. Does not set it against the abstract's 'notably weaker', so no B2 catch."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Biden vaccination was the second-largest U.S. vaccine peak; 'peaked just after' does not claim it was the largest. Not flagged."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'Discussed' conspiracy theories, not endorsed; not F-x3."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No correlation with pandemic severity (S6 Fig, p.27). Accurate; not in the gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "note": "Plus voter-record caveats (p.10), accurate extras."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Few Canadian regions and mandates limit inference (p.16). States the limitation, not the non-significant result itself, so not credited as misplaced F1/F2. Accurate; not a gold limit."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Event peaks show timing, not causation (p.17-18). Accurate; not a separate gold limit."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No single explanation for the conservative pattern; cross-border flows left to future work (p.23, 26). Accurate; not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Research on partisan pandemic responses (T2); extension in geographic and temporal resolution without saying it agrees with earlier findings (partial T3, as in the calibration). No T0."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-based instead of network methods, which are not rejected. I2's content, but credited here only as T1, as the earlier judge did for the like haiku entry."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "E2"
+        ],
+        "note": "Topic-conditioned RoBERTa embeddings plus a clustering measure: the method E2, placed here. 'Qualify the linguistic account' names no account the paper qualifies; vague rather than wrong, not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Eric Merkley is first author of ref. 103."
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Claim is Q1; the quote is Q3's passage, but the 'not only' contrast is not stated."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the Expectation 3 question, accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the Expectation 2 question, accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Added entry: word-embedding measure only."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Added entry: the survey half of E1, repeating evidence[0]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Added entry: RI-CLPM only; OLS not named."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: Big Five controls, accurate (p.9)."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Added entry: repeats E1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Added entry: repeats evidence[1] and names the SU method."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association only, quoting Expectation 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "States as a finding, without qualification, that the association is stronger among more affectively polarized users, quoting Expectation 2. The paper finds this only partially (clearest for participation, exploratory elsewhere, p.14)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "General 'more active, greater potential reach', quoting Expectation 3, not the reported result."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L1",
+            "text": "Says the study 'does not generalize' to other platforms. The paper says the associations 'may not generalize directly' to platforms with different affordances."
+          }
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L6"
+        ],
+        "note": "Added entry: 'antisocial traits' without naming the Dark Triad or sadism, or saying they were not measured (scored as in harness-slots scope_and_limits[4])."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Added entry: mute on causal relations among the indicators; omits the distal-antecedent point."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the generic 'no automated measure perfectly captures the construct' (p.16), with no consequence; L4 is credited in scope_and_limits[7]."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Added entry: repeats L2 and adds time-varying confounding and reciprocal relationships."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Added entry: repeats L1 with the American X/Twitter scope and the hedge kept."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added entry."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "As in the original note: says the paper extends classical theory, not the revisionist view."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T2"
+        ],
+        "note": "Added entry: names the motivated-reasoning and polarization research the revisionist view draws on (p.2), without calling it the revisionist or dark-side view in the claim. T1 repeats."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "The classical claim without the paper's stance toward it."
+      }
+    ]
+  },
+  "joined": []
+}

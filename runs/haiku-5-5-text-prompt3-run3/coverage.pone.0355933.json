@@ -1,0 +1,113 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E1"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Survey experiment with Democrats; Prolific and the U.S. sample in entry 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Prolific, U.S. Democrats; the sample restriction is described as design, not as a limit."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'Explicit support' fits p.11: the index fell and only the explicit-support item was significant."
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "'Mostly studied in interpersonal and intergroup contexts' is a loose gloss of the cited out-group empathy work (p.3); not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

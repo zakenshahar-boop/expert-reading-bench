@@ -1,0 +1,100 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "States both halves (conservatives in liberal regions less hesitant; liberals low regardless). 'Moderates' is the paper's own framing, no causal wording."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "note": "Online self-report nonprobability convenience sample via Qualtrics Panels, spring 2023 (E1, required element) plus zip-code % Republican 2020 vote (E3)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Only says the hesitancy interaction is significant, without its shape; the shape is given in entry [3]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gives the liberal half and says conservatives' boosting depends on climate, but not the direction (more likely in liberal climates) or the percentages."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Names the consequence (no causal or directional claims)."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "partial": [
+          "L1"
+        ],
+        "note": "Says zip-code vote share is a proxy but not that other zip-code differences could drive the associations (the consequence)."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported vaccine status is mentioned without the bias it opens (social desirability, recall)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two literatures (orientation, climate) and the combined analysis as novel. Does not say the paper names no framework (T0). 'But not both together' slightly firmer than the paper's 'focused on either', which the discussion states flatly: true to the paper."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Attribution to Liu and Li (ref. 21) checked against the reference list: correct."
+      }
+    ]
+  },
+  "joined": []
+}

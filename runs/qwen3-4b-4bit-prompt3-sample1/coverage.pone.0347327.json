@@ -1,0 +1,97 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "Not a question: the claim that polarization is not uniform but varies by region, topic and political leaning (C2, without the cross-national difference), placed here. The paper does contrast its result with 'uniformly low' polarization (p.22), so the 'argues against' framing is not flagged. One quote in the paper; the second is marked NOT IN PAPER."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision), plus the U.S. vaccination correlation (F2) placed here; quote supports the vaccination part. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "note": "'Over 50 million tweets from late 2020' without dates or country split (E1); embedding-based dissimilarity between left and right users without RoBERTa or C-index (E2); the three topics without conspiracy or the classifiers (E5). 'Filtered by political keywords related to lockdowns, masks, and vaccines' blurs the political-keyword filter and topic keywords; not flagged."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher, especially masks and vaccines, strongest in the U.S. (p.14); no lockdown non-significance stated outright and no Canadian non-significance."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2, with r = -0.77."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "'Strongly linked' as in the calibration's 'closely tied'; not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2",
+          "F5"
+        ],
+        "note": "Only quote is NOT IN PAPER. Would have given F2's Canada half and part of F5."
+      },
+      {
+        "partial": [
+          "F4"
+        ],
+        "note": "Conservatives post more conspiracy content and the small U.S. negative correlation; Canada's null result not stated. 'More prevalent among', not 'endorsed', so not F-x3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L5",
+          "L6"
+        ],
+        "note": "Temporal mismatch, link suggestive not causal (L5); no causality between online discourse and health outcomes, credited L6 as in the calibration's like entry."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "partial": [
+          "T1"
+        ],
+        "note": "Text-embedding computational methods; no contrast with dictionary or network methods, as in the calibration's like entry. 'Extending' refers to methods, not T3. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C2"
+        ],
+        "note": "Only quote is NOT IN PAPER. Disputes a 'uniform' view attributed to no one; would at most be C2 misplaced."
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {"match": ["Q1"]}
+    ],
+    "central_claim": [
+      {"match": ["C1"]}
+    ],
+    "evidence": [
+      {"match": ["E1"], "note": "Survey and behavioral data from X/Twitter users; the quote specifies panel survey data combined with X behavioral data."}
+    ],
+    "key_findings": [
+      {"match": [], "partial": ["F1"], "note": "Positive association only; the strongest indicators are not named. The quote is Expectation 1 rather than the result, but it states the same proposition and the paper confirms it (p.11)."},
+      {"match": [], "partial": ["F2"], "flags": [{"type": "overclaim", "gold": "F-x2", "text": "States without qualification that the association is stronger among more affectively polarized users, quoting Expectation 2. The paper finds this only partly: clearest for online and offline participation, 'partially consistent with Expectation 2 rather than a uniform confirmation of it' (p.14)."}]},
+      {"match": ["F3"], "note": "More active and greater potential reach; the quote specifies posting frequency, friends and followers."}
+    ],
+    "scope_and_limits": [
+      {"match": ["L2"]}
+    ],
+    "theoretical_positioning": [
+      {"match": ["T1"], "partial": ["T3"], "note": "Classical engagement theory is T1 (p.15). 'Extends' is T3, but what is extended is the revisionist / dark-side view, which the claim does not name (its quote does)."}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "partial": ["I2"], "note": "The classical view that engagement plays a positive democratic role is I2's claim, but the paper's qualifying stance toward it is not stated."}
+    ]
+  }
+}

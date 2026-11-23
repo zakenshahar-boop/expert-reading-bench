@@ -1,0 +1,88 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "The abstract's version, without topics or significance."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Quote not in the paper as given."
+      }
+    ]
+  }
+}

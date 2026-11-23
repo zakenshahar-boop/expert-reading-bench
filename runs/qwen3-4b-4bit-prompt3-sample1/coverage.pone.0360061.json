@@ -1,0 +1,474 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [],
+        "note": "repeat of [0]; the 'not solely marginalization, deprivation or personality' point again; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says engagement 'can lead to' more antagonistic and hostile interactions. The paper says engagement 'may also be associated with' antagonistic behavior and that its evidence 'does not establish that engagement causes hostility' (p.15)."
+          }
+        ],
+        "note": "Qualifying the classical view of engagement (I2), in the wrong slot; its only quote is NOT IN PAPER (the p.15 sentence exists but not as quoted)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I2"
+        ],
+        "note": "Disputing the purely beneficial view of engagement, with the revisionist point about biased and antagonistic processing (p.2, p.4): I2 in the wrong slot. The revisionist view is quoted but not named in the claim, so T2 is not credited."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Hostile users are not fringe, are more active and have larger networks: F3 in the wrong slot ('significant social networks' read leniently as more friends and followers)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T5"
+        ],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper contests the notion that affective polarization is 'merely a byproduct of hostility' and suggests it 'may be a key driver'. The paper argues against no such view; it treats leader-directed affective polarization as a possible condition of the engagement-hostility association and says it 'may be an antecedent, correlate, or consequence' of hostile interaction (p.14)."
+          }
+        ],
+        "note": "The conditioning role of affective polarization is T5, in the wrong slot."
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; the p.1 quote is about lowering entry barriers to the public sphere, not engagement"
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says broader polarization and elite influence 'must also be addressed'. The paper says reducing hostility 'may also require attention to' broader polarization and the role of elites (p.16)."
+          }
+        ],
+        "note": "The policy implication (p.16), accurate apart from the strengthened modal."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper argues against the idea that hostility is 'a sign of disengagement or extremism'. The paper attributes no such view to anyone."
+          }
+        ],
+        "note": "Otherwise a repeat of [3]; its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C1"
+        ],
+        "note": "Engagement correlates positively with hostility, set against the view that engagement diminishes it (p.4 'associated with rather than diminish'): C1 in the wrong slot."
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; the 'not only personality traits' point; its quote does not support the claim (it is about construct validity)"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I1",
+            "text": "Uses Almond and Verba's 'active, yet passive' passage to say the paper opposes the view that engagement leads to passive, disengaged citizens. Almond and Verba said engagement should be tempered ('involved, yet not too involved'), and the paper builds on that point (p.4); it opposes no such view."
+          }
+        ],
+        "note": "Misreads the Almond and Verba passage; no I1 credit."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says engagement 'may be a key driver of polarization and conflict'. The paper reports associations with hostility, not that engagement drives polarization; it lists engagement increasing affective polarization only as one possible reciprocal pathway (p.16) and disclaims causal claims."
+          }
+        ],
+        "note": "Substance otherwise a repeat of [3]."
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper disputes the view that political engagement is primarily driven by socioeconomic status or education. The paper treats education as a distal antecedent of engagement (p.4) and disputes no such view."
+          }
+        ],
+        "note": "its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]; hostility tied to political interest and knowledge; the quote is the 'political' component robustness result"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper argues against the idea that engagement leads to disengagement and that engagement 'increases visibility and reach through hostile behavior'. The paper argues against no such view and reports only that more hostile users post more and have more friends and followers, suggesting greater potential reach, 'exploratory and descriptive' (p.15)."
+          }
+        ],
+        "note": "The activity result is otherwise a repeat of [4]."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper disputes the claim that political engagement is limited to offline activities. The paper attributes no such claim to anyone; it measures online and offline participation separately (p.9)."
+          }
+        ],
+        "note": "Online participation strongly linked to hostility is part of F1 at most; the quote (the weaker reverse temporal association, p.15) does not support it."
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its quote does not support the claim"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; engagement may intensify conflict, as in the paper's 'not less but more contentious' (p.4)"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "C-x2",
+            "text": "Says the paper challenges the idea that hostility is primarily driven by psychological traits and links it to 'structural and contextual factors'. The paper does not adjudicate between the literatures (p.3) and links hostility to political engagement, not to structural or contextual factors."
+          }
+        ],
+        "note": "its quote does not support the claim (it is about construct validity); no credit."
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper argues against the idea that engagement is limited to educated or well-informed citizens and that it is 'accessible and widespread'. The paper says nothing of the kind; the quote is about social media lowering entry barriers to the public sphere (p.1)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "note": "repeat of [23]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its quote does not support the claim"
+      },
+      {
+        "match": [],
+        "note": "repeat of [12]"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper disputes the claim that engagement is limited to structured civic participation. The paper disputes no such claim; it simply measures online and offline participation (p.9)."
+          }
+        ],
+        "note": "its quote does not support the claim (it lists the demographic controls)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper challenges the idea that engagement is 'only beneficial for political knowledge' and shows it is linked to 'affective and behavioral indicators'. Nothing in the paper corresponds to this."
+          }
+        ],
+        "note": "its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Hostility is not minor but widespread (p.1 'permeate', p.3 'widespread', p.2 small share does not imply no influence); accurate, not a gold question."
+      },
+      {
+        "match": [],
+        "note": "repeat of [12]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [12]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper argues against the view that political engagement is a 'simple or linear process'. The paper attributes no such view to anyone; it notes only that the engagement-hostility relationship may be reciprocal and that affective polarization and engagement may affect each other (p.15-16)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [11]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [12]; engagement may increase polarization; not flagged again"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper challenges the view that political engagement is limited to specific parties or ideologies. The paper says nothing of the kind."
+          }
+        ],
+        "note": "its quote does not support the claim (the 'political' component result)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper argues against the notion that political engagement is a solitary or private activity. The paper attributes no such notion to anyone."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its quote does not support the claim"
+      },
+      {
+        "match": [],
+        "note": "repeat of [12]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its quote does not support the claim"
+      },
+      {
+        "match": [],
+        "note": "Engagement as multifaceted is close to the paper's choice to treat the indicators separately (p.4, p.8), but the quote (the controls) does not support it; no credit."
+      },
+      {
+        "match": [],
+        "note": "repeat of [20]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [28]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [11]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [5]; affective polarization shaping the emotional orientation of engagement"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; the biased-processing point"
+      },
+      {
+        "match": [],
+        "note": "repeat of [32]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [39]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [23]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [40]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its quote does not support the claim"
+      },
+      {
+        "match": [],
+        "note": "repeat of [35]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [11]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [12]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [47]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [48]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [41]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [42]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [47]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [39]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [40]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [20]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [27]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [11]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [41]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [48]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [32]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [50]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [36]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [40]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [41]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [35]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [11]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [62]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [27]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [52]; its only quote is NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [20]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [47]"
+      }
+    ],
+    "central_claim": [],
+    "evidence": [],
+    "key_findings": [],
+    "scope_and_limits": [],
+    "theoretical_positioning": [],
+    "interlocutor_claim": []
+  }
+}

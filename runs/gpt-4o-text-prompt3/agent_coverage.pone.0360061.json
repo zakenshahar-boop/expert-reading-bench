@@ -1,0 +1,85 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "The claim states Q1. The quote is Q3's passage, but the claim omits the 'not only deprivation or personality' contrast."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association only, without the strongest indicators. The quote is Expectation 1, not the result, but it is in the paper and the result confirms it."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "States as a finding, without qualification, that the association is stronger among more affectively polarized users, quoting Expectation 2. The paper finds this only partially (clearest for participation, exploratory elsewhere, p.14)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "General 'more active, greater potential reach', quoting Expectation 3; it does not state the result (more posts and followers, fewer friends by comparison)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Builds on classical engagement theory (T1). 'Extends' is T3, but the paper extends the revisionist view, which the entry does not name (scored as in harness-slots theoretical_positioning[0])."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Gives the classical claim that engagement is a democratic good, but not the paper's stance (it qualifies this)."
+      }
+    ]
+  },
+  "joined": []
+}

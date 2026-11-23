@@ -1,0 +1,315 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E3",
+    "E4",
+    "F11",
+    "L5",
+    "L7"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Representation plus officials' motives (p.4)."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Pre-registered supplemental heterogeneity by system-impact status (p.7); accurate, not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Prolific, July 12-13 2025, U.S. Democrats; pre-registration is in entry 14 (same call as run 2)."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Sample demographics (p.8); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "IRB approval and consent (p.4); accurate, not a gold answer."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "Arms with counts and the order of stimuli and outcomes, accurate (p.5)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Perceptions index (five items, alpha 0.71). The alpha is reported without calling it weak, so no misplaced L7 here (unlike run 2's entry 8)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Value-of-representation item."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Complexity-of-representation item."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Quality-of-representation index."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Motives index."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Two-item ad support index; the exploratory 'most Democrats supported' item is accurate (p.7-8)."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Pre-registration part of E1 (matched in entry 0); hypothesis sets accurate."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Covariate list accurate (Table 2 note)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Balance check (p.8-9); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Supplemental analyses and CATE approach (p.12-14); accurate, not a gold answer."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3",
+          "F10"
+        ],
+        "partial": [
+          "F11"
+        ],
+        "note": "F3: representation quality and public-serving motives. F10: ad reduced the value placed on diverse life experiences; it omits that this was not hypothesized, treated as descriptive rather than a required qualification. F11 partial: ad-vs-control half (the counter-narrative half is in entry 3)."
+      },
+      {
+        "match": [
+          "F5",
+          "F9"
+        ],
+        "partial": [
+          "F11"
+        ],
+        "unlisted": true,
+        "note": "F5 (-0.33 on Democratic representation vs ad alone) and F9 (complexity null). The 0.79 SD value-of-representation effect is accurate but not in the gold. F11 partial: counter-narrative-vs-ad motives result not surviving correction."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ],
+        "partial": [
+          "L10"
+        ],
+        "note": "Preliminary evidence (L8). 'Sample was limited to Democrats' gives the restriction in L10 without saying what it bounds; partial. Not a demonstration of what the strategy did during the campaign: accurate, the opposite of C-x2."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Also replication in other contexts and less transparent designs (p.17)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability part of L5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Repeated-exposure part of L5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Behavior part of L5."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Narrow representation measures."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Index reliability."
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "Omits that the author thinks stigma reduction more likely (in the quote only); same call as run 2."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "misplaced": [
+          "T1"
+        ],
+        "note": "Refs 20 and 21 are Smith & Zarate and Sherman (paper.xml): attribution correct. The exemplar mechanism is the core of social categorization theory as the paper uses it (T1), so misplaced T1 rather than an interlocutor answer."
+      }
+    ]
+  }
+}

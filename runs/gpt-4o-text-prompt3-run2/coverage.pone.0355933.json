@@ -1,0 +1,100 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x3",
+            "text": "Says 'stigmatizing language in political ads negatively affects' perceptions. The study tested one ad, Trump's mugshot with the label, and the paper says image and terminology cannot be disentangled (p.17)."
+          }
+        ],
+        "note": "Omits the improvement in representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Total N and three arms (sizes in the quote) give E2. E1 partial: survey experiment only, no Prolific, Democrats or dates."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'The counter-narrative increased positive perceptions' drops that it was shown before the ad and compared with the ad alone; there was no counter-narrative-only arm (p.16). The quote keeps the qualification."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Representation only; omits the public-service motives increase."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ],
+        "partial": [
+          "L5"
+        ],
+        "note": "Preliminary (L8); need to explore long-term effects is the durability part of L5."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Primary framework named; no stance stated."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Agrees with the meta-analysis in questioning negative ads; correct stance."
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E1",
+    "E3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "Method for measuring subnational and event-driven polarization from text (abstract)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording, credited per C1's decision. No B1 catch."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "U.S. vaccination correlation (F2's U.S. half) placed here; 'suggests public health consequences' follows the abstract's 'suggesting tangible public health implications'."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "Collection period and 1% stream; corpus size in the next entry."
+      },
+      {
+        "partial": [
+          "E1"
+        ],
+        "match": [
+          "E5"
+        ],
+        "note": "Corpus size without period (joined with entry 0 for E1). Four topics by hashtags and fine-tuned RoBERTa: E5."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Profile location geolocation (E4); two-step classifier without its validation."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records, the other half of E3."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Case/death data and vaccination rates a year later; election results as a comparison for polarization not named (only as validation in entry 4)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "U.S. masks/vaccines yes, lockdowns no; Canada not significant. Direction implied by the correlation with Republican vote share."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'Post conspiracy-related content', not 'endorse': not F-x3."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "partial": [
+          "L1"
+        ],
+        "note": "The sarcasm / indirect disagreement point (p.10), part of L1; L1 already credited in entry 0."
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "partial": [
+          "L8"
+        ],
+        "note": "Bloc Quebecois exclusion given, merger into party families not stated."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Agrees with earlier right-leaning finding and extends with geographic/temporal resolution. No T0."
+      },
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Own-lexicon prior work (ref. 40) that the method handles by conditioning on topic: I7, placed here. 'Revises the use of raw language dissimilarity' describes the method choice, not a theory revision; not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Owen et al. is correct for ref. 94."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Merkley et al. is correct for ref. 103."
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Refs 10 (Allcott et al.) and 62 (Morris) named correctly."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Albrecht is correct for ref. 50."
+      }
+    ]
+  }
+}

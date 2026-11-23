@@ -1,0 +1,237 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "misplaced": [
+          "I2"
+        ],
+        "note": "Q3 (Q1 contained, not credited twice). 'Challenges the classical view that engagement is purely positive' qualifies the classical view, I2's content in the wrong slot."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 activity/reach question (p.2), accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations, the distinctive part of F1."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Reach is hedged with 'may', as in the paper."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "E2: 2,567 linked panelists and over 9 million posts are stated side by side, not as posts from the 2,567. E3: YouGov US panel over about two years, without the six waves or dates."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "SU word-embedding score named, without the cosine similarity to the 'political hate' vector or per-user averaging; validation detail is accurate."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate survey measures and leader thermometer (p.8-9)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Also names the negative-binomial count models (p.10)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F4"
+        ],
+        "partial": [
+          "F1",
+          "F7"
+        ],
+        "note": "F1: positive associations, without the strongest indicators (those are in central_claim[0]). F7: above 0.2, without the comparison to the education-participation association."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "14 vs 4 of 18 descriptively, with the qualification that formal support is clearest for participation."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Posts and followers; friends not mentioned. 'Substantially' fits 420 to 900 posts."
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L8",
+          "L2"
+        ],
+        "note": "Exploratory for non-participatory indicators is L8; non-causal moderation repeats L2."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "No causal relations among indicators, plus the education caveat (p.16)."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Not a hate-speech measure (p.7), accurate."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the literatures is the paper's stance, not a limitation."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Classical theories of engagement [17,19] (p.15); the darker-sides strand repeats T2."
+      },
+      {
+        "match": [
+          "T4"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Says the paper 'disputes' the classical view that engagement is a boon to democracy. The paper qualifies it: it notes the classical literature itself acknowledged engagement 'could go too far' (p.4) and extends the revisionist view, finding engagement 'may be associated with rather than diminish' hostility."
+          }
+        ],
+        "note": "Classical refs 17-19 are Nie et al., Verba, Schlozman and Brady, and Brady et al. (checked in paper.xml). 'Disputes' tilts the paper's qualifying stance; credit kept with a mild flag."
+      },
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Refs 21, 47, 48, 49 are Leeper and Slothuus, Taber and Lodge, Kam, and Slothuus and de Vreese (checked in paper.xml)."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Refs 13-15 are Pettigrew, Petersen et al., Bail (checked); the 'not only' stance is correct."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Ref 6 is Siegel (checked); 'less is known' keeps the hedge."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Osmundsen et al. [53] on misinformation sharing (p.4), accurate; not a gold interlocutor."
+      }
+    ]
+  }
+}

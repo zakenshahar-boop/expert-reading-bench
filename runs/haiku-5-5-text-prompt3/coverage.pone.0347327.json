@@ -1,0 +1,116 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Repeats the abstract's 'significantly higher in both countries' (credited as true to the paper; the contradiction with the results is not noticed)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Period and source given, not the tweet counts."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "No split by topic, no statement that Canada is not significant."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Timescale of days, without the link to events."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "The correlation half only."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ]
+      }
+    ]
+  }
+}

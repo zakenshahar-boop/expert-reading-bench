@@ -1,0 +1,252 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "Q1",
+    "E3",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use sender/receiver/homophily when AI youth are the majority, quoting the p.2 'whether these patterns hold' sentence: Q3 and Q2. Substance-use part of Q1."
+      },
+      {
+        "match": [
+          "Q4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Depression part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "AI identity part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Demographic part of Q1."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Same call as run 2."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Schools differ by size, type and community ties: the paper's hedged 'suggest' (p.16), reported as the authors' suggestion. Accurate, not a gold central claim."
+      },
+      {
+        "match": [
+          "C3"
+        ],
+        "note": "Same call as run 2."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Demographic terms as benchmarks and adjustment variables; accurate (p.8), no causal caveat, not credited as L6."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "AMEs, named by description."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ],
+        "note": "The robustness check result (quote) is F7."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Both exceptions; marijuana weaker."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Selection versus influence and no causal direction; quote names cross-sectional ERGMs."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "AI identity result limited to school friendships, not kinship (p.15). Accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "School differences and local governance as future work (p.17); does not attribute an L-x1 statement to the authors. Accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Prevention directions proposed, not tested (p.17). Accurate."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Structure versus attributes (T1); non-AI findings as benchmarks rather than assuming they transfer gives the testing half of T3 (cf. calibration benchmark entry)."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Cultural account as interpretation of how strength varies; the quotes are hedged ('may'), reported as the authors' theoretical combination, not a finding."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3",
+          "I6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors 'revise' the rationale for network-based prevention; the paper says its findings 'challenge assumptions underpinning many network-based prevention programs' and that endogenous factors suggest 'a promising direction' for AI network interventions. 'Revise' tilts the wording (same call as the calibration note)."
+          }
+        ],
+        "note": "Same call as run 2."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      }
+    ]
+  }
+}

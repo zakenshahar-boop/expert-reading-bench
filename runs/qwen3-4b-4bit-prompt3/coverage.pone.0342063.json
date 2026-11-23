@@ -1,0 +1,136 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "ungrounded": [
+          "Q1"
+        ],
+        "note": "Quote is the whole abstract, 173 words."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "'political climate can influence vaccine behavior in politically conservative individuals'. The data are cross-sectional associations."
+          }
+        ],
+        "note": "No quote given."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E2"
+        ],
+        "note": "No quote; the abstract pasted as the claim."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E6"
+        ],
+        "note": "No quote; a results paragraph pasted as the claim."
+      },
+      {
+        "match": [],
+        "note": "No quote. A finding (F3) given as evidence."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Quote has '[page 1]' written inside it, so it is not verbatim."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Same."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Same."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Same."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1",
+          "L5"
+        ],
+        "note": "No quote; the paper's sentences pasted as the claim."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Same."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L4"
+        ],
+        "note": "Same."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L2"
+        ],
+        "note": "Same."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1",
+          "T2"
+        ],
+        "note": "No quote. Calls the frame 'political psychology and public health research'; does not say that no theory is named."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "No quote."
+      }
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E2",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question (p.2), accurate; not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question, posed as a question, so not misplaced F3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "'Need to consider engaged citizens, not just' marginalization or antagonistic traits is the additive C2, not C-x2; the positive association with interest, knowledge and participation is C1."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Policy implication (p.16), kept conditional as in the paper."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "YouGov US panel linked to X accounts over six waves from January 2019 (end date only in the quote, credited leniently); 2,567 linked and 3,643 X-only kept apart."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "9.25 million posts."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Validation against 2,469 hand-labeled posts, 74% accuracy (p.7); accurate."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Sentiment dictionary and general toxicity score as robustness checks, plus components and classifier."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Survey measures (p.8-9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Leader thermometer measure and analyses (p.9, p.13), accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Pooled OLS only."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Multiplicity corrections (p.10), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Negative-binomial count models, friends versus followers (p.10, p.15), accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says polarized feelings toward leaders 'strengthened' the associations, giving polarization causal agency. The paper reports the associations as more pronounced among more polarized users and interprets them as 'suggestive evidence of conditional associations, not as causally identified moderation effects' (p.14)."
+          }
+        ],
+        "note": "Qualified as in the paper (clearest for participation, 8 of 18 after FDR, not uniform), so no F-x2; only the verb 'strengthened' tilts it."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Outcome excludes nonpolitical toxicity and is broader than hate speech (p.2-3, p.7); accurate."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Also mentions the Danish sample as only tentative evidence (F-b1 content, hedged correctly); not marked neutral since the entry is the L1 limitation."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Non-causal reading of the moderation (p.14); a repeat of L2, not L8."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Separate indicators rather than one resource (p.4, p.8); accurate."
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The reach analysis builds on the traditional finding about whose voice is heard (p.15); accurate, not a gold framework."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

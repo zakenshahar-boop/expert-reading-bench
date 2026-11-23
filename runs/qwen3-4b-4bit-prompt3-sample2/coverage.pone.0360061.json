@@ -1,0 +1,202 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x2",
+            "text": "Frames the question as engagement 'rather than being primarily driven by' marginalization, personality or grievance. The paper asks whether hostility is associated 'not only with deprivation or personality-based explanations, but also with political engagement' (p.2) and does not adjudicate between those literatures (p.3)."
+          }
+        ],
+        "note": "Q1 is contained in Q3 and not credited twice."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F1",
+            "text": "Lists 'online/offline participation' among the strongest associations. The paper names political interest, political knowledge and online participation (p.1); offline participation is not among the strongest."
+          }
+        ],
+        "note": "Adds the strongest associations, the distinctive part of F1, as in the calibration note."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Stronger among the more affectively polarized, particularly for participation (F2, wrong slot); its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach; no cosine similarity to the 'political hate' vector or per-user averaging."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The five validity assessments (p.6-8); accurate, not a gold evidence item."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says the controls 'isolate the effect of political engagement indicators on hostility'. The paper reports associations after controls and interprets them as 'associational rather than causal' (p.16)."
+          }
+        ],
+        "note": "Accurate list of controls with effect wording around it; per the protocol, no credit for the wording and one flag."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM named; the cross-sectional analyses are not identified as pooled OLS."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F1",
+            "text": "Includes offline participation among the strongest associations. The paper names political interest, political knowledge and online participation (p.1)."
+          }
+        ],
+        "note": "Quote (associations after controls, largest for the primary measure, p.11) is about the same associations and is accepted as support. The error is the same as in central_claim[0] but this is the entry credited for F1 in its own slot, so it is flagged here too."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "'Not only deprivation or personality, but also forms of engagement central to democratic citizenship' is C2 in full (p.15). The quote is the next sentences of the same paragraph (p.15) and is accepted."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "F2",
+            "text": "Says the association between engagement and hostility is stronger for participatory indicators than for distal antecedents such as education. The paper says this of the moderation evidence (formal interaction models, p.13-14), not of the main association, whose strongest indicators are interest, knowledge and online participation (p.1)."
+          }
+        ],
+        "note": "Its only quote is NOT IN PAPER; no credit."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'Or political cultures' goes slightly beyond the paper's platform limit; not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L2"
+        ],
+        "note": "Its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L6"
+        ],
+        "note": "Its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "The quote is the sentence after the conflict-language caveat (p.8) and supports it."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says the paper argues engagement 'may also lead to' antagonistic and polarized behavior. The paper says engagement 'may also be associated with' such behavior (p.1) and disclaims causal claims."
+          }
+        ],
+        "note": "Revisionist tradition (T2), extended (T3), from classical engagement theory (T1)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": null,
+            "text": "Says the paper builds on the biased-processing literature 'by showing that such patterns are especially pronounced in online political contexts and among politically engaged users'. The paper shows no such comparison; it reports that online hostility is associated with engagement indicators."
+          }
+        ],
+        "note": "The motivated-reasoning claim [21,47] without the point that bias is worse among the knowledgeable."
+      }
+    ]
+  }
+}

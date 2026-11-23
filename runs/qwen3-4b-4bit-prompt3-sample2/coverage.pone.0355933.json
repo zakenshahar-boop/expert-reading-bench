@@ -1,0 +1,339 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as what the paper argues, but its subject is the spillover of the 'convicted criminal' advertisement onto perceptions of people with records (Q1); same call as the calibration note's question entry [0]."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the ad's harm to perceptions and its improvement of feelings of representation; omits the counter-narrative's offset."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E2: total N and the three arms (no per-arm counts). E1 partial: survey experiment only; Democrats, pre-registration, Prolific and dates not stated in the claim."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "The counter-narrative 'significantly ameliorated' the ad's negative effects (abstract wording, 'vastly ameliorated'): F2, a finding in the evidence slot."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3 (perspective of a formerly incarcerated representative); the ad stimulus is not described."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "'The stigmatizing label led to a significant decrease' attributes the effect to the label; the stimulus was the mugshot with the label, and the paper says the two cannot be disentangled (p.17). The quote says 'the Trump advertisement'."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the counter-narrative increased perceptions by 0.83 SD without saying it preceded the ad and is compared with the ad alone (p.11, p.16). The quote keeps the qualification."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the ad increased perceived self-interest motives of officials; the paper finds the ad increased belief that officials are motivated by public service (p.11, beta = 0.130; p.15)."
+          }
+        ],
+        "note": "Only quote NOT IN PAPER. The counter-narrative half is also reversed (see [16])."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E7"
+        ],
+        "note": "Only quote NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the ad reduced perceived quality of Democratic representation; the ad increased it (p.11, p.15). The decrease the quote reports is the counter-narrative's, relative to the ad alone (F5)."
+          }
+        ],
+        "note": "No credit."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F9",
+            "text": "Says the counter-narrative increased perceived complexity of representation. H1E was unsupported: no significant difference, and the estimate is negative (-0.062, p.11)."
+          }
+        ],
+        "note": "Only quote NOT IN PAPER; the value-of-representation half (H1C) is accurate but not gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Pre-registered hypotheses: the pre-registration part of E1."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says exposure to the ad increased support for the advertisement. No such comparison exists: ad support was asked only after exposure to the ad in every arm and is not in Table 3 (p.10-11)."
+          }
+        ],
+        "note": "The counter-narrative's decrease in ad support is F4 (misplaced)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: 'the most profound impact of the counter-narrative ... was on the perceptions' (p.11); not a gold answer."
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; the quote is about prior interventions (p.15), not this study's result"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]; restates the counter-narrative's >0.8 SD increase"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F5",
+            "text": "Says the counter-narrative 'reduced the negative perception of the quality of Democratic representation', i.e. improved it. The counter-narrative decreased perceived quality relative to the ad alone (p.11, beta = -0.332), as the quote says."
+          }
+        ],
+        "note": "No credit. Wording is muddled; read as the reverse of F5."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": null,
+            "text": "Says the counter-narrative reduced perceived self-interest motives of officials. It reduced belief that officials serve the public (p.11, beta = -0.098), as the quote says; the result also would not survive Bonferroni (F11)."
+          }
+        ],
+        "note": "No credit."
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; and of [15]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [13]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [7]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [13]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [16]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [8]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [3]"
+      }
+    ],
+    "key_findings": [],
+    "scope_and_limits": [],
+    "theoretical_positioning": [],
+    "interlocutor_claim": []
+  }
+}

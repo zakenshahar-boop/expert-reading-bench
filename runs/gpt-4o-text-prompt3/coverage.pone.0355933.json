@@ -1,0 +1,80 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Speaks of 'stigmatizing language in political ads'; leaves out the representation result."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Quote not in the paper as given."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Does not say the comparison is with the advertisement alone."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Quote not in the paper as given."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I2"
+        ],
+        "note": "Quote not in the paper as given."
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half for hesitancy only; liberals low regardless of climate is not stated."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey of 683 participants; no convenience sample, Qualtrics Panels or dates in the claim (dates only in the quote), no exclusion figures. Variables named without how they were measured."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1; the vaccination and booster status half is missing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Conservative halves of the hesitancy and booster interactions; liberals-regardless parts missing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4",
+          "F3"
+        ],
+        "note": "Vaccine-status interaction not significant, without the mandates explanation (partial F4); booster-status interaction significant, without its shape (partial F3)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Claim says only 'demographic limitations'; the quote it carries gives the White and Black only Qualtrics Panels sample. Credited in full on claim plus quote."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two prior literatures, extended by examining their interaction; 'first' is not said but the extension stance is."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Prior finding stated (hesitancy only; uptake in the quote) without the paper's stance toward it."
+      }
+    ]
+  }
+}

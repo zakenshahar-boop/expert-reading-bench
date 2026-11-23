@@ -1,0 +1,187 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Attitudes vs behavior, initial doses vs boosters: accurate to p.7 ('identify how attitudes and behaviors may have shifted'), not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "States that climate is tied to hesitancy mainly for conservatives (the p.8 sentence, one of C1's spans) without the direction (conservatives in liberal areas less hesitant) or that liberals are low regardless; partial. Adds booster receipt (yes) and initial vaccination (no), as p.8 says. 'Where respondents lived mattered' not flagged: the entry itself restates it as association."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Implications for targeting vaccination efforts (p.1, p.10): accurate, not in the gold."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E7"
+        ],
+        "note": "Online US convenience survey, March 8 to April 19, 2023 (Qualtrics Panels in [1]); the larger marginalization project is the reason part of E7."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Four race by income quotas at $70,000 and the gender cap; Qualtrics Panels."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Age range and counts vaccinated/boosted (p.5): accurate descriptives, not in the gold."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported vaccine and booster status. 'Not verified from medical records' is an inference from self-report, in line with p.10's 'cannot assume that reported vaccine status reflects actual vaccine status'; not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Seven adapted AAVS items for hesitancy (plus booster items, CFA, alpha .93, all accurate); the self-report half is in [6]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Bivariate correlations, t-tests and chi-squared tests (p.4): accurate, not in the gold."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction with shape, including the slight reverse for liberals (p.10): accurate, no gold finding covers it."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Non-significant interaction for initial vaccination, without the mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Mechanism not established (L6); social pressure as a possible, unmeasured explanation is T3, placed in limits."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Online-platform part of L4, without the generalization consequence; [5] gives L4 in full."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Black and White panel respondents, may not generalize."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two strands (individual ideology, place-level partisanship), accepts prior associations and combines them by testing the interaction. T0 not stated."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Hao and Shao (ref. 20) correct; booster-rate half of I3 (vaccination-rate half, ref. 19, not given)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      },
+      {
+        "partial": [
+          "Q2"
+        ],
+        "note": "Methodological question (how to measure polarization from text given group lexicons), without the fine regional/temporal resolution aim. Uncertain: close to the haiku-expand entry that got nothing, but framed as a measurement aim rather than a premise."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording without 'significantly'. No B1 catch."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "U.S. vaccination correlation placed here; the 'public health consequences' reading follows the abstract's 'suggesting tangible public health implications'."
+      },
+      {
+        "match": [
+          "C2"
+        ],
+        "note": "Cross-national difference given as Canada's lower levels."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "The methodological aim (a new computational method), which belongs in question."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Case data and vaccination rates; no election results, no one-year lag."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E5"
+        ],
+        "note": "Embedding + C-index (E2). Three topics named, no conspiracy category or classification method."
+      },
+      {
+        "match": [
+          "E3",
+          "E4"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "partial": [
+          "L1"
+        ],
+        "note": "Sarcasm point from p.10; L1 already credited."
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "partial": [
+          "L8"
+        ],
+        "note": "Bloc exclusion given, party-family merger not."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "S3 Fig caption (p.26): few points, no definite conclusion. Accurate; does not mention the 0.74 positive correlation or contrast it with the abstract, so no B2 catch."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "No T0."
+      },
+      {
+        "match": [
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Owen et al. correct for ref. 94."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Merkley et al. correct for ref. 103; 'qualify' is a fair stance word."
+      },
+      {
+        "match": [
+          "I7"
+        ],
+        "note": "Diermeier et al. correct for ref. 40."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Albrecht correct for ref. 50."
+      },
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

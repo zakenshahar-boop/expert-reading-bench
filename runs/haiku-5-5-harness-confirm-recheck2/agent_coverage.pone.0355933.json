@@ -1,0 +1,84 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Carried over from haiku-5-5-harness-confirm/agent_coverage for kept claims; rewritten claims judged by the assistant on 2026-11-22.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ],
+        "note": "Names the spillover to perceptions (Q1), the spillover to representation (Q3) and whether the counter-narrative offsets it (Q2). Does not state H1A (Q4)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the harm to perceptions and the near-cancellation by the counter-narrative; omits that the ad improved feelings of representation. Attributes the effect to 'the Trump ad labeling him', not to the words alone, so no C-x3 flag."
+      }
+    ],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Placing ... before the ad almost entirely offset' keeps the relative-to-ad-alone comparison; paper p.15 wording. Rewritten at re-check: causal wording replaced with association wording. The answer is still stated, so credit is kept. Judged by the assistant."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Rewritten at re-check: causal wording replaced with association wording. The answer is still stated, so credit is kept. Judged by the assistant."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "note": "'Place the study within social categorization theory and extend it' to the spillover from one salient member: T1 framework plus T4 stance (applies and extends)."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a possible account, matching the paper's hedge."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

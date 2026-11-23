@@ -1,0 +1,397 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 9,
+      "in own quotes": 8,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The study used a convenience sample of 683 U.S. participants recruited via online panels, with data collected from March 8 to April 19, 2023, and included measures of political conservatism, regional political climate (via 2020 election vote share), and vaccine/booster hesitancy."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 0,
+      "hedge dropped": 5,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "How does regional political climate moderate the relationship between political conservatism and COVID-19 vaccine hesitancy and uptake?"
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The study used a convenience sample of 683 U.S. participants recruited via online panels, with data collected from March 8 to April 19, 2023, and included measures of political conservatism, regional political climate (via 2020 election vote share), and vaccine/booster hesitancy."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "could",
+          "claim": "The study uses 2020 presidential election vote share as a proxy for regional political climate, and does not formally assess the role of other regional factors such as population density or socioeconomic status."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The authors position their work within the existing literature on political ideology and health behavior, extending prior research by examining the moderating role of regional political climate on individual political orientation effects."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The paper attributes to prior research the finding that conservative political climate is associated with higher vaccine hesitancy, and then disputes or builds on this by showing that the effect is stronger for conservatives in conservative regions."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 13,
+      "abstract": 3,
+      "introduction": 0,
+      "background": 0,
+      "methods": 1,
+      "results": 1,
+      "discussion": 8,
+      "other": 0,
+      "unknown": 0,
+      "first third": 3,
+      "middle third": 2,
+      "last third": 8
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 7,
+      "in own quotes": 5,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 50000000.0,
+          "where": "elsewhere in paper",
+          "claim": "The study analyzes over 50 million tweets from late 2020, filtered by three key public health topics: lockdowns, masks, and vaccines, and uses a computational method based on language embeddings to measure polarization."
+        },
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The study identifies specific political events as triggers for spikes in polarization, such as the 2020 U.S. presidential election and the approval of vaccines in Canada."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 38,
+      "causal word not in quote": 3,
+      "hedge dropped": 7,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "The paper argues against the idea that partisan polarization in public health discourse is uniform across regions and topics, and that it is primarily driven by a single, monolithic factor such as political ideology alone."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The paper disputes the notion that online polarization has no measurable impact on public health outcomes, arguing instead that it has tangible, measurable consequences for regional public health outcomes."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "Conservative regions in both the United States and Canada exhibited significantly higher levels of partisan polarization, with this effect being particularly pronounced in the United States."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggestive",
+          "claim": "The study does not establish causality between online polarization and public health behaviors, and the temporal mismatch between the Twitter data (late 2020) and vaccination data (2021) limits the strength of the inferred causal link."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The study does not include data from other social media platforms beyond Twitter (X)."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "The authors revise the traditional view of polarization as a static, national-level phenomenon by demonstrating its dynamic, event-driven, and geographically heterogeneous nature."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "The authors revise the traditional view of polarization as a static, national-level phenomenon by demonstrating its dynamic, event-driven, and geographically heterogeneous nature."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The authors revise the assumption that online discourse is a passive reflection of public opinion by arguing that it actively shapes and drives public opinion."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "The authors situate their work within the computational social science tradition, using data-driven methods to analyze political behavior and public discourse."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "potentially",
+          "claim": "The authors extend the field of computational political science by demonstrating how online discourse can be used to track and predict real-world public health outcomes."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 0,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 21,
+      "abstract": 2,
+      "introduction": 3,
+      "background": 0,
+      "methods": 3,
+      "results": 4,
+      "discussion": 9,
+      "other": 0,
+      "unknown": 0,
+      "first third": 8,
+      "middle third": 4,
+      "last third": 9
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 0,
+      "in own quotes": 0,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 1,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The paper argues against the use of stigmatizing labels like 'convicted criminal' in political advertising, as such language leads to negative spillover effects on public perceptions of individuals with criminal records."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 0,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 3,
+      "abstract": 0,
+      "introduction": 3,
+      "background": 0,
+      "methods": 0,
+      "results": 0,
+      "discussion": 0,
+      "other": 0,
+      "unknown": 0,
+      "first third": 3,
+      "middle third": 0,
+      "last third": 0
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 0,
+      "in own quotes": 0,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 11,
+      "causal word not in quote": 2,
+      "hedge dropped": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "kind": "causal",
+          "word": "effects of",
+          "claim": "The study controls for Big Five personality traits, party identification, age, gender, and income to isolate the effects of political engagement on hostility."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "The paper disputes the view that online political hostility is primarily driven by socioeconomic marginalization or personality-based traits like the Dark Triad, arguing instead for a link to political engagement and its antecedents."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 10,
+      "abstract": 2,
+      "introduction": 3,
+      "background": 1,
+      "methods": 1,
+      "results": 2,
+      "discussion": 1,
+      "other": 0,
+      "unknown": 0,
+      "first third": 6,
+      "middle third": 0,
+      "last third": 4
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 5,
+      "overlapped, any slot": 6,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q2",
+        "C2",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T4",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 0,
+      "elsewhere in paper": 3,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 247.0,
+          "where": "elsewhere in paper",
+          "claim": "The study used exponential random graph models (ERGMs) to analyze friendship networks among 247 9th and 10th-grade students across three schools on a Northern Plains reservation."
+        },
+        {
+          "slot": "evidence",
+          "number": 9.0,
+          "where": "elsewhere in paper",
+          "claim": "The study used exponential random graph models (ERGMs) to analyze friendship networks among 247 9th and 10th-grade students across three schools on a Northern Plains reservation."
+        },
+        {
+          "slot": "evidence",
+          "number": 10.0,
+          "where": "elsewhere in paper",
+          "claim": "The study used exponential random graph models (ERGMs) to analyze friendship networks among 247 9th and 10th-grade students across three schools on a Northern Plains reservation."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 13,
+      "causal word not in quote": 2,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "evidence",
+          "kind": "causal",
+          "word": "influence",
+          "claim": "The analysis included both structural network factors (reciprocity, transitivity, degree effects) and individual-level attributes (gender, grade, substance use, depression, AI identity) to assess their influence on friendship formation."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The study is limited to three schools on a single reservation and represents a single developmental time point, preventing longitudinal analysis of how networks evolve over time."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "effects on",
+          "claim": "The paper situates its analysis within the framework of social network analysis, specifically using exponential random graph models (ERGMs) to model structural and individual-level effects on friendship formation, and positions itself as challenging dominant assumptions in the field by emphasizing cultural context over generalizable patterns."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 12,
+      "abstract": 2,
+      "introduction": 0,
+      "background": 0,
+      "methods": 1,
+      "results": 2,
+      "discussion": 7,
+      "other": 0,
+      "unknown": 0,
+      "first third": 2,
+      "middle third": 1,
+      "last third": 9
+    }
+  }
+}

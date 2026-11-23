@@ -1,0 +1,36 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {"match": ["Q3"], "note": "'Beyond' socioeconomic, personality or grievance explanations is Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."}
+    ],
+    "central_claim": [
+      {"match": [], "misplaced": ["F3"], "note": "The activity and reach result (F3) put forward as the central claim; 'potential reach' and 'linked to higher visibility' keep the paper's hedge (p.15), so no flag."}
+    ],
+    "evidence": [
+      {"match": ["E1"], "partial": ["E4"], "note": "Two years of survey and behavioral data from American X users is the data source (E1). The SU word-embedding measure is named with proximity to political and hostile language, but not the cosine similarity to the combined vector or the per-user averaging, so E4 is partial."},
+      {"match": [], "ungrounded": ["E1"], "note": "Survey engagement measures linked to X behavioral data restate E1, but the only quote is the p.2 research-question sentence, which does not support the data description. E1 is credited in evidence[0]."},
+      {"match": [], "unlisted": true, "note": "Accurate description of the leader thermometer measure and the moderation question (p.9); not a gold evidence item."},
+      {"match": [], "partial": ["E5"], "note": "RI-CLPM named; the cross-sectional models are not identified as pooled OLS."}
+    ],
+    "key_findings": [
+      {"match": [], "partial": ["F1"], "note": "Positive significant association with interest, knowledge and participation, but these are not said to be the strongest; offline participation added."},
+      {"match": [], "partial": ["F2"], "note": "Stronger among the more polarized, 'particularly' for online and offline participation. The participation focus is kept, but not that the moderation is only partial or weak elsewhere. Close to the abstract's wording ('more pronounced for some indicators, especially online and offline participation'), so no F-x2 flag."},
+      {"match": ["F3"]},
+      {"match": [], "partial": ["F1"], "note": "Interest and knowledge more strongly associated than education and efficacy: consistent with the paper's 'strongest associations for political interest, political knowledge, and online participation' (p.1), but online participation is not named as among the strongest. With key_findings[0] this still lacks that part, so F1 is not joined."}
+    ],
+    "scope_and_limits": [
+      {"match": ["L2"], "note": "Observational, not causal, with the panel caveats (time-varying confounding, reciprocity, measurement error)."},
+      {"match": ["L2"], "note": "Repeats L2."},
+      {"match": ["L5"]}
+    ],
+    "theoretical_positioning": [
+      {"match": ["T1", "T2", "T3"], "flags": [{"type": "overclaim (mild)", "gold": "C-x1", "text": "Describes the revisionist view as holding that engagement 'can lead to' biased and antagonistic behavior. The paper says engaged citizens 'may also be more likely to process information in biased or antagonistic ways' (p.2) and that engagement indicators 'can be associated with' biased assessments (p.4)."}], "note": "Classical theories (T1), the darker-sides / revisionist view (T2), and extending it (T3) are all stated; the causal tilt is in describing the literature, so the flag is mild."}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "partial": ["I3", "I4"], "flags": [{"type": "wrong stance", "gold": "C-x2", "text": "Says the paper disputes the claim that hostility is primarily driven by socioeconomic marginalization, status threat or personality traits. The paper 'does not seek to adjudicate between these literatures' (p.3) and presents engagement as an additional correlate ('not only ... but also', p.2)."}], "note": "Identifies the grievance (I3) and personality/Dark Triad (I4) accounts, with the wrong stance; personality claim not specified as the small-segment, extreme-traits finding."}
+    ]
+  }
+}

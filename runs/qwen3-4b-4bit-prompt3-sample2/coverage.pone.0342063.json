@@ -1,0 +1,182 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Names hesitancy only (not uptake), as the paper's own p.2 statement of aim does; the quote covers both."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "States C1 (conservatives in liberal climates less hesitant; liberals boosted regardless, conservatives' uptake tied to climate), but the entry has no quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "The interaction finding (steeper rise with conservatism in conservative climates), which would be misplaced F2; no quote. 'Effect' follows the paper's moderation framing; not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey via Qualtrics Panels, 683 participants, March 8 to April 19, 2023 (E1; E2 would be partial: final N only). No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E4"
+        ],
+        "note": "Two items (social, economic) averaged, 0 to 10. No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3"
+        ],
+        "note": "Percent Republican vote by zip code, 2020 election. No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E5"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says vaccine and booster hesitancy were both measured with the modified Attitudes towards Adult Vaccination Scale. The paper uses the AAVS for vaccine hesitancy only; booster hesitancy 'was assessed using items from a 2022 survey on COVID-19 booster hesitancy' (p.3)."
+          }
+        ],
+        "note": "Hesitancy half of E5 (would be partial); self-reported status not here. No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E6"
+        ],
+        "note": "Linear and logistic regressions with controls and the conservatism by climate interaction: full E6, but no quote."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberals boosted regardless; conservatives' uptake associated with climate, without the direction (the earlier judge's call on a like entry). Full F3 is in [3]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction significant for vaccine and booster hesitancy, steeper for conservatives in conservative climates; the liberals-regardless part is missing, and no entry in this slot states it for hesitancy ([1] states it for boosters), so F2 is not joined."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Over 65% for liberals regardless, 60% for conservatives in liberal climates, under 35% in conservative climates (p.8)."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Interaction not significant for vaccination, with the mandates explanation kept hedged ('may be influenced'), as in the paper's 'likely reflects'."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1"
+        ],
+        "note": "Vote share as a proxy that other regional factors such as population density could confound. 'Not formally assessed' in the paper refers to effect modification by demographics, a slight conflation; not flagged. No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Self-reported status, social desirability and recall bias. No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L4"
+        ],
+        "note": "Online platform, White and Black participants only, limited generalizability. No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L2"
+        ],
+        "note": "Cross-sectional, no causal or directional conclusion. No quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Speaks of the mechanisms 'through which political climate affects booster uptake in conservatives', presupposing an effect. The paper says environmental factors 'may impact' annual doses and that it 'cannot assume causal or directional associations' (p.10). 'Peer influence' as an example is not in the paper."
+          }
+        ],
+        "note": "Mechanism not assessed (L6). No quote."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Names only the ideology literature (broadened to 'health behavior') and the extension by testing moderation; same call as on sample 1 and the first run."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says the paper shows 'that liberal environments have a stronger influence on conservative individuals'. The paper only says the interaction 'suggests that liberal environments may exert more influence' and offers an alternative reading (conservatives more influenced by environments), and states it cannot assume causal or directional associations (p.10)."
+          }
+        ],
+        "note": "Prior findings that conservatism and conservative climate are associated with hesitancy and lower vaccination (I1; the climate part is close to I3/I6), quoted from p.10 but the entry has no quote attached. 'Disputes or builds on' hedges the stance; the paper only builds on these findings."
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Perceptions of people with records (Q1) and sense of representation (Q3). Does not ask about the counter-narrative (Q2) or H1A (Q4)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x3",
+            "text": "'Stigmatizing language in political ads negatively affects' attributes the effect to the language and generalizes from one ad; the stimulus was Trump's mugshot with the label, and the paper says image and label cannot be disentangled (p.17). The quote speaks of 'the negative effects of the advertisement'."
+          }
+        ],
+        "note": "Gives the harm to perceptions and the counter-narrative's mitigation; omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E2: 2,439 in three arms (counts in the quote). E1 partial: survey experiment only; does not say the participants were Democrats, nor pre-registration, Prolific or dates."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Would earn F1; the only quote is marked NOT IN PAPER. It is the wording of hypothesis H2A (p.7), not invented in a way that changes the meaning, so no flag."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'The counter-narrative significantly increased positive perceptions' drops that it came before the ad and is compared with the ad alone; there was no counter-narrative-only arm (p.16). The quote (hypothesis H1B) keeps 'relative to ... the advertisement ... alone'."
+          }
+        ],
+        "note": "The quote is a hypothesis rather than the result, but it is in the paper and the result is reported on p.11."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Quote is hypothesis H1A; the result is on p.11."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gives the increase in perceived quality of Democratic representation (p.11) but not the public-service-motives half of F3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Would earn T1; the quote is marked NOT IN PAPER (it is a close copy of p.2, so no flag). Does not state the extend stance (T4)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I2"
+        ],
+        "note": "Would earn I2; the quote is marked NOT IN PAPER (it matches p.2 wording, so no flag)."
+      }
+    ]
+  },
+  "joined": []
+}

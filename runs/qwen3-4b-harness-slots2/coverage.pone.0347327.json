@@ -1,0 +1,47 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {"match": [], "misplaced": ["C2"], "note": "Not a question: the C2 claim (polarization not uniform across regions and topics), framed against a notion attributed to no one. Quote (cross-national differences) fits loosely."},
+      {"match": [], "note": "Strawman framing ('no connection'), not a question and no gold answer. Quote is the conspiracy correlation result (F4), which the claim does not state."}
+    ],
+    "central_claim": [
+      {"match": ["C1"], "note": "Abstract wording, credited per C1's decision. Quote is the vaccination sentence, not the one supporting this claim. No B1 catch."},
+      {"match": [], "misplaced": ["F2"], "note": "U.S. vaccination correlation, a finding."},
+      {"match": [], "misplaced": ["F3"], "note": "Event-linked spikes, a finding."},
+      {"partial": ["C2"], "note": "Only the cross-national difference part of C2; conclusion wording (p.25)."}
+    ],
+    "evidence": [
+      {"partial": ["E1", "E5"], "note": "'Over 50 million tweets from late 2020' (abstract) without dates or split; three topics without conspiracy or the classification method."},
+      {"match": ["E1"], "note": "Country split given; dates are in the quote, 'late 2020' in the previous entry."},
+      {"partial": ["E3"], "note": "Two-step profile/activity classifier; validation against election results and voter records not mentioned."},
+      {"partial": ["E2"], "note": "C-index as average pairwise distances between embedded partisan users: the p.4 description, cut short (no normalization, no left/right separation). True as far as it goes, not flagged."},
+      {"partial": ["E2"], "note": "RoBERTa embeddings of tweets averaged into user-level topic embeddings (p.4, p.10). Together with the previous entry it covers E2, but each gives one half."},
+      {"match": ["E4"], "note": "Geolocation from profiles; quote is the geocoding detail (p.6)."},
+      {"match": [], "misplaced": ["F2"], "note": "U.S. vaccination finding placed in evidence."},
+      {"match": [], "misplaced": ["F3"], "note": "Event spikes placed in evidence."},
+      {"match": [], "unlisted": true, "note": "Subsampling approximation of the polarization index (p.11). Accurate; not in the gold."}
+    ],
+    "key_findings": [
+      {"partial": ["F1"], "note": "Abstract wording ('significantly higher in both'), true to the paper; no masks/vaccines vs lockdowns split, no Canadian non-significance. Quote is the vaccination sentence. No B1 catch."},
+      {"partial": ["F2"], "note": "U.S. half of F2, with r in the quote."},
+      {"partial": ["F3"], "note": "Event-linked spikes without the few-days duration."},
+      {"partial": ["F5"], "note": "Weaker Canadian association between conservatism and polarization (second half of F5; also F1's Canada part). Lower overall Canadian polarization not stated."},
+      {"partial": ["F2", "F4"], "note": "Conclusion wording (p.25): Canada weaker on vaccination (F2's second half) and conspiracy (F4's Canada half), with no detail."}
+    ],
+    "scope_and_limits": [
+      {"match": ["L6"]},
+      {"match": ["L6"], "note": "Non-causation of discourse on vaccine uptake, which the paper states (p.16, p.25); duplicates the previous entry. Quote (implications for researchers) does not support it."},
+      {"match": [], "note": "Not a limitation the paper states; the quote (Canadian vaccination pattern) does not say this."},
+      {"match": ["L2"], "note": "Twitter data may not capture the broader public (p.24); the engaged/partisan reason is not given but the substance is L2."}
+    ],
+    "theoretical_positioning": [
+      {"match": ["T1"], "note": "Text-based method set against network and lexicon approaches. 'Static' lexicon strategies and 'contrasting' are the note's framing (the paper says embeddings complement lexicon methods); not flagged. No T0."},
+      {"match": ["T2"], "partial": ["T3"], "note": "Research on polarization and public health responses (T2); builds on prior studies and adds geographic and temporal granularity (T3, without agreeing that right-leaning regions were more divided)."}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "flags": [{"type": "wrong direction", "gold": "F4", "text": "Says the paper disputes the claim that conspiracy discourse and polarization are unrelated in Canada; the paper itself finds no significant correlation in Canada (r = 0.023, p = 0.831, p.22). It contrasts that result with ref. 94's reduced negative sentiment (p.24), which the note does not state."}], "note": "No credit for I3: ref. 94's claim is in the quote but not in the claim."}
+    ]
+  }
+}

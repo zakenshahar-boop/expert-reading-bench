@@ -1,0 +1,149 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as what the paper argues, but its subject is the spillover of the 'convicted criminal' label onto perceptions of people with records (Q1), as the p.2 quote on social categorization says. No positive alternative is named, so no misplaced C2."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the ad's harm to perceptions and the improvement in feelings of representation (abstract wording); omits the counter-narrative's offset."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E2: total N and the three named arms (the arm counts are in the quote; treated as detail, as the earlier judge did for 'roughly evenly' without counts). E1 partial: survey experiment with self-identified Democrats, without pre-registration, Prolific or the dates."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "The counter-narrative's amelioration of the ad's effect on perceptions is the finding F2, placed in evidence. Keeps 'before the advertisement' implicitly via 'ameliorated the negative effects of the ... advertisement'."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the study found the ad significantly reduced perceived public-service motives of elected officials. The paper finds the opposite: the ad increased belief that officials are motivated by public service over self-interest (p.11, beta = 0.130; p.15). The quote is the pre-registered hypothesis 2B (p.7), not a result."
+          }
+        ],
+        "note": "No credit."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "The 0.83 SD decrease from the ad is correct (p.11, beta0 = -0.835), though the quote given is the counter-narrative estimate (beta2 = 0.83). The quote is in the paper, so the entry is credited."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'The counter-narrative significantly increased perceived value of representation' drops that the counter-narrative was shown before the ad and compared with the ad alone; there was no counter-narrative-only arm (p.10, p.16). The quote keeps the comparison."
+          }
+        ],
+        "note": "H1C, 0.79 SD (p.11): accurate with its comparison, not a gold answer (as the earlier judge ruled)."
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Drops 'relative to the advertisement alone': every counter-narrative estimate is against the ad-alone arm (p.11, p.16). The quote keeps the comparison."
+          }
+        ],
+        "note": "F5, -0.33 SD (p.11)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives durability only (and only for the counter-narrative); L5 also covers single vs repeated exposure and behavior."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives the gap to behavior (voting vs self-reported attitudes). Not joined with entry 0: single versus repeated exposure is still missing, as in the earlier judge's ruling on the same pair."
+      },
+      {
+        "match": [
+          "L10"
+        ],
+        "partial": [
+          "L6"
+        ],
+        "note": "L10: says the findings may not extend beyond Democrats because the sample was a specific demographic. L6 partial: 'specific ... time frame' gestures at the timing limitation without saying it was fielded after the election. The paper's own sentence (p.17) is about other contexts and less transparent designs."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "'Does not fully disentangle' is softer than the paper's 'not possible to disentangle' (p.17); same substance."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Describes the theory and its spillover prediction; no stance (applies/extends) stated, as with the earlier judge's similar entry."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting as the grounding for the counter-narrative (p.3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "The disputed claim, that stigmatizing language can be used effectively to win support, is the Democratic Party's implied strategy (neutral I-b1), not a peer's claim. The quote is about negative ads being used less by poll leaders, which the claim does not state."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says the paper refutes the idea that policy support and perceptions are aligned 'by showing' that stigmatizing language worsens perceptions despite policy support. The paper measures no policy support; it takes the gap between policy support and perceptions of beneficiaries as a premise from the social safety net literature (p.3) and builds on it rather than refuting anyone."
+          }
+        ],
+        "note": "No gold answer; nearest is the motivated-reasoning suggestion (T3), which the entry does not state."
+      }
+    ]
+  }
+}

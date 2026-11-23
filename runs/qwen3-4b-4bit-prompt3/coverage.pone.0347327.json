@@ -1,0 +1,265 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "note": "Not a position the paper argues against; quote not verbatim."
+      },
+      {
+        "match": [],
+        "note": "Background, not the paper's question."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": "F4",
+            "text": "The quote reads 'In Canada, we found a small but significant negative correlation between conspiracy discourse and aggregate polarization'. The paper reports that correlation for the United States and none for Canada. The quote is not in the paper."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "note": "Quote not verbatim; not the paper's question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "A finding; quote not verbatim."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Quote not verbatim."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F5"
+        ],
+        "note": "Uses the conclusion's sentence about stronger correlations in the United States."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "note": "F3 again, given as evidence."
+      },
+      {
+        "match": [],
+        "note": "A finding, quote not verbatim."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E2"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "note": "Quote not verbatim."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ]
+      },
+      {
+        "match": [],
+        "note": "Quote not verbatim."
+      },
+      {
+        "match": [],
+        "note": "Quote not verbatim."
+      },
+      {
+        "match": [],
+        "note": "Quote not verbatim."
+      },
+      {
+        "match": [],
+        "note": "Quote not verbatim."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "'The paper attributes to prior research the claim that public health measures are implemented uniformly across regions regardless of political ideology.' No such claim is attributed to anyone in the paper."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "'The paper attributes to prior research the claim that online polarization has no impact on public health outcomes.' No such claim is attributed to anyone in the paper."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "'The paper attributes to prior research the claim that conspiracy theories have no significant role in shaping public health discourse.' No such claim is attributed to anyone in the paper."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "'The paper attributes to prior research the claim that public health responses are uniform across all regions.' No such claim is attributed to anyone in the paper."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 contained in Q3, not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 activity/reach question (p.2), accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations, the distinctive part of F1."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Reach is hedged with 'may'; 'not confined to fringe audiences' paraphrases the abstract's 'do not simply cater to fringe audiences'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "E2: the two numbers are listed side by side, not joined. E3: YouGov US panel, 2019 to 2021, without the six waves."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Validation against 2,469 hand-labeled posts, 74% accuracy (p.7), accurate."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate survey measures, treated separately (p.4, p.8)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate leader thermometer measure (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate controls (p.9-10)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Also names multiplicity corrections and count models."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1",
+          "F7"
+        ],
+        "note": "F1: positive significant associations after controls, without the strongest indicators (those are in central_claim[0]). F7: above 0.2, without the comparison to education and participation."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Posts and followers; friends not mentioned."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Non-causal moderation (p.14); a repeat of L2, not L8, since it does not say the moderation is exploratory outside participation."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Also accurately notes it is not a hate-speech measure (p.7)."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the literatures is the paper's stance, not a limitation."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "The revisionist 'negative side of engagement' perspective extended to online hostility."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Classical engagement theory [17,19] (p.15); motivated reasoning / darker sides repeats T2."
+      },
+      {
+        "match": [
+          "T4"
+        ],
+        "note": "Further explanation alongside, not replacing, grievance and personality accounts."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Says the paper 'disputes' the classical view that engagement is a boon to democracy. The paper qualifies it: it notes the classical literature itself acknowledged engagement 'could go too far' (p.4) and extends the revisionist view, finding engagement 'may be associated with rather than diminish' hostility."
+          }
+        ],
+        "note": "Classical refs 17-19 are Nie et al., Verba, Schlozman and Brady, and Brady et al. (checked in paper.xml). 'Disputes' tilts the paper's qualifying stance; credit kept with a mild flag."
+      },
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Refs 21 and 47 are Leeper and Slothuus, and Taber and Lodge; the knowledge point is refs 48-49 of the same literature. Same call as the calibration note."
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      },
+      {
+        "match": [
+          "I4"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Siegel is ref 6 (checked)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Osmundsen et al. [53] (checked), accurate; not a gold interlocutor."
+      },
+      {
+        "match": [],
+        "note": "Ref 83 (bidirectional hostility-extremity association). Resembles rejected I-x1 but keeps the paper's associational wording and correctly says it is cited as consistent with reciprocal influences (a limitations caveat). No credit (a limitations citation is not an interlocutor claim per protocol); not flagged since accurate, and not marked unlisted because the gold explicitly rejected it."
+      }
+    ]
+  }
+}

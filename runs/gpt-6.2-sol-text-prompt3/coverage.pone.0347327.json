@@ -1,0 +1,241 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The method as a contribution."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1",
+          "F5"
+        ],
+        "partial": [
+          "F6"
+        ],
+        "misplaced": [
+          "C1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reports the positive Canadian correlation from the supplementary figure instead of the abstract's 'weaker', without pointing out that the abstract says otherwise. No bonus recorded; for the labeler to confirm."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L9"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I6"
+        ]
+      }
+    ]
+  }
+}

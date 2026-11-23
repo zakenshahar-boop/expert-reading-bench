@@ -1,0 +1,238 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "The gap about which users produce hostility (p.1, p.3)."
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The third analysis (activity and reach, p.2), accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations, the distinctive part of F1."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Keeps the paper's 'may give them greater reach'; no flag."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Both numbers given; 'their public posts' refers to the YouGov panelists, as the paper's 'posts from our panelists', with 2,567 in parentheses, so not read as a joining of the two numbers and not flagged (a closer call than the explicit 'from 2,567 panelists' flagged elsewhere). YouGov and the 2019-2021 period are part of E3; six waves not mentioned."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "SU word-embedding score named without the cosine similarity or per-user averaging; AFINN and Perspective API robustness measures (plus the supervised classifier) are E6."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of survey measures, thermometer and Big Five controls (p.8-9)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Pooled OLS and RI-CLPM, plus the negative-binomial count models."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F4"
+        ],
+        "partial": [
+          "F1",
+          "F7"
+        ],
+        "note": "Positive significant associations after controls without naming the strongest indicators (F1 partial); above 0.2 without the comparison to the education-participation association (F7 partial); largest for the political hostility measure (F4)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Descriptive 14 vs 4 split plus the formal moderation being clearest, and surviving FDR, mainly for participation: the partial qualification is kept."
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "note": "'May be reciprocal' is the paper's wording (p.15)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Omits 'to a lesser extent' for friends; full match as for similar entries."
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Non-causal reading applied to the moderation analyses; a repeat of L2, not L8, since it does not say the moderation is exploratory outside participation."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "States that the causal relations among the indicators are not established, with the education caveat."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "The hate-speech remark is accurate (p.7)."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the literatures is the paper's stance, not a limitation."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Classical theories of engagement [17,19] (T1) combined with the darker-sides work (T2, already credited)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": null,
+            "text": "Says the authors 'revise the classical treatment of engagement as a single resource construct'. The paper says treating the indicators separately 'follows the theoretical framework above' (p.8) and only notes that some studies [18,19] investigate the relationships among the indicators (p.4); it does not attribute a single-construct treatment to classical theory or claim to revise it."
+          }
+        ],
+        "note": "Treating the indicators separately is accurate (unlisted elsewhere), but the stance word is stronger than the paper."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Ref. 6 is Siegel (checked in paper.xml)."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "partial": [
+          "I4"
+        ],
+        "note": "Refs 14 and 15 are Petersen, Osmundsen and Arceneaux, and Bail (correct). Correct 'also' stance; the personality account is not specified as the small-segment, extreme-traits finding."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Refs 48 and 49 are Kam, and Slothuus and de Vreese (correct)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref. 53 is Osmundsen et al. (correct); the misinformation-sharing precedent (p.4) is accurate but not a gold interlocutor."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Refs 18 and 19 are Verba, Schlozman and Brady (correct); motivates the reach analysis (p.15), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref. 83 is Hebbelstrup Rye Rasmussen and Petersen (correct). This is the citation behind rejected I-x1, but the entry keeps 'bidirectionally related' (association, not 'influence each other') and correctly says it is cited for the possibility of reciprocal influences, as in the limitations (p.16); not flagged. Not an interlocutor by the protocol's rule, so no credit."
+      }
+    ]
+  }
+}

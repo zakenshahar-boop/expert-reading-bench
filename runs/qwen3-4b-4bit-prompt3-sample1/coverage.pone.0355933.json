@@ -1,0 +1,175 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as what the paper argues, but its subject is the spillover of the 'convicted criminal' advertisement onto perceptions of people with records (Q1); same call as the calibration note's question entry [0]."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the ad's harm to perceptions and its improvement of feelings of representation; omits the counter-narrative's offset."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E2: total N and the three arms (counts in the quote). E1 partial: survey experiment with U.S. Democrats, without pre-registration, Prolific or dates."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3 (formerly incarcerated legislator Jovan Jackson; the quote names the news article). The ad stimulus is not described."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Five-item perceptions index with alpha 0.71: one part of E4. Reliability reported without calling it a limitation, so no L7."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "The counter-narrative's increase relative to the ad alone is F2, a finding in the evidence slot. Keeps the comparison, so no flag."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E7"
+        ],
+        "note": "Only quote NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4",
+          "F5"
+        ],
+        "note": "F4 (reduced ad support) and F5 (reduced perceived quality of Democratic representation, vs the ad alone per the quotes). The first quote is in the paper, so the entry is grounded; the F5 quote is not in the paper."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Only quote NOT IN PAPER."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'The counter-narrative significantly increases positive perceptions' drops that it was shown before the ad and is compared with the ad alone; there was no counter-narrative-only arm (p.16). The quote keeps the qualification."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "note": "H1C (value of representation, 0.79 SD vs ad alone) is accurate to p.11 but not a gold answer; only quote NOT IN PAPER."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F5"
+        ],
+        "note": "Only quote NOT IN PAPER."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives the gap to behavior with self-reports and 'long-term'; the quote lists durability and repeated exposure but the claim states only the behavior part. Same call as the calibration note's behavior-only entry."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "'Does not fully disentangle' is a little softer than 'not possible' (p.17); substance kept."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "T2"
+        ],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": "T2",
+            "text": "Says the paper extends social categorization theory by incorporating perspective-getting. The paper grounds the counter-narrative in separate perspective-getting and counter-stereotype research (p.3, p.15); it does not present it as an extension of social categorization theory."
+          }
+        ],
+        "note": "Partial T2 for perspective-getting as the counter-narrative mechanism; same call as the calibration note's entry that tied the counter-narrative to social categorization theory."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "T2"
+        ],
+        "note": "Only quote NOT IN PAPER."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": null,
+            "text": "Says the paper disputes a claim that stigmatizing messaging increases support for punitive policies. The cited finding (p.2, [11]) is that anger toward people with records is associated with support for punitive policy, and the paper uses it as support for its concern, not something it disputes."
+          },
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says such messaging 'reduces feelings of representation'. The paper finds the ad improved perceived representation (p.1, p.11, p.15)."
+          }
+        ],
+        "note": "No credit."
+      }
+    ]
+  }
+}

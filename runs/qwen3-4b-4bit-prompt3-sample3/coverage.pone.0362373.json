@@ -1,0 +1,139 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "F4"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "Same entry as sample 1. Not a research question: the conventional 'primary determinant' assumption the paper says does not hold in its study (p.16) is I4, an interlocutor answer."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural and demographic factors rather than substance use; 'primarily shaped' and 'rather than' follow the paper (p.13, abstract)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E3",
+          "E2"
+        ],
+        "note": "Only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Lists the measured domains without the specific measures; same call as the earlier judge for this quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3"
+        ],
+        "note": "Only quote is NOT IN PAPER (and concerns multicollinearity, not AMEs)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Null for sender, receiver and homophily; exceptions not named."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note calls sexual orientation homophily 'consistent'; the paper says only 'significant and positive' (p.13), and Table 3 shows it non-significant for one category in School B."
+          }
+        ],
+        "note": "Only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note speaks of 'the absence of a significant association' for depression; the paper reports isolated statistically significant but negligible estimates (AME < 0.001, p.14). It also names 'withdrawal' among non-AI findings where the paper names negative receiver effects and homophily."
+          }
+        ],
+        "note": "Depression half of F4."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity half of F4; the 'suggesting' clause follows the paper's first explanation (p.15)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Only quote is NOT IN PAPER."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'Urban' is not in the paper; harmless extension, as in sample 1."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: kinship and family ties operate outside the school friendship system measured (p.15). Not a gold limit."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T2"
+        ],
+        "note": "SNA/ERGM framework without components (vague T1); 'incorporating cultural context' gestures at T2. 'Extending' not flagged, as with the earlier judge."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1",
+          "I4"
+        ],
+        "note": "Substance use as a primary driver of friendship, observed in non-AI populations, disputed by the paper: overlaps I1 (non-AI link) and I4 (primary-determinant assumption); the restriction of the dispute to this population is not stated."
+      }
+    ]
+  }
+}

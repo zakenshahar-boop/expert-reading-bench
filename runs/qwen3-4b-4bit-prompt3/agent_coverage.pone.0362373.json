@@ -1,0 +1,135 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "Not a question: it states the conventional assumption the paper disputes for this population (I4), as in Task B's central_claim entry 1."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "note": "Negligible associations diverging from heterogeneous-school research is C2 (substance use a weaker organizing principle than in heterogeneous settings); the substance-use half of C1 is the same idea here and is not credited twice. Structural half of C1 absent. Paper p.13 uses 'negligible associations' and 'diverges notably from prior research'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E3",
+          "E2"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have earned E1 (no 'cross-sectional survey'), E3 partial (ERGMs) and E2 partial (247 correctly as the analysis sample)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Structural and attribute terms; the faithful quote supplies ERGMs per school. AMEs not mentioned. 'Influence' follows the paper's own wording on sender/receiver effects (p.4); not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E6"
+        ],
+        "note": "Only quote marked NOT IN PAPER (it is real text truncated with an ellipsis). Would have earned E1 partial (cross-sectional survey) and E6 partial (peer-perception imputation, no sensitivity analysis). 'Non-responders' means item non-response on substance use (p.6), which is accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2",
+          "F3"
+        ],
+        "partial": [
+          "F1"
+        ],
+        "note": "'Primary drivers' is the abstract's wording (F-n1 characterization), quoted; not flagged. Exceptions to the substance null not given here (they are in the next entry)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No consistent sender, receiver or homophily effects with isolated non-replicating exceptions (exceptions not located, which is a detail)."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Both depression and AI identity, with the School C borderline receiver effect correctly qualified."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Only quote marked NOT IN PAPER (real p.15 text, apparently a formatting mismatch). Would have earned F3 partial (no sexual orientation)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "The challenged assumption (risky behavior as a primary basis of relationships) is I4, an interlocutor answer; the substance null itself is already F1. The quote is faithful though only loosely supportive."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L1",
+          "L4"
+        ],
+        "note": "Three schools on one reservation without the generalization consequence (L1 partial); 'single developmental time point' mentions developmental scope but gives the consequence as no longitudinal analysis rather than other ages (L4 partial)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Only quote marked NOT IN PAPER (near-verbatim p.16 text with 'The' for 'our'). Would have earned L3 (cross-sectional, cannot separate selection from influence)."
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "unlisted": true,
+        "note": "Only quote marked NOT IN PAPER (real p.15 text with the citation dropped). Accurate and hedged: the paper says kinship networks lie outside the school friendship system it measured and 'may be' where AI identity shapes ties. Not a gold answer."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Network analysis with ERGM endogenous processes and actor attributes is T1. 'Explicitly challenges the assumptions of prior research on non-AI adolescents' is too vague for T3 (does not say which finding, nor that the structural patterns are replicated); not credited, not flagged since 'challenge assumptions' is the paper's wording."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I1",
+            "text": "The note says the paper disputes that substance use predicts friendship 'in adolescent populations'; the paper accepts the heterogeneous-school findings and disputes only that they hold in its AI-majority schools ('does not hold in our study')."
+          }
+        ],
+        "note": "Citations checked: Table 1 lists Schaefer et al. 2012 and Haas & Schaefer 2014 under alcohol use homophily. Partial because the scope of the dispute is lost."
+      }
+    ]
+  }
+}

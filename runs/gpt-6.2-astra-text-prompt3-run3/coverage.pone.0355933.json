@@ -1,0 +1,259 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E2",
+    "E3",
+    "L5",
+    "L7"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Representation (Q3), plus officials' motives."
+      },
+      {
+        "match": [
+          "Q2",
+          "Q4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Heterogeneity by system-impact status (p.7); accurate, not a gold answer."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F8"
+        ],
+        "note": "All of C1: worse perceptions, better representation, harm nearly eliminated by the narrative first. The size comparison is F8."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Prolific, U.S. Democrats, July 12-13, 2025 (E1; randomization in entry 2, pre-registration in entry 7). Final N 2,439 is part of E2."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Three arms and their order, accurate (p.5); sizes only in the quote. With entry 0's total N this gives E2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Perceptions index, quality of representation, motives and the two-item ad support index; item count of the perceptions index is detail."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "The two single-item representation measures; E4 is already matched in entry 5."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Balance check part is accurate, not gold."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Secondary analyses part is accurate, not gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1",
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3",
+          "F5",
+          "F11"
+        ]
+      },
+      {
+        "match": [
+          "F10",
+          "F9"
+        ],
+        "note": "F10 without the 'not hypothesized' remark; the effect itself is stated. H1C 0.79 SD is accurate, not gold."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says 'the distinction between endorsement and effectiveness mattered'. The paper reports only that both item coefficients were negative and only the support item was significant (p.11); it does not test a difference between the items."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Ad effects larger for system-impacted respondents (p.14); main effect of system-impacted status also accurate."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L10"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability and repeated exposure; behavior is in entry 6."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Behavior; durability and repeated exposure are in entry 5."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Representation measured narrowly; reliability is in entry 9."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Reliability of the perceptions index; representation is in entry 8."
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "Gives the ambiguity but not the author's view that stigma reduction is more likely."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Motivated reasoning used to separate policy support from regard for beneficiaries (p.3). Reported as an argument the paper draws on, not as its framework, so no attribution flag."
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "misplaced": [
+          "T1"
+        ],
+        "note": "Smith and Zarate (ref 20) and Sherman (ref 21) are correctly named; their exemplar claim is the mechanism of social categorization theory (T1), placed in slot 7. One quote ('particularly salient members as exemplars') is not verbatim (the paper reads 'reliance on salient members as exemplars', p.3), but the p.2 and second p.3 quotes are faithful."
+      }
+    ]
+  }
+}

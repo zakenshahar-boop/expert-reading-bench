@@ -1,0 +1,245 @@
+{
+  "paper_id": "pone.0362373",
+  "model": "gpt-4o",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "openai",
+  "harness": [
+    "notes from gpt-4o-text-prompt3 (complete)",
+    "quotes confirmed",
+    "asked for more"
+  ],
+  "model_calls": 10,
+  "seconds": 16.9,
+  "summary": {
+    "quotes found": 21,
+    "pages corrected": 0,
+    "repairs that worked": 4,
+    "repair attempts": 4,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "claims added": 15
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper investigates the role of substance use and other individual characteristics in friendship network formation among American Indian adolescents in reservation schools.\", \"quotes\": [{\"text\": \"This study examines the structural and relational foundations of friendship networks among AI adolescents in their unique cultural context.\", \"page\": 1}]}, {\"claim\": \"The paper challenges assumptions underpinning many network-based prevention programs that risky behaviors like substance use are primary drivers of friendship formation.\", \"quotes\": [{\"text\": \"These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are culturally and contextually grounded in the lived experiences of AI youth.\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Friendship networks among American Indian adolescents in reservation schools are primarily driven by structural mechanisms and demographic homophily, rather than substance use or depression.\", \"quotes\": [{\"text\": \"Results indicated that universal structural mechanisms (reciprocity, transitivity) and demographic homophily (gender, grade, sexual orientation) were primary drivers of friendship.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The study used social network data from 9th and 10th-grade students across three schools on a Northern Plains reservation, employing exponential random graph models (ERGMs) to analyze factors shaping friendship ties.\", \"quotes\": [{\"text\": \"Using social network data from 9th and 10th-grade students (N = 247) across three schools on a Northern Plains reservation, we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties.\", \"page\": 1}]}, {\"claim\": \"The study included a comprehensive cross-sectional social network survey among students.\", \"quotes\": [{\"text\": \"we established partnerships with three schools on a large Northern Plains reservation to conduct a comprehensive cross-sectional social network survey among 9th- and 10th-grade students.\", \"page\": 6}]}, {\"claim\": \"The survey collected demographic information, measures of AI identity, depression, and substance use.\", \"quotes\": [{\"text\": \"The survey consisted of two primary sections: the first collected demographic information, measures of AI identity, depression, and substance use;\", \"page\": 6}]}, {\"claim\": \"The survey collected directed friendship nominations using Network Canvas software.\", \"quotes\": [{\"text\": \"the second collected directed friendship nominations. We used Network Canvas, a software platform designed for collecting social network data\", \"page\": 6}]}, {\"claim\": \"The study used ERGMs to model the probability of friendship tie formation within each school.\", \"quotes\": [{\"text\": \"We employed Exponential Random Graph Models (ERGMs) to model the probability of friendship tie formation within each school\", \"page\": 8}]}, {\"claim\": \"The study uses Exponential Random Graph Models (ERGMs) to analyze friendship networks among AI adolescents.\", \"quotes\": [{\"text\": \"we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties.\", \"page\": 1}]}, {\"claim\": \"The study collected social network data from 9th and 10th-grade students in three schools on a Northern Plains reservation.\", \"quotes\": [{\"text\": \"In our study, we established partnerships with three schools on a large Northern Plains reservation to conduct a comprehensive cross-sectional social network survey among 9th- and 10th-grade students.\", \"page\": 6}]}, {\"claim\": \"The study examines the role of substance use, depression, and AI identity in friendship formation.\", \"quotes\": [{\"text\": \"This study examined how key factors, including substance use, are associated with friendship formation.\", \"page\": 14}]}], \"key_findings\": [{\"claim\": \"Reciprocity and transitivity are significant structural forces in AI adolescent networks.\", \"quotes\": [{\"text\": \"Reciprocity was positive and highly significant in every model, indicating a robust tendency for mutual friendship nominations.\", \"page\": 13}]}, {\"claim\": \"Substance use does not consistently influence friendship formation in AI-majority schools.\", \"quotes\": [{\"text\": \"Substance use demonstrated no consistent or robust association with friendship dynamics in this sample.\", \"page\": 13}]}, {\"claim\": \"Gender and grade homophily are primary axes of friendship formation.\", \"quotes\": [{\"text\": \"Strong and significant homophily was present for gender and grade across all schools, indicating that shared gender identity and grade level are primary axes of friendship formation.\", \"page\": 13}]}, {\"claim\": \"AI identity does not significantly predict friendship formation.\", \"quotes\": [{\"text\": \"AI identity was largely unassociated with sending or receiving ties, with only a borderline positive receiver effect in School C.\", \"page\": 13}]}], \"scope_and_limits\": [{\"claim\": \"The study's findings may not extend to AI youth in racially heterogeneous schools or other reservations.\", \"quotes\": [{\"text\": \"Our findings may not extend to AI youth in racially heterogeneous schools, where Rees, Freng, and Winfree [17] observed different network characteristics.\", \"page\": 16}]}, {\"claim\": \"The study cannot capture changes in network formation and behavior over time due to its cross-sectional design.\", \"quotes\": [{\"text\": \"cross-sectional design imposes a fundamental interpretive limit: a single, simultaneous observation of the network and of individual attributes cannot capture changes in network formation and behavior over time.\", \"page\": 16}]}, {\"claim\": \"The study does not distinguish selection processes from influence processes in friendship networks.\", \"quotes\": [{\"text\": \"cross-sectional ERGMs cannot analytically distinguish selection processes—adolescents choosing friends with similar attributes—from influence processes—friends becoming more similar to one another over time\", \"page\": 16}]}, {\"claim\": \"The study's findings may not apply to other developmental stages of adolescents.\", \"quotes\": [{\"text\": \"Relational patterns among AI youth will likely differ across the life course, especially in the formative adolescent years that are not captured here.\", \"page\": 16}]}, {\"claim\": \"The study's findings may not extend to AI youth in racially heterogeneous schools.\", \"quotes\": [{\"text\": \"The findings of this study are not without their limitations. First, we recognize that the results presented here represent only three schools on one reservation.\", \"page\": 16}]}, {\"claim\": \"The study cannot capture changes in network formation and behavior over time.\", \"quotes\": [{\"text\": \"a single, simultaneous observation of the network and of individual attributes cannot capture changes in network formation and behavior over time.\", \"page\": 16}]}], \"theoretical_positioning\": [{\"claim\": \"The study challenges assumptions underpinning many network-based prevention programs and underscores the need for culturally grounded theories and interventions.\", \"quotes\": [{\"text\": \"These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are culturally and contextually grounded in the lived experiences of AI youth.\", \"page\": 1}]}, {\"claim\": \"The study moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds.\", \"quotes\": [{\"text\": \"this research moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds.\", \"page\": 3}]}], \"interlocutor_claim\": [{\"claim\": \"Rees, Freng, and Winfree found that AI adolescents had fewer reciprocated friendships than White peers in heterogeneous school contexts.\", \"quotes\": [{\"text\": \"One study that did focus specifically on AI youth network characteristics is Rees, Freng, and Winfree [17], who used Add Health to describe AI networks in heterogeneous school contexts, finding that AI adolescents had fewer reciprocated friendships than White peers.\", \"page\": 2}]}, {\"claim\": \"Substance use is often linked to friendship formation and popularity in racially heterogeneous school settings.\", \"quotes\": [{\"text\": \"Most existing research on adolescent networks derives from racially heterogeneous school settings, where substance use is often linked to friendship formation and popularity.\", \"page\": 1}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "scope_and_limits",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"Our findings may not extend to AI youth in racially heterogeneous schools, where Rees, Freng, and Winfree [17] observed different network characteristics.\", \"page\": 16}\n```"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "interlocutor_claim",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"One study that did focus specifically on AI youth network characteristics is Rees, Freng, and Winfree [17], who used Add Health to describe AI networks in heterogeneous school contexts, finding that AI adolescents had fewer reciprocated friendships than White peers.\", \"page\": 1}\n```"
+    },
+    {
+      "step": "more: asked",
+      "slot": "question",
+      "raw": "[{\"claim\": \"The paper challenges assumptions underpinning many network-based prevention programs that risky behaviors like substance use are primary drivers of friendship formation.\", \"quotes\": [{\"text\": \"These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are culturally and contextually grounded in the lived experiences of AI youth.\", \"page\": 1}]}]"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "more: by slot",
+      "slot": "question",
+      "offered": 1,
+      "added": 1
+    },
+    {
+      "step": "more: asked",
+      "slot": "evidence",
+      "raw": "[{\"claim\": \"The study included a comprehensive cross-sectional social network survey among students.\", \"quotes\": [{\"text\": \"we established partnerships with three schools on a large Northern Plains reservation to conduct a comprehensive cross-sectional social network survey among 9th- and 10th-grade students.\", \"page\": 6}]}, {\"claim\": \"The survey collected demographic information, measures of AI identity, depression, and substance use.\", \"quotes\": [{\"text\": \"The survey consisted of two primary sections: the first collected demographic information, measures of AI identity, depression, and substance use;\", \"page\": 6}]}, {\"claim\": \"The survey collected directed friendship nominations using Network Canvas software.\", \"quotes\": [{\"text\": \"the second collected directed friendship nominations. We used Network Canvas, a software platform designed for collecting social network data\", \"page\": 6}]}, {\"claim\": \"The study used ERGMs to model the probability of friendship tie formation within each school.\", \"quotes\": [{\"text\": \"We employed Exponential Random Graph Models (ERGMs) to model the probability of friendship tie formation within each school\", \"page\": 8}]}]"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "more: by slot",
+      "slot": "evidence",
+      "offered": 4,
+      "added": 4
+    },
+    {
+      "step": "more: asked",
+      "slot": "scope_and_limits",
+      "raw": "[{\"claim\": \"The study cannot capture changes in network formation and behavior over time due to its cross-sectional design.\", \"quotes\": [{\"text\": \"cross-sectional design imposes a fundamental interpretive limit: a single, simultaneous observation of the network and of individual attributes cannot capture changes in network formation and behavior over time.\", \"page\": 16}]}, {\"claim\": \"The study does not distinguish selection processes from influence processes in friendship networks.\", \"quotes\": [{\"text\": \"cross-sectional ERGMs cannot analytically distinguish selection processes—adolescents choosing friends with similar attributes—from influence processes—friends becoming more similar to one another over time\", \"page\": 16}]}, {\"claim\": \"The study's findings may not apply to other developmental stages of adolescents.\", \"quotes\": [{\"text\": \"Relational patterns among AI youth will likely differ across the life course, especially in the formative adolescent years that are not captured here.\", \"page\": 16}]}]"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "more: by slot",
+      "slot": "scope_and_limits",
+      "offered": 3,
+      "added": 3
+    },
+    {
+      "step": "more: asked",
+      "slot": "theoretical_positioning",
+      "raw": "[{\"claim\": \"The study moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds.\", \"quotes\": [{\"text\": \"this research moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds.\", \"page\": 3}]}]"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "more: by slot",
+      "slot": "theoretical_positioning",
+      "offered": 1,
+      "added": 1
+    },
+    {
+      "step": "more: asked",
+      "slot": "interlocutor_claim",
+      "raw": "[{\"claim\": \"Substance use is often linked to friendship formation and popularity in racially heterogeneous school settings.\", \"quotes\": [{\"text\": \"Most existing research on adolescent networks derives from racially heterogeneous school settings, where substance use is often linked to friendship formation and popularity.\", \"page\": 1}]}]"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "more: by slot",
+      "slot": "interlocutor_claim",
+      "offered": 1,
+      "added": 1
+    },
+    {
+      "step": "more: asked",
+      "slot": "unquoted pages",
+      "pages": [
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18
+      ],
+      "raw": "```json\n{\n    \"evidence\": [\n        {\n            \"claim\": \"The study uses Exponential Random Graph Models (ERGMs) to analyze friendship networks among AI adolescents.\",\n            \"quotes\": [\n                {\n                    \"text\": \"We employed Exponential Random Graph Models (ERGMs) to model the probability of friendship tie formation within each school, accounting for the inherent interdependence of network observations.\",\n                    \"page\": 8\n                }\n            ]\n        },\n        {\n            \"claim\": \"The study collected social network data from 9th and 10th-grade students in three schools on a Northern Plains reservation.\",\n            \"quotes\": [\n                {\n                    \"text\": \"In our study, we established partnerships with three schools on a large Northern Plains reservation to conduct a comprehensive cross-sectional social network survey among 9th- and 10th-grade students.\",\n                    \"page\": 6\n                }\n            ]\n        },\n        {\n            \"claim\": \"The study examines the role of substance use, depression, and AI identity in friendship formation.\",\n            \"quotes\": [\n                {\n                    \"text\": \"This study examined how key factors, including substance use, are associated with friendship formation.\",\n                    \"page\": 14\n                }\n            ]\n        }\n    ],\n    \"scope_and_limits\": [\n        {\n            \"claim\": \"The study's findings may not extend to AI youth in racially heterogeneous schools.\",\n            \"quotes\": [\n                {\n                    \"text\": \"The findings of this study are not without their limitations. First, we recognize that the results presented here represent only three schools on one reservation.\",\n                    \"page\": 16\n                }\n            ]\n        },\n        {\n            \"claim\": \"The study cannot capture changes in network formation and behavior over time.\",\n            \"quotes\": [\n                {\n                    \"text\": \"The literature highlights the role that school transitions (elementary to middle to high school) play in adolescent networks, but our cross-sectional design imposes a fundamental interpretive limit.\",\n                    \"page\": 16\n                }\n            ]\n        }\n    ]\n}\n```"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties.\", \"page\": 1}\n```"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "more: unquoted pages",
+      "slot": "evidence",
+      "offered": 3,
+      "added": 3
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "scope_and_limits",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"a single, simultaneous observation of the network and of individual attributes cannot capture changes in network formation and behavior over time.\", \"page\": 16}\n```"
+    },
+    {
+      "step": "more: unquoted pages",
+      "slot": "scope_and_limits",
+      "offered": 2,
+      "added": 2
+    }
+  ]
+}

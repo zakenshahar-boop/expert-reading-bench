@@ -1,0 +1,189 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Secondary question about attitudes vs behavior and initial vaccine vs booster; accurate to p.7, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "States the paper's p.8 summary (climate matters more for conservatives than liberals) with the conservative direction for hesitancy and boosting; adds that it did not extend to initial vaccine status, accurate (p.8, p.10)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Policy implications of understanding regional variation among conservatives; accurate to p.10, not a gold answer."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Black/White by income quotas, with the marginalization-project reason; gender cap accurate."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Age range and 519 vaccinated / 365 boosted: accurate to p.5, not in the gold."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Republican share of 2020 vote by zip code, FIPS averaging accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported vaccine and booster status (half of E5); the hesitancy scale is in [7]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Seven adapted AAVS items for hesitancy plus booster items (other half of E5)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "CFA and alpha = .93 for both scales: accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Unadjusted correlations, t-tests and chi-square: accurate, not in the gold."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Linear and logistic models, controls, then the interaction term."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Predicted' is the regression sense; the quote is the paper's 'associated'. Not flagged."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction shape (p.10), accurate; no gold finding covers booster hesitancy alone."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Non-significant initial-vaccine interaction with the mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Mechanism not assessed (L6); also reports social pressure as a possibility, not established, which is T3's hedged suggestion (theoretical_positioning slot)."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Online-platform access only; the Black/White generalization part is in [5]."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Black and White panel sample may not represent the US population."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Combines and extends the individual-ideology and regional-voting literatures by testing their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Hao and Shao (ref. 20) checked: correct. Booster-rate half of I3, with a builds-on stance; the county/state vaccination-rate study (ref. 19) is not mentioned."
+      }
+    ]
+  }
+}

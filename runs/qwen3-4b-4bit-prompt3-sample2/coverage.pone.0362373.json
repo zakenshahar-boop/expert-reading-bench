@@ -1,0 +1,175 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "F4"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I1",
+            "text": "The note says the paper challenges the view that risky behaviors serve as a basis for peer identification in diverse school settings; the paper accepts that pattern for heterogeneous schools (p.4) and disputes only its generalization to AI-majority schools."
+          }
+        ],
+        "note": "Not a research question; the 'primary determinant' assumption is I4."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "As in sample 1: substance-use half of C1, contrast with heterogeneous settings (C2), depression/AI identity nulls (F4). Quote is the abstract's 'rather than risky behaviors'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E3",
+          "E2"
+        ],
+        "note": "Only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "The note says responses were 'verified by trained research team members'; the paper says trained team members administered the survey (p.6) and mentions no verification."
+          }
+        ],
+        "note": "First-hand network survey is the data source (E1) without cross-sectional design, grades or schools; treated like the earlier judge's partial E1 for the tablet-survey entry. Advisory Board review of measures is accurate (p.6)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E5"
+        ],
+        "note": "Only quote is NOT IN PAPER (ellipsis splice)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F5",
+            "text": "The note calls degree-related effects 'strong and consistent drivers' along with reciprocity and transitivity; the paper says degree effects 'were more varied' (indegree significant only in School C, p.13). It also labels the descriptive transitivity levels (31.0-36.5%) as 'significant transitivity'."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Only quote is NOT IN PAPER."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Null for sender, receiver and homophily; exceptions not named, as in the earlier judge's F1 match. 'Weak and non-replicable' fits 'isolated ... did not replicate' (p.14)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Depression half of F4; homophily 'detectable only in Schools B and C' is in the paper (p.13)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note says the AI identity null is 'because' nearly all students share the same racial background; the paper says the null 'is consistent with several contextual considerations' and offers this as the first of three."
+          }
+        ],
+        "note": "AI identity half of F4."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L1",
+            "text": "The note says the study 'does not generalize' to AI youth in heterogeneous or urban schools; the paper says its findings 'may not extend' to AI youth in racially heterogeneous schools (p.16) and does not mention urban schools."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "unlisted": true,
+        "note": "Kinship and family ties lying outside the measured school friendship system is accurate (p.15) but not a gold limit; 'across the life course' touches L4 (p.16) without age or time point. Quote supports only the kinship part."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "note": "SNA/ERGM tradition named without its components (vague T1); 'cultural and contextual specificity' gestures at T2 without the values; 'challenging generalized assumptions from racially heterogeneous research' is the dispute half of T3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I2",
+            "text": "The note says the paper disputes the substance-use claim by 'challenging the findings of Rees, Freng, and Winfree'; Rees et al. reported fewer reciprocated friendships among AI adolescents, not a substance-use link, and the paper builds on them, noting only that their analysis was descriptive (p.2) and citing their different findings in heterogeneous schools as a limit on generalization (p.16)."
+          }
+        ],
+        "note": "Rees et al.'s finding is stated correctly; stance and attribution of the substance claim are wrong."
+      }
+    ]
+  }
+}

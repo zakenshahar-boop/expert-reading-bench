@@ -1,0 +1,230 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E2",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Whether hostile expression goes with the forms of engagement central to democratic citizenship (p.3); the 'not only deprivation or personality' part of Q3 is absent."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question, accurate (p.13), described correctly as in-party versus out-party leader feelings; not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question, posed as a question rather than reported as a result, so not misplaced F3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "Positive association with characteristics valued in democratic citizens (C1), not confined to the marginalized (C2, 'not only', p.15). Presented as an addition, so no C-x2."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Hostile users are more active and have greater potential reach; hedged with 'may help explain', as on p.15."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "YouGov US panel, six waves January 2019 to January 2021, linked to X accounts; 2,567 linked panelists kept apart from the 3,643 X-only maximum."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "The 9.25 million posts, not joined to the 2,567."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the survey measures (p.8-9)."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Lists AFINN and Perspective API among the checks, with the supervised classifier and the component split; validation detail (2,469 posts, 74%) is accurate extra."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Pooled OLS with clustered SEs, controls and imputation; RI-CLPM is in the next entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only; described as testing temporal precedence, not causation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the leader thermometer measure and the split/interaction analyses (p.9, p.13)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Multiplicity corrections (p.10), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Negative-binomial count models (p.10, p.15), accurate."
+      },
+      {
+        "match": [],
+        "neutral": true,
+        "note": "The Danish sample is neutral F-b1; hedged as a 'limited comparison', in line with 'tentative evidence' (p.16)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Political-share control slightly strengthens the results (p.13); alternative measures broadly reproduce the pattern (p.12)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says polarized feelings toward leaders 'strengthened' the associations, giving polarization causal agency. The paper reports the associations as more pronounced among more polarized users and interprets them as 'suggestive evidence of conditional associations, not as causally identified moderation effects' (p.14)."
+          }
+        ],
+        "note": "Clearest for online and offline participation, 8 of 18 interactions survive FDR, not general across indicators: the qualified F2, so no F-x2. Only the verb 'strengthened' tilts it."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'Other national settings' goes slightly beyond the platform caveat but is phrased as 'does not establish', which is accurate for a US-only main sample."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "The non-causal reading applied to the moderation analyses (p.14); a repeat of L2, not L8, as in the calibration."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Outcome excludes nonpolitical toxicity and is broader than hate speech (p.3, p.7, p.8); accurate."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Big Five controls do not test Dark Triad or sadism, not measured (L6); not deciding between grievance and psychological accounts is the stance T4, as in the calibration."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "note": "Classical engagement account (T1), revisionist work on motivated reasoning and polarization (T2), extended to online hostility (T3)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Treating the indicators as separate (p.8); accurate, not a gold framework or stance."
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Reference 20 is Almond and Verba. The 'classical defense of engagement' is mentioned only as what A&V qualify, so I2 is not credited."
+      }
+    ]
+  }
+}

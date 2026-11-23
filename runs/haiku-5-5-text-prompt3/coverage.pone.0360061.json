@@ -1,0 +1,96 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by hand by the assistant on 2026-11-20, one reading, not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E3",
+          "E2"
+        ],
+        "note": "Gives the 2,567 here and the post count in the next entry, kept separate."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "The does-not-adjudicate stance, placed under limits."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

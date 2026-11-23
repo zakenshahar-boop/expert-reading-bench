@@ -1,0 +1,88 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3",
+          "E4"
+        ],
+        "note": "Quote not in the paper as given."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Quote not in the paper as given."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "partial": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Quote not in the paper as given."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

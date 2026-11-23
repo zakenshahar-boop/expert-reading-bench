@@ -1,0 +1,176 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "I3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "Keeps the paper's hedge ('little has examined')."
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Climate matters more for conservatives than liberals (hesitancy, p.8 wording); no direction stated here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Booster half of C1: conservatives in liberal regions more likely boosted (p.10). With [0] states C1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Online nonprobability convenience sample, US, spring 2023; Qualtrics named in [1]. Final N = 683 without the screening figures."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Secondary analysis of the marginalization project, four race-by-income quota groups."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Adapted AAVS hesitancy scale; self-reported status not mentioned. Booster items from a prior survey is accurate extra."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "'Hierarchical' fits the stepwise Models 1-3."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Independently' fits joint models with controls; not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Steeper rise in conservative regions, plus the booster hesitancy pattern; the liberals-low-regardless part of F2 is not stated."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Also states the social-pressure suggestion as an untested possibility (T3), placed in limits."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Rönn, Menzies and Salomon (ref. 19) correct; vaccination-rate half of I3. Shared vote-share measurement is true (p.3)."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Liu and Li (ref. 21) correct."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Hao and Shao (ref. 20) correct; booster-rate half of I3, extended to individual level."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Cowan, Mark and Reich (ref. 18) correct."
+      }
+    ]
+  }
+}

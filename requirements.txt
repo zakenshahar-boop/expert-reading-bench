@@ -1,0 +1,7 @@
+# Scoring, checking and the result tables need only the Python standard library
+# (Python 3.11) and poppler's pdftotext (26.03 was used).
+# The lines below are needed only to produce new model replies.
+anthropic==2.10.0   # Claude models
+openai==3.53.0      # OpenAI models
+mlx-lm==0.32.2      # local models on Apple silicon (mlx 0.32.4)
+pytest              # tests

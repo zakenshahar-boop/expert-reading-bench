@@ -1,0 +1,269 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E2",
+    "E3",
+    "L5",
+    "L7"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Representation by their party/officials (Q3); also adds officials' motives, which the paper names as part of the first purpose (p.4)."
+      },
+      {
+        "match": [
+          "Q2",
+          "Q4"
+        ],
+        "note": "Whether the lawmaker's perspective shown first changes reactions to the ad (Q2), including support for using it (Q4, H1A)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Heterogeneity by system-impact status is a pre-registered supplemental question (p.7); accurate, not a gold answer."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "misplaced": [
+          "F8"
+        ],
+        "note": "Gives the ad's harm to perceptions and gain in representation (C1 without the counter-narrative half, which is in entry 1); the size comparison (0.30-0.34 vs 0.83, p.15) is the finding F8."
+      },
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "note": "Counter-narrative half of C1 ('largely prevented'; paper: 'almost entirely ameliorated'), plus the recommendation to test messaging that gives people with records a voice (C2)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E6"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Prolific online survey of U.S. Democrats, July 12-13, 2025 (E1; randomization in entry 1, pre-registration in entry 5). Attention, ID, code and likely-bot screening (E6). Final N 2,439 is part of E2; the arms are in entry 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "The three arms and the order of exposure, accurate to p.4-5; arm sizes only in the quote. Together with entry 0's total N this gives E2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3 (mugshot with all-caps 'CONVICTED CRIMINAL' label)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3 (lightly edited news excerpt about formerly incarcerated legislator Jovan Jackson)."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Names all six outcomes (perceptions, value, quality of representation, complexity, motives, ad support) and which are indices; item counts are detail."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "OLS with HC-2 robust SEs, unadjusted and with pre-registered covariates."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Manipulation check (E7); balance check is accurate but not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Secondary analyses listed (p.12); accurate, not a gold answer."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1",
+          "F2"
+        ],
+        "note": "Both contrasts with their comparison groups (p.15)."
+      },
+      {
+        "match": [
+          "F3",
+          "F5",
+          "F11"
+        ],
+        "note": "Ad raised Democratic representation and public-service motives (F3); narrative first lowered representation relative to ad alone (F5); motives estimates in both comparisons not robust to Bonferroni (F11). Directions are correct."
+      },
+      {
+        "match": [
+          "F10",
+          "F9"
+        ],
+        "note": "Ad reduced valuation of diverse life experiences (F10; the 'not hypothesized' point is not in this entry but stated in scope entry 11); null on complexity of representation for narrative first (F9, H1E). The 0.79 SD H1C result is accurate but not gold."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says 'disapproving of the tactic was distinguishable from doubting that it worked'. The paper reports only that both item coefficients were negative and only the support item was significant (p.11); it does not test or claim a difference between the two items."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Ad effects larger (more damaging) for system-impacted respondents on several items (p.14); also the accurate main effect of system-impacted status (p.16)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L10",
+          "L3"
+        ],
+        "note": "Sample limited to the party's own constituents, not the electorate (L10); online-panel AI-response uncertainty despite screening (L3)."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability and repeated exposure; the behavior part is in entry 5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Attitudes, not behavior; durability and repeated exposure are in entry 4."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Index reliability only marginally adequate (and the opposite-direction item, accurate); the narrow representation measure is in entry 8."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Representation measured narrowly; the reliability part is in entry 7."
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "Gives the deservingness-versus-stigma-reduction ambiguity but not the author's view that stigma reduction is more likely (that is only in the quote)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: only perceptions and motives were hypothesized for the ad-vs-control comparison (p.10-11). Not a gold limit; overlaps the 'not hypothesized' part of F10 but does not state that finding."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate (p.15): the critique targets the stigmatizing framing, not acknowledging the convictions. Not a limit and not a gold answer."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting plus counter-stereotypical example; extension to representation outcomes is supported by p.17."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate to p.3-4 (narrative addresses both affective and policy representation). Does not state I5's claim that policy matters more than affect, so not misplaced I5."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a tentative interpretation."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Grüning and Schubert is ref 33, correctly named. 'Builds on' rather than the gold's 'qualifies'; the entry frames it as the rationale whose costs the paper examines, which is close enough to the paper's use; no stance flag."
+      }
+    ]
+  }
+}

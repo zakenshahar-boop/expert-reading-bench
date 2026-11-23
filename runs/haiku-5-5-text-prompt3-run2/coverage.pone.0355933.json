@@ -1,0 +1,123 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E1"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ],
+        "note": "Same as the calibration note: spillover to perceptions and representation, and whether the counter-stereotype offsets it."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Survey experiment with U.S. Democrats; Prolific and July 2025 are in entry 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Prolific, July 2025, Democrats; with entry 0 it gives E1 at the level the calibration note credited in full."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Both stimuli described; the quote grounds the counter-narrative half."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Same as the calibration note: 'almost entirely offset' when it preceded the ad."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says both outcomes were ones 'the authors did not expect to move'. The ad's effect on public-serving motives was pre-registered (H2B, p.7, predicting a decrease) and the paper reports H2B as supported (p.11); only representation quality and value of diversity were not hypothesized (p.11)."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ],
+        "note": "Durability and behavior (L5; repeated exposure not named), and post-election fielding (L6)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "note": "One quote is NOT IN PAPER (missing bracketed citation); the p.1 quote is faithful, so credited."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Authors named correctly (refs 8-10)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {"match": ["Q1"], "note": "Phrased as what the paper argues rather than as a question, but its subject is the spillover of the 'convicted criminal' label onto perceptions of people with records (Q1); the paper itself speaks of labels spilling over (p.1-2), so no label-isolation flag."}
+    ],
+    "central_claim": [
+      {"match": [], "partial": ["C1"], "note": "Gives the harm to perceptions and the improvement in representation (abstract wording); omits that the counter-narrative almost entirely removed the harm."}
+    ],
+    "evidence": [
+      {"match": ["E2"], "partial": ["E1"], "note": "E2: 2,439 participants and the three arms (counts in the quote). E1 partial: survey experiment with Democrats, without pre-registration, Prolific or the dates."},
+      {"match": [], "misplaced": ["F2"], "note": "A finding (counter-narrative offset the ad's harm, kept as 'ameliorated the negative effects of the advertisement') placed in the evidence slot. The incidental description of the counter-narrative is not credited as E3."},
+      {"match": [], "partial": ["E4"], "note": "Describes only the five-item perceptions index (alpha 0.71, p.6); one part of E4. Reporting the alpha is not stating the L7 limitation."},
+      {"match": [], "ungrounded": [], "flags": [
+        {"type": "wrong direction", "gold": "F3", "text": "Says the ad reduced perceived public-service motives of officials. The paper finds the ad increased the belief that officials are motivated by public service (p.11, beta = 0.130)."},
+        {"type": "made up", "gold": "F3", "text": "The quote turns the wording of pre-registered hypothesis H2B (p.7, 'will significantly decrease') into a reported result ('significantly decreased'), which reverses what the paper found."}
+      ], "note": "Quote not in paper; no credit either way."},
+      {"match": [], "ungrounded": ["E7"], "note": "Would earn E7; the quote is marked NOT IN PAPER (it is a close paraphrase of p.10, 'emotional response' rather than 'reaction', and does not change the meaning, so no flag)."}
+    ],
+    "key_findings": [
+      {"match": ["F1"], "note": "The claim (ad decreased perceptions by 0.83 SD) is correct (p.11, beta = -0.835), but the quote given is the counter-narrative's +0.83 estimate (F2). The quote is in the paper, so the entry counts as grounded."},
+      {"match": [], "unlisted": true, "note": "Counter-narrative raised the value of representation by 0.79 SD relative to the ad alone (H1C, p.11): accurate, not a gold answer. The claim omits 'relative to the ad alone' but the quote keeps it; not flagged, as in Task B for outcomes other than perceptions."},
+      {"match": ["F5"], "note": "Claim omits 'relative to the ad alone'; the quote keeps it."},
+      {"match": [], "flags": [{"type": "wrong direction", "gold": "F3", "text": "Says the ad increased perceived self-interest motives. The paper finds the ad increased the belief that officials serve the public over self-interest (p.11, beta = 0.130), which is what the entry's own quote says."}], "note": "Earns nothing. The quote is the paper's text (marked NOT IN PAPER, likely a transcription mismatch) and is not invented, so no made-up flag."},
+      {"match": [], "flags": [{"type": "wrong direction", "gold": "F6", "text": "Says system-impacted respondents were more positive 'especially when exposed to the stigmatizing advertisement'. The paper finds the ad was significantly more damaging for system-impacted respondents, so their advantage was largest without the ad (p.14, 'When not reminded of Trump as a benchmark'), as the entry's own quote says."}], "note": "The main effect of system-impacted status (more positive perceptions, p.12) is accurate but not a gold answer; the heterogeneity it states is reversed, so no F6 credit."}
+    ],
+    "scope_and_limits": [
+      {"match": [], "partial": ["L5"], "note": "Gives durability only (behavior is in the next entry)."},
+      {"match": [], "partial": ["L5"], "note": "Gives the gap to behavior; durability is in the previous entry."},
+      {"match": ["L10"], "note": "Names the restriction to Democrats and its consequence (results may not generalize to non-Democrats). 'Time frame' is too vague to earn L6."},
+      {"match": ["L2"]}
+    ],
+    "theoretical_positioning": [
+      {"match": ["T1"]},
+      {"match": ["T4"]},
+      {"match": ["T2"], "note": "Perspective-getting as the grounding of the counter-narrative (p.3)."}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "neutral": true, "note": "The position that stigmatizing language can effectively promote political support is the Democratic Party's implied strategy (I-b1), not a peer's claim. The quote about negative ads being used less by poll leaders does not state I2 and the claim does not either."},
+      {"match": [], "flags": [
+        {"type": "wrong direction", "gold": "F3", "text": "Says the paper shows the stigmatizing ad decreases perceived public-service motives. The paper finds the ad increased them and increased feelings of representation (p.11, p.15)."},
+        {"type": "made up", "gold": null, "text": "Attributes to others an 'assumption that stigmatizing language increases perceived representation' which the paper challenges; no scholar in the paper holds it, and the paper's own result is that the ad did increase representation."}
+      ], "note": "No credit. The quote is the paper's text (marked NOT IN PAPER) and contradicts the claim."},
+      {"match": [], "note": "The disconnect between policy support and perceptions of beneficiaries is the paper's own background argument (p.3, social safety net example), not a claim attributed to peers it refutes; the study does not measure policy support. Related to T3 but omits motivated reasoning, so no credit."}
+    ]
+  },
+  "joined": []
+}

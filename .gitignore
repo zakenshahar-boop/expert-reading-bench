@@ -1,0 +1,11 @@
+# Copyrighted source PDFs: local use only, never committed
+/papers/
+.DS_Store
+*.log
+__pycache__/
+.pytest_cache/
+
+.env
+.env.*
+!.env.example
+.venv/

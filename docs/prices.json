@@ -1,0 +1,11 @@
+{
+ "checked": "2026-11-22",
+ "unit": "US dollars per million tokens, standard rates, no caching or batch discount",
+ "models": {
+  "claude-opus-5-5": {"input": 4.00, "output": 20.00, "source": "https://platform.claude.com/docs/en/about-claude/pricing"},
+  "claude-haiku-5-5": {"input": 0.10, "output": 0.50, "source": "https://platform.claude.com/docs/en/about-claude/pricing", "note": "rate for prompts up to 100,000 tokens; every prompt here is shorter"},
+  "gpt-6.2-astra": {"input": 8.00, "output": 40.00, "source": "https://developers.openai.com/api/docs/pricing"},
+  "gpt-6.2-sol": {"input": 2.00, "output": 10.00, "source": "https://developers.openai.com/api/docs/pricing"},
+  "gpt-4o": {"input": 2.50, "output": 10.00, "source": "https://developers.openai.com/api/docs/models/gpt-4o"}
+ }
+}

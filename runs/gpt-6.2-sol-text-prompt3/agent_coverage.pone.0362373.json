@@ -1,0 +1,294 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "Q1",
+    "E3",
+    "E5",
+    "F4"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Whether the substance use-friendship links found in racially mixed schools appear in AI-majority schools (Q2), i.e. the role of substance use in tie formation (Q3); substance use part of Q1."
+      },
+      {
+        "match": [
+          "Q4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Depression part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "AI identity part of Q1; 'without a directional hypothesis' is accurate (p.5)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Demographic part of Q1."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Mutual ties, friends-of-friends and shared demographics organized networks more consistently than substance use; depression and AI identity clause from the abstract."
+      },
+      {
+        "match": [
+          "C3"
+        ],
+        "note": "Network-based prevention should not presume friendships are organized by substance use, with strengths-based, AI-tailored approaches (p.16). School-specific calibration is the paper's p.16 hedged wording ('may need')."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2",
+          "E7"
+        ],
+        "note": "Cross-sectional survey in three Northern Plains reservation schools (E1); 263 respondents and 247 with complete network data, with the analysis counts 49/128/70 correctly paired (E2); school types (E7)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Two-part survey, Network Canvas, advisory boards: accurate, not in the gold (nominations detailed in the next entry)."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Up to ten close friends; directed network among responding 9th and 10th graders."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Binary ever-use substance items."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Peer-perception rule and the sensitivity analysis excluding those cases."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Six CES-D questions, 0 to 3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Six adapted affirmation and belonging items (MEIM in the quote)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "How demographics were coded and their two roles (p.8): accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Descriptive prevalence and network statistics (p.12-13): accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "School-specific ERGMs and the structural terms."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Base and substance-specific models."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "AMEs for comparison across schools."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Estimation and diagnostics (p.9, p.12): accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ],
+        "note": "Overcontrol check with substance-only models; accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2",
+          "F5"
+        ],
+        "note": "Reciprocity and closure consistent across schools (F2); outgoing ties centralized everywhere, incoming only in School C (F5)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Sexual orientation homophily with its varying support across schools and groups, accurate to Table 3."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Both exceptions located; marijuana homophily described as weaker evidence."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Depression half of F4, with the negligible homophily."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity half of F4; borderline School C receiver effect correctly qualified."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Also reports the School B significance changes in the sensitivity analysis, accurate (p.7)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Built from the paper's hedged explanations of the AI identity null (p.15); the note keeps 'not necessarily' and 'may'. Not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Future research on community contexts and local governance (p.17); not L-x1."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "p.17 call for research on using friendship patterns in interventions; accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Data ownership and the agreement not to name the Tribe come from the data availability statement (p.2 margin): accurate, but not a limit on the findings and not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Conventional adolescent network analysis (T1, vaguely) combined with the cultural argument, reported as 'potential influences' (T2)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Prior findings as benchmarks rather than assumed to transfer, structural mechanisms retained: the testing and replication part of T3; 'extends' not flagged. Demographic replication and the substance use dispute not here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Challenges the risky-behavior assumption for the schools studied while leaving other settings open: the disputing part of T3 (content also I4). Not joined with entry 1: demographic replication is not stated."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Ref 13 is Ali, Amialchuk & Nikaj 2014 on alcohol (Add Health): attribution correct. Receiver effect only; homophily half of I1 missing."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Depression framing and the negligible result."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 9 is Goodreau, Kitts & Morris: attribution correct; the paper says its reciprocity is 'consistent with' that work (p.14). I5 is gender and grade homophily, not reciprocity; not credited."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 1 is McFarland et al.: attribution correct, and the note keeps the paper's 'consistent with'/'aligns with'. Not a gold answer."
+      }
+    ]
+  }
+}

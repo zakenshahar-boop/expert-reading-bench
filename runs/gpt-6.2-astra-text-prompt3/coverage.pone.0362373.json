@@ -1,0 +1,202 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3",
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q4"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "An implication: schools on one reservation differ."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E7",
+          "E2",
+          "E1"
+        ],
+        "note": "Names the stage for each count: 263 survey respondents, 247 with complete network data."
+      },
+      {
+        "match": [
+          "E4",
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Gives both exceptions and calls marijuana homophily marginal."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "'Revise rather than reject network-based prevention': about prevention programs, not network theory."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      }
+    ]
+  }
+}

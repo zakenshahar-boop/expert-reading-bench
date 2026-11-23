@@ -1,0 +1,247 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E2",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Alongside the factors emphasized by grievance and personality accounts' is Q3's 'not only ... but also'; Q1 contained."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question (p.13), accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question (p.5), accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "Positively associated with engagement; not solely marginalization or personality; forms of engagement valued as democratic citizenship."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "YouGov US six-wave panel linked to X activity, Jan 2019 to Jan 2021; 2,567 linked and 3,643 X-only kept apart. The post count is in evidence[1]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "9,250,180 posts, not joined to the 2,567."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Expert-label validation (p.7), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Further validation checks (p.7-8), accurate."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "AFINN and Perspective API, plus the components and the supervised classifier."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Education and efficacy measures (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Interest and knowledge measures (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Participation batteries (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Indicators analyzed separately; factor analysis (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Leader thermometer measure (p.9), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Controls (p.10-11), accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Pooled OLS only; RI-CLPM is in evidence[14]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Moderation design (p.13), accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only; OLS is in evidence[12]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Negative-binomial count models (p.10, p.15), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Multiple-testing corrections (p.10), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Data availability (p.2, p.6), accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F4",
+          "F6"
+        ],
+        "note": "Larger for the political hostility measure than AFINN/Perspective (F4); persists after the share-of-political-posts control (F6)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Often stronger', clearest for participation, 8 of 18 survive FDR: keeps the partial qualification."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Danish evidence kept as tentative inside the limitation."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "The non-causal reading of the moderation analyses (p.5); a repeat of L2, not L8, since it does not say the moderation is exploratory outside participation."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Scope of the construct: political differences only, not hate speech (p.2, p.3, p.7); accurate."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not deciding between grievance and personality accounts is the T4 stance (misplaced); the Big Five / Dark Triad caveat is L6."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "note": "Classical engagement theory combined with revisionist work on the costs of engagement, extended from misinformation sharing to hostile expression."
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Ref. 20 is Almond and Verba."
+      }
+    ]
+  }
+}

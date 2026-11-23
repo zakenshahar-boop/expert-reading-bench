@@ -1,0 +1,606 @@
+{
+ "note": "Do not open before labeling. 'hand' is the assistant's earlier matching, 'agent' the Claude Opus 5.5 agents' matching: credit within the answer's own slot (1 full, 0.5 half, 0 none).",
+ "seed": 20261122,
+ "items": [
+  {
+   "n": 1,
+   "model": "GPT-6.2 Sol",
+   "run": "gpt-6.2-sol-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "theoretical_positioning",
+   "gold_id": "T3",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 2,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "key_findings",
+   "gold_id": "F3",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 3,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "key_findings",
+   "gold_id": "F7",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 4,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "scope_and_limits",
+   "gold_id": "L1",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 5,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "key_findings",
+   "gold_id": "F2",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 6,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "theoretical_positioning",
+   "gold_id": "T1",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 7,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "evidence",
+   "gold_id": "E6",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 8,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "key_findings",
+   "gold_id": "F8",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 9,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "key_findings",
+   "gold_id": "F1",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 10,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "theoretical_positioning",
+   "gold_id": "T1",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 11,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "central_claim",
+   "gold_id": "C1",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 12,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "scope_and_limits",
+   "gold_id": "L3",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 13,
+   "model": "Qwen3 4B",
+   "run": "qwen3-4b-4bit-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "interlocutor_claim",
+   "gold_id": "I3",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 14,
+   "model": "GPT-6.2 Sol",
+   "run": "gpt-6.2-sol-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "interlocutor_claim",
+   "gold_id": "I3",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 15,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "question",
+   "gold_id": "Q3",
+   "hand": 0.0,
+   "agent": 1.0
+  },
+  {
+   "n": 16,
+   "model": "GPT-6.2 Sol",
+   "run": "gpt-6.2-sol-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "central_claim",
+   "gold_id": "C1",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 17,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "central_claim",
+   "gold_id": "C2",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 18,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "key_findings",
+   "gold_id": "F1",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 19,
+   "model": "Qwen3 4B",
+   "run": "qwen3-4b-4bit-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "key_findings",
+   "gold_id": "F6",
+   "hand": 0.5,
+   "agent": 0.0
+  },
+  {
+   "n": 20,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "theoretical_positioning",
+   "gold_id": "T3",
+   "hand": 0.0,
+   "agent": 0.5
+  },
+  {
+   "n": 21,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "scope_and_limits",
+   "gold_id": "L4",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 22,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "interlocutor_claim",
+   "gold_id": "I3",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 23,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "key_findings",
+   "gold_id": "F2",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 24,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "scope_and_limits",
+   "gold_id": "L7",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 25,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "interlocutor_claim",
+   "gold_id": "I1",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 26,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "evidence",
+   "gold_id": "E2",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 27,
+   "model": "Qwen3 4B",
+   "run": "qwen3-4b-4bit-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "interlocutor_claim",
+   "gold_id": "I6",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 28,
+   "model": "GPT-6.2 Sol",
+   "run": "gpt-6.2-sol-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "key_findings",
+   "gold_id": "F5",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 29,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "evidence",
+   "gold_id": "E2",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 30,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "scope_and_limits",
+   "gold_id": "L9",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 31,
+   "model": "GPT-6.2 Sol",
+   "run": "gpt-6.2-sol-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "theoretical_positioning",
+   "gold_id": "T3",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 32,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "theoretical_positioning",
+   "gold_id": "T1",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 33,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "evidence",
+   "gold_id": "E3",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 34,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "question",
+   "gold_id": "Q3",
+   "hand": 0.0,
+   "agent": 1.0
+  },
+  {
+   "n": 35,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "question",
+   "gold_id": "Q3",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 36,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "evidence",
+   "gold_id": "E6",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 37,
+   "model": "GPT-6.2 Sol",
+   "run": "gpt-6.2-sol-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "scope_and_limits",
+   "gold_id": "L1",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 38,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "scope_and_limits",
+   "gold_id": "L6",
+   "hand": 1.0,
+   "agent": 0.0
+  },
+  {
+   "n": 39,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "evidence",
+   "gold_id": "E2",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 40,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "key_findings",
+   "gold_id": "F2",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 41,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "key_findings",
+   "gold_id": "F4",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 42,
+   "model": "Qwen3 4B",
+   "run": "qwen3-4b-4bit-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "scope_and_limits",
+   "gold_id": "L7",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 43,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "evidence",
+   "gold_id": "E3",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 44,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "interlocutor_claim",
+   "gold_id": "I4",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 45,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "central_claim",
+   "gold_id": "C2",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 46,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "key_findings",
+   "gold_id": "F1",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 47,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "theoretical_positioning",
+   "gold_id": "T3",
+   "hand": 1.0,
+   "agent": 0.0
+  },
+  {
+   "n": 48,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "question",
+   "gold_id": "Q1",
+   "hand": 1.0,
+   "agent": 0.0
+  },
+  {
+   "n": 49,
+   "model": "Claude Haiku 5.5",
+   "run": "haiku-5-5-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "interlocutor_claim",
+   "gold_id": "I2",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 50,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "question",
+   "gold_id": "Q1",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 51,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "scope_and_limits",
+   "gold_id": "L9",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 52,
+   "model": "GPT-6.2 Sol",
+   "run": "gpt-6.2-sol-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "theoretical_positioning",
+   "gold_id": "T1",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 53,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "key_findings",
+   "gold_id": "F11",
+   "hand": 0.0,
+   "agent": 0.0
+  },
+  {
+   "n": 54,
+   "model": "GPT-6.2 Astra",
+   "run": "gpt-6.2-astra-text-prompt3",
+   "paper_id": "pone.0342063",
+   "slot": "question",
+   "gold_id": "Q1",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 55,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "key_findings",
+   "gold_id": "F4",
+   "hand": 0.5,
+   "agent": 0.5
+  },
+  {
+   "n": 56,
+   "model": "Qwen3 4B",
+   "run": "qwen3-4b-4bit-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "scope_and_limits",
+   "gold_id": "L10",
+   "hand": 0.5,
+   "agent": 1.0
+  },
+  {
+   "n": 57,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0347327",
+   "slot": "interlocutor_claim",
+   "gold_id": "I6",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 58,
+   "model": "Claude Opus 5.5",
+   "run": "opus-5-5-text-prompt3",
+   "paper_id": "pone.0360061",
+   "slot": "scope_and_limits",
+   "gold_id": "L5",
+   "hand": 1.0,
+   "agent": 1.0
+  },
+  {
+   "n": 59,
+   "model": "Qwen3 4B",
+   "run": "qwen3-4b-4bit-prompt3",
+   "paper_id": "pone.0355933",
+   "slot": "central_claim",
+   "gold_id": "C1",
+   "hand": 1.0,
+   "agent": 0.5
+  },
+  {
+   "n": 60,
+   "model": "GPT-4o",
+   "run": "gpt-4o-text-prompt3",
+   "paper_id": "pone.0362373",
+   "slot": "question",
+   "gold_id": "Q1",
+   "hand": 1.0,
+   "agent": 0.5
+  }
+ ]
+}

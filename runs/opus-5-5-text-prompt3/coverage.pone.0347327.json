@@ -1,0 +1,198 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "A finding given as a central claim. Reports the public health reading as the authors' reading, and repeats the abstract's 'weaker in Canada'."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E5",
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "partial": [
+          "L8"
+        ],
+        "note": "Bloc exclusion without the merging of parties into two families."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T3",
+          "T2"
+        ]
+      },
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "The premise that lexicons differ across groups, given under theory."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ]
+      },
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ]
+      },
+      {
+        "match": [
+          "I4"
+        ]
+      },
+      {
+        "match": [
+          "I2"
+        ]
+      }
+    ]
+  }
+}

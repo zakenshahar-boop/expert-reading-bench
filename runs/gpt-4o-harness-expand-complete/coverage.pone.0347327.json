@@ -1,0 +1,173 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Restates the title: regional and temporal variation in the two countries."
+      },
+      {
+        "partial": [
+          "Q3"
+        ],
+        "note": "Added entry. One of Q3's three correlates (vaccination rates)."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Added entry. Geographic heterogeneity: repeats Q1's regional part."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Added entry. Temporal evolution around events: repeats Q1's event part."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Rewritten entry: adds r = -0.77, p < 0.001 (p.16), the correct figures for the U.S. vaccination correlation. Credit unchanged: C1 in abstract wording (credited per its decision), F2's U.S. half placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "'Over 50 million tweets from late 2020' without dates or split."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "Methodological aim placed in evidence."
+      },
+      {
+        "partial": [
+          "E2"
+        ],
+        "note": "Added entry. Text-based measure using language dissimilarity as a proxy; no embeddings model or C-index named here."
+      },
+      {
+        "partial": [
+          "E2"
+        ],
+        "note": "Added entry. RoBERTa embeddings; no C-index or left/right separation. With the previous entry it still lacks the C-index."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Added entry. Two-step profile/activity classifier; no validation against election or voter records."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "Added entry. Repeats entry 1 (novel computational method): padding."
+      },
+      {
+        "partial": [
+          "E5"
+        ],
+        "note": "Added entry. The three topics; conspiracy category and the hashtag/classifier method not stated."
+      },
+      {
+        "partial": [
+          "E4"
+        ],
+        "note": "Added entry. Users geolocated, without saying it is from profile location fields; 'text-based' party classification repeats E3."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording; no masks/vaccines vs lockdowns split and no Canadian non-significance. No B1 catch."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Events and few-days duration."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Exceptions in both directions, states not named."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "partial": [
+          "L1"
+        ],
+        "note": "Added entry. Names the semantic-similarity proxy as a limitation but gives no consequence (the quote has it, the claim does not); 'potential biases in Twitter data' is vague."
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Added entry. Repeats the previous English-only entry, without Quebec: padding."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "partial": [
+          "T3"
+        ],
+        "note": "Extension by geographic and temporal resolution; no statement of agreement with earlier findings. No T0."
+      },
+      {
+        "partial": [
+          "T1"
+        ],
+        "note": "Added entry. Vague: computational methods with social science, no text-embedding literature or contrast with other methods."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Prior studies found conservative states more polarized (refs 10, 62); the paper's agreement is implied by the quote, not stated in the claim."
+      }
+    ]
+  }
+}

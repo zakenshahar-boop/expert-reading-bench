@@ -1,0 +1,255 @@
+{
+  "paper_id": "pone.0342063",
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "track": "text",
+  "prompt_version": 3,
+  "temperature": 0.0,
+  "harness": [
+    "one slot at a time",
+    "quotes confirmed"
+  ],
+  "model_calls": 17,
+  "seconds": 307.0,
+  "summary": {
+    "quotes found": 16,
+    "pages corrected": 5,
+    "repairs that worked": 8,
+    "repair attempts": 10,
+    "claims dropped, no quote": 1,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper argues that the political climate moderates the relationship between political conservatism and COVID-19 vaccine hesitancy and uptake.\", \"quotes\": [{\"text\": \"The goal of the present research was to examine how political climate moderates the relationship between self-reported political conservatism and COVID-19 vaccine hesitancy and uptake.\", \"page\": 1}]}, {\"claim\": \"The paper argues that liberal political climates reduce vaccine hesitancy among politically conservative individuals.\", \"quotes\": [{\"text\": \"However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1}]}, {\"claim\": \"The paper argues that the likelihood of receiving a COVID-19 booster is influenced by both political conservatism and the regional political climate.\", \"quotes\": [{\"text\": \"A similar interaction was for the likelihood of receiving a COVID-19 booster (OR =.84, p = .049).\", \"page\": 1}]}, {\"claim\": \"The paper argues that politically liberal individuals are more likely to receive a booster regardless of the political climate.\", \"quotes\": [{\"text\": \"Liberals were more likely to receive a booster regardless of political climate, while conservatives’ likelihood was associated with their political climate.\", \"page\": 1}]}, {\"claim\": \"The paper argues that the interaction between political conservatism and political climate is stronger for booster status than for initial vaccine status.\", \"quotes\": [{\"text\": \"The interaction for vaccination was not significant, this difference between attitudes (hesitancy) and action (vaccination), likely reflects the high prevalence of COVID-19 vaccine mandates.\", \"page\": 10}]}], \"central_claim\": [{\"claim\": \"Conservative individuals living in liberal political climates are less likely to be hesitant about COVID-19 vaccines compared to conservatives in conservative climates, indicating that regional political climate moderates the effect of political conservatism on vaccine hesitancy.\", \"quotes\": [{\"text\": \"However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1}]}, {\"claim\": \"The likelihood of receiving a COVID-19 booster is significantly higher for politically liberal individuals, regardless of regional climate, while conservative individuals are more likely to receive a booster if they live in a liberal political climate than in a conservative one.\", \"quotes\": [{\"text\": \"A similar interaction was for the likelihood of receiving a COVID-19 booster (OR =.84, p = .049). Liberals were more likely to receive a booster regardless of political climate, while conservatives’ likelihood was associated with their political climate.\", \"page\": 1}]}, {\"claim\": \"The interaction between political conservatism and conservative regional climate is significant for both vaccine and booster hesitancy, with the effect being stronger in more conservative regional climates for politically conservative individuals.\", \"quotes\": [{\"text\": \"Additionally (Table 4), the interaction between political conservatism and conservative regional climate was significant (β = .09, p = .003)(Table 3, Fig 2).\", \"page\": 7}]}, {\"claim\": \"For booster status, the most politically liberal individuals are over 65% likely to receive a booster regardless of regional climate, while politically conservative individuals in liberal regions are 60% likely to receive a booster, and in conservative regions less than 35% likely.\", \"quotes\": [{\"text\": \"Most strikingly, for booster status the interaction between political orientation and political climate indicated that the most liberal participants were over 65% likely to get boosted regardless of climate. The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026).\", \"page\": 8}]}], \"evidence\": [{\"claim\": \"The study used online survey data from 683 U.S. participants collected between March 8 and April 19, 2023, with data validated through Qualtrics Panels' quality screening and independent attention checks.\", \"quotes\": [{\"text\": \"To ensure data quality, we only include participants in our analysis that pass both Qualtrics Panels data quality screening and our own attention checks (S1 File), as recommended by previous research using Qualtrics Panels [26]. Qualtrics Panels conducted all data quality screens and marked participant’s data as either passing or not passing all quality screens.\", \"page\": 4}]}, {\"claim\": \"Participants' political conservatism was measured using two items assessing social and economic conservatism, rated on an 11-point sliding scale from strongly liberal (0) to strongly conservative (10), with the two scores averaged to form a political conservatism scale.\", \"quotes\": [{\"text\": \". Both items were rated on a 11-point sliding scale from strongly liberal (0) to strongly conservative (10). These two items were averaged to form a political conservatism scale.\", \"page\": 3}]}, {\"claim\": \"Regional political climate was measured by the percentage of Republican votes in the 2020 U.S. presidential election, derived from zip code data and New York Times election results.\", \"quotes\": [{\"text\": \"We assessed regional political climate using zip code data provided by participants and 2020 presidential election results sourced from the New York Times [22].\", \"page\": 3}]}, {\"claim\": \"Booster hesitancy was assessed using items from a 2022 survey on COVID-19 booster hesitancy.\", \"quotes\": [{\"text\": \"Booster hesitancy was assessed using items from a 2022 survey on COVID-19 booster hesitancy [25].\", \"page\": 3}]}, {\"claim\": \"The study used confirmatory factor analysis to validate the reliability of the vaccine and booster hesitancy scales, with both scales showing adequate internal consistency (Cronbach’s alpha = .93).\", \"quotes\": [{\"text\": \"We conducted confirmatory factor analysis on the vaccine and booster hesitancy items (S2 File). The vaccine hesitancy items demonstrated adequate reliability (α = .93, 95% CI [.92,.93]) and were averaged to form the vaccine hesitancy scale. The booster hesitancy items demonstrated adequate reliability (α = .93, 95% CI [.93,.94]) and were averaged to form the booster hesitancy scale.\", \"page\": 5}]}, {\"claim\": \"The study used multiple linear regression and logistic regression models to assess the association between political conservatism, political climate, and vaccine/booster hesitancy and uptake, controlling for age, education, income, race, and perceived vaccine access.\", \"quotes\": [{\"text\": \"Multiple linear regression models were built to assess the association between political conservatism and conservative regional climate with vaccine hesitancy, controlling for age, gender, education, income, race, and perceived vaccine access.\", \"page\": 4}]}, {\"claim\": \"The study included self-reported data on vaccine status, booster status, and hesitancy, with unvaccinated and unboosted participants identified through individual survey items.\", \"quotes\": [{\"text\": \" is used in this analysis as this was the common term at the time to refer to subsequent doses of the COVID-19 vaccine after the initial vaccine series. Possible responses were yes, no, and I don’t know.\", \"page\": 3}]}, {\"claim\": \"The study excluded participants who did not provide valid zip code data or whose zip code lacked corresponding election data, resulting in a final sample of 683 participants.\", \"quotes\": [{\"text\": \"We eliminated an additional 115 participants who did not provide valid zip code data (N = 100) or whose zip code did not have corresponding election data (N = 15). The final sample for these analyses included 683 participants.\", \"page\": 5}]}, {\"claim\": \"The study used a convenience sample recruited through Qualtrics Panels, an online platform that manages participant recruitment and data quality.\", \"quotes\": [{\"text\": \"Participants were a convenience sample recruited through Qualtrics Panels, an online research platform that manages participant recruitment and data quality for academic studies.\", \"page\": 3}]}], \"key_findings\": [{\"claim\": \"Conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts in conservative regions.\", \"quotes\": [{\"text\": \"However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1}]}, {\"claim\": \"The likelihood of receiving a COVID-19 booster was significantly higher for the most politically liberal individuals, regardless of regional political climate.\", \"quotes\": [{\"text\": \"For the most politically liberal individuals, booster hesitancy was slightly lower in more conservative regional climates.\", \"page\": 10}]}, {\"claim\": \"Conservative individuals in liberal political climates were more likely to receive a booster than those in conservative political climates.\", \"quotes\": [{\"text\": \"The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026).\", \"page\": 8}]}, {\"claim\": \"The interaction between political conservatism and conservative regional climate was significant for booster hesitancy and booster status, indicating that political climate moderates the effect of political orientation on booster decisions.\", \"quotes\": [{\"text\": \"There was a significant interaction between political conservatism and conservative regional climate for vaccine hesitancy, booster hesitancy, and booster status.\", \"page\": 10}]}, {\"claim\": \"Self-reported booster status showed a stronger association with political climate than vaccine status, suggesting that environmental factors may influence booster decisions more than initial vaccination decisions.\", \"quotes\": [{\"text\": \"The interaction for vaccination was not significant, this difference between attitudes (hesitancy) and action (vaccination), likely reflects the high prevalence of COVID-19 vaccine mandates.\", \"page\": 10}]}], \"scope_and_limits\": [{\"claim\": \"The paper does not show the specific mechanisms through which political climate influences vaccine decisions among conservative individuals.\", \"quotes\": [{\"text\": \"Identifying the specific mechanisms through which this happens would have significant implications for increasing vaccine uptake among politically conservative individuals across the US.\", \"page\": 10}]}], \"theoretical_positioning\": [{\"claim\": \"The authors position their study within the growing body of research on political climate's influence on health behaviors, extending previous work by examining how regional political climate moderates the relationship between individual political conservatism and vaccine hesitancy.\", \"quotes\": [{\"text\": \"There is an emerging body of evidence linking political conservatism and conservative political climate in the United States to COVID-19 vaccine hesitancy and uptake.\", \"page\": 1}]}, {\"claim\": \"The authors frame their investigation as a refinement of prior research that isolated either political orientation or political climate, by introducing a moderating interaction between the two variables.\", \"quotes\": [{\"text\": \"While previous research has identified the unique impact of both political orientation and political climate on vaccination attitudes, there has been little research on the interaction between personal political orientation and local political climate.\", \"page\": 2}]}], \"interlocutor_claim\": [{\"claim\": \"The paper disputes the claim that political climate has no effect on vaccine hesitancy by showing a significant interaction between political conservatism and regional political climate.\", \"quotes\": [{\"text\": \"The present research provides the first assessment of the potential interaction between political orientation, political climate, and COVID vaccination.\", \"page\": 7}]}, {\"claim\": \"The paper builds on the claim that political conservatism is associated with greater vaccine hesitancy by adding that this effect is moderated by regional political climate.\", \"quotes\": [{\"text\": \"There was an interaction between political conservatism and conservative political climate for both vaccine and booster hesitancy (β = .07, p = .03; β = .12, p < .001, respectively), such that liberals were less likely to be hesitant regardless of political climate.\", \"page\": 1}]}, {\"claim\": \"The paper challenges the idea that political orientation alone determines vaccine behavior by showing that regional political climate significantly influences conservative individuals' decisions to receive boosters.\", \"quotes\": [{\"text\": \"Most strikingly, for booster status the interaction between political orientation and political climate indicated that the most liberal participants were over 65% likely to get boosted regardless of climate. The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026).\", \"page\": 8}]}]}}",
+  "trace": [
+    {
+      "step": "extract",
+      "slot": "question",
+      "entries": 5,
+      "how": "read",
+      "raw": "[{\"claim\": \"The paper argues that the political climate moderates the relationship between political conservatism and COVID-19 vaccine hesitancy and uptake.\", \"quotes\": [{\"text\": \"The goal of the present research was to examine how political climate moderates the relationship between self-reported political conservatism and COVID-19 vaccine hesitancy and uptake.\", \"page\": 1}]}, {\"claim\": \"The paper argues that liberal political climates reduce vaccine hesitancy among politically conservative individuals.\", \"quotes\": [{\"text\": \"However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1}]}, {\"claim\": \"The paper argues that the likelihood of receiving a COVID-19 booster is influenced by both political conservatism and the regional political climate.\", \"quotes\": [{\"text\": \"A similar interaction was for the likelihood of receiving a COVID-19 booster (OR =.84, p = .049).\", \"page\": 1}]}, {\"claim\": \"The paper argues that politically liberal individuals are more likely to receive a booster regardless of the political climate.\", \"quotes\": [{\"text\": \"Liberals were more likely to receive a booster regardless of political climate, while conservatives’ likelihood was associated with their political climate.\", \"page\": 1}]}, {\"claim\": \"The paper argues that the interaction between political conservatism and political climate is stronger for booster status than for initial vaccine status.\", \"quotes\": [{\"text\": \"The interaction for vaccination was not significant, this difference between attitudes (hesitancy) and action (vaccination), likely reflects the high prevalence of COVID-19 vaccine mandates.\", \"page\": 10}]}]"
+    },
+    {
+      "step": "extract",
+      "slot": "central_claim",
+      "entries": 4,
+      "how": "read loosely",
+      "raw": "[{\"claim\": \"Conservative individuals living in liberal political climates are less likely to be hesitant about COVID-19 vaccines compared to conservatives in conservative climates, indicating that regional political climate moderates the effect of political conservatism on vaccine hesitancy.\", \"quotes\": [\"There was an interaction between political conservatism and conservative political climate for both vaccine and booster hesitancy (β = .07, p = .03; β = .12, p < .001, respectively), such that liberals were less likely to be hesitant regardless of political climate. However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1]}, {\"claim\": \"The likelihood of receiving a COVID-19 booster is significantly higher for politically liberal individuals, regardless of regional climate, while conservative individuals are more likely to receive a booster if they live in a liberal political climate than in a conservative one.\", \"quotes\": [\"A similar interaction was for the likelihood of receiving a COVID-19 booster (OR =.84, p = .049). Liberals were more likely to receive a booster regardless of political climate, while conservatives’ likelihood was associated with their political climate.\", \"page\": 1]}, {\"claim\": \"The interaction between political conservatism and conservative regional climate is significant for both vaccine and booster hesitancy, with the effect being stronger in more conservative regional climates for politically conservative individuals.\", \"quotes\": [\"As shown in Table 3, political conservatism and conservative regional climate were positively associated with vaccine hesitancy (β = .23, p < .001; β = .11, p = .001; respectively). Additionally (Table 4), the interaction between political conservatism and conservative regional climate was significant (β = .09, p = .003)(Table 3, Fig 2).\", \"page\": 6]}, {\"claim\": \"For booster status, the most politically liberal individuals are over 65% likely to receive a booster regardless of regional climate, while politically conservative individuals in liberal regions are 60% likely to receive a booster, and in conservative regions less than 35% likely.\", \"quotes\": [\"Most strikingly, for booster status the interaction between political orientation and political climate indicated that the most liberal participants were over 65% likely to get boosted regardless of climate. The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026).\", \"page\": 8}]}"
+    },
+    {
+      "step": "extract",
+      "slot": "evidence",
+      "entries": 10,
+      "how": "read loosely",
+      "raw": "[{\"claim\": \"The study used online survey data from 683 U.S. participants collected between March 8 and April 19, 2023, with data validated through Qualtrics Panels' quality screening and independent attention checks.\", \"quotes\": [\"The data used in this study were part of a larger project assessing the impact of racial and socioeconomic marginalization on COVID-19 vaccine attitudes and behaviors [27]. The present research presents a novel analysis of the dataset from this project, focusing on political orientation and political climate, rather than marginalization. However, because of the initial goals in data collection, the sample was recruited across four quota groups based on race and income. Half of the sample was requested to be White (and no other racial identity), and half the sample was requested to be Black (and no other racial identity). Within each racial group, half of the participants were requested to be below the median annual income in the US [$70,000 [28]]. This resulted in four quota groups: White participants above-median-income, White participants below-median income, Black participants above-median income, and Black participants below-median income. Additionally, within each quota group it was requested that no more than 60% of the participants be of any gender. No other exclusion criteria were specified; however, Qualtrics Panels does require participants to demonstrate consistent quality responding in order to remain in the panels system. Therefore, Qualtrics Panels screened out participants based on poor survey completion history. Qualtrics Panels screens data as it is collected and identifies participants that have data quality problems (e.g., no variance in responding, fast survey completion times that indicate participants are not reading items [more than two standard deviations below the mean completion time]. missing more than 25% of responses, passing required attention checks). To ensure data quality, we only include participants in our analysis that pass both Qualtrics Panels data quality screening and our own attention checks (S1 File), as recommended by previous research using Qualtrics Panels [26]. Qualtrics Panels conducted all data quality screens and marked participant’s data as either passing or not passing all quality screens.\", \"page\": 4}], {\"claim\": \"Participants' political conservatism was measured using two items assessing social and economic conservatism, rated on an 11-point sliding scale from strongly liberal (0) to strongly conservative (10), with the two scores averaged to form a political conservatism scale.\", \"quotes\": [\"The first item, assessing social conservatism (i.e., a political ideology that focuses on preserving traditional social institutions and opposing social change), asked participants to indicate their political orientation on \\\"social issues (for example, abortion, gun rights, gay rights)\\\". The second item, assessing economic conservatism (i.e., a political ideology that emphasizes free markets and lower taxes), asked participants to indicate their political orientation on \\\"economic issues (for example, taxation, government spending)\\\". Both items were rated on a 11-point sliding scale from strongly liberal (0) to strongly conservative (10). These two items were averaged to form a political conservatism scale.\", \"page\": 3}], {\"claim\": \"Regional political climate was measured by the percentage of Republican votes in the 2020 U.S. presidential election, derived from zip code data and New York Times election results.\", \"quotes\": [\"We assessed regional political climate using zip code data provided by participants and 2020 presidential election results sourced from the New York Times [22]. Zip codes are postal codes used by the U.S. postal service to identify geographic delivery areas. These regions are often used as a proxy for local community characteristics [23]. Election results included the numbers of votes for the Democratic and Republican candidate (Biden and Trump, respectively) as well as the total number of votes for each Federal Information Processing Standard (FIPS) code. Political climate for each participant was determined by matching FIPS codes to corresponding zip codes. In cases where a zip code included multiple FIPS codes, data was averaged across these FIPS. Using the FIPS data for each zip code, we calculated the percent of Republican votes by dividing the number of Republican votes by the total number of votes (multiplied by 100). This reflects measurement processes in prior research [10,19,21]. We used this % Republican vote by zip code as a measure of conservative regional climate.\", \"page\": 3}], {\"claim\": \"Vaccine hesitancy was measured using seven items from the Attitudes towards Adult Vaccination Scale, modified to assess attitudes specifically toward the COVID-19 vaccine.\", \"quotes\": [\"Vaccine hesitancy (i.e., negative attitudes toward vaccination) was measured using the seven items from the Attitudes towards Adult Vaccination Scale [24], which assesses the perceived value of vaccines in general. We modified the items to assess attitudes specifically toward the COVID-19 vaccine [e.g., I fear the potential impact of the COVID-19 vaccine on my health in the future, I believe that the benefits of COVID-19 vaccination outweigh the potential risks (reverse-scored)]. Each item was rated on a 5-point Likert scale ranging from disagree strongly (1) to agree strongly (5). These items were averaged to form a vaccine hesitancy scale.\", \"page\": 3}], {\"claim\": \"Booster hesitancy was assessed using items from a 2022 survey on COVID-19 booster hesitancy.\", \"quotes\": [\"Booster hesitancy was assessed using items from a 2022 survey on COVID-19 booster hesitancy [25].\", \"page\": 3}], {\"claim\": \"The study used confirmatory factor analysis to validate the reliability of the vaccine and booster hesitancy scales, with both scales showing adequate internal consistency (Cronbach’s alpha = .93).\", \"quotes\": [\"We conducted confirmatory factor analysis on the vaccine and booster hesitancy items (S2 File). The vaccine hesitancy items demonstrated adequate reliability (α = .93, 95% CI [.92,.93]) and were averaged to form the vaccine hesitancy scale. The booster hesitancy items demonstrated adequate reliability (α = .93, 95% CI [.93,.94]) and were averaged to form the booster hesitancy scale.\", \"page\": 5}], {\"claim\": \"The study used multiple linear regression and logistic regression models to assess the association between political conservatism, political climate, and vaccine/booster hesitancy and uptake, controlling for age, education, income, race, and perceived vaccine access.\", \"quotes\": [\"Multiple linear regression models were built to assess the association between political conservatism and conservative regional climate with vaccine hesitancy, controlling for age, gender, education, income, race, and perceived vaccine access. Ordinary least squares estimation was used with default standard errors. Model 1 included only control variables age, gender, education, income, race, and vaccine access as dependent variables. Model 2 included control variables and political conservatism and conservative regional climate. Model 3 included all variables from Model 2 and the interaction between political conservatism and conservative regional climate. This interaction assessed the extent to which the association between political conservatism and vaccine attitudes/behavior was moderated by conservative regional climate. The same process was used with booster hesitancy as the outcome variable to assess the association between political conservatism and conservative regional climate with booster hesitancy, controlling for age, gender, education, income, race, and perceived vaccine access. Additionally, we ran two sets of generalized linear models with logit link and model-based standard errors predicting vaccine status and booster status from the same three models described above.\", \"page\": 5}], {\"claim\": \"The study included self-reported data on vaccine status, booster status, and hesitancy, with unvaccinated and unboosted participants identified through individual survey items.\", \"quotes\": [\"Self-reported vaccine status and booster status were assessed through individual items, \\\"have you received a COVID-19 vaccine\\\" and \\\"have you received a COVID-19 booster\\\". The term \\\"booster\\\" is used in this analysis as this was the common term at the time to refer to subsequent doses of the COVID-19 vaccine after the initial vaccine series. Possible responses were yes, no, and I don’t know.\", \"page\": 4}], {\"claim\": \"The study excluded participants who did not provide valid zip code data or whose zip code lacked corresponding election data, resulting in a final sample of 683 participants.\", \"quotes\": [\"We eliminated an additional 115 participants who did not provide valid zip code data (N = 100) or whose zip code did not have corresponding election data (N = 15). The final sample for these analyses included 683 participants.\", \"page\": 5}], {\"claim\": \"The study used a convenience sample recruited through Qualtrics Panels, an online platform that manages participant recruitment and data quality.\", \"quotes\": [\"This was an online self-reported study in which a nonprobability convenience sample was recruited from the United States between March 8 and April 19, 2023. The online survey assessed demographic control variables (i.e., age, gender, race, income, education, perceived vaccine access), predictor variables (i.e., political conservatism, regional political climate) and outcome variables (i.e., vaccine status, booster status, vaccine hesitancy, booster hesitancy) (S1 File).\", \"page\": 3}}]"
+    },
+    {
+      "step": "extract",
+      "slot": "key_findings",
+      "entries": 5,
+      "how": "read loosely",
+      "raw": "[{\"claim\": \"Conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts in conservative regions.\", \"quotes\": [\"There was an interaction between political conservatism and conservative political climate for both vaccine and booster hesitancy (β = .07, p = .03; β = .12, p < .001, respectively), such that liberals were less likely to be hesitant regardless of political climate. However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1]}, {\"claim\": \"The likelihood of receiving a COVID-19 booster was significantly higher for the most politically liberal individuals, regardless of regional political climate.\", \"quotes\": [\"For the most politically liberal individuals, booster hesitancy was slightly lower in more conservative regional climates.\", \"page\": 9]}, {\"claim\": \"Conservative individuals in liberal political climates were more likely to receive a booster than those in conservative political climates.\", \"quotes\": [\"The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026).\", \"page\": 8]}, {\"claim\": \"The interaction between political conservatism and conservative regional climate was significant for booster hesitancy and booster status, indicating that political climate moderates the effect of political orientation on booster decisions.\", \"quotes\": [\"There was a significant interaction between political conservatism and conservative regional climate for vaccine hesitancy, booster hesitancy, and booster status.\", \"page\": 9]}, {\"claim\": \"Self-reported booster status showed a stronger association with political climate than vaccine status, suggesting that environmental factors may influence booster decisions more than initial vaccination decisions.\", \"quotes\": [\"The interaction for vaccination was not significant, this difference between attitudes (hesitancy) and action (vaccination), likely reflects the high prevalence of COVID-19 vaccine mandates.\", \"page\": 10]}]"
+    },
+    {
+      "step": "extract",
+      "slot": "scope_and_limits",
+      "entries": 1,
+      "how": "read loosely",
+      "raw": "[{\"claim\": \"The paper does not show the specific mechanisms through which political climate influences vaccine decisions among conservative individuals.\", \"quotes\": [\"Because we used 2020 presidential election votes by zip code as a proxy for political climate, it must be noted that other zip code-based differences could be driving the associations noted in this paper. Regional factors (e.g., population density) may play a role in linking 2020 election votes to vaccine attitudes and behaviors. While our analyses controlled for demographic covariates commonly associated with vaccine hesitancy, we did not formally assess effect modification by these factors. Consequently, the reported pooled associations should be interpreted as average effects across the sample, and we cannot exclude the possibility that heterogeneity across demographic subgroups could produce aggregation effects such as Simpson’s paradox. Another limitation in this dataset is the reliance on self-reported vaccine status. Self-report is susceptible to social desirability [30] and recall bias [31], and we cannot assume that reported vaccine status reflects actual vaccine status. Additionally, our sample was recruited through an online platform and only includes participants with access to this platform. Further, our sample includes only White and Black participants recruited through Qualtrics Panels, and may not generalize to broader populations in the United States. Finally, it should be noted that this data is cross-sectional and we cannot assume causal or directional associations. Despite these limitations, this research provides novel evidence that political climate in the US is associated with vaccine hesitancy and uptake for politically conservative individuals. Identifying the specific mechanisms through which this happens would have significant implications for increasing vaccine uptake among politically conservative individuals across the US. The interaction between political climate and orientation suggests that liberal environments may exert more influence on conservative individuals than conservative environments exert on liberal individuals. It could also be the case that conservative individuals are more influenced by their environments than their liberal counterparts. Future research should explore the extent to which political climate, and other related regional variables, are associated with vaccine attitudes and behavior. Regardless, these findings are critical to our understanding of the association between political orientation on vaccine hesitancy. These results have significant implications for populations to target to increase COVID-19 vaccine uptake as we move towards annual vaccinations.\", \"page\": 10}]}"
+    },
+    {
+      "step": "extract",
+      "slot": "theoretical_positioning",
+      "entries": 2,
+      "how": "read",
+      "raw": "[{\"claim\": \"The authors position their study within the growing body of research on political climate's influence on health behaviors, extending previous work by examining how regional political climate moderates the relationship between individual political conservatism and vaccine hesitancy.\", \"quotes\": [{\"text\": \"There is an emerging body of evidence linking political conservatism and conservative political climate in the United States to COVID-19 vaccine hesitancy and uptake.\", \"page\": 1}]}, {\"claim\": \"The authors frame their investigation as a refinement of prior research that isolated either political orientation or political climate, by introducing a moderating interaction between the two variables.\", \"quotes\": [{\"text\": \"While previous research has identified the unique impact of both political orientation and political climate on vaccination attitudes, there has been little research on the interaction between personal political orientation and local political climate.\", \"page\": 3}]}]"
+    },
+    {
+      "step": "extract",
+      "slot": "interlocutor_claim",
+      "entries": 3,
+      "how": "read",
+      "raw": "[{\"claim\": \"The paper disputes the claim that political climate has no effect on vaccine hesitancy by showing a significant interaction between political conservatism and regional political climate.\", \"quotes\": [{\"text\": \"The present research provides the first assessment of the potential interaction between political orientation, political climate, and COVID vaccination.\", \"page\": 8}]}, {\"claim\": \"The paper builds on the claim that political conservatism is associated with greater vaccine hesitancy by adding that this effect is moderated by regional political climate.\", \"quotes\": [{\"text\": \"There was an interaction between political conservatism and conservative political climate for both vaccine and booster hesitancy (β = .07, p = .03; β = .12, p < .001, respectively), such that liberals were less likely to be hesitant regardless of political climate.\", \"page\": 1}]}, {\"claim\": \"The paper challenges the idea that political orientation alone determines vaccine behavior by showing that regional political climate significantly influences conservative individuals' decisions to receive boosters.\", \"quotes\": [{\"text\": \"Most strikingly, for booster status the interaction between political orientation and political climate indicated that the most liberal participants were over 65% likely to get boosted regardless of climate. The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026).\", \"page\": 8}]}]"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "central_claim",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1}"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "central_claim",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"Additionally (Table 4), the interaction between political conservatism and conservative regional climate was significant (β = .09, p = .003)(Table 3, Fig 2).\", \"page\": 7}"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"To ensure data quality, we only include participants in our analysis that pass both Qualtrics Panels data quality screening and our own attention checks (S1 File), as recommended by previous research using Qualtrics Panels [26]. Qualtrics Panels conducted all data quality screens and marked participant’s data as either passing or not passing all quality screens.\", \"page\": 4}"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"We assessed regional political climate using zip code data provided by participants and 2020 presidential election results sourced from the New York Times [22].\", \"page\": 3}"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "{\"text\": \"Vaccine hesitancy (i.e., negative attitudes toward vaccination) was measured using the seven items from the Attitudes towards Adult Vaccination Scale [24], which assesses the perceived value of vaccines in general. We modified the items to assess attitudes specifically toward the COVID-19 vaccine [e.g., I fear the potential impact of the COVID-19 vaccine on my health in the future, I believe that the benefits of COVID-19 vaccination outweigh the potential risks (reverse-scored)]. Each item was rated on a 5-point Likert scale ranging from disagree strongly (1) to agree strongly (5). These items were averaged to form a vaccine hesitancy scale.\", \"page\": 3}"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "{\"text\": \"Vaccine hesitancy (i.e., negative attitudes toward vaccination) was measured using the seven items from the Attitudes towards Adult Vaccination Scale [24], which assesses the perceived value of vaccines in general. We modified the items to assess attitudes specifically toward the COVID-19 vaccine [e.g., I fear the potential impact of the COVID-19 vaccine on my health in the future, I believe that the benefits of COVID-19 vaccination outweigh the potential risks (reverse-scored)]. Each item was rated on a 5-point Likert scale ranging from disagree strongly (1) to agree strongly (5). These items were averaged to form a vaccine hesitancy scale.\", \"page\": 3}"
+    },
+    {
+      "step": "drop",
+      "slot": "evidence",
+      "why": "no confirmed quote",
+      "claim": "Vaccine hesitancy was measured using seven items from the Attitudes towards Adult Vaccination Scale, modified to assess attitudes specifically toward the COVID-19 vaccine."
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"Multiple linear regression models were built to assess the association between political conservatism and conservative regional climate with vaccine hesitancy, controlling for age, gender, education, income, race, and perceived vaccine access.\", \"page\": 4}"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "page corrected"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "evidence",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"Participants were a convenience sample recruited through Qualtrics Panels, an online research platform that manages participant recruitment and data quality for academic studies.\", \"page\": 3}"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions.\", \"page\": 1}"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "page corrected"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "page corrected"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "scope_and_limits",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"Identifying the specific mechanisms through which this happens would have significant implications for increasing vaccine uptake among politically conservative individuals across the US.\", \"page\": 10}"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "page corrected"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "page corrected"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    }
+  ]
+}

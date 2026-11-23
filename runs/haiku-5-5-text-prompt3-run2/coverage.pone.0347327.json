@@ -1,0 +1,123 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q2"
+        ],
+        "note": "Regional variation across three interventions (Q1); the new measure is mentioned as the instrument, without stating the methodological aim of fine resolution."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Temporal, event-linked part of Q1; repeat of Q1."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording, credited per C1's decision. No B1 catch."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "U.S. vaccination correlation placed here; 'possible public health consequence' is hedged."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "Late 2020, 1% stream, keyword filter; no analyzed corpus size (the quote gives the raw stream counts but the claim does not use them)."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "U.S. conservative states higher overall and on masks/vaccines (p.14); lockdown exception and Canadian non-significance missing."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2. 'Holds when vaccination data from a later period is used' reads the paper's 'Using official CDC data from a comparable period ... we confirm' as a robustness check; the main analysis already uses the later data, but the paper's wording allows this reading. Not flagged."
+      },
+      {
+        "partial": [
+          "F3"
+        ],
+        "note": "Rise and decay within days; events not mentioned."
+      },
+      {
+        "partial": [
+          "F5"
+        ],
+        "note": "Weaker Canadian association (p.23); lower overall polarization not stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Duplicates entry 0."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "No T0."
+      },
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Same wording as the calibration note's T3 match."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Owen et al. correct for ref. 94."
+      }
+    ]
+  }
+}

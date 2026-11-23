@@ -1,0 +1,96 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Regional and temporal variation plus the method to measure it."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording, credited per C1's decision. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Topic classifiers mentioned, but topics not named: no E5."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Discussion wording (p.22): right-leaning states and provinces more divided, especially masks and vaccines; lockdown exception and Canadian non-significance not stated."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "partial": [
+          "F5"
+        ],
+        "note": "Weaker Canadian association; lower overall level not stated."
+      },
+      {
+        "partial": [
+          "F3"
+        ],
+        "note": "Rise and decay within days; events not mentioned."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "No T0."
+      },
+      {
+        "match": [
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Merkley et al. correct for ref. 103. 'Dispute that this consensus carried over to social media' matches the paper's 'not mirrored on social media'; not a wrong stance."
+      }
+    ]
+  }
+}

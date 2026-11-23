@@ -1,0 +1,247 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E1",
+    "E3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper's own position (p.2); accurate, not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad half of C1 (perceptions worse, representation better)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Counter-narrative half of C1."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Survey experiment (E1 in part)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "U.S. Democrats, Prolific, July 2025."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3 (Jackson is named on p.4)."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Pre-registration is the remaining part of E1."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Substantially' fits a 0.8 SD effect; not flagged."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "The reference-point suggestion has no quote here (only the p.15 representation sentence), so no misplaced T5; T5 is credited in theoretical_positioning entry 3."
+      },
+      {
+        "match": [
+          "F4",
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "note": "Only the ad's larger effect among system-impacted respondents."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Omits that the manipulation check eases the concern."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7",
+          "L11"
+        ],
+        "note": "L7: perceptions index reliability only. L11: racial attitudes measured pre-treatment, not as an outcome, without saying the study therefore cannot tell whether the stimuli changed them."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ],
+        "note": "Bonferroni caveat on public-serving motives is the finding F11."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "Deservingness possibility; omits the author's view that stigma reduction is more likely (in the quote). The supplemental-analysis caution is accurate but not gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate to p.4; not a gold answer."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "'Invokes ... to interpret' the representation effects, with the hedged quote ('may simply be'); reported as an interpretation, not as the paper's framework, so no unsupported attribution."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I4",
+          "I5"
+        ],
+        "note": "I4: one study (ref 33, Gruning & Schubert) on anger-inducing ads, qualified by the paper. I5: policy alignment matters more for feeling represented than affect."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 22 (Drakulich); accurate to p.3, not a gold interlocutor."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 54 (Martinez); accurate to p.4."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Westwood (ref 62), cited in the limitations; accurate, not a gold interlocutor."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 74 (Macdonald et al.) on moderate appeals, p.15; accurate, not gold."
+      }
+    ]
+  }
+}

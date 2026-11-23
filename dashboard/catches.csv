@@ -1,0 +1,6 @@
+id,paper,contradiction,caught_by
+0347327.B1,COVID polarization,The abstract says conservative regions were significantly more polarized in both countries; the results report no statistically significant association in Canada.,no model
+0347327.B2,COVID polarization,The abstract calls the link between vaccine polarization and vaccination 'notably weaker' in Canada; the supplementary figure reports a significant positive correlation there (0.74).,no model
+0347327.B3,COVID polarization,The discussion claims an effect of Republican vote margins 'after controlling for other factors'; the paper reports no analysis with controls.,no model
+0362373.B1,Adolescent networks,"The discussion says substance use 'is not associated with relational patterns'; the results report two statistically significant exceptions (alcohol sender effect in School C, alcohol homophily in School B).",no model
+0362373.B2,Adolescent networks,"The theory section expects reciprocity to be especially strong among AI youth; the design has no comparison group to test this, and the discussion reports effects in line with earlier research.",no model

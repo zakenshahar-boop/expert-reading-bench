@@ -1,0 +1,101 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Same as calibration: substance use (Q3), 'other individual characteristics' (Q1 partial)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Dropping 'consistent' follows the paper's own p.16 wording. Depression null is half of F4."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Data source (no 'cross-sectional'); ERGMs only."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Significant structural forces' for both; quote covers reciprocity."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "The note says substance use 'does not consistently influence' friendship formation; the paper reports no consistent association and warns against causal readings (p.17)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade only; no sexual orientation."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity only."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1"
+        ],
+        "note": "Quote marked NOT IN PAPER (reference number dropped). Heterogeneous-school part of L1 only."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "The abstract's implication, which is C3; the paper's own wording, not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I2"
+        ],
+        "note": "Quote marked NOT IN PAPER (reference number dropped). Would be I2 partial (no mention that the study was descriptive)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "A finding framed as 'the paper argues against': polarization not uniform across regions and topics (C2, p.25), without the cross-national part; placed in the question slot."
+      },
+      {
+        "match": [],
+        "note": "Introduction background (diverse subnational interventions that became politicized, p.2), framed as an argument against a view nobody in the paper holds. Not a question; no gold answer."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording ('significantly higher ... in both countries'), credited per C1's decision. Quote is the vaccination sentence. No B1 catch."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Event-linked spikes; the few-days duration is in the quote, not the claim."
+      },
+      {
+        "partial": [
+          "C2"
+        ],
+        "note": "Only the cross-national difference part of C2, in the conclusion's wording (p.25)."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E4"
+        ],
+        "note": "Geolocation with the census check (p.6); does not say locations come from profile fields."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "The whole of F2 (U.S. r = -0.77, not in Canada), placed in evidence."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Event-linked spikes, a finding placed in evidence."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F5"
+        ],
+        "note": "Lower Canadian polarization and weaker link to outcomes: F5's first half, placed in evidence."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Comparison with vaccination rates and case counts; no election results or the one-year gap. 'Validates its findings' tilts the paper's 'examined correlations' (p.4) but the abstract says the index aligns with regional outcomes; not flagged."
+      },
+      {
+        "partial": [
+          "E5"
+        ],
+        "note": "Domain-adapted RoBERTa used to classify tweets by topic (p.5): the classifier part of E5. 'Analyze the language' is too vague to credit E2's embedding-and-C-index index."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Both halves: strong negative U.S. correlation, not in Canada."
+      },
+      {
+        "partial": [
+          "F3"
+        ],
+        "note": "Spikes tied to events (examples match the peak tables, p.20); the few-days rise and fall is only in the quote."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "Conclusion wording: U.S. stronger link to vaccination than Canada (F2's contrast), no detail."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Conclusion's interpretation of the Canadian case (p.25), stated as flatly as the paper states it. Not in the gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "partial": [
+          "L3",
+          "L2"
+        ],
+        "note": "Rewritten as 'is associated with self-reported user data'; awkward but keeps the meaning. Self-reported location may be false or incomplete (L3, without VPNs, bots or inflated distance); may not represent the general public (L2, without the engaged/partisan reason). The quote is the party-label caveat (L9), but the claim ties inaccuracy to location, so L9 not credited."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Sarcasm and indirect disagreement missed by the aggregated embedding measure (p.10); the proxy point of L1 is carried by 'user-level embeddings'. Generous call."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "partial": [
+          "T1"
+        ],
+        "note": "Text-embedding measures of polarization; no contrast with dictionary or network methods. No T0."
+      },
+      {
+        "partial": [
+          "T2"
+        ],
+        "note": "Public health and political communication during crises: close to T2 but does not name partisan divides in pandemic responses."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Prior research (refs 17, 58-60; wording from p.23) found conservative states more polarized; the paper builds on it. The extension named (vaccination correlation) is one the paper reports right after its 'extended beyond' sentence (p.22)."
+      }
+    ]
+  }
+}

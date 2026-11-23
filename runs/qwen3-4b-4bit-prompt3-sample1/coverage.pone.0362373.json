@@ -1,0 +1,106 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "F4"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "Not a research question: the conventional 'primary determinant' assumption the paper says does not hold in its study (p.16) is I4, an interlocutor answer."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Substance-use half of C1 (no structural/demographic half); the divergence from research in racially heterogeneous populations is C2; depression and AI identity nulls are F4, a finding. The paper's own summary (p.13) calls the substance-use and depression pattern a divergence from prior non-AI research; bundling AI identity in is loose but not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E3",
+          "E2"
+        ],
+        "note": "Only quote is NOT IN PAPER. Content (ERGMs, N = 247, 9th/10th graders, three Northern Plains reservation schools) would have earned E1 and partial E3/E2."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity rates 93.3-97.7% are correct (Table 2, p.12)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade only; no sexual orientation."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Names both isolated exceptions (alcohol homophily School B, alcohol sender School C)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Depression half of F4."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity half of F4; 'not a meaningful predictor' fits 'largely unassociated' (p.13)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'Urban' settings are not mentioned by the paper; a harmless extension of the generalization caveat, not flagged."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "ERGM framework with endogenous structural processes and actor-level characteristics is T1. 'Challenging dominant assumptions in non-AI adolescent network research' is the dispute half of T3 without the replication half; 'extending' treated like the earlier judge's 'extend' (not flagged)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "The substance-use-friendship link in racially heterogeneous schools, which the paper disputes; does not say the dispute concerns only its generalization to AI-majority schools, though it does not place the dispute in heterogeneous settings either (unlike the first run's wrong-stance entry)."
+      }
+    ]
+  }
+}

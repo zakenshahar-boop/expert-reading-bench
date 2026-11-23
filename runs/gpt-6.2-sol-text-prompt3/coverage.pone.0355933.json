@@ -1,0 +1,225 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F8"
+        ]
+      },
+      {
+        "match": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E5",
+          "E1"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3",
+          "F10"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      },
+      {
+        "match": [
+          "L9"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F9"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "'Tentatively applies': the hedged form."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ]
+      }
+    ]
+  }
+}

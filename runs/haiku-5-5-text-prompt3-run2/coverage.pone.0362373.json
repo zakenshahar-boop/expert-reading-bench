@@ -1,0 +1,115 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Same claim as the calibrated haiku entry: substance use (Q3), 'other individual characteristics' (Q1 part); the heterogeneous-school gap is not credited as Q2, as in calibration."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Abstract wording; the depression and AI identity null is F4. 'No substantive association' for substance use follows p.13 ('negligible associations')."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3",
+          "E4"
+        ],
+        "note": "Per-school ERGMs with AMEs, no structural or attribute terms named (E3 part); directed friendship network without the up-to-10 nomination (E4 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Reciprocity only."
+      },
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Incoming-tie half only."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional with association versus cause."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Same as calibration: moving beyond generalizations."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Cultural attenuation of substance use effects reported as an expectation, as the paper does (p.4); like the calibrated T2 entry."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Receiver effect only (ref 13 Ali et al., Add Health, correct); same as calibration."
+      }
+    ]
+  }
+}

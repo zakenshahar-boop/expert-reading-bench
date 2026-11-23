@@ -1,0 +1,712 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 27,
+      "in own quotes": 26,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 683.0,
+          "where": "elsewhere in paper",
+          "claim": "Respondents ranged from 18 to 94 years old. Of the 683, 519 reported an initial vaccination and 365 reported at least one booster."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 28,
+      "causal word not in quote": 0,
+      "hedge dropped": 5,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Does that pattern differ between attitudes and behavior, or between initial vaccination and boosting?"
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "Possible",
+          "claim": "Separate questions asked whether the respondent had received a COVID-19 vaccine and whether they had received a booster; neither status was verified from medical records."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The estimated probability of booster receipt exceeded 65% for the most liberal respondents regardless of region. For the most conservative, it was about 60% in liberal regions but below 35% in conservative ones."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The authors extend and combine two strands of research on the politics of vaccination: one treats ideology as an individual belief and the other treats partisanship as a feature of places. They accept the earlier associations and ask whether the two levels interact."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "Hao and Shao found that states with a larger Democratic vote share in 2020 had higher booster rates in 2022. The authors build on that state-level association by testing whether the link between local politics and booster receipt differs with the respondent’s own politics."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 52,
+      "abstract": 2,
+      "introduction": 1,
+      "background": 0,
+      "methods": 21,
+      "results": 7,
+      "discussion": 20,
+      "other": 0,
+      "unknown": 1,
+      "first third": 15,
+      "middle third": 16,
+      "last third": 21
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 19,
+      "overlapped, any slot": 22,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q2",
+        "E7",
+        "F5",
+        "F6",
+        "T0",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 22,
+      "in own quotes": 18,
+      "elsewhere in paper": 4,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 73.0,
+          "where": "elsewhere in paper",
+          "claim": "Affiliation estimates were checked against elections and individual voter records. Regional party ratios correlated about 0.80 with election results in both countries; agreement with matched U.S. voter records was lower, around 73–74%."
+        },
+        {
+          "slot": "evidence",
+          "number": 74.0,
+          "where": "elsewhere in paper",
+          "claim": "Affiliation estimates were checked against elections and individual voter records. Regional party ratios correlated about 0.80 with election results in both countries; agreement with matched U.S. voter records was lower, around 73–74%."
+        },
+        {
+          "slot": "key_findings",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "U.S. states more divided over vaccines in 2020 had lower subsequent vaccination rates (r = −0.77). Canada did not reproduce that inverse relationship: excluding Nunavut yielded a positive correlation, which the authors caution rests on only 12 regions."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "Late-2020 tweets and later regional vaccination rates are not contemporaneous observations. Their correlation may have predictive value, but it does not establish that online division reduced uptake or isolate its effect from ideology, education, or other regional factors."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 40,
+      "causal word not in quote": 1,
+      "hedge dropped": 7,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "Comparing how left- and right-leaning users talk about the same issue yields a scalable indicator of partisan division that can be tracked across places and dates."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "not uniform",
+          "claim": "There was no single pandemic-wide partisan divide. Its size depended on the intervention, the region’s politics, and the events under discussion; in the U.S. in particular, those differences also corresponded to later vaccination behavior."
+        },
+        {
+          "slot": "evidence",
+          "kind": "causal",
+          "word": "results in",
+          "claim": "Affiliation estimates were checked against elections and individual voter records. Regional party ratios correlated about 0.80 with election results in both countries; agreement with matched U.S. voter records was lower, around 73–74%."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "partly",
+          "claim": "More conservative regions generally showed larger partisan divides, but the association depended on the topic and country. Republican vote share was significantly associated with polarization over masks and vaccines, not lockdowns; the Canadian vote-margin associations were not significant. Delaware, Idaho, Alabama, and Arkansas illustrate why voting patterns alone do not explain the rankings."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Semantic distance is a proxy, not a direct observation of disagreement. Averaging by user can obscure sarcasm, indirect disagreement, and other meanings not captured by the embeddings."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "English-only sampling leaves out much francophone discussion and makes Quebec’s high measured polarization especially difficult to interpret."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "partly",
+          "claim": "Canada’s small number of regions limits inference about both vote margins and vaccine uptake. The authors also identify Canadian vaccine mandates as a reason not to expect a straightforward comparison with the U.S."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "They qualify the linguistic account of polarization by comparing partisans within a shared contentious topic. They combine contextual language representations with a clustering measure, treating separation in meaning as an indicator rather than equating any vocabulary difference with disagreement."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 0,
+      "some": 1,
+      "none": 0,
+      "items": [
+        {
+          "named": [
+            "Merkley",
+            "Yang"
+          ],
+          "not cited at the quote": [
+            "Yang"
+          ],
+          "claim": "Eric Merkley and colleagues reported unusual agreement across Canadian party lines on early emergency measures. Yang and colleagues qualify the reach of that finding: agreement in the broader political response did not mean that Canadian social-media discussion was similarly unified."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 95,
+      "abstract": 0,
+      "introduction": 6,
+      "background": 0,
+      "methods": 34,
+      "results": 25,
+      "discussion": 22,
+      "other": 5,
+      "unknown": 3,
+      "first third": 28,
+      "middle third": 34,
+      "last third": 33
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 17,
+      "overlapped, any slot": 22,
+      "core findings": 2,
+      "core findings overlapped": 2,
+      "missed": [
+        "E1",
+        "E3",
+        "E4",
+        "E5",
+        "F6",
+        "F7",
+        "L3",
+        "L6",
+        "L8",
+        "T0",
+        "T1",
+        "T2",
+        "I3",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 14,
+      "in own quotes": 12,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "key_findings",
+          "number": 0.83,
+          "where": "elsewhere in paper",
+          "claim": "Compared with the ad alone, reading Jackson’s account first raised positive attitudes toward people with records by about 0.83 standard deviations and the perceived democratic value of diverse life experiences in office by 0.79 standard deviations."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 2024.0,
+          "where": "elsewhere in paper",
+          "claim": "Respondents already knew the election result. Effects measured in July 2025 need not match those of seeing the ad during the 2024 campaign."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 38,
+      "causal word not in quote": 3,
+      "hedge dropped": 15,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Does a Democratic campaign ad labeling Trump a convicted criminal change how Democrats judge people with criminal records who were not the target of the ad?"
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "A secondary question is whether the treatments affect Democrats differently when they or a loved one have been involved in the justice system."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The ad produced a trade-off: Democrats felt better represented by their party, but the deterioration in their views of people with records was substantially larger than the gain in perceived representation."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "could",
+          "claim": "The legislator’s account nearly offset the harm to people with records. Harney therefore argues for testing campaign messages that acknowledge Trump’s convictions while giving formerly incarcerated representatives a voice, rather than treating a stigmatizing attack as necessary."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The counterexample was an edited news excerpt about Nevada legislator Jovan Jackson. It described his reform work and why he found the campaign’s contrast between a prosecutor and a felon hurtful; it distinguished rehabilitation from Trump’s response to conviction."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "effects on",
+          "claim": "Respondents affected by the justice system generally held more favorable views of people with records, yet the ad’s negative effects on several attitude items were larger for them, not smaller."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "appeared",
+          "claim": "Respondents affected by the justice system generally held more favorable views of people with records, yet the ad’s negative effects on several attitude items were larger for them, not smaller."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "could",
+          "claim": "Budget constraints ruled out a narrative-only arm. The experiment identifies what changes when the narrative precedes the ad, not what Jackson’s story would do on its own or whether the negative ad modifies its effect."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "Because the mugshot and label were always shown together, the study cannot attribute the ad’s effect to the wording rather than the image."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "The results do not settle whether Jackson’s example reduced stigma generally or encouraged respondents to classify some people with records as more deserving than others."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "A single survey session cannot establish how long the effects last or how they change with repeated exposure."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "causes",
+          "claim": "The attitude index had only marginally adequate reliability. In particular, the item about whether the label itself causes harm moved opposite to expectation and may not measure respondents’ views of people with records."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The representation measures do not cover all the ways constituents can feel represented, such as agreement on policy and symbolic or active representation across identities."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "effects on",
+          "claim": "The apparent effects on officials’ public-service motives do not survive a Bonferroni correction in either treatment comparison."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "potentially",
+          "claim": "Drawing an analogy to research on welfare and deservingness, Harney distinguishes support for reform from sympathy toward its beneficiaries. Democrats’ less punitive policy preferences need not protect people with records from stigma."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The intervention combines perspective-getting with a counterexample to a stereotype. Rather than asking respondents to imagine incarceration, it gives them a legislator’s own account and tests its effect on how they receive an attack ad."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Harney brings affective and policy-based accounts of representation together: Jackson’s story can elicit empathy while his advocacy signals a policy commitment."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "Harney builds on labeling studies by Denver, Ballou and DeWitt; Harris and Socia; and Imhoff. Harney attributes to them the finding that stigmatizing labels produce harsher judgments than person-first descriptions, then asks whether labeling one politician can worsen judgments of other people with records."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 0,
+      "some": 1,
+      "none": 0,
+      "items": [
+        {
+          "named": [
+            "Ballou",
+            "DeWitt",
+            "Denver",
+            "Harney",
+            "Harris",
+            "Imhoff",
+            "Socia"
+          ],
+          "not cited at the quote": [
+            "Harney"
+          ],
+          "claim": "Harney builds on labeling studies by Denver, Ballou and DeWitt; Harris and Socia; and Imhoff. Harney attributes to them the finding that stigmatizing labels produce harsher judgments than person-first descriptions, then asks whether labeling one politician can worsen judgments of other people with records."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 73,
+      "abstract": 2,
+      "introduction": 9,
+      "background": 0,
+      "methods": 22,
+      "results": 13,
+      "discussion": 23,
+      "other": 0,
+      "unknown": 4,
+      "first third": 26,
+      "middle third": 21,
+      "last third": 26
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 28,
+      "overlapped, any slot": 30,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "C2",
+        "E6",
+        "E7",
+        "F6",
+        "F7",
+        "F10",
+        "F11",
+        "L7",
+        "L8",
+        "T2",
+        "T3",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 14,
+      "in own quotes": 14,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 38,
+      "causal word not in quote": 0,
+      "hedge dropped": 13,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggestive",
+          "claim": "Is the association between engagement and hostility stronger for users who feel more positively about their own party’s leaders than about the opposing party’s leaders?"
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "Do more hostile users have more opportunities to be heard, as indicated by how much they post and the size of their networks?"
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Hostile political expression is not confined to people who are alienated from politics. Among the American X/Twitter users studied, it is positively associated with several of the same capacities, motivations, and activities valued in democratic life."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "appears",
+          "claim": "Random-intercept cross-lagged panel models used behavioral measures to distinguish changes within a person over time from stable differences between people."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "exploratory",
+          "claim": "The authors checked for multiple testing separately within four families of analyses, using false-discovery-rate correction and Bonferroni-adjusted intervals."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "tentative",
+          "claim": "A supplementary Danish X/Twitter sample provides a limited comparison: hostility there also correlated with political interest, efficacy, and news consumption, and less strongly with negative views of the political system."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "to a lesser extent",
+          "claim": "More hostile users posted more, had more followers, and followed somewhat more accounts. Comparing average hostility with a level 1.5 standard deviations higher, estimated posts rose from about 420 to 900 and followers from about 220 to 370."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The main study concerns US users of a public, highly political platform in a deliberately selected polarized setting. It does not establish that the associations transfer to other countries, platforms, or private conversations."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Even the validated text score can mistake vocabulary about political conflict for an expression of hostility. The authors interpret it as an aggregate indicator, not a definitive judgment about each post."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The observational results do not establish that engagement causes hostility. Within-person models account for stable differences but leave open time-varying confounding, measurement error, and influence in both directions."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "appear",
+          "claim": "The polarization measure concerns party leaders, not parties as institutions or their ordinary supporters; the study cannot say whether those other measures would yield the same conditional pattern."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors retain the classical civic-engagement distinction between capacities, motivation, and participation. They use it to separate antecedents, indicators, and behaviors rather than combine them into a single political-resource scale."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Almond and Verba argue that democratic citizenship requires restraint as well as activity. The authors build on that qualification to the classical praise of engagement by asking whether active citizens can also make political exchanges more hostile."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 81,
+      "abstract": 2,
+      "introduction": 2,
+      "background": 11,
+      "methods": 33,
+      "results": 17,
+      "discussion": 15,
+      "other": 0,
+      "unknown": 1,
+      "first third": 14,
+      "middle third": 26,
+      "last third": 41
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 17,
+      "overlapped, any slot": 20,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q2",
+        "E1",
+        "E6",
+        "F4",
+        "F7",
+        "L2",
+        "L4",
+        "L6",
+        "L7",
+        "L8",
+        "T2",
+        "T5",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 5,
+      "in own quotes": 3,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 9.0,
+          "where": "elsewhere in paper",
+          "claim": "The authors deliberately selected two tribal schools serving villages of different sizes and a private preparatory school on one Northern Plains reservation. Of 263 survey respondents in grades 9 and 10, 247 had complete network data."
+        },
+        {
+          "slot": "evidence",
+          "number": 10.0,
+          "where": "elsewhere in paper",
+          "claim": "The authors deliberately selected two tribal schools serving villages of different sizes and a private preparatory school on one Northern Plains reservation. Of 263 survey respondents in grades 9 and 10, 247 had complete network data."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 34,
+      "causal word not in quote": 0,
+      "hedge dropped": 8,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Where AI identity is widely shared, does the strength of a student's identification with their heritage nevertheless distinguish whom they nominate, who nominates them, or whom they resemble among their friends?"
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "Do established patterns of friendship within genders and grades recur in these schools, and do students also cluster by sexual orientation?"
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Reservation schools should not be treated as interchangeable when designing prevention programs: even on the same reservation, the schools differed in how friendships were organized."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "Students consistently befriended peers of the same gender and grade. Friendships also clustered by sexual orientation, though the strength of that pattern varied."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Three schools on one reservation do not establish a general pattern for AI youth on other reservations or in racially integrated schools."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The null identity result concerns measured affirmation within school friendships. It does not establish that identity is unimportant in family or kinship networks, or where AI students are a minority."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors extend adolescent social network analysis to a setting where AI students are the majority. They retain its account of structural dependence and interpersonal similarity while treating the strength of those mechanisms as culturally and institutionally contingent."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "The authors revise rather than reject network-based prevention: reciprocity and clustering remain promising foundations, but they challenge the premise that friendships form around risky behavior and propose investigating strengths-based connections instead."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 64,
+      "abstract": 1,
+      "introduction": 11,
+      "background": 0,
+      "methods": 24,
+      "results": 10,
+      "discussion": 18,
+      "other": 0,
+      "unknown": 0,
+      "first third": 14,
+      "middle third": 22,
+      "last third": 28
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 13,
+      "overlapped, any slot": 15,
+      "core findings": 3,
+      "core findings overlapped": 0,
+      "missed": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "C2",
+        "C3",
+        "E1",
+        "E3",
+        "E6",
+        "F1",
+        "F2",
+        "F3",
+        "F7",
+        "F8",
+        "L4",
+        "T1",
+        "T3",
+        "I1",
+        "I3",
+        "I4",
+        "I6"
+      ]
+    }
+  }
+}

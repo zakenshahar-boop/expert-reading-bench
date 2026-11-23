@@ -1,0 +1,125 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "ungrounded": [
+          "Q3"
+        ],
+        "note": "Quote is 70 words, over the limit."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "note": "Leaves out the structural half of C1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E3"
+        ],
+        "note": "Quote not verbatim."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E6"
+        ],
+        "note": "Quote ends in an ellipsis; not verbatim."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2",
+          "F3"
+        ],
+        "partial": [
+          "F1"
+        ],
+        "note": "'Primary drivers' is the abstract's wording (neutral F-n1)."
+      },
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Quote joins a sentence from page 13 to numbers from page 15."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "The challenge to the prevention assumption, given as a finding."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "partial": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Quote drops the start of the sentence."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Kinship networks lie outside the school network. The paper says this on page 15 as an explanation, not as a limitation. Quote not verbatim."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Does not mention the cultural argument (T2)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

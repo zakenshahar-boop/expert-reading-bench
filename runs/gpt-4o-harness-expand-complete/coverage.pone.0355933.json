@@ -1,0 +1,162 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Perceptions of people with records (Q1) and sense of representation (Q3). Does not ask about the counter-narrative (Q2) or H1A (Q4)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x3",
+            "text": "'Stigmatizing language in political ads negatively affects' attributes the effect to the language and generalizes from one ad; the stimulus was Trump's mugshot with the label, and the paper says image and label cannot be disentangled (p.17). The quote speaks of 'the negative effects of the advertisement'."
+          },
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Rewrite adds 'the counter-narrative increasing positive perceptions by more than 0.8 standard deviation units' without saying the comparison is with the ad alone; there was no counter-narrative-only arm (p.16). The added quote keeps 'prior to being presented with the Trump advertisement'."
+          }
+        ],
+        "note": "Rewritten. The 0.8 SD figure is correct for the counter-narrative-first vs ad-alone comparison (p.11). Still omits that the ad improved feelings of representation, so C1 stays partial."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E2: 2,439 in three arms (counts in the quote). E1 partial: survey experiment only; does not say the participants were Democrats, nor pre-registration, Prolific or dates."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "Added. Restates the research question about the counter-narrative (Q2) in the evidence slot; it describes no evidence."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Added."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Added. Repeats entry 0 with less detail (no arms in the claim); padding."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Caused' is the paper's own wording (p.15)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'The counter-narrative significantly increased positive perceptions' drops that it came before the ad and is compared with the ad alone; there was no counter-narrative-only arm (p.16). The quote (hypothesis H1B) keeps 'relative to ... the advertisement ... alone'."
+          }
+        ],
+        "note": "The quote is a hypothesis rather than the result, but the result is reported on p.11."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Quote is hypothesis H1A; the result is on p.11."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gives the increase in perceived quality of Democratic representation (p.11) but not the public-service-motives half of F3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Added."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Added. No counter-narrative-only arm, with its consequence (limits interpreting its effects)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added. The paper's own caveat about other contexts and less transparent designs (p.17); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "note": "Added. A generic list of limitation categories (p.16) with no specific limit or consequence; padding, no credit."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory is the paper's primary framework, so 'grounded in' is accurate. Does not state the extend stance (T4)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": "T-x1",
+            "text": "Places the negative-campaign-advertising literature in the theoretical positioning. The paper cites it as background (p.2); it is not adopted as the paper's framework."
+          },
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says prior evidence finds negative ads 'less effective for those leading in polls'. The paper says such ads 'tend to be utilized less by those leading in the polls' (p.2), not that they are less effective for them."
+          }
+        ],
+        "note": "Added. No credit."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "The paper builds on the meta-analytic evidence to question the strategy; 'disputes the effectiveness' is acceptable."
+      }
+    ]
+  }
+}

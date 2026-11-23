@@ -1,0 +1,67 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": ["Q1", "E3", "E5", "E6", "F4"],
+  "entries": {
+    "question": [
+      {"match": ["Q2", "Q3"], "partial": ["Q1"], "note": "Whether the heterogeneous-school substance-use links hold in AI-majority schools (Q2), the role of substance use in tie formation (Q3); substance-use part of Q1. The weaker-effects expectation is correctly reported as an expectation (p.4)."},
+      {"match": ["Q4"], "note": "Reciprocity, triadic closure and degree distributions; the expectation of especially strong reciprocity and closure is reported as an expectation, not a result (not a B2 catch)."},
+      {"match": [], "partial": ["Q1"], "note": "Depression part of Q1."},
+      {"match": [], "partial": ["Q1"], "note": "AI identity part of Q1; 'without a directional hypothesis' follows p.5."},
+      {"match": [], "partial": ["Q1"], "note": "Demographic part of Q1 (gender, grade, sexual orientation)."}
+    ],
+    "central_claim": [
+      {"match": ["C1"], "partial": ["C3"], "note": "C1 in the paper's own 'rather than' wording. The prevention implication (grounded in local patterns rather than assuming substance use organizes ties) is part of C3, without the call for culturally grounded theory; 'should be' is within the abstract's 'critical need' and p.16's 'may need to be calibrated'."}
+    ],
+    "evidence": [
+      {"match": ["E1", "E7"], "note": "Cross-sectional survey, 9th/10th grade, three Northern Plains reservation schools, with the three school types."},
+      {"match": ["E2"], "note": "263 and 77% paired correctly; 247 named as the complete-network-data sample with the correct per-school analysis counts (49, 128, 70)."},
+      {"match": [], "unlisted": true, "note": "Survey mechanics (two parts, tablets, Network Canvas, advisory board review) are accurate (p.6) but not a gold answer."},
+      {"match": ["E4"], "note": "Directed nominations, up to ten friends; restriction to ties among responding 9th/10th graders is accurate (p.7)."},
+      {"match": [], "partial": ["E5"], "note": "Substance use measures; 'ever' wording and ceremonial-tobacco exclusion are accurate (p.7)."},
+      {"match": [], "partial": ["E6"], "note": "Peer-perception imputation rule and refusal counts accurate; the sensitivity analysis is in entry 13."},
+      {"match": [], "partial": ["E5"], "note": "CES-D, six items, 0-3 scale."},
+      {"match": [], "partial": ["E5"], "note": "Six-item MEIM adaptation; alpha 0.722 accurate."},
+      {"match": [], "unlisted": true, "note": "Demographic coding and the two roles of the demographic terms are accurate (p.5-6, p.8); does not state the non-causal caution of L6."},
+      {"match": [], "partial": ["E3"], "note": "ERGMs per school, base model plus one model per substance with sender, receiver and homophily terms; no AMEs here (entry 11)."},
+      {"match": [], "partial": ["E3"], "note": "Structural terms of the ERGM specification."},
+      {"match": [], "partial": ["E3"], "note": "Average marginal effects, the remaining part of E3."},
+      {"match": [], "unlisted": true, "note": "Correlations, convergence, degeneracy and goodness-of-fit checks are accurate (p.8, p.12)."},
+      {"match": [], "partial": ["E6"], "note": "The sensitivity analysis excluding imputed cases (remaining part of E6). The structural-plus-substance-only check is described as a method; its result (F7) is given in key_findings entry 2."},
+      {"match": [], "unlisted": true, "note": "Descriptives accurate: marijuana most common in each school (43/41/37% vs. alcohol and tobacco), density, reciprocity rate, clustering (p.12-13)."}
+    ],
+    "key_findings": [
+      {"match": ["F2", "F5"], "note": "Reciprocity and closure in all schools (F2); outdegree centralized everywhere, indegree only in School C, the preparatory school (F5)."},
+      {"match": ["F3"], "note": "Variation across schools and orientation categories is accurate to Table 3."},
+      {"match": ["F1", "F7"], "note": "No consistent substance-use association with both exceptions correctly placed; marijuana homophily given as 'weaker evidence' (p < 0.10), as F1 allows. 'Models with fewer covariates did not change the overall conclusion' is F7."},
+      {"match": [], "partial": ["F4"], "note": "Depression half of F4; the School B sender and B/C homophily estimates are correctly described as negligible."},
+      {"match": [], "partial": ["F4"], "note": "AI identity half of F4."}
+    ],
+    "scope_and_limits": [
+      {"match": ["L1"]},
+      {"match": ["L2"], "note": "Indirect comparison and no feasible non-AI comparison sample."},
+      {"match": ["L4"], "note": "One developmental period, one time point, school transitions."},
+      {"match": ["L3"], "note": "Selection versus influence and no causal effects in either direction."},
+      {"match": [], "unlisted": true, "note": "Drawn from the discussion's third explanation of the AI identity null (p.15: kinship networks 'operate largely outside the school-based friendship system we measured'). Accurate, not a gold limit."},
+      {"match": ["L5"], "note": "False consensus and inflated similarity; the sensitivity result with School B threshold crossings is accurate (p.7)."},
+      {"match": ["L6"]},
+      {"match": [], "unlisted": true, "note": "Data ownership and naming restriction are accurate (data availability statement, p.2)."}
+    ],
+    "theoretical_positioning": [
+      {"match": [], "partial": ["T3", "T1"], "note": "Testing which established patterns travel to AI-majority schools is the testing half of T3; 'network structure and individual attributes' is a vague T1. 'Extend ... to AI-majority schools' is an extension of setting, not of theory, so not flagged."},
+      {"match": ["T2"], "partial": ["T1"], "flags": [{"type": "overclaim (mild)", "gold": "T3", "text": "The note says the authors 'revise the assumption' that structural processes operate with the same strength everywhere; the paper argues their strength is 'not culturally neutral' (p.3) and that parameters are 'calibrated by institutional context' (p.14), while reporting effects that 'align with prior research in direction and relative magnitude' (p.14). It does not present itself as revising network theory."}], "note": "Cultural-context argument (T2) combined with standard network mechanisms (T1 partial). Flag kept mild because the note says the framework is retained."},
+      {"match": [], "misplaced": ["I6", "C3"], "note": "The presumption of network-based prevention that ties rest on substance use/risky behavior is I6; challenging it and calling for strengths-based alternatives is the implication in C3. 'Challenge' is the paper's word."}
+    ],
+    "interlocutor_claim": [
+      {"match": ["I2"], "note": "Includes that the paper calls their analysis descriptive."},
+      {"match": [], "partial": ["I1"], "note": "Receiver part of I1. Reference 13 is Ali, Amialchuk and Nikaj 2014: attribution correct."},
+      {"match": [], "partial": ["I1"], "note": "Homophily part of I1. References 11 and 22 are Schaefer, Haas and Bishop 2012 and Haas and Schaefer 2014: attribution correct. Not joined with entry 1: neither entry says the prior findings come from racially diverse schools."},
+      {"match": ["I3"]},
+      {"match": [], "misplaced": ["F8"], "note": "Reference 9 is Goodreau, Kitts and Morris 2009: correct. Reciprocity consistent with non-AI research is part of F8 (structural effects align with earlier research)."},
+      {"match": [], "misplaced": ["F8"], "note": "References 9 and 10 (Goodreau et al.; Schaefer, Simpkins, Vest and Price): correct. Transitivity alignment, part of F8; repeats the id."},
+      {"match": ["I5"], "note": "References 9 and 12 (Goodreau et al.; Frank, Muller and Mueller): correct. Gender and grade homophily replicated."},
+      {"match": [], "misplaced": ["F8"], "note": "References 2 and 5 (Schaefer and Simpkins; Long, Barrett and Lockhart): correct. Outdegree alignment, part of F8; repeats the id."},
+      {"match": [], "unlisted": true, "note": "Reference 1 is McFarland et al. 2014: correct, and the use to interpret School B homophily follows p.15. Not a gold interlocutor."}
+    ]
+  }
+}

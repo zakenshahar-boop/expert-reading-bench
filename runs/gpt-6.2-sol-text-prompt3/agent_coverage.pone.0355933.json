@@ -1,0 +1,279 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E1",
+    "E3",
+    "L5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Heterogeneity by system-impact status (p.7); accurate, not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "misplaced": [
+          "F8"
+        ],
+        "note": "The ad's two effects (part of C1); the size comparison is finding F8, placed here."
+      },
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "note": "Near-offset is the other part of C1; the alternative of acknowledging the convictions while elevating justice-involved public servants (p.18) is C2."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Prolific, U.S. Democrats, July 12-13 2025; 'experiment' is in entry 3 and pre-registration in entry 9."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Exclusions including suspected bots (E6); final N 2,439 (part of E2, arms in entry 3)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Sample demographics (p.8); accurate, not gold."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Random assignment to three arms with counts. 'Random assignment' supplies the experiment part of E1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "The two single-item representation outcomes only."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "The four indices with item counts cover E4."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Two preregistered contrasts (pre-registration part of E1); HC-2 least squares with and without covariates. Balance result accurate, not gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3",
+          "F10"
+        ],
+        "note": "Ad improved perceived representation: F3 without the public-service motives part. Ad reduced the value placed on diverse life experiences: F10 without the 'not hypothesized' part, which is only in the quote."
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "note": "The value-of-diversity increase (H1C) is accurate, not gold."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Item-level split accurate (p.11)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ],
+        "note": "Also the p.17 point that replication in other contexts is unclear."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability and repeated exposure; behavior is in entry 6."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Behavior; durability and repeated exposure are in entry 5."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Both parts: narrow representation measures and only adequate reliability of the perceptions index."
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "Omits that the author thinks stigma reduction more likely (in the quote, not the claim)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ],
+        "note": "Bonferroni caveat in both contrasts is finding F11, placed in limits."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F9"
+        ],
+        "note": "The H1E null on complexity of representation is finding F9, placed in limits."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Caution on the supplemental analyses (p.11); accurate, not gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Linking the counterexample to the exemplar idea follows p.4 ('providing a counterexample to Trump')."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "'Tentatively applies' keeps the hedge."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I4",
+            "text": "Says Harney builds on Gruening and Schubert's finding that anger-inducing ads bolster support within the sponsoring party. The paper cites it as a possible rationale for the ad and then qualifies it ('However, this is not necessarily concrete', p.3), setting it against evidence that policy alignment matters more for feeling represented. The p.15 quote ('lend weight to the potential mechanism') gives some support to the note's reading, so the stance is tilted rather than reversed."
+          }
+        ],
+        "note": "Author attribution (ref 33) correct."
+      }
+    ]
+  }
+}

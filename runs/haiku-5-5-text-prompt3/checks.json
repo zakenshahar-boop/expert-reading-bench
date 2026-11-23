@@ -1,0 +1,449 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 5,
+      "in own quotes": 4,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The data are from an online self-reported survey of a nonprobability convenience sample of U.S. adults, recruited through Qualtrics Panels in spring 2023. Regional climate is measured by the percent Republican vote in the 2020 presidential election for each participant's zip code."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 12,
+      "causal word not in quote": 0,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The interaction is not significant for vaccination (primary vaccine status), which the authors attribute to the high prevalence of vaccine mandates."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "could",
+          "claim": "The authors did not assess the mechanism through which the association occurs, and use zip-code election data only as a proxy for political climate."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 13,
+      "abstract": 1,
+      "introduction": 2,
+      "background": 0,
+      "methods": 1,
+      "results": 1,
+      "discussion": 8,
+      "other": 0,
+      "unknown": 0,
+      "first third": 4,
+      "middle third": 1,
+      "last third": 8
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 10,
+      "overlapped, any slot": 11,
+      "core findings": 3,
+      "core findings overlapped": 0,
+      "missed": [
+        "Q2",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "L3",
+        "L5",
+        "T0",
+        "T2",
+        "T3",
+        "I1",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 10,
+      "in own quotes": 7,
+      "elsewhere in paper": 3,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper asks how online partisan polarization about COVID-19 measures varies across U.S. states and Canadian provinces, and how it relates to political leaning, conspiracy content, and vaccination rates."
+        },
+        {
+          "slot": "central_claim",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "Politically conservative regions show significantly higher partisan polarization in online COVID-19 discussion in both countries, more strongly in the U.S., and U.S. regional vaccination rates are strongly negatively correlated with polarization in vaccine discussions."
+        },
+        {
+          "slot": "evidence",
+          "number": 1.0,
+          "where": "elsewhere in paper",
+          "claim": "The main corpus is COVID-19 political tweets from the U.S. and Canada, collected from a 1% Twitter API sample between October 9, 2020 and January 4, 2021."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 17,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "Politically conservative regions show significantly higher partisan polarization in online COVID-19 discussion in both countries, more strongly in the U.S., and U.S. regional vaccination rates are strongly negatively correlated with polarization in vaccine discussions."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 1,
+      "items": [
+        {
+          "named": [
+            "Owen"
+          ],
+          "not cited at the quote": [
+            "Owen"
+          ],
+          "claim": "Owen et al. (ref. 94) reported reduced negative sentiment in Canadian vaccine-related tweets during 2020; the authors contrast their own finding that polarization was not negatively correlated with conspiracy tweet volume in Canada."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 18,
+      "abstract": 2,
+      "introduction": 3,
+      "background": 0,
+      "methods": 3,
+      "results": 6,
+      "discussion": 4,
+      "other": 0,
+      "unknown": 0,
+      "first third": 7,
+      "middle third": 6,
+      "last third": 5
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 11,
+      "overlapped, any slot": 11,
+      "core findings": 2,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q2",
+        "C2",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L7",
+        "L8",
+        "L9",
+        "T0",
+        "T1",
+        "T2",
+        "I1",
+        "I2",
+        "I4",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 2,
+      "in own quotes": 2,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 2,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to the Trump ad labeling him a 'convicted criminal' lowered Democrats' perceptions of people with records, and a formerly system-involved representative's perspective shown before the ad largely offset that effect."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "effect on",
+          "claim": "Placing a system-impacted state representative's perspective before the ad almost entirely offset the ad's negative effect on perceptions of people with records."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "effects of",
+          "claim": "The effects of the ad and counter-narrative on perceptions of people with records were larger for system-impacted respondents than for others."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The authors place the study within social categorization theory and extend it to argue that a stigmatizing label applied to one salient group member spills over to the wider category of people with records."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 16,
+      "abstract": 3,
+      "introduction": 2,
+      "background": 0,
+      "methods": 3,
+      "results": 3,
+      "discussion": 5,
+      "other": 0,
+      "unknown": 0,
+      "first third": 7,
+      "middle third": 3,
+      "last third": 6
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 11,
+      "overlapped, any slot": 12,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "C2",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F2",
+        "F5",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "T2",
+        "T3",
+        "T4",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 3,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 0,
+      "hedge dropped": 0,
+      "items": []
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 17,
+      "abstract": 2,
+      "introduction": 1,
+      "background": 3,
+      "methods": 4,
+      "results": 5,
+      "discussion": 2,
+      "other": 0,
+      "unknown": 0,
+      "first third": 6,
+      "middle third": 4,
+      "last third": 7
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 11,
+      "overlapped, any slot": 13,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q2",
+        "C2",
+        "E1",
+        "E5",
+        "E6",
+        "F2",
+        "F4",
+        "F6",
+        "F7",
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T5",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 2,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "Prior research on non-AI adolescents holds that youth who use substances receive more friendship nominations (a positive receiver effect), citing Ali et al. (2014). The paper disputes this pattern for AI-majority schools."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 0,
+      "hedge dropped": 0,
+      "items": []
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 16,
+      "abstract": 3,
+      "introduction": 2,
+      "background": 0,
+      "methods": 2,
+      "results": 5,
+      "discussion": 4,
+      "other": 0,
+      "unknown": 0,
+      "first third": 6,
+      "middle third": 1,
+      "last third": 9
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 10,
+      "overlapped, any slot": 11,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "C2",
+        "E2",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F4",
+        "F5",
+        "F7",
+        "F8",
+        "L4",
+        "L5",
+        "L6",
+        "T1",
+        "T3",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

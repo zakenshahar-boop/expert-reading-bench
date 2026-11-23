@@ -1,0 +1,138 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "The question as stated; the quote is a finding sentence from the abstract but is in the paper."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "States both halves for hesitancy and booster uptake: conservatives in liberal climates less hesitant and more boosted, liberals low/boosted regardless. 'Significantly moderates' is the paper's own interaction framing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says the booster result indicates that environmental factors such as political climate 'can influence' conservatives' vaccine behavior. The paper says only that environmental factors 'may impact' annual-dose decisions, did not assess the mechanism, and cannot assume causal or directional associations (p.10)."
+          }
+        ],
+        "note": "Conservative booster half of C1 (p.10 'conservative individuals are more likely to received booster doses in liberal regions')."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "misplaced": [
+          "C1",
+          "F2"
+        ],
+        "note": "Verbatim abstract. Evidence part: online survey, 683 participants, March 8 to April 19, 2023 (no convenience sample or Qualtrics, no 1,777/970 figures). The rest states the central claim and the hesitancy interaction shape (liberals low regardless, conservatives in liberal climates less hesitant), credited as misplaced. Its beta values (.07, .12) are the abstract's own and differ from the results section; not flagged since verbatim."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Verbatim results paragraph (p.7). Evidence part: regressions with controls and the interaction term, odds ratios for status, but linear vs logistic not named, so partial E6. States F1 in full (main associations with both hesitancies and both statuses), credited as misplaced. Also says the vaccine-status interaction was not significant, without the mandates explanation (too partial for F4)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Booster percentages (p.8): F3 in full, placed in evidence."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; liberals-regardless part not in this slot."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberal half and conservatives' dependence on climate, without direction (abstract wording)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Percentages from p.8: over 65% liberals regardless; 60% vs under 35% for the most conservative."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster-status interaction significant (OR = .83) and lower uptake for conservatives in conservative climates. 'Booster hesitancy' interaction also significant (p.7), accurate. F3 already full from [2]."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L5"
+        ],
+        "note": "Verbatim p.10: proxy with other zip-code differences (population density), and untested effect modification with Simpson's paradox."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says the authors place themselves in 'the framework of political psychology and public health research' and treat both orientation and climate 'as moderating variables'. The paper names no framework (T0) and treats only climate as the moderator of the orientation association (p.2)."
+          }
+        ],
+        "note": "Prior studies on orientation or climate, extended by testing their interaction: T1 and T2."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Same as the original note; Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the Expectation 2 question, accurate (p.5) but not a gold question."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Added entry: reports the result that hostile users post more and have more friends and followers."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T2",
+          "I2"
+        ],
+        "note": "Added entry: drawing on revisionist research is T2; arguing against a purely positive view of engagement qualifies the classical view (I2). Wording keeps 'may'."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the policy implication (p.16), accurate and hedged as in the paper."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Same as the original note: adds the strongest associations, the distinctive part of F1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "YouGov US panel; 2,567 linked panelists, not joined to the post count."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4",
+          "E2"
+        ],
+        "note": "SU method named without the cosine similarity or per-user averaging; 9.25 million posts."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Added entry: January 2019 to January 2021, the original wave plus five more; YouGov is in evidence[1]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: accurate on varying measures and samples, and keeps the 3,643 X-only maximum apart from the 2,567."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: accurate list of survey measures (p.8)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: accurate description of the leader thermometer measure (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: accurate validation detail (p.7)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the count models (p.15) are accurate; E5 names OLS and RI-CLPM, not these."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive significant association with the controls; the strongest indicators are not named here."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the literatures is the paper's stance, not a limitation."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Added entry: the platform-generalization limit; 'American' is not repeated but is implied by the paper's sample."
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Added entry: the education caveat; omits that the findings are mute on causal relations among the indicators."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Added entry: the non-causal reading applied to the moderation analyses (p.5); a repeat of L2, not L8, since it does not say the moderation is exploratory outside participation."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T4"
+        ],
+        "note": "Added entry: not taking sides and asking a different question is the complementary stance."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: treating the indicators as separate (p.4, p.8) is accurate but not a gold framework or stance."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Added entry."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Added entry. References 21 and 47 are Leeper and Slothuus, and Taber and Lodge (checked in paper.xml); the knowledge point is refs 48-49 and is stated correctly."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: dissatisfaction and engagement [51], accurate (p.4)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: education's effect was likely overstated (p.4), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the small share of hateful posts does not imply they lack influence (p.2), accurate."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "partial": [
+          "I4"
+        ],
+        "note": "Added entry: the grievance and personality accounts with the correct 'not only' stance; the personality claim is not specified as the small-segment, extreme-traits finding."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry: the traditional finding that engaged citizens have more voice [18,19] motivates the reach analysis (p.15); accurate."
+      }
+    ]
+  },
+  "joined": [
+    "E2"
+  ]
+}

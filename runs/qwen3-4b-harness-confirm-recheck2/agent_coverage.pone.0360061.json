@@ -1,0 +1,32 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {"match": ["Q3"], "note": "'Beyond' socioeconomic, personality or grievance explanations is Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."}
+    ],
+    "central_claim": [
+      {"match": [], "misplaced": ["F3"], "note": "The activity and reach result (F3) put forward as the central claim; 'potential reach' and 'linked to higher visibility' keep the paper's hedge (p.15), so no flag."}
+    ],
+    "evidence": [
+      {"match": [], "partial": ["E5"], "note": "RI-CLPM named; the cross-sectional models are not identified as pooled OLS. The data source (E1) is not stated anywhere in this note's evidence slot."}
+    ],
+    "key_findings": [
+      {"match": [], "partial": ["F1"], "note": "Positive significant association with interest, knowledge and participation, but these are not said to be the strongest; offline participation added."},
+      {"match": [], "partial": ["F2"], "note": "Stronger among the more polarized, 'particularly' for online and offline participation. The participation focus is kept, but not that the moderation is only partial or weak elsewhere. Close to the abstract's wording ('more pronounced for some indicators, especially online and offline participation'), so no F-x2 flag."},
+      {"match": ["F3"]}
+    ],
+    "scope_and_limits": [
+      {"match": ["L2"], "note": "Observational, not causal, with the panel caveats (time-varying confounding, reciprocity, measurement error)."},
+      {"match": ["L2"], "note": "Repeats L2."},
+      {"match": ["L5"]}
+    ],
+    "theoretical_positioning": [
+      {"match": [], "misplaced": ["C1"], "note": "Rewritten claim: it now states the main association instead of a framework or stance, so the T1/T2/T3 credit is lost (the quote names classical theories and darker-sides work, but the claim does not). It omits 'positively', which its quote carries; credited as misplaced C1 leniently."}
+    ],
+    "interlocutor_claim": [
+      {"match": ["I3"], "partial": ["I4"], "note": "Rewritten claim: the paper does not dispute the grievance or personality accounts but examines engagement in addition, which is the correct 'adds to' stance. The grievance account (marginalization, status threat) is I3; the personality account is not specified as the small-segment, extreme-traits finding, so I4 is partial."}
+    ]
+  }
+}

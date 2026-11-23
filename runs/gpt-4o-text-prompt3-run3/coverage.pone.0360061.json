@@ -1,0 +1,99 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Lists interest, knowledge and online participation as examples, not as the strongest, so F1 is not credited here (as in the earlier judge's qwen note)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "States the positive association (quoting Expectation 1, which the results confirm, p.11) but not the strongest indicators."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "Reports Expectation 2 as a finding without qualification: stronger associations among more affectively polarized users. The paper finds this only partly, clearest for online and offline participation, 'partially consistent with Expectation 2 rather than a uniform confirmation' and exploratory for the remaining indicators (p.14)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Greater activity and potential reach (wording kept from Expectation 3, so no flag); does not say more posts, followers and, less so, friends."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Classical engagement theories (p.15). 'Extends' is credited partially as T3, as the earlier judge did for a near-identical qwen entry; the revisionist view is not named in the claim, only in the quote ('darker sides of engagement')."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "partial": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x2",
+            "text": "Says the paper 'disputes the claim' that hostility is 'solely' associated with deprivation, marginalization or personality. Prior work is not quoted as claiming exclusivity; the paper 'does not seek to adjudicate between these literatures' (p.3) and presents engagement as an additional correlate ('not only', p.15)."
+          }
+        ],
+        "note": "Grievance accounts (I3) with the paper's 'not only' content; the personality account is not specified as the small-segment, extreme-traits finding (I4 partial). Stance word tilts from 'adds to' to 'disputes'."
+      }
+    ]
+  }
+}

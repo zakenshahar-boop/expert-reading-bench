@@ -1,0 +1,303 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "Q3",
+    "E3",
+    "E5",
+    "E6",
+    "L3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and event-driven variation in the three topics."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Ideological leaning only, the first of Q3's three correlates."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Vaccination rates, Q3's third correlate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Conspiracy content, Q3's second correlate. With entries 1 and 2 Q3 is stated in full."
+      },
+      {
+        "match": [],
+        "note": "The topic-conditioning premise of the method (p.4), which the paper states as a hypothesis it adopts. Related to Q2's methods aim but does not state it; same call as the earlier judge on an equivalent entry."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "note": "Not uniform; varies by place, leaning, topic, and between countries (p.25). Events added, from the abstract."
+      },
+      {
+        "match": [],
+        "neutral": true,
+        "note": "The conclusion's hedged suggestion that institutional factors 'may' mediate the impact of online polarization on health behavior (p.25), reported with its hedge: the authors' interpretation, in the spirit of F-n1."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "The methodological aim (fine-grained text-based measure, adaptable beyond COVID-19, p.3) placed as a central claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Dates and 12.55M / 46.64M tweets."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "The three topics and why they were chosen; no conspiracy category or method."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Keyword and hashtag labeling."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Domain-adapted, fine-tuned RoBERTa topic classifiers."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Conspiracy category, counting promotion and rebuttal. Entries 1-4 together give all of E5."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Profile text geocoding with OSM/ArcGIS and census check."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Two-step profile/activity classifier, no validation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Democrat vs Republican; Canadian left and right party families (p.4). Accurate method detail; the grouping is the source of L8 but is not stated as a limit here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results (0.802, 0.815)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against voter records (74.35% / 73.35%). With entries 6 and 8, E3 is stated in full."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "User-level averaged embeddings, C-index separation of left and right users, 0-1 range. RoBERTa appears in the quote, not the claim; treated as wording."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Subsampling approximation (p.11). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Comparison with 2020 U.S. and 2019 Canadian election results: one of E6's three outside sources."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Case and death data and vaccination rates a year later. With entry 12, all three E6 sources."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Daily time series, pre-selected and peak-detected events, event-triggered averaging (p.16, p.19). Accurate method description; not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1",
+          "F5"
+        ],
+        "note": "F1 in full (U.S. masks and vaccines not lockdowns; Canada not significant). Canada's lower overall polarization plus its non-significant association covers F5."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "partial": [
+          "F7"
+        ],
+        "note": "Delaware, Idaho, Alabama, Arkansas exceptions, stated for lockdowns as on p.14 (F6). Quebec highest on vaccines (p.24), not overall and without the English-only caveat: part of F7."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "U.S. r = -0.77 and Canada not the same; reports the S3 Fig positive 0.74 (n = 12), which the F2 note accepts. Does not point out the clash with the abstract's 'notably weaker', so no B2 catch."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Rise and fall within days, peaks coinciding with events."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Conservatives 'posted about' conspiracy theories, not endorsed them; U.S. weak negative, Canada not significant."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Semantic similarity only a proxy that can miss signals (p.24); sarcasm example is given in the next entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L1"
+        ],
+        "note": "Sarcasm and indirect disagreement lost in user-level averaging (p.10): the example part of L1."
+      },
+      {
+        "match": [
+          "L8"
+        ],
+        "note": "Party families, Bloc and minor parties excluded."
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "note": "Self-reported information may be inaccurate (p.24), plus voter-record and name-matching caveats (p.10)."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported locations may be wrong (p.10); VPNs appear only in the quote."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Bots may inflate apparent semantic distance (p.25). With entry 6 this covers L3; VPNs are only in entry 6's quote, judged a minor omission."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No firm conclusion from the Canadian vaccination correlation, few regions (S3 Fig caption, p.26). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper's own hedge on event peaks (p.17). Accurate; not a separate gold limit."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No single explanation identified for the conservative-polarization link (p.23). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Future-work items from the conclusion (p.26). Accurate; not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Embeddings vs dictionary methods, text-only over restricted network data. No T0."
+      },
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Extends prior COVID-19 partisanship research with finer geographic and temporal detail."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Ref. 50 is Albrecht D. (p.29); the paper gives only the initial, so 'Don' is beyond the paper but not wrong in substance; not flagged."
+      }
+    ]
+  }
+}

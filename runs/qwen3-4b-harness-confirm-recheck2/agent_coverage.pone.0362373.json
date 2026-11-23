@@ -1,0 +1,80 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Substance-use half of C1 (no structural/demographic half). 'Diverging from prior research in racially heterogeneous settings' states C2; 'negligible associations' and the divergence are the paper's own wording (p.13), so not C-x1. Depression and AI identity nulls are F4, a finding (misplaced)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Rewritten claim: the ERGM log-odds specification with structural and actor terms (p.8); quote gives ERGMs per school. No AMEs."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E6"
+        ],
+        "note": "'Cross-sectional social network survey' is part of E1 (no grades, schools or reservation here); peer-perception imputation is E6 without the sensitivity analysis. 'Non-responders' means item non-response on substance use (p.6)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2",
+          "F3",
+          "F1"
+        ],
+        "note": "Names reciprocity, transitivity and gender/grade/sexual orientation homophily, which earns F2 and F3 (F-n1 note); 'primary drivers' is the abstract's wording, not flagged. The substance-use clause is the bare null, credited as F1 as in the calibration notes."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Null with 'isolated and non-replicable exceptions' acknowledged (not named)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "The disputed assumption that risky behavior is a primary determinant of youth relationships (p.16) is I4. 'Absence of substance use effects' follows the paper's own p.16 wording ('not associated'); not flagged."
+      }
+    ],
+    "scope_and_limits": [],
+    "theoretical_positioning": [],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I1",
+            "text": "The note says the paper disputes that substance use predicts friendship 'in adolescent populations', as found in heterogeneous schools; the paper accepts those findings for heterogeneous schools (p.14 quote) and disputes only their generalization to AI-majority schools."
+          }
+        ],
+        "note": "Claim and its setting are I1 in outline, without receiver/homophily specifics in the claim; the dispute is left unscoped. Schaefer et al. 2012 and Haas & Schaefer 2014 are listed in Table 1 as non-AI substance-use studies, so the attribution is supported."
+      }
+    ]
+  }
+}

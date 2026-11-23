@@ -1,0 +1,216 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by hand by the assistant on 2026-11-20; judgment calls decided by the labeler the same day.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Asks whether hostile users are more active and have more reach (Expectation 3, p. 2). True, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "A finding, given as a central claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "E2",
+            "text": "'2,567 linked users ... about 9.25 million of their public posts' reads as attributing the posts to the 2,567. The paper gives no post count for them."
+          }
+        ]
+      },
+      {
+        "match": [
+          "E4",
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Lists the survey measures and the Big Five controls. True, not in the gold."
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1",
+          "F7",
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ],
+        "note": "Says the moderation is suggestive and not causally identified; gold L8 says exploratory outside participation. Credited. JUDGMENT CALL."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Also says the study does not adjudicate between the literatures: the T4 stance, placed under limits."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "'They revise the classical treatment of engagement as a single resource construct.' The paper treats its indicators separately (p. 8) but never says the classical literature used a single construct or that it is revising it."
+          }
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ]
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      },
+      {
+        "match": [
+          "I5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Osmundsen et al.: the revisionist view was applied to social media mainly for misinformation sharing; the paper extends it (p. 4). True; kept out of the gold because a model suggested it."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Verba, Schlozman and Brady: engaged citizens have more opportunities to be heard; the paper builds on this for reach (p. 15). True; kept out of the gold because a model suggested it."
+      },
+      {
+        "match": [],
+        "note": "The ref. 83 citation rejected as I-x1. Worded as an association, so no distortion: no credit, no flag (labeler agreed)."
+      }
+    ]
+  }
+}

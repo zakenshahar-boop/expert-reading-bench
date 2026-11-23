@@ -1,0 +1,93 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 is contained in Q3 and not credited twice."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "The entry has no quote."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E4"
+        ],
+        "note": "Panel survey plus X data (E1) and the SU approach (E4, partial at most); its only quote is NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The validity assessments (p.6-8), with the hand-labeled validation quoted; accurate, not a gold evidence item."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "A finding (more posts, friends, followers) in the evidence slot."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association with interest and knowledge, 0.306 for interest (p.11, correct); not the general positive pattern or online participation as strongest."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger among the more affectively polarized, 'particularly for indicators of direct participation'. The paper says this holds for some indicators, is clearest for participation and is only 'partially consistent with Expectation 2' (p.14); the 'particularly' keeps part of the qualification."
+          }
+        ],
+        "note": "The quote is the descriptive 14 versus 4 of 18 split."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Describes the revisionist view as saying engagement 'may lead to' biased and antagonistic behavior. The paper says engaged citizens 'may also be more likely to process information in biased or antagonistic ways' (p.2)."
+          }
+        ],
+        "note": "Classical theories (T1) and the darker side of engagement (T2), extending the revisionist view (T3); quote p.15."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

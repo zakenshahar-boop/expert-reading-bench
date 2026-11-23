@@ -1,0 +1,231 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use (Q3) and 'other individual traits' without naming depression or AI identity (Q1 partial). Mentions that prior research is from heterogeneous schools but does not ask whether those patterns hold, so Q2 is credited in the next entry. 'Shape' follows the abstract's 'factors shaping friendship ties'."
+      },
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "Whether the diverse-school links (selection and influence, the paper's p.2 wording) hold where students are predominantly AI."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural mechanisms and demographic homophily, not substance use; 'primary drivers' and 'rather than risky behaviors' are the abstract's wording."
+      },
+      {
+        "match": [
+          "C3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "Cross-sectional nomination networks, three Northern Plains reservation schools (E1); ERGMs named (E3 part); N = 247 is the abstract's network-data count (E2 part, 263 not given)."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "School types (E7); 77% overall response rate without the 263 completed surveys (E2 part). Not joined with entry 0: the 263 count is never given."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Up to 10 closest friends via Network Canvas; the advisory board review is accurate (p.6)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Binary substance use, six-question CES-D (p.7 says six questions), six MEIM items, demographics."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Per-school base and substance models with structural and sender/receiver/homophily terms, plus AMEs."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Peer-perception imputation and the sensitivity analysis excluding those cases; the substance-only models (F7 as a method) also mentioned accurately."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Both exceptions named and located."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Depression null and AI identity homophily null; AI identity sender/receiver not mentioned but the AI identity part is stated."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x3",
+            "text": "The note says the authors 'read' the absence of a popularity hierarchy as egalitarian norms operating in the tribal schools; the paper says it 'may reflect the stronger operation of egalitarian norms in tribal school settings' (p.14, p.15)."
+          }
+        ],
+        "note": "Incoming-tie centralization only in School C is the indegree half of F5; outgoing ties not mentioned. The institutional-context sentence is the paper's p.16 'these patterns suggest'; the interpretation is attributed to the authors but loses its hedge."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Also says comparison is only indirect, matching p.6."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "One developmental period, one time point, school transitions."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "False consensus bias and inflated similarity among friends (p.7)."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Not independent causal effects; adjustment variables and descriptive benchmarks."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors aim to 'revise' the generalizations of adolescent network research; the paper says the study 'moves beyond generalizations derived from prior research' (p.3). The labeler dropped 'revises' from T3 as an overstatement."
+          }
+        ],
+        "note": "Testing generalization from heterogeneous schools in an AI-majority setting is the first part of T3; what is replicated and what disputed is not given here. Treated like haiku's 'revise the assumptions' entry (mild flag)."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "T3",
+            "text": "The note says the authors' conclusion 'revises the framework'; the paper keeps the standard network framework and says only that the findings 'suggest' structural processes are universal while their parameters are calibrated by institutional context (p.14). Saying the paper revises network theory is not credited (T3 decision)."
+          }
+        ],
+        "note": "Endogenous mechanisms plus the cultural view that they are not culturally neutral: T2 with T1 partial, as in the haiku calibration entry. The 'revises the framework' wording is flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Rejecting, for this population, the presumption that friendships rest on substance use is the disputing half of T3 (the content is also I6). Credited once, in its own slot. No join with entry 0: the replication of structural and demographic patterns is not stated as stance."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Attributions checked in paper.xml: ref 13 Ali, Amialchuk & Nikaj (receiver effects); ref 11 Schaefer, Haas & Bishop and ref 22 Haas & Schaefer (homophily)."
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Ref 47 is Hunter et al. 2019, a systematic review of network interventions: attribution correct. Interventions built on the substance use-friendship link, questioned for AI youth (p.16)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 1 is McFarland et al. 2014: attribution correct and the paper uses it to interpret School B homophily (p.15). Not a gold answer."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "L6"
+        ],
+        "note": "Ref 41 is Westreich & Greenland: attribution correct. A methodological critique cited to justify a caveat is not a peer claim the argument engages; the content (demographic coefficients not causal, reported as descriptive) is L6. 'Descriptive only' leaves out the benchmark role but the paper does say 'descriptive patterns'."
+      }
+    ]
+  }
+}

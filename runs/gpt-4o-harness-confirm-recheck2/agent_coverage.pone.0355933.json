@@ -1,0 +1,82 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Q1: impact of the stigmatizing label on perceptions of people with records (does not name Trump, but the quote ties it to 'such labels'). Q3: their sense of representation; the quote is the paper's own question (p.4)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "C-x3",
+            "text": "'Stigmatizing language in political ads negatively affects ... perceptions' attributes the effect to the language, and generalizes it to political ads. The stimulus was Trump's mugshot with the label, and the paper says image and terminology cannot be disentangled (p.17)."
+          }
+        ],
+        "note": "C1 partial: harm to perceptions and the counter-narrative's mitigation; omits the improvement in representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "E1 partial: survey experiment, without Democrats, pre-registration, Prolific or dates. E2 partial: total N and 'three groups', without naming the arms. Rewritten to 'test the association of'; meaning kept."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No magnitude; the decrease is the paper's own causal wording (p.15)."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Quote is hypothesis 1A (p.6); the result is on p.11."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T4"
+        ],
+        "note": "T4 partial: says the authors use the theory to predict spillover from stigmatizing labels (applies), without the extension to a campaign ad."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "'Disputes the effectiveness ... as suggested by prior meta-analytic evidence': the paper builds on the meta-analysis to question the strategy (p.2)."
+      }
+    ]
+  }
+}

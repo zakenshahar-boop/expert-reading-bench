@@ -1,0 +1,870 @@
+{
+  "paper_id": "pone.0355933",
+  "doi": "10.1371/journal.pone.0355933",
+  "title": "Lose the label: Messaging effects on Democrats' perceptions of individuals with criminal records and representation",
+  "status": "drafted by the assistant, reviewed and corrected by the labeler on 2026-11-21",
+  "sources_used": "data/plos/pone.0355933/reviews.md (two review rounds, three reviewers, two author responses; the first response is cut off partway) and paper.pdf",
+  "note": "This is an experiment, so causal wording about the treatment effects is the paper's own and is not an overclaim. The overclaims to watch for are about what the design cannot separate and about real-world campaign effects.",
+  "origin_key": {
+    "R1..R3": "reviewer restated or raised it (round in parentheses)",
+    "AR1, AR2": "author response, round 1 or 2",
+    "ED": "academic editor's letter (round in parentheses)",
+    "paper": "taken from the published paper only; no one in the review history said it"
+  },
+  "slots": {
+    "question": {
+      "acceptable": [
+        {
+          "id": "Q1",
+          "answer": "Whether the Democratic Party's advertisement labeling Trump a \"convicted criminal\" spilled over onto Democrats' perceptions of people with criminal records in general.",
+          "origin": [
+            "R2(1)",
+            "ED(1)"
+          ],
+          "spans": [
+            {
+              "page": 4,
+              "text": "this study explores what may have been the impact of propagating such labels on Democrats’ perceptions of people with criminal records"
+            },
+            {
+              "page": 1,
+              "text": "To test for the possibility of stigmatizing language spillover"
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "answer": "Whether a counter-narrative, the perspective of a formerly incarcerated state representative shown before the advertisement, counteracts those effects.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 4,
+              "text": "the primary purpose of this study was to test whether providing a counter-narrative prior to being presented with the Trump advertisement significantly impacted how Democrats responded to the advertisement"
+            }
+          ]
+        },
+        {
+          "id": "Q3",
+          "answer": "How the advertisement affects how well Democrats feel represented by their own elected officials.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 4,
+              "text": "to what extent does the propagation of such stigmatizing terminology impact how well Democrats perceive to be represented by their own elected officials"
+            }
+          ],
+          "decided": "Labeler, 2026-11-21: 'the advertisement', not 'the label': the experiment tests the ad as a whole."
+        },
+        {
+          "id": "Q4",
+          "answer": "Whether hearing the formerly incarcerated lawmaker's perspective before seeing the advertisement reduces Democrats' support for using that advertisement (pre-registered hypothesis 1A).",
+          "origin": [
+            "paper (added by the labeler, 2026-11-21)"
+          ],
+          "spans": [
+            {
+              "page": 6,
+              "text": "will significantly decrease support for the use of the advertisement"
+            }
+          ]
+        }
+      ],
+      "rejected": [],
+      "borderline": []
+    },
+    "central_claim": {
+      "acceptable": [
+        {
+          "id": "C1",
+          "answer": "Seeing the advertisement worsened Democrats' perceptions of people with criminal records while improving their sense of being represented; showing the counter-narrative first almost entirely removed the harm to perceptions.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 1,
+              "text": "had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation"
+            },
+            {
+              "page": 15,
+              "text": "these effects were almost entirely ameliorated"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "answer": "Political messaging that elevates justice-involved voices, in place of stigmatizing attacks, should be considered and tested.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 1,
+              "text": "utilizing political messaging that elevates dedicated, justice-involved voices within the party rather than rely on stigmatizing attacks should be strongly considered and tested"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "C-x1",
+          "answer": "The counter-narrative on its own improves perceptions of people with criminal records.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "why": "There was no counter-narrative-only arm. Reviewer 2 called this the main design flaw and the author agreed.",
+          "counter_span": {
+            "page": 10,
+            "text": "there was no way to isolate the specific effect of the counter-narrative alone"
+          }
+        },
+        {
+          "id": "C-x2",
+          "answer": "The study establishes that the Democratic campaign harmed people with criminal records.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "why": "Reviewer 2 asked for the normative claims to match the evidence; the author reframed the paper as preliminary.",
+          "counter_span": {
+            "page": 16,
+            "text": "this work should be considered as preliminary evidence of potential effects of the Democratic Party’s messaging strategy"
+          }
+        },
+        {
+          "id": "C-x3",
+          "answer": "The words \"convicted criminal\" alone worsened attitudes toward people with criminal records.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "flag": "unsupported detail",
+          "why": "Labeler, 2026-11-21: credit 'the advertisement worsened attitudes'; flag the version that isolates the words. The label was always shown on Trump's mugshot and the author says the two cannot be separated.",
+          "counter_span": {
+            "page": 17,
+            "text": "it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed"
+          }
+        }
+      ],
+      "borderline": []
+    },
+    "evidence": {
+      "acceptable": [
+        {
+          "id": "E1",
+          "answer": "A pre-registered online survey experiment with self-identified Democrats in the United States, fielded on Prolific on July 12 and 13, 2025.",
+          "origin": [
+            "R1(1)",
+            "R2(1)",
+            "ED(1)"
+          ],
+          "required": true,
+          "spans": [
+            {
+              "page": 4,
+              "text": "this study utilized a survey experimental design"
+            },
+            {
+              "page": 8,
+              "text": "The survey was fielded through Prolific"
+            },
+            {
+              "page": 8,
+              "text": "between July 12th and 13th of 2025"
+            }
+          ]
+        },
+        {
+          "id": "E2",
+          "answer": "2,439 participants in three arms: control (813), Trump advertisement alone (814), and counter-narrative first (812).",
+          "origin": [
+            "R1(1)",
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 4,
+              "text": "the 2,439 participants were allocated approximately evenly across one of three different treatment groups"
+            }
+          ]
+        },
+        {
+          "id": "E3",
+          "answer": "The advertisement stimulus is Trump's mugshot labeled \"CONVICTED CRIMINAL\"; the counter-narrative is an edited news excerpt about a formerly incarcerated assemblymember.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 5,
+              "text": "specifically President Donald J. Trump’s mugshot"
+            },
+            {
+              "page": 4,
+              "text": "sharing the experience of a state Assemblymember who was previously incarcerated"
+            }
+          ]
+        },
+        {
+          "id": "E4",
+          "answer": "Outcomes: a five-item index of perceptions of people with criminal records, measures of perceived representation and officials' motives, and a two-item index of support for the advertisement.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 7,
+              "text": "The primary outcomes of interest in this study were"
+            }
+          ]
+        },
+        {
+          "id": "E5",
+          "answer": "Average treatment effects estimated by least squares regression with robust standard errors, with and without pre-registered covariates.",
+          "origin": [
+            "R3(2)"
+          ],
+          "spans": [
+            {
+              "page": 10,
+              "text": "least squares regressions with heteroskedasticity-consistent standard error estimators, HC-2, were utilized"
+            }
+          ]
+        },
+        {
+          "id": "E6",
+          "answer": "Responses flagged as likely bots by a reCAPTCHA score were removed, along with failed attention checks and duplicates.",
+          "origin": [
+            "R1(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 8,
+              "text": "responses that were likely to be bots were also removed"
+            }
+          ]
+        },
+        {
+          "id": "E7",
+          "answer": "A manipulation check asked whether participants had an emotional reaction to the narrative.",
+          "origin": [
+            "R1(1)",
+            "R2(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 8,
+              "text": "a manipulation check was included after exposure to the narrative"
+            }
+          ]
+        }
+      ],
+      "rejected": [],
+      "borderline": []
+    },
+    "key_findings": {
+      "acceptable": [
+        {
+          "id": "F1",
+          "tier": "core",
+          "answer": "The advertisement alone lowered positive perceptions of people with criminal records, by about 0.8 standard deviations relative to no advertisement.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 11,
+              "text": "exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records"
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "tier": "core",
+          "answer": "Showing the counter-narrative before the advertisement raised perceptions by more than 0.8 standard deviations relative to the advertisement alone, about cancelling the advertisement's effect.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 11,
+              "text": "exposure to the counter-narrative prior to being presented with the Trump advertisement increased positive perceptions of individuals with criminal records by more than 0.8 standard deviation (SD) units"
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "tier": "core",
+          "answer": "The advertisement raised the perceived quality of Democratic representation in federal government, and the belief that elected officials are motivated by public service.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 15,
+              "text": "exposure to the Trump advertisement significantly increased feelings of being well represented by elected officials"
+            },
+            {
+              "page": 11,
+              "text": "perceived quality of Democratic representation were also significantly impacted by the Trump advertisement"
+            }
+          ],
+          "decided": "Labeler, 2026-11-21: name the outcome, 'quality of Democratic representation', instead of a general sense of being represented."
+        },
+        {
+          "id": "F4",
+          "tier": "secondary",
+          "answer": "The counter-narrative lowered support for the advertisement.",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 11,
+              "text": "exposure to the counter-narrative significantly decreased support for the Trump advertisement"
+            }
+          ]
+        },
+        {
+          "id": "F5",
+          "tier": "secondary",
+          "answer": "The counter-narrative lowered the perceived quality of Democratic representation, relative to the advertisement alone.",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 11,
+              "text": "exposure to the counter-narrative significantly decreased quality of Democratic representation in federal government"
+            }
+          ]
+        },
+        {
+          "id": "F6",
+          "tier": "secondary",
+          "answer": "Effects were larger among participants who identified as system-impacted.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 14,
+              "text": "the effects were greater for those who identified as being system-impacted"
+            }
+          ]
+        },
+        {
+          "id": "F7",
+          "tier": "secondary",
+          "answer": "Racial attitudes were among the strongest predictors of most outcomes.",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 16,
+              "text": "racial attitudes appeared to be one of the more predictive factors for most outcomes"
+            }
+          ]
+        },
+        {
+          "id": "F8",
+          "tier": "secondary",
+          "answer": "The advertisement's positive effects on representation (about 0.30 to 0.34 standard deviations) are much smaller than its negative effect on perceptions (about 0.83).",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 15,
+              "text": "are considerably smaller than"
+            }
+          ]
+        },
+        {
+          "id": "F9",
+          "tier": "secondary",
+          "answer": "Hypothesis 1E was not supported: showing the counter-narrative first made no significant difference to the perceived complexity of representation.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 11,
+              "text": "H1E was unsupported"
+            },
+            {
+              "page": 11,
+              "text": "no significant differences between the Counter-Narrative First and Trump Ad Alone groups on the outcome related to the complexity of representation"
+            }
+          ],
+          "decided": "Labeler, 2026-11-21: credit the specific null. Do not state that every other directional hypothesis was supported (see the neutral item below)."
+        },
+        {
+          "id": "F10",
+          "tier": "secondary",
+          "answer": "Seeing the advertisement reduced the value Democrats placed on having representatives with diverse life experiences (-0.791 standard deviations against control in the paper's Table 3). This was not hypothesized.",
+          "origin": [
+            "paper (added by the labeler, 2026-11-21)"
+          ],
+          "spans": [
+            {
+              "page": 15,
+              "text": "encouraged individuals to agree less in the value of diversity of life experiences"
+            },
+            {
+              "page": 11,
+              "text": "which were not hypothesized"
+            }
+          ]
+        },
+        {
+          "id": "F11",
+          "tier": "secondary",
+          "answer": "The effects on officials' public-serving motives, in both treatment comparisons, would not survive a Bonferroni correction.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 11,
+              "text": "this finding would no longer be significant after applying a Bonferroni multiple comparisons correction"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "F-x1",
+          "answer": "The \"convicted criminal\" wording, as distinct from the mugshot, is what worsened perceptions.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "why": "Image and text were always shown together.",
+          "counter_span": {
+            "page": 17,
+            "text": "it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed"
+          }
+        },
+        {
+          "id": "F-x2",
+          "answer": "The counter-narrative by itself improved perceptions of people with criminal records.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "why": "No counter-narrative-only arm; every counter-narrative comparison also includes the advertisement.",
+          "counter_span": {
+            "page": 16,
+            "text": "the counter-narrative arm cannot be directly compared to the pure control arm to test the impact of the counter-narrative alone"
+          }
+        }
+      ],
+      "borderline": [],
+      "neutral": [
+        {
+          "id": "F-n1",
+          "answer": "All pre-registered hypotheses except one were supported.",
+          "origin": [
+            "paper"
+          ],
+          "why": "Labeler, 2026-11-21: the paper says this, but its own estimates run against two of the hypotheses. Hypothesis 1F predicted that the counter-narrative would increase belief in officials' public-serving motives and the estimate is a decrease; hypothesis 2B predicted that the advertisement would decrease it and the estimate is an increase. True to the paper's words and contradicted by its numbers: no credit, no penalty.",
+          "spans": [
+            {
+              "page": 11,
+              "text": "All pre-registered, apriori hypotheses were supported, with exception of one (H1E)"
+            }
+          ]
+        }
+      ]
+    },
+    "scope_and_limits": {
+      "acceptable": [
+        {
+          "id": "L1",
+          "answer": "No full factorial design: the effect of the counter-narrative alone cannot be isolated.",
+          "origin": [
+            "R2(1)",
+            "ED(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 16,
+              "text": "the counter-narrative arm cannot be directly compared to the pure control arm to test the impact of the counter-narrative alone"
+            }
+          ]
+        },
+        {
+          "id": "L2",
+          "answer": "The mugshot and the label were shown together, so their effects cannot be separated.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 17,
+              "text": "it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed"
+            }
+          ]
+        },
+        {
+          "id": "L3",
+          "answer": "Online panel data: responses generated by AI agents are a concern that the screening cannot fully settle.",
+          "origin": [
+            "R1(1)",
+            "ED(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 17,
+              "text": "the proliferation of generative AI should cause concerns over the humanity of the responses provided within the survey"
+            }
+          ]
+        },
+        {
+          "id": "L4",
+          "answer": "The design is transparent, so social desirability or demand effects may drive part of the results; the manipulation check eases this concern without ruling it out.",
+          "origin": [
+            "R1(1)",
+            "R2(1)",
+            "ED(1)"
+          ],
+          "spans": [
+            {
+              "page": 17,
+              "text": "helps alleviate some concerns but does not rule this out"
+            }
+          ]
+        },
+        {
+          "id": "L5",
+          "answer": "A single exposure at one time point: how long effects last, how repeated exposure changes them, and whether they reach behavior are unknown.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 17,
+              "text": "to what extent would these treatments translate to shifted decision-making and behavior, as opposed to self-reported perceptions and attitudes"
+            }
+          ]
+        },
+        {
+          "id": "L6",
+          "answer": "Fielded in July 2025, after the election outcome was known; whether the results hold during a campaign is open.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 17,
+              "text": "Whether these results replicate during campaign periods is an open question"
+            }
+          ]
+        },
+        {
+          "id": "L7",
+          "answer": "Measurement: the perceptions index has only satisfactory reliability, and representation was measured narrowly.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 18,
+              "text": "was satisfactory but not necessarily strong"
+            }
+          ]
+        },
+        {
+          "id": "L8",
+          "answer": "The study is preliminary evidence, not a definitive test.",
+          "origin": [
+            "AR1",
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 16,
+              "text": "this work should be considered as preliminary evidence of potential effects of the Democratic Party’s messaging strategy"
+            }
+          ]
+        },
+        {
+          "id": "L9",
+          "answer": "The counter-narrative may construct a new category of deserving people with records instead of reducing stigma; the author thinks stigma reduction more likely.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 16,
+              "text": "While it is possible that the intervention constructs a new category of deservingness, rather than reducing stigma"
+            }
+          ]
+        },
+        {
+          "id": "L10",
+          "answer": "The participants were restricted to Democrats: U.S. residents who spoke fluent English and identified with the Democratic Party. This bounds whose reactions the experiment speaks to, and is separate from the concern about the authenticity of online responses (L3).",
+          "origin": [
+            "paper (added by the labeler, 2026-11-21)"
+          ],
+          "spans": [
+            {
+              "page": 8,
+              "text": "This survey was fielded amongst individuals residing within the United States who spoke fluent English and were members of the Democratic Party"
+            }
+          ]
+        },
+        {
+          "id": "L11",
+          "answer": "Racial attitudes were measured only before exposure, so the study cannot tell whether the advertisement or the counter-narrative changed them; the author names this as an outcome for future research.",
+          "origin": [
+            "paper (added by the labeler, 2026-11-21)"
+          ],
+          "spans": [
+            {
+              "page": 18,
+              "text": "racial attitudes were measured as covariates and presented before stimuli"
+            },
+            {
+              "page": 18,
+              "text": "this should be prioritized as an outcome in future research"
+            }
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "id": "L-x1",
+          "answer": "The author notes the lack of a measure of political sophistication as a limitation.",
+          "origin": [
+            "R3(2)",
+            "AR2"
+          ],
+          "why": "Reviewer 3 raised it. The author responded by reporting fuller education categories; the published paper does not name sophistication as a limitation."
+        },
+        {
+          "id": "L-x2",
+          "answer": "The author notes the absence of implicit or less transparent attitude measures as a limitation of this study's measurement.",
+          "origin": [
+            "R2(1)"
+          ],
+          "why": "Reviewer 2 asked for implicit measures. The paper recommends less transparent designs for future work but does not mention implicit measures."
+        }
+      ],
+      "borderline": []
+    },
+    "theoretical_positioning": {
+      "acceptable": [
+        {
+          "id": "T1",
+          "part": "framework",
+          "tier": "primary",
+          "answer": "Social categorization theory: a salient member of a category serves as an exemplar, so a label applied to Trump spills over to the whole category.",
+          "origin": [
+            "R2(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 1,
+              "text": "Leaning upon social categorization theory"
+            },
+            {
+              "page": 2,
+              "text": "would suggest that the effects of utilizing this label likely spilled over"
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "part": "framework",
+          "tier": "secondary",
+          "answer": "Research on perspective-getting and counter-stereotypes, which grounds the counter-narrative intervention.",
+          "origin": [
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "though heavily supported by political science and psychological literature – is perspective-getting"
+            }
+          ]
+        },
+        {
+          "id": "T3",
+          "part": "framework",
+          "tier": "secondary",
+          "answer": "The author suggests that motivated reasoning may explain how people can support reform policies and still hold negative views of those the policies help.",
+          "origin": [
+            "ED(1)",
+            "R2(1)",
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "Psychologically, individuals may be engaging in motivated reasoning"
+            }
+          ],
+          "decided": "Labeler, 2026-11-21: credited as a suggestion; 'grounded in motivated reasoning' would be an unsupported attribution."
+        },
+        {
+          "id": "T4",
+          "part": "stance",
+          "answer": "Applies and extends: it carries social categorization theory to a campaign advertisement and tests the spillover the theory predicts.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "theory and evidence would predict greater homogenization and spillover perceptions from Trump"
+            }
+          ]
+        },
+        {
+          "id": "T5",
+          "answer": "The author suggests the representation results may reflect prospect theory, with Trump as a low reference point that makes other officials look better.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 15,
+              "text": "these results may simply be Prospect Theory in action"
+            }
+          ],
+          "part": "framework",
+          "tier": "secondary",
+          "decided": "Labeler, 2026-11-21: treated like every other hedged mention of a theory. Credited as a suggestion; 'grounded in prospect theory' would be an unsupported attribution."
+        }
+      ],
+      "rejected": [
+        {
+          "id": "T-x1",
+          "answer": "The paper is framed within the negative campaigning literature.",
+          "origin": [
+            "R3(2)",
+            "AR2"
+          ],
+          "why": "Reviewer 3 asked for this literature. The author added three sentences of background and one in the conclusion; it is cited, not adopted as the framework.",
+          "counter_span": {
+            "page": 2,
+            "text": "prior evidence on the effects of negative campaign advertisements suggests"
+          }
+        },
+        {
+          "id": "T-x2",
+          "answer": "The paper uses a dual-process (System 1 and System 2) model.",
+          "origin": [
+            "R2(1)"
+          ],
+          "why": "Suggested by Reviewer 2 as a possible mechanism; not in the published paper."
+        }
+      ],
+      "borderline": []
+    },
+    "interlocutor_claim": {
+      "acceptable": [
+        {
+          "id": "I1",
+          "answer": "Existing literature: labels such as \"criminal\" causally worsen perceptions of people with records, compared with person-first language. The paper builds on this.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "to significantly worsen perceptions of individuals with records, relative to more humanizing, person-first language"
+            }
+          ]
+        },
+        {
+          "id": "I2",
+          "answer": "Meta-analytic evidence: negative campaign advertisements are not shown to help win elections. The paper builds on this to question the strategy.",
+          "origin": [
+            "R3(2)",
+            "AR2"
+          ],
+          "spans": [
+            {
+              "page": 2,
+              "text": "meta-analytic evidence does not empirically support the use of negative campaign advertisements to aid election success"
+            }
+          ]
+        },
+        {
+          "id": "I3",
+          "answer": "Prior research: perspective-getting increases empathy for members of an out-group, including incarcerated people. The paper builds on this for its intervention.",
+          "origin": [
+            "AR1"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "has been shown to significantly increase feelings of empathy for members of an out-group"
+            }
+          ]
+        },
+        {
+          "id": "I4",
+          "answer": "One study: anger-inducing political advertisements bolster support among members of the party that produced them. The paper qualifies this as a possible rationale for the advertisement.",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "anger-inducing political advertisements bolstered support and encouraged action specifically amongst members of the party producing the advertisement"
+            }
+          ]
+        },
+        {
+          "id": "I5",
+          "answer": "Experimental evidence: policy positions and officials' actions shape feelings of being represented more than affect does. The paper builds on this.",
+          "origin": [
+            "paper"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "tend to have a stronger causal effect on feelings of being represented, rather than affect"
+            }
+          ]
+        }
+      ],
+      "rejected": [],
+      "borderline": [],
+      "neutral": [
+        {
+          "id": "I-b1",
+          "answer": "The Democratic Party's implied position that labeling Trump a \"convicted criminal\" was a sound campaign strategy, which the paper disputes.",
+          "origin": [
+            "R2(1)"
+          ],
+          "spans": [
+            {
+              "page": 3,
+              "text": "There are likely several reasons – either in isolation or in combination – for which this approach was employed by the Democratic Party"
+            }
+          ],
+          "why": "Labeler decision, 2026-11-21: not an interlocutor. A party's campaign strategy is not a claim by a scholarly peer. No credit, no penalty."
+        }
+      ]
+    }
+  }
+}

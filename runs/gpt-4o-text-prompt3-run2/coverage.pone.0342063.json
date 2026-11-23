@@ -1,0 +1,105 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1; the liberals-regardless part is not stated. 'Moderates' is the paper's framing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey and N = 683 only; no convenience sample, Qualtrics Panels or exclusion figures (the dates are in the quote but not the claim)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E4"
+        ],
+        "note": "Quote marked NOT IN PAPER (ellipsis splice). Would be a partial E4 (no averaging or 0-10 scale in the claim)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3"
+        ],
+        "note": "Quote marked NOT IN PAPER (reference number dropped). Would be a partial E3 (no % Republican vote)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Vaccine hesitancy half of F1; booster hesitancy and uptake not stated. Quote cites p.8; the sentence is on p.7, but show_note confirms it in the paper."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; liberals-regardless part missing."
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "note": "Quote marked NOT IN PAPER (truncated). Booster hesitancy interaction; would be unlisted or at most partial F2."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Quote marked NOT IN PAPER (ellipsis splice). Would be partial F4 (no mandates explanation)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "White and Black only, may not generalize; the quote names Qualtrics Panels."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Quote marked NOT IN PAPER (truncated). Would be I1 (prior work linking conservatism, and climate, to hesitancy), no stance stated."
+      }
+    ]
+  }
+}

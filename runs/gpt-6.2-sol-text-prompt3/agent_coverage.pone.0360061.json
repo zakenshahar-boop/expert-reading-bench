@@ -1,0 +1,270 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E2",
+    "E3",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question, accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question, accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "'Associated with the capacities, motivations, and activities' read as the positive association of C1 (the quotes list the indicators); 'belongs alongside marginalization and personality' is C2's additive framing, not C-x2."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Survey responses linked to public X posts (E1); YouGov's US panel is part of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "Six waves, January 2019 to January 2021 (rest of E3); 2,567 linked and up to 3,643 X-only kept apart, without the post count (E2 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "9,250,180 posts, not joined to the 2,567."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Reason for the US setting (p.6), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Definition of the outcome (p.2), accurate."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Validation against AFINN and Perspective (p.7), accurate; these are validation comparisons, not the robustness use credited in E6."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate validation detail (p.7)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate criterion-validity detail (p.8)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate external-validity detail (p.8)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate ecological-validity detail (p.8)."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Political-relevance interaction and share of political posts (p.12-13), accurate."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate measurement detail (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate measurement detail (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate measurement detail (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the leader thermometer measure (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of controls (p.10-11)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Pooled OLS; RI-CLPM is in evidence[20]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the moderation analyses (p.13)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate multiplicity-correction detail (p.10)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Count models and the descriptive network visualizations (p.10, p.15), accurate; no network inference drawn, so not E-x1."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Clearest for online and offline participation; 8 of 18 after FDR, concentrated among participation: the partial qualification is kept."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Also mentions the Danish sample only as tentative evidence of broader applicability, as the paper does."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Non-causal reading of the moderation analyses; a repeat of L2, not L8."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Excludes nonpolitical toxicity and does not measure hate speech (p.3, p.7-8); accurate, not a gold limit."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not deciding between grievance and psychological accounts is the paper's stance, not a limitation."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Treating the indicators separately (p.4, p.8), accurate; 'retain' matches the paper; not a gold framework or stance."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

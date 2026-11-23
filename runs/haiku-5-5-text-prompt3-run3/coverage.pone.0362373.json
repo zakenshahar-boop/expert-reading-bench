@@ -1,0 +1,120 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Same call as calibration; no Q2."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Gives 247 (abstract) and 263 (methods) without saying which stage each is; accurate, not joined, so no flag. ERGMs named."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "partial": [
+          "E6"
+        ],
+        "note": "Binary substance use, CES-D, six MEIM items (E5); imputation without the sensitivity analysis (E6 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Reciprocity only."
+      },
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "F1",
+            "text": "The note says the alcohol sender effect in School C was 'the only substance-use effect reported'; the paper also reports significant alcohol homophily in School B (AME = 0.0039, p < 0.01, p.13). The paper's 'only exception' refers to sender and receiver effects."
+          }
+        ],
+        "note": "Exception detail of F1."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "No sexual orientation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Same as calibration."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Diverse-school link between substance use and friendship, disputed for AI-majority schools; the paper's own p.2 wording."
+      }
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as what the paper argues, but its subject is the spillover of the 'convicted criminal' advertisement onto perceptions of people with records (Q1); same call as the calibration note's question entry [0]."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says stigmatizing messaging can 'reduce public support for justice system reform'. The study measures no policy support, and the paper stresses that policy support is distinct from perceptions of the people affected (p.3)."
+          }
+        ],
+        "note": "The 'harmful generalizations' part restates [0] (Q1); no new credit."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the messaging may backfire by 'reducing feelings of representation'. The ad improved perceived representation (p.1, p.15)."
+          }
+        ],
+        "note": "Only quote NOT IN PAPER; the perceptions part restates [0]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate to p.3: 'policy support is distinct from perceptions of individuals who would be directly impacted by these policies' (social safety net example). Not a gold answer."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says stigmatizing messaging may 'reduce perceived public service motivation among elected officials'. The ad increased belief that officials are motivated by public service (p.11, p.15), as the entry's own quote says."
+          },
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says the messaging may create affective polarization. The paper cites the affective-polarization literature as a possible rationale for the ad (p.3) and does not measure polarization."
+          }
+        ],
+        "note": "No credit."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says the paper argues stigmatizing rhetoric may deepen barriers to civic participation and turnout among system-impacted people. The paper says the counter-narrative approach 'may have been more strategic' given low turnout (p.18) and that the strategy 'may have facilitated even greater barriers to solidarity' (p.16); it reports no effect on participation."
+          }
+        ],
+        "note": "No credit."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Adds that such ads 'can have detrimental long-term effects on public trust'. Nothing in the paper says this; trust is not measured."
+          }
+        ],
+        "note": "The meta-analytic finding that negative ads do not aid election success is the interlocutor claim I2."
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [5]; political efficacy and social cohesion variants; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says stigmatizing language 'may inadvertently reinforce systemic biases and deepen societal divisions'. The paper's nearest point is hedged and narrower: the strategy 'may have facilitated even greater barriers to solidarity amongst system-impacted constituents' (p.16), posed for future research (p.18)."
+          }
+        ],
+        "note": "No credit."
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]; restates I2 (meta-analytic evidence that negative ads do not aid election success); no new credit"
+      },
+      {
+        "match": [],
+        "note": "repeat of [2]; and of [6] (trust in institutions); only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says the paper argues stigmatizing messaging may reduce empathy and political engagement. The paper measures neither; the quoted passage (p.3) is literature offered as a possible rationale for the ad, not an argument against it."
+          }
+        ],
+        "note": "Affective polarization part repeats [4]."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "Says the paper argues stigmatizing language is ineffective for party loyalty because it may alienate voters. The paper raises a possible backfire 'though this is also not guaranteed' (p.3), and finds the ad improved perceived representation (p.15)."
+          }
+        ],
+        "note": "No credit."
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]; and of [6]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [5]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [13]; fear and mistrust variant"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]; and of [4]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]; and of [6]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [5]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]; and of [13]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [18]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [5]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]; and of [6]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; misinformation variant; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [18]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]; and of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]; and of [4]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [33]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [43]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [18]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]; and of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [18]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [5]; and of [6]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [43]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [1]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]; and of [6]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [4]"
+      },
+      {
+        "match": [],
+        "note": "repeat of [6]; only quote NOT IN PAPER"
+      },
+      {
+        "match": [],
+        "note": "repeat of [9]; and of [4]"
+      }
+    ],
+    "central_claim": [],
+    "evidence": [],
+    "key_findings": [],
+    "scope_and_limits": [],
+    "theoretical_positioning": [],
+    "interlocutor_claim": []
+  }
+}

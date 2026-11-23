@@ -1,0 +1,235 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "Q1",
+    "C2",
+    "E3",
+    "E6"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "All three correlates (Q3); regional variation across states and provinces, the regional half of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Event-driven half of Q1. With entry 1 gives all of Q1."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C2"
+        ],
+        "note": "Varies by place, leaning, topic and event (p.25); cross-country difference not in this entry. Methods framing ('a single national score would miss') not separately credited."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C2"
+        ],
+        "note": "Cross-national difference, with the conclusion's interpretation (p.25). 'Interpret as evidence' vs the paper's 'suggests ... may be mediated': close enough, not flagged. With entry 0 gives all of C2. No C1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hashtag labels and country-specific RoBERTa topic classification; the three topics not named in this slot."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Conspiracy category including debunking. The three intervention topics are named only in the question slot, so E5 is not joined."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Two-step classifier, plus the party grouping."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records. With entry 4 gives all of E3."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "Averaged user embeddings, C-index party separation; subsampling detail accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Comparison with election vote margins; also 12-week averages and peak analysis (accurate)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Case/death data and vaccination one year later. With entry 7 gives all of E6."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Conservative regions more polarized; U.S. masks/vaccines not lockdowns; Canada not significant. No B1 catch."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "partial": [
+          "F7"
+        ],
+        "note": "Delaware; Arkansas, Alabama, Idaho (F6). Quebec most polarized on vaccines, without the English-only caveat (F7 partial)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "U.S. r = -0.77; Canada positive excluding Nunavut over 12 regions (S3 Fig). No B2 catch."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'Discussed', not endorsed: not F-x3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "note": "Self-reported affiliation can be wrong; voter-record caveats."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Locations missing, imprecise or false; bots inflating apparent distance (VPNs in the quote)."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Explicitly does not establish that polarized discussion reduced uptake."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Few Canadian regions and vaccine mandates limit the Canadian vaccination result (S3 Fig caption). Accurate; not a gold limit."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Event peaks are coincidences, not causes (p.17); no single explanation (p.23). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Cross-border flows not quantified (future work, p.26). Accurate; not in the gold."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text embeddings over network methods, for data access. No T0."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Groups have own vocabularies; topic held constant (p.4): I7, placed here."
+      },
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Research on partisan COVID-19 responses (T2), extended to places and events while agreeing on the conservative association (T3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Merkley et al. is correct for ref. 103."
+      }
+    ]
+  }
+}

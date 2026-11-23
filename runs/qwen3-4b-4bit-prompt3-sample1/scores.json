@@ -1,0 +1,1791 @@
+{
+  "pone.0342063": {
+    "parsed": "repaired",
+    "slots_filled": 6,
+    "slots_not_stated": 0,
+    "slots_missing": 1,
+    "entries": 13,
+    "entries_without_quote": 0,
+    "quotes": 13,
+    "faithful": 8,
+    "located": 0,
+    "bad_length": 4,
+    "per_quote": [
+      {
+        "slot": "central_claim",
+        "page": null,
+        "words": 60,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Most strikingly, for booster status the interaction between political orientation and political climate indicated that the most liberal participants were over 65% likely to get boosted regardless of climate. The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026)."
+      },
+      {
+        "slot": "evidence",
+        "page": null,
+        "words": 122,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "We collected online survey data from 683 participants between March 8 and April 19, 2023. Controlling for age, education, income, and race, there was an interaction between political conservatism and conservative political climate for both vaccine and booster hesitancy (β = .07, p = .03; β = .12, p < .001, respectively), such that liberals were less likely to be hesitant regardless of political climate. However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions. A similar interaction was for the likelihood of receiving a COVID-19 booster (OR =.84, p = .049). Liberals were more likely to receive a booster regardless of political climate, while conservatives’ likelihood was associated with their political climate."
+      },
+      {
+        "slot": "evidence",
+        "page": null,
+        "words": 156,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "We assessed regional political climate using zip code data provided by participants and 2020 presidential election results sourced from the New York Times [22]. Zip codes are postal codes used by the U.S. postal service to identify geographic delivery areas. These regions are often used as a proxy for local community characteristics [23]. Election results included the numbers of votes for the Democratic and Republican candidate (Biden and Trump, respectively) as well as the total number of votes for each Federal Information Processing Standard (FIPS) code. Political climate for each participant was determined by matching FIPS codes to corresponding zip codes. In cases where a zip code included multiple FIPS codes, data was averaged across these FIPS. Using the FIPS data for each zip code, we calculated the percent of Republican votes by dividing the number of Republican votes by the total number of votes (multiplied by 100). This reflects measurement processes in prior research [10,19,21]."
+      },
+      {
+        "slot": "evidence",
+        "page": null,
+        "words": 114,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "Vaccine hesitancy (i.e., negative attitudes toward vaccination) was measured using the seven items from the Attitudes towards Adult Vaccination Scale [24], which assesses the perceived value of vaccines in general. We modified the items to assess attitudes specifically toward the COVID-19 vaccine [e.g., I fear the potential impact of the COVID-19 vaccine on my health in the future, I believe that the benefits of COVID-19 vaccination outweigh the potential risks (reverse-scored)]. Each item was rated on a 5-point Likert scale ranging from disagree strongly (1) to agree strongly (5). These items were averaged to form a vaccine hesitancy scale. Booster hesitancy was assessed using items from a 2022 survey on COVID-19 booster hesitancy [25]."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 11,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Liberals were less likely to be hesitant regardless of political climate."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 19,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Liberals were more likely to receive a booster regardless of political climate, while conservatives’ likelihood was associated with their political climate."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 31,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "The most conservative participants in liberal climates were 60% likely to get boosted, while conservatives in conservative climates were less than 35% likely to get boosted (OR =.83, p = .026)."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 20,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "There was a significant interaction between political conservatism and conservative regional climate for vaccine hesitancy, booster hesitancy, and booster status."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": null,
+        "words": 54,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "This data is cross-sectional and we cannot assume causal or directional associations. Additionally, our sample was recruited through an online platform and only includes participants with access to this platform. Further, our sample includes only White and Black participants recruited through Qualtrics Panels, and may not generalize to broader populations in the United States."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": null,
+        "words": 53,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Because we used 2020 presidential election votes by zip code as a proxy for political climate, it must be noted that other zip code-based differences could be driving the associations noted in this paper. Regional factors (e.g., population density) may play a role in linking 2020 election votes to vaccine attitudes and behaviors."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": null,
+        "words": 49,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "The present research provides the first assessment of the potential interaction between political orientation, political climate, and COVID vaccination. Additionally, by looking at both COVID vaccine and booster status and hesitancy, we identify how attitudes and behaviors may have shifted as we transitioned from initial vaccine doses to boosters."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": null,
+        "words": 73,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The present research is consistent with previous findings that conservative political orientation and a conservative political climate are both associated with COVID-19 vaccine hesitancy and decreased likelihood of receiving a COVID-19 vaccine [6,7,10,19]. Previous studies have focused on either political orientation or political climate. By looking at political orientation and region climate, we identify a novel and important finding, specifically that conservative individuals are more likely to received booster doses in liberal regions."
+      }
+    ]
+  },
+  "pone.0347327": {
+    "parsed": "repaired",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 11,
+    "entries_without_quote": 0,
+    "quotes": 12,
+    "faithful": 9,
+    "located": 7,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 23,
+        "words": 25,
+        "found_on": [
+          [
+            22,
+            23
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Rather than finding uniformly low state-specific polarization with internally homogeneous semantics within conservative and liberal states, our analysis confirmed significantly higher polarization in conservative states."
+      },
+      {
+        "slot": "question",
+        "page": 23,
+        "words": 35,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We found a strong negative correlation between partisan polarization and future vaccination rates, and a moderate negative correlation between the temporal profiles of conspiracy-related tweets and aggregate polarization in the U.S.—patterns not observed in Canada."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 30,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "we demonstrate a strong negative correlation between regional vaccination rates and the degree of polarization in vaccine-related discussions in the U.S., suggesting tangible public health implications of online partisan division."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 39,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We collected a large-scale dataset of COVID-19 political discussions on Twitter (now X) occurring between October 9, 2020, to January 4, 2021, comprising approximately 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada."
+      },
+      {
+        "slot": "key_findings",
+        "page": 14,
+        "words": 22,
+        "found_on": [
+          [
+            14
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "In the United States (Fig 9), conservative states consistently show higher polarization overall and specifically in discussions related to masks and vaccines."
+      },
+      {
+        "slot": "key_findings",
+        "page": 12,
+        "words": 38,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Using official CDC vaccination data from a comparable period after vaccines became available (October 11, 2021 to January 3, 2022), we confirm a strong negative correlation (r = −0.77, p < 0.001) between vaccine polarization and vaccination rates."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 29,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We identify distinct spikes linked to specific political events and policy announcements. These polarization surges typically lasted only a few days, revealing the dynamic nature of online partisan discourse."
+      },
+      {
+        "slot": "key_findings",
+        "page": 12,
+        "words": 22,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "In Canada, we did not observe a similar pattern in Canada, due to small sample size and the implementation of vaccine mandates."
+      },
+      {
+        "slot": "key_findings",
+        "page": 21,
+        "words": 25,
+        "found_on": [
+          [
+            22
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In the United States (B), we find there is a statistically significant correlation −0.247 with CI=[−0.448,-0.023] (n = 88, p = 0.031) between these measures."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 25,
+        "words": 43,
+        "found_on": [
+          [
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Seventh, there are temporal mismatches between our Twitter dataset (collected in late 2020) and regional vaccination rates, which occurred primarily in 2021. As a result, correlations between polarization in vaccine-related discussions and later vaccination uptake should be understood as suggestive rather than causative."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 4,
+        "words": 14,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Our methodology leverages the demonstrated capacity of modern vector embeddings to represent language semantics."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 23,
+        "words": 25,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We find that more right leaning states and provinces exhibited greater partisan divisions around COVID-19 on Twitter (X), particularly concerning mask mandates and vaccine distribution."
+      }
+    ]
+  },
+  "pone.0355933": {
+    "parsed": "repaired",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 20,
+    "entries_without_quote": 0,
+    "quotes": 23,
+    "faithful": 14,
+    "located": 13,
+    "bad_length": 4,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 51,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The more negative angle for campaign advertisements and rhetoric is important to note: prior evidence on the effects of negative campaign advertisements suggests that they tend to be utilized less by those leading in the polls [4,5] and that Democrats tend to respond more to positive ads, compared to Republicans [6]."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 56,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Thus, even if the intention of the advertisements depicting Trump as a \"convict,\" \"criminal,\" or \"felon\" were intended for purpose of impacting solely the likelihood of his ability to win the presidential election (e.g., encouraging action and anger towards Trump), social categorization theory [12–15] would suggest that the effects of utilizing this label likely spilled over."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 28,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The extent to which individuals feel angry towards those with criminal records has been found to be associated with greater support for more punitive justice system policy [11]."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 30,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Results suggest that exposure to the Trump advertisement with the \"convicted criminal\" label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 39,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "The 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812)."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 50,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The counter-narrative, on the other hand, provided no visual stimulus, but rather an excerpt for participants to read. This excerpt was from the article entitled, \"Could a formerly incarcerated lawmaker reshape justice policy in the NV Legislature?,\" by Michael Lyle, published in the Nevada Current on November 5, 2024 [55]."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 104,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "The perceptions of individuals with criminal records outcome included an index, where participants were presented with five statements and were asked how much they agreed with each on a seven-point Likert scale from \"Strongly disagree\" to \"Strongly agree.\" Example statements in this index included \"People with criminal records deserve to have the same level of opportunity for civic participation as those without criminal records,\" and \"Most people with criminal records do not positively contribute to their communities,\" the latter of which was reverse-coded. In terms of reliability, the Cronbach’s alpha coefficient was 0.71, reflecting the lower end of the threshold for adequate reliability [59]."
+      },
+      {
+        "slot": "evidence",
+        "page": 11,
+        "words": 44,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "exposure to the counter-narrative prior to being presented with the Trump advertisement increased positive perceptions of individuals with criminal records by more than 0.8 standard deviation (SD) units, compared to those presented with the Trump advertisement alone ( β̂2 = 0.83, SE = 0.041)."
+      },
+      {
+        "slot": "evidence",
+        "page": 10,
+        "words": 63,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "those assigned to the counter-narrative first condition reported significantly higher, on average, agreement to having an emotional reaction, relative to both the Control group (ATE = −0.156, robust SE = 0.047) and the Trump Ad Alone (ATE = −0.135, robust SE = 0.048), while these latter two groups were not significantly different from one another (difference of 0.021 and robust SE of 0.05)."
+      },
+      {
+        "slot": "evidence",
+        "page": 11,
+        "words": 24,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "exposure to the counter-narrative significantly decreased support for the Trump advertisement, relative to the Trump advertisement alone ( β̂2 = −0.172 SE = 0.048)."
+      },
+      {
+        "slot": "evidence",
+        "page": 11,
+        "words": 28,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "exposure to the counter-narrative significantly decreased the perceived quality of Democratic representation in federal government, relative to just Trump advertisement exposure ( β̂2 = −0.332, SE = 0.048)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 22,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records ( β̂0 = −0.835, SE = 0.044)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 44,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "exposure to the counter-narrative prior to being presented with the Trump advertisement increased positive perceptions of individuals with criminal records by more than 0.8 standard deviation (SD) units, compared to those presented with the Trump advertisement alone ( β̂2 = 0.83, SE = 0.041)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 37,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "exposure to the counter-narrative significantly increased the perceived value of representation in government, on average, relative to exposure to the advertisement of Trump being labeled as a \"convicted criminal\" alone ( β̂2 = 0.790, SE = 0.047)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 24,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "exposure to the counter-narrative significantly decreased support for the Trump advertisement, relative to the Trump advertisement alone ( β̂2 = −0.172 SE = 0.048)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 28,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "exposure to the counter-narrative significantly decreased the perceived quality of Democratic representation in federal government, relative to just Trump advertisement exposure ( β̂2 = −0.332, SE = 0.048)."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 84,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "Specifically, the single time-point survey experimental approach is a useful first step, but leaves unanswered several key questions related to the ability of these results to replicate: a) for how long do the effects of the counter-narrative prime before the advertisement and the advertisement itself persist; b) how may effects vary by single versus repeated exposure to the advertisement and/or the counter-narrative prime?; and b) to what extent would these treatments translate to shifted decision-making and behavior, as opposed to self-reported perceptions and attitudes?"
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 74,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "First, the ideal version of this survey experiment would have been to utilize a full factorial design (i.e., including the exposure to the counter-narrative perspective arm alone). This was entirely done a result of binding budget constraints, and the decision on which arm to drop was entirely intentional based on the priority research questions as well as the level of available literature to speak to the potential impacts of the counter-narrative perspective arm alone."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 47,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "As the advertisement (i.e., Trump’s mugshot with the words 'convicted criminal' imposed on the image) was presented consistently across treatment arms, it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed, and thus, this is recommended for exploration in future work."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 43,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Specifically, social categorization theory articulates the implications and process of how individuals come to assign and distinguish individuals into groups, with much of the theory and evidence pointing to the importance of category salience and the role of group exemplars and prototypes [16]."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 3,
+        "words": 51,
+        "found_on": [
+          [
+            3,
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Thus, sharing political messaging highlighting dedicated, system-impacted representatives that may provide both their perspective (i.e., encouraging empathy, positive emotions, and understanding) as well as one that signals their policy alignment (i.e., dedication to justice system reform), would be well-suited to addressing both the affective and policy representation avenues for bolstering support."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 15,
+        "words": 36,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "Thus, leaning into this counter-narrative as the Party’s rhetoric may have been avoided for myriad reasons, including that the more humanizing approach of highlighting a dedicated formerly system-involved representative may have been considered as 'too radical.'"
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 28,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The extent to which individuals feel angry towards those with criminal records has been found to be associated with greater support for more punitive justice system policy [11]."
+      }
+    ]
+  },
+  "pone.0360061": {
+    "parsed": "partial",
+    "slots_filled": 1,
+    "slots_not_stated": 0,
+    "slots_missing": 6,
+    "entries": 82,
+    "entries_without_quote": 0,
+    "quotes": 82,
+    "faithful": 65,
+    "located": 45,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 8,
+        "words": 22,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We do not mean to imply that the ways of measuring online hostility presented here are the only ways to measure it."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 19,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "This pattern is consistent with recent research on motivated reasoning, partisan animus, and the darker sides of political engagement."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 17,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Recent research has more strongly emphasized this revisionist view on the costs and benefits of political engagement."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 19,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The greater engagement of hostile social media users may thus provide them with a higher reacher than other users."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may condition the association between political engagement and online political hostility because it shapes the emotional orientation of political involvement."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 45,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Even without formal connections or the ability to write in prose that satisfied the editor of a newspaper, everyone now had a voice and could engage with others online, including politicians. Yet lowering the entry barriers to the public sphere seemingly came with a cost."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 20,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "However, if online political hostility is also associated with political engagement and out-party animus, platform-level interventions alone may be insufficient."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 20,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the results in light of the validation evidence and robustness checks, while acknowledging this remaining construct-validity limitation."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 19,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The greater engagement of hostile social media users may thus provide them with a higher reacher than other users."
+      },
+      {
+        "slot": "question",
+        "page": 11,
+        "words": 35,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The associations with online participation and political interest are, for example, 0.236 and 0.306 for online political hostility, whereas they are 0.176 and 0.170 for AFINN scores and 0.267 and 0.239 for Perspective API scores."
+      },
+      {
+        "slot": "question",
+        "page": 12,
+        "words": 19,
+        "found_on": [
+          [
+            12
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The associations are, not surprisingly, larger for the \"political\" measure since this is a direct measure of political engagement."
+      },
+      {
+        "slot": "question",
+        "page": 15,
+        "words": 17,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Users who express more online political hostility also post more frequently and have more friends and followers."
+      },
+      {
+        "slot": "question",
+        "page": 15,
+        "words": 27,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We also observe some evidence of the reverse temporal association, in which hostility is followed by higher political engagement, although this pattern is weaker and less consistent."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 28,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The literature on political information processing has argued and found that indicators of political engagement (e.g., partisanship) can be associated with biased assessments of political arguments and news."
+      },
+      {
+        "slot": "question",
+        "page": 14,
+        "words": 17,
+        "found_on": [
+          [
+            14
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret these analyses as suggestive evidence of conditional associations, not as causally identified moderation effects."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 26,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In a polarized political context, politically engaged citizens may be more likely to enter conflictual political exchanges, and affective polarization may make those exchanges more antagonistic."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 20,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the results in light of the validation evidence and robustness checks, while acknowledging this remaining construct-validity limitation."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 13,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Everyone now had a voice and could engage with others online, including politicians."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 11,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The findings should overall be interpreted as associational rather than causal."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 9,
+        "words": 16,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "We also include a measure of party identification and standard demographic controls (age, gender, and income)."
+      },
+      {
+        "slot": "question",
+        "page": 11,
+        "words": 35,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The associations with online participation and political interest are, for example, 0.236 and 0.306 for online political hostility, whereas they are 0.176 and 0.170 for AFINN scores and 0.267 and 0.239 for Perspective API scores."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 22,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Hostility and toxicity permeate political debates on social media, but less is known about which users engage in hostile political expression online."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 19,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "This pattern is consistent with recent research on motivated reasoning, partisan animus, and the darker sides of political engagement."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 22,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The findings have implications for efforts to reduce online political hostility. Platform design, moderation, ranking systems, and friction-based interventions may all matter."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 19,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may increase engagement, engagement may increase affective polarization, and hostile online interaction may itself intensify affective polarization."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 26,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In a polarized political context, politically engaged citizens may be more likely to enter conflictual political exchanges, and affective polarization may make those exchanges more antagonistic."
+      },
+      {
+        "slot": "question",
+        "page": 12,
+        "words": 19,
+        "found_on": [
+          [
+            12
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The associations are, not surprisingly, larger for the \"political\" measure since this is a direct measure of political engagement."
+      },
+      {
+        "slot": "question",
+        "page": 15,
+        "words": 17,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Users who express more online political hostility also post more frequently and have more friends and followers."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 20,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the results in light of the validation evidence and robustness checks, while acknowledging this remaining construct-validity limitation."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 11,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The findings should overall be interpreted as associational rather than causal."
+      },
+      {
+        "slot": "question",
+        "page": 11,
+        "words": 16,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The associations were obtained after controlling for broad personality traits, income, age, gender, and party identification."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 11,
+        "words": 35,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The associations with online participation and political interest are, for example, 0.236 and 0.306 for online political hostility, whereas they are 0.176 and 0.170 for AFINN scores and 0.267 and 0.239 for Perspective API scores."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may condition the association between political engagement and online political hostility because it shapes the emotional orientation of political involvement."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 28,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "the literature on political information processing has argued and found that indicators of political engagement (e.g., partisanship) can be associated with biased assessments of political arguments and news"
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 19,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may increase engagement, engagement may increase affective polarization, and hostile online interaction may itself intensify affective polarization."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 22,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The findings have implications for efforts to reduce online political hostility. Platform design, moderation, ranking systems, and friction-based interventions may all matter."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 20,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the results in light of the validation evidence and robustness checks, while acknowledging this remaining construct-validity limitation."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 26,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In a polarized political context, politically engaged citizens may be more likely to enter conflictual political exchanges, and affective polarization may make those exchanges more antagonistic."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may condition the association between political engagement and online political hostility because it shapes the emotional orientation of political involvement."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 28,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "the literature on political information processing has argued and found that indicators of political engagement (e.g., partisanship) can be associated with biased assessments of political arguments and news"
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 11,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The findings should overall be interpreted as associational rather than causal."
+      },
+      {
+        "slot": "question",
+        "page": 11,
+        "words": 16,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The associations were obtained after controlling for broad personality traits, income, age, gender, and party identification."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may condition the association between political engagement and online political hostility because it shapes the emotional orientation of political involvement."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 22,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The findings have implications for efforts to reduce online political hostility. Platform design, moderation, ranking systems, and friction-based interventions may all matter."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 9,
+        "words": 16,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "We also include a measure of party identification and standard demographic controls (age, gender, and income)."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 11,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The findings should overall be interpreted as associational rather than causal."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 28,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "the literature on political information processing has argued and found that indicators of political engagement (e.g., partisanship) can be associated with biased assessments of political arguments and news"
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 19,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may increase engagement, engagement may increase affective polarization, and hostile online interaction may itself intensify affective polarization."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 12,
+        "words": 19,
+        "found_on": [
+          [
+            12
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The associations are, not surprisingly, larger for the \"political\" measure since this is a direct measure of political engagement."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 11,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The findings should overall be interpreted as associational rather than causal."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 26,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In a polarized political context, politically engaged citizens may be more likely to enter conflictual political exchanges, and affective polarization may make those exchanges more antagonistic."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 9,
+        "words": 16,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "We also include a measure of party identification and standard demographic controls (age, gender, and income)."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In such settings, politically engaged citizens may use their political competences and motivation not to make political exchanges less but more contentious."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Affective polarization may condition the association between political engagement and online political hostility because it shapes the emotional orientation of political involvement."
+      }
+    ]
+  },
+  "pone.0362373": {
+    "parsed": "repaired",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 11,
+    "entries_without_quote": 0,
+    "quotes": 11,
+    "faithful": 4,
+    "located": 3,
+    "bad_length": 6,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 15,
+        "words": 157,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "In the realm of adolescent social network research, the correlation between substance use and friendship formation is well-documented. Non-AI researchers have used the recurring connection between substance use and friendship formation as a basis for intervention research with promising results [47]. Our study’s finding that substance use is not associated with relational patterns among 9th and 10th-grade AI youth marks a significant departure from established trends, offering a novel perspective. This finding not only underscores a fundamental lack of theoretical understanding regarding developmental relationship patterns within this demographic but also signals the urgent need to explore more deeply the factors influencing relational dynamics among AI youth. Because the conventional assumption in much of the adolescent health literature, that risky behavior is a primary determinant of relationships in youth, does not hold in our study, which may also mean that common network intervention strategies aimed at reducing substance use may not be as effective as previously thought [4,5,10]."
+      },
+      {
+        "slot": "central_claim",
+        "page": 13,
+        "words": 74,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "Substance use demonstrated no consistent or robust association with friendship dynamics in this sample. Sender and receiver effects—indicating whether individuals who use substances are more likely to receive or initiate friendships—were almost entirely non-significant across all three schools and substances. The only exception was a positive sender effect for alcohol use in School C (AME = 0.015, p < 0.05), suggesting a tendency for alcohol-using adolescents to initiate more friendship nominations in that setting."
+      },
+      {
+        "slot": "evidence",
+        "page": 1,
+        "words": 36,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "Using exponential random graph models (ERGMs) to analyze factors shaping friendship ties. Models assessed endogenous structural processes (reciprocity, transitivity, degree effects) and actor-level characteristics, including demographic factors, substance use (alcohol, tobacco, marijuana), depression, and AI identity."
+      },
+      {
+        "slot": "key_findings",
+        "page": 14,
+        "words": 67,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "The ERGM results revealed strong and consistent endogenous structural effects across all three schools (Table 3). Reciprocity was positive and highly significant in every model, indicating a robust tendency for mutual friendship nominations. Similarly, the positive coefficients for closed triads (transitivity) and negative coefficients for two‑path confirmed that triadic closure—the process by which friends of friends become friends—is a fundamental organizing principle within these AI adolescent networks."
+      },
+      {
+        "slot": "key_findings",
+        "page": 14,
+        "words": 49,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Homophily effects provided further evidence of distinct relational logics. Gender and grade homophily were consistently significant across all schools (AME = 0.008–0.058, all p < 0.001), indicating that shared gender identity and grade level are primary axes of friendship formation, as extensively documented in the broader adolescent literature [9,12]."
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 74,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "Substance use demonstrated no consistent or robust association with friendship dynamics in this sample. Sender and receiver effects—indicating whether individuals who use substances are more likely to receive or initiate friendships—were almost entirely non-significant across all three schools and substances. The only exception was a positive sender effect for alcohol use in School C (AME = 0.015, p < 0.05), suggesting a tendency for alcohol-using adolescents to initiate more friendship nominations in that setting."
+      },
+      {
+        "slot": "key_findings",
+        "page": 14,
+        "words": 39,
+        "found_on": [
+          [
+            14
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Depression likewise showed no substantively meaningful associations with friendship formation among AI adolescents, unlike the negative receiver effects and depression homophily commonly observed in non-AI populations [46]; the isolated statistically significant estimates were negligible in magnitude (AME < 0.001)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 15,
+        "words": 75,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "AI identity homophily was consistently non-significant across all schools. This null finding, while seemingly counterintuitive given the cultural emphasis on tribal belonging, is consistent with several contextual considerations. First, in AI-majority schools, racial identity is a near-universal attribute; with nearly all students identifying as AI, there is insufficient variation in racial category for identity to differentiate friendship choices. Homophily on AI identity is theoretically redundant when almost all potential friends share the same racial background."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 64,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "The findings of this study are not without their limitations. First, we recognize that the results presented here represent only three schools on one reservation. The history, policies, geography, and culture of this reservation all intersect with network formation and maintenance patterns. Our findings may not extend to AI youth in racially heterogeneous schools, where Rees, Freng, and Winfree [17] observed different network characteristics."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 1,
+        "words": 52,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This study examines the structural and relational foundations of friendship networks among AI adolescents in their unique cultural context. Using social network data from 9th and 10th-grade students (N = 247) across three schools on a Northern Plains reservation, we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 14,
+        "words": 45,
+        "found_on": [
+          [
+            14
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "In non-AI samples, substance use homophily and receiver effects are consistently positive and often substantial in magnitude [6,11,13,22] (see Table 1 for a summary of prior findings). By contrast, in our AI-majority sample, substance use showed no consistent sender, receiver, or homophily effects across schools."
+      }
+    ]
+  }
+}

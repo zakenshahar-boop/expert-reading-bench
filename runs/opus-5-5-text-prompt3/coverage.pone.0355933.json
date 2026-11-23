@@ -1,0 +1,206 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "neutral": true,
+        "note": "'Argues against the Democratic Party's use of stigmatizing terms.' A party's strategy is not a scholarly position (neutral I-b1)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E5",
+          "E1"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3",
+          "F8"
+        ]
+      },
+      {
+        "match": [
+          "F4",
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L7",
+          "L11"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ],
+        "note": "The Bonferroni result, given as a limit."
+      },
+      {
+        "match": [
+          "L9"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "T5"
+        ],
+        "note": "'Draws on Prospect Theory to interpret the representation effects.' The paper's sentence is hedged ('may'); the note drops the hedge but does not call it the paper's framework. Half credit, for the labeler to confirm."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I4",
+          "I5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Martinez: incarceration may shift ideologies to the right. In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Westwood on AI threats to online surveys. In the paper, not in the gold."
+      }
+    ]
+  }
+}

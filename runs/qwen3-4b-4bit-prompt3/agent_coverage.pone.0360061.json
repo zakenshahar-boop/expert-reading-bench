@@ -1,0 +1,41 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {"match": ["Q3"]}
+    ],
+    "central_claim": [
+      {"match": [], "ungrounded": ["C1", "F1"], "flags": [{"type": "unsupported detail", "gold": "F1", "text": "Lists the strongest associations as interest, knowledge and 'online/offline participation'. The paper names political interest, political knowledge and online participation as strongest; offline participation is not among them."}], "note": "No quote."},
+      {"match": [], "ungrounded": ["F3"], "note": "No quote; would have been F3 misplaced."}
+    ],
+    "evidence": [
+      {"match": [], "ungrounded": ["E1", "E4"], "note": "No quote. Survey plus X data (E1) and the SU embedding measure (E4, partial)."},
+      {"match": [], "unlisted": true, "note": "No quote. Accurate summary of the validation (five validity assessments, 74% accuracy, p.6-7); not a gold item."},
+      {"match": [], "ungrounded": ["E1"], "note": "No quote; repeats E1 with the list of engagement measures."},
+      {"match": [], "unlisted": true, "note": "No quote. Accurate description of the leader thermometer measure (p.9)."},
+      {"match": [], "ungrounded": ["E5"], "note": "No quote; would have been partial E5 (RI-CLPM, OLS not named)."}
+    ],
+    "key_findings": [
+      {"match": [], "partial": ["F1"], "note": "Positive significant association with interest, knowledge and participation, without saying which are strongest. The quote is in the paper, though it is about controls and the comparison of measures."},
+      {"match": [], "ungrounded": ["F2"], "note": "Its only quote is marked NOT IN PAPER (a reordered paraphrase of p.13 with the same meaning, so no made up flag). The claim keeps the participation qualifier, so it would have been F2."},
+      {"match": ["F3"]},
+      {"match": [], "partial": ["F1"], "flags": [{"type": "unsupported detail", "gold": "F1", "text": "Says associations are stronger for proximate indicators (interest, knowledge) than for distal antecedents (education, efficacy). The paper reports the strongest associations for interest, knowledge and online participation but makes no proximate-versus-distal comparison; the quote compares hostility measures, not indicators."}]},
+      {"match": [], "ungrounded": ["F3"], "note": "Its only quote is marked NOT IN PAPER (the abstract's 'higher reacher' corrected to 'higher reach'; same meaning, no flag). 'Amplified by user activity' follows p.15's visibility implication."}
+    ],
+    "scope_and_limits": [
+      {"match": [], "ungrounded": ["L2"], "note": "No quote."},
+      {"match": [], "ungrounded": ["L2"], "note": "No quote."},
+      {"match": [], "ungrounded": ["L5"], "note": "No quote."},
+      {"match": [], "ungrounded": ["L3"], "note": "No quote."},
+      {"match": [], "ungrounded": ["L4"], "note": "No quote."}
+    ],
+    "theoretical_positioning": [
+      {"match": ["T1", "T2", "T3"], "flags": [{"type": "overclaim (mild)", "gold": "C-x1", "text": "Describes the revisionist view as holding that engagement 'can lead to' biased and antagonistic behavior. The paper says engagement 'can be associated with' biased assessments and that engaged citizens 'may' be more likely to process information in biased or antagonistic ways (p.2, p.4)."}]}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "partial": ["I3", "I4"], "flags": [{"type": "wrong stance", "gold": "C-x2", "text": "Says the paper disputes that hostility is primarily driven by grievance or personality traits. The paper 'does not seek to adjudicate between these literatures' (p.3) and presents engagement as an additional correlate; it disputes neither account."}], "note": "Names the grievance and personality accounts with the wrong stance."}
+    ]
+  },
+  "joined": []
+}

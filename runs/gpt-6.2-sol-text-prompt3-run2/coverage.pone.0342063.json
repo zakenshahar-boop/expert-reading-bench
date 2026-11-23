@@ -1,0 +1,212 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "The quotes include the p.2 gap sentence, but the claim itself asks the question without stating the gap, so no Q2."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Initial vaccine vs booster comparison, from p.7 ('identify how attitudes and behaviors may have shifted'); accurate, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Climate matters more for conservatives than liberals; conservatives in liberal areas less hesitant and more often boosted; no interaction for initial uptake (accurate, p.8)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E7"
+        ],
+        "note": "The reason for the quota design (data from a larger project on marginalization); the quotas themselves are in [2]."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Four race by income quota groups, plus the gender cap."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "683 of 1,777, with 970 failing Qualtrics screens and the further exclusions."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Both Qualtrics screens and own attention checks (p.4); accurate, not a separate gold item."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Age range and 519/365 vaccinated/boosted (p.5); accurate descriptives."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "IRB approval and consent (p.4)."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "% Republican 2020 vote by zip code, with the FIPS matching detail (p.3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported vaccine and booster status half of E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hesitancy scale half of E5 (seven AAVS items adapted to COVID-19), plus booster hesitancy items."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "CFA and alpha = .93 (p.5); accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Measurement of the demographic controls and perceived access (p.3)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Bivariate tests (p.4)."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "OLS for hesitancy, logit for status, controls then predictors then the interaction."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Listwise exclusion and two-sided .05 threshold (p.5)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction with its shape (p.10), accurate. No gold finding covers booster hesitancy alone (F2 is vaccine hesitancy, F3 booster uptake); treated as in the calibration file."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Non-significant interaction for initial vaccination, without the mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Mechanism not identified (L6); also states social pressure as a possibility not established, which is T3's substance, given here in the limits slot."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Online-platform part of L4 only; the race restriction and generalization are in [5]."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Agrees with the two prior lines (orientation and climate) and combines them by testing the interaction, quoting 'first assessment'. Does not say the paper names no theory, so no T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Hao and Shao (ref. 20) checked: correct. Booster-rate half of I3, with the builds-on stance; same call as the calibration file."
+      }
+    ]
+  }
+}

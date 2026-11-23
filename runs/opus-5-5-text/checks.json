@@ -1,0 +1,366 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 10,
+      "in own quotes": 10,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 12,
+      "causal word not in quote": 0,
+      "hedge dropped": 3,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The paper asks whether regional political climate moderates the link between individual political conservatism and COVID-19 vaccine hesitancy and uptake. It notes that earlier work examined orientation and climate separately but not how they interact."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "For booster status, the most conservative participants in liberal climates had roughly a 60% likelihood of being boosted. Conservatives in conservative climates had a likelihood under 35%."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The interaction was not significant for initial vaccination status. The authors attribute this gap between attitudes and behavior to widespread vaccine mandates."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 21,
+      "abstract": 1,
+      "introduction": 3,
+      "background": 0,
+      "methods": 5,
+      "results": 0,
+      "discussion": 12,
+      "other": 0,
+      "unknown": 0,
+      "first third": 7,
+      "middle third": 2,
+      "last third": 12
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 12,
+      "in own quotes": 8,
+      "elsewhere in paper": 4,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper asks how partisan polarization in online COVID-19 discourse varied across subnational regions and over time in the United States and Canada. To answer this, it proposes a new computational way to measure such variation."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The tweets (2020) and the vaccination data (2021) come from different periods, and the analyses are correlational. The authors therefore do not claim causal effects."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 2021.0,
+          "where": "elsewhere in paper",
+          "claim": "The tweets (2020) and the vaccination data (2021) come from different periods, and the analyses are correlational. The authors therefore do not claim causal effects."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 103.0,
+          "where": "elsewhere in paper",
+          "claim": "Merkley et al. (ref. 103) reported a rare cross-partisan consensus among Canadians on early emergency measures. The authors build on this but qualify it, arguing that the consensus did not extend to social media."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 17,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggestive",
+          "claim": "The tweets (2020) and the vaccination data (2021) come from different periods, and the analyses are correlational. The authors therefore do not claim causal effects."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 2,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 1,
+      "items": [
+        {
+          "named": [
+            "Owen"
+          ],
+          "not cited at the quote": [
+            "Owen"
+          ],
+          "claim": "Owen et al. (ref. 94) found reduced negative sentiment in Canadian vaccine-related tweets during 2020. The authors set their own result against this: they find no negative correlation between conspiracy volume and polarization in Canada."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 20,
+      "abstract": 2,
+      "introduction": 2,
+      "background": 0,
+      "methods": 2,
+      "results": 6,
+      "discussion": 8,
+      "other": 0,
+      "unknown": 0,
+      "first third": 6,
+      "middle third": 4,
+      "last third": 10
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 5,
+      "in own quotes": 5,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 17,
+      "causal word not in quote": 0,
+      "hedge dropped": 11,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The study asks how labeling Trump a 'convicted criminal' in Democratic Party messaging affected Democrats' perceptions of people with criminal records. It also asks how this labeling affected how well Democrats feel represented by their own elected officials."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "A second question is whether showing the perspective of a formerly system-involved representative before the ad can counteract the ad's negative effects."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Seeing the 'convicted criminal' Trump ad worsened Democrats' perceptions of people with criminal records. At the same time, it improved their sense of being represented."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "A counter-stereotype narrative shown before the ad largely cancelled out the ad's negative effect on perceptions of people with records."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "Could",
+          "claim": "There were two stimuli. The first was Trump's mugshot labeled 'CONVICTED CRIMINAL', taken from 2024 Democratic ads. The second was an edited news excerpt giving the perspective of Nevada assemblymember Jovan Jackson, who was formerly incarcerated."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The ad increased feelings of being well represented and the belief that officials serve the public. The author reads this as Trump acting as a low reference point, consistent with Prospect Theory."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "appeared",
+          "claim": "Supplemental heterogeneity analyses show the ad did more damage to perceptions of people with records among system-impacted respondents."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "The design was not full factorial and had no counter-narrative-only arm, so the effect of the counter-narrative alone cannot be isolated. The effect of the mugshot image also cannot be separated from the effect of the label."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The study is preliminary, single time-point and run after the election. It cannot speak to durability, effects of repeated exposure, behavior, or replication during campaign periods."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The author extends social categorization theory to political advertising. The argument is that labeling a salient exemplar, Trump, spills over onto the whole group of people with records."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The paper cites evidence (ref. 54, Martinez) that incarceration shifts ideology rightward. The author questions whether this holds outside stigmatizing status-quo messaging."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 2,
+      "all named authors cited at the quote": 2,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 26,
+      "abstract": 3,
+      "introduction": 7,
+      "background": 0,
+      "methods": 4,
+      "results": 5,
+      "discussion": 7,
+      "other": 0,
+      "unknown": 0,
+      "first third": 13,
+      "middle third": 5,
+      "last third": 8
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 9,
+      "in own quotes": 9,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 15,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Online political hostility is positively associated with indicators of political engagement and its antecedents. The strongest associations are with political interest, political knowledge, and online participation. Hostility is therefore linked to forms of engagement usually seen as central to democratic citizenship."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 2,
+      "all named authors cited at the quote": 2,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 23,
+      "abstract": 2,
+      "introduction": 1,
+      "background": 4,
+      "methods": 4,
+      "results": 7,
+      "discussion": 5,
+      "other": 0,
+      "unknown": 0,
+      "first third": 7,
+      "middle third": 3,
+      "last third": 13
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 19,
+      "overlapped, any slot": 21,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "E1",
+        "E3",
+        "E6",
+        "F4",
+        "F6",
+        "L3",
+        "L4",
+        "L5",
+        "L8",
+        "T1",
+        "T2",
+        "T5",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 3,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 15,
+      "causal word not in quote": 0,
+      "hedge dropped": 3,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks whether patterns found in racially diverse schools, where substance use is linked to friendship selection and popularity, also hold in reservation schools where most students are American Indian. It also asks how substance use and other individual traits shape friendship formation in those schools."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "Friendships among AI adolescents in reservation schools are organized by universal structural mechanisms and demographic similarity, not by risky behaviors. Substance use is a much weaker organizing principle for friendship here than in heterogeneous school settings."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "They keep the claim that endogenous network processes are universal, but argue that the size of their parameters depends on institutional context."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 2,
+      "all named authors cited at the quote": 2,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 23,
+      "abstract": 3,
+      "introduction": 5,
+      "background": 0,
+      "methods": 1,
+      "results": 4,
+      "discussion": 10,
+      "other": 0,
+      "unknown": 0,
+      "first third": 9,
+      "middle third": 0,
+      "last third": 14
+    }
+  }
+}

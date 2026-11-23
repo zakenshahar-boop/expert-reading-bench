@@ -1,0 +1,121 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 contained in Q3, not credited twice."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations, the distinctive part of F1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "E3: YouGov US panel over two years, without six waves or dates. The 2,567 is only in the quote."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "9.25 million posts; the linked-panelist count is not in any claim. Scraping period March 2019 to January 2021 is accurate."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Similarity to the 'political hate' vector, averaged per user; validation detail accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive significant associations with all indicators after controls, without the strongest ones (those are in central_claim[0])."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Largest for the primary measure. 'Holds across' the alternatives is fair: AFINN and Perspective estimates are significant (p.11) and the component/classifier checks are 'broadly consistent' (p.12)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "More often significant among the polarized and uneven across indicators, but does not say support is clearest for participation."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the literatures is the paper's stance, not a limitation."
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I5"
+        ],
+        "note": "Refs 21 and 47 are Leeper and Slothuus, and Taber and Lodge (checked). States the biased-processing finding but not that it is worse among the politically knowledgeable."
+      }
+    ]
+  }
+}

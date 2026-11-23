@@ -1,0 +1,245 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E1",
+    "E3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover to perceptions (Q1) and to feeling represented by own officials (Q3). 'Spread of stigmatizing labels' follows the paper's own p.4 wording ('propagation of such stigmatizing terminology'), so not flagged."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper's own position (p.2) that acknowledging the convictions was necessary but stigmatizing terms were not; accurate, not a gold answer."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "The ad's two effects (worse perceptions, better representation); the counter-narrative offset is in the next entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Counter-narrative shown first largely undid the harm: the other part of C1."
+      },
+      {
+        "match": [
+          "C2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Three arms and final N 2,439 (arm counts in the quote). E1 partial: survey experiment only; Democrats and Prolific are in entry 3, pre-registration in entry 5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3 (edited news excerpt about a formerly incarcerated assemblymember; Nevada is stated on p.4-5)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "U.S. Democrats on Prolific: part of E1. The sample restriction is stated as description, with no consequence, so not L10."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Lists all six outcome families; the item counts of the indices are detail."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "HC-2 least squares (E5); pre-registration is part of E1."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Caused' is the paper's own wording (p.15)."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3",
+          "F8"
+        ],
+        "note": "Representation and public-service motives both rise (F3, worded as the paper does on p.15); smaller than the perceptions effect (F8)."
+      },
+      {
+        "match": [
+          "F4",
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "The paper's p.14 wording for the ad's larger damage among system-impacted respondents."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Social desirability/Hawthorne not ruled out, but omits that the manipulation check eases the concern (the qualification in L4)."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Durability, repeated exposure and behavior all named."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7",
+          "L11"
+        ],
+        "note": "Modest reliability of the perceptions index is half of L7 (narrow representation measures missing). Racial attitudes measured before stimuli 'rather than as an outcome' gives the design fact without saying the study cannot tell whether the messages changed them: partial L11."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F11"
+        ],
+        "note": "The Bonferroni caveat on the motives result is finding F11, placed in limits. The caution on supplemental analyses is accurate but not gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "States the deservingness alternative but omits that the author thinks stigma reduction more likely (in the quote, not the claim)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Extension to representation outcomes follows p.17 ('far more limited in the perspective-getting literature')."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "'Draws on ... to interpret' the representation effects is reported as an interpretation, not as the paper's framework; not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Author attribution (refs 8-10: Denver et al.; Harris and Socia; Imhoff) checked in paper.xml."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "partial": [
+          "I5"
+        ],
+        "note": "Gruening and Schubert (ref 33) correct; qualified by policy-alignment evidence. The qualifier is the substance of I5, but cited via refs 34-36 rather than the experimental evidence [37]: partial."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Martinez (ref 54) is correct and the paper does question it (p.4); accurate, not a gold answer."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Lau, Sigelman and Rovner (ref 7) correct."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Westwood (ref 62) and the open-text focus of the AI literature (p.17); accurate, cited in the limitations, not a gold interlocutor."
+      }
+    ]
+  }
+}

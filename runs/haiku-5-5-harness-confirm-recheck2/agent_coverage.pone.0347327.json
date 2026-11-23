@@ -1,0 +1,105 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Carried over from haiku-5-5-harness-confirm/agent_coverage for kept claims; rewritten claims judged by the assistant on 2026-11-22.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Regional variation across states and provinces (Q1) and the three correlates: leaning, conspiracy content, vaccination (Q3). Event-driven variation and the methods aim (Q2) are not stated."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Repeats the abstract ('significantly higher ... in both countries'), true to the paper per C1's decision; no masks/vaccines-vs-lockdowns detail. The vaccination correlation (U.S. only, no Canada contrast) is the finding F2, placed here. Does not point out the Canada significance contradiction, so no B1."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Vaccination rates a year after the tweets; election results and case data not mentioned."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Only the validation against voter registration records; the two-step classifier is not described."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions more polarized, without the U.S. masks/vaccines vs lockdowns split or the non-significance in Canada. 'Across the topics examined' follows p.13, where the rankings are per topic; not flagged."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2 (no r value). Together with the next entry it covers F2, but each entry gives only one half."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "Canada half of F2, with the paper's own explanation (small sample, mandates, p.16)."
+      },
+      {
+        "partial": [
+          "F3"
+        ],
+        "note": "Rise and decay within days; does not tie the spikes to events."
+      },
+      {
+        "partial": [
+          "F4"
+        ],
+        "note": "Conspiracy volume vs daily polarization (U.S. small negative, Canada none); the higher conspiracy-posting rate of conservatives is not stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Correlation, not causation, among voting, polarization and vaccination (p.16). No mention of the 2020-tweets / 2021-vaccination time gap, so not L5."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Duplicates the previous entry (p.25 wording)."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approaches, chosen over network-based ones because network data is restricted. Does not say the paper names no theory (T0)."
+      },
+      {
+        "match": [
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

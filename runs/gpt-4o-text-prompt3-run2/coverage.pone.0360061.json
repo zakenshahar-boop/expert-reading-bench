@@ -1,0 +1,88 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association only; the strongest indicators are not named. Quote is Expectation 1, but it is in the paper."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "States without qualification that the association is stronger among more affectively polarized users, quoting Expectation 2. The paper finds this only partly: clearest for online and offline participation, 8 of 18 interactions after correction, exploratory for the rest, 'partially consistent with Expectation 2 rather than a uniform confirmation' (p.14)."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "'More active and greater potential reach' is the paper's own summary of posts, friends and followers (p.15); the quote is Expectation 3, which names those measures. Credited in full, leniently; the 'less so friends' detail is absent, as in the calibration."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "The only quote is marked NOT IN PAPER (it omits the citation brackets), so no credit. The claim would be T1 (building on classical engagement theory); 'extends classical theories' blurs that the paper extends the revisionist view (T3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "partial": [
+          "I4"
+        ],
+        "note": "Treated like the calibration's 'not only' entry: deprivation accounts (I3) with an additive stance, since what is disputed is that hostility is 'solely' tied to them; the personality account is not specified as the small-segment, extreme-traits finding. 'Disputes' is a strong verb, but disputing 'solely' is consistent with the paper's 'not only', so no wrong-stance flag."
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {"match": ["Q1"], "note": "Phrased as what the paper argues rather than as a question, but its subject is the spillover of the 'convicted criminal' ad onto perceptions of people with records (Q1)."},
+      {"match": [], "misplaced": ["C2"], "note": "The recommendation to elevate justice-involved voices instead of stigmatizing attacks is the central claim C2, not the question."},
+      {"match": ["Q2"], "note": "States the counter-narrative's mitigating effect; its subject is Q2. Could instead be read as a misplaced half of C1."}
+    ],
+    "central_claim": [
+      {"match": [], "partial": ["C1"], "flags": [{"type": "overclaim (mild)", "gold": "C-x3", "text": "'Exposure to a stigmatizing label of Trump' attributes the effect to the label; the stimulus was the mugshot with the label, and the paper says the two cannot be disentangled (p.17). The quotes say 'advertisement with the ... label'."}], "note": "Gives the harm to perceptions and the counter-narrative's mitigation; omits that the ad improved feelings of representation, although the first quote says so."}
+    ],
+    "evidence": [
+      {"match": [], "partial": ["E1", "E2", "E4"], "note": "Survey experiment with Democrats (E1 without pre-registration; Prolific and dates are in entry 4), the total N of 2,439 (E2 without arms; the arms are in the next entry), and the two outcome families (part of E4, given in full in entry 3)."},
+      {"match": [], "partial": ["E2"], "note": "Names the three arms, without the counts."},
+      {"match": [], "partial": ["E3"], "note": "Counter-narrative half of E3 (assemblymember Jovan Jackson, named in the paper p.3). The ad stimulus is not described."},
+      {"match": ["E4"], "note": "Lists all six primary outcomes (p.7)."},
+      {"match": ["E7"], "partial": ["E1"], "note": "Prolific and the July 12-13, 2025 dates (the rest of E1; 2,500 recruited is the paper's pre-exclusion figure), plus the manipulation check on emotional reactions (E7)."},
+      {"match": [], "unlisted": true, "note": "Balance across arms (p.9) is accurate to the paper but not a gold answer."}
+    ],
+    "key_findings": [
+      {"match": ["F1"], "flags": [{"type": "overclaim (mild)", "gold": "F-x1", "text": "'Exposure to a stigmatizing label of convicted criminal' attributes the effect to the label; the stimulus was the mugshot with the label, and the paper says the two cannot be disentangled (p.17). The quote says 'advertisement with the ... label'."}]},
+      {"match": ["F2"], "flags": [{"type": "overclaim (mild)", "gold": "F-x1", "text": "'The negative effects of stigmatizing language' attributes the ad's effect to the language; the paper's quote speaks of 'the negative effects of the advertisement', and image and label cannot be separated (p.17)."}], "note": "Keeps the offset relation to the ad's effect, so no F-x2 flag."},
+      {"match": [], "flags": [{"type": "wrong direction", "gold": "F11", "text": "Says the counter-narrative increased perceived public-service motives of officials. The paper finds it reduced them relative to the ad alone (H1F, beta = -0.098, p.11, not robust to Bonferroni). The quote is a hypothesis. The value-of-representation half is accurate (H1C, p.11)."}], "note": "No credit because half the entry is reversed."},
+      {"match": [], "flags": [{"type": "wrong direction", "gold": "F3", "text": "Says the ad reduced perceived public-service motives and the counter-narrative weakened this. The paper finds the ad increased belief that officials serve the public (beta = 0.130, p.11) and the counter-narrative reduced it (beta = -0.098). The quote is hypothesis H1D, about quality of representation."}]},
+      {"match": ["F2"], "flags": [{"type": "overclaim (mild)", "gold": "F-x2", "text": "'The counter-narrative significantly increases positive perceptions' drops that the counter-narrative came before the ad and is compared with the ad alone; there was no counter-narrative-only arm (p.16). The quote keeps the qualification."}], "note": "F2 is also credited in entry 1; a scorer may count it once."}
+    ],
+    "scope_and_limits": [
+      {"match": [], "partial": ["L5"], "note": "Gives durability only (behavior is in entry 2)."},
+      {"match": [], "note": "The paper says replication 'in other contexts and in less-transparent designs is unclear' (p.17); the note recasts this as demographic or geographic contexts and names no consequence of the Democrats-only sample, so it does not reach L10. No credit, no flag (as in the first harnessed run)."},
+      {"match": [], "partial": ["L5"], "note": "Gives the gap to behavior; durability is in entry 0."}
+    ],
+    "theoretical_positioning": [
+      {"match": ["T1"], "note": "Does not state the applies-and-extends stance (T4)."}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "flags": [{"type": "made up", "gold": "I2", "text": "Says the paper disputes a claim that stigmatizing language in political ads has no negative impact on perceptions. No one in the paper makes that claim; the quote is about negative campaign ads being used less by poll leaders and not aiding election success (I2), which the claim does not state."}], "note": "No credit."}
+    ]
+  }
+}

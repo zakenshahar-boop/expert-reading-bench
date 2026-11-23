@@ -1,0 +1,298 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "Not a question: the C2 claim (polarization not uniform across regions and topics), framed as arguing against an idea attributed to no one. Quote is the p.22 'uniformly low' sentence (page given as 23). Cross-national part of C2 not stated."
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "note": "Strawman framing ('no impact'), not a question, no gold answer. Quote marked NOT IN PAPER, though it is the abstract's sentence split across lines (p.1)."
+      },
+      {
+        "match": [],
+        "note": "Background (p.2: subnational policies diverse and politicized), framed as a view the paper argues against. Not a question, no gold answer."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": "F4",
+            "text": "The quote says 'In Canada, we found a small but significant negative correlation between conspiracy discourse and aggregate polarization'; the paper finds that for the United States and no significant correlation in Canada (p.21-22)."
+          }
+        ],
+        "note": "No credit: quote NOT IN PAPER and invented with the wrong country."
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "note": "Strawman framing, no gold answer. Quote marked NOT IN PAPER (close to the conclusion, p.25, with words dropped)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording, credited per C1's decision. Quote is the vaccination sentence, not the one supporting this claim. No B1 catch."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Would be F2 (both halves) misplaced in central_claim. Quote marked NOT IN PAPER (page 12 given; the text is on p.16 with words dropped)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Event-linked spikes, a finding."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Would be part of F4 (U.S. negative correlation, weaker in Canada), misplaced. Quote marked NOT IN PAPER (the U.S. numbers are on p.22)."
+      },
+      {
+        "partial": [
+          "C2"
+        ],
+        "note": "Only the cross-national difference part of C2; conclusion wording (p.25)."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1",
+          "E5"
+        ],
+        "note": "'Over 50 million tweets from late 2020' without exact dates or split (the quote has them, the claim does not); three topics without conspiracy or the classification method."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E2"
+        ],
+        "note": "Embeddings, semantic distance between partisan users, C-index: E2. Quote marked NOT IN PAPER (p.4 sentence, slightly altered)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records: the second half of E3. Quote marked NOT IN PAPER, though its numbers (0.802, 0.815) are on p.8."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Geolocation validated against census (0.98, 0.92), p.6."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Finding (U.S. r = -0.77, not Canada) placed in evidence."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Event spikes, a finding. Protests are among the Canadian peaks (p.18)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F5"
+        ],
+        "note": "Canada lower overall polarization (p.25), half of F5; 'less correlated with health outcomes' follows the conclusion."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E3"
+        ],
+        "note": "Two-step classifier, first half of E3. Quote marked NOT IN PAPER (p.6 sentence, trimmed)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E6"
+        ],
+        "note": "Comparison with vaccination rates and case counts, part of E6 (no election results). Quote marked NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E5"
+        ],
+        "note": "Topic classification with RoBERTa, part of E5. Quote marked NOT IN PAPER."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Conservative regions higher, especially masks and vaccines (part of F1, Canada non-significance not stated). Quote NOT IN PAPER and not found in the text."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Both halves: U.S. strong negative correlation, not in Canada. Quote is the p.16 sentence (page given as 12)."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "Conclusion wording (p.25): U.S. stronger correlation with vaccination than Canada, the Canada half of F2 again."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Authors' interpretation from the conclusion (p.25, page given as 24): local political environment crucial in Canada. Accurate; not in the gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported location may be false or incomplete (L3, without VPNs, bots or the inflation of distance). Conflates this with representativeness (L2's point, not stated with its reason) and quotes the party-label sentence (L9)."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Sarcasm and indirect disagreement lost in aggregated embeddings, from the method section (p.10-11) rather than the limitations; same substance as L1."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "partial": [
+          "T1"
+        ],
+        "note": "Text analysis with embeddings; no contrast with dictionary or network methods. No T0."
+      },
+      {
+        "partial": [
+          "T3"
+        ],
+        "note": "Adds geographic and temporal dimensions; does not say it agrees with earlier findings. Quote is the abstract's methods sentence."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Embedding approach set against lexicon and network methods: T1. Quote marked NOT IN PAPER (p.4 sentence, altered)."
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "note": "Vague field label (political communication in crises); too loose for T2. Quote marked NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "T3"
+        ],
+        "note": "Extends prior polarization research with fine-grained geographic and temporal data: part of T3. Quote marked NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Computational social science with NLP: partial T1. Quote marked NOT IN PAPER."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Prior research (refs 10, 62; p.23) found conservative states more polarized; the paper agrees and extends it. The stated extension (U.S. emphasis, vaccination correlation) differs from the paper's (geographic and temporal resolution), but the paper reports the vaccination correlation in the same paragraph (p.22)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": null,
+            "text": "Attributes to prior research the claim that public health measures are implemented uniformly across regions; no study in the paper says this. The paper says subnational jurisdictions implemented diverse interventions (p.2)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": null,
+            "text": "Attributes to prior research the claim that online polarization has no impact on health outcomes; the paper cites no such claim."
+          }
+        ],
+        "note": "Quote marked NOT IN PAPER (it is the abstract's sentence split across lines)."
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": null,
+            "text": "Attributes to prior research the claim that conspiracy theories play no significant role in health discourse; the paper cites no such claim, and its U.S. result is a small negative correlation between conspiracy volume and polarization (p.21-22)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": null,
+            "text": "Attributes to prior research the claim that public health responses were uniform across regions; the paper cites no such claim and describes diverse subnational responses as background (p.2)."
+          }
+        ]
+      }
+    ]
+  }
+}

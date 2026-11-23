@@ -1,0 +1,98 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Restates the title: regional and temporal variation in the two countries. Correlates (Q3) and the methods aim (Q2) not stated here."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Conservative regions more polarized, especially in the U.S. (abstract wording, credited per C1's decision); the U.S. vaccination correlation is the finding F2, placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "'Over 50 million tweets from late 2020' without dates or country split."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "The methodological aim (introducing a computational measure), placed in evidence; no description of the method itself."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording; no masks/vaccines vs lockdowns split and no Canadian non-significance. No B1 catch."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2, no r and no Canada contrast."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Events and few-days duration; the quote has only the first part, the second is in the next abstract sentence."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Exceptions in both directions (low-polarization conservative states, high-polarization liberal states), without naming Delaware, Arkansas, Alabama or Idaho."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "No mention of the tweet/vaccination time gap, so not L5."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Same substance as L2 without the engaged/partisan reason (p.24)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "partial": [
+          "T3"
+        ],
+        "note": "Extension by geographic and temporal resolution; does not say it agrees with the earlier finding on right-leaning regions. No T0, T1 or T2."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Prior studies found conservative states more polarized (I1, without the paper's agreement and extension). Quote marked NOT IN PAPER, though it is the p.23 sentence with '(Fig 11)' dropped."
+      }
+    ]
+  },
+  "joined": []
+}

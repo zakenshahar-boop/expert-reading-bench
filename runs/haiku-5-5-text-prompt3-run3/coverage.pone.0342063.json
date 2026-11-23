@@ -1,0 +1,130 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The authors' hedged reading on p.10, reported as a suggestion with the mechanism untested; accurate, no gold item (not T3, which is social pressure)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Final N = 683 without the screening figures; Qualtrics not named."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E5"
+        ],
+        "note": "Only quote marked NOT IN PAPER; would have been partial E5 (hesitancy scale, no self-reported status)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction significant for both hesitancy outcomes, no shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster interaction significant; 'smaller odds ratio' is vague but not wrong (OR .83 vs 1.02 for vaccination)."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Social pressure named only as an example mechanism; no misplaced T3 since the suggestion itself is not reported."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported status without the bias it opens."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      },
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Rönn et al. (ref. 19) correct; vaccination-rate half of I3."
+      }
+    ]
+  }
+}

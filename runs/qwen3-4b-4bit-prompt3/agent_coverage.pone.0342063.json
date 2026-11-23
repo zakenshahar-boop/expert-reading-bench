@@ -1,0 +1,153 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "ungrounded": [
+          "Q1"
+        ],
+        "note": "No quote marked 'in paper' (the quote is verbatim from p.1 but carries a '[page 1]' suffix and was not matched). Would be Q1."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "No quote. Would be a full C1: both hesitancy and booster halves, liberals regardless."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says political climate 'can influence vaccine behavior' in conservatives. The paper says environmental factors (e.g., social pressure) 'may impact' booster decisions and that no causal or directional association can be assumed (p.10)."
+          }
+        ],
+        "note": "No quote. Would be partial C1 (conservative booster half only)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E2",
+          "C1"
+        ],
+        "note": "Bare string (the abstract copied), no quote. Would be partial E1 (online survey, dates; no Qualtrics or convenience sample), partial E2 (683 only), and C1 misplaced (the abstract's findings)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E6",
+          "F1",
+          "F4"
+        ],
+        "note": "Bare string (the results paragraph, pp.6-7), no quote. Would be E6 (regressions with controls and interaction term), F1 misplaced, and F4 partial misplaced (non-significant vaccination interaction, no mandates explanation)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Bare string, no quote. Booster percentages from p.8: F3 misplaced."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "No quote marked 'in paper' (verbatim p.1 text with '[page 1]' suffix). Would be partial F2 (conservative half)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "No quote marked 'in paper'. Would be partial F3: liberal half, conservatives' boosting 'associated with' climate without direction."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "No quote marked 'in paper'. Would be full F3 (65%, 60%, under 35%)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "No quote marked 'in paper'. Would be partial F3 (booster interaction OR = .83 with direction); F3 already covered by [2]."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1",
+          "L5"
+        ],
+        "note": "Bare string copied from p.10, no quote. Would be L1 and L5 in full."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Bare string, no quote. Would be L3."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L4"
+        ],
+        "note": "Bare string, no quote. Would be L4."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L2"
+        ],
+        "note": "Bare string, no quote. Would be L2 (consequence stated)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1",
+          "T2"
+        ],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": "T0",
+            "text": "Says the authors place themselves 'within the framework of political psychology and public health research'. The paper names no framework; it only situates itself in prior empirical studies of orientation and of climate (p.10)."
+          }
+        ],
+        "note": "Bare string, no quote. The two literatures and the extension by testing their interaction would be T1 and T2."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Bare string, no quote. The quoted attribution is real (p.10, refs 6, 7, 10, 19) and covers I1. 'Disputes or builds on' is noncommittal; the paper builds on it. Not flagged."
+      }
+    ]
+  }
+}

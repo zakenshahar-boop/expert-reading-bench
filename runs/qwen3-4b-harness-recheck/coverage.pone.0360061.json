@@ -1,0 +1,239 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Carried over from qwen3-4b-harness-slots/coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Phrased as what the paper argues rather than asks, but the substance and quote are Q3's 'not only deprivation or personality, but also engagement'."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says engagement 'can lead to' more polarized and antagonistic behavior. The paper (abstract) says recent research suggests engagement 'may also be associated with' such behavior and disclaims causal claims."
+          }
+        ],
+        "note": "Qualifying the classical view that engagement is benign is I2's content, in the wrong slot."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users 'have greater reach'. The paper says 'greater potential reach' and that this 'may' give them higher reach, not evidence of influence."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T5"
+        ],
+        "flags": [
+          {
+            "type": "made up",
+            "gold": null,
+            "text": "Says the paper argues against the idea that affective polarization is 'merely a correlate' of hostility. The paper argues against no such view; it says leader-directed affective polarization 'may be an antecedent, correlate, or consequence' of hostile interaction (p.14)."
+          }
+        ],
+        "note": "The conditioning role of affective polarization is T5, in the wrong slot."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Lists interest, knowledge and online participation as examples, not as the strongest, so F1 is not credited here."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of survey engagement measures (p.8); not a gold evidence item."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "E2",
+            "text": "Says the 9,250,180 posts were scraped 'from 2,567 panelists'. The paper gives 9,250,180 posts from its panelists and 2,567 linked panelists separately, with up to 3,643 respondents in X-only analyses; it gives no post count for the 2,567."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach only."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Cosine similarity to the combined 'political hate' vector; per-user averaging not mentioned."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "AFINN only; Perspective API not mentioned."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the leader thermometer measure (p.9); not framed as the L5 limitation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of controls (p.9-10)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only; pooled OLS not mentioned."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Gives the three indicators from the abstract but not that they are the strongest among several significant associations."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "States without qualification that more affectively polarized users show stronger associations. The paper says this holds for some indicators, clearest for participation, and is only partially consistent with Expectation 2 (p.14); the entry's own quote says 'for some indicators'."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "'Beyond explanations based on deprivation or personality' is C2's 'not only deprivation or personality' (p.15, 'over and beyond personality' p.16); lacks the democratic-citizenship part."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Claim is L2, but its only quote is about network influence and does not support it. L2 is credited in the next two entries. Quote repaired by the harness; credit carried over from the claim."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Repeats L2 ('one-way direction' ~ reciprocal relationships)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "L2",
+            "text": "Says the paper does not demonstrate that the associations are due to time-varying confounding or reciprocal relationships. The paper's limit is the reverse: its RI-CLPM models cannot rule out time-varying confounding, measurement error or reciprocal relationships (p.10)."
+          }
+        ],
+        "note": "Garbles the limitation; no credit."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L6"
+        ],
+        "note": "Big Five controls do not directly test personality accounts; does not say these are Dark Triad / sadism accounts or that those traits were not measured."
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3",
+          "T4"
+        ],
+        "note": "Building on classical engagement theory is T1 (p.15). 'Extends' is T3 but the entry does not name the revisionist / dark-side view (its quote does); 'rather than just deprivation or personality' is the complementary stance of T4."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": null,
+            "text": "Says the paper disputes a claim that hostile expression is limited to fringe audiences. The paper attributes no such claim to other scholars; the abstract only says hostile users 'do not simply cater to fringe audiences', and the literature it cites worries the reverse (discussions shaped by the most hostile voices, p.5)."
+          }
+        ]
+      }
+    ]
+  }
+}

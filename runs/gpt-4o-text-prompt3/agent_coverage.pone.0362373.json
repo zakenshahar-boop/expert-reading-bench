@@ -1,0 +1,98 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use (Q3) and 'other individual characteristics' without naming depression or AI identity (Q1 partial); same call as the Haiku note. The quote is the abstract's aim sentence, faithful."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural mechanisms and demographic homophily rather than substance use; 'primarily driven' and 'rather than' follow the abstract's wording."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Students, grades, three reservation schools (E1; 'cross-sectional' not stated, as in Task B). ERGMs named without per-school estimation or AMEs (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "The note says substance use 'does not consistently influence' friendship formation; the paper reports no consistent association and warns against reading its results causally."
+          }
+        ],
+        "note": "Core null kept with 'consistently'; causal verb flagged mildly, as for 'do not drive' in Task B."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade homophily; sexual orientation omitted. 'Primary axes' is the paper's wording."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity only; depression not mentioned. The School C receiver effect was only borderline (p < 0.10), so 'not significantly' holds."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1"
+        ],
+        "note": "Only quote marked NOT IN PAPER (real p.16 text with the citation number dropped). Would have earned L1 in full (other reservations and racially heterogeneous schools)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "The challenge to prevention-program assumptions and call for culturally grounded theory is C3, a central-claim answer; abstract wording, no flag."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I2"
+        ],
+        "note": "Only quote marked NOT IN PAPER (real p.2 text with the citation number dropped). Would have earned I2 partial: the finding is right, but it does not say the paper builds on it or that the study was descriptive."
+      }
+    ]
+  },
+  "joined": []
+}

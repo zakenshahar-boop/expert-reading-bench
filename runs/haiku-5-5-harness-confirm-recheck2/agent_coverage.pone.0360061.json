@@ -1,0 +1,98 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Carried over from haiku-5-5-harness-confirm/agent_coverage for kept claims; rewritten claims judged by the assistant on 2026-11-22.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "States the 'not only deprivation or personality, but also engagement' question; Q1 is contained in it and not credited twice."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations (interest, knowledge, online participation), which is the distinctive part of F1; key_findings[0] gives only the positive association."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "YouGov US panel without the six waves / 2019-2021 dates; 2,567 linked panelists without the post count (given separately in evidence[2], not joined)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4",
+          "E2"
+        ],
+        "note": "Names the SU word-embedding approach but not the cosine similarity to the 'political hate' vector or per-user averaging; gives the 9.25 million posts (the other half of E2) without tying it to the 2,567."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive significant association with the listed controls (Fig 1 caption confirms Big Five, income, age, gender, party ID); no 'strongest' indicators here."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "The interpretation is reported as the authors' reading, consistent with p.11."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Does not mention that the panel models leave this unchanged, but states the core limit."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the grievance and personality literatures is the paper's stance (T4), not a limitation."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "Q1",
+    "E3",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Asks whether substance use predicts sending, receiving or homophily in AI-majority schools 'as it often does in racially heterogeneous schools': Q3 and the generalization question Q2. Substance-use part of Q1."
+      },
+      {
+        "match": [
+          "Q4"
+        ],
+        "note": "Reciprocity, friends of friends and concentration of nominations: the structural question. Framed as the paper's expectations, not results."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Depression part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "AI identity part of Q1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Demographic part of Q1 (gender, grade, sexual orientation)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Structure and demographic similarity a better guide than substance use: C1. The depression and AI identity null is F4, a finding."
+      },
+      {
+        "match": [
+          "C3"
+        ],
+        "note": "Prevention implication: do not assume substance-use-based friendship groups; investigate existing supportive connections per school. Paraphrases the paper's 'may need to be calibrated' and 'strengths-based connections' (p.16); the abstract's 'challenge assumptions' covers it."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "263 respondents at 77%, 247 with complete network data, analyzed 49/128/70: stages correctly kept apart."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Advisory board review and the roster are accurate (p.6-7)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Substance measures: binary ever-use."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Peer-report imputation plus the sensitivity analysis excluding those cases."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "CES-D part of E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "AI identity scale part of E5 (quote names the MEIM Affirmation and Belonging subscale)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Coding of grade, gender and sexual orientation and the dual role of demographic terms: accurate (p.8). The descriptive role is half of L6 but without the causal caveat; not credited."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "ERGMs per school, base and substance models, structural and attribute terms; AMEs in the next entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "AMEs for comparison across schools: remaining part of E3. Non-AI benchmark is accurate."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ],
+        "note": "GOF accurate; the structural-plus-substance-only robustness check with the same result is F7, a finding."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity given through descriptive rates (all schools) plus transitivity net of two-paths in every school."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "'Less uniform' for sexual orientation is accurate to Table 3 (not significant in some school/category cells)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Both exceptions named; marijuana homophily correctly called marginal."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Developmental stages and school transitions."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Selection versus influence and neither direction causal."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "AI identity null limited to within-school friendships; the paper raises kinship networks and heterogeneous schools as places identity may matter (p.15). Accurate, not a gold limit."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Close to rejected L-x1, but the note does not say the authors state they cannot disentangle school features; it says the paper offers possible explanations ('may reflect', p.13) without establishing them, which is accurate. Not flagged."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Intervention implications as proposals for investigation: accurate (p.17)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Retains structure-versus-attributes distinction (T1); kinship, mutual obligation and local institutions shaping strength (T2, as interpretation). 'Rather than assuming the same mechanism has the same strength everywhere' gives part of T3's generalization stance. 'Extend' not flagged (calibration)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3",
+          "I6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors 'revise' the rationale for network-based prevention; the paper says its findings 'challenge assumptions underpinning many network-based prevention programs' and that endogenous factors suggest 'a promising direction' for AI network interventions. 'Revise' tilts the wording (same call as the calibration note)."
+          }
+        ],
+        "note": "Challenge to network-based prevention (C3) and the presumption that ties are founded on substance use (I6). Keeping reciprocity and clustering as useful starting points is accurate (p.14)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Includes that the earlier study was descriptive."
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": ["Q1", "E3", "E5"],
+  "entries": {
+    "question": [
+      {"match": ["Q2", "Q3"], "partial": ["Q1"], "note": "Whether substance use plays a weaker role than in heterogeneous schools (Q2, Q3), framed from the paper's stated expectation (p.4); substance-use part of Q1."},
+      {"match": ["Q4"], "note": "Reciprocity and friends of friends, as in Q4. The 'especially strong' expectation is reported as an expectation ('might'), not a result; not a B2 catch."},
+      {"match": [], "partial": ["Q4"], "note": "Degree effects, part of the structural question; repeats the id."},
+      {"match": [], "partial": ["Q1"], "note": "Depression part of Q1."},
+      {"match": [], "partial": ["Q1"], "note": "AI identity part of Q1."},
+      {"match": [], "partial": ["Q1"], "note": "Demographic part of Q1."}
+    ],
+    "central_claim": [
+      {"match": ["C1"], "misplaced": ["F4"], "note": "C1 in the abstract's wording. Depression and AI identity contributing little is F4, a finding (abstract wording 'not substantively associated')."},
+      {"match": [], "partial": ["C3"], "note": "Prevention should be tailored to local relationships and explore strengths rather than assume risky behavior connects youth: the challenge to the prevention assumption in C3, without the call for culturally grounded theory. Hedged as 'the authors argue'."}
+    ],
+    "evidence": [
+      {"match": ["E1", "E7"]},
+      {"match": ["E2"], "note": "263/77% and 247 with correct per-school analysis counts (49, 128, 70)."},
+      {"match": [], "unlisted": true, "note": "Survey mechanics and advisory board review, accurate (p.6)."},
+      {"match": ["E4"]},
+      {"match": [], "partial": ["E5"], "note": "Substance use measures."},
+      {"match": [], "partial": ["E6"], "note": "Peer-perception imputation rule; the sensitivity analysis appears only in scope_and_limits entry 4, so E6 is not joined."},
+      {"match": [], "partial": ["E5"], "note": "CES-D."},
+      {"match": [], "partial": ["E5"], "note": "MEIM-based AI identity scale."},
+      {"match": [], "unlisted": true, "note": "Demographic coding and the two roles of demographic terms, accurate (p.5-6, p.8)."},
+      {"match": [], "unlisted": true, "note": "Network descriptives, accurate (p.12-13)."},
+      {"match": [], "partial": ["E3"], "note": "School-specific ERGMs with structural terms and the two-path term."},
+      {"match": [], "partial": ["E3"], "note": "Base model with actor attributes plus one model per substance with sender, receiver and homophily terms."},
+      {"match": [], "partial": ["E3"], "note": "MCMC MLE and AMEs for cross-school comparison: remaining part of E3."},
+      {"match": [], "unlisted": true, "note": "Convergence, degeneracy and goodness-of-fit, accurate (p.12)."},
+      {"match": [], "misplaced": ["F7"], "note": "States the result of the structural-plus-substance-only models (null persisted): F7, a finding."}
+    ],
+    "key_findings": [
+      {"match": ["F2"]},
+      {"match": ["F5"]},
+      {"match": ["F1"], "note": "Both exceptions placed correctly; marijuana homophily as 'weaker evidence' (p < 0.10)."},
+      {"match": ["F3"]},
+      {"match": ["F4"], "note": "Depression negligible even where detectable, AI identity no reliable homophily and borderline School C receiver effect."}
+    ],
+    "scope_and_limits": [
+      {"match": ["L1", "L2"], "note": "One reservation's three schools, may not extend to heterogeneous schools (L1); no feasible non-AI comparison sample (L2)."},
+      {"match": ["L4"]},
+      {"match": ["L3"]},
+      {"match": ["L6"]},
+      {"match": ["L5"], "note": "Sensitivity result accurate (p.7)."},
+      {"match": [], "unlisted": true, "note": "Accurate reading of the AI identity discussion (p.15): measured construct is strength of affirmation; kinship ties lie outside the measured networks. Not a gold limit."},
+      {"match": [], "unlisted": true, "note": "Accurate: the paper hedges school-level explanations ('may reflect', p.13). Not L-x1: the note does not claim the authors say three schools cannot statistically disentangle school features."},
+      {"match": [], "unlisted": true, "note": "Accurate reading that the intervention implications are hedged ('may not be as effective', p.16) and call for further research (p.17). Not a gold limit."},
+      {"match": [], "unlisted": true, "note": "Data ownership and naming restriction, accurate (p.2)."}
+    ],
+    "theoretical_positioning": [
+      {"match": [], "partial": ["T3", "T1"], "note": "Testing which patterns carry over from non-AI samples: testing half of T3; vague T1."},
+      {"match": ["T2"], "partial": ["T1"], "note": "Cultural and institutional account of how standard mechanisms operate (T2), retaining recurring structural processes (p.14). No 'revise' wording here."},
+      {"match": [], "partial": ["T3"], "misplaced": ["I4"], "note": "Disputing the generality of the risky-behavior assumption for these schools, not for all settings: the disputing half of T3, correctly scoped; the assumption itself is I4. Not joined with entry 0: the replication of structural and demographic patterns is not stated in this slot."}
+    ],
+    "interlocutor_claim": [
+      {"match": ["I2"]},
+      {"match": [], "partial": ["I1"], "note": "Receiver part of I1; Ali, Amialchuk and Nikaj is reference 13, correct."},
+      {"match": ["I3"]},
+      {"match": [], "misplaced": ["F8"], "note": "Goodreau, Kitts and Morris (ref 9), correct. Reciprocity aligned with earlier research: part of F8."},
+      {"match": [], "misplaced": ["F8"], "note": "Refs 9 and 10, correct. Transitivity alignment, part of F8; repeats the id."},
+      {"match": [], "unlisted": true, "note": "McFarland et al. (ref 1), correct; use for School B homophily follows p.15."},
+      {"match": [], "misplaced": ["L6"], "note": "Westreich and Greenland (ref 41), correct. A methodological critique applied to a caveat is not an interlocutor (protocol); the content is L6, a limit."}
+    ]
+  }
+}

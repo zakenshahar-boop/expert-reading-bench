@@ -1,0 +1,221 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "A practical implication."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E3",
+          "E2"
+        ],
+        "note": "Gives the 2,567 linked panelists and the post count in separate entries; they are not joined."
+      },
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "neutral": true,
+        "note": "The Danish sample (neutral F-b1)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "States that only eight of eighteen interactions survived correction."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "In the paper, not in the gold."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

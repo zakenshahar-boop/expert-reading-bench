@@ -1,0 +1,183 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by hand by the assistant on 2026-11-22 against the gold reviewed by the labeler. Not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "'Driven mainly by ... not by substance use' follows the abstract ('primary drivers', 'rather than risky behaviors'): true to the paper."
+      },
+      {
+        "match": [
+          "C3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E7",
+          "E2"
+        ],
+        "note": "Gives N = 247 for the networks and 77% as the overall response rate, in separate entries; the stages are not confused."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "note": "Reports the egalitarian-norms explanation as the authors' reading, not as a finding."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "'Their conclusion revises the framework: the structural processes are universal, but their parameters are calibrated by context.' The paper says its findings 'suggest' this; it does not claim to revise network theory. The labeler ruled on 2026-11-22 that 'revises' overstates."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [
+          "I1"
+        ]
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      },
+      {
+        "match": [
+          "I6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "McFarland et al. on school size and homophily. In the paper, not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Westreich and Greenland's Table 2 fallacy. In the paper, not in the gold."
+      }
+    ]
+  }
+}

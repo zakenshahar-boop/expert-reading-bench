@@ -1,0 +1,240 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Carried over from qwen3-4b-harness-slots/coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as what the paper argues rather than as a question, but its subject is the spillover of the 'convicted criminal' ad onto perceptions of people with records (Q1)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "The recommendation to elevate justice-involved voices instead of stigmatizing attacks is the central claim C2, not the question."
+      },
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "States the counter-narrative's mitigating effect; its subject is Q2 (whether the counter-narrative counteracts the ad). Could instead be read as a misplaced half of C1."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Adds 'especially when they rely on stigmatizing language that harms perceptions of individuals with criminal records'. The meta-analytic evidence the paper cites (p.2) is about negative campaign ads in general; the paper does not link electoral ineffectiveness to stigmatizing language."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the paper argues stigmatizing rhetoric cannot strengthen party unity or representation. The paper finds the ad increased feelings of being well represented (p.15), and its point about decreasing solidarity is posed as a question for future research (p.18, 'the need to devote effort to future research'), not an argument the paper makes."
+          }
+        ],
+        "note": "No gold answer."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the ad's harm to perceptions; omits the improvement in representation and the counter-narrative's offset (the latter is in the next entry)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the counter-narrative's mitigation, the other part of C1."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "'The counter-narrative ... improves perceptions' drops the comparison the paper insists on: every counter-narrative estimate is relative to the ad alone (p.16), and the quote given is a hypothesis, not a result. The value-of-representation increase (H1C, 0.79 SD, p.11) is accurate but not in the gold."
+          }
+        ],
+        "note": "The decrease in perceived quality of Democratic representation relative to the ad alone is F5, a finding placed in the central-claim slot."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E4"
+        ],
+        "note": "Survey experiment with Democrats (E1 without pre-registration, Prolific in the claim or dates), the total N of 2,439 (E2 without arms; the arms are in the next entry), and the two outcome families (part of E4)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Names the three arms, without the counts; E2 is already partly credited in the previous entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3: formerly incarcerated assemblymember Jovan Jackson (named in the paper, p.3 and p.5). The ad stimulus is not described here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Describes only the value-of-representation item (seven-point Likert, p.7); one part of E4's outcomes."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "The claim says the counter-narrative increased perceptions by more than 0.8 SD without saying it was shown before the ad and compared with the ad alone; the paper's estimate is relative to the ad-alone arm (p.11). The quote keeps the qualification."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Balance across arms (p.9) is accurate to the paper but not a gold answer."
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "'Exposure to a stigmatizing label of Trump' attributes the effect to the label; the stimulus was the mugshot with the label, and the paper says the two cannot be disentangled (p.17). The quote says 'advertisement with the ... label'."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'Providing a counter-narrative ... significantly improves' drops that the counter-narrative came before the ad and is compared with the ad alone; there was no counter-narrative-only arm (p.16). The quote keeps the qualification."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the ad increased perceptions that officials are motivated by self-interest. The paper finds the opposite: the ad increased belief that officials are motivated by public service over self-interest (p.11, beta = 0.130; p.15), as the entry's own quote says."
+          }
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives durability only; the paper's limitation also covers repeated exposure and behavior (behavior is in entry 3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives the gap to behavior (voting); the durability part is in entry 1."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "T2"
+        ],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": "T2",
+            "text": "Says the authors use social categorization theory to argue that counter-stereotypical narratives mitigate spillover. The paper grounds the counter-narrative in perspective-getting and counter-stereotype research (p.3, p.15), not in social categorization theory; the quote is the paper's own finding."
+          }
+        ],
+        "note": "Partial T2 for the 'humanizing, perspective-based' counter-stereotype idea."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "I3",
+            "text": "Says the paper builds on a claim that counter-stereotypes mitigate the effects of stigmatizing political messaging. Prior work as cited shows perspective-getting and counter-stereotypes increase empathy and improve attitudes toward outgroups (p.3, p.15); mitigating political messaging is this paper's own finding, which is what the quote shows."
+          }
+        ]
+      }
+    ]
+  }
+}

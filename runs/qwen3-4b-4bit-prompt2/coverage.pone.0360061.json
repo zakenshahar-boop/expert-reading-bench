@@ -1,0 +1,107 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by hand by the assistant on 2026-11-20; the four judgment calls were decided by the labeler the same day.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Second half asks about activity and reach (Expectation 3); true to the paper, no gold answer for it."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "Says the associations are stronger among affectively polarized users, with no qualification. The paper calls the support partial."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "A finding, given as the central claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E1",
+          "E5"
+        ]
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says the controls 'isolate the effects of political engagement on hostility'. The paper claims associations, not effects."
+          }
+        ],
+        "note": "The list of controls itself is accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3",
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "T-x1",
+            "text": "Names the grievance and personality accounts but says the paper disputes them and argues 'instead' for engagement. The paper does not adjudicate between them."
+          }
+        ]
+      }
+    ]
+  }
+}

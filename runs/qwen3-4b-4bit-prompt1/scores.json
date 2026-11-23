@@ -1,0 +1,849 @@
+{
+  "pone.0342063": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 19,
+    "entries_without_quote": 18,
+    "quotes": 1,
+    "faithful": 1,
+    "located": 0,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": null,
+        "words": 25,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "The goal of the present research was to examine how political climate moderates the relationship between self-reported political conservatism and COVID-19 vaccine hesitancy and uptake."
+      }
+    ]
+  },
+  "pone.0347327": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 18,
+    "entries_without_quote": 2,
+    "quotes": 24,
+    "faithful": 13,
+    "located": 4,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 23,
+        "words": 25,
+        "found_on": [
+          [
+            22,
+            23
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Rather than finding uniformly low state-specific polarization with internally homogeneous semantics within conservative and liberal states, our analysis confirmed significantly higher polarization in conservative states."
+      },
+      {
+        "slot": "question",
+        "page": 18,
+        "words": 18,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "We confirm a strong negative correlation (r = −0.77, p < 0.001) between vaccine polarization and vaccination rates."
+      },
+      {
+        "slot": "question",
+        "page": 21,
+        "words": 21,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "In Canada, we find no statistically significant correlation of 0.023 with CI=[−0.187,0.231] (n = 88, p = 0.831) between these measures."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 39,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We collected a large-scale dataset of COVID-19 political discussions on Twitter (now X) occurring between October 9, 2020, to January 4, 2021, comprising approximately 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 37,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We transform social media posts using RoBERTa, an open-source transformer-based language model... We then measure polarization by quantifying how far apart the language of left and right-leaning users is positioned in this embedding space, using the C-index."
+      },
+      {
+        "slot": "evidence",
+        "page": 9,
+        "words": 54,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We further validated our party affiliation classifications by comparing them with real-world election data. For the U.S. and Canada, we calculated the correlation between the ratio of liberal to conservative-labeled users per region in our dataset compared to official election results, obtaining strong correlations of 0.802 for the United States and 0.815 for Canada."
+      },
+      {
+        "slot": "evidence",
+        "page": 17,
+        "words": 19,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We find that many of the largest polarization peaks coincide with highly contentious events specific to each country’s context."
+      },
+      {
+        "slot": "evidence",
+        "page": 21,
+        "words": 20,
+        "found_on": [
+          [
+            21
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We find a small but significant negative correlation for the United States, while no significant correlation was observed for Canada."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 18,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We find a strong negative correlation (r = −0.77, p < 0.001) between vaccine polarization and vaccination rates."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 26,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The strong negative correlation between vaccine polarization and vaccination rates in the U.S. demonstrates that states with higher vaccination rates were less polarized around this issue."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 19,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "We find that many of the largest polarization peaks coincide with highly contentious events specific to each country’s context."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 17,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "These polarization surges typically lasted only a few days, revealing the dynamic nature of online partisan discourse."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 21,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "In Canada, we find no statistically significant correlation of 0.023 with CI=[−0.187,0.231] (n = 88, p = 0.831) between these measures."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 21,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The relatively lower influence of polarization on vaccine attitudes in Canada may be attributed to the country’s more widespread vaccine mandates."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 30,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "Delaware, a liberal state, exhibited unexpectedly high polarization, likely due to strict public health measures implemented by the governor in response to rapidly increasing cases during the first pandemic wave."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 25,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "Several conservative states like Arkansas, Alabama, and Idaho showed low polarization levels, possibly due to more unified opposition to restrictive COVID-19 measures like mask mandates."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 11,
+        "found_on": [
+          [
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Canada, while showing similar patterns, demonstrated significantly lower overall polarization levels."
+      },
+      {
+        "slot": "key_findings",
+        "page": null,
+        "words": 24,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The relative consensus at federal and provincial levels regarding the effectiveness of public health measures appears to have created a more unified public discourse."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": null,
+        "words": 43,
+        "found_on": [
+          [
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Seventh, there are temporal mismatches between our Twitter dataset (collected in late 2020) and regional vaccination rates, which occurred primarily in 2021. As a result, correlations between polarization in vaccine-related discussions and later vaccination uptake should be understood as suggestive rather than causative."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": null,
+        "words": 35,
+        "found_on": [
+          [
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "These results do not imply causation. The relationship between polarization and public health measures is complex and multidimensional, influenced by numerous social, political, and cultural factors that extend beyond the scope of our computational analysis."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": null,
+        "words": 14,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "Our methodology leverages the demonstrated capacity of modern vector embeddings to represent language semantics."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": null,
+        "words": 16,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We introduce a methodological framework to reliably measure geographic and event-driven variation in online partisan polarization..."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": null,
+        "words": 32,
+        "found_on": [
+          [
+            22
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "In line with previous research ((e.g., [17,58–60])), we found that more right leaning states and provinces exhibited greater partisan divisions around COVID-19 on Twitter (X), particularly concerning mask mandates and vaccine distribution."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": null,
+        "words": 27,
+        "found_on": [
+          [
+            23
+          ]
+        ],
+        "faithful": true,
+        "located": false,
+        "text": "This main finding is consistent with previous studies suggesting conservative states exhibited higher polarization (Fig 11) in response to public health interventions compared to liberal counterparts [10,62]."
+      }
+    ]
+  },
+  "pone.0355933": {
+    "parsed": "partial",
+    "slots_filled": 1,
+    "slots_not_stated": 0,
+    "slots_missing": 6,
+    "entries": 1,
+    "entries_without_quote": 0,
+    "quotes": 4,
+    "faithful": 3,
+    "located": 3,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 51,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The more negative angle for campaign advertisements and rhetoric is important to note: prior evidence on the effects of negative campaign advertisements suggests that they tend to be utilized less by those leading in the polls [4,5] and that Democrats tend to respond more to positive ads, compared to Republicans [6]."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 56,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Thus, even if the intention of the advertisements depicting Trump as a \"convict,\" \"criminal,\" or \"felon\" were intended for purpose of impacting solely the likelihood of his ability to win the presidential election (e.g., encouraging action and anger towards Trump), social categorization theory [12–15] would suggest that the effects of utilizing this label likely spilled over."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 29,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Additionally, the extent to which individuals feel angry towards those with criminal records has been found to be associated with greater support for more punitive justice system policy [11]."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 38,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The paper argues against the use of stigmatizing language that labels individuals with criminal records as 'criminals' or 'felons' in political messaging, as such language leads to negative spillover effects on public perceptions of individuals with criminal records."
+      }
+    ]
+  },
+  "pone.0360061": {
+    "parsed": "partial",
+    "slots_filled": 1,
+    "slots_not_stated": 0,
+    "slots_missing": 6,
+    "entries": 38,
+    "entries_without_quote": 0,
+    "quotes": 38,
+    "faithful": 23,
+    "located": 23,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 8,
+        "words": 22,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We do not mean to imply that the ways of measuring online hostility presented here are the only ways to measure it."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 36,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The findings suggest that online political hostility is not only associated with deprivation, marginalization, or personality-based explanations, as highlighted in prior work, but also with forms of engagement that are often considered central to democratic citizenship."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 19,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The greater engagement of hostile social media users may thus provide them with a higher reach than other users."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 16,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Recent research suggests that such engagement may also be associated with more polarized and antagonistic behavior."
+      },
+      {
+        "slot": "question",
+        "page": 8,
+        "words": 24,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the SU score as an aggregate indicator of online political hostility and assess the robustness of the findings using additional measures."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 26,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is widespread [3,15,24] and research teams across the globe are focusing on developing counter-strategies that can shield against the detrimental effects of hostility."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 19,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The greater engagement of hostile social media users may thus provide them with a higher reach than other users."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 47,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "Recent research has more strongly emphasized this revisionist view on the costs and benefits of political engagement. Most clearly, the literature on political information processing has argued and found that indicators of political engagement (e.g., partisanship) can be associated with biased assessments of political arguments and news."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 19,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "Affective polarization may shape whether political engagement translates into hostility because it shapes the emotional orientation of political involvement."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 31,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We examine hostile expression in political exchanges on X/Twitter and ask whether such expression is associated with the same forms of engagement that are typically viewed as central to democratic citizenship."
+      },
+      {
+        "slot": "question",
+        "page": 9,
+        "words": 25,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We treat these variables separately because they need not operate through the same pathway and because a single undifferentiated scale may obscure meaningful theoretical differences."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 28,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The literature on political information processing has argued and found that indicators of political engagement (e.g., partisanship) can be associated with biased assessments of political arguments and news."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 25,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We do not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 36,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The findings suggest that online political hostility is not only associated with deprivation, marginalization, or personality-based explanations, as highlighted in prior work, but also with forms of engagement that are often considered central to democratic citizenship."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 31,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We examine hostile expression in political exchanges on X/Twitter and ask whether such expression is associated with the same forms of engagement that are typically viewed as central to democratic citizenship."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 26,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is widespread [3,15,24] and research teams across the globe are focusing on developing counter-strategies that can shield against the detrimental effects of hostility."
+      },
+      {
+        "slot": "question",
+        "page": 9,
+        "words": 25,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We treat these variables separately because they need not operate through the same pathway and because a single undifferentiated scale may obscure meaningful theoretical differences."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 17,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Recent research has more strongly emphasized this revisionist view on the costs and benefits of political engagement."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 8,
+        "words": 24,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the SU score as an aggregate indicator of online political hostility and assess the robustness of the findings using additional measures."
+      },
+      {
+        "slot": "question",
+        "page": 16,
+        "words": 36,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "The findings suggest that online political hostility is not only associated with deprivation, marginalization, or personality-based explanations, as highlighted in prior work, but also with forms of engagement that are often considered central to democratic citizenship."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 16,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Recent research suggests that such engagement may also be associated with more polarized and antagonistic behavior."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 31,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We examine hostile expression in political exchanges on X/Twitter and ask whether such expression is associated with the same forms of engagement that are typically viewed as central to democratic citizenship."
+      },
+      {
+        "slot": "question",
+        "page": 5,
+        "words": 19,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "Affective polarization may shape whether political engagement translates into hostility because it shapes the emotional orientation of political involvement."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 26,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is widespread [3,15,24] and research teams across the globe are focusing on developing counter-strategies that can shield against the detrimental effects of hostility."
+      },
+      {
+        "slot": "question",
+        "page": 9,
+        "words": 25,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We treat these variables separately because they need not operate through the same pathway and because a single undifferentiated scale may obscure meaningful theoretical differences."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 25,
+        "found_on": [],
+        "faithful": false,
+        "located": false,
+        "text": "We do not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 16,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Recent research suggests that such engagement may also be associated with more polarized and antagonistic behavior."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 31,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We examine hostile expression in political exchanges on X/Twitter and ask whether such expression is associated with the same forms of engagement that are typically viewed as central to democratic citizenship."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 24,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The democratic citizen is called on to pursue contradictory goals: he must be active, yet passive; involved, yet not too involved; influential, yet deferential."
+      },
+      {
+        "slot": "question",
+        "page": 8,
+        "words": 24,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the SU score as an aggregate indicator of online political hostility and assess the robustness of the findings using additional measures."
+      }
+    ]
+  },
+  "pone.0362373": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 18,
+    "entries_without_quote": 17,
+    "quotes": 1,
+    "faithful": 0,
+    "located": 0,
+    "bad_length": 1,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": null,
+        "words": 70,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": false,
+        "located": false,
+        "text": "In the realm of adolescent social network research, the correlation between substance use and friendship formation is well-documented. Non-AI researchers have used the recurring connection between substance use and friendship formation as a basis for intervention research with promising results [47]. Our study’s finding that substance use is not associated with relational patterns among 9th and 10th-grade AI youth marks a significant departure from established trends, offering a novel perspective."
+      }
+    ]
+  }
+}

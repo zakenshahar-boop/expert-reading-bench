@@ -1,0 +1,161 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by hand by the assistant on 2026-11-20; judgment calls decided by the labeler the same day.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "ungrounded": [],
+        "note": "No quote given. A finding (F3) given as a central claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E4"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No quote given. Validation of the measure, 74% accuracy. True, not in the gold."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E1"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No quote given. How affective polarization is measured. True, not in the gold."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E5"
+        ],
+        "note": "No quote given."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Qualified correctly this time, but its only quote is not in the paper: the model swapped the order of the two halves of the sentence."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "note": "Says the association is stronger for proximate indicators than for distal antecedents. The paper does not state this comparison. No credit, no flag (labeler agreed)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Adds that hostile content 'is amplified by user activity'. The paper says hostile expression may be more visible because these users are more active."
+          }
+        ],
+        "note": "Restates F3, which is already credited from the entry above. Its own quote fails: the model corrected the paper's typo 'higher reacher'."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L2"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L2"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L5"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "No quote given."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L4"
+        ],
+        "note": "No quote given."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3",
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "T-x1",
+            "text": "Says the paper 'disputes the claim' that hostility is driven by marginalization or personality. The paper does not adjudicate between these accounts."
+          }
+        ]
+      }
+    ]
+  }
+}

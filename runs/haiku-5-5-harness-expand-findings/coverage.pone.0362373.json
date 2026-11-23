@@ -1,0 +1,322 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Same entry and call as Task A: substance use (Q3), 'other individual characteristics' without depression or AI identity (Q1 partial); Q2 not credited."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note says the paper asks what culturally relevant alternatives explain friendship formation; the paper raises that only as future work ('it becomes imperative to investigate culturally relevant alternatives', p.16) and does not study it."
+          }
+        ],
+        "note": "Added entry. The presumption of network-based prevention that friendships are founded on substance use is I6, an interlocutor answer."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q4"
+        ],
+        "note": "Added entry. Transitivity part of the structural question (Q4), correctly reported as an expectation, not a result (cf. B2; not a catch)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q4"
+        ],
+        "note": "Added entry. Degree effects are part of the structural question (Q4); repeats the id."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Added entry. Depression part of the attribute question (Q1); the paper does say it examines which mechanisms operate (p.4)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Same as Task A."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Same as Task A."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Added entry. School types (E7) and per-school response rates with 263 completed surveys, correctly paired (E2 partial: no 77% overall, 247 given in the next entry)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Added entry. 247 correctly named as the analysis sample with complete network data."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Added entry. Network Canvas and school rosters are accurate (p.6-7)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5",
+          "E6"
+        ],
+        "note": "Added entry. Substance use measure (E5 part) and peer-perception imputation of missing values (E6, no sensitivity analysis)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Added entry. CES-D and the six-item MEIM adaptation (E5 remaining part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Same as Task A: reciprocity only."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Same as Task A."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Same as Task A: no sexual orientation."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Same as Task A: AI identity only."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Same as Task A: the School B alcohol homophily exception is a detail of F1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Appended. Transitivity half of F2 (reciprocity in entry 0); paper's own 'fundamental organizing principle'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Appended. Outgoing-tie centralization in all schools (p.13): one half of F5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Appended. Incoming ties centralized only in School C: the other half of F5; repeats the id."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Appended. Depression half of F4 (AI identity in entry 3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Appended. Sexual orientation homophily, the remaining part of F3; 'understudied pattern' is the paper's wording."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Appended. The School C alcohol sender exception is a detail of F1; 'only such effect across all schools and substances' and the hedge 'suggesting' follow the paper (p.13, p.15)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional plus association versus cause."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Added entry. Selection versus influence; repeats L3."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added entry. One developmental period, one time point, patterns may differ across the life course."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Added entry. Faithful to the paper's 'could in principle introduce or amplify apparent behavioral similarity'."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Added entry. The caution against causal readings of the demographic coefficients, with the paper's reason (adjustment set chosen for the focal predictors)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Accurate: the paper notes reservations are sovereign nations whose policies and laws may differ from the state's and calls for research on local governance (p.17). Not a gold answer."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Same as Task A."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors 'revise' the assumptions of network-based prevention work; the paper says the findings 'challenge assumptions underpinning many network-based prevention programs'."
+          }
+        ],
+        "note": "Same as Task A."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Added entry. Moving beyond generalizations from heterogeneous schools is the testing half of T3 (paper's wording), without what is replicated and what is disputed."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Added entry. The non-AI literature as benchmark, with demographic homophily as replication baseline (p.5): the replication half of T3 (also close to I5). Credited once."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Added entry. The cultural-context argument applied to substance use (p.4), reported as the authors' interpretive lens, which the paper offers as a theoretical expectation; repeats T2, not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Same as Task A. Reference 13 in paper.xml is Ali, Amialchuk and Nikaj 2014 (Add Health), so the attribution is correct."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Added entry."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Added entry. Includes that the paper calls the study descriptive."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "L5"
+        ],
+        "note": "Added entry. Reference 34 is Prinstein and Wang 2005 on false consensus, so the attribution is correct, but a study cited to illustrate a caveat is not an interlocutor (protocol). The bias of peer perceptions is L5, a limit; the entry itself says so."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "partial": [],
+        "note": "Added entry. Contrast between non-AI depression findings and the null here: the non-AI depression claim is not a gold interlocutor answer; the null is the depression half of F4, credited as misplaced."
+      }
+    ]
+  },
+  "joined": [
+    "E2",
+    "E5",
+    "F2",
+    "F3",
+    "F4",
+    "F5"
+  ]
+}

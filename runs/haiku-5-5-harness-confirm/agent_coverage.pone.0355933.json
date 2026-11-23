@@ -1,0 +1,106 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Carried over from haiku-5-5-text-prompt3/agent_coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ],
+        "note": "Names the spillover to perceptions (Q1), the spillover to representation (Q3) and whether the counter-narrative offsets it (Q2). Does not state H1A (Q4)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the harm to perceptions and the near-cancellation by the counter-narrative; omits that the ad improved feelings of representation. Attributes the effect to 'the Trump ad labeling him', not to the words alone, so no C-x3 flag."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "E1: survey experiment, self-identified U.S. Democrats, Prolific (omits pre-registration and the July 2025 dates). E2: 2,439 in three arms (no per-arm n, but the arms are named). E3: only the ad half (mugshot labeled CONVICTED CRIMINAL); the counter-narrative's content is not described."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Placing ... before the ad almost entirely offset' keeps the relative-to-ad-alone comparison; paper p.15 wording."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Gives the increase in feeling well represented and in public-service motives, and names 'representation quality' as the unhypothesized outcome, which matches p.11 ('perceived quality of Democratic representation ... not hypothesized')."
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "note": "'Place the study within social categorization theory and extend it' to the spillover from one salient member: T1 framework plus T4 stance (applies and extends)."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a possible account, matching the paper's hedge."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  },
+  "joined": []
+}

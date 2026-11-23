@@ -1,0 +1,132 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Phrased as 'the paper argues that' climate moderates, but the substance and quote are the study's goal."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "The core (conservative) half of F3 restated as a finding in the question slot, with the 60% vs under 35% quote. Treated like Task B's central_claim[2]: the core half earns misplaced credit; a liberal half alone would not."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative booster half of C1 only; hesitancy and the liberals-regardless part are missing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey, 683 participants, March 8 to April 19, 2023. No Qualtrics Panels or convenience sample (E1 partial); final N without the screening numbers (E2 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "E3",
+            "text": "Says participants self-reported their regional political climate. The paper derives climate from the participant's zip code and 2020 election results from the New York Times (% Republican vote, p.3); only the zip code is self-reported."
+          }
+        ],
+        "note": "Self-reported vaccine and booster status and hesitancy: partial E5 (the hesitancy scale is not named)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy items from a 2022 survey (ref. 25): accurate, not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; the liberals-regardless part is missing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1",
+          "F3"
+        ],
+        "note": "Booster status associated with conservatism and climate (main effects OR = .82, .77 on p.7: the booster part of F1) plus a significant interaction without its shape (partial F3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberal half of F3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3, with the 60% vs under 35% quote."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Interaction not significant for vaccine status; no mandates explanation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "note": "Names only the climate literature (the paper's 'emerging body of evidence') and the extension by testing moderation."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Extension through the interaction, focused on booster uptake; the paper calls this a 'novel and important finding' (p.10)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "misplaced": [
+          "Q2"
+        ],
+        "note": "Prior research on orientation and on climate separately (I2, builds on), plus the research gap with the paper's hedge 'little research' kept (Q2, question slot)."
+      }
+    ]
+  }
+}

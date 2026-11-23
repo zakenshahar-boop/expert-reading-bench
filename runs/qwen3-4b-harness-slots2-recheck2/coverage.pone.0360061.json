@@ -1,0 +1,163 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Carried over from qwen3-4b-harness-slots2/coverage (Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.) Claims the harness dropped are removed; repaired quotes were not judged for support.",
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "partial": [
+          "Q3"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "C-x2",
+            "text": "Says hostility is associated with engagement 'contrary to theories' attributing it to marginalization or personality. The paper asks whether hostility is associated 'not only with' those explanations 'but also' with engagement, and does not seek to adjudicate between them (p.2-3)."
+          }
+        ],
+        "note": "Phrased as an argument; Q3 substance with an oppositional stance, so half credit."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I2"
+        ],
+        "note": "Qualifying the classical view of engagement as benign is I2, in the wrong slot. 'Can be linked to' keeps the associational wording, so no flag (unlike harness-slots question[1], 'can lead to')."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "2,567 linked panelists only; the post count is given separately in evidence[2], not joined."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "9,250,180 posts; correctly not tied to the 2,567."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach only."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Cosine similarity to the 'political hate' vector; per-user averaging not mentioned (scored as in harness-slots evidence[4])."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: 2,469 posts labeled by four experts (p.7)."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of engagement measures (p.8)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Gives the three indicators but not that they are the strongest among several significant associations."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "States without qualification that more affectively polarized users show stronger associations. The paper says this holds for some indicators, clearest for participation, and is only partially consistent with Expectation 2 (p.14); the entry's own quote says 'for some indicators'."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C1"
+        ],
+        "note": "Restates the central claim (positive association with engagement and antecedents, including education and efficacy) in key_findings."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Mute on causal relations among the indicators; omits that education and efficacy are distal antecedents, not direct causes."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Names the Dark Triad, sadism and antagonistic-trait accounts as untested; not said that those traits were not measured."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "partial": [
+          "T4"
+        ],
+        "note": "Extends the revisionist perspective (T2, T3). 'Moving beyond' deprivation or personality explanations is read as the complementary stance (T4, partial), as with 'rather than just' in harness-slots."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

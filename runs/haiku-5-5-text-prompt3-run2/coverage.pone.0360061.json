@@ -1,0 +1,114 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 contained in Q3, not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The exploratory activity/reach question (p.15), accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations, the distinctive part of F1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "E3: YouGov panel, data to January 2021 (March 2019 is the scraping start, accurate), without six waves. Post and panelist counts are only in the quotes, so no E2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "SU method and per-user averaging, without the cosine similarity to the 'political hate' vector."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive significant associations, without the strongest indicators (those are in central_claim[0])."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Descriptive and not uniform, but does not say where the support is clearest; F2 is matched in the next entry."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Partially consistent, clearest for participation."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L2",
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

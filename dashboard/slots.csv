@@ -1,0 +1,43 @@
+key,model_id,model,slot_id,slot,points,answers
+qwen.question,qwen,Qwen3 4B (local),question,Question,8.5,48.0
+qwen.central_claim,qwen,Qwen3 4B (local),central_claim,Central claim,11.0,30.0
+qwen.evidence,qwen,Qwen3 4B (local),evidence,Evidence,13.5,99.0
+qwen.key_findings,qwen,Qwen3 4B (local),key_findings,Key findings,28.0,114.0
+qwen.scope_and_limits,qwen,Qwen3 4B (local),scope_and_limits,Scope and limits,15.0,120.0
+qwen.theoretical_positioning,qwen,Qwen3 4B (local),theoretical_positioning,Theory,15.5,63.0
+qwen.interlocutor_claim,qwen,Qwen3 4B (local),interlocutor_claim,Interlocutors,4.5,87.0
+gpt4o.question,gpt4o,GPT-4o,question,Question,20.0,48.0
+gpt4o.central_claim,gpt4o,GPT-4o,central_claim,Central claim,13.5,30.0
+gpt4o.evidence,gpt4o,GPT-4o,evidence,Evidence,17.5,99.0
+gpt4o.key_findings,gpt4o,GPT-4o,key_findings,Key findings,32.5,114.0
+gpt4o.scope_and_limits,gpt4o,GPT-4o,scope_and_limits,Scope and limits,18.0,120.0
+gpt4o.theoretical_positioning,gpt4o,GPT-4o,theoretical_positioning,Theory,12.0,63.0
+gpt4o.interlocutor_claim,gpt4o,GPT-4o,interlocutor_claim,Interlocutors,6.0,87.0
+haiku.question,haiku,Claude Haiku 5.5,question,Question,26.0,48.0
+haiku.central_claim,haiku,Claude Haiku 5.5,central_claim,Central claim,14.5,30.0
+haiku.evidence,haiku,Claude Haiku 5.5,evidence,Evidence,33.5,99.0
+haiku.key_findings,haiku,Claude Haiku 5.5,key_findings,Key findings,50.5,114.0
+haiku.scope_and_limits,haiku,Claude Haiku 5.5,scope_and_limits,Scope and limits,45.5,120.0
+haiku.theoretical_positioning,haiku,Claude Haiku 5.5,theoretical_positioning,Theory,31.5,63.0
+haiku.interlocutor_claim,haiku,Claude Haiku 5.5,interlocutor_claim,Interlocutors,12.5,87.0
+sol.question,sol,GPT-6.2 Sol,question,Question,38.5,48.0
+sol.central_claim,sol,GPT-6.2 Sol,central_claim,Central claim,21.5,30.0
+sol.evidence,sol,GPT-6.2 Sol,evidence,Evidence,98.0,99.0
+sol.key_findings,sol,GPT-6.2 Sol,key_findings,Key findings,84.5,114.0
+sol.scope_and_limits,sol,GPT-6.2 Sol,scope_and_limits,Scope and limits,112.0,120.0
+sol.theoretical_positioning,sol,GPT-6.2 Sol,theoretical_positioning,Theory,44.5,63.0
+sol.interlocutor_claim,sol,GPT-6.2 Sol,interlocutor_claim,Interlocutors,19.0,87.0
+astra.question,astra,GPT-6.2 Astra,question,Question,39.0,48.0
+astra.central_claim,astra,GPT-6.2 Astra,central_claim,Central claim,23.0,30.0
+astra.evidence,astra,GPT-6.2 Astra,evidence,Evidence,98.0,99.0
+astra.key_findings,astra,GPT-6.2 Astra,key_findings,Key findings,86.0,114.0
+astra.scope_and_limits,astra,GPT-6.2 Astra,scope_and_limits,Scope and limits,109.5,120.0
+astra.theoretical_positioning,astra,GPT-6.2 Astra,theoretical_positioning,Theory,50.5,63.0
+astra.interlocutor_claim,astra,GPT-6.2 Astra,interlocutor_claim,Interlocutors,14.5,87.0
+opus.question,opus,Claude Opus 5.5,question,Question,37.0,48.0
+opus.central_claim,opus,Claude Opus 5.5,central_claim,Central claim,27.5,30.0
+opus.evidence,opus,Claude Opus 5.5,evidence,Evidence,83.5,99.0
+opus.key_findings,opus,Claude Opus 5.5,key_findings,Key findings,75.0,114.0
+opus.scope_and_limits,opus,Claude Opus 5.5,scope_and_limits,Scope and limits,107.5,120.0
+opus.theoretical_positioning,opus,Claude Opus 5.5,theoretical_positioning,Theory,43.5,63.0
+opus.interlocutor_claim,opus,Claude Opus 5.5,interlocutor_claim,Interlocutors,62.0,87.0

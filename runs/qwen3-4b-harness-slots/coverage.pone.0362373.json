@@ -1,0 +1,41 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "entries": {
+    "question": [
+      {"match": [], "flags": [{"type": "wrong stance", "gold": "F-x2", "text": "The note says the paper challenges the assumption that substance use, depression or AI identity causally affect friendship formation; the quoted passage is a limitation telling readers to read the results as associations, not an argument against causal effects."}], "note": "Not a research question; turns the L3 caveat into a position. No credit."},
+      {"match": [], "misplaced": ["F4"], "flags": [{"type": "overclaim (mild)", "gold": "F-x2", "text": "The note says the paper disputes that depression influences friendship through avoidance or withdrawal; the paper reports only negligible associations and does not test those mechanisms."}], "note": "The depression null (half of F4) stated as a question; credited as misplaced."},
+      {"match": [], "misplaced": ["F4"], "flags": [{"type": "overclaim (mild)", "gold": null, "text": "The note says the paper 'refutes the idea' that AI identity predicts friendship; the paper reports a null for an attribute whose role it says 'has not been examined', so there was no established idea to refute."}], "note": "The AI identity null (half of F4) stated as a question; credited as misplaced."}
+    ],
+    "central_claim": [
+      {"match": [], "partial": ["C1"], "note": "Structural and demographic half of C1 only; 'primarily shaped by universal' is the paper's wording (p.13, abstract)."},
+      {"match": [], "partial": ["C1"], "misplaced": ["I4"], "note": "Gives the substance-use half of C1 and the conventional assumption the paper disputes (I4). Dropping 'consistent' is true to the paper's own p.16 wording ('not associated with relational patterns')."},
+      {"match": [], "misplaced": ["F4"], "flags": [{"type": "overclaim (mild)", "gold": null, "text": "The note states the AI identity null is 'because' nearly all students share a racial background; the paper says the null 'is consistent with several contextual considerations' and offers this as the first of three possible explanations."}], "note": "AI identity null is part of F4, a finding."}
+    ],
+    "evidence": [
+      {"match": ["E1"], "note": "Network data from 9th/10th graders in three Northern Plains reservation schools; 'cross-sectional survey' is given in the next entry."},
+      {"match": [], "partial": ["E1"], "note": "Adds 'cross-sectional survey'; the tablet administration and assent details are accurate but not in the gold."},
+      {"match": [], "partial": ["E5"], "note": "Lists the measured domains without the specific measures."},
+      {"match": ["E4"]},
+      {"match": [], "partial": ["E6"], "note": "Peer-perception imputation; the sensitivity analysis excluding imputed cases is not mentioned."},
+      {"match": [], "partial": ["E3"], "note": "Structural and attribute terms; ERGMs, per-school estimation and AMEs not named in this entry. The quote (p.2 aim statement) only partly supports it."},
+      {"match": [], "partial": ["E2"], "flags": [{"type": "unsupported detail", "gold": "E2", "text": "The note joins the 247 analysis sample with the 77% response rate; the 77% refers to the 263 students who completed the survey (52, 140, 71), and 247 is the subset with complete network data."}]},
+      {"match": [], "partial": ["E5"], "note": "AI identity measure only."},
+      {"match": [], "partial": ["E5"], "note": "Substance use measure only."}
+    ],
+    "key_findings": [
+      {"match": ["F1"], "note": "Core null; quote gives 'almost entirely non-significant'. Exceptions not named."},
+      {"match": ["F2"], "note": "'Drivers' follows the paper's abstract wording."},
+      {"match": [], "partial": ["F4"], "note": "AI identity only; depression not mentioned."}
+    ],
+    "scope_and_limits": [
+      {"match": [], "partial": ["L3"], "note": "Gives the association-versus-cause consequence but not the cross-sectional design or the selection-versus-influence point."}
+    ],
+    "theoretical_positioning": [
+      {"match": [], "partial": ["T1", "T3"], "flags": [{"type": "overclaim", "gold": "T3", "text": "The note says the study extends and revises existing models; the paper keeps the standard network framework and challenges how far the substance-use finding generalizes."}, {"type": "overclaim (mild)", "gold": "F-x2", "text": "The note says the study demonstrates that substance use and depression 'do not drive' friendship formation; the paper reports no consistent association and warns against causal readings."}], "note": "'Social network analysis tradition' is a vague T1; the departure from the substance-use literature is the substance of T3, inflated. The note repeats the same nine quotes four times."}
+    ],
+    "interlocutor_claim": [
+      {"match": [], "partial": ["I4"], "flags": [{"type": "wrong stance", "gold": "I1", "text": "The note says the paper challenges the assumption that substance use strongly influences peer ties in racially heterogeneous settings; the paper accepts the heterogeneous-school findings (quoted) and disputes only their generalization to AI-majority schools."}], "note": "The 'primary determinant' assumption is I4, but the dispute is placed in the wrong setting."}
+    ]
+  }
+}

@@ -1,0 +1,406 @@
+<meta name="dash-one-writer">
+<style>
+  .grb { display: flex; flex-direction: column; gap: var(--cds-gap-xl); max-width: 980px; font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .grb-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .grb-lede { font-size: var(--cds-font-size-heading); line-height: 1.45; margin: 0; max-width: 62ch; text-wrap: pretty; }
+  .grb-lede b { font-weight: var(--cds-font-weight-medium); }
+  .grb-sub { color: var(--color-fg-muted); margin: 0; max-width: 68ch; line-height: 1.5; }
+  .grb-sec { display: flex; flex-direction: column; gap: var(--cds-gap-md); min-width: 0; }
+  .grb-h { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .grb-chart { position: relative; min-height: 190px; }
+  .grb-chart svg { display: block; overflow: visible; }
+  .grb-chart text { font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-caption); fill: var(--cds-text-secondary); }
+  .grb-chart text.grb-name, .grb-chart text.grb-val { fill: var(--color-fg); font-size: var(--cds-font-size-body); }
+  .grb-chart text.grb-val { font-variant-numeric: tabular-nums; font-weight: var(--cds-font-weight-medium); }
+  .grb-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: var(--cds-radius); padding: var(--cds-pad-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg); max-width: 240px; z-index: 2; }
+  .grb-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .grb-key { display: inline-flex; align-items: center; gap: var(--cds-gap-xs); }
+  .grb-sw { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+  .grb-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: var(--cds-gap-xl); }
+  .grb-heat { display: grid; gap: 3px; min-height: 150px; font-size: var(--cds-font-size-caption); align-items: stretch; }
+  .grb-heat .grb-hh { color: var(--color-fg-muted); padding: 4px 1px; overflow-wrap: anywhere; align-self: end; text-align: center; }
+  .grb-heat .grb-hr { padding: 8px 8px 8px 0; align-self: center; min-width: 0; overflow-wrap: anywhere; }
+  .grb-cell { padding: 8px 2px; text-align: center; border-radius: 3px; font-variant-numeric: tabular-nums; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); }
+  .grb-wrap { overflow-x: auto; }
+  .grb-table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-body); }
+  .grb-table th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: 6px 12px 6px 0; border-bottom: 1px solid var(--color-border-line); vertical-align: bottom; }
+  .grb-table td { padding: 9px 12px 9px 0; border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .grb-table .grb-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .grb-table .grb-long { min-width: 260px; line-height: 1.45; }
+  .grb-pill { display: inline-block; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--color-border-line); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+  .grb-pill.grb-bad { border-color: var(--color-bad); color: var(--color-bad); }
+  .grb-pill.grb-warn { border-color: var(--color-warn); color: var(--color-warn); }
+  .grb-bar { height: 8px; border-radius: 2px; margin-top: 4px; min-width: 2px; }
+  .grb-barcell { min-width: 150px; font-variant-numeric: tabular-nums; }
+  .grb-first td { border-top: 2px solid var(--color-border-line); }
+  .grb-zero { color: var(--color-bad); font-weight: var(--cds-font-weight-medium); }
+  .grb-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .grb-notes { color: var(--color-fg-muted); line-height: 1.55; max-width: 72ch; }
+  .grb-notes summary { cursor: pointer; color: var(--color-fg); }
+  .grb-notes p { margin: var(--cds-gap-sm) 0 0; }
+</style>
+
+<div class="grb">
+  <header class="grb-sec" id="summary">
+    <h1 class="grb-title">Grounded Reading Bench</h1>
+    <p class="grb-lede">Six models read five peer-reviewed papers and wrote a structured reading note for each. <b data-draw="lead" data-source="headline" data-field="lead" data-row="0">—</b> found <b data-draw="leadpct" data-source="headline" data-field="lead_pct" data-row="0">—</b> of the answers a careful human reader would accept, and <b data-draw="last" data-source="headline" data-field="last" data-row="0">—</b> found <b data-draw="lastpct" data-source="headline" data-field="last_pct" data-row="0">—</b>. The most contradictions inside the papers that any model noticed was <b data-draw="bestcatch" data-source="headline" data-field="best_catches" data-row="0">—</b> of <b data-draw="catchtotal" data-source="headline" data-field="catches_total" data-row="0">—</b>.</p>
+    <p class="grb-sub">Each note has seven parts: the question, the central claim, the evidence, the key findings, the limits, the theory, and the earlier work the paper argues with. Every claim must be backed by a word-for-word quote with its page number. The accepted answers come from each paper's published peer review history and were checked by a human labeler. Every note on this page was matched to those answers by the same judge, a set of Claude Opus 5.5 agents working from the labeler's written rules.</p>
+  </header>
+
+  <section class="grb-sec" id="coverage">
+    <h2 class="grb-h">Coverage: how many accepted answers each model found</h2>
+    <p class="grb-sub">Coverage is the share of accepted answers a note states with at least one word-for-word quote behind it. A half point goes to an answer that is incomplete or placed in the wrong part of the note. An answer stated across two entries of the same part counts in full. Bars show the mean of a model's runs, and the black line its lowest and highest run.</p>
+    <div class="grb-legend">
+      <span class="grb-key"><span class="grb-sw" data-draw="sw1"></span>Backed by a word-for-word quote</span>
+      <span class="grb-key"><span class="grb-sw" data-draw="sw2"></span>Added if claims without such a quote also counted</span>
+    </div>
+    <div class="grb-chart" id="coverage-chart" data-draw="cov" data-source="totals">—</div>
+  </section>
+
+  <section class="grb-two">
+    <div class="grb-sec" id="by-paper">
+      <h2 class="grb-h">Coverage by paper</h2>
+      <div class="grb-heat" data-draw="bypaper" data-source="bypaper"></div>
+    </div>
+    <div class="grb-sec" id="by-part">
+      <h2 class="grb-h">Coverage by part of the note</h2>
+      <div class="grb-heat" data-draw="byslot" data-source="byslot"></div>
+    </div>
+  </section>
+
+  <section class="grb-sec" id="scorecard">
+    <h2 class="grb-h">Scorecard</h2>
+    <p class="grb-sub">Core findings are the results at least two peer reviewers restated. A risk flag is a claim that says more than the paper does. A contradiction is a place where the paper disagrees with itself, such as an abstract that claims more than the results show. Mild flags are small overstatements, such as "revise" where the paper says "challenge"; serious flags are wrong directions, invented claims and wrong attributions. Each model reached through an API was run three times; quote counts are totals over its runs, and the local model has one run because it runs at temperature 0.</p>
+    <div class="grb-wrap">
+      <table class="grb-table" data-source="totals" data-row-key="model">
+        <thead><tr>
+          <th data-field="model">Model</th>
+          <th class="grb-num" data-field="runs">Runs</th>
+          <th class="grb-num" data-field="coverage_pct">Coverage, mean</th>
+          <th class="grb-num" data-field="coverage_range">Lowest to highest run</th>
+          <th class="grb-num" data-field="core">Core findings, mean</th>
+          <th class="grb-num" data-field="verbatim">Quotes word for word</th>
+          <th class="grb-num" data-field="page_correct">Page correct</th>
+          <th class="grb-num" data-field="quotes_not_in_paper">Quotes not in the paper, per run</th>
+          <th class="grb-num" data-field="flags_serious">Serious flags per run</th>
+          <th class="grb-num" data-field="flags_mild">Mild flags per run</th>
+          <th class="grb-num" data-field="catches">Contradictions noticed</th>
+        </tr></thead>
+        <tbody data-draw="scorerows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="grb-sec" id="harness">
+    <h2 class="grb-h">What a harness adds</h2>
+    <p class="grb-sub">A harness is code around the model that checks and extends its note without ever seeing the accepted answers. It can confirm every quote against the paper and send failures back for repair, ask the model to re-check each claim against its quoted passage, and ask the model what else the paper states. Each row is the same model with a different setting, starting from the note of its first run.</p>
+    <div class="grb-wrap">
+      <table class="grb-table" data-source="harnessrows" data-row-key="key">
+        <thead><tr>
+          <th data-field="model">Model</th>
+          <th data-field="setting">Setting</th>
+          <th data-field="coverage_pct">Coverage</th>
+          <th class="grb-num" data-field="core">Core findings</th>
+          <th class="grb-num" data-field="flags_serious">Serious flags</th>
+          <th class="grb-num" data-field="flags_mild">Mild flags</th>
+          <th class="grb-num" data-field="claims">Claims in the note</th>
+        </tr></thead>
+        <tbody data-draw="harnessrows"></tbody>
+      </table>
+    </div>
+    <p class="grb-sub">Confirming quotes helps in proportion to how many quotes a model gets wrong. Re-checking removes errors from a model that makes many and removes correct claims from a model that makes few. Asking for more helps models that are accurate but stop early.</p>
+  </section>
+
+  <section class="grb-sec" id="flags">
+    <h2 class="grb-h">Risk flags: where a note said more than the paper</h2>
+    <p class="grb-sub">Every flag from every run. Serious flags among the strong models are rare and do not repeat from run to run; the mild ones do, often on the same sentence of the same paper.</p>
+    <div class="grb-wrap">
+      <table class="grb-table" data-source="flags" data-row-key="id">
+        <thead><tr>
+          <th data-field="model">Model</th>
+          <th class="grb-num" data-field="run">Run</th>
+          <th data-field="paper">Paper</th>
+          <th data-field="type">Kind</th>
+          <th data-field="what">What the note said</th>
+        </tr></thead>
+        <tbody data-draw="flagrows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="grb-sec" id="contradictions">
+    <h2 class="grb-h">Critical reading bonus: contradictions inside the papers</h2>
+    <p class="grb-sub">The labeler found these while checking the accepted answers. A note that repeats the paper is still credited; a note that points out the contradiction earns the bonus, which is counted on its own and is not part of coverage. Reporting the correct figure without saying that the paper contradicts itself does not count.</p>
+    <div class="grb-wrap">
+      <table class="grb-table" data-source="catches" data-row-key="id">
+        <thead><tr>
+          <th data-field="paper">Paper</th>
+          <th data-field="contradiction">The contradiction</th>
+          <th data-field="caught_by">Noticed by</th>
+        </tr></thead>
+        <tbody data-draw="catchrows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <details class="grb-notes" id="method">
+    <summary>How to read these numbers, and what they do not show yet</summary>
+    <p>Each API model was run three times on each paper. Across runs no model moved more than four points, so the three groups of models are well apart, but differences of a few points within a group mean nothing. Five papers is a small set, all from one journal and all in social science; a single model's score on a single paper moves by up to eight points between runs.</p>
+    <p>The human labeler independently labeled 60 accepted answers, weighted toward hard cases. The agents gave the same label on 52 of them (87%, Cohen's kappa 0.79). Where they differed, the agents were usually the stricter.</p>
+    <p>Whether a quote appears in the paper, and on the stated page, is checked by code. Which accepted answer a claim matches was judged by Claude Opus 5.5 agents, one per paper, each working from the gold answers, the paper and the labeler's written rules. On the notes that were also matched by hand, the agents gave the same credit on 87% to 90% of accepted answers (Cohen's kappa 0.68 to 0.83). The human labeler has not yet reviewed the matching.</p>
+    <p>In the harness table, a setting that only drops claims or repairs quotes carries its matches over from the note it started from; whether each repaired quote supports its claim was not judged separately.</p>
+    <p>The accepted answers were drafted from each paper's published reviews and author responses, then corrected by one human labeler. Answers that a model suggested are never added to the list, so a model cannot earn credit for points only it raised.</p>
+    <p>The local model sometimes wrote a reply whose brackets did not balance. Such a reply is read one part at a time, so a formatting slip does not cost a model its whole note.</p>
+  </details>
+</div>
+
+<script>
+  const num = (v) => +v || 0;
+  const pct = (a, b) => (b ? Math.round((100 * a) / b) : 0);
+
+  dash.calc('totals', {
+    inputs: ['results'],
+    title: 'Totals per model',
+    description: 'Each model over the five papers: the mean of its runs, with the lowest and highest run.',
+    fn: (results) => {
+      const byModel = new Map();
+      for (const r of results) {
+        const m = byModel.get(r.model) || new Map();
+        const o = m.get(r.run) || { points: 0, loose: 0, answers: 0, core: 0, coreTotal: 0, quotes: 0, verbatim: 0, located: 0, serious: 0, mild: 0, catches: 0, catchesTotal: 0 };
+        o.points += +r.points; o.loose += +r.points_no_quote; o.answers += +r.answers;
+        o.core += +r.core; o.coreTotal += +r.core_total;
+        o.quotes += +r.quotes; o.verbatim += +r.verbatim; o.located += +r.page_correct;
+        o.serious += +r.flags_serious; o.mild += +r.flags_mild;
+        o.catches += +r.catches; o.catchesTotal += +r.catches_total;
+        m.set(r.run, o); byModel.set(r.model, m);
+      }
+      const mean = (xs) => xs.reduce((a, b) => a + b, 0) / xs.length;
+      const one = (x) => Math.round(10 * x) / 10;
+      return [...byModel.entries()].map(([model, m]) => {
+        const runs = [...m.values()];
+        const cov = runs.map((o) => (100 * o.points) / o.answers);
+        const sum = (k) => runs.reduce((a, o) => a + o[k], 0);
+        return {
+          model, runs: runs.length,
+          coverage_pct: Math.round(mean(cov)),
+          coverage_low: Math.round(Math.min(...cov)), coverage_high: Math.round(Math.max(...cov)),
+          coverage_range: runs.length > 1 ? Math.round(Math.min(...cov)) + ' to ' + Math.round(Math.max(...cov)) + '%' : 'one run',
+          with_unquoted_pct: Math.round(mean(runs.map((o) => (100 * o.loose) / o.answers))),
+          core: one(mean(runs.map((o) => o.core))) + '/' + runs[0].coreTotal,
+          verbatim: sum('verbatim') + '/' + sum('quotes'),
+          page_correct: sum('located') + '/' + sum('quotes'),
+          quotes_not_in_paper: one((sum('quotes') - sum('verbatim')) / runs.length),
+          flags_serious: one(mean(runs.map((o) => o.serious))),
+          flags_mild: one(mean(runs.map((o) => o.mild))),
+          catches: Math.max(...runs.map((o) => o.catches)) + '/' + runs[0].catchesTotal,
+        };
+      }).sort((a, b) => b.coverage_pct - a.coverage_pct);
+    },
+  });
+
+  dash.calc('headline', {
+    inputs: ['totals'],
+    title: 'Headline figures',
+    description: 'The models with the highest and lowest coverage, and the most contradictions any model noticed.',
+    fn: (totals) => {
+      if (!totals || !totals.length) return [];
+      const first = totals[0], last = totals[totals.length - 1];
+      const caught = totals.map((t) => +String(t.catches).split('/')[0]);
+      return [{
+        lead: first.model, lead_pct: first.coverage_pct,
+        last: last.model, last_pct: last.coverage_pct,
+        best_catches: Math.max(...caught),
+        catches_total: +String(first.catches).split('/')[1],
+      }];
+    },
+  });
+
+  dash.calc('bypaper', {
+    inputs: ['results'],
+    title: 'Coverage by paper',
+    description: 'Points earned divided by accepted answers, for each model and paper, averaged over the model\'s runs.',
+    fn: (results) => {
+      const by = new Map();
+      for (const r of results) {
+        const k = r.model_id + '.' + r.paper_id;
+        const o = by.get(k) || { key: k, model: r.model, group: r.paper, points: 0, answers: 0, runs: 0 };
+        o.points += +r.points; o.answers += +r.answers; o.runs += 1; by.set(k, o);
+      }
+      return [...by.values()].map((o) => ({ key: o.key, model: o.model, group: o.group, pct: Math.round((100 * o.points) / o.answers),
+        detail: Math.round((10 * o.points) / o.runs) / 10 + ' of ' + o.answers / o.runs + (o.runs > 1 ? ', mean of ' + o.runs + ' runs' : '') }));
+    },
+  });
+
+  dash.calc('byslot', {
+    inputs: ['slots'],
+    title: 'Coverage by part of the note',
+    description: 'Points earned divided by accepted answers, for each model and part, over the five papers.',
+    fn: (slots) => slots.map((r) => ({ key: r.key, model: r.model, group: r.slot, pct: Math.round((100 * +r.points) / +r.answers), detail: +r.points + ' of ' + +r.answers })),
+  });
+
+  dash.calc('harnessrows', {
+    inputs: ['harness'],
+    title: 'Harness settings',
+    description: 'Each model under each harness setting, summed over the five papers.',
+    fn: (harness) => harness.map((r) => ({
+      key: r.key, model: r.model, setting: r.setting,
+      coverage_pct: Math.round((100 * +r.points) / +r.answers),
+      core: +r.core + '/' + +r.core_total, flags_serious: +r.flags_serious, flags_mild: +r.flags_mild, claims: +r.claims,
+    })),
+  });
+
+  const rowsOf = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) && d.data.length ? d.data : null; };
+  const failed = (id) => dash.data(id).status === 'error';
+  const word = (name, field, fmt) => dash.draw(name, (el) => {
+    const r = rowsOf('headline');
+    el.textContent = r ? fmt(r[0][field]) : '—';
+  });
+  word('lead', 'lead', String);
+  word('last', 'last', String);
+  word('leadpct', 'lead_pct', (v) => v + '%');
+  word('lastpct', 'last_pct', (v) => v + '%');
+  word('bestcatch', 'best_catches', String);
+  word('catchtotal', 'catches_total', String);
+
+  dash.draw('sw1', (el) => { el.style.background = dash.colors[0]; });
+  dash.draw('sw2', (el) => { el.style.background = dash.colors[0]; el.style.opacity = 0.3; });
+
+  dash.draw('cov', (el) => {
+    const rows = rowsOf('totals');
+    if (!rows) { el.textContent = failed('results') ? 'The coverage chart failed to load.' : '—'; return; }
+    el.replaceChildren();
+    const W = Math.max(280, el.clientWidth || 600), bh = 30, gap = 22, top = 22;
+    const H = top + rows.length * (bh + gap) + 6;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`)
+      .attr('role', 'img').attr('aria-label', 'Coverage of accepted answers by model, as a percentage');
+    const names = svg.append('g').selectAll('text').data(rows).join('text').attr('class', 'grb-name').text((d) => d.model);
+    let left = 0; names.each(function () { left = Math.max(left, this.getComputedTextLength()); });
+    const stacked = left > W * 0.38;
+    const x0 = stacked ? 0 : left + 14, right = 52;
+    const rowH = bh + gap + (stacked ? 16 : 0);
+    svg.attr('viewBox', `0 0 ${W} ${top + rows.length * rowH + 6}`);
+    const x = d3.scaleLinear().domain([0, 100]).range([x0, W - right]);
+    svg.append('g').selectAll('line').data([0, 25, 50, 75, 100]).join('line')
+      .attr('x1', (d) => x(d)).attr('x2', (d) => x(d)).attr('y1', top - 4).attr('y2', top + rows.length * rowH - gap + 4)
+      .style('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(W < 420 ? [0, 50, 100] : [0, 25, 50, 75, 100]).join('text')
+      .attr('x', (d) => x(d)).attr('y', top - 10).attr('text-anchor', 'middle').text((d) => d + '%');
+    const y = (i) => top + i * rowH + (stacked ? 16 : 0);
+    names.attr('x', 0).attr('y', (d, i) => (stacked ? top + i * rowH + 10 : y(i) + bh / 2 + 5));
+    const tip = d3.select(el).append('div').attr('class', 'grb-tip').attr('hidden', '');
+    const g = svg.append('g').selectAll('g').data(rows).join('g');
+    g.append('rect').attr('x', x(0)).attr('y', (d, i) => y(i)).attr('height', bh).attr('rx', 2)
+      .attr('width', (d) => Math.max(0, x(d.with_unquoted_pct) - x(0))).style('fill', dash.colors[0]).style('opacity', 0.3);
+    g.append('rect').attr('x', x(0)).attr('y', (d, i) => y(i)).attr('height', bh).attr('rx', 2)
+      .attr('width', (d) => Math.max(0, x(d.coverage_pct) - x(0))).style('fill', dash.colors[0]);
+    g.filter((d) => d.runs > 1).append('line').attr('x1', (d) => x(d.coverage_low)).attr('x2', (d) => x(d.coverage_high))
+      .attr('y1', (d, i) => y(i) + bh / 2).attr('y2', (d, i) => y(i) + bh / 2).style('stroke', 'var(--color-fg)').style('stroke-width', 2);
+    g.filter((d) => d.runs > 1).selectAll('line.grb-cap').data((d, i) => [[d.coverage_low, i], [d.coverage_high, i]]).join('line').attr('class', 'grb-cap')
+      .attr('x1', (d) => x(d[0])).attr('x2', (d) => x(d[0])).attr('y1', (d) => y(d[1]) + bh / 2 - 5).attr('y2', (d) => y(d[1]) + bh / 2 + 5)
+      .style('stroke', 'var(--color-fg)').style('stroke-width', 2);
+    g.append('text').attr('class', 'grb-val').attr('x', (d) => x(Math.max(d.coverage_pct, d.with_unquoted_pct, d.coverage_high)) + 8)
+      .attr('y', (d, i) => y(i) + bh / 2 + 5).text((d) => d.coverage_pct + '%');
+    g.append('rect').attr('x', 0).attr('y', (d, i) => y(i) - 4).attr('width', W).attr('height', bh + 8).style('fill', 'transparent')
+      .on('pointermove', (ev, d) => {
+        tip.attr('hidden', null);
+        tip.node().replaceChildren();
+        const a = document.createElement('div'); a.textContent = d.model;
+        const b = document.createElement('div'); b.textContent = d.runs > 1 ? 'Mean of ' + d.runs + ' runs: ' + d.coverage_pct + '% (lowest ' + d.coverage_low + '%, highest ' + d.coverage_high + '%)' : d.coverage_pct + '%, one run at temperature 0';
+        const c = document.createElement('div'); c.textContent = d.with_unquoted_pct + '% if claims without such a quote also counted';
+        tip.node().append(a, b, c);
+        const box = el.getBoundingClientRect();
+        const px = Math.min(ev.clientX - box.left + 12, box.width - 250);
+        tip.style('left', Math.max(0, px) + 'px').style('top', ev.clientY - box.top + 14 + 'px');
+      })
+      .on('pointerleave', () => tip.attr('hidden', ''));
+  });
+
+  const heat = (name, id, base) => dash.draw(name, (el) => {
+    const rows = rowsOf(id);
+    el.replaceChildren();
+    if (!rows) { el.textContent = failed(base) ? 'This table failed to load.' : '—'; return; }
+    const order = (rowsOf('totals') || []).map((t) => t.model);
+    const models = [...new Set(rows.map((r) => r.model))].sort((a, b) => order.indexOf(a) - order.indexOf(b));
+    const groups = [...new Set(rows.map((r) => r.group))];
+    el.style.gridTemplateColumns = `minmax(74px, 1.4fr) repeat(${models.length}, minmax(38px, 1fr))`;
+    const add = (cls, text) => { const d = document.createElement('div'); d.className = cls; d.textContent = text; el.append(d); return d; };
+    add('grb-hh', '');
+    for (const m of models) add('grb-hh', m.replace('Claude ', '').replace(' (local)', '').replace('GPT-6.2 ', ''));
+    for (const gname of groups) {
+      add('grb-hr', gname);
+      for (const m of models) {
+        const r = rows.find((q) => q.model === m && q.group === gname);
+        const c = add('grb-cell', r ? r.pct + '%' : '—');
+        if (!r) continue;
+        c.style.background = `color-mix(in srgb, ${dash.colors[0]} ${Math.round(r.pct * 0.55)}%, transparent)`;
+        c.setAttribute('data-source', id); c.setAttribute('data-field', 'pct'); c.setAttribute('data-where', 'key=' + r.key);
+        c.setAttribute('aria-label', m + ', ' + gname + ': ' + r.pct + '% (' + r.detail + ' points)');
+      }
+    }
+  });
+  heat('bypaper', 'bypaper', 'results');
+  heat('byslot', 'byslot', 'slots');
+
+  const tableRows = (name, id, base, cells) => dash.draw(name, (tb) => {
+    const rows = rowsOf(id);
+    tb.replaceChildren();
+    if (!rows) {
+      if (failed(base)) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 8; td.textContent = 'This table failed to load.'; }
+      return;
+    }
+    for (const r of rows) {
+      const tr = tb.insertRow();
+      if (r.id) tr.setAttribute('data-key', encodeURIComponent(r.id));
+      for (const make of cells) { const td = tr.insertCell(); make(td, r); }
+    }
+  });
+  const text = (f, cls) => (td, r) => { td.textContent = r[f]; if (cls) td.className = cls; };
+
+  tableRows('scorerows', 'totals', 'results', [
+    text('model'),
+    text('runs', 'grb-num'),
+    (td, r) => { td.className = 'grb-num'; td.textContent = r.coverage_pct + '%'; },
+    text('coverage_range', 'grb-num'),
+    text('core', 'grb-num'), text('verbatim', 'grb-num'), text('page_correct', 'grb-num'),
+    (td, r) => { td.className = 'grb-num' + (num(r.quotes_not_in_paper) ? ' grb-zero' : ''); td.textContent = r.quotes_not_in_paper; },
+    (td, r) => { td.className = 'grb-num' + (num(r.flags_serious) ? ' grb-zero' : ''); td.textContent = r.flags_serious; },
+    (td, r) => { td.className = 'grb-num'; td.textContent = r.flags_mild; },
+    (td, r) => { td.className = 'grb-num' + (String(r.catches).startsWith('0/') ? ' grb-zero' : ''); td.textContent = r.catches; },
+  ]);
+
+  dash.draw('harnessrows', (tb) => {
+    const rows = rowsOf('harnessrows');
+    tb.replaceChildren();
+    if (!rows) {
+      if (failed('harness')) { const td = tb.insertRow().insertCell(); td.colSpan = 7; td.textContent = 'This table failed to load.'; }
+      return;
+    }
+    let last = null;
+    for (const r of rows) {
+      const tr = tb.insertRow();
+      tr.setAttribute('data-key', encodeURIComponent(r.key));
+      if (r.model !== last && last !== null) tr.className = 'grb-first';
+      const m = tr.insertCell(); m.textContent = r.model; if (r.model === last) m.style.color = 'var(--color-fg-muted)';
+      last = r.model;
+      tr.insertCell().textContent = r.setting;
+      const c = tr.insertCell(); c.className = 'grb-barcell';
+      const label = document.createElement('span'); label.textContent = r.coverage_pct + '%';
+      const bar = document.createElement('div'); bar.className = 'grb-bar';
+      bar.style.width = Math.max(1, r.coverage_pct) + '%'; bar.style.background = dash.colors[0];
+      c.append(label, bar);
+      const add = (v, cls) => { const td = tr.insertCell(); td.className = cls || 'grb-num'; td.textContent = v; };
+      add(r.core); add(r.flags_serious); add(r.flags_mild); add(r.claims);
+    }
+  });
+
+  tableRows('flagrows', 'flags', 'flags', [
+    text('model'), text('run', 'grb-num'), text('paper'),
+    (td, r) => { const s = document.createElement('span'); s.className = 'grb-pill ' + (/mild/.test(r.type) ? 'grb-warn' : 'grb-bad'); s.textContent = r.type; td.append(s); },
+    text('what', 'grb-long'),
+  ]);
+
+  tableRows('catchrows', 'catches', 'catches', [
+    text('paper'), text('contradiction', 'grb-long'),
+    (td, r) => { td.textContent = r.caught_by; td.className = 'grb-zero'; },
+  ]);
+</script>

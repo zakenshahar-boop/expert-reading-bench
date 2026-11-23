@@ -1,0 +1,200 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E6"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Lists depression, AI identity and demographics with substance use."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C2",
+            "text": "The note says substance use is a 'much weaker' organizing principle; the paper says 'a weaker organizing principle' (p.14)."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "247 given without naming it the analysis sample (E2 part); ERGMs named."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "partial": [
+          "E5"
+        ],
+        "note": "CES-D and MEIM given; substance use listed but not as yes/no items."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Per-school base ERGM plus per-substance models with sender, receiver and homophily terms, converted to AMEs."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Imputation from peers who nominated them."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "misplaced": [
+          "F7"
+        ],
+        "note": "Sensitivity analysis excluding imputed cases completes E6 (joined with entry 4); substance-use-only models backing up the results is F7, a finding."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Exceptions not named; isolated effects did not replicate (paper's wording)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5",
+          "F1"
+        ],
+        "note": "Popularity hierarchy only in the preparatory school (F5 half); School B substance homophily is a detail of F1."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "partial": [
+          "T1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors 'revise' the network tradition's culture-neutral view; the paper argues mechanisms are 'not culturally neutral' (p.3) while keeping the standard framework (T3 dropped 'revises')."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Moving beyond generalizations (testing half of T3); challenge to prevention assumptions is C3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Refs 13, 11, 22 correctly attributed."
+      },
+      {
+        "match": [
+          "I6"
+        ]
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      }
+    ]
+  }
+}

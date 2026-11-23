@@ -1,0 +1,97 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Same call as the haiku calibration note: substance use (Q3); 'other individual characteristics' without depression or AI identity (Q1 partial)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural and demographic organization, not substance use. 'Primarily driven' follows the abstract's 'primary drivers'; not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Data source matches E1; ERGMs named without per-school estimation or AMEs (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Both reciprocity and transitivity; quote gives 'highly significant in every model'."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "The note says substance use 'does not consistently influence' friendship formation; the paper reports no consistent association and says results are associations, not causal effects (p.16-17)."
+          }
+        ],
+        "note": "Null without the exceptions, credited as in the calibration notes; causal verb flagged mild."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "No sexual orientation."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "AI identity only; 'largely unassociated' in the quote supports 'does not significantly predict'."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "The challenge to prevention-program assumptions and call for culturally grounded theory is C3 (paper's wording, no 'revise'); not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Rees, Freng and Winfree's finding, without the paper's stance (builds on it, notes it was descriptive)."
+      }
+    ]
+  }
+}

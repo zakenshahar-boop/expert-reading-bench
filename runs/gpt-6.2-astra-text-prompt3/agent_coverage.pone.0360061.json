@@ -1,0 +1,241 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-22; not yet checked by the labeler.",
+  "joined": [
+    "E2",
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Whether hostility is associated with the forms of engagement central to democratic citizenship (p.3)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question, accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question (activity and reach), accurate but not a gold question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "'Not confined to people alienated from politics' tracks the paper's 'not only ... deprivation, marginalization' (p.15)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "More active users with greater potential reach, as the visibility implication (p.15); hedged with 'may'."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The platform-intervention implication (p.16), accurate and hedged as in the paper."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "YouGov US panel, January 2019 to January 2021, six waves (E3); surveys linked to X accounts (E1); 2,567 linked and up to 3,643 X-only kept apart, without the post count (E2 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "More than nine million posts, without joining them to the 2,567."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the survey measures (p.8-9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the leader thermometer measure (p.9)."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate validation detail (p.6-7)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Pooled OLS with clustered errors and controls; RI-CLPM is in evidence[9]."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "AFINN sentiment and Perspective API toxicity, plus the further robustness checks."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the moderation analyses (p.13)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate multiplicity-correction detail (p.10)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The count models (p.10, p.15), accurate; not part of E5."
+      },
+      {
+        "match": [],
+        "neutral": true,
+        "note": "The Danish sample is neutral F-b1, here in evidence; 'limited comparison' keeps the paper's 'tentative'."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Also the alternative measures broadly supporting the pattern (p.12)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the qualification: especially participation, not uniform, 8 of 18 after FDR."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'Other countries' is a fair reading of a US-only study; not flagged."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Political hostility only, not all toxicity or hate speech (p.3, p.7); accurate, not a gold limit."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Non-causal reading of the moderation analyses; a repeat of L2, not L8."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not deciding between grievance and personality accounts is the paper's stance, not a limitation."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Builds on classical engagement theory [17,19] and keeps its capacity / motivation / participation distinction; 'retain' is accurate (p.8, 'follows the theoretical framework above')."
+      },
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}
