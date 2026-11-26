@@ -36,7 +36,7 @@ The results also cover a harness: code around the model that checks and extends 
 
 ## Results
 
-![Reading score by model](docs/figures/reading_score.svg)
+![Reading score by model](docs/figures/reading_score.svg?v=1a1896a559f5)
 
 Each large point is a model's mean over its runs. The small points are single papers in single runs, so the spread of a row shows how much a model varies from paper to paper. The diamond is the same model with its best harness setting.
 
@@ -67,17 +67,17 @@ The contributed runs come with what served each model (file, quantization, sha25
 
 ### Coverage by paper and by part of the note
 
-![Coverage by paper and by part of the note](docs/figures/coverage_grids.svg)
+![Coverage by paper and by part of the note](docs/figures/coverage_grids.svg?v=58828cea8861)
 
 The strong models are even across papers. The parts of the note tell them apart: the GPT-6.2 models are nearly complete on evidence and limits and name few of the earlier works a paper argues with, where Claude Opus 5.5 names most of them.
 
 ### Quotes and flags
 
-![Quotes found in the paper, and flags per run](docs/figures/quotes_and_flags.svg)
+![Quotes found in the paper, and flags per run](docs/figures/quotes_and_flags.svg?v=890e265cc428)
 
 ### Cost
 
-![Cost per paper against coverage](docs/figures/cost.svg)
+![Cost per paper against coverage](docs/figures/cost.svg?v=6bb353280170)
 
 API costs use the providers' standard rates on 22 November 2026 ([docs/prices.json](docs/prices.json)), without prompt caching.
 
@@ -95,7 +95,7 @@ The cost of a local model is electricity only, and is not the same kind of numbe
 
 The benchmark showed three ways of falling short, so the harness has a setting for each. It is code around the model that checks and extends a note. It never sees the gold answers.
 
-![Coverage and serious flags under each harness setting](docs/figures/harness.svg)
+![Coverage and serious flags under each harness setting](docs/figures/harness.svg?v=76ed18a656cd)
 
 | Setting | What it does | Who it is for |
 |---|---|---|
