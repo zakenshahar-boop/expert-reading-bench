@@ -1,0 +1,126 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says conservatism and conservative climate 'both increase' hesitancy and 'decrease' vaccination and boosting rates. The paper reports associations ('were both associated with', p.10) and says it 'cannot assume causal or directional associations'."
+          }
+        ],
+        "note": "Main associations for all four outcomes (F1, misplaced) plus the conservative booster half of C1; liberals-regardless half missing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey, US, March to April 2023, without the convenience sample or Qualtrics Panels; 683 final N without the screening figures. '683 validated' is loose (the paper's 798 validated were cut to 683 by zip-code exclusions), not flagged."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "Climate from 2020 presidential results by zip code (quote gives % Republican vote): E3. Conservatism on an 11-point scale covering social and economic issues, without saying two items were averaged: partial E4."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "The paper's own summary of the hesitancy interaction (p.8): climate matters more for conservatives than for liberals."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; F2 already matched in [0]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberal half applied to booster hesitancy. The quote (p.10) says booster hesitancy was slightly lower for liberals in conservative climates, not 'consistent'; the abstract does say liberals were less hesitant regardless of climate for both hesitancy outcomes, so not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 with the 60% vs under 35% quote; liberals boosted anywhere is not stated. 'Significantly' fits the significant interaction (OR = .83, p = .026)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Other zip-code factors such as population density rather than voting."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Cross-sectional, so cannot establish causality: consequence given."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Builds on prior work by testing the under-researched interaction (keeps the 'little research' hedge). Does not say the prior literatures each covered orientation or climate, so no T1."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "'May be caused by' the politicization of COVID-19 keeps the hedge but drops 'at least in part' (p.2); judged close enough, not flagged."
+      }
+    ]
+  }
+}

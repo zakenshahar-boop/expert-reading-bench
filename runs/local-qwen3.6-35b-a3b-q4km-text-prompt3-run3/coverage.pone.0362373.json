@@ -1,0 +1,124 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Role of substance use (Q3); 'other individual characteristics' (Q1 partial). The heterogeneous-school contrast is a setting statement, not the generalization question; Q2 not credited (calibration)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C3"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Structural and demographic organization rather than risky behaviors (C1). Challenge to network-based prevention assumptions, without the call for culturally grounded theory and interventions (C3 part). Depression and AI identity not organizing is F4, a finding. No contrast with heterogeneous schools, so no C2."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Cross-sectional survey of 9th/10th graders in three Northern Plains reservation schools (E1). N = 247 without naming the stage (E2 part); ERGMs with structural and actor terms, no per-school estimation or AMEs (E3 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3",
+          "F4"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been F3 match ('primary axes' for all three follows the abstract's 'primary drivers', not flagged) and the AI identity homophily part of F4 (F4 is matched in entry 3)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Diverging from non-AI populations follows p.13 summary."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F5",
+          "F1"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been F5 partial and F1 partial.",
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x3",
+            "text": "The note says the tribal schools (A and B) 'showed' / 'exhibit' / 'reflect' egalitarian norms; no norm was measured. The paper finds only that indegree was not centralized there and says this 'may reflect the stronger operation of egalitarian norms' (p.14, p.15). An interpretation reported as a result."
+          }
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L1",
+            "text": "The note says the findings 'cannot be generalized' to AI youth in racially heterogeneous schools or other reservations; the paper says they 'may not extend' to AI youth in racially heterogeneous schools (p.16) and that they represent only three schools on one reservation."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been L3 match (selection versus influence and no causal claims)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "First quote NOT IN PAPER, second (p.2) faithful, so grounded. SNA and peer network research (vague T1); applying it where prior generalizations may not hold (testing half of T3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "First quote (p.2) faithful. Substance use linked to friendship and popularity in non-AI research, disputed; 'popularity' and 'selection and influence' follow the abstract and p.2. Not flagged (as for the other I1 entries)."
+      }
+    ]
+  }
+}

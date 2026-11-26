@@ -282,10 +282,17 @@ A labeled sample balanced across model families would settle the question, and i
 | GPT-6.2 Astra, GPT-6.2 Sol | Reasoning effort high |
 | GPT-4o (served as gpt-4o-2024-08-06) | Temperature 0 |
 | Qwen3 4B Instruct, 4-bit, on a laptop with mlx-lm | Temperature 0.7, top-p 0.8, top-k 20, seeds 1 to 3, up to 6,000 output tokens |
+| Gemma 4 31B it, QAT q4_0, llama.cpp (contributed) | Thinking off, temperature 1.0, top-p 0.95, top-k 64, seeds 1 to 3 |
+| Gemma 4 26B-A4B it, QAT UD-Q4_K_XL, llama.cpp (contributed) | Thinking off, temperature 1.0, top-p 0.95, top-k 64, seeds 1 to 3 |
+| Qwen3.6 35B-A3B, UD-Q4_K_M, llama.cpp (contributed) | Thinking off, temperature 0.7, top-p 0.8, top-k 20, seeds 1 to 3 |
+| Muse Glimmer 30B, Q4_K_M, llama.cpp (contributed) | Reasoning strength low, temperature 0.7, top-p 0.95, seeds 1 to 3 |
+| Qwen3.8 27B, mixed 4/5/8-bit, NInfer (contributed), thinking low and thinking off | The serving setup's own sampling; no temperature or seed sent |
 
-Each model was run three times on all five papers. The reported score is the mean, and the range over runs is given. The local model's three runs use sampling with different seeds, since at temperature 0 it gives the same reply every time. One earlier run at temperature 0 is kept as the starting point for its harness results.
+The contributed rows were run by [Ellian-Eorwyn](https://github.com/Ellian-Eorwyn) on one RTX 3090 on 25 November 2026, with the same prompt, the same paper text and up to 16,000 output tokens. Each model used the sampling its makers recommend. The model files, SHA-256 hashes, engines, and sampling settings are documented in `docs/local-runs-2026-11-25/`. The quote checks were recomputed here from the saved replies and agree with the contributor's on every note. The two Qwen3.8 27B rows ran on a server that was also doing other work, so they are not timed and cannot be repeated exactly.
 
-Three runs are there to say which differences are real. Across runs an API model's overall coverage moved by at most four points, and a single paper's by up to eight. Differences smaller than that are not interpreted. The local model moved by 14 points, because in some runs it loops on one part of the note and writes nothing else.
+Each model was run three times on all five papers. The reported score is the mean, and the range over runs is given. Qwen3 4B's three runs use sampling with different seeds, since at temperature 0 it gives the same reply every time. One earlier run at temperature 0 is kept as the starting point for its harness results.
+
+Three runs are there to say which differences are real. Across runs an API model's overall coverage moved by at most four points, and a single paper's by up to eight. Differences smaller than that are not interpreted. Qwen3 4B moved by 14 points, because in some runs it loops on one part of the note and writes nothing else. The contributed local setups moved by 2 to 8 points.
 
 A reply that is not valid JSON is read part by part where possible, and marked as repaired. A model is not scored down for a formatting slip that leaves its content readable.
 
@@ -301,13 +308,13 @@ It was built from what the benchmark showed. Models fell short in three differen
 | Claims that go beyond the passage | Claims re-checked | Shows the model each claim beside its quoted passage and asks one narrow question at a time: does the passage support it, is the direction right, is the attribution in the passage, is causal wording warranted |
 | Stopping early | Asked for more | Shows the model its own entries for each part and asks what else the paper states, then asks it to re-read the pages no entry quotes |
 
-Harness notes are scored exactly as unassisted notes are, by the same judge. Harness results so far start from each model's first run and are single runs.
+Harness notes are scored exactly as unassisted notes are, by the same judge. Harness results so far start from each model's first run and are single runs. The contributed local setups ran the harness through an OpenAI-compatible server, with 600 output tokens for short calls and 4,000 for long ones (4,000 and 8,000 for models that think first), where the other models had 2,500 for long calls.
 
 Two ideas were tested and not adopted: asking for one part of the note at a time, which made a small model write more claims and more errors, and asking a model to complete its own thin entries, which was safe and changed little.
 
 ## 9. Cost
 
-Cost per paper is input and output tokens, as reported by the provider for each call, multiplied by the provider's standard rates on 22 November 2026 (`docs/prices.json`). Prompt caching is not applied. For the local model, the cost is time on a laptop. One figure, GPT-4o with the fullest harness setting, is an estimate.
+Cost per paper is input and output tokens, as reported by the provider for each call, multiplied by the provider's standard rates on 22 November 2026 (`docs/prices.json`). Prompt caching is not applied. For a local model, the cost is time: on a laptop for Qwen3 4B, on one RTX 3090 for the contributed setups. For the four contributed setups that had the GPU to themselves, that time is also given as electricity: the request time at the card's 420 W power limit, at an example rate of $0.20 per kWh (`docs/prices.json`, `electricity`). The power limit is used because power draw was not logged; it is an upper bound for the card, which by the contributor's account stays under 350 W. The rest of the machine, model loading, idle time and hardware are not counted, so these figures are not comparable to an API price as a total cost. The two Qwen3.8 27B setups shared their GPU with other work and have no time or cost. One figure, GPT-4o with the fullest harness setting, is an estimate.
 
 Cost is reported because the practical question is often which model is good enough for the price, and because the harness trades more calls for better notes.
 
@@ -341,8 +348,9 @@ The papers are new. All five were published in 2026, and three of them after the
 | GPT-6.2 Astra | 18 May 2026 | 2 |
 | GPT-6.2 Sol | 1 June 2026 | 2 |
 | Claude Opus 5.5, Claude Haiku 5.5 | June 2026 | 2 |
+| Gemma 4, Qwen3.6, Qwen3.8, Muse Glimmer (contributed local models) | not checked | not known |
 
-So the question is open only for the two earliest papers and the four newest models. On those, the scores show no advantage:
+So the question is open only for the two earliest papers and the four newest API models. The training cutoffs of the contributed local models have not been checked, so for them it is open on all five papers. On those, the scores show no advantage:
 
 | Model | Coverage on the two earlier papers | Coverage on the three later papers |
 |---|---|---|

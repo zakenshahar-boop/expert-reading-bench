@@ -1,0 +1,137 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "partial": [
+          "Q2"
+        ],
+        "note": "Names substance use, depression, AI identity and demographics (Q1, Q3 as in the opus-5-5 text-prompt3-run3 call). 'Challenging assumptions derived from racially heterogeneous settings' gestures at the generalization question (Q2) but frames it as a challenge, not a question: partial. 'Shape' not flagged (calibration)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "Structural and demographic organization rather than substance use (C1, abstract wording); divergence from racially heterogeneous schools is C2 (as in earlier calls). Calling depression a 'risky behavior' is loose wording; the depression null is true, not separately credited here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Data source (E1; 'cross-sectional' absent but earlier calls credit E1 without it). N = 247 from the abstract without naming the stage (E2 part); ERGMs with structural and actor terms, no per-school estimation or AMEs (E3 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Only quote marked NOT IN PAPER (ellipsis). Would have been F2 match."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been F1 match."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been F4 match."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note says sexual orientation homophily, with gender and grade, was significant across all schools; the paper says gender and grade homophily held 'across all schools' and sexual orientation homophily was 'also significant and positive' (p.13), and Table 3 shows it only marginal or non-significant for one category in Schools B and C."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F5",
+          "F1"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been F5 partial (incoming centralization only in School C) and F1 partial (School C alcohol sender exception).",
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x3",
+            "text": "The note says the tribal schools (A and B) 'showed' / 'exhibit' / 'reflect' egalitarian norms; no norm was measured. The paper finds only that indegree was not centralized there and says this 'may reflect the stronger operation of egalitarian norms' (p.14, p.15). An interpretation reported as a result."
+          }
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L1",
+            "text": "The note says the findings 'cannot be generalized' to AI youth in racially heterogeneous schools or other reservations; the paper says they 'may not extend' to AI youth in racially heterogeneous schools (p.16) and that they represent only three schools on one reservation."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Only quote marked NOT IN PAPER (reference numbers dropped). Would have been L3 match (selection versus influence)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been L3 match (association versus cause)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T3",
+          "T1"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been T3 partial (testing half) and vague T1 partial."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Both quotes marked NOT IN PAPER. Would have been I1 match."
+      }
+    ]
+  }
+}

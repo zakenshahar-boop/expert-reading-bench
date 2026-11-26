@@ -1,0 +1,169 @@
+{
+  "paper_id": "pone.0360061",
+  "model": "chat",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-qwen3.8-27b-default-nothink-text-prompt3 (complete)",
+    "quotes confirmed"
+  ],
+  "settings": {},
+  "short_tokens": 600,
+  "long_tokens": 4000,
+  "model_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "seconds": null,
+  "summary": {
+    "quotes found": 27,
+    "pages corrected": 0,
+    "repairs that worked": 0,
+    "repair attempts": 0,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper asks whether online political hostility on X/Twitter is associated with indicators of political engagement and its antecedents, beyond explanations based on socioeconomic marginalization or personality traits.\", \"quotes\": [{\"text\": \"Instead, it asks whether online political hostility is also associated with political engagement and its antecedents.\", \"page\": 3}]}], \"central_claim\": [{\"claim\": \"Online political hostility is positively associated with indicators of political engagement (such as interest, knowledge, and participation) and its antecedents (education, internal efficacy), and these associations are stronger for users with high affective polarization. Hostile users also have greater activity and reach.\", \"quotes\": [{\"text\": \"Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation.\", \"page\": 1}, {\"text\": \"These associations are more pronounced for some indicators, especially online and offline participation, among users with more polarized affect directed towards US political leaders.\", \"page\": 1}, {\"text\": \"Finally, the results show that engaged but hostile social media users do not simply cater to fringe audiences; they post more frequently and have more friends and followers.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The study uses two years of panel survey data from American X/Twitter users combined with scraped behavioral data (posts) from the platform.\", \"quotes\": [{\"text\": \"Combining two years of survey and behavioral data from X/Twitter, we examine associations between online political hostility and indicators of political engagement and its antecedents among American users.\", \"page\": 1}, {\"text\": \"We rely on a data infrastructure combining panel survey data with online behavioral data from X (see also [59]).\", \"page\": 6}]}, {\"claim\": \"The primary measure of online political hostility is derived using a Super-Unsupervised (SU) word embeddings approach, validated against expert labels and other toxicity measures.\", \"quotes\": [{\"text\": \"Our key measure of online political hostility is based on a word embeddings approach termed the Super-Unsupervised (SU) approach [60].\", \"page\": 6}]}, {\"claim\": \"Statistical analyses include cross-sectional OLS regressions, Random-Intercept Cross-Lagged Panel Models (RI-CLPM) for temporal associations, and count models for activity and reach.\", \"quotes\": [{\"text\": \"For the panel analyses, we use Random-Intercept Cross-Lagged Panel Models (RI-CLPM).\", \"page\": 10}, {\"text\": \"We investigate the visibility of politically hostile users by first showing results from count models that examine whether those who are politically hostile (a) post more, (b) have more friends, and (c) have more followers.\", \"page\": 15}]}], \"key_findings\": [{\"claim\": \"Indicators of political engagement, including education, internal efficacy, political interest, political knowledge, and online/offline participation, are positively associated with online political hostility.\", \"quotes\": [{\"text\": \"Fig 1 demonstrate positive and statistically significant associations between online political hostility and several indicators of political engagement and its antecedents (consistent with Expectation 1).\", \"page\": 11}, {\"text\": \"The largest associations are generally observed for the primary measure of political hostility rather than for the more general AFINN or Perspective API measures.\", \"page\": 11}]}, {\"claim\": \"The association between political engagement and online hostility is stronger among users with higher levels of leader-directed affective polarization, particularly for participatory indicators.\", \"quotes\": [{\"text\": \"for those low on affective polarization only four out of eighteen associations, across our three measures of online hostility, are significant, whereas for those high on affective polarization fourteen out of eighteen are significant.\", \"page\": 13}]}, {\"claim\": \"Within-person increases in online political engagement are temporally followed by higher levels of online political hostility, suggesting a reciprocal relationship.\", \"quotes\": [{\"text\": \"In brief, within-person increases in online political engagement are followed by higher levels of online political hostility across the three hostility measures.\", \"page\": 15}, {\"text\": \"We also observe some evidence of the reverse temporal association, in which hostility is followed by higher political engagement, although this pattern is weaker and less consistent.\", \"page\": 15}]}, {\"claim\": \"Users expressing higher levels of online political hostility are more active on the platform, posting more frequently and having more friends and followers, indicating greater potential reach.\", \"quotes\": [{\"text\": \"The count-model results indicate that higher political hostility is associated with more posts and with larger numbers of followers and, to a lesser extent, friends.\", \"page\": 15}, {\"text\": \"A change from the mean level of hostility to 1.5 standard deviations above the mean is associated with an increase in the number of posts from around 420 to around 900 and an increase in the number of followers from around 220 to around 370.\", \"page\": 15}]}], \"scope_and_limits\": [{\"claim\": \"The findings are observational and associational, not causal, due to potential time-varying confounding and reciprocal relationships.\", \"quotes\": [{\"text\": \"The RI-CLPM analyses reduce concerns about stable time-invariant confounding by focusing on within-person change, but they do not rule out time-varying confounding, reciprocal relationships, or measurement error.\", \"page\": 16}, {\"text\": \"The findings should overall be interpreted as associational rather than causal.\", \"page\": 16}]}, {\"claim\": \"The results may not generalize to other platforms because X/Twitter has specific affordances and norms compared to Facebook, Reddit, etc.\", \"quotes\": [{\"text\": \"This platform is a public, textbased, and highly political platform, and the associations observed here may not generalize directly to platforms with different affordances, audiences, moderation systems, or norms of interaction.\", \"page\": 16}]}, {\"claim\": \"The measure of affective polarization is limited to feelings toward party elites (leaders) rather than parties or supporters as a whole.\", \"quotes\": [{\"text\": \"due to data availability, our measure of affective polarization captures feelings toward party elites rather than toward parties as institutions or ordinary party supporters, as is standard [22].\", \"page\": 16}]}, {\"claim\": \"The study does not directly test personality-based accounts involving specific antisocial traits like Dark Triad or sadism, as these were not measured.\", \"quotes\": [{\"text\": \"the utilized Big Five controls do not directly test personality-based accounts centered on more antisocial traits such as Dark Triad traits, sadism, or other antagonistic traits. Such traits were not not measured in the survey.\", \"page\": 16}]}, {\"claim\": \"The authors do not draw conclusions about formal network influence or centrality, despite finding higher activity and reach.\", \"quotes\": [{\"text\": \"These results suggest greater activity and potential reach, but they should not be interpreted as evidence of formal network influence or centrality.\", \"page\": 15}]}], \"theoretical_positioning\": [{\"claim\": \"The authors position their work within a 'revisionist' perspective on political engagement that acknowledges negative consequences, extending this view to the domain of online political hostility.\", \"quotes\": [{\"text\": \"Recent research has more strongly emphasized this revisionist view on the costs and benefits of political engagement.\", \"page\": 4}, {\"text\": \"Here, we extend and integrate the study of the negative side of political engagement into the study of online politics with a specific focus on online political hostility.\", \"page\": 4}]}], \"interlocutor_claim\": [{\"claim\": \"The paper disputes or builds upon the claim that online hostility is primarily driven by socioeconomic marginalization or personality traits, arguing instead that it is also linked to political engagement.\", \"quotes\": [{\"text\": \"Existing explanations of online hostility can be grouped into at least two distinct literatures. One set of accounts emphasizes socioeconomic marginalization, status threat, and grievance.\", \"page\": 2}, {\"text\": \"A second set of accounts emphasizes personality and emotion-regulation.\", \"page\": 2}, {\"text\": \"In this article, we examine a different possibility.\", \"page\": 2}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    }
+  ],
+  "seconds_left_out": "the GPU was shared during this run, so its time says nothing about the model"
+}

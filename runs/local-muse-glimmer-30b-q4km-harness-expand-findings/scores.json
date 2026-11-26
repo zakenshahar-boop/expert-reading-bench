@@ -1,0 +1,2884 @@
+{
+  "pone.0342063": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 35,
+    "entries_without_quote": 0,
+    "quotes": 48,
+    "faithful": 48,
+    "located": 48,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 25,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The goal of the present research was to examine how political climate moderates the relationship between self-reported political conservatism and COVID-19 vaccine hesitancy and uptake."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 19,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions."
+      },
+      {
+        "slot": "central_claim",
+        "page": 7,
+        "words": 19,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The present research provides the first assessment of the potential interaction between political orientation, political climate, and COVID vaccination."
+      },
+      {
+        "slot": "evidence",
+        "page": 1,
+        "words": 15,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We collected online survey data from 683 participants between March 8 and April 19, 2023."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 37,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Qualtrics Panels recruits participants through a network of verified online panel providers. Individuals voluntarily join these panels and provide demographic and behavioral information, which allows Qualtrics Panels to match participants to studies that fit specific eligibility criteria."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 35,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "To ensure data quality, we only include participants in our analysis that pass both Qualtrics Panels data quality screening and our own attention checks (S1 File), as recommended by previous research using Qualtrics Panels [26]."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 27,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The data used in this study were part of a larger project assessing the impact of racial and socioeconomic marginalization on COVID-19 vaccine attitudes and behaviors [27]."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 41,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "the sample was recruited across four quota groups based on race and income. Half of the sample was requested to be White (and no other racial identity), and half the sample was requested to be Black (and no other racial identity)."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 19,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Political conservatism (i.e., a political ideology that emphasizes tradition, authority, and limited government intervention) was assessed across two items."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 28,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Both items were rated on a 11-point sliding scale from strongly liberal (0) to strongly conservative (10). These two items were averaged to form a political conservatism scale."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 24,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We assessed regional political climate using zip code data provided by participants and 2020 presidential election results sourced from the New York Times [22]."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 31,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Using the FIPS data for each zip code, we calculated the percent of Republican votes by dividing the number of Republican votes by the total number of votes (multiplied by 100)."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 16,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We used this % Republican vote by zip code as a measure of conservative regional climate."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 30,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Vaccine hesitancy (i.e., negative attitudes toward vaccination) was measured using the seven items from the Attitudes towards Adult Vaccination Scale [24], which assesses the perceived value of vaccines in general."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 41,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We modified the items to assess attitudes specifically toward the COVID-19 vaccine [e.g., I fear the potential impact of the COVID-19 vaccine on my health in the future, I believe that the benefits of COVID-19 vaccination outweigh the potential risks (reverse-scored)]."
+      },
+      {
+        "slot": "evidence",
+        "page": 3,
+        "words": 15,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Booster hesitancy was assessed using items from a 2022 survey on COVID-19 booster hesitancy [25]."
+      },
+      {
+        "slot": "evidence",
+        "page": 2,
+        "words": 25,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This was an online self-reported study in which a nonprobability convenience sample was recruited from the United States between March 8 and April 19, 2023."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 9,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The final sample for these analyses included 683 participants."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 36,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We conducted confirmatory factor analysis on the vaccine and booster hesitancy items (S2 File). The vaccine hesitancy items demonstrated adequate reliability (α = .93, 95% CI [.92,.93]) and were averaged to form the vaccine hesitancy scale."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 22,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The booster hesitancy items demonstrated adequate reliability (α = .93, 95% CI [.93,.94]) and were averaged to form the booster hesitancy scale."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 31,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Multiple linear regression models were built to assess the association between political conservatism and conservative regional climate with vaccine hesitancy, controlling for age, gender, education, income, race, and perceived vaccine access."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 29,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Additionally, we ran two sets of generalized linear models with logit link and model-­based standard errors predicting vaccine status and booster status from the same three models described above."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 37,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Controlling for age, education, income, and race, there was an interaction between political conservatism and conservative political climate for both vaccine and booster hesitancy (β = .07, p = .03; β = .12, p < .001, respectively)"
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 13,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "such that liberals were less likely to be hesitant regardless of political climate."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 17,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "A similar interaction was for the likelihood of receiving a COVID-19 booster (OR =.84, p = .049)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Liberals were more likely to receive a booster regardless of political climate, while conservatives’ likelihood was associated with their political climate."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 19,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "However, conservatives living in liberal political climates were less vaccine hesitant than their conservative counterparts living in conservative regions."
+      },
+      {
+        "slot": "key_findings",
+        "page": 7,
+        "words": 25,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "political conservatism and conservative regional climate were positively associated with vaccine hesitancy (β = .23, p < .001; β = .11, p = .001; respectively)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 7,
+        "words": 25,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "political conservatism and conservative regional climate were negatively associated with vaccine status [odds ratio (OR) =.68, p < .001; OR =.72, p = .004; respectively]."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 18,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Finally, it should be noted that this data is cross-sectional and we cannot assume causal or directional associations."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 23,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Self-report is susceptible to social desirability [30] and recall bias [31], and we cannot assume that reported vaccine status reflects actual vaccine status."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 34,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Because we used 2020 presidential election votes by zip code as a proxy for political climate, it must be noted that other zip code-based differences could be driving the associations noted in this paper."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 24,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Further, our sample includes only White and Black participants recruited through Qualtrics Panels, and may not generalize to broader populations in the United States."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 12,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Another limitation in this dataset is the reliance on self-reported vaccine status."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 18,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Additionally, our sample was recruited through an online platform and only includes participants with access to this platform."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 22,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While our analyses controlled for demographic covariates commonly associated with vaccine hesitancy, we did not formally assess effect modification by these factors."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 33,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Consequently, the reported pooled associations should be interpreted as average effects across the sample, and we cannot exclude the possibility that heterogeneity across demographic subgroups could produce aggregation effects such as Simpson’s paradox."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 18,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Finally, it should be noted that this data is cross-sectional and we cannot assume causal or directional associations."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 12,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Another limitation in this dataset is the reliance on self-reported vaccine status."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 23,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Self-report is susceptible to social desirability [30] and recall bias [31], and we cannot assume that reported vaccine status reflects actual vaccine status."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 24,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The interaction for vaccination was not significant, this difference between attitudes (hesitancy) and action (vaccination), likely reflects the high prevalence of COVID-19 vaccine mandates."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 24,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Further, our sample includes only White and Black participants recruited through Qualtrics Panels, and may not generalize to broader populations in the United States."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 24,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "There is an emerging body of evidence that the broader political climate within which an individual lives can influence COVID-19 vaccine hesitancy and uptake."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 1,
+        "words": 25,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The goal of the present research was to examine how political climate moderates the relationship between self-reported political conservatism and COVID-19 vaccine hesitancy and uptake."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 22,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The present research examines political climate as a potential moderator of the association between political orientation and COVID-19 vaccine hesitancy and uptake."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While previous research has identified the unique impact of both political orientation and political climate on vaccination attitudes, there has been little research on the interaction between personal political orientation and local political climate."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While previous research has identified the unique impact of both political orientation and political climate on vaccination attitudes, there has been little research on the interaction between personal political orientation and local political climate."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 21,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "In the US, political conservatism has been consistently associated with greater COVID-19 vaccine hesitancy [6–12] and lower COVID-19 vaccine uptake [10,13,14]."
+      }
+    ]
+  },
+  "pone.0347327": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 31,
+    "entries_without_quote": 0,
+    "quotes": 40,
+    "faithful": 40,
+    "located": 40,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 26,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This study introduces a novel computational approach to measure subnational and event-driven variation in partisan polarization and explores these dynamics across the United States and Canada."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 29,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "polarization: the language of political discussions across socio-demographic groups naturally varies, with each group having their own lexicon [40]. Therefore, dissimilar language alone does not necessarily indicate polarized positions."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 26,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Our analysis reveals that politically conservative regions exhibited significantly higher levels of partisan polarization in both countries, with this effect particularly pronounced in the United States."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 30,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We demonstrate a strong negative correlation between regional vaccination rates and the degree of polarization in vaccine-related discussions in the U.S., suggesting tangible public health implications of online partisan division."
+      },
+      {
+        "slot": "evidence",
+        "page": 1,
+        "words": 32,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Analyzing over 50 million tweets from late 2020—a critical period of polarizing discourse during the pandemic’s early phase—we examine regional variations in discussions surrounding three key health interventions: lockdowns, masks, and vaccines."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 39,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We collected a large-scale dataset of COVID-19 political discussions on Twitter (now X) occurring between October 9, 2020, to January 4, 2021, comprising approximately 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 39,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We collected a large-scale dataset of COVID-19 political discussions on Twitter (now X) occurring between October 9, 2020, to January 4, 2021, comprising approximately 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 46,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We used Twitter’s (X) official API to collect 1% of real-time tweets for the United States and Canada from October 9, 2020 to January 4, 2021. This dataset comprised 387,090,097 tweets from 23,758,112 users for the United States and 231,841,790 tweets from 4,765,115 users for Canada."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 24,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This process yielded 12,552,213 tweets from 2,657,355 users for the United States and 46,636,206 tweets from 1,757,675 users for Canada that shared COVID-19-related content."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 45,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "In total, we successfully geolocated 757,601 U.S. users with a strong correlation of 0.98 (n = 52, p = 9.27e-35, CI=[0.96, 0.99]) to official population census data, and 282,454 Canadian users with a strong correlation of 0.92 (n = 13, p = 6.20e-06, CI=[0.76, 0.98])."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 23,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Our approach to determining users’ party affiliation followed a two-step process, achieving a macro-F1-score of 91% for both countries (Table 3 and 4)."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 22,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "1. Profile classifier: We first identified politically explicit users based on their profile descriptions, using partisan keywords for each country’s major parties."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 32,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We focused on three key COVID-19 topics—lockdowns, masks, and vaccines—plus conspiracy theories. For each topic, tweets were classified as relevant or irrelevant based on whether they contained at least one topic-specific keyword."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 27,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We then domain-adapted RoBERTa-base models [41] on the COVID-19 tweets from each country’s dataset through self-supervised learning (predicting masked words within tweets), creating country-specific pre-trained language models."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 30,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We then measure polarization by quantifying how far apart the language of left and right-leaning users is positioned in this embedding space, using the C-index [42], a robust clustering measure."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 14,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Specifically, we transform social media posts using RoBERTa, an open-source transformer-based language model [41]."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 32,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We used officially reported vaccination rates from one year after our Twitter data collection period, as COVID-19 vaccines were only created and approved at the very end of our initial data collection."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 17,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "For the United States, we use the people_fully_vaccinated_per_hundred reported in the COVID Data Tracker from the CDC."
+      },
+      {
+        "slot": "key_findings",
+        "page": 14,
+        "words": 22,
+        "found_on": [
+          [
+            14
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "In the United States (Fig 9), conservative states consistently show higher polarization overall and specifically in discussions related to masks and vaccines."
+      },
+      {
+        "slot": "key_findings",
+        "page": 16,
+        "words": 38,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Using official CDC vaccination data from a comparable period after vaccines became available (October 11, 2021 to January 3, 2022), we confirm a strong negative correlation (r = −0.77, p < 0.001) between vaccine polarization and vaccination rates."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 17,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "These polarization surges typically lasted only a few days, revealing the dynamic nature of online partisan discourse."
+      },
+      {
+        "slot": "key_findings",
+        "page": 21,
+        "words": 31,
+        "found_on": [
+          [
+            21
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "When correlated with aggregate daily polarization (Fig 15 B and D, we find a small but significant negative correlation for the United States, while no significant correlation was observed for Canada."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 26,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Our analysis reveals that politically conservative regions exhibited significantly higher levels of partisan polarization in both countries, with this effect particularly pronounced in the United States."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 20,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The geographic heterogeneity in polarization patterns—with certain conservative states showing unexpectedly low polarization and some liberal states displaying high polarization—highlights"
+      },
+      {
+        "slot": "key_findings",
+        "page": 16,
+        "words": 22,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We find strong, significant correlations in the US between Republican vote share and polarization around masks and vaccines, though not for lockdowns."
+      },
+      {
+        "slot": "key_findings",
+        "page": 16,
+        "words": 20,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We did not observe a similar pattern in Canada, due to small sample size and the implementation of vaccine mandates."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 1,
+        "words": 30,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While our polarization index reflects the discourse of politically engaged Twitter users, it nevertheless captures key dynamics of online debate that influence public narratives and align with observable regional outcomes."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 20,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We did not observe a similar pattern in Canada, due to small sample size and the implementation of vaccine mandates."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 28,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "As a result, subtle rhetorical strategies such as sarcasm or indirect disagreement may be less apparent, while consistent linguistic cues, including negation, are preserved in the aggregated representation."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 24,
+        "words": 19,
+        "found_on": [
+          [
+            24,
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While this is a reasonable approach, it is subject to inaccuracies if users provide false, incomplete, or humorous locations."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 25,
+        "words": 22,
+        "found_on": [
+          [
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Seventh, there are temporal mismatches between our Twitter dataset (collected in late 2020) and regional vaccination rates, which occurred primarily in 2021."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 24,
+        "words": 16,
+        "found_on": [
+          [
+            24
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Additionally, our classification into partisan groups relies on self-reported information, which may not be entirely accurate."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 2,
+        "words": 12,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The full twitter dataset cannot be shared publicly because of Twitter’s policy."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 25,
+        "words": 14,
+        "found_on": [
+          [
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While several of our analyses rely on correlations, these results do not imply causation."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 25,
+        "words": 29,
+        "found_on": [
+          [
+            25
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The relationship between polarization and public health measures is complex and multidimensional, influenced by numerous social, political, and cultural factors that extend beyond the scope of our computational analysis."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 3,
+        "words": 19,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Consequently, our study adopts a strictly text-based method, which remains both accessible and scalable for analyzing large-scale digital discourse."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 3,
+        "words": 29,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Our work addresses this need by providing a comprehensive, large-scale study of geographic and event-driven variation in online partisan polarization surrounding COVID-19 discussions across American states and Canadian provinces."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 3,
+        "words": 19,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This regional heterogeneity necessitates studying polarization through a multidimensional lens that accounts for specific events, topics, and geographic variation."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Extensive research now confirms that in the U.S., Democratic Party supporters were consistently more likely to adhere to social distancing guidelines [8–10], wear masks [11,12], and get vaccinated [13–15] compared to their Republican counterparts."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 3,
+        "words": 19,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "network-based approaches such as inferring ideology from follower or retweet structures have proven highly effective in prior work [37,38,39]."
+      }
+    ]
+  },
+  "pone.0355933": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 32,
+    "entries_without_quote": 0,
+    "quotes": 40,
+    "faithful": 40,
+    "located": 40,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 45,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "To test for the possibility of stigmatizing language spillover, this preliminary study employs a survey experiment testing exposure to the Party’s advertisement, labeling Trump as a “convicted criminal” (n = 814) relative to no advertisement (n = 813), on Democrats’ perceptions of individuals with records"
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 42,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Additionally, this study seeks to understand whether providing a counterexample to Trump – highlighting the perspective of a formerly system-involved representative on the propagation of this label by the Democratic party – may counter-act potential negative impacts of the Party’s Trump advertisement."
+      },
+      {
+        "slot": "question",
+        "page": 4,
+        "words": 38,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "the impact of reframing that advertisement by juxtaposing it with a preliminary counter-narrative, exposing the perspective of a formerly system-involved leader and their take on the framing of Trump as a ‘criminal,’ relative to just the advertisement alone."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 37,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While well-powered and aptly-timed field experiments are needed to confirm and extend these findings, utilizing political messaging that elevates dedicated, justice-involved voices within the party rather than rely on stigmatizing attacks should be strongly considered and tested."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 30,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Results suggest that exposure to the Trump advertisement with the “convicted criminal” label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Findings suggest that the counter-stereotype vastly ameliorated the negative effects of the advertisement on Democrats’ perceptions of individuals with criminal records."
+      },
+      {
+        "slot": "central_claim",
+        "page": 16,
+        "words": 29,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The purpose of this paper was to identify the potential for spillover harm that may have been caused in propagating stigmatizing labels (and/or images) on Trump, encouraging further inquiry."
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 39,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812)."
+      },
+      {
+        "slot": "evidence",
+        "page": 8,
+        "words": 30,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The survey was fielded through Prolific, an online survey platform that is commonly utilized for conducting survey-based research, which has been demonstrated as a reliable platform for obtaining high-quality data."
+      },
+      {
+        "slot": "evidence",
+        "page": 8,
+        "words": 20,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Overall, there were 2,439 participants as part of the final sample, a majority of which (59.4%) identified as women, with"
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 17,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Thus, the 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the"
+      },
+      {
+        "slot": "evidence",
+        "page": 4,
+        "words": 23,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812)."
+      },
+      {
+        "slot": "evidence",
+        "page": 8,
+        "words": 17,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The survey was fielded through Prolific, an online survey platform that is commonly utilized for conducting survey-based"
+      },
+      {
+        "slot": "evidence",
+        "page": 8,
+        "words": 16,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "research, which has been demonstrated as a reliable platform for obtaining high-quality data. 2,500 participants were"
+      },
+      {
+        "slot": "evidence",
+        "page": 8,
+        "words": 11,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "recruited for this study, between July 12th and 13th of 2025"
+      },
+      {
+        "slot": "evidence",
+        "page": 8,
+        "words": 22,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This survey was fielded amongst individuals residing within the United States who spoke fluent English and were members of the Democratic Party."
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 18,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This excerpt was from the article entitled, “Could a formerly incarcerated lawmaker reshape justice policy in the NV"
+      },
+      {
+        "slot": "evidence",
+        "page": 5,
+        "words": 20,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Legislature?,” by Michael Lyle, published in the Nevada Current on November 5, 2024 [55]. The text was lightly edited for"
+      },
+      {
+        "slot": "evidence",
+        "page": 10,
+        "words": 15,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "To estimate each ATE, least squares regressions with heteroskedasticity-consistent standard error estimators, HC-2, were utilized."
+      },
+      {
+        "slot": "key_findings",
+        "page": 7,
+        "words": 37,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Hypothesis 2A: Being presented with the Democratic party’s Trump advertisement alone, labeling him as a “convicted criminal,” will significantly decrease (positive) perceptions of individuals with criminal records, on average, relative to not being exposed to this advertisement"
+      },
+      {
+        "slot": "key_findings",
+        "page": 6,
+        "words": 44,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Hypothesis 1B: Exposure to the counter-narrative first, describing a public service-oriented individual who has a criminal record, will significantly increase (positive) perceptions of individuals with criminal records, on average, relative to exposure to the advertisement of Trump being labeled as a “convicted criminal” alone."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 27,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "exposure to the Trump advertisement with the “convicted criminal” label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation."
+      },
+      {
+        "slot": "key_findings",
+        "page": 6,
+        "words": 46,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Hypothesis 1D: Exposure to the counter-narrative first, describing a public service-oriented individual who has a criminal record, will significantly decrease the perceived quality of Democratic representation in federal government, on average, relative to exposure to the advertisement of Trump being labeled as a “convicted criminal” alone."
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 37,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "with the initial exposure to the counter-narrative demonstrating a 0.79 SD unit increase in the perceived value of diversity of life experience as an important component of strengthening democracy, relative to those only presented with the Trump"
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 55,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Both H2A and H2B were supported, namely, exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records ( β̂0 = −0.835, SE = 0.044) and significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049)"
+      },
+      {
+        "slot": "key_findings",
+        "page": 11,
+        "words": 45,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Specifically, exposure to the counter-narrative significantly (at the α = 0.05 threshold without a multiple comparisons correction), reduced the extent to which participants believed that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂2 = −0.098, SE = 0.048)"
+      },
+      {
+        "slot": "key_findings",
+        "page": 10,
+        "words": 44,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Specifically, those assigned to the counter-narrative first condition reported significantly higher, on average, agreement to having an emotional response, relative to both the Control group (ATE = −0.156, robust SE = 0.047) and the Trump Ad Alone (ATE = −0.135, robust SE = 0.048)"
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 1,
+        "words": 37,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While well-powered and aptly-timed field experiments are needed to confirm and extend these findings, utilizing political messaging that elevates dedicated, justice-involved voices within the party rather than rely on stigmatizing attacks should be strongly considered and tested."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 39,
+        "found_on": [
+          [
+            9,
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Given that the design employed was not a full factorial (i.e., there was no way to isolate the specific effect of the counter-narrative alone, given the design,) direct comparisons between these two groups were not prioritized in hypothesis testing."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 26,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed, and thus, this is recommended for exploration in future work."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 26,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "the single time-point survey experimental approach is a useful first step, but leaves unanswered several key questions related to the ability of these results to replicate"
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 18,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "for how long do the effects of the counter-narrative prime before the advertisement and the advertisement itself persist"
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 20,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Whether these results replicate during campaign periods is an open question, perhaps especially so for the advertisement’s impacts in particular."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 10,
+        "found_on": [
+          [
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "helps alleviate some concerns but does not rule this out."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 1,
+        "words": 22,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Leaning upon social categorization theory, propagating such labels on Trump may thereby spillover, impacting constituents’ perspectives of individuals with records more broadly."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 42,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Specifically, social categorization theory articulates the implications and process of how individuals come to assign and distinguish individuals into groups, with much of the theory and evidence pointing to the importance of category salience and the role of group exemplars and prototypes"
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 3,
+        "words": 34,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "recent robust experimental work suggests that affective polarization may not have meaningful impact on political outcomes, though may have some implications for interpersonal dynamics, particularly on dimensions of connection with members of party out-groups"
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 16,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "meta-analytic evidence does not empirically support the use of negative campaign advertisements to aid election success"
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 23,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "prior evidence on the effects of negative campaign advertisements suggests that they tend to be utilized less by those leading in the polls"
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 4,
+        "words": 21,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Though some evidence suggests that experiencing incarceration may serve to shift ideologies further to the right [54], whether that would remain"
+      }
+    ]
+  },
+  "pone.0360061": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 43,
+    "entries_without_quote": 0,
+    "quotes": 45,
+    "faithful": 45,
+    "located": 45,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 14,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Second, we provide suggestive analyses of whether these associations differ by affective polarization [22],"
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 17,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Third, we examine whether politically hostile users are more active and have greater potential reach on X/Twitter,"
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 24,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The results show that engaged but hostile social media users do not simply cater to fringe audiences; they post more frequently and have more"
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "central_claim",
+        "page": 11,
+        "words": 40,
+        "found_on": [
+          [
+            11
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The associations were obtained after controlling for broad personality traits, income, age, gender, and party identification. The largest associations are generally observed for the primary measure of political hostility rather than for the more general AFINN or Perspective API measures."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 19,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We rely on a data infrastructure combining panel survey data with online behavioral data from X (see also [59])."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 22,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The total number of panelists where we were able to link survey responses to their X handle in this period was 2567."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 22,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The method consists of four steps. First, we create word vectors based on posts from our panelists using the word2vec method [61,62]."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 26,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The scraping of X commenced on March 4, 2019 and stopped in January 2021. During this period, we managed to scrape 9,250,180 posts from our panelists."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 57,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We recruited the original set of panelists in January 2019. Here, participants were asked to complete a survey with measures of our set of potential antecedents of online political hostility and, importantly, to provide their X ID and give consent to let us scrape their publicly available X data and link it to their survey answers. These"
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 41,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "participants, along with an additional set of panelists who were included to increase the study’s power in September 2020, were then asked to participate in five additional survey waves, administered at various time points until the final survey in January 2021."
+      },
+      {
+        "slot": "evidence",
+        "page": 9,
+        "words": 22,
+        "found_on": [
+          [
+            9
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We used respondents’ party identification to distinguish in-party from out-party leaders and calculated the difference between average in-party and out-party leader ratings."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 38,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The total number of panelists where we were able to link survey responses to their X handle in this period was 2567. For the analyses where we only use X data the maximum number of respondents is 3643."
+      },
+      {
+        "slot": "evidence",
+        "page": 9,
+        "words": 30,
+        "found_on": [
+          [
+            9
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Internal efficacy is measured using the standard Center for Political Studies (CPS) questions [46]: “Sometimes politics seem so complicated that a person like me can’t really understand what’s going on”"
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 19,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We rely on a data infrastructure combining panel survey data with online behavioral data from X (see also [59])."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 26,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The scraping of X commenced on March 4, 2019 and stopped in January 2021. During this period, we managed to scrape 9,250,180 posts from our panelists."
+      },
+      {
+        "slot": "evidence",
+        "page": 7,
+        "words": 40,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We create a measure of a respondent’s general level of political hostility by averaging the hostility scores of all their posts; for the panel models we compute this average per time unit investigated (wave or month, depending on the analysis)."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Online political hostility is positively associated with these indicators, with the strongest associations for political interest, political knowledge, and online participation."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 24,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "These associations are more pronounced for some indicators, especially online and offline participation, among users with more polarized affect directed towards US political leaders."
+      },
+      {
+        "slot": "key_findings",
+        "page": 1,
+        "words": 28,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Finally, the results show that engaged but hostile social media users do not simply cater to fringe audiences; they post more frequently and have more friends and followers."
+      },
+      {
+        "slot": "key_findings",
+        "page": 15,
+        "words": 25,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The count-model results indicate that higher political hostility is associated with more posts and with larger numbers of followers and, to a lesser extent, friends."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 2,
+        "words": 26,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Third, we examine whether politically hostile users are more active and have greater potential reach on X/Twitter, while avoiding claims about formal network influence or centrality."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 3,
+        "words": 27,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The present study does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 5,
+        "words": 27,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the moderation analyses as descriptive evidence about conditional associations rather than as evidence that affective polarization causally moderates the effect of engagement on hostility."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 10,
+        "words": 19,
+        "found_on": [
+          [
+            10
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "However, RI-CLPM estimates do not by themselves establish causal effects. Time-varying confounding, measurement error, and reciprocal relationships may remain."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 5,
+        "words": 24,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "At the same time, we will make no attempt to adjudicate among alternative causal models regarding the relationships between these different indicators and measures."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 15,
+        "words": 30,
+        "found_on": [
+          [
+            15
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "At the same time, our evidence does not establish that engagement causes hostility. Political sophistication, partisan involvement, affective polarization, or hostile online interactions themselves may all shape the observed associations."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 39,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "First, the data come from American X/Twitter users. This platform is a public, text-based, and highly political platform, and the associations observed here may not generalize directly to platforms with different affordances, audiences, moderation systems, or norms of interaction."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 13,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "but they do not rule out time-varying confounding, reciprocal relationships, or measurement error."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 23,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Third, and relatedly, the present findings are mute on the exact causal relationships between the different indicators of political engagement and their antecedents."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 5,
+        "words": 27,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We therefore interpret the moderation analyses as descriptive evidence about conditional associations rather than as evidence that affective polarization causally moderates the effect of engagement on hostility."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 11,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The findings should overall be interpreted as associational rather than causal."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 5,
+        "words": 24,
+        "found_on": [
+          [
+            5
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "At the same time, we will make no attempt to adjudicate among alternative causal models regarding the relationships between these different indicators and measures."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 3,
+        "words": 27,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The present study does not seek to adjudicate between these literatures. Instead, it asks whether online political hostility is also associated with political engagement and its antecedents."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 34,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We extend this revisionist perspective to online political hostility by asking whether hostile political expression on X/Twitter is associated not only with deprivation or personality-based explanations, but also with political engagement and its antecedents."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 22,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Classical research on political behavior emphasizes that education, internal efficacy, political interest, political knowledge, and participation are central to democratic engagement [17–19]."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 1,
+        "words": 31,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While many early theories of political behavior highlighted the positive democratic role of political engagement, recent research suggests that such engagement may also be associated with more polarized and antagonistic behavior."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 3,
+        "words": 48,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "A central finding in the psychological literature on cyberbullying and so-called trolling is that the most severe cases of hate can be attributed to a (relatively) small segment of social media users with extreme personality traits, like those scoring high on the “Dark Triad” [34] and sadism [35]"
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 3,
+        "words": 30,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Socioeconomic and grievance-based accounts instead focus on marginalization, deprivation, status threat, and perceptions of being left behind, especially among demographic groups – such as rural, white males with low incomes"
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 22,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Classical research on political behavior emphasizes that education, internal efficacy, political interest, political knowledge, and participation are central to democratic engagement [17–19]."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 4,
+        "words": 20,
+        "found_on": [
+          [
+            4
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "At the same time, even in this classical literature, it was explicitly acknowledged that political engagement could go too far."
+      }
+    ]
+  },
+  "pone.0362373": {
+    "parsed": "complete",
+    "slots_filled": 7,
+    "slots_not_stated": 0,
+    "slots_missing": 0,
+    "entries": 37,
+    "entries_without_quote": 0,
+    "quotes": 43,
+    "faithful": 43,
+    "located": 43,
+    "bad_length": 0,
+    "per_quote": [
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 19,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "the role of substance use and other individual characteristics in friendship network formation within AI-majority reservation schools remains understudied."
+      },
+      {
+        "slot": "question",
+        "page": 3,
+        "words": 22,
+        "found_on": [
+          [
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This research moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 23,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Most existing research on adolescent networks derives from racially heterogeneous school settings, where substance use is often linked to friendship formation and popularity."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 30,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "It remains unclear whether these patterns hold in settings where the student population is predominantly AI and where cultural norms surrounding kinship, community, and identity may differently orient relational processes."
+      },
+      {
+        "slot": "question",
+        "page": 1,
+        "words": 31,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are culturally and contextually grounded in the lived experiences of AI youth."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 26,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This study addresses this gap by collecting and analyzing first-hand social network data from 9th- and 10th-grade students in three schools on a Northern Plains reservation."
+      },
+      {
+        "slot": "question",
+        "page": 2,
+        "words": 29,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Using exponential random graph models (ERGMs) [9,23], we examine how demographic attributes, substance use behaviors, depression, and AI identity are associated with friendship formation within these AI-majority educational contexts."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 25,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "These findings reveal a distinct relational ecology within AI-majority reservation schools, where peer ties are organized around structural and demographic commonalities rather than risky behaviors."
+      },
+      {
+        "slot": "central_claim",
+        "page": 1,
+        "words": 31,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are culturally and contextually grounded in the lived experiences of AI youth."
+      },
+      {
+        "slot": "evidence",
+        "page": 1,
+        "words": 33,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Using social network data from 9th and 10th-grade students (N = 247) across three schools on a Northern Plains reservation, we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 28,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "In our study, we established partnerships with three schools on a large Northern Plains reservation to conduct a comprehensive cross-sectional social network survey among 9th- and 10th-grade students."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 56,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "We had an overall response rate of 77% across the three schools. Specifically, 72% of eligible students completed surveys in School A (n = 52 out of 72), 76% in School B (n = 140 out of 184), and 84% in School C (n = 71 out of 84), for a total sample size of 263."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 26,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The survey consisted of two primary sections: the first collected demographic information, measures of AI identity, depression, and substance use; the second collected directed friendship nominations."
+      },
+      {
+        "slot": "evidence",
+        "page": 7,
+        "words": 28,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Students were asked to “select up to 10 friends you are closest with in grades 7th-12th at your school.” School rosters within the Network Canvas software assisted identification."
+      },
+      {
+        "slot": "evidence",
+        "page": 7,
+        "words": 21,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "For analysis, we focused on ties among responding 9th- and 10th-grade students, stored in a square adjacency matrix for each school."
+      },
+      {
+        "slot": "evidence",
+        "page": 6,
+        "words": 12,
+        "found_on": [
+          [
+            6
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "For these cases, we utilized available peer perception data to infer behavior."
+      },
+      {
+        "slot": "evidence",
+        "page": 7,
+        "words": 27,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Participants’ use of alcohol, tobacco, and marijuana was measured through binary variables (yes = 1; no = 0), derived from self-reported data in the survey’s initial section."
+      },
+      {
+        "slot": "evidence",
+        "page": 7,
+        "words": 29,
+        "found_on": [
+          [
+            7
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "This section of the survey consisted of six questions, each probing different facets of depression, such as persistent sadness, feelings of failure, loneliness, and the occurrence of crying spells."
+      },
+      {
+        "slot": "evidence",
+        "page": 8,
+        "words": 19,
+        "found_on": [
+          [
+            8
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Parameters were estimated using Markov chain Monte Carlo (MCMC) maximum likelihood estimation via the ergm package in R [42]."
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 17,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Reciprocity was positive and highly significant in every model, indicating a robust tendency for mutual friendship nominations."
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 14,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Substance use demonstrated no consistent or robust association with friendship dynamics in this sample."
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 27,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Strong and significant homophily was present for gender and grade across all schools, indicating that shared gender identity and grade level are primary axes of friendship formation."
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 32,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Depression sender and receiver effects were substantively negligible across all schools; although the sender effect in School B reached statistical significance across model specifications owing to very small standard errors, its magnitude"
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 23,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The negative and significant coefficients for geometrically weighted outdegree (GWODeg) across all schools indicate a centralized structure in outgoing ties, meaning a subset"
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 22,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "For incoming ties (indegree), a significant negative coefficient was observed only in School C, indicating a centralized popularity structure in that setting."
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 28,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The only exception was a positive sender effect for alcohol use in School C (AME = 0.015, p < 0.05), suggesting a tendency for alcohol-using adolescents to initiate"
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 24,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Alcohol use showed significant homophily in School B (AME = 0.0039, p < 0.01) but not in the other schools or for other substances."
+      },
+      {
+        "slot": "key_findings",
+        "page": 13,
+        "words": 22,
+        "found_on": [
+          [
+            13
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Marijuana use exhibited homophily in School B (AME = 0.0020, p < 0.10), while tobacco use showed no homophily in any school."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 14,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "we recognize that the results presented here represent only three schools on one reservation."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 17,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "The history, policies, geography, and culture of this reservation all intersect with network formation and maintenance patterns."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 22,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "cross-sectional ERGMs cannot analytically distinguish selection processes—adolescents choosing friends with similar attributes—from influence processes—friends becoming more similar to one another over time"
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 17,
+        "words": 29,
+        "found_on": [
+          [
+            16,
+            17
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "results reported here should be interpreted as associations between actor attributes and friendship tie formation, not as evidence that substance use, depression, or AI identity causally affect friendship formation"
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 22,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Our findings may not extend to AI youth in racially heterogeneous schools, where Rees, Freng, and Winfree [17] observed different network characteristics."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 16,
+        "words": 27,
+        "found_on": [
+          [
+            16
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "While a comparison sample of non-AI schools would strengthen generalizability, identifying a suitable dataset with comparable schools (similar size, rural location, and contemporary data) was not feasible."
+      },
+      {
+        "slot": "scope_and_limits",
+        "page": 2,
+        "words": 24,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Data are not publicly available per our agreement with the Tribe involved in this research, who owns the data and has imposed the restriction."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 3,
+        "words": 38,
+        "found_on": [
+          [
+            2,
+            3
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "By focusing on reservation schools, where AI youth are the norm rather than a statistical minority, this research moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 1,
+        "words": 24,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "However, unlike what is often observed in studies of other adolescent populations, substance use showed no consistent association with sending ties or receiving ties."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 1,
+        "words": 20,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are"
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 1,
+        "words": 11,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "culturally and contextually grounded in the lived experiences of AI youth."
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 24,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "It remains unclear whether these patterns hold in settings where the student population is predominantly AI and where cultural norms surrounding kinship, community, and"
+      },
+      {
+        "slot": "theoretical_positioning",
+        "page": 2,
+        "words": 6,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "identity may differently orient relational processes."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 2,
+        "words": 40,
+        "found_on": [
+          [
+            2
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "One study that did focus specifically on AI youth network characteristics is Rees, Freng, and Winfree [17], who used Add Health to describe AI networks in heterogeneous school contexts, finding that AI adolescents had fewer reciprocated friendships than White peers."
+      },
+      {
+        "slot": "interlocutor_claim",
+        "page": 1,
+        "words": 21,
+        "found_on": [
+          [
+            1
+          ]
+        ],
+        "faithful": true,
+        "located": true,
+        "text": "Most existing research on adolescent networks derives from racially heterogeneous school settings, where substance use is often linked to friendship formation"
+      }
+    ]
+  }
+}

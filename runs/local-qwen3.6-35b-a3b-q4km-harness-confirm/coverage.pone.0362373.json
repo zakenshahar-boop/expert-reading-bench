@@ -1,0 +1,124 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "partial": [
+          "Q2"
+        ],
+        "note": "Names substance use, depression, AI identity and demographics (Q1, Q3 as in the opus-5-5 text-prompt3-run3 call). 'Challenging assumptions derived from racially heterogeneous settings' gestures at the generalization question (Q2) but frames it as a challenge, not a question: partial. 'Shape' not flagged (calibration)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "Structural and demographic organization rather than substance use (C1, abstract wording); divergence from racially heterogeneous schools is C2 (as in earlier calls). Calling depression a 'risky behavior' is loose wording; the depression null is true, not separately credited here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Data source (E1; 'cross-sectional' absent but earlier calls credit E1 without it). N = 247 from the abstract without naming the stage (E2 part); ERGMs with structural and actor terms, no per-school estimation or AMEs (E3 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No consistent sender, receiver or homophily association; exceptions not named (full match as in calibration)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note says sexual orientation homophily, with gender and grade, was significant across all schools; the paper says gender and grade homophily held 'across all schools' and sexual orientation homophily was 'also significant and positive' (p.13), and Table 3 shows it only marginal or non-significant for one category in Schools B and C."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5",
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x3",
+            "text": "The note says the tribal schools (A and B) 'showed' / 'exhibit' / 'reflect' egalitarian norms; no norm was measured. The paper finds only that indegree was not centralized there and says this 'may reflect the stronger operation of egalitarian norms' (p.14, p.15). An interpretation reported as a result."
+          }
+        ],
+        "note": "Incoming ties centralized only in School C (half of F5; outgoing centralization not mentioned); the School C alcohol sender effect is an F1 exception (detail of F1)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L1",
+            "text": "The note says the findings 'cannot be generalized' to AI youth in racially heterogeneous schools or other reservations; the paper says they 'may not extend' to AI youth in racially heterogeneous schools (p.16) and that they represent only three schools on one reservation."
+          }
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional design plus selection versus influence."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Association versus cause; repeats L3."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3",
+          "T1"
+        ],
+        "note": "Testing whether findings from heterogeneous settings generalize ('moves beyond generalizations'): the testing half of T3, without what is replicated and what is disputed. 'Social network analysis traditions' is a vague T1. 'Extends' not flagged (calibration)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Heterogeneous-school findings (receiver effects and homophily) that the paper disputes. The entry does not spell out that the dispute is only about AI-majority schools, but it gives the source as prior research in heterogeneous schools, not the scope of the dispute; not flagged."
+      }
+    ]
+  }
+}

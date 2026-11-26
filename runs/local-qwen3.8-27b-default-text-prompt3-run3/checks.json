@@ -1,0 +1,503 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 9,
+      "in own quotes": 9,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 17,
+      "causal word not in quote": 1,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "No significant interaction was found for initial vaccine status, which the authors attribute to the high prevalence of vaccine mandates."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "influences",
+          "claim": "The mechanism through which political climate influences conservative individuals' vaccine decisions was not assessed."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 19,
+      "abstract": 3,
+      "introduction": 2,
+      "background": 0,
+      "methods": 2,
+      "results": 0,
+      "discussion": 12,
+      "other": 0,
+      "unknown": 0,
+      "first third": 6,
+      "middle third": 1,
+      "last third": 12
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 11,
+      "overlapped, any slot": 13,
+      "core findings": 3,
+      "core findings overlapped": 1,
+      "missed": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E7",
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "L1",
+        "L5",
+        "T0",
+        "T2",
+        "T3",
+        "I1",
+        "I3",
+        "I4",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 13,
+      "in own quotes": 12,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper asks how partisan polarization in online discourse varied across regions and over time during the early COVID-19 pandemic in the United States and Canada, and what relationship exists between that polarization and public health outcomes."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 18,
+      "causal word not in quote": 2,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "evidence",
+          "kind": "causal",
+          "word": "determined",
+          "claim": "User party affiliation was determined through a two-step label propagation approach combining profile-based classification and activity-based classification, achieving a macro-F1-score of 91% for both countries."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The analysis is based on Twitter data, which reflects a politically engaged and partisan subset rather than the broader public."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "The paper positions itself within the tradition of computational approaches using text embedding methods to study polarization, but extends prior work by adopting a strictly text-based method (due to restricted access to network-level data) and by characterizing geographic heterogeneity and temporal evolution connected to real-world events, going beyond earlier studies that identified regional patterns without fine-grained resolution."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The paper attributes to Owen et al. [94] the finding of reduced negative sentiment in Canadian vaccine-related tweets between January and December 2020, and contrasts this with its own finding of no significant correlation between polarization and conspiracy-related tweet volume in Canada, arguing the relationship between polarization and sentiment is more complex than discussion volume alone."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 1,
+      "items": [
+        {
+          "named": [
+            "Owen"
+          ],
+          "not cited at the quote": [
+            "Owen"
+          ],
+          "claim": "The paper attributes to Owen et al. [94] the finding of reduced negative sentiment in Canadian vaccine-related tweets between January and December 2020, and contrasts this with its own finding of no significant correlation between polarization and conspiracy-related tweet volume in Canada, arguing the relationship between polarization and sentiment is more complex than discussion volume alone."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 25,
+      "abstract": 6,
+      "introduction": 3,
+      "background": 0,
+      "methods": 3,
+      "results": 4,
+      "discussion": 9,
+      "other": 0,
+      "unknown": 0,
+      "first third": 12,
+      "middle third": 4,
+      "last third": 9
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 14,
+      "overlapped, any slot": 14,
+      "core findings": 2,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q1",
+        "Q3",
+        "C2",
+        "E4",
+        "E5",
+        "E6",
+        "F1",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "L2",
+        "L3",
+        "L5",
+        "L8",
+        "L9",
+        "T0",
+        "T2",
+        "I1",
+        "I2",
+        "I4",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 3,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 0,
+      "hedge dropped": 4,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks whether stigmatizing labels in Democratic Party campaign ads (labeling Trump as 'convicted criminal') spill over to worsen Democrats' perceptions of individuals with criminal records broadly, and whether a counter-narrative using perspective-getting can mitigate these negative effects."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to the Democratic Party's Trump advertisement with the 'convicted criminal' label significantly worsened Democrats' perceptions of individuals with criminal records, but a counter-narrative featuring a formerly system-involved state representative almost entirely ameliorated these negative effects."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors extend social categorization theory to the specific domain of political messaging about criminal records, applying its concepts of category salience and group exemplars to predict spillover from Trump's labeled status to broader perceptions of individuals with records."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The paper attributes to the affective polarization and emotional campaigning literature (Abramowitz & Webster; Kushner Gadarian & Brader; Versteegen) the claim that invoking emotional responses encourages political support by heightening in-group ties, and then disputes this by citing evidence that policy alignment is crucial to feelings of representation."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 22,
+      "abstract": 2,
+      "introduction": 6,
+      "background": 0,
+      "methods": 3,
+      "results": 1,
+      "discussion": 9,
+      "other": 0,
+      "unknown": 1,
+      "first third": 10,
+      "middle third": 3,
+      "last third": 9
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 12,
+      "overlapped, any slot": 13,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q2",
+        "Q4",
+        "C1",
+        "C2",
+        "E3",
+        "E5",
+        "E6",
+        "E7",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "T2",
+        "T3",
+        "T5",
+        "I1",
+        "I2",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 1,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 2019.0,
+          "where": "elsewhere in paper",
+          "claim": "The study combines two years of panel survey data (six waves from January 2019 to January 2021) with scraped X/Twitter behavioral data (over 9 million posts) from American panelists who linked their X handles."
+        },
+        {
+          "slot": "evidence",
+          "number": 2021.0,
+          "where": "elsewhere in paper",
+          "claim": "The study combines two years of panel survey data (six waves from January 2019 to January 2021) with scraped X/Twitter behavioral data (over 9 million posts) from American panelists who linked their X handles."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 18,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "Online political hostility is positively associated with indicators of political engagement and its antecedents (education, internal efficacy, political interest, political knowledge, online and offline participation), and hostile users have greater reach on the platform."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 25,
+      "abstract": 2,
+      "introduction": 3,
+      "background": 3,
+      "methods": 6,
+      "results": 5,
+      "discussion": 6,
+      "other": 0,
+      "unknown": 0,
+      "first third": 8,
+      "middle third": 5,
+      "last third": 12
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 15,
+      "overlapped, any slot": 16,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q1",
+        "Q2",
+        "C2",
+        "E3",
+        "E6",
+        "F4",
+        "F6",
+        "F7",
+        "L2",
+        "L4",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T4",
+        "T5",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 10,
+      "in own quotes": 4,
+      "elsewhere in paper": 6,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "scope_and_limits",
+          "number": 9.0,
+          "where": "elsewhere in paper",
+          "claim": "The data capture only one developmental epoch (9th and 10th grade) at a single time point, and relational patterns may differ across the life course."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 10.0,
+          "where": "elsewhere in paper",
+          "claim": "The data capture only one developmental epoch (9th and 10th grade) at a single time point, and relational patterns may differ across the life course."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper attributes to non-AI researchers (including Ali et al. 2014, Schaefer et al. 2012, Haas & Schaefer 2014, and others summarized in Table 1) the claim that substance use consistently predicts friendship dynamics through positive receiver effects and homophily in racially heterogeneous schools, and disputes this generalization by showing it does not hold in AI-majority reservation schools."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2012.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper attributes to non-AI researchers (including Ali et al. 2014, Schaefer et al. 2012, Haas & Schaefer 2014, and others summarized in Table 1) the claim that substance use consistently predicts friendship dynamics through positive receiver effects and homophily in racially heterogeneous schools, and disputes this generalization by showing it does not hold in AI-majority reservation schools."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper attributes to non-AI researchers (including Ali et al. 2014, Schaefer et al. 2012, Haas & Schaefer 2014, and others summarized in Table 1) the claim that substance use consistently predicts friendship dynamics through positive receiver effects and homophily in racially heterogeneous schools, and disputes this generalization by showing it does not hold in AI-majority reservation schools."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the work of Rees, Freng, and Winfree (2014), who described AI network characteristics using Add Health data, but disputes the sufficiency of their approach by noting it was primarily descriptive and did not model endogenous network processes."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 17,
+      "causal word not in quote": 0,
+      "hedge dropped": 3,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks whether substance use, depression, and AI identity shape friendship network formation among AI adolescents in reservation schools, where the student body is racially homogeneous, in contrast to the racially heterogeneous settings that dominate prior research."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "Substance use (alcohol, tobacco, marijuana) showed no consistent or robust association with friendship dynamics across any of the three schools, with only isolated non-replicating exceptions."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The authors position their work within the ERGM/social network analysis tradition but argue it must extend beyond generalizations derived from racially heterogeneous settings to capture the unique relational ecology of AI-majority schools."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 2,
+      "all named authors cited at the quote": 2,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 24,
+      "abstract": 5,
+      "introduction": 4,
+      "background": 0,
+      "methods": 2,
+      "results": 6,
+      "discussion": 7,
+      "other": 0,
+      "unknown": 0,
+      "first third": 10,
+      "middle third": 1,
+      "last third": 13
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 14,
+      "overlapped, any slot": 16,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q1",
+        "Q3",
+        "Q4",
+        "C3",
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F5",
+        "F7",
+        "F8",
+        "L5",
+        "L6",
+        "T1",
+        "T2",
+        "I3",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

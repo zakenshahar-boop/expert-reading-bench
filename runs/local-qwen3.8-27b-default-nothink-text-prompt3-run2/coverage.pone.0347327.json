@@ -1,0 +1,124 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and temporal variation across the three topics. Q2 only in the quote."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision) plus the US vaccination correlation (F2's US half) placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Over 50 million tweets, exact dates, linked to the US and Canada, keyword/topic filtered; the split is not given (detail). Grounded by the p.1 quote."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings and C-index (E2). Party classification and geolocation mentioned only in passing, with no method, so no E3/E4 credit. Grounded by the second (p.4 two-step) quote."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records only; the two-step classifier is not described in the claim of any entry, so no join."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher, especially masks and vaccines; no lockdown exception stated explicitly and no Canadian non-significance."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'Tweeted ... at higher rates', not endorsement; not F-x3."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Exceptions in both directions (conservative states low, liberal states high), abstract wording; state names left out, treated as examples. Grounded by the p.1 quote."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ],
+        "note": "Cannot establish causality for vaccination because of the temporal mismatch (L5) and because the analysis is correlational (L6)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be partial L3."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding method over network approaches. Grounded by the p.4 quote. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Prior work that Democrats adhered more to guidelines: the neutral I-n1. Grounded by the p.22 quote."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F6"
+        ],
+        "note": "The exceptions to the conservative-polarization pattern (F6), framed as nuancing a view attributed to no one; the paper contrasts its result with 'uniformly low' polarization (p.22), so not flagged."
+      }
+    ]
+  }
+}

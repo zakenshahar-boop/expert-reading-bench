@@ -1,0 +1,110 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Asks whether the 'convicted criminal' labeling in the advertisement spills over onto perceptions of people with records (Q1); phrased generally ('political advertisements'), which is acceptable for a question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says 'political advertisements using stigmatizing labels for high-profile figures' reduce perceptions. The paper tested one advertisement (Trump's mugshot labeled 'CONVICTED CRIMINAL') and says replication in other contexts is unclear (p.17)."
+          }
+        ],
+        "note": "Gives the ad's harm to perceptions and the counter-narrative's mitigation; omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1",
+          "E3"
+        ],
+        "note": "E2: total N and the three arms (counts are in the quote). E1 partial: survey experiment with U.S. Democrats, without Prolific, pre-registration or dates. E3 partial: the ad is described by its 'convicted criminal' label (no mugshot) and the counter-narrative by its subject (no news excerpt). The second quote is not in the paper; the first is."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Its only quote is not in the paper ('(positive)' inserted), so F1 is recorded as ungrounded."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'before the advertisement'; the quote gives the >0.8 SD comparison with the ad alone. Magnitude is detail."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "Says the counter-narrative decreased support for 'the use of stigmatizing political advertisements'. The outcome was support for this one Trump advertisement, relative to the ad alone (p.11)."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Direction correct (public service over self-interest), but the only quote is not in the paper. Content would be partial F3 (motives only, no representation quality)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Social desirability / Hawthorne concern is part of L4; omits that the manipulation check eases but does not rule it out. 'Single time-point survey design' is given without its consequence, so no L5 credit. First quote not in the paper; the Hawthorne quote is."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L5"
+        ],
+        "note": "Only quote not in the paper. Content would be partial L5 (durability)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory with homogenization and spillover; no stance stated, so no T4 (as in the calibration)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I4"
+        ],
+        "note": "Garbles I4: the cited study [33] found anger-inducing ads bolster support among the producing party's members; the entry gives this as a rationale the party might have had, which is how the paper uses it (p.3), but not the study's finding itself."
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Subnational and event-driven variation (Q1) and the three correlates (Q3). The methods aim (Q2) is in the quote, not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording, credited per C1's decision, plus the U.S. vaccination correlation (F2) placed here, as in calibration. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "'Millions of tweets from late 2020' without dates or country split (E1 partial). RoBERTa embeddings and the C-index named, but not as the separation of left- and right-leaning users' language (E2 partial). 'Geolocated' and 'party-classified' without source or method: no E4 or E3; topics not named in the claim: no E5."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Only quote marked NOT IN PAPER (the p.14 sentence cited with a wrong page); would be F1 partial."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes last a few days and coincide with political events."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Only quote marked NOT IN PAPER; would be F4 partial (Canada's null not stated)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L6"
+        ],
+        "partial": [
+          "L7"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L7",
+            "text": "Says the language limitation 'biases Canadian results'; the paper calls English-only analysis 'a potential source of bias' and says Quebec's result 'may be influenced' (p.24)."
+          }
+        ],
+        "note": "Engaged Twitter users (L2); causality not established (L6, as credited before for p.16's hedge). 'Language limitation' without saying only English tweets were analyzed: L7 partial."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "One of the two quotes is marked NOT IN PAPER; the other (p.3, strictly text-based) is in the paper, so credited. Text-embedding approaches, text-only because network data are restricted (T1). No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Background on Democratic adherence to distancing, masks and vaccines (p.2): the neutral I-n1."
+      }
+    ]
+  }
+}

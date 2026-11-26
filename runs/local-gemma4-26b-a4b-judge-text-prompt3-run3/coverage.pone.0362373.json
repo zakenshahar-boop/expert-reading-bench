@@ -1,0 +1,90 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Phrased as the gap statement rather than a question, but it names the role of substance use (Q3) and other individual characteristics (Q1 part)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Follows the abstract's 'rather than risky behaviors'. The note groups depression with risky behaviors; a loose label, not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3",
+          "E7"
+        ],
+        "note": "N = 247 without the stage (E2 part); ERGMs named (E3 part); 'three different types of schools' (E7 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Transitivity half of F2; 'fundamental organizing principle' is the paper's wording."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L4"
+        ],
+        "partial": [
+          "L1"
+        ],
+        "note": "Heterogeneous-school part of L1 without the three-schools basis; 'other developmental stages' earns L4 under the labeler's decision (developmental stage mentioned)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional plus selection versus influence."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Moving beyond prior generalizations (testing half of T3); does not name heterogeneous schools or what is replicated or disputed."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I6",
+            "text": "The note says prevention programs assume friendship ties are 'largely' founded on substance use; the paper says 'to some extent' (p.16)."
+          }
+        ],
+        "note": "Quote marked NOT IN PAPER. Content would be I6."
+      }
+    ]
+  }
+}

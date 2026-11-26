@@ -1,0 +1,196 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2",
+    "F1"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Background from the introduction (p.2, refs 15-16: conservatism linked to lower trust in science, which is linked to hesitancy), hedged with 'may'; not the paper's research question and not in the gold. Loosely worded (the paper says 'historically associated'), not flagged."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 for both hesitancy and boosters; that liberals are low in hesitancy or likely boosted regardless of climate is not stated. 'Moderates' is the paper's own framing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey, US, March to April 2023 (E1) without the nonprobability convenience sample or Qualtrics Panels; final N = 683 (E2) without the 1,777 collected and 970 screened out."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E7"
+        ],
+        "note": "Quota groups by race and income, without the four groups (Black or White, above or below median income) or the reason (a larger marginalization project). 'To represent' is loose, not flagged."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "2020 presidential results mapped to zip codes; the % Republican vote is implied, not stated."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Social and economic components, without the 0-10 scale or averaging."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hesitancy scales; quote names the seven AAVS items. Self-reported vaccine and booster status not mentioned. 'Validated' is defensible (CFA and alpha = .93, p.5), not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "683 after quality and zip-code filtering, without the 1,777 and 970 figures."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Zip-code 2020 vote as a proxy for conservative climate; repeats E3."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1 (positive main associations with vaccine and booster hesitancy, p.7); the status half is in [4]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; the liberal half is in another entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster-status interaction is significant (p.10), without its shape or direction."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberal half of the hesitancy interaction (low regardless of climate, p.10)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Added entry. Status half of F1 (negative associations with vaccine and booster status, p.10)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Unmeasured regional factors such as population density could drive the results: the consequence of the zip-code proxy, as in p.10."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Repeats [3]."
+      },
+      {
+        "match": [
+          "L1",
+          "L4"
+        ],
+        "note": "Repeats [0] and [2]."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Repeats [1]."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Extends prior work by testing the interaction; does not say the prior literatures each studied orientation or climate, so no T1 (the quote does, the claim does not)."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Added entry. Builds on the evidence linking both individual conservatism and regional climate to hesitancy and uptake (p.1)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Builds on the conservatism-hesitancy and uptake association; quote p.10 cites refs 6, 7, 10, 19."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Says prior research suggested that the impact of political orientation may be influenced by the broader political environment, i.e. moderation. The paper cites prior evidence that climate itself 'can influence' hesitancy and uptake (p.2, refs 19-21) and says there has been 'little research on the interaction'."
+          }
+        ],
+        "note": "Added entry. The emerging evidence on political climate (I3, without the vote-share and area-level detail), framed as a moderation claim the cited studies did not make."
+      }
+    ]
+  }
+}

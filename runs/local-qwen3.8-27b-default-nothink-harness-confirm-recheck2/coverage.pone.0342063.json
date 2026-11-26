@@ -1,0 +1,86 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Both halves: conservatives in liberal climates less hesitant, liberals less hesitant regardless. 'Significantly moderates' is true to the significant interaction and the paper's moderation framing; not flagged."
+      }
+    ],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; liberals-regardless part missing (as in the earlier match of the same sentence)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberals boosted regardless; conservatives' likelihood depends on climate, without the direction. 'Depended on' follows the earlier unflagged match of the same wording."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (direction, 60% vs under 35% in the quote). With the liberal half in the other booster entry, F3 is joined."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Other zip-code differences such as population density could drive the associations; the proxy is implied by 'rather than political climate alone'."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two literatures studied separately and the extension by testing their interaction, called novel as the paper does."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

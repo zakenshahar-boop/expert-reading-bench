@@ -1,0 +1,78 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "partial": [
+          "Q2"
+        ],
+        "note": "Names substance use, depression, AI identity and demographics (Q1, Q3 as in the opus-5-5 text-prompt3-run3 call). 'Challenging assumptions derived from racially heterogeneous settings' gestures at the generalization question (Q2) but frames it as a challenge, not a question: partial. 'Shape' not flagged (calibration)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "Structural and demographic organization rather than substance use (C1, abstract wording); divergence from racially heterogeneous schools is C2 (as in earlier calls). Calling depression a 'risky behavior' is loose wording; the depression null is true, not separately credited here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Data source (E1; 'cross-sectional' absent but earlier calls credit E1 without it). N = 247 from the abstract without naming the stage (E2 part); ERGMs with structural and actor terms, no per-school estimation or AMEs (E3 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No consistent sender, receiver or homophily association; exceptions not named (full match as in calibration)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional design plus selection versus influence."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Association versus cause; repeats L3."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3",
+          "T1"
+        ],
+        "note": "Testing whether findings from heterogeneous settings generalize ('moves beyond generalizations'): the testing half of T3, without what is replicated and what is disputed. 'Social network analysis traditions' is a vague T1. 'Extends' not flagged (calibration)."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

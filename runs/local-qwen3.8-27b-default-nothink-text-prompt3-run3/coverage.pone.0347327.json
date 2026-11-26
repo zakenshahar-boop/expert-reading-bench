@@ -1,0 +1,111 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and temporal variation across the three topics. Q2 only in the quote."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1, plus the vaccination correlation strong in the US and weaker in Canada (abstract wording; F2) placed here. No B1 or B2 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "note": "Over 50 million tweets with exact dates (E1, split not given) and RoBERTa embeddings with the C-index (E2). Grounded by the p.1 and p.4 RoBERTa quotes."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher, especially masks and vaccines; no Canadian non-significance."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Says the relationship 'was not significant in Canada'; the text says no similar pattern was observed (p.16) and S3 reports a positive correlation. Read as a paraphrase of the text; not flagged."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'More prevalent among conservative partisans' = tweet at higher rates; not endorsement, not F-x3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L9"
+        ],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported party labels may be inaccurate (L9); location manipulated by bots and VPNs (part of L3)."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L2",
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Late 2020 tweets vs 2021 vaccination rates, limiting causal interpretation."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-based embedding method over network data, complementing lexicon strategies. Grounded by the second p.3 quote. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "partial": [
+          "I3"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "I3",
+            "text": "Says Owen et al. (ref. 94) found that reduced negative sentiment 'correlates with polarization'; the paper reports only that ref. 94 found reduced negative sentiment in Canadian vaccine tweets during 2020 (p.24)."
+          }
+        ],
+        "note": "Ref. 94 (Owen et al., name correct) and the paper's contrast with its Canadian result, but the interlocutor's finding is misreported."
+      }
+    ]
+  }
+}

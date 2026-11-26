@@ -1,0 +1,118 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Rather than only with deprivation or personality' is Q3's 'not only ... but also'; Q1 contained."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "C1 with the strongest associations (F1). The added 'more active with greater potential reach' is the paper's own wording and too vague for a misplaced F3 (posts, followers, friends); F3 is matched in key_findings[3]."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "'Millions of posts' is too vague to credit E2's counts; the 2,567 is only in the quote, not the claim."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association only; the strongest indicators are not named here."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "partial": [
+          "F1"
+        ],
+        "note": "F4 in full. Strongest for interest and online participation is part of F1 (knowledge omitted)."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the associations are more pronounced among more affectively polarized users, 'especially for participation', dropping the abstract's 'for some indicators'. The paper says the pattern is partial: clearest for online and offline participation, weaker or inconsistent for distal antecedents, 'partially consistent with Expectation 2' (p.13-14)."
+          }
+        ],
+        "note": "'Especially for participation' keeps the core of the qualification; the claim reads as moderation across indicators, so a mild flag."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "misplaced": [
+          "T4"
+        ],
+        "ungrounded": [
+          "L2"
+        ],
+        "note": "Not adjudicating between the literatures is the T4 stance, placed under limits. 'Does not establish causality' is L2, but the only quote is the adjudication sentence, which does not support it."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'Observational' alone, without saying what inference it limits, earns no L2 credit; the quote supports the generalization limit."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Revisionist view (T2) extended to online hostility (T3), supported by the p.2 and p.4 quotes. The classical-behavior part (T1) rests only on the quote marked NOT IN PAPER, so T1 is ungrounded."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Classical literature: engagement a boon to democracy, which the authors qualify."
+      }
+    ]
+  }
+}

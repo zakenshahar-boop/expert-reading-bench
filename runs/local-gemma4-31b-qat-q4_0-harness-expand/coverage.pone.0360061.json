@@ -1,0 +1,247 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "L3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Rather than being solely/limited to' personality or deprivation = Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Expectation 2 question (p.5); accurate, not a gold question (as in calibration)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Expectation 3 question on activity and potential reach (p.5); accurate, not a gold question. States only the question, not the result, so no misplaced F3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "The entry says 'with these links being stronger among users with high affective polarization toward political leaders'. States without qualification that the engagement-hostility links are stronger among users high in affective polarization. The paper says this holds 'for some indicators, especially online and offline participation' (abstract), is 'partially consistent with Expectation 2 rather than a uniform confirmation of it' and is exploratory outside participation (p.14)."
+          }
+        ],
+        "note": "C1. The three indicators are listed with 'specifically', not as the strongest associations, so F1 is not credited (as for 'such as' in calibration). The moderation clause is only the unqualified half of F2 and earns no misplaced credit; it carries the F-x2 flag."
+      },
+      {
+        "match": [],
+        "note": "The within-person temporal finding, at the paper's own wording (p.15). Only the first half of F5 (no reverse pattern), so no misplaced credit; not unlisted since it is part of a gold finding."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Panel survey linked to the users' own X posts is E1. YouGov American panelists over two years is part of E3 (no waves or dates)."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "SU word embeddings with cosine similarity to the 'political hate' vector; per-user averaging not mentioned (credited in full as in calibration)."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate three-group operationalization of engagement (p.8)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the leader thermometer measure (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of controls (p.9-10)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "OLS and RI-CLPM, plus the negative-binomial count models."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: the 'political' and 'hate' components robustness check (p.12)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: the supervised classifier robustness check (p.12)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "RI-CLPM only; repeats part of evidence[6]."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive significant associations; the strongest indicators (interest, knowledge, online participation) are not named."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "Says the link is more pronounced for users high in affective polarization toward leaders, with no qualification; the entry's own quote says 'often stronger', and the paper says the formal interaction evidence is clearest for participation, weaker or inconsistent for distal antecedents, and only partially consistent with Expectation 2 (p.13-14)."
+          }
+        ],
+        "note": "As in calibration (qwen3-4b key_findings[1]): the descriptive half of F2 stated without the 'only partly' qualification."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "'Followers and friends' without 'to a lesser extent' for friends; credited in full as in calibration."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Within-person increases in online engagement followed by higher hostility; the weaker reverse pattern is not mentioned."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'American' not repeated; implied by the sample, as in calibration."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Says the antisocial traits were not measured and that those accounts therefore cannot be tested."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Mute on causal relations among the indicators; omits that education and efficacy are distal antecedents, not direct causes."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "The education caveat (p.16): education is not shown to go with hostility apart from engagement, i.e. not a direct cause. 'Mediating factor' is the entry's word; the paper calls education a distal antecedent that may facilitate engagement (p.4, p.16), so it is not flagged. With scope_and_limits[4] this states the whole of L3."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "The panel-model half of L2 (RI-CLPM does not rule out time-varying confounding, reciprocal relations or measurement error); a repeat of L2."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The relationship may be reciprocal (p.15, hedged as in the paper); accurate, not a separate gold limit."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Describes the revisionist perspective as arguing that engagement 'can lead to' biased or antagonistic processing. The paper says engaged citizens 'may also be more likely to process information in biased or antagonistic ways' (p.2) and that engagement indicators 'can be associated with biased assessments' (p.4): an association tilted into an effect."
+          }
+        ],
+        "note": "Revisionist view of engagement (T2) extended to online political hostility (T3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says grievance accounts hold that hostility is 'primarily driven' by marginalization, deprivation and status threat. The paper says these accounts 'focus on' or 'emphasize' them and that hostility 'may be connected to' deprivation (p.2-3)."
+          }
+        ],
+        "note": "The grievance account (I3) without the paper's relation to it (it adds engagement as a further correlate)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I4"
+        ],
+        "note": "Psychological account: antagonistic traits, sadism, situational triggers (p.2, the paper's 'often points to'); not the small-segment, extreme-traits claim, and no stance."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "The classical view that engagement is a boon to democracy (p.4); the paper's qualifying stance is not stated."
+      }
+    ]
+  }
+}

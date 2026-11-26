@@ -1,0 +1,104 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 (conservatives in liberal climates less hesitant); liberals-regardless half and booster uptake not stated."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey, US, March to April 2023 (E1) without the nonprobability convenience sample or Qualtrics Panels; final N = 683 (E2) without the 1,777 collected and 970 screened out."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1 (positive main associations with vaccine and booster hesitancy, p.7); the vaccination and boosting half is not stated here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Interaction significant for vaccine hesitancy, booster hesitancy and booster status (p.10), without the shape of any of them."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberal half of the hesitancy interaction (abstract)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (60% vs under 35%); liberals boosted anywhere not stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Factors other than the vote-share proxy, e.g. population density, could drive the results."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Prior research identified the separate impacts of orientation and climate; the paper examines their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Conservatism associated with greater hesitancy (p.2, refs 6-12); quote also gives lower uptake."
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Beyond deprivation or personality-based explanations' is Q3; Q1 is contained in it and not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question, accurate (p.2, p.5) but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 activity/reach question, accurate and posed as a question (not reported as a result), so not a misplaced F3."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper's own abstract wording ('do not simply cater to fringe audiences'); framed as arguing against a view, but the abstract itself sets up that contrast, so no flag. Not a gold question."
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Repeats question[0]."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations (interest, knowledge, online participation), the distinctive part of F1."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "Repeats central_claim[0], but its only quote (controls; larger for the primary measure) states neither the positive association nor the strongest indicators. C1 is credited in central_claim[0]."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "2,567 linked panelists only; no post count."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Word-embedding (SU) score averaging post-level similarity to a 'political hate' vector; 'similarity' read as the cosine similarity."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Over nine million posts, March 2019 to January 2021; not joined to the 2,567."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Recruited January 2019, five more waves to January 2021; the YouGov panel is not named anywhere in this note."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the leader thermometer difference measure (p.9)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "3,643 maximum X-only respondents, accurate and kept apart from the 2,567."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate internal efficacy measurement detail (p.9)."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Repeats E1; 'millions of posts' too vague for E2."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Cosine similarity to a political hate vector averaged per user."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association only; the strongest indicators are not named here."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the literatures is the paper's stance, not a limitation."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Non-causal reading of the moderation analyses (p.5): a repeat of L2, not L8, since it does not say the moderation is exploratory outside participation."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "RI-CLPM estimates are not causal identification: L2 including the panel-model part."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Paraphrases p.5 'no attempt to adjudicate among alternative causal models regarding the relationships between these different indicators and measures' as models 'linking the different engagement indicators to hostility'; the paper's sentence concerns relations among the indicators. Read as the L3 point, slightly reworded; omits the distal-antecedent part."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Time-varying confounding and reciprocal relationships not ruled out: the limit on causal inference, a repeat of L2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Mute on causal relations among indicators; omits that education and efficacy are distal antecedents, not direct causes."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Repeat of scope_and_limits[2]."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Correctly states p.5: no adjudication among causal models of the relations between the indicators; distal-antecedent part omitted."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Revisionist view of engagement (T2), extended to online hostility (T3)."
+      },
+      {
+        "match": [
+          "T4"
+        ],
+        "note": "Alongside the grievance and personality accounts without adjudicating: the complementary stance."
+      },
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Repeats theoretical_positioning[0], with the antagonistic costs."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "States the classical view (engagement factors central to democratic engagement) without the paper's qualifying stance toward it."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Early theories highlighting the positive democratic role of engagement; no stance toward it."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I4"
+        ],
+        "note": "Small segment with extreme traits (Dark Triad, sadism in the quote); the paper's stance (adds to it) is not given."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Grievance accounts (marginalization, deprivation, status threat); the paper's stance is not given."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Repeats interlocutor_claim[0]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Classical theory acknowledged engagement could go too far: the Almond and Verba point without naming them or the paper building on it."
+      }
+    ]
+  }
+}

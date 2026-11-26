@@ -1,0 +1,92 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Subnational and event-driven variation in both countries."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording, credited per C1's decision. 'Polarization correlates with public health outcomes' is too vague (no vaccination, direction or country) for misplaced F2; not flagged, since the conclusion says the U.S. showed correlations with public health outcomes (p.25). No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "note": "Late 2020 Twitter data without dates or counts (E1 partial); RoBERTa embeddings with a C-index measure, without the left/right separation (E2 partial, same call as the other notes); three topics without conspiracy or classification method (E5 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "p.3 wording: conservative regions higher in both countries; no topic split, no Canadian non-significance."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes last a few days and coincide with political events."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "note": "Exceptions stated generically, no states named."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1",
+          "L6"
+        ],
+        "note": "Causality not established (L6); semantic similarity proxy may obscure signals (L1, p.24)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approaches, text-only because network data are restricted. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Background on Democratic adherence to distancing, masks and vaccines (p.2): the neutral I-n1."
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": ["Q3"],
+        "note": "'Rather than solely with socioeconomic marginalization or personality traits' is Q3's 'not only'. The second quote (p.2) is in the paper."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": ["C1"],
+        "note": "Lists the indicators as in p.15, not the strongest ones, so F1 is not credited."
+      }
+    ],
+    "evidence": [
+      {
+        "match": ["E1"],
+        "partial": ["E3"],
+        "note": "Panel survey linked to scraped X/Twitter data is E1; American users 2019-2021 is part of E3 (no YouGov, no waves). The p.1 quote is in the paper."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": ["F4"],
+        "partial": ["F1"],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "Says the associations with interest, knowledge and online participation are stronger for the primary hostility measure than for the general measures. The paper says the largest associations are 'generally' observed for the primary measure (p.11), and its own figures, in the entry's quote, show Perspective API at 0.267 against 0.236 for online participation."
+          }
+        ],
+        "note": "Names interest, knowledge and online participation but not as the strongest associations (partial F1, as in the calibration note); the comparison with AFINN/Perspective is F4."
+      },
+      {
+        "match": [],
+        "partial": ["F2"],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger among users high in leader-directed affective polarization, 'particularly for online and offline participation'. The paper says it is 'often' stronger descriptively and that the results are only 'partially consistent with Expectation 2' (p.13-14); the partial-support qualification is dropped."
+          }
+        ],
+        "note": "The p.13 descriptive quote is in the paper; the formal-interaction quote is not."
+      },
+      {
+        "match": [],
+        "partial": ["F5"],
+        "note": "Within-person increases followed by higher hostility, 'may be reciprocal' as in the paper; does not say the reverse pattern is weaker. Quote page given as p.14 but the text is in the paper (p.15)."
+      },
+      {
+        "match": ["F3"]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": ["L2", "L1"],
+        "note": "Observational, not causal (L2); not generalizable to other platforms (L1). 'Nor do they generalize' read as 'are not shown to generalize'; not flagged."
+      },
+      {
+        "match": ["L5"]
+      },
+      {
+        "match": ["L6"]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": ["T2", "T3"],
+        "note": "The revisionist view of engagement, extended to online hostility; the misinformation detail is from p.4."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": ["I3", "I4"],
+        "note": "Grievance (I3) and personality (I4, without the small-segment finding) accounts with an acceptable stance ('exclusive reliance', 'also a key correlate'), but the only quote is marked NOT IN PAPER."
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Beyond' / 'rather than just' deprivation or personality is Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."
+      }
+    ],
+    "central_claim": [],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ]
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "OLS and RI-CLPM both named in the claim (quotes give RI-CLPM and count models); count models are accurate extra detail."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger among more affectively polarized users, 'particularly for participatory indicators'. The paper says the support is partial, clearest for participation and weaker or inconsistent for distal antecedents, and exploratory for the remaining indicators (p.13-14); 'particularly' keeps the participation focus but drops that the support is only partial."
+          }
+        ],
+        "note": "Stronger among the affectively polarized, clearest for participation; misses that the support is only partial (Expectation 2 partly supported, exploratory elsewhere)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Forward within-person pattern; 'suggesting a reciprocal relationship' follows the paper's 'may be reciprocal' but does not say the reverse pattern is weaker (it is only in the quote)."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'American' not repeated but implied; the platform-generalization limit."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "partial": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x2",
+            "text": "Says the paper 'disputes or builds upon' a claim that hostility is 'primarily associated' with marginalization or personality. The paper attributes no 'primarily' claim to that literature and 'does not seek to adjudicate between these literatures' (p.3); the entry's 'also linked to political engagement' keeps the complementary stance, so the tilt is mild."
+          }
+        ],
+        "note": "Grievance/marginalization account (I3) with the 'also' stance; the personality account is not specified as the small-segment, extreme-traits finding (I4 partial)."
+      }
+    ]
+  }
+}

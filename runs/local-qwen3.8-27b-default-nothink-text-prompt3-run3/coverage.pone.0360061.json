@@ -1,0 +1,164 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Beyond' / 'rather than just' deprivation or personality is Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question (p.2, p.5), accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question (p.2, p.5), asked only; no result reported, so no F3 credit."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "C1 with the strongest associations (interest, knowledge, online participation), the distinctive part of F1."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger among more affectively polarized users, 'particularly for participatory indicators'. The paper says the support is partial, clearest for participation and weaker or inconsistent for distal antecedents, and exploratory for the remaining indicators (p.13-14); 'particularly' keeps the participation focus but drops that the support is only partial."
+          }
+        ],
+        "note": "F2 in the central-claim slot; 'particularly for participatory indicators' without the partial-support qualification. The second quote is not in the paper, the first (abstract) is."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users have 'greater ... reach'. The paper says greater 'potential reach' (p.2, p.15) and that it 'may' give them higher reach (p.1), not evidence of influence."
+          }
+        ],
+        "note": "'Not fringe; post more, more friends and followers' is F3 in the wrong slot. 'Suggesting higher reach' drops 'potential' (mild); 'not fringe' is the abstract's own 'do not simply cater to fringe audiences'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "The 9,250,180 posts are only in the quote, not stated in the claim."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach and its validation only; no cosine similarity to the 'political hate' vector or per-user averaging."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "OLS and RI-CLPM named, with count models and the controls; accurate."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1",
+          "F7"
+        ],
+        "note": "Positive association (F1 without the strongest indicators); coefficients generally above 0.2 is F7 without the comparison to the education-participation association."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Specifically for online and offline participation' restricts the moderation to the participation indicators, which is the paper's partial support (clearest for participation, exploratory elsewhere). The quote is the descriptive 14-of-18 split."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Forward within-person pattern; 'may be reciprocal' is the paper's wording, but it does not say the reverse pattern is weaker."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Posts and followers; friends (the weaker part) omitted, which leaves the substance."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Wording garbled ('supporters as institutions') but the elites-not-parties-or-supporters point is there."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Names Dark Triad and sadism; 'not measured' is only in the quote, but the substance (the Big Five do not test these accounts) is stated."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Revisionist view (negative consequences, polarization, motivated reasoning) extended to online hostility."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3",
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "C-x2",
+            "text": "Says the paper 'disputes the idea' that hostility is primarily explained by socioeconomic marginalization or personality traits. The paper 'does not seek to adjudicate between these literatures' (p.3) and says hostility is 'not only' associated with those explanations (p.15); it disputes neither. 'Also a significant correlate' is right, but the stance word is wrong."
+          }
+        ],
+        "note": "Grievance and personality (Dark Triad/sadism) accounts identified, with the wrong stance, so partial for both (as the earlier judge did for a 'challenges' stance). The second quote (p.15, motivated reasoning) does not support the claim; the first (p.2) does."
+      }
+    ]
+  }
+}

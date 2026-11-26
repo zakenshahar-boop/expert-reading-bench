@@ -1,0 +1,141 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "ungrounded": [
+          "Q3"
+        ],
+        "note": "Claim is Q3, but its only quote is marked NOT IN PAPER (spliced text), so no credit."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "The entry says 'especially among users with high affective polarization toward political leaders'. States without qualification that the engagement-hostility links are stronger among users high in affective polarization. The paper says this holds 'for some indicators, especially online and offline participation' (abstract), is 'partially consistent with Expectation 2 rather than a uniform confirmation of it' and is exploratory outside participation (p.14)."
+          }
+        ],
+        "note": "C1; the indicators are 'such as' examples, not the strongest, so no F1. The moderation clause carries the F-x2 flag."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Panel survey linked to X posts is E1; 2,567 linked users is part of E2, correctly not joined to a post count."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "SU word embeddings, distance between posts and the combined 'political hate' vector; per-user averaging not mentioned (credited in full as in calibration)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive significant associations, naming education, efficacy and knowledge (accurate); not the strongest indicators."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "Says the link is more pronounced for users high in affective polarization toward leaders, with no qualification; the entry's own quote says 'often stronger', and the paper says the formal interaction evidence is clearest for participation, weaker or inconsistent for distal antecedents, and only partially consistent with Expectation 2 (p.13-14)."
+          }
+        ],
+        "note": "As in calibration (qwen3-4b key_findings[1]): the descriptive half of F2 stated without the 'only partly' qualification."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "More active, more followers and friends, more potential reach (the paper's own 'potential reach')."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Within-person increases in online engagement followed by higher hostility; the weaker reverse pattern is not mentioned."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "'American' not repeated; implied by the sample, as in calibration."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L6"
+        ],
+        "note": "Says only that Dark Triad and sadism were not measured; not the consequence (the Big Five controls cannot test those accounts). A limitation needs its consequence; the quote has it but the claim does not."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says the revisionist perspective holds that high engagement 'can also lead to' antagonistic information processing. The paper says engaged citizens 'may also be more likely' to process information in biased or antagonistic ways (p.2) and that engagement 'can be associated with' biased assessments (p.4)."
+          }
+        ],
+        "note": "Adopts and extends the revisionist view (T2, T3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says the information-processing literature holds that engagement such as partisanship 'can lead to' biased evaluations. The paper says engagement indicators 'can be associated with biased assessments' (p.4, the entry's own quote)."
+          }
+        ],
+        "note": "Builds on the political information-processing literature (refs 21, 47); omits that the bias is worse among the politically knowledgeable, the specific claim of I5."
+      }
+    ]
+  }
+}

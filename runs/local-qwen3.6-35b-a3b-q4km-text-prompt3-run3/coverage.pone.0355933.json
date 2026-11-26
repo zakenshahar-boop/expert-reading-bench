@@ -1,0 +1,111 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Spillover onto perceptions of people with records (Q1) and whether the counter-narrative mitigates it (Q2). The claim does not name representation, so no Q3 (only the quote does). The p.4 quote is faithful."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "Both quotes are marked not in paper. The claim would be a partial C1 (omits the representation improvement)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Survey experiment with self-identified Democrats on Prolific (E1; pre-registration and dates not given, as in the earlier judge's matches), 2,439 in the three arms (E2). E3 partial: the ad is described only as labeled 'convicted criminal' (no mugshot) and the counter-narrative only as about a formerly incarcerated legislator (not an edited news excerpt). The p.4 quote is faithful (the p.8 one is not)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "The p.11 quote is faithful."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Both quotes are marked not in paper."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "note": "Both quotes are marked not in paper."
+      },
+      {
+        "match": [
+          "F4",
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F6"
+        ],
+        "note": "Its only quote is marked not in paper."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2",
+          "L3"
+        ],
+        "partial": [
+          "L4"
+        ],
+        "note": "Two of four quotes are faithful (AI concern p.17, Hawthorne effect p.17), so the entry is grounded. Non-factorial (L1), image vs text (L2), online panel and AI-generated responses (L3). Social desirability without the transparency of the design or the manipulation check: partial L4."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T4"
+        ],
+        "note": "SCT with exemplar spillover (T1) applied to the ad (T4), and the perspective-getting literature as the basis of the counter-narrative (T2). The p.1 quote is faithful."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "neutral": true,
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Says prior evidence suggests negative ads are 'less effective for Democrats'. The paper says Democrats tend to respond more to positive ads than Republicans do (p.2); the evidence that negative ads do not aid election success is the meta-analysis, which the claim does not state."
+          }
+        ],
+        "note": "Labels such as 'criminal' worsen perceptions of people with records (I1, p.2). Disputing the party's strategy is the neutral I-b1."
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "paper_id": "pone.0355933",
+  "model": "chat",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-qwen3.8-27b-default-nothink-text-prompt3 (complete)",
+    "quotes confirmed"
+  ],
+  "settings": {},
+  "short_tokens": 600,
+  "long_tokens": 4000,
+  "model_calls": 6,
+  "input_tokens": 12935,
+  "output_tokens": 269,
+  "seconds": null,
+  "summary": {
+    "quotes found": 23,
+    "pages corrected": 0,
+    "repairs that worked": 5,
+    "repair attempts": 6,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper asks whether using stigmatizing labels like 'convicted criminal' in Democratic campaign advertisements against Trump causes a spillover effect that worsens Democrats' perceptions of individuals with criminal records more broadly.\", \"quotes\": [{\"text\": \"To test for the possibility of stigmatizing language spillover, this preliminary study employs a survey experiment testing exposure to the Party’s advertisement, labeling Trump as a “convicted criminal” (n = 814) relative to no advertisement (n = 813), on Democrats’ perceptions of individuals with records\", \"page\": 1}, {\"text\": \"this study explores what may have been the impact of propagating such labels on Democrats’ perceptions of people with criminal records, and to what extent does the propagation of such stigmatizing terminology impact how well Democrats perceive to be represented by their own elected officials?\", \"page\": 4}]}, {\"claim\": \"The paper also investigates whether providing a counter-narrative featuring a formerly incarcerated representative can mitigate the negative effects of the stigmatizing advertisement.\", \"quotes\": [{\"text\": \"Additionally, this study seeks to understand whether providing a counterexample to Trump – highlighting the perspective of a formerly system-involved representative on the propagation of this label by the Democratic party – may counter-act potential negative impacts of the Party’s Trump advertisement.\", \"page\": 4}]}], \"central_claim\": [{\"claim\": \"Exposure to an advertisement labeling Trump as a 'convicted criminal' significantly decreases Democrats' positive perceptions of individuals with criminal records, but these negative effects are substantially ameliorated if participants first receive a counter-narrative from a formerly incarcerated representative.\", \"quotes\": [{\"text\": \"First, there is clear evidence that the Trump advertisement caused decreases in positive perceptions of individuals with criminal records amongst Democrats, but when paired with (and preceded by) a counter-narrative of a dedicated, system-impacted state representative who speaks to the harm of the “criminal” label, these effects were almost entirely ameliorated\", \"page\": 15}]}, {\"claim\": \"While the stigmatizing advertisement improved perceived feelings of representation among Democrats, likely due to a lower benchmark set by Trump, the author argues that political messaging should prioritize elevating justice-involved voices over stigmatizing attacks.\", \"quotes\": [{\"text\": \"utilizing political messaging that elevates dedicated, justice-involved voices within the party rather than rely on stigmatizing attacks should be strongly considered and tested.\", \"page\": 1}, {\"text\": \"Lowering the bar and benchmark against which your representatives are compared is certainly an easier feat than fostering stronger representation and decision-making amongst your party’s representatives.\", \"page\": 15}]}], \"evidence\": [{\"claim\": \"The study utilizes a survey experiment conducted via Prolific with 2,439 self-identified Democrats, randomly assigned to three groups: a control group, a group exposed only to the Trump advertisement, and a group exposed to a counter-narrative before the advertisement.\", \"quotes\": [{\"text\": \"the 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812).\", \"page\": 4}]}, {\"claim\": \"The experimental stimuli included a real Democratic Party advertisement featuring Trump's mugshot labeled 'CONVICTED CRIMINAL' and a text-based counter-narrative excerpt from an article about a formerly incarcerated Nevada assemblymember.\", \"quotes\": [{\"text\": \"Participants were presented with one of the images utilized in advertisements within the 2024 presidential election, specifically President Donald J. Trump’s mugshot, which was labeled, in all capital letters, “CONVICTED CRIMINAL.”\", \"page\": 5}, {\"text\": \"This excerpt was from the article entitled, “Could a formerly incarcerated lawmaker reshape justice policy in the NV Legislature?,” by Michael Lyle, published in the Nevada Current on November 5, 2024 [55].\", \"page\": 5}]}, {\"claim\": \"Outcomes were measured using Likert-scale indices for perceptions of individuals with records, quality of representation, and motives of elected officials, with pre-registered hypotheses tested via least squares regressions.\", \"quotes\": [{\"text\": \"The primary outcomes of interest in this study were: a) perceptions of individuals with criminal records; b) perceived value of representation; c) perceived quality of Democratic representation in federal government; d) complexity of representation; e) motives of elected officials; and f) advertisement support.\", \"page\": 7}, {\"text\": \"To estimate each ATE, least squares regressions with heteroskedasticity-consistent standard error estimators, HC-2, were utilized.\", \"page\": 10}]}], \"key_findings\": [{\"claim\": \"Exposure to the Trump advertisement alone significantly decreased Democrats' positive perceptions of individuals with criminal records by approximately 0.83 standard deviation units.\", \"quotes\": [{\"text\": \"exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records ( β̂0 = −0.835, SE = 0.044)\", \"page\": 11}]}, {\"claim\": \"The counter-narrative significantly increased positive perceptions of individuals with criminal records by more than 0.8 standard deviation units relative to the advertisement alone, effectively neutralizing the negative impact of the ad.\", \"quotes\": [{\"text\": \"exposure to the counter-narrative prior to being presented with the Trump advertisement increased positive perceptions of individuals with criminal records by more than 0.8 standard deviation (SD) units, compared to those presented with the Trump advertisement alone ( β̂2 = 0.83, SE = 0.041).\", \"page\": 11}]}, {\"claim\": \"The Trump advertisement significantly increased the perception that elected officials are motivated by public service rather than self-interest, suggesting a comparative improvement in perceived representation relative to the Trump benchmark.\", \"quotes\": [{\"text\": \"exposure to the Trump advertisement significantly increased feelings of being well represented by elected officials and the extent to which Democrats perceived that elected officials were motivated by public service over self-interest\", \"page\": 15}]}, {\"claim\": \"System-impacted individuals (those with personal or family experience with the justice system) reported significantly more positive perceptions of individuals with criminal records overall, and the negative effects of the advertisement were more damaging for this group.\", \"quotes\": [{\"text\": \"system-impacted status also contributed significant variation, such that those that identified as being system-impacted held more positive perceptions of individuals with records, relative to those who did not disclose system-impact status, on average.\", \"page\": 13}, {\"text\": \"the Trump advertisement exposure appeared to be significantly more damaging to perceptions of individuals with criminal records for those who are system-impacted.\", \"page\": 14}]}, {\"claim\": \"Racial attitudes were a strong predictor of outcomes, with more positive racial attitudes associated with more positive perceptions of individuals with criminal records and higher perceived quality of representation.\", \"quotes\": [{\"text\": \"more positive racial attitudes were associated with stronger support for the advertisement, more positive perceptions of individuals with criminal records\", \"page\": 13}]}], \"scope_and_limits\": [{\"claim\": \"The study design was not a full factorial, meaning it could not isolate the specific effect of the counter-narrative alone without the advertisement, nor could it disentangle the impact of the image from the stigmatizing text.\", \"quotes\": [{\"text\": \"failing to include the counter-narrative only arm limits the ability to interpret the additional impact of including it with the advertisements; in other words, the counter-narrative arm cannot be directly compared to the pure control arm to test the impact of the counter-narrative alone because it also involves exposure to the Trump advertisement.\", \"page\": 16}, {\"text\": \"it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed, and thus, this is recommended for exploration in future work.\", \"page\": 17}]}, {\"claim\": \"The data was collected online via Prolific, raising concerns about the potential infiltration of generative AI agents or bots, although the platform has a lower prevalence of such issues compared to others.\", \"quotes\": [{\"text\": \"emerging literature highlights that Prolific, relative to other survey platforms, tends to have far less prevalent use of generative AI within responses\", \"page\": 8}]}, {\"claim\": \"The study used a single time-point survey, leaving unanswered questions about the durability of the effects and whether they translate into actual behavioral changes in voting or civic participation.\", \"quotes\": [{\"text\": \"the single time-point survey experimental approach is a useful first step, but leaves unanswered several key questions related to the ability of these results to replicate\", \"page\": 17}]}, {\"claim\": \"The study was conducted after the 2024 election outcome was known, so it is unclear if the results would replicate during an active campaign period.\", \"quotes\": [{\"text\": \"this current study was conducted in July of 2025, after the outcome of the election was known and not actively during the campaign. Whether these results replicate during campaign periods is an open question\", \"page\": 17}]}], \"theoretical_positioning\": [{\"claim\": \"The authors ground their argument in social categorization theory, specifically focusing on category salience and the role of group exemplars, to explain how stigmatizing labels on a prominent figure spill over to perceptions of the broader group.\", \"quotes\": [{\"text\": \"Leaning upon social categorization theory, propagating such labels on Trump may thereby spillover, impacting constituents’ perspectives of individuals with records more broadly.\", \"page\": 1}, {\"text\": \"social categorization theory articulates the implications and process of how individuals come to assign and distinguish individuals into groups, with much of the theory and evidence pointing to the importance of category salience and the role of group exemplars and prototypes\", \"page\": 2}]}, {\"claim\": \"The paper extends the application of perspective-getting literature to the context of political messaging and criminal justice stigma, arguing that empathy-inducing narratives can serve as a viable alternative to negative campaigning.\", \"quotes\": [{\"text\": \"one presumably unexplored messaging intervention in the 2024 election – though heavily supported by political science and psychological literature – is perspective-getting [42–44].\", \"page\": 3}, {\"text\": \"These results also lend weight to the potential mechanism through which the Democratic Party could have sought to bolster their support, as providing the counter-narrative also worsened perceptions of the quality of Democratic representation, relative to the Trump advertisement alone.\", \"page\": 15}]}], \"interlocutor_claim\": [{\"claim\": \"The paper disputes the strategic efficacy of negative campaign advertisements by citing meta-analytic evidence that does not support their use for election success, contrasting this with the Democratic Party's reliance on such ads in 2024.\", \"quotes\": [{\"text\": \"meta-analytic evidence does not empirically support the use of negative campaign advertisements to aid election success [7].\", \"page\": 2}]}, {\"claim\": \"The authors build on the claim from prior literature that policy support is distinct from perceptions of policy beneficiaries, using the social safety net as an analogy to argue that Democrats might support reform policies while still holding negative views of individuals with records.\", \"quotes\": [{\"text\": \"policy support is distinct from perceptions of individuals who would be directly impacted by these policies\", \"page\": 3}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "```json\n{\"text\": \"exposure to the Trump advertisement alone significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest\", \"page\": 11}\n```"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 2,
+      "result": "repaired",
+      "raw": "{\n  \"text\": \"exposure to the Trump advertisement significantly increased feelings of being well represented by elected officials and the extent to which Democrats perceived that elected officials were motivated by public service over self-interest\",\n  \"page\": 15\n}"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"more positive racial attitudes were associated with stronger support for the advertisement, more positive perceptions of individuals with criminal records\", \"page\": 13}\n```"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "scope_and_limits",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"emerging literature highlights that Prolific, relative to other survey platforms, tends to have far less prevalent use of generative AI within responses\", \"page\": 8}"
+    },
+    {
+      "step": "repair",
+      "slot": "scope_and_limits",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\n  \"text\": \"the single time-point survey experimental approach is a useful first step, but leaves unanswered several key questions related to the ability of these results to replicate\",\n  \"page\": 17\n}\n```"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "interlocutor_claim",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\n  \"text\": \"policy support is distinct from perceptions of individuals who would be directly impacted by these policies\",\n  \"page\": 3\n}\n```"
+    }
+  ],
+  "seconds_left_out": "the GPU was shared during this run, so its time says nothing about the model"
+}

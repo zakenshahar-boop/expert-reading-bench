@@ -1,0 +1,164 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": ["I4"],
+  "entries": {
+    "question": [
+      {
+        "match": ["Q3"]
+      },
+      {
+        "match": ["Q1"],
+        "misplaced": ["T2", "T3"],
+        "note": "States Q1; 'extending the revisionist perspective on the negative sides of engagement' is the framework and stance (T2, T3) in the wrong slot, as the calibration judge did for a similar question entry."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question (p.5), accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The exploratory Expectation 3 question (p.5); asked, not reported as a result, so no F3 credit."
+      }
+    ],
+    "central_claim": [],
+    "evidence": [
+      {
+        "match": ["E1"],
+        "partial": ["E3"],
+        "note": "Panel survey linked to X/Twitter behavioral data is E1. American users 2019-2021 is part of E3 (no YouGov, no waves). 'Cross-sectional, panel, and exploratory count models' does not name pooled OLS or RI-CLPM, so no E5 credit."
+      },
+      {
+        "match": ["E4"],
+        "note": "SU approach with cosine similarity to the combined 'political hate' vector; per-user averaging not mentioned (full match, as in the calibration note)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of controls (p.9-10)."
+      },
+      {
+        "match": [],
+        "partial": ["E5"],
+        "note": "RI-CLPM only; pooled OLS not named."
+      },
+      {
+        "match": ["E6"]
+      },
+      {
+        "match": [],
+        "partial": ["E4"],
+        "note": "Names the SU approach and the political/hostile co-occurrence only; E4 is already matched in evidence[1]."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": ["F1"],
+        "note": "Positive association only; the strongest indicators are not named."
+      },
+      {
+        "match": [],
+        "partial": ["F2"],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger for users with higher leader-directed affective polarization, 'particularly for participatory engagement'. The paper says it is 'often' stronger descriptively, that the moderation evidence is 'not uniform', and that the results are only 'partially consistent with Expectation 2' (p.13-14). The entry keeps the participation emphasis but drops the partial-support qualification."
+          }
+        ]
+      },
+      {
+        "match": ["F3"]
+      },
+      {
+        "match": [],
+        "partial": ["F5"],
+        "note": "Within-person increases in online engagement followed by higher hostility; says the relationship is reciprocal ('suggesting', as the paper's 'may be reciprocal') but not that the reverse pattern is weaker."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": ["L2", "L1", "L6"],
+        "note": "Not causal (L2), may not generalize beyond X/Twitter (L1), Big Five controls do not test Dark Triad accounts (L6). No quote supports the causal part, but the entry has two faithful quotes, so it is credited. 'Does not generalize' read as 'is not shown to generalize'; not flagged."
+      },
+      {
+        "match": ["L5"]
+      },
+      {
+        "match": ["L7"]
+      },
+      {
+        "match": [],
+        "partial": ["L3"],
+        "note": "No adjudication among causal models of the relationships between the indicators (p.5); 'and hostility' is a loose rewording of the paper's 'indicators and measures'. The distal-antecedents part of L3 is missing."
+      },
+      {
+        "match": ["L2"],
+        "note": "Repeats L2 with the RI-CLPM caveats."
+      },
+      {
+        "match": ["L5"],
+        "note": "Repeats L5."
+      },
+      {
+        "match": ["L6"],
+        "note": "Repeats L6."
+      },
+      {
+        "match": [],
+        "partial": ["L3"],
+        "note": "The 'mute on causal relationships between the indicators' half of L3; neither this nor scope_and_limits[3] says education and efficacy are distal antecedents rather than direct causes, so L3 is not joined."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": ["T2", "T3"]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The broader scope than cyberbullying, trolling or group-directed hate speech (p.3), accurate but not a gold framework or stance."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": ["I2"],
+        "note": "Early theories saw engagement as positive for democracy; the paper qualifies this with recent research ('may also be associated', as in the abstract)."
+      },
+      {
+        "match": ["I3"],
+        "note": "Grievance accounts, with the 'also' stance (the paper adds to them)."
+      },
+      {
+        "match": [],
+        "partial": ["I1", "I5"],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says the view the paper builds on is that engagement 'can become excessive and lead to biased or antagonistic information processing'. The paper says recent work 'suggests that politically engaged citizens may also be more likely to process information in biased or antagonistic ways' (p.2); 'lead to' is a causal tilt."
+          }
+        ],
+        "note": "'Classical theories recognized that engagement could become excessive' is I1's point without naming Almond and Verba (ref. 20); biased processing among the engaged is I5 without the political-knowledge part."
+      },
+      {
+        "match": [],
+        "partial": ["I4"],
+        "note": "Psychological accounts (antagonistic traits, sadism, emotion regulation) with the 'also' stance; lacks the small-segment, extreme-traits finding. 'Builds on the idea' refers to the paper's own question, an odd wording but not a wrong stance toward the psychological accounts."
+      },
+      {
+        "match": [],
+        "partial": ["I4"],
+        "note": "States the small-segment, extreme-traits finding of the psychological literature but not the paper's stance toward it. With interlocutor_claim[3] (stance: the paper adds engagement as a further correlate) it gives the whole of I4, so I4 is joined."
+      },
+      {
+        "match": [],
+        "partial": ["I3"],
+        "note": "Grievance accounts without the paper's stance; I3 is already matched in interlocutor_claim[1]."
+      }
+    ]
+  }
+}

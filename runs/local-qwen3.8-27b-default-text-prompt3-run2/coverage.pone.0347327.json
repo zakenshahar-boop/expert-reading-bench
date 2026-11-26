@@ -1,0 +1,119 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Subnational and temporal variation in both countries (Q1); only vaccination of Q3's correlates. No methods aim (Q2) in the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision); the U.S. vaccination correlation with the abstract's 'notably weaker in Canada' (F2, both halves per F2's note) placed here. No B1 or B2 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Period and size (E1); RoBERTa embeddings and C-index at user level (E2); validation against election results and voter records but not the two-step classifier (E3 partial). Geolocation method not described, so no E4."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative states and provinces more polarized, masks and vaccines in the U.S.; no lockdown exception and no Canadian non-significance."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "neutral": true,
+        "note": "U.S. half of F2, plus the authors' interpretation reported as a suggestion ('suggesting ... played a role'): the neutral F-n1."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes tied to events, lasting a few days."
+      },
+      {
+        "partial": [
+          "F6"
+        ],
+        "note": "Exceptions stated in general terms (abstract wording); no states named."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "Canada half of F2 in the abstract's 'notably weaker' wording, accepted per F2's note. Not pointed out as contradicting S3 Fig, so no B2."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "'Francophone-only users underrepresented' is a fair paraphrase of 'anglophones or bilingual francophones'."
+      },
+      {
+        "match": [
+          "L5",
+          "L6"
+        ],
+        "note": "Suggestive because of temporal mismatch (L5) and correlational (L6)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approach vs network-based and lexicon-based. 'Advantages over' lexicon strategies tilts the paper's 'advantages that complement'; too slight to flag. No T0, no T3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I3",
+            "text": "Says the paper 'disputes' ref. 94's finding; the paper only says its Canadian result 'contrasts with' it (p.24) and does not say Owen et al. were wrong."
+          }
+        ],
+        "note": "Owen et al. is correct for ref. 94."
+      }
+    ]
+  }
+}

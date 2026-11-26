@@ -1,0 +1,93 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ],
+        "note": "Spillover onto perceptions (Q1) and representation (Q3), and whether a counter-narrative mitigates it (Q2)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Gives all three parts: harm to perceptions, improved representation, and the counter-narrative's near-removal of the harm ('vastly ameliorated', abstract)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E4"
+        ],
+        "note": "Survey experiment with Democrats via Prolific (E1 without pre-registration or dates). Three arms without identities or N (part of E2). Indices for perceptions, representation and ad support (E4 minus officials' motives)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Counter-narrative shown first vs ad alone; magnitude only in the quote."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Names quality of Democratic representation and public-serving motives, both increased vs control (Table 3)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory with the salient-exemplar mechanism. No T4 (no statement that the study tests the theory's prediction on the ad)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate to p.2 (refs 4,5); not a gold interlocutor."
+      }
+    ]
+  }
+}

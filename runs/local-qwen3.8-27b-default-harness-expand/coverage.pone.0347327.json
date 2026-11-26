@@ -1,0 +1,345 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "L3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Regional, topical and temporal variation (Q1); of Q3's three correlates only vaccination rates is in the claim (the quote lists all three). The methods aim (Q2) is in the quote, not the claim."
+      },
+      {
+        "partial": [
+          "Q2"
+        ],
+        "note": "A methods question about a text-based measure, without the fine regional and temporal resolution. 'Asks whether' it can serve as an alternative is loose (no comparison with network methods is made) but no claim of outperforming (F-x2); not flagged. Uncertain call."
+      },
+      {
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Groups' own lexicons make raw dissimilarity unreliable, so the method conditions on topic (p.4): the prior-work claim I7 the method must handle, placed here, as the earlier judge did in another slot. 'Necessary to isolate genuine partisan disagreement' is firmer than the paper's 'more likely reflects ... we hypothesize'; judged a wording tilt and not flagged."
+      },
+      {
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Strong U.S. correlation, 'notably weaker' in Canada (abstract wording), framed as a question: F2 placed here."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Repeats Q1; names vaccination and conspiracy, but not ideological leaning, of Q3's correlates."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision), plus the U.S. vaccination correlation (F2) placed here, as the earlier judge did. No B1 catch."
+      },
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Repeats C1 (p.13 and conclusion wording) and F2's U.S. half."
+      },
+      {
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Short-lived, event-linked spikes: a finding placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Period, both countries and corpus size ('approximately 50 million', the abstract's figure); the U.S./Canada split is detail."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E4",
+          "E3"
+        ],
+        "note": "Profile-location geocoding (E4) and the two-step profile/activity classifier with validation against election results and voter records (E3)."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Vaccination rates a year after the tweets; election results and case data not named as outside comparisons."
+      },
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "The raw 1% API stream (387M + 232M, about 619 million, before filtering; p.4): the data source, not the analyzed corpus, which entry 0 gives."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Four topics incl. conspiracy, hashtag annotation and fine-tuned RoBERTa classifiers with weak supervision."
+      },
+      {
+        "partial": [
+          "E2"
+        ],
+        "note": "Domain-adapted RoBERTa-base used for embedding (p.5): the embedding half of E2."
+      },
+      {
+        "unlisted": true,
+        "note": "Approximation algorithm (p.11). Accurate; not in the gold."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "Per-user topic embeddings, C-index score between parties, range 0 to 1."
+      },
+      {
+        "unlisted": true,
+        "note": "Repeats the approximation algorithm."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Repeats E1 with the split. 'The US dataset comprised ... Canada' is a slip of wording."
+      },
+      {
+        "misplaced": [
+          "F3"
+        ],
+        "note": "U.S. peaks and their events (Trump tweets, Biden mandate proposal, Biden vaccination; Tables 9, p.17-18): the event half of F3, placed in evidence."
+      },
+      {
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Canadian peaks and their events (p.18), the event half of F3 again."
+      },
+      {
+        "unlisted": true,
+        "note": "Nov 14 mask peak concurrent in both countries, possible cross-border influence (p.18). 'Suggesting' kept; accurate; not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "U.S. half of F1 (masks and vaccines, lockdowns mixed); Canada not mentioned."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2. 'Tangible public health implications' is the abstract's own hedged wording; not flagged."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes tied to events, lasting a few days."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Delaware high; Idaho, Alabama, Arkansas low."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Both parts: conservatives tweet conspiracy-related content more (not 'endorse', so not F-x3), and the U.S. small negative / Canada null correlation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6",
+          "L5"
+        ],
+        "note": "Correlational, not causal (L6), and suggestive because of the temporal mismatch (L5). The p.16 quote's 'played a significant role' is only in the quote, not the claim."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported location fields, false or incomplete locations, VPNs, bots; inflation of partisan distance is in entry 8."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Semantic-similarity proxy that may miss signals, with sarcasm."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L9"
+        ]
+      },
+      {
+        "partial": [
+          "L3"
+        ],
+        "note": "Bots may inflate the apparent semantic distance (p.25): the other half of L3. 'Thereby overstating' follows the paper's 'potentially inflating' with 'may'; not flagged."
+      },
+      {
+        "partial": [
+          "L8"
+        ],
+        "note": "Bloc Québécois supporters excluded; the merging into left and right party families is not stated."
+      },
+      {
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Canadian non-significance with the paper's few-regions reason, restated as a limitation (F1's Canada part), as the earlier judge did. Does not say the abstract claims significance in both, so no B1."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Repeats L6."
+      },
+      {
+        "partial": [
+          "L1"
+        ],
+        "note": "User-level aggregation may hide sarcasm or indirect disagreement (p.10); the semantic-proxy framing is in entry 5."
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Repeats L7."
+      },
+      {
+        "misplaced": [
+          "F2"
+        ],
+        "note": "S3 Fig: positive Canadian correlation on few points, no definite conclusion (p.26). F2's note accepts the supplementary number. Does not set it against the abstract's 'notably weaker', so no B2."
+      },
+      {
+        "unlisted": true,
+        "note": "No correlation with pandemic severity (S6 Fig, p.27). Accurate; a finding, not in the gold."
+      },
+      {
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Canada half of F2 with the paper's reasons, restated as a limitation, as the earlier judge did."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Text-embedding literature, text-based rather than network-based (T1). 'Goes beyond prior studies by adding geographic and temporal resolution' is the extension half of T3; agreement with the earlier right-leaning finding not stated. No T0."
+      },
+      {
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Groups use different lexicons, so topic-conditioning makes dissimilarity a proxy (p.4): I7 placed here, as the earlier judge did with a like entry."
+      },
+      {
+        "misplaced": [
+          "E2"
+        ],
+        "note": "The C-index as the measure of inter-party separation in embedding space: method (E2), not a framework. 'Tradition of clustering-based indices' is loose but the paper calls it 'a robust clustering measure'; not flagged."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Complement to lexicon strategies, alternative to network approaches given data restrictions."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I3",
+            "text": "Says the paper 'disputes' ref. 94's finding; the paper only says its Canadian result 'contrasts with' it (p.24) and does not say Owen et al. were wrong."
+          }
+        ],
+        "note": "Owen et al. is correct for ref. 94."
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Ref. 17 is Jiang, Ren and Ferrara: name correct. Agrees and extends."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Merkley et al. correct for ref. 103."
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Repeats I1; 'not universal' follows p.23."
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "L5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Spillover of the 'convicted criminal' ad onto perceptions of people with records (Q1); representation is only in the quote, not the claim."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      },
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "Repeats entry 1 with 'on perceptions and representation'."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad harm to perceptions and the counter-narrative's offset; the improvement in representation is in the next entry."
+      },
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "note": "C2 (elevate justice-involved voices over stigmatizing attacks). The ad's improvement of feelings of representation is the remaining part of C1. 'Likely due to a lower benchmark' tilts the paper's 'may be'/'may simply be' (p.15) slightly; still hedged, not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Repeats the counter-narrative half of entry 0."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "note": "Survey experiment via Prolific with 2,439 self-identified Democrats in three named arms (counts not given; calibration judge credited E2 for 'roughly even' arms). E1 without the dates or pre-registration, as in the calibration note."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Both halves: mugshot labeled 'CONVICTED CRIMINAL' and the edited news excerpt about a formerly incarcerated assemblymember."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4",
+          "E5"
+        ],
+        "note": "Outcome indices without the ad-support index (part of E4); least squares regression without robust SEs or the with/without covariates (part of E5)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "L1"
+        ],
+        "note": "No counter-narrative-only arm is the limitation L1, placed in evidence."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Attention checks, duplicates and reCAPTCHA bot screen (p.8)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Heterogeneity by system-impacted status and its main effect (p.13): accurate, not a gold answer (as in the calibration note)."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ],
+        "note": "Racial attitudes as a strong predictor is the finding F7, placed in evidence."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'relative to the advertisement alone'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "States the public-service-motives increase; the representation improvement is only offered as a suggestion ('suggesting a comparative improvement'), so partial."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "'More damaging for this group' is the paper's own wording (p.14). The main effect of system-impacted status is accurate extra detail."
+      },
+      {
+        "match": [
+          "F7"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2"
+        ],
+        "note": "Both limits; the claim attaches the image/label confound to the non-factorial design, but each consequence is stated correctly."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Quote is the 'Prolific has less' sentence (p.8); the claim states the AI-agent concern."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability and behavior; omits repeated exposure (that is in entry 10)."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L10"
+        ],
+        "note": "Sample restricted to self-identified Democrats, bounding generalization."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L7"
+        ],
+        "note": "Lower-end reliability of the perceptions index; omits the narrow measurement of representation."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "New category of deservingness vs stigma reduction; omits that the author thinks stigma reduction more likely."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Repeats L1 from entry 0."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Repeats L2 from entry 0."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Repeats the AI-agent concern of entry 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability and repeated exposure; behavior is in entry 2."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Grounds the argument in social categorization theory; no stance word (applies/extends), so no T4, as in the calibration note."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting as the basis of the counter-narrative. The second quote (p.15) is unrelated but the first is faithful."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a suggestion ('suggesting'), so credited. Says the advertisement is the reference point; the paper says Trump is. Minor."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Repeats T2 (counter-stereotypical narratives, p.15)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Meta-analytic evidence on negative ads, used to question the Party's strategy."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Policy support distinct from perceptions of beneficiaries, social safety net analogy (p.3): accurate, not a gold answer. It does not name motivated reasoning, so not T3."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T1"
+        ],
+        "note": "The exemplar mechanism of social categorization theory (p.2) is the framework T1, placed in the interlocutor slot."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Minimal-effects literature on messaging and affective polarization (p.3, [38,39]), used to qualify the emotional-mobilization rationale: accurate in substance, not a gold answer. 'Minimal or non-existent' is close to the paper's 'little to no ... with few exceptions'; 'regarding decision-making' is loose but not flagged."
+      },
+      {
+        "match": [
+          "I3"
+        ]
+      }
+    ]
+  }
+}

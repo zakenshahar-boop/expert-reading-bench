@@ -1,0 +1,221 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "L5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Spillover onto perceptions of people with records (Q1) and whether the counter-narrative mitigates it (Q2). The claim does not name representation, so no Q3 (only the quote does)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper's position (p.2) that acknowledging the convictions was necessary but stigmatizing terms were not; accurate, not a gold question (the earlier judge treated the same point as unlisted)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C2"
+        ],
+        "note": "The recommendation to elevate justice-involved voices instead of stigmatizing attacks is the central claim C2."
+      },
+      {
+        "match": [
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the harm to perceptions and the counter-narrative's offset; omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Survey experiment with self-identified Democrats on Prolific (E1; pre-registration and dates not given, as in the earlier judge's matches), 2,439 in the three arms (E2). E3 partial: the ad is described only as labeled 'convicted criminal' (no mugshot) and the counter-narrative only as about a formerly incarcerated legislator (not an edited news excerpt)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "The five-item perceptions index; one part of E4."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Quality-of-representation and motives indices (quality alpha 0.90 'strong', motives 0.90 'sufficient'); another part of E4. The ad-support index is never mentioned, so E4 is not joined."
+      },
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "note": "Restates entry 0 in other words (same quote); no extra credit in effect."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3 (edited excerpt from an article about a formerly incarcerated representative, perspective-getting and redemption, p.5). Not joined with entry 0: no evidence entry names the mugshot."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Balance check (p.8-9); accurate, not a gold answer."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the order (counter-narrative before the ad) and the comparison with the ad alone (p.11)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Representation and public-service motives increases, in the paper's own p.15 wording; credited as the earlier judge did for the same wording."
+      },
+      {
+        "match": [
+          "F4",
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2"
+        ],
+        "partial": [
+          "L4",
+          "L5"
+        ],
+        "note": "Non-factorial design (L1) and mugshot vs label (L2). Social desirability is given (L4 partial: no transparency of the design, no manipulation-check qualifier); tying it to the survey's modality is in line with the paper's 'data collection via different modalities' (p.17), so not flagged. 'Lack of longitudinal data on durability' is the durability part of L5 only."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability part of L5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Single vs repeated exposure part of L5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Behavior part of L5."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L11"
+        ],
+        "note": "States the consequence (the study cannot show whether the stereotypes activated changed racial attitudes) and the paper's call to study it as an outcome (p.18); does not say racial attitudes were measured only before the stimuli. Credited in full; could be read as partial."
+      },
+      {
+        "match": [
+          "L1",
+          "L2"
+        ],
+        "note": "Attributes the image/label confound to the lack of a full factorial design; the paper attributes it to the ad being shown the same way in every arm (p.17). Both limits are stated; not flagged."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability (part of L5) and replication during campaign periods (L6); 'less-transparent designs' is stated without the social desirability point, so no L4."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Concern about generative AI in the online panel, with the platform's lower bot rate as context (p.8, p.17)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "partial": [
+          "T2"
+        ],
+        "note": "Social categorization theory with the exemplar/spillover logic (T1), applied to the campaign ad (T4). Names perspective-getting interventions as the way to mitigate, without the research that grounds them: partial T2. Presenting them as an extension of the SCT framing is a slight tilt, but the paper does frame the counter-narrative as 'a counterexample to Trump' (p.4); not flagged."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as an interpretation ('suggesting'), not as the paper's framework; the paper says 'may simply be Prospect Theory in action' (p.15). Not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Meta-analysis that negative ads do not aid election success (p.2); the 'Democrats respond more to positive ads' addition is accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I4",
+            "text": "Says the paper builds on the claim that anger-inducing ads bolster support among the producing party. The paper offers it as a possible rationale for the ad and then qualifies it: 'However, this is not necessarily concrete', citing evidence that policy positions matter more for feelings of representation (p.3)."
+          }
+        ],
+        "note": "Substance of I4 (one study on anger-inducing ads, p.3) with the stance reversed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Subnational and event-driven variation (Q1) and the three correlates (Q3). The methods aim (Q2) is in the quote, not the claim."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Added entry. Not a question: the premise that political language varies across socio-demographic groups, each with its own lexicon (ref. 40, p.4), so dissimilarity alone is not polarization. That is the prior-work claim I7 the method must handle, placed here, as the earlier judge did for like entries in theoretical_positioning. Uncertain: the earlier judge gave nothing to a question-phrased version of this premise."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording, credited per C1's decision, plus the U.S. vaccination correlation (F2) placed here, as in calibration. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "'Millions of tweets from late 2020' without dates or country split (E1 partial). RoBERTa embeddings and the C-index named, but not as the separation of left- and right-leaning users' language (E2 partial). 'Geolocated' and 'party-classified' without source or method: no E4 or E3; topics not named in the claim: no E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Collection window (no dates in the claim) and the raw 1% stream counts (387M / 232M, accurate); the analyzed COVID corpus size is in the next entry only as 'millions'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Filtered COVID corpus, only as 'millions of tweets and users' (12.55M / 46.64M in the quote). With entries 0-1 the claims never give the dates or the counts, so E1 is not joined. Uncertain."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Profile location text, OSM and ArcGIS, census check."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Two-step profile/activity classifier; no validation against election results or voter records."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Hashtag annotation and fine-tuned RoBERTa classifiers for the three topics plus conspiracy."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "C-index separation of partisan groups on RoBERTa user embeddings."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Case and vaccination data from official sources; one-year lag only in the quote, election results as comparison not named."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "'Conservative US states and provinces' higher overall (p.14 quote); no masks/vaccines vs lockdowns split, no Canadian non-significance."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes last a few days and coincide with political events."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Quote is the conspiracy correlation sentence (p.21). Conservatives tweet conspiracy content more ('tweet', not 'endorse': not F-x3) and the small negative U.S. correlation; Canada's null not stated in the claim."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L6"
+        ],
+        "partial": [
+          "L7"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L7",
+            "text": "Says the language limitation 'biases Canadian results'; the paper calls English-only analysis 'a potential source of bias' and says Quebec's result 'may be influenced' (p.24)."
+          }
+        ],
+        "note": "Engaged Twitter users (L2); causality not established (L6, as credited before for p.16's hedge). 'Language limitation' without saying only English tweets were analyzed: L7 partial."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Proxy misses rhetorical signals such as sarcasm (p.10)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported locations can be wrong; VPNs, bots and the inflation of partisan distance not stated."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Temporal mismatch without its consequence (link suggestive, not causal). The general no-causation statements (entries 0 and 6) are credited as L6, so L5 is not joined. Uncertain."
+      },
+      {
+        "match": [
+          "L9"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Data cannot be shared (data availability statement, p.2). Accurate; not a gold limit."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Duplicates entry 0's L6."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approaches, text-only because network data are restricted. No T0."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Adds geographic and event-driven resolution; no agreement with earlier findings stated. 'Gap' follows the paper's 'addresses this need' (p.3); not flagged."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The paper's rationale for a multidimensional lens (p.3). Accurate; not a gold framework or stance."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Background on Democratic adherence to distancing, masks and vaccines (p.2): the neutral I-n1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Network-based approaches proven effective (p.3); the paper's response (text-based because network data are restricted) is not in this entry (it is in theoretical_positioning)."
+      }
+    ]
+  }
+}

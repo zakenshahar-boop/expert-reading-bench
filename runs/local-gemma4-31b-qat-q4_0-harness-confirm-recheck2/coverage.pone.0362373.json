@@ -1,0 +1,109 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Asks whether substance use, depression and AI identity are associated with ties (the note's own word) (Q3 for the substance use part; Q1 partial: demographic attributes not named). 'How friendship networks are formed' is too general for Q4. The p.2 quote is Q2's span, but the entry text does not ask whether heterogeneous-school patterns generalize."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural mechanisms and demographic homophily rather than risky behaviors: the abstract's own wording, credited per the C1 decision. Adding depression follows the abstract ('not substantively associated')."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Network data from 9th/10th graders in three Northern Plains reservation schools (E1; 'cross-sectional' not stated, as in the earlier judge's E1 call). N = 247 is the abstract's analysis sample, not paired with the 263 survey figures (E2 partial). ERGMs named, without per-school estimation, terms or AMEs (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "partial": [
+          "F3"
+        ],
+        "neutral": true,
+        "note": "Abstract's 'primary drivers' wording (F-n1, neutral): naming reciprocity and transitivity earns F2; 'demographic homophily' without naming gender, grade or sexual orientation in the entry text is F3 partial."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording: no consistent association with sending or receiving ties. Homophily is not covered and the exceptions are not named, so F1 partial."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Abstract wording ('not substantively associated')."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade homophily across all schools; sexual orientation not mentioned."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Incoming ties centralized only in School C (private preparatory school): one half of F5; outgoing centralization not mentioned."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Three schools on one reservation; may not extend to AI youth in heterogeneous schools."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional plus selection versus influence."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Moving beyond generalizations from prior research is the testing half of T3 (paper's wording, p.2-3), without what is replicated and what is disputed."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Research in diverse schools links substance use to friendship via selection and influence (p.2; 'consistently' is the paper's word). The note does not say the paper disputes its generalization, nor the receiver/homophily specifics: I1 partial."
+      }
+    ]
+  }
+}

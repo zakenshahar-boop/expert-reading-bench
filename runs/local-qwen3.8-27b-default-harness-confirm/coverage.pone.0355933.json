@@ -1,0 +1,168 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E1",
+    "E2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover of the label/advertisement onto perceptions of people with records (Q1) and the effect on perceived representation (Q3); wording follows the paper's own question (p.4)."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the ad's harm to perceptions and its improvement of representation; the counter-narrative part is in the next entry. Says 'advertisement with the label', the paper's wording, not the words alone (C-x3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Counter-narrative part of C1. 'Substantially mitigated' matches the abstract's 'vastly ameliorated'; the quote gives the order (preceded by)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "Survey experiment (E1, without sample/platform in the claim), the three arms (E2, without N), and stimuli: ad labeling Trump 'convicted criminal' and a counter-narrative about a formerly incarcerated state representative (E3 without the mugshot or the news-excerpt source)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Data source (Prolific, July 2025, self-identified Democrats in the U.S.; E1 without 'experiment', which is in entry 0, and without pre-registration) and total N of 2,439 (E2; arms are in entry 0). 2,439 is the final sample; the quote gives the 2,500 recruited."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Lists all six outcomes and that they are indices/Likert items; the item counts (five-item, two-item) are detail. Borderline match vs partial."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'before the advertisement' and 'relative to the advertisement alone'."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Both the representation and the public-service-motives increases, as the calibration judge credited. 'Suggesting a comparative benchmarking effect' is the author's hedged interpretation reported as a suggestion."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says system-impacted respondents were more positive 'across all items and treatment arms'; the paper says so 'with only one exception' (p.16), which the quote keeps but the claim drops."
+          }
+        ],
+        "note": "Main effect of system-impacted status is accurate but not gold; the larger ad effect for system-impacted respondents is part of F6 (the counter-narrative heterogeneity is not stated)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Durability, repeated exposure and behavior; the quote is the lead-in sentence but the claim states all three parts (p.17)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "AI-generated responses as a concern for online panels, with the paper's own mitigation (Prolific's low rates)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a suggestion ('suggesting ... may'), as the calibration judge credited."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Refs 45-46 are Todd & Galinsky 2014 and Harney 2023; the incarcerated-individuals part is ref 47, a small attribution slip, not flagged."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "'Using it to argue that the Democratic Party's stigmatizing strategy was counterproductive': the paper uses the meta-analysis to question negative ads and says stigmatizing terms were unnecessary and might backfire ('though this is also not guaranteed', p.3); it does not argue the strategy was counterproductive."
+          }
+        ],
+        "note": "Ref 7 is Lau, Sigelman & Rovner 2007."
+      }
+    ]
+  }
+}

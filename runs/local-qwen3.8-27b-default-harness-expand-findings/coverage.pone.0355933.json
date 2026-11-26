@@ -1,0 +1,345 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "C1",
+    "E3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover of the label/advertisement onto perceptions of people with records (Q1) and the effect on perceived representation (Q3); wording follows the paper's own question (p.4)."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I2"
+        ],
+        "note": "The meta-analytic evidence that negative ads do not aid election success is the interlocutor claim I2, placed in the question slot; the positive-ads point (ref 6) is accurate but not gold."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T5"
+        ],
+        "note": "Prospect theory as a possible account of the representation results is T5; hedge kept ('raises the possibility')."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Keeps the paper's hedge (p.16, p.18 'may be decreasing solidarity'); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "L5"
+        ],
+        "note": "Durability and translation to behavior are the L5 limitation (repeated exposure omitted)."
+      },
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Restates entries 0 and 1 in other words (ad's effect on perceptions; counter-narrative shown before the ad)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the ad's harm to perceptions and its improvement of representation; the counter-narrative part is in the next entry. Says 'advertisement with the label', the paper's wording, not the words alone (C-x3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Counter-narrative part of C1. 'Substantially mitigated' matches the abstract's 'vastly ameliorated'; the quote gives the order (preceded by)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Repeats the ad harm and the counter-narrative's near-complete offset; no representation part (that is in entry 0)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "Survey experiment (E1, without sample/platform in the claim), the three arms (E2, without N), and stimuli: ad labeling Trump 'convicted criminal' and a counter-narrative about a formerly incarcerated state representative (E3 without the mugshot or the news-excerpt source)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Data source (Prolific, July 2025, self-identified Democrats in the U.S.; E1 without 'experiment', which is in entry 0, and without pre-registration) and total N of 2,439 (E2; arms are in entry 0). 2,439 is the final sample; the quote gives the 2,500 recruited."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Lists all six outcomes and that they are indices/Likert items; the item counts (five-item, two-item) are detail. Borderline match vs partial."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "'reCATPCHA' is the paper's own spelling (p.8)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "The pre-registered covariates of the regression models; the estimator itself is not stated."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "L1"
+        ],
+        "note": "The missing counter-narrative-only arm is the limitation L1, placed in the evidence slot."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "Result reported as in the paper (p.10)."
+      },
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Three-arm survey experiment, 2,439 Democrats, Prolific, July 2025 (E1, E2). E3 partial: the mugshot and the news-article excerpt, without the 'convicted criminal' label or who the excerpt is about (both are in entry 0). 'Recruited ... 2,439' blurs recruited (2,500) and retained; not flagged."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'before the advertisement' and 'relative to the advertisement alone'."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Both the representation and the public-service-motives increases, as the calibration judge credited. 'Suggesting a comparative benchmarking effect' is the author's hedged interpretation reported as a suggestion."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says system-impacted respondents were more positive 'across all items and treatment arms'; the paper says so 'with only one exception' (p.16), which the quote keeps but the claim drops."
+          }
+        ],
+        "note": "Main effect of system-impacted status is accurate but not gold; the larger ad effect for system-impacted respondents is part of F6 (the counter-narrative heterogeneity is not stated)."
+      },
+      {
+        "match": [
+          "F10"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Durability, repeated exposure and behavior; the quote is the lead-in sentence but the claim states all three parts (p.17)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "AI-generated responses as a concern for online panels, with the paper's own mitigation (Prolific's low rates)."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L9"
+        ],
+        "note": "States the alternative (new category of deservingness vs stigma reduction) but not the author's view that stigma reduction is more likely (only in the quote)."
+      },
+      {
+        "match": [
+          "L10"
+        ]
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The 'does more harm than good' item moved opposite to the hypothesis and the author offers possible explanations (p.12-13); accurate, not gold. 'Unresolvable' is the note's word; the paper just leaves them open."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a suggestion ('suggesting ... may'), as the calibration judge credited."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "'Extend ... into political messaging' fits the paper's 'presumably unexplored messaging intervention' (p.3)."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "'Arguing Trump functions as a lowered reference point' drops the paper's hedge ('may simply be Prospect Theory in action: Donald J. Trump may be serving as reference point', p.15)."
+          }
+        ],
+        "note": "Repeats entry 1 (T5)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Refs 45-46 are Todd & Galinsky 2014 and Harney 2023; the incarcerated-individuals part is ref 47, a small attribution slip, not flagged."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "'Using it to argue that the Democratic Party's stigmatizing strategy was counterproductive': the paper uses the meta-analysis to question negative ads and says stigmatizing terms were unnecessary and might backfire ('though this is also not guaranteed', p.3); it does not argue the strategy was counterproductive."
+          }
+        ],
+        "note": "Ref 7 is Lau, Sigelman & Rovner 2007."
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Refs 8-10 are Denver et al. 2024, Harris & Socia 2016, Imhoff 2015."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says the paper uses Côté-Lussier (ref 11) 'to argue that stigmatizing language in campaign ads could increase support for punitive policy among Democrats'. The paper cites it among the known negative consequences of labels (p.2) and then separates Democrats' policy support from their perceptions of the people affected (p.3); it does not make that argument."
+          }
+        ],
+        "note": "The cited finding itself is accurate to p.2 and not a gold answer."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T5"
+        ],
+        "note": "Prospect theory (Kahneman & Tversky, ref 73) as a hedged account of the representation result is the framework T5, not a peer claim the paper engages; hedge kept ('may serve')."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Ref 37 is Kalla & Broockman 2017, as the paper cites it."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref 74 is Macdonald et al. 2025; accurate to p.15 except that the paper says candidates temper messages 'when facing well-resourced opponents', not 'in general elections'. Small slip, not flagged."
+      }
+    ]
+  }
+}

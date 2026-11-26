@@ -1,0 +1,268 @@
+{
+  "paper_id": "pone.0355933",
+  "model": "qwen3.6-35b-a3b-q4km",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-qwen3.6-35b-a3b-q4km-harness-confirm (complete)",
+    "quotes confirmed",
+    "claims re-checked (version 2)"
+  ],
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 1
+  },
+  "short_tokens": 600,
+  "long_tokens": 4000,
+  "model_calls": 14,
+  "input_tokens": 8879,
+  "output_tokens": 28,
+  "seconds": 4.9,
+  "summary": {
+    "quotes found": 16,
+    "pages corrected": 0,
+    "repairs that worked": 0,
+    "repair attempts": 0,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 5,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper investigates whether Democratic Party messaging that labels Donald Trump as a 'convicted criminal' causes negative spillover effects on Democrats' perceptions of individuals with criminal records more broadly, and whether a counter-narrative featuring a formerly system-involved representative can mitigate these effects.\", \"quotes\": [{\"text\": \"To test for the possibility of stigmatizing language spillover, this preliminary study employs a survey experiment testing exposure to the Party’s advertisement, labeling Trump as a “convicted criminal” (n = 814) relative to no advertisement (n = 813), on Democrats’ perceptions of individuals with records and several dimensions of perceived representation.\", \"page\": 1}, {\"text\": \"Thus, this study explores what may have been the impact of propagating such labels on Democrats’ perceptions of people with criminal records, and to what extent does the propagation of such stigmatizing terminology impact how well Democrats perceive to be represented by their own elected officials?\", \"page\": 4}]}], \"central_claim\": [{\"claim\": \"Exposure to a Democratic Party advertisement labeling Trump as a 'convicted criminal' significantly worsens Democrats' perceptions of individuals with criminal records, but this negative effect is largely ameliorated when participants are first exposed to a counter-narrative featuring the perspective of a formerly incarcerated state representative.\", \"quotes\": [{\"text\": \"First, there is clear evidence that the Trump advertisement caused decreases in positive perceptions of individuals with criminal records amongst Democrats, but when paired with (and preceded by) a counter-narrative of a dedicated, system-impacted state representative who speaks to the harm of the “criminal” label, these effects were almost entirely ameliorated\", \"page\": 15}]}], \"evidence\": \"not stated\", \"key_findings\": [{\"claim\": \"Exposure to the Trump advertisement alone significantly increased Democrats' feelings of being well-represented by elected officials and their belief that officials are motivated by public service rather than self-interest.\", \"quotes\": [{\"text\": \"Additionally, exposure to the Trump advertisement significantly increased feelings of being well represented by elected officials and the extent to which Democrats perceived that elected officials were motivated by public service over self-interest.\", \"page\": 15}]}, {\"claim\": \"The counter-narrative significantly decreased support for the Trump advertisement and worsened perceptions of the quality of Democratic representation in federal government compared to seeing the advertisement alone.\", \"quotes\": [{\"text\": \"Starting with H1A, exposure to the counter-narrative significantly decreased support for the Trump advertisement, relative to the Trump advertisement alone ( β̂2 = −0.172 SE = 0.048).\", \"page\": 11}, {\"text\": \"Additionally, evidence supported H1D, namely that exposure to the counter-narrative significantly decreased quality of Democratic representation in federal government, relative to just Trump advertisement exposure ( β̂2 = −0.332, SE = 0.048).\", \"page\": 11}]}], \"scope_and_limits\": \"not stated\", \"theoretical_positioning\": \"not stated\", \"interlocutor_claim\": [{\"claim\": \"The paper disputes or builds on the claim that negative campaign advertisements effectively aid election success, noting that meta-analytic evidence does not empirically support this use, and that Democrats tend to respond more to positive ads than Republicans.\", \"quotes\": [{\"text\": \"Additionally, meta-analytic evidence does not empirically support the use of negative campaign advertisements to aid election success [7].\", \"page\": 2}, {\"text\": \"prior evidence on the effects of negative campaign advertisements suggests that they tend to be utilized less by those leading in the polls [4,5] and that Democrats tend to respond more to positive ads, compared to Republicans [6].\", \"page\": 2}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "recheck2",
+      "slot": "question",
+      "claim": "The paper investigates whether Democratic Party messaging that labels Donald Trump as a 'convicted criminal' causes negative spillover effects on Democrats' perceptions of individuals with criminal records more broadly, and whether a counter-narrative featuring a formerly system-involved representative can mitigate these effects.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "central_claim",
+      "claim": "Exposure to a Democratic Party advertisement labeling Trump as a 'convicted criminal' significantly worsens Democrats' perceptions of individuals with criminal records, but this negative effect is largely ameliorated when participants are first exposed to a counter-narrative featuring the perspective of a formerly incarcerated state representative.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "direction",
+          "same"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "evidence",
+      "claim": "The study uses a survey experiment with 2,439 self-identified Democratic Party members recruited via the online platform Prolific, randomly assigning them to a control group, a group exposed only to a Trump advertisement labeled 'convicted criminal,' or a group exposed to a counter-narrative about a formerly incarcerated legislator before seeing the advertisement.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Exposure to the Trump advertisement labeled 'convicted criminal' significantly decreased positive perceptions of individuals with criminal records among Democrats compared to the control group.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Presenting a counter-narrative about a formerly incarcerated legislator before the advertisement significantly increased positive perceptions of individuals with criminal records compared to seeing the advertisement alone.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Exposure to the Trump advertisement alone significantly increased Democrats' feelings of being well-represented by elected officials and their belief that officials are motivated by public service rather than self-interest.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "direction",
+          "same"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "The counter-narrative significantly decreased support for the Trump advertisement and worsened perceptions of the quality of Democratic representation in federal government compared to seeing the advertisement alone.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "direction",
+          "same"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "scope_and_limits",
+      "claim": "The study acknowledges limitations including the use of a non-factorial design that prevents isolating the effect of the counter-narrative alone, the potential for social desirability bias due to online survey methods, the inability to disentangle the image of the mugshot from the text label, and the lack of longitudinal data on the durability of effects.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "theoretical_positioning",
+      "claim": "The authors position their work within social categorization theory, using it to explain how the salience of Trump as a 'convicted criminal' exemplar leads to homogenized spillover perceptions of individuals with records, and they extend this by testing perspective-getting interventions to mitigate these effects.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "interlocutor_claim",
+      "claim": "The paper disputes or builds on the claim that negative campaign advertisements effectively aid election success, noting that meta-analytic evidence does not empirically support this use, and that Democrats tend to respond more to positive ads than Republicans.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "other view",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    }
+  ]
+}

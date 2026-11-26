@@ -1,0 +1,50 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Spillover onto perceptions of people with records (Q1) and whether the counter-narrative mitigates it (Q2). The claim does not name representation, so no Q3 (only the quote does)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Gives the harm to perceptions and the counter-narrative's offset; omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Representation and public-service motives increases, in the paper's own p.15 wording; credited as the earlier judge did for the same wording."
+      },
+      {
+        "match": [
+          "F4",
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [],
+    "theoretical_positioning": [],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Meta-analysis that negative ads do not aid election success (p.2); the 'Democrats respond more to positive ads' addition is accurate."
+      }
+    ]
+  }
+}

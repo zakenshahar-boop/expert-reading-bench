@@ -1,0 +1,141 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Whether substance use shapes tie formation (Q3). 'How friendship networks form' is too general for Q4 (no structural patterns named in the claim) or Q1 (no attributes besides substance use)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C3"
+        ],
+        "note": "Abstract's 'structural and demographic commonalities rather than risky behaviors' is C1. The challenge to network-based prevention is C3 without the call for culturally grounded theory and interventions (in the quote, not the claim)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3",
+          "E4"
+        ],
+        "note": "Data source (E1); directed nominations without the up-to-10 limit (E4 partial); ERGMs only (E3 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "77% overall response rate without the stage or count (the quote gives 263); not paired with 247, so no flag. Network Canvas and the advisory-board review are accurate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5",
+          "E6"
+        ],
+        "note": "Self-reported substance use (part of E5) and peer-perception imputation of missing items (E6 without the sensitivity analysis)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity and transitivity as 'primary drivers' is the abstract's wording; naming the two patterns earns F2 (F-n1 adds nothing). Consistency across schools is implied rather than stated; credited, as the calibration judge did for 'strong and consistent drivers'."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Sending, receiving and homophily; the claim adds homophily beyond the abstract quote, which the results support (p.13)."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Depression and AI identity; 'substantively unrelated' follows the paper's 'substantively negligible'/'not substantively associated'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade only; no sexual orientation."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5",
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "F1",
+            "text": "The note says only School C shows 'isolated alcohol effects'; the paper reports the alcohol sender effect in School C but the alcohol homophily exception in School B (p<0.01, p.13, p.15)."
+          }
+        ],
+        "note": "Incoming-tie centralization only in School C is half of F5. The alcohol exception is a detail of F1, but it is placed wrongly as the only-School-C pattern."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Selection versus influence would be L3, but its only quote is marked NOT IN PAPER."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "One developmental period at one time point, cannot capture change over time; credited under the L4 decision (developmental stage mentioned)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "'Social network analysis and adolescent peer network research' is a vague T1 (as the calibration judge treated 'social network analysis tradition'); moving beyond generalizations is the testing half of T3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Rees, Freng and Winfree's finding, without the paper's note that it was descriptive or that the paper builds on it."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Diverse-school link between substance use and friendship (I1 content, no stance stated), but its only quote is marked NOT IN PAPER."
+      }
+    ]
+  }
+}

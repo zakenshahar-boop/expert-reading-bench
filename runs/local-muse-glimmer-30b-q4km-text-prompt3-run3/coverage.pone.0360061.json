@@ -1,0 +1,126 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Rather than only with deprivation or personality' is Q3; Q1 contained."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile engaged users have 'greater reach'. The paper says 'greater potential reach' and that their engagement 'may' give them a higher reach, not evidence of influence (p.1, p.15)."
+          }
+        ],
+        "note": "C1 with the strongest associations (F1). 'More active with greater reach' is too vague for a misplaced F3."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "Survey linked to X data (E1); the SU word-embedding measure is named without the cosine similarity or per-user averaging (partial E4). The 2019-2021 dates attach to the scraped X data, not the six-wave YouGov panel, so no E3; the post count is only in the quote."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association after controls; the strongest indicators are not named."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says associations are stronger among more affectively polarized users, 'especially for participation', without the paper's 'for some indicators' and 'partially consistent with Expectation 2' (p.14)."
+          }
+        ],
+        "note": "As in the run2 note: keeps 'especially for participation', drops the partial-support qualification; mild flag."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "ungrounded": [
+          "L7"
+        ],
+        "note": "No causal identification, with the RI-CLPM quote (p.10), is L2. The network-influence part (L7) is supported only by the quote about the exploratory expectation, which does not state it."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L1"
+        ],
+        "note": "L1 in substance, but its only quote is marked NOT IN PAPER."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "note": "Classical political behavior (T1, p.2 quote in paper), revisionist motivated-reasoning literature on the costs of engagement (T2), extended to online hostility (T3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Says the paper 'disputes' the classical view that engagement is a boon to democracy. The paper qualifies it: the classical literature itself acknowledged engagement 'could go too far' (p.4), and the paper extends the revisionist view."
+          }
+        ],
+        "note": "'Disputes' tilts the paper's qualifying stance; credit kept with a mild flag, as the earlier judge did for the same wording."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I4"
+        ],
+        "note": "Psychological accounts attributing severe hate to extreme traits (Dark Triad, sadism); omits the small-segment point and the paper's stance (adds to, does not reject)."
+      }
+    ]
+  }
+}

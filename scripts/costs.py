@@ -2,7 +2,8 @@
 
     python3 scripts/costs.py
 
-API models: dollars per paper at the listed standard rates. Local models: minutes per paper.
+API models: dollars per paper at the listed standard rates. Local models: minutes per paper, and for those that had
+a GPU to themselves, electricity at the GPU's power limit (an upper bound; docs/prices.json, "electricity").
 Output tokens include a model's reasoning tokens, which are billed as output.
 """
 
@@ -11,7 +12,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PRICES = json.loads((ROOT / "docs" / "prices.json").read_text())["models"]
+_P = json.loads((ROOT / "docs" / "prices.json").read_text())
+PRICES, POWER = _P["models"], _P.get("electricity", {})
 
 
 def usage(run: str) -> dict:
@@ -29,6 +31,8 @@ def usage(run: str) -> dict:
 
 
 def dollars(u: dict) -> float | None:
+    if u["model"] in POWER.get("models", []):  # electricity only: seconds at the power limit
+        return u["seconds"] / 3600 * POWER["watts"] / 1000 * POWER["dollars_per_kwh"]
     p = PRICES.get(u["model"])
     return None if p is None else (u["input"] * p["input"] + u["output"] * p["output"]) / 1e6
 

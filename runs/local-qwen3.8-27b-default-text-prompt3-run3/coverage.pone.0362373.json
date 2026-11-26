@@ -1,0 +1,147 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Substance use, depression and AI identity in friendship formation (Q1 without demographics, partial; role of substance use, Q3). The contrast with heterogeneous settings is stated, and the p.2 Q2 span is quoted, but the claim does not ask whether those patterns hold there (Q2 partial)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C2"
+        ],
+        "note": "Structural and demographic organization rather than risky behaviors (C1, abstract wording). 'Departs from patterns documented in non-AI populations' follows p.13 ('diverges notably from prior research on non-AI adolescent populations') and gives the comparative half of C2 without 'weaker organizing principle'; not C-x1, since no comparison sample is claimed."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Survey network data, 9th/10th grade, three Northern Plains reservation schools (E1). 77% overall response rate, without the 263/247 counts in the claim (E2 partial; the quote carries N=247 but the claim does not pair it with 77%). ERGMs (E3 part)."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E5"
+        ],
+        "note": "Structural terms and actor attributes, with AMEs for comparability across schools: E3 with the ERGMs of the previous entry. Measured domains listed (E5 partial, as in the calibration)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Universal' is the paper's wording (p.13)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Exceptions mentioned as isolated and non-replicating, not named."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "All three homophilies; quote includes sexual orientation."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "note": "Outdegree centralized in all schools, indegree only in School C. 'Suggesting egalitarian norms constrain popularity hierarchies in tribal schools' keeps a hedge ('suggesting'; paper 'may reflect', p.15); not flagged."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Claim names heterogeneous schools; 'other reservations' is implied by the quoted one-reservation sentence."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "ERGM/SNA tradition (vague T1); moving beyond generalizations from heterogeneous settings, with the weaker-organizing-principle quote (T3 dispute half, no replication half)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "misplaced": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note says the assumption does not hold 'in AI-majority settings' and that common network interventions 'may therefore be ineffective'; the paper says it 'does not hold in our study' and that such strategies 'may not be as effective as previously thought' (p.16)."
+          }
+        ],
+        "note": "The risky-behavior assumption is the interlocutor answer I4 (misplaced); disputing its generalization repeats T3's dispute half."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Receiver effects and homophily in heterogeneous schools, disputed for AI-majority schools. Ali et al. 2014 (ref 13), Schaefer et al. 2012 (ref 11), Haas & Schaefer 2014 (ref 22) correct; the others are in Table 1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Rees, Freng and Winfree (2014, ref 17, year correct) described AI networks with Add Health and the paper notes their analysis was descriptive. The finding (fewer reciprocated friendships than White peers) is only in the quote, not in the claim: partial. 'Disputes the sufficiency of their approach' is a fair reading of p.2's gap statement; not flagged."
+      }
+    ]
+  }
+}

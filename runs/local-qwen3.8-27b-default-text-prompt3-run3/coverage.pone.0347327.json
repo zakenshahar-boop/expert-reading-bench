@@ -1,0 +1,136 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Regional and temporal variation in both countries (Q1); 'relationship with public health outcomes' covers only the vaccination part of Q3. The methods-aim quote (p.3) is not stated in the claim, so no Q2."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision), plus the U.S. vaccination correlation (F2) placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "Period, both countries, over 50 million tweets (E1). Users 'geolocated to subnational regions' without saying how (E4 partial). 'Filtered to politically engaged users' is loose (the filter was political keywords) but the paper itself calls them politically engaged users; not flagged."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Two-step profile/activity classifier with F1; no validation against election results or voter records."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "U.S. half of F1; Canada not mentioned."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "neutral": true,
+        "note": "U.S. half of F2, plus the authors' interpretation as a hedged suggestion ('may have shaped'): neutral F-n1."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes tied to events, lasting a few days."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "Idaho, Alabama, Arkansas low; Delaware, Colorado, New Jersey high (the last two are the paper's lockdown outliers, p.14)."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "Canada half of F2 ('weaker or absent', small sample and mandates, p.16)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Semantic-similarity proxy that may miss signals; the earlier judge credited the same wording as L1 in full."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T3"
+        ],
+        "note": "Text-embedding literature, text-based rather than network (T1); extends earlier studies that identified regional patterns by adding geographic and temporal resolution (T3, as the earlier judge credited a like wording). No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Owen et al. correct for ref. 94; 'contrasts' is the paper's word."
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording, credited per C1's decision, plus the U.S. vaccination correlation (F2) placed here, as in calibration. No B1 catch."
+      }
+    ],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "'Conservative US states and provinces' higher overall (p.14 quote); no masks/vaccines vs lockdowns split, no Canadian non-significance."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes last a few days and coincide with political events."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Conservatives tweet conspiracy content more ('tweet', not 'endorse': not F-x3) and the small negative U.S. correlation; Canada's null correlation not stated."
+      }
+    ],
+    "scope_and_limits": [],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Garbled wording ('text-based method is associated with restricted network data') but the same substance as T1. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Background on Democratic adherence to distancing, masks and vaccines (p.2): the neutral I-n1."
+      }
+    ]
+  }
+}

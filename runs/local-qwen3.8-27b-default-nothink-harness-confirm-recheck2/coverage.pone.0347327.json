@@ -1,0 +1,119 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and event-driven variation in the US and Canada across the three topics (Q1). The methods aim (Q2) is only in the quote, not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording ('significantly higher ... in both countries'), credited per C1's decision. No B1 catch."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "US vaccination correlation (F2's US half) placed in central_claim. 'Tangible public health implications' is the abstract's wording; not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Short-lived event-linked spikes: the finding F3, placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records: the validation half of E3. No entry gives the two-step classifier, so no join. No data-source entry (E1 missing)."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1",
+          "F6"
+        ],
+        "note": "US half of F1 (masks and vaccines higher, lockdowns mixed); Canada's non-significance not stated. Delaware and Idaho named as outliers without direction: part of F6."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Conservatives tweet conspiracy content at higher rates ('tweeted', not 'endorsed', so not F-x3) plus the US small negative / Canada no correlation. Quote covers only the correlation; still in the paper."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "partial": [
+          "L6"
+        ],
+        "note": "Suggestive, not causal, because of the time gap (L5). 'Complexity of social factors' and the quote gesture at L6, but the claim limits it to the vaccination correlation."
+      },
+      {
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported locations, VPNs and bots; the possible inflation of partisan distance not stated."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approach chosen over network-based methods. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "partial": [
+          "I7"
+        ],
+        "note": "The topic-conditioning point (p.4). The prior-work claim that groups have their own lexicon is in the quote, not the claim, and 'disputes the assumption' attributes the naive view to no one; the paper's own wording rejects it ('does not necessarily indicate'), so not flagged."
+      },
+      {
+        "partial": [
+          "I1"
+        ],
+        "note": "Builds on and extends prior work (p.22), but the prior claim is given only as 'partisan divergence in pandemic response', not that right-leaning states were more divided."
+      }
+    ]
+  }
+}

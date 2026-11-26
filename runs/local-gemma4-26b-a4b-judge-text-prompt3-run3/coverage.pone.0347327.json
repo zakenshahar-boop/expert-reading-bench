@@ -1,0 +1,88 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Abstract wording for C1 (no B1 catch); varies by region, topic and leaning with a U.S./Canada difference (C2). Events-linked part is half of F3, placed here. 'Linked to ... vaccination rates' gives no direction or country, so no F2 credit; not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "E1",
+            "text": "Gives 'approximately 58.5 million tweets'; the paper gives 12.5 + 46.6 million (about 59.1 million) and 'over 50 million'. 58.5 million is in neither."
+          }
+        ],
+        "note": "Only quote NOT IN PAPER. Would be E1 (dates, countries; split not given) with the topics of E5."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1",
+          "F6"
+        ],
+        "note": "Exceptions to the pattern (abstract, p.1) without naming Delaware, Arkansas, Alabama or Idaho: partial F6. The lead clause 'polarization is high in conservative regions' is part of F1."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "partial": [
+          "L2",
+          "L7"
+        ],
+        "note": "Semantic similarity may miss sarcasm (L1). 'Limited to Twitter users' and 'English-language tweets in Canada' without the consequence (vocal subset; Quebec bias): partials. One of the three quotes is NOT IN PAPER; two are faithful."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "Says the work moves beyond 'simple national-level observations'; the prior studies the paper cites already found that right-leaning states were more divided (p.22), and the paper extends them with geographic heterogeneity and temporal evolution."
+          }
+        ],
+        "note": "Extension only, no agreement with earlier findings stated. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Prior studies [10,62]: conservative states more polarized; the paper builds on them."
+      }
+    ]
+  }
+}

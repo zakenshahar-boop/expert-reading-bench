@@ -1,0 +1,156 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and event-driven variation in the US and Canada across the three topics (Q1). The methods aim (Q2) is only in the quote, not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording ('significantly higher ... in both countries'), credited per C1's decision. No B1 catch."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "US vaccination correlation (F2's US half) placed in central_claim. 'Tangible public health implications' is the abstract's wording; not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Short-lived event-linked spikes: the finding F3, placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Over 50 million tweets with exact dates (Oct 9, 2020 to Jan 4, 2021) and keyword/topic filtering; the US/Canada split is not given, treated as detail."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E2"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be a full E2."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "E4",
+          "E3"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be partial E4 and partial E3."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records (one of two quotes in the paper). The two-step classifier half is in entry 2, which is ungrounded, so E3 is not joined."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1",
+          "F6"
+        ],
+        "note": "US half of F1 (masks and vaccines higher, lockdowns mixed); Canada's non-significance not stated. Delaware and Idaho named as outliers without direction: part of F6."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be a full F2."
+      },
+      {
+        "partial": [
+          "F3"
+        ],
+        "note": "Events (Trump lockdown tweets, Biden's vaccination; Tables 9 and p.18) tied to spikes; that spikes last only days is not stated. 'Triggered' echoes the paper's 'event-triggered' wording (p.21); not flagged. Grounded by the p.18 quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be a full F4."
+      },
+      {
+        "partial": [
+          "F5"
+        ],
+        "match": [
+          "F7"
+        ],
+        "note": "Canada lower overall (F5's first half; the weaker association with conservatism not stated). Quebec highest with the English-only caveat (F7). Grounded by the p.25 quote."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "partial": [
+          "L6"
+        ],
+        "note": "Suggestive, not causal, because of the time gap (L5). 'Complexity of social factors' and the quote gesture at L6, but the claim limits it to the vaccination correlation."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be partial L3."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be T1."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "partial": [
+          "I7"
+        ],
+        "note": "The topic-conditioning point (p.4). The prior-work claim that groups have their own lexicon is in the quote, not the claim, and 'disputes the assumption' attributes the naive view to no one; the paper's own wording rejects it ('does not necessarily indicate'), so not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER. Would be partial I1."
+      }
+    ]
+  }
+}

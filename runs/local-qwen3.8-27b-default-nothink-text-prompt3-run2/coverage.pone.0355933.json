@@ -1,0 +1,100 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Spillover (Q1) and whether the counter-narrative mitigates it (Q2). One quote is faithful; the other is empty (NOT IN PAPER)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad harm and counter-narrative offset; omits that the ad improved feelings of representation. First quote NOT IN PAPER, second faithful."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "note": "Survey experiment via Prolific with 2,439 self-identified Democrats in three named arms (counts not given; calibration judge credited E2 for 'roughly even' arms). E1 without the dates or pre-registration, as in the calibration note."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Both halves of E3; 'Jovan Jackson' and Nevada are named in the paper (p.4-5)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'prior to the advertisement' and the offset of the ad's impact; not flagged."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Feelings of being well represented and public-service motives, as in the calibration note's match. 'Likely due to Trump serving as a low benchmark' tilts the paper's 'may' (p.15) slightly; not flagged."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "'More damaging for this group' is the paper's own wording (p.14). The main effect of system-impacted status is accurate extra detail."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2"
+        ],
+        "note": "Both limits stated."
+      },
+      {
+        "match": [
+          "L3",
+          "L6"
+        ],
+        "partial": [
+          "L5"
+        ],
+        "note": "AI-bot concern (L3); replication during active campaigns (L6, as the calibration judge credited without the July 2025 date); durability only, without repeated exposure or behavior (partial L5)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "note": "Social categorization theory, 'extending this theory to explain political messaging spillover' (stance)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      }
+    ]
+  }
+}

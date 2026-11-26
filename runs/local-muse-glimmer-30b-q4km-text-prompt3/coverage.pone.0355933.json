@@ -1,0 +1,103 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover onto perceptions of people with records (Q1) and how representation perceptions are affected (Q3). The counter-narrative question (Q2) is not in the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Gives all three parts: harm to perceptions, improved representation, and the counter-narrative's near-removal of the harm ('vastly ameliorated', abstract)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Online survey experiment with Democrats on Prolific (E1, without pre-registration or dates). 'Three-arm' is part of E2; the claim gives neither the arms' identities nor the N (those are only in the quote)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "The quote is pre-registered hypothesis 2A, not the result, but it is in the paper and the claim states the result correctly (p.11)."
+      },
+      {
+        "match": [
+          "F4",
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "Says the counter-narrative 'greatly reduced support for the ad'. The paper reports a significant decrease of about 0.17 SD (p.11) and never calls it large; of the two support items only explicit support was significant. The quote is hypothesis 1B, not a result."
+          }
+        ],
+        "note": "F2: counter-narrative shown before the ad improved perceptions (comparison with the ad alone is implied by 'presented before the ad'; magnitude not given). F4 credited with a mild flag for 'greatly'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Abstract wording ('improved perceived feelings of representation'). The labeler's F3 decision asks for the named outcome (quality of Democratic representation) and the public-service motives result; neither is given."
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "note": "The quote is hypothesis 1D; the result is supported (p.11)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory explaining spillover. Not credited T4: the entry does not say the study carries the theory to a campaign ad and tests its prediction (same call as the earlier judge on a similar entry)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "I2",
+            "text": "Says prior literature claims negative campaign ads help election success and the authors dispute it. The paper cites meta-analytic evidence that does NOT support negative ads aiding election success (p.2, ref 7) and builds on it; the entry inverts what the literature says and the paper's stance toward it, against its own quote."
+          }
+        ],
+        "note": "No credit."
+      }
+    ]
+  }
+}

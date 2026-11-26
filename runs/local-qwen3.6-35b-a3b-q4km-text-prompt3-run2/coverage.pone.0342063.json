@@ -1,0 +1,104 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "All three quotes marked NOT IN PAPER (ellipsis splices). Would be partial C1 (conservative half for hesitancy and boosters; liberals-regardless part missing), with the F1 main associations as misplaced content."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "Online survey of 683 US participants in early 2023 (p.1 quote in the paper); no convenience sample/Qualtrics, no exclusion figures, climate via 'zip code election data' without % Republican."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Hesitancy interaction significant and stronger in conservative regions; the liberal-regardless part is in [1]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberals low regardless; conservatives' hesitancy varies with environment, without direction in the claim. 'Varies significantly' not flagged (the interaction is significant)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (60% vs under 35% in the quote); liberals boosted anywhere not stated. 'Significantly' not flagged."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L1"
+        ],
+        "note": "Cross-sectional with its consequence (L2); zip-code proxy confounded by other regional factors such as population density (L1)."
+      },
+      {
+        "match": [
+          "L4",
+          "L3"
+        ],
+        "note": "Online panel of White and Black participants only, may not generalize (L4). 'Relies on self-reported data susceptible to bias' credited as L3 although the bias types are not named; the self-report quote is in the paper."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Prior research on orientation or climate in isolation, extended by testing their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Says the paper 'disputes the sufficiency' of prior research that treated orientation or climate separately. The paper builds on that work and notes a gap ('Previous studies have focused on either...', 'little research on the interaction'); it does not dispute it."
+          }
+        ],
+        "note": "Substance of I2 (prior work treats one or the other; the paper examines both); 'disputes' tilts a gap statement into a disagreement."
+      }
+    ]
+  }
+}

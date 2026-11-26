@@ -1,0 +1,112 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "Both quotes marked NOT IN PAPER (ellipsis splices). Would be a full C1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "Both quotes marked NOT IN PAPER (ellipsis splices). Would be partial E1, E2, E3 (online survey of 683 in early 2023, 2020 vote share by zip code; no convenience sample, Qualtrics, exclusions or % Republican)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Quotes marked NOT IN PAPER (wrong page, ellipsis splice, or 'Political conservatism' capitalised mid-sentence). Would be a full F1."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2",
+          "F3"
+        ],
+        "note": "Both quotes marked NOT IN PAPER. Would be partial F2 and F3 (liberal halves)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Conservative halves of F2 and F3; the p.1 quote is in the paper (the p.8 one is not)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Vaccine-status interaction not significant; the mandates explanation is only in the p.10 quote (which is in the paper). First quote NOT IN PAPER."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L1"
+        ],
+        "note": "Cross-sectional with its consequence (L2) and zip-code proxy confounded by regional factors like population density (L1). First quote is in the paper; the second is marked NOT IN PAPER, so the entry is grounded."
+      },
+      {
+        "match": [
+          "L4",
+          "L3"
+        ],
+        "note": "Online panel of White and Black participants only, may not generalize (L4). 'Relies on self-reported data susceptible to bias' credited as L3 although the bias types are not named; the self-report quote is in the paper."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two previously separate literatures (orientation, climate) combined by testing their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I5"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I5",
+            "text": "Says the paper disputes the notion that political orientation is the sole or primary predictor of hesitancy. The paper cites ref. 18 (orientation has become a better predictor than demographics, fear and trust, p.2) as background it builds on, and never argues against it."
+          },
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says regional context 'significantly alters the behavior of conservative individuals' and that environmental factors 'play a crucial role'. The paper reports associations, says only that environmental factors 'may impact' booster decisions, did not assess the mechanism, and cannot assume causal or directional associations (p.10)."
+          }
+        ],
+        "note": "The cited claim (ref. 18, quoted from p.2) is I5, so partial credit for naming it; the stance is reversed and the causal wording is stronger than the paper."
+      }
+    ]
+  }
+}

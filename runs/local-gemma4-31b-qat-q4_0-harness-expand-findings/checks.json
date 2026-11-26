@@ -1,0 +1,561 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 8,
+      "in own quotes": 8,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 29,
+      "causal word not in quote": 3,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The study examines how attitudes and behaviors regarding vaccination shifted as the pandemic progressed from initial vaccine doses to booster shots."
+        },
+        {
+          "slot": "question",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "The authors suggest that the absence of a significant interaction between political conservatism and regional climate regarding initial vaccine status may be due to the widespread use of vaccine mandates."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "Possible",
+          "claim": "COVID-19 vaccine and booster status were measured via self-reported responses of yes, no, or I don't know."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "The interaction between political orientation and regional climate did not significantly affect the initial vaccination status, which the authors suggest may be due to vaccine mandates."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "influence",
+          "claim": "The use of zip code data might overlook other regional variables, such as population density, that could influence the results."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 35,
+      "abstract": 6,
+      "introduction": 2,
+      "background": 0,
+      "methods": 11,
+      "results": 4,
+      "discussion": 12,
+      "other": 0,
+      "unknown": 0,
+      "first third": 15,
+      "middle third": 5,
+      "last third": 15
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 16,
+      "overlapped, any slot": 18,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "E1",
+        "E2",
+        "E3",
+        "F5",
+        "F6",
+        "L1",
+        "T0",
+        "T1",
+        "T2",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 8,
+      "in own quotes": 5,
+      "elsewhere in paper": 3,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper investigates the subnational and event-driven variations of partisan polarization in online discourse during the COVID-19 pandemic across the United States and Canada."
+        },
+        {
+          "slot": "key_findings",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "Conservative regions in both countries showed higher levels of polarization regarding COVID-19 public health measures."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The authors extend existing research linking right-leaning regions to COVID-19 polarization by characterizing the temporal evolution and geographic heterogeneity of this polarization in relation to real-world events."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 34,
+      "causal word not in quote": 1,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "In the United States, there is a strong negative correlation between the degree of vaccine-related polarization and actual vaccination rates."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "influenced",
+          "claim": "Differences in keyword strategies used for the US and Canada may have influenced the comparative polarization results."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 3,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 39,
+      "abstract": 7,
+      "introduction": 2,
+      "background": 0,
+      "methods": 8,
+      "results": 2,
+      "discussion": 16,
+      "other": 1,
+      "unknown": 3,
+      "first third": 18,
+      "middle third": 3,
+      "last third": 18
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 20,
+      "overlapped, any slot": 20,
+      "core findings": 2,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q1",
+        "C2",
+        "E4",
+        "E6",
+        "F2",
+        "F5",
+        "F6",
+        "F7",
+        "L3",
+        "L5",
+        "L8",
+        "T0",
+        "T1",
+        "T2",
+        "I2",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 5,
+      "in own quotes": 3,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 70.6,
+          "where": "elsewhere in paper",
+          "claim": "The study's sample of Democrats was 59.4% women, 70.6% White, and 21.4% system-impacted."
+        },
+        {
+          "slot": "evidence",
+          "number": 21.4,
+          "where": "elsewhere in paper",
+          "claim": "The study's sample of Democrats was 59.4% women, 70.6% White, and 21.4% system-impacted."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 29,
+      "causal word not in quote": 3,
+      "hedge dropped": 9,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The study examines how labeling Donald Trump as a 'convicted criminal' in Democratic political advertisements affects Democrats' views of people with criminal records and their sense of representation, and whether a counter-narrative can mitigate negative effects."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The paper argues against the assumption that stigmatizing labels used against a specific political figure do not affect perceptions of others within that same social category."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper argues against the idea that support for criminal justice system reform policies necessarily coincides with positive perceptions of the individuals impacted by those policies."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to advertisements labeling Trump as a 'convicted criminal' negatively impacts Democrats' perceptions of people with criminal records but improves their feelings of representation; however, providing a counter-narrative featuring a system-involved representative largely mitigates the negative perceptions of people with records."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "Could",
+          "claim": "The counter-narrative consisted of a modified excerpt from a 2024 article about a formerly incarcerated state Assemblymember's perspective on rehabilitation and the \"criminal\" label."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "led to",
+          "claim": "The counter-narrative led to a significant decrease in support for the use of the Trump advertisement."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "impact",
+          "claim": "The negative impact of the Trump advertisement on perceptions of individuals with criminal records was significantly greater for those who identified as system-impacted."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "appeared",
+          "claim": "The negative impact of the Trump advertisement on perceptions of individuals with criminal records was significantly greater for those who identified as system-impacted."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "The study cannot distinguish whether the observed effects were caused by the stigmatizing text label or the image of Trump's mugshot."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "lead to",
+          "claim": "The author applies social categorization theory to argue that applying stigmatizing labels to a specific group exemplar like Trump can lead to negative spillover perceptions for the group as a whole."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The author applies social categorization theory to argue that applying stigmatizing labels to a specific group exemplar like Trump can lead to negative spillover perceptions for the group as a whole."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The author interprets the findings regarding perceived representation as an application of Prospect Theory, where Trump serves as a reference point."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 34,
+      "abstract": 4,
+      "introduction": 5,
+      "background": 0,
+      "methods": 7,
+      "results": 10,
+      "discussion": 8,
+      "other": 0,
+      "unknown": 0,
+      "first third": 14,
+      "middle third": 9,
+      "last third": 11
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 16,
+      "overlapped, any slot": 16,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q2",
+        "Q4",
+        "C2",
+        "E1",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L1",
+        "L4",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "T3",
+        "T4",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 0,
+      "in own quotes": 0,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 35,
+      "causal word not in quote": 3,
+      "hedge dropped": 6,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors examine whether the association between political engagement and online hostility is strengthened by leader-directed affective polarization."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "exploratory",
+          "claim": "Analytical methods include ordinary least squares (OLS) regression for cross-sectional data, Random-Intercept Cross-Lagged Panel Models (RI-CLPM) for temporal within-person associations, and negative-binomial count models for activity and reach."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "appears",
+          "claim": "The authors used Random-Intercept Cross-Lagged Panel Models to examine temporal within-person associations."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The link between political engagement and online hostility is more pronounced for users who exhibit high levels of affective polarization toward political leaders."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "to a lesser extent",
+          "claim": "Users who express higher levels of political hostility are more active on X, posting more frequently and possessing a larger number of followers and friends."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The observations regarding higher activity and follower counts should not be taken as evidence of formal network centrality or influence."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "cause",
+          "claim": "The results do not imply that higher education levels independently cause more hostility without the mediating factor of political engagement."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "lead to",
+          "claim": "The authors extend a revisionist perspective on political engagement, which argues that engagement can lead to biased or antagonistic processing, by applying it to the study of online political hostility."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "Grievance-based theoretical accounts suggest that online hostility is primarily driven by socioeconomic marginalization, deprivation, and perceptions of status threat."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 3,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 41,
+      "abstract": 2,
+      "introduction": 3,
+      "background": 4,
+      "methods": 12,
+      "results": 12,
+      "discussion": 8,
+      "other": 0,
+      "unknown": 0,
+      "first third": 8,
+      "middle third": 10,
+      "last third": 23
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 16,
+      "overlapped, any slot": 18,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q2",
+        "C2",
+        "E1",
+        "E2",
+        "E3",
+        "E6",
+        "F2",
+        "F6",
+        "F7",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T4",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 3,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 27,
+      "causal word not in quote": 2,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "causal",
+          "word": "influence",
+          "claim": "The paper asks how friendship networks are formed among American Indian adolescents in reservation schools, specifically whether substance use, depression, or AI identity influence these ties."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks how friendship networks are formed among American Indian adolescents in reservation schools, specifically whether substance use, depression, or AI identity influence these ties."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "Friendship networks in AI-majority reservation schools are primarily driven by structural mechanisms and demographic homophily, rather than by risky behaviors like substance use or psychological factors like depression."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "Sexual orientation homophily was found to be significant and positive across the studied schools."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 29,
+      "abstract": 7,
+      "introduction": 4,
+      "background": 0,
+      "methods": 4,
+      "results": 2,
+      "discussion": 12,
+      "other": 0,
+      "unknown": 0,
+      "first third": 12,
+      "middle third": 3,
+      "last third": 14
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 13,
+      "overlapped, any slot": 15,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q3",
+        "C2",
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "F2",
+        "F4",
+        "F5",
+        "F7",
+        "F8",
+        "L2",
+        "L5",
+        "L6",
+        "T1",
+        "T2",
+        "I2",
+        "I3",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

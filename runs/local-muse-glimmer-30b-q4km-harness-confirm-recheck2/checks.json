@@ -1,0 +1,427 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 2,
+      "in own quotes": 2,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 10,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "Conservatives’ booster uptake is associated with their political climate while liberals’ uptake is not."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 10,
+      "abstract": 6,
+      "introduction": 2,
+      "background": 0,
+      "methods": 0,
+      "results": 0,
+      "discussion": 2,
+      "other": 0,
+      "unknown": 0,
+      "first third": 8,
+      "middle third": 0,
+      "last third": 2
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 6,
+      "overlapped, any slot": 7,
+      "core findings": 3,
+      "core findings overlapped": 1,
+      "missed": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "L1",
+        "L4",
+        "L5",
+        "L6",
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 0,
+      "in own quotes": 0,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 7,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "Politically conservative regions showed significantly higher partisan polarization in both countries, especially in the US, and US vaccine polarization negatively correlates with vaccination rates."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 8,
+      "abstract": 3,
+      "introduction": 2,
+      "background": 0,
+      "methods": 0,
+      "results": 3,
+      "discussion": 0,
+      "other": 0,
+      "unknown": 0,
+      "first third": 5,
+      "middle third": 2,
+      "last third": 1
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 4,
+      "overlapped, any slot": 4,
+      "core findings": 2,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "C2",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F1",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 0,
+      "in own quotes": 0,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 5,
+      "causal word not in quote": 0,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to the Democratic Trump ad labeling him a convicted criminal negatively shifts Democrats’ perceptions of people with criminal records but improves perceived representation, and a counter-stereotype narrative largely mitigates the negative perceptual effects."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper is positioned within social categorization theory, using it to explain spillover of stigmatizing labels."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 0,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 8,
+      "abstract": 5,
+      "introduction": 1,
+      "background": 0,
+      "methods": 2,
+      "results": 0,
+      "discussion": 0,
+      "other": 0,
+      "unknown": 0,
+      "first third": 7,
+      "middle third": 1,
+      "last third": 0
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 5,
+      "overlapped, any slot": 5,
+      "core findings": 3,
+      "core findings overlapped": 0,
+      "missed": [
+        "Q2",
+        "Q3",
+        "Q4",
+        "C2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 1,
+      "in own quotes": 1,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 7,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The authors avoid claims about formal network influence or centrality."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 7,
+      "abstract": 2,
+      "introduction": 4,
+      "background": 0,
+      "methods": 1,
+      "results": 0,
+      "discussion": 0,
+      "other": 0,
+      "unknown": 0,
+      "first third": 6,
+      "middle third": 1,
+      "last third": 0
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 5,
+      "overlapped, any slot": 5,
+      "core findings": 3,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q1",
+        "Q2",
+        "C2",
+        "E1",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T4",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 2,
+      "in own quotes": 2,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 6,
+      "causal word not in quote": 0,
+      "hedge dropped": 0,
+      "items": []
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 0,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 7,
+      "abstract": 4,
+      "introduction": 0,
+      "background": 0,
+      "methods": 0,
+      "results": 3,
+      "discussion": 0,
+      "other": 0,
+      "unknown": 0,
+      "first third": 4,
+      "middle third": 0,
+      "last third": 3
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 5,
+      "overlapped, any slot": 5,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "C2",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F4",
+        "F5",
+        "F7",
+        "F8",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "T1",
+        "T2",
+        "T3",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

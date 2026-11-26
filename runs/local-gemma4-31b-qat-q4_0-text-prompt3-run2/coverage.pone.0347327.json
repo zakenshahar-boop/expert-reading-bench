@@ -1,0 +1,105 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and temporal variation across the U.S. and Canada."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2",
+          "F3"
+        ],
+        "note": "Abstract wording for C1 (credited), plus the U.S. vaccination correlation (F2, U.S. half) and event-linked spikes (F3, without their short duration) placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1",
+          "E5"
+        ],
+        "note": "'Over 50 million tweets from late 2020' without dates or split; three topics named without conspiracy or the classification method."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings and C-index separation of partisan users."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher in both countries (p.13 wording); no topic split and no Canadian non-significance."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Short-lived spikes linked to events. 'Triggered' echoes the paper's 'event-triggered variation' (p.21); not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Conservatives post conspiracy-related content at higher rates (half of F4; 'produced ... content', not 'endorsed', so not F-x3). Its only quote is marked NOT IN PAPER (it crosses the p.20-21 break), so no credit."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Vocal, engaged subset of Twitter users; quote is the abstract's sentence."
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "English-only, francophones in Canada; Quebec not named. Credited as the substance of L7."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "Extends text-embedding methods (T1, without the contrast with dictionary or network approaches) by adding geography, time and topic (T3's added resolution, without agreement with earlier findings). Same call as the calibration note's methodological framing."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Builds on earlier research (Jiang et al., ref. 17) finding right-leaning regions more divided (p.22). The extension is stated in theoretical_positioning."
+      }
+    ]
+  }
+}

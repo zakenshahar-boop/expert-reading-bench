@@ -1,0 +1,131 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Spillover (Q1) and whether the counter-narrative mitigates it (Q2); representation is only in the quote."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad's harm and the counter-narrative's near-complete offset ('almost entirely ameliorated'); omits that the ad improved feelings of representation. Two of the three quotes are marked NOT IN PAPER (curly vs straight quotes); the p.1 'vastly ameliorated' quote is in the paper, so the entry is grounded."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "note": "Survey experiment on Prolific with 2,439 self-identified Democrats in three arms (counts in the quote); outcomes appear only in a quote."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'before the Trump ad' and 'relative to the ad alone'. Quote cited as p.10; it is on p.11."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "'A finding that ran counter to the pre-registered hypothesis' is attached to both outcomes. Feelings of representation were 'not hypothesized' (p.11); only the motives estimate runs against H2B's stated direction, and the paper itself calls H2B supported (the F-n1 tension)."
+          }
+        ],
+        "note": "Same substance as F3; treated like the parallel entry in run2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says system-impacted respondents were more positive 'across all items and treatment arms'; the paper says so 'with only one exception' (p.16), which the quote keeps but the claim drops."
+          }
+        ],
+        "note": "Main effect of system-impacted status is accurate but not gold; the larger ad effect for system-impacted respondents is part of F6 (the counter-narrative heterogeneity is not stated). The ad part keeps the paper's 'appearing more damaging' (p.14)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Adds the budget reason (p.16)."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability (and other contexts / less transparent designs). Mentions 'conducted after the election' only as context, without the campaign-period consequence, so no L6 credit."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "First quote is unrelated (replication), second supports the claim."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I5"
+        ],
+        "partial": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "'Disputes this': the paper qualifies the emotional-mobilization evidence ('this is not necessarily concrete', p.3) rather than disputing it."
+          }
+        ],
+        "note": "Attribution of refs 30-32 (Abramowitz & Webster; Kushner Gadarian & Brader; Versteegen) is correct. Policy alignment mattering for feelings of representation, set against affect, is I5 (as the calibration judge credited a similar entry). The emotional-support claim the paper qualifies is the body of work behind I4, not the one anger-ads study, so partial I4."
+      }
+    ]
+  }
+}

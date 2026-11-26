@@ -1,0 +1,70 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Beyond deprivation or personality-based explanations' is Q3; Q1 is contained in it and not credited twice."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Adds the strongest associations (interest, knowledge, online participation), the distinctive part of F1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "2,567 linked panelists only; no post count. Survey responses matched to X handles is not credited as E1 (data source), as the earlier judge did not credit E1 for the same linkage statement; E1 therefore missing from this note."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association only; the strongest indicators are not named here."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Quote is the p.2 sentence on avoiding claims about network influence or centrality."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Revisionist view of engagement (T2), extended to online hostility (T3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "States the classical view (engagement factors central to democratic engagement) without the paper's qualifying stance toward it."
+      }
+    ]
+  }
+}

@@ -15,14 +15,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from build_dashboard_data import HARNESS, MODELS, PAPERS, SLOTS, frac, matches  # noqa: E402
+from build_dashboard_data import CONTRIBUTED, HARNESS, MODELS, PAPERS, SLOTS, frac, matches  # noqa: E402
 from costs import per_paper as cost_per_paper  # noqa: E402
 from score_coverage import score  # noqa: E402
 
 OUT = ROOT / "docs" / "figures"
 BLUE, LIGHT, INK, GRID, DARK, RED, AMBER = "#3b6fb6", "#9db8dc", "#5b6470", "#d5d9df", "#16202e", "#b4442f", "#c98a1b"
 FONT = 'font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13"'
-ORDER = ["Claude Opus 5.5", "GPT-6.2 Astra", "GPT-6.2 Sol", "Claude Haiku 5.5", "GPT-4o", "Qwen3 4B (local)"]
+SHORT = {"Claude Opus 5.5": "Opus 5.5", "Claude Haiku 5.5": "Haiku 5.5", "Qwen3 4B (local)": "Qwen3 4B", "Gemma 4 31B (local)": "Gemma 31B",
+         "Qwen3.8 27B, thinking low (local)": "Qwen3.8 think", "Qwen3.8 27B, thinking off (local)": "Qwen3.8 no think",
+         "Muse Glimmer 30B (local)": "Muse 30B", "Gemma 4 26B-A4B (local)": "Gemma 26B", "Qwen3.6 35B-A3B (local)": "Qwen3.6 35B"}
 
 
 def cells(run: str) -> list[dict]:
@@ -78,9 +80,10 @@ def main() -> None:
     harness = {}
     for name, setting, run in HARNESS:
         harness.setdefault(name, []).append((setting, total(cells(run)), run))
+    ORDER = sorted(tot, key=lambda n: -mean(n, "reading"))  # every figure lists the models by reading score
 
     # 1. Headline: the reading score, each model a point among its paper-by-paper scores
-    W, left, right, top, row = 820, 170, 40, 56, 46
+    W, left, right, top, row = 900, 250, 40, 56, 46
     x = lambda v: left + (W - left - right) * v / 100  # noqa: E731
     H = top + len(ORDER) * row + 64
     b = [text(left, 22, "Reading score: coverage, discounted for wrong or unquotable entries", fill=DARK, size=15, weight=600)]
@@ -112,8 +115,8 @@ def main() -> None:
                sum(c["answers"] for cs in data[name] for c in cs if c["paper"] == g)),
               ("By part of the note", [s for _, s in SLOTS], lambda name, g: 100 * sum(c["slots"][sid][0] for cs in data[name] for c in cs for sid, sn in SLOTS if sn == g) /
                sum(c["slots"][sid][1] for cs in data[name] for c in cs for sid, sn in SLOTS if sn == g))]
-    short = [n.replace("Claude ", "").replace(" (local)", "") for n in ORDER]
-    cw, lab = 78, 170
+    short = [SHORT.get(n, n) for n in ORDER]
+    cw, lab = 92, 170
     W = lab + cw * len(ORDER) + 20
     heights = [62 + ch * len(rows) + 26 for _, rows, _ in groups]
     H = sum(heights)
@@ -121,7 +124,7 @@ def main() -> None:
     for gi, (title, rows, value) in enumerate(groups):
         b.append(text(lab, oy + 20, f"Coverage: {title[0].lower()}{title[1:]}", fill=DARK, size=15, weight=600))
         for j, s in enumerate(short):
-            b.append(text(lab + j * cw + cw / 2, oy + 48, s, "middle", size=12))
+            b.append(text(lab + j * cw + cw / 2, oy + 48, s, "middle", size=11))
         for i, g in enumerate(rows):
             y = oy + 58 + i * ch
             b.append(text(lab - 10, y + ch / 2 + 4.5, g, "end", DARK))
@@ -133,7 +136,7 @@ def main() -> None:
     svg("coverage_grids.svg", W, H, b, "Coverage by paper and by part of the note, percent")
 
     # 3. Quotes and flags
-    W, left, top, row = 820, 170, 56, 34
+    W, left, top, row = 900, 250, 56, 34
     half = (W - left - 60) / 2
     H = top + len(ORDER) * row + 50
     b = [text(left, 22, "Quotes found in the paper", fill=DARK, size=15, weight=600),
@@ -159,8 +162,8 @@ def main() -> None:
 
     # 4. The harness: coverage and serious flags under each setting
     W, left, top, row = 820, 330, 56, 26
-    rows = [(n, s, t) for n in ("Qwen3 4B (local)", "GPT-4o", "Claude Haiku 5.5") for s, t, _ in harness[n]]
-    H = top + len(rows) * row + 3 * 10 + 20
+    rows = [(n, s, t) for n in sorted(harness, key=lambda n: harness[n][0][1]["coverage"]) for s, t, _ in harness[n]]
+    H = top + len(rows) * row + len(harness) * (row + 10) + 20
     x = lambda v: left + (W - left - 190) * v / 100  # noqa: E731
     b = [text(20, 22, "What each harness setting does to coverage and serious flags", fill=DARK, size=15, weight=600)]
     b += axis(x, top, H - 14, suffix="%")
@@ -170,6 +173,7 @@ def main() -> None:
         if name != last:
             y += 10 if last else 0
             b.append(text(20, y + 17, name, fill=DARK, weight=600))
+            y += row
             last = name
         alone = setting == "Model alone"
         b.append(text(left - 10, y + 17, "alone" if alone else setting.lower(), "end"))
@@ -183,26 +187,34 @@ def main() -> None:
     svg("harness.svg", W, H, b, "Coverage and serious flags for each model under each harness setting")
 
     # 5. Cost against coverage
-    W, H, left, right, top, bottom = 820, 420, 70, 150, 50, 56
-    pts = []
+    W, H, left, right, top, bottom = 900, 470, 70, 150, 50, 84
+    pts, local = [], {name for _, name, _ in CONTRIBUTED}
     for mid, name, runs in MODELS:
         c = statistics.mean(cost_per_paper([r])["dollars"] or 0 for r in runs)
         if c:
             pts.append((name, c, mean(name, "coverage"), False))
-    for tag, name, steps in (("haiku-5-5", "Claude Haiku 5.5", ["haiku-5-5-text-prompt3", "cost-haiku-5-5-expand", "cost-haiku-5-5-findings"]),):
+    chains = [("Claude Haiku 5.5", ["haiku-5-5-text-prompt3", "cost-haiku-5-5-expand", "cost-haiku-5-5-findings"])]
+    chains += [(name, [p + "-text-prompt3", p + "-harness-expand", p + "-harness-expand-findings"]) for _, name, p in CONTRIBUTED]
+    for name, steps in chains:
         t = [h for h in harness[name] if h[0] == "Asked for more, key findings too"][0][1]
-        pts.append((name + " + harness", cost_per_paper(steps)["dollars"], t["coverage"], True))
-    lo, hi = math.log10(0.003), math.log10(1)
+        c = cost_per_paper(steps)["dollars"]
+        if c:
+            pts.append((name + " + harness", c, t["coverage"], True))
+    lo, hi = math.log10(0.0003), math.log10(1)
     x = lambda c: left + (W - left - right) * (math.log10(c) - lo) / (hi - lo)  # noqa: E731
     yv = lambda v: H - bottom - (H - top - bottom) * v / 100  # noqa: E731
     b = [text(left, 22, "Cost per paper against coverage", fill=DARK, size=15, weight=600)]
-    for c in (0.003, 0.01, 0.03, 0.1, 0.3, 1):
+    for c in (0.0003, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1):
         b.append(f'<line x1="{x(c):.1f}" x2="{x(c):.1f}" y1="{top}" y2="{H - bottom}" stroke="{GRID}"/>')
         b.append(text(x(c), H - bottom + 18, f"${c:g}", "middle"))
     for v in (0, 25, 50, 75, 100):
         b.append(f'<line x1="{left}" x2="{W - right}" y1="{yv(v):.1f}" y2="{yv(v):.1f}" stroke="{GRID}"/>')
         b.append(text(left - 8, yv(v) + 4.5, f"{v}%", "end"))
-    b.append(text((left + W - right) / 2, H - 12, "cost per paper, standard rates, log scale", "middle"))
+    b.append(text((left + W - right) / 2, H - 46, "cost per paper, log scale", "middle"))
+    ky = H - 18
+    b.append(f'<circle cx="{left + 6}" cy="{ky}" r="7" fill="{BLUE}"/>' + text(left + 20, ky + 4.5, "API model, standard rates"))
+    b.append(f'<circle cx="{left + 226}" cy="{ky}" r="7" fill="{AMBER}"/>' + text(left + 240, ky + 4.5, "local model, electricity only, at most"))
+    b.append(f'<path d="M{left + 510} {ky - 8}l8 8l-8 8l-8 -8Z" fill="#ffffff" stroke="{DARK}" stroke-width="1.8"/>' + text(left + 524, ky + 4.5, "with the harness"))
     base = {n: (c, v) for n, c, v, h in pts if not h}
     for name, c, v, h in pts:
         if h:
@@ -210,9 +222,12 @@ def main() -> None:
             b.append(f'<line x1="{x(bc):.1f}" y1="{yv(bv):.1f}" x2="{x(c):.1f}" y2="{yv(v):.1f}" stroke="{INK}" stroke-dasharray="3 3"/>')
             b.append(f'<path d="M{x(c):.1f} {yv(v) - 8:.1f}l8 8l-8 8l-8 -8Z" fill="#ffffff" stroke="{DARK}" stroke-width="1.8"/>')
         else:
-            b.append(f'<circle cx="{x(c):.1f}" cy="{yv(v):.1f}" r="7" fill="{BLUE}" stroke="#ffffff" stroke-width="2"/>')
-        dx, dy, anchor = {"GPT-6.2 Sol": (-12, 4.5, "end"), "Claude Opus 5.5": (0, -14, "middle"), "GPT-6.2 Astra": (12, 16, "start")}.get(name, (12, 4.5, "start"))
-        b.append(text(x(c) + dx, yv(v) + dy, name, anchor, DARK))
+            b.append(f'<circle cx="{x(c):.1f}" cy="{yv(v):.1f}" r="7" fill="{AMBER if name in local else BLUE}" stroke="#ffffff" stroke-width="2"/>')
+        dx, dy, anchor = {"GPT-6.2 Sol": (-12, 4.5, "end"), "Claude Opus 5.5": (0, -14, "middle"), "GPT-6.2 Astra": (12, 16, "start"),
+                          "Gemma 4 26B-A4B (local) + harness": (10, 20, "start"), "Qwen3.6 35B-A3B (local)": (0, -14, "middle"),
+                          "Muse Glimmer 30B (local)": (10, 18, "start"), "Gemma 4 31B (local)": (10, 18, "start")}.get(name, (12, 4.5, "start"))
+        label = SHORT.get(name.replace(" + harness", ""), name.replace(" + harness", "")) + (" + harness" if h else "")
+        b.append(text(x(c) + dx, yv(v) + dy, label if name.replace(" + harness", "") in local else name, anchor, DARK))
     svg("cost.svg", W, H, b, "Cost per paper against coverage, by model")
 
     for name in ORDER:

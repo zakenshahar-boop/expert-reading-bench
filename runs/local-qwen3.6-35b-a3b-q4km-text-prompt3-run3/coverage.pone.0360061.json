@@ -1,0 +1,80 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "ungrounded": ["Q3"],
+        "note": "The claim is Q3, but its only quote is spliced and marked NOT IN PAPER."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": ["C1"],
+        "note": "Lists the indicators, not the strongest ones, so F1 is not credited."
+      }
+    ],
+    "evidence": [
+      {
+        "match": ["E1"],
+        "partial": ["E4"],
+        "note": "Panel survey linked to X/Twitter data is E1. Names the Super-Unsupervised word-embedding approach without the cosine similarity or per-user averaging (partial E4, as in the calibration notes). The p.1 quote is in the paper."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": ["F1"],
+        "note": "Positive significant associations, strongest for interest, knowledge and online participation. The p.1 quote is in the paper."
+      },
+      {
+        "match": [],
+        "ungrounded": ["F2"],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger among users higher in leader-directed affective polarization, 'particularly for participatory indicators'. The paper says it is 'often' stronger descriptively and only 'partially consistent with Expectation 2' (p.13-14); the partial-support qualification is dropped."
+          }
+        ],
+        "note": "Both quotes are marked NOT IN PAPER, so no credit; would be partial F2 if grounded."
+      },
+      {
+        "match": ["F3"]
+      },
+      {
+        "match": [],
+        "partial": ["F5"],
+        "note": "RI-CLPM: within-person increases in online engagement followed by higher hostility; the weaker reverse pattern is not stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": ["L2", "L1", "L5"],
+        "note": "Correlational, not causal (L2); may not generalize to other platforms (L1, hedged as in the paper); affective polarization measured toward party elites (L5). Two of the four quotes are in the paper."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": ["T2", "T3", "T1"],
+        "note": "Extends the revisionist view of engagement to online hostility (T2, T3). 'Building on classical theories' is credited as T1 (p.15 'Building on classical theories of political engagement'), as the calibration judge did for a similar entry; the entry describes those theories by their recognition that engagement can become excessive (p.2)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": ["I3", "I4"],
+        "misplaced": ["C2"],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "C-x2",
+            "text": "Says the paper 'disputes the view that online hostility is primarily driven by' grievance or personality, 'arguing instead'. The paper 'does not seek to adjudicate between these literatures' (p.3) and says hostility is 'not only' associated with those explanations (p.15)."
+          }
+        ],
+        "note": "Grievance and personality accounts (personality without the small-segment finding) with a distorted stance: partial I3 and I4, as the calibration judge did for 'challenges the notion that hostility is primarily driven by'. 'Also associated with normative democratic engagement', with the p.15 quote, is C2 in the wrong slot. The p.15 quote is in the paper."
+      }
+    ]
+  }
+}

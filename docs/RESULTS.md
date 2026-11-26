@@ -10,11 +10,17 @@ Coverage is points over the 187 accepted answers of the five papers. One judge (
 | Claude Opus 5.5 | 3 | 78% | 79 / 76 / 78 | 12.7/14 | 664/664 | 664/664 | 2 / 0 / 0 | 2 / 2 / 3 | 76% | 0/5 |
 | GPT-6.2 Astra | 3 | 75% | 73 / 76 / 76 | 13.8/14 | 1064/1065 | 1064/1065 | 0 / 0 / 0 | 2 / 3 / 3 | 71% | 0/5 |
 | GPT-6.2 Sol | 3 | 75% | 72 / 75 / 76 | 13.8/14 | 1231/1234 | 1231/1234 | 1 / 0 / 0 | 0 / 1 / 0 | 70% | 0/5 |
+| Qwen3.8 27B, thinking low (local) | 3 | 48% | 51 / 45 / 48 | 10.8/14 | 348/354 | 345/354 | 2 / 1 / 1 | 7 / 8 / 6 | 47% | 0/5 |
+| Qwen3.8 27B, thinking off (local) | 3 | 39% | 38 / 39 / 40 | 9.3/14 | 320/367 | 318/367 | 2 / 1 / 3 | 6 / 5 / 3 | 39% | 0/5 |
 | Claude Haiku 5.5 | 3 | 38% | 37 / 37 / 40 | 10.2/14 | 253/255 | 252/255 | 0 / 1 / 1 | 1 / 0 / 0 | 38% | 0/5 |
+| Gemma 4 31B (local) | 3 | 33% | 34 / 32 / 34 | 10.0/14 | 220/222 | 211/222 | 2 / 3 / 2 | 2 / 3 / 7 | 33% | 0/5 |
+| Qwen3.6 35B-A3B (local) | 3 | 31% | 28 / 36 / 30 | 8.2/14 | 186/301 | 177/301 | 4 / 1 / 3 | 3 / 5 / 3 | 31% | 0/5 |
+| Muse Glimmer 30B (local) | 3 | 29% | 24 / 31 / 32 | 9.3/14 | 204/220 | 189/220 | 2 / 1 / 0 | 2 / 1 / 5 | 29% | 0/5 |
+| Gemma 4 26B-A4B (local) | 3 | 22% | 24 / 21 / 22 | 4.5/14 | 136/162 | 127/162 | 2 / 4 / 3 | 5 / 5 / 3 | 22% | 0/5 |
 | GPT-4o | 3 | 21% | 21 / 22 / 21 | 8.0/14 | 133/161 | 127/161 | 1 / 1 / 1 | 3 / 3 / 4 | 21% | 0/5 |
 | Qwen3 4B (local) | 3 | 17% | 20 / 23 / 9 | 6.2/14 | 261/437 | 168/437 | 18 / 16 / 9 | 3 / 9 / 7 | 17% | 0/5 |
 
-The local model's three runs are sampled (temperature 0.7, top-p 0.8, top-k 20, seeds 1 to 3). Its harness rows start from an earlier run at temperature 0. The strict rule gives half credit to an answer split across entries.
+Qwen3 4B's three runs are sampled (temperature 0.7, top-p 0.8, top-k 20, seeds 1 to 3). Its harness rows start from an earlier run at temperature 0. The six other local setups were run by [Ellian-Eorwyn](https://github.com/Ellian-Eorwyn) on one RTX 3090 on 2026-11-25, each with its own sampling (docs/local-runs-2026-11-25/). The strict rule gives half credit to an answer split across entries.
 
 ## With the harness
 
@@ -33,8 +39,38 @@ The local model's three runs are sampled (temperature 0.7, top-p 0.8, top-k 20, 
 | Claude Haiku 5.5 | Quotes confirmed, claims re-checked | 31% | 7/14 | 0 | 1 | 60 | 67/67 |
 | Claude Haiku 5.5 | Quotes confirmed, asked for more | 64% | 10.5/14 | 0 | 2 | 184 | 202/202 |
 | Claude Haiku 5.5 | Asked for more, key findings too | 69% | 13/14 | 0 | 2 | 209 | 229/229 |
+| Gemma 4 31B (local) | Model alone | 34% | 9/14 | 2 | 2 | 68 | 73/73 |
+| Gemma 4 31B (local) | Quotes confirmed | 34% | 9/14 | 2 | 2 | 68 | 73/73 |
+| Gemma 4 31B (local) | Quotes confirmed, claims re-checked | 32% | 7/14 | 2 | 0 | 65 | 70/70 |
+| Gemma 4 31B (local) | Quotes confirmed, asked for more | 49% | 9/14 | 2 | 3 | 137 | 161/161 |
+| Gemma 4 31B (local) | Asked for more, key findings too | 53% | 11/14 | 2 | 3 | 154 | 178/178 |
+| Qwen3.8 27B, thinking low (local) | Model alone | 51% | 10.5/14 | 2 | 7 | 92 | 123/124 |
+| Qwen3.8 27B, thinking low (local) | Quotes confirmed | 52% | 11/14 | 2 | 7 | 92 | 124/124 |
+| Qwen3.8 27B, thinking low (local) | Quotes confirmed, claims re-checked | 39% | 8/14 | 1 | 3 | 69 | 95/95 |
+| Qwen3.8 27B, thinking low (local) | Quotes confirmed, asked for more | 71% | 11.5/14 | 4 | 9 | 208 | 297/297 |
+| Qwen3.8 27B, thinking low (local) | Asked for more, key findings too | 74% | 12.5/14 | 4 | 9 | 221 | 315/315 |
+| Qwen3.8 27B, thinking off (local) | Model alone | 38% | 9/14 | 2 | 6 | 83 | 104/127 |
+| Qwen3.8 27B, thinking off (local) | Quotes confirmed | 43% | 10/14 | 2 | 6 | 83 | 117/117 |
+| Qwen3.8 27B, thinking off (local) | Quotes confirmed, claims re-checked | 33% | 6.5/14 | 0 | 4 | 65 | 92/92 |
+| Qwen3.8 27B, thinking off (local) | Quotes confirmed, asked for more | 63% | 10/14 | 4 | 10 | 182 | 241/241 |
+| Qwen3.8 27B, thinking off (local) | Asked for more, key findings too | 68% | 11.5/14 | 5 | 13 | 200 | 263/263 |
+| Muse Glimmer 30B (local) | Model alone | 24% | 7/14 | 2 | 2 | 51 | 57/61 |
+| Muse Glimmer 30B (local) | Quotes confirmed | 25% | 7.5/14 | 2 | 2 | 51 | 60/60 |
+| Muse Glimmer 30B (local) | Quotes confirmed, claims re-checked | 16% | 5.5/14 | 0 | 0 | 35 | 40/40 |
+| Muse Glimmer 30B (local) | Quotes confirmed, asked for more | 46% | 7.5/14 | 3 | 4 | 158 | 196/196 |
+| Muse Glimmer 30B (local) | Asked for more, key findings too | 49% | 11.5/14 | 3 | 4 | 178 | 216/216 |
+| Gemma 4 26B-A4B (local) | Model alone | 24% | 7.5/14 | 2 | 5 | 60 | 54/67 |
+| Gemma 4 26B-A4B (local) | Quotes confirmed | 28% | 9.5/14 | 2 | 5 | 58 | 62/62 |
+| Gemma 4 26B-A4B (local) | Quotes confirmed, claims re-checked | 25% | 8.5/14 | 2 | 5 | 52 | 56/56 |
+| Gemma 4 26B-A4B (local) | Quotes confirmed, asked for more | 47% | 9.5/14 | 4 | 11 | 150 | 162/162 |
+| Gemma 4 26B-A4B (local) | Asked for more, key findings too | 49% | 11.5/14 | 4 | 16 | 162 | 174/174 |
+| Qwen3.6 35B-A3B (local) | Model alone | 28% | 8/14 | 4 | 3 | 57 | 53/95 |
+| Qwen3.6 35B-A3B (local) | Quotes confirmed | 36% | 11/14 | 3 | 3 | 53 | 72/72 |
+| Qwen3.6 35B-A3B (local) | Quotes confirmed, claims re-checked | 24% | 8/14 | 2 | 1 | 38 | 54/54 |
+| Qwen3.6 35B-A3B (local) | Quotes confirmed, asked for more | 56% | 11/14 | 6 | 7 | 154 | 208/208 |
+| Qwen3.6 35B-A3B (local) | Asked for more, key findings too | 59% | 12/14 | 6 | 8 | 168 | 223/223 |
 
-Each harness row starts from the model's first run.
+Each harness row starts from the model's first run. The contributed local setups ran the harness with their own output allowances (docs/REPRODUCE.md).
 
 ## The judge against the human labeler
 

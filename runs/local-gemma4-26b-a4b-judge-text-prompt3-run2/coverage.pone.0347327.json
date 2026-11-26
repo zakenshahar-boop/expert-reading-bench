@@ -1,0 +1,94 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Geographic and event-driven variation. 'Influence' in question form follows the paper's 'event-driven'; not flagged."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C2"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision; no B1 catch). Variation by geography (and leaning) is part of C2, topic and cross-national difference missing. U.S. vaccination correlation is F2's U.S. half, placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E6"
+        ],
+        "note": "Tweets from late 2020 without dates or split (E1 partial); epidemiological data and vaccination rates (E6 partial, no election results or one-year lag). Voter registration records are listed as data only, not as validation of a party classifier, so no E3 credit."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes linked to events, lasting a few days."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "partial": [
+          "L1"
+        ],
+        "note": "Politically engaged Twitter users (L2, from the faithful abstract quote). Sarcasm point is part of L1 (no semantic-similarity proxy); its p.10 quote is NOT IN PAPER but the entry has one faithful quote."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L7"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "L7",
+            "text": "Says the English-only restriction may bias the results 'regarding the US'; the paper says it biases the Canadian results, Quebec's in particular (p.24)."
+          }
+        ],
+        "note": "Only quote NOT IN PAPER. Would be L7 apart from the wrong country."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Builds on research linking COVID-19 responses to partisanship (T2) and extends it with geographic and temporal variation (T3, p.22). No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": "I3",
+            "text": "Says the authors dispute an idea that Canadian conspiracy volume correlates significantly with polarization; no one in the paper makes that claim. The paper reports its own null result and contrasts it with ref. 94's sentiment finding (p.24)."
+          }
+        ],
+        "note": "Only quote NOT IN PAPER; nothing to credit."
+      }
+    ]
+  }
+}

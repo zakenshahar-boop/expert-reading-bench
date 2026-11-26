@@ -1,0 +1,130 @@
+{
+  "paper_id": "pone.0355933",
+  "model": "gemma4-26b-a4b-judge",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-gemma4-26b-a4b-judge-text-prompt3 (complete)",
+    "quotes confirmed"
+  ],
+  "settings": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "seed": 1
+  },
+  "short_tokens": 600,
+  "long_tokens": 4000,
+  "model_calls": 5,
+  "input_tokens": 10667,
+  "output_tokens": 310,
+  "seconds": 6.9,
+  "summary": {
+    "quotes found": 9,
+    "pages corrected": 0,
+    "repairs that worked": 1,
+    "repair attempts": 5,
+    "claims dropped, no quote": 2,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"Does using stigmatizing labels like 'convicted criminal' in political advertisements cause a spillover effect that negatively impacts broader public perceptions of all individuals with criminal records?\", \"quotes\": [{\"text\": \"to test for the possibility of stigmatizing language spillover, this preliminary study employs a survey experiment testing exposure to the Party’s advertisement, labeling Trump as a “convicted criminal” (n = 814) relative to no advertisement (n = 813), on Democrats’ perceptions of individuals with records and several dimensions of perceived representation.\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Exposure to political advertisements using stigmatizing labels for high-profile figures reduces positive perceptions of people with criminal records among Democrats, but providing a counter-narrative through perspective-getting can mitigate these negative effects.\", \"quotes\": [{\"text\": \"exposure to the Trump advertisement with the “convicted criminal” label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation.\", \"page\": 1}, {\"text\": \"Findings suggest that the counter-stereotype vastly ameliorated the negative effects of the advertisement on Democrats’ perceptions of individuals with criminal records.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The researchers conducted a survey experiment with 2,439 Democrats in the United States, utilizing three treatment groups: a control group, a group exposed to a Trump advertisement with a 'convicted criminal' label, and a group exposed to a counter-narrative about a formerly system-involved legislator before the advertisement.\", \"quotes\": [{\"text\": \"the 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812).\", \"page\": 4}]}], \"key_findings\": [{\"claim\": \"Providing a counter-narrative before the advertisement significantly increased positive perceptions of individuals with criminal records.\", \"quotes\": [{\"text\": \"exposure to the counter-narrative prior to being presented with the Trump advertisement increased positive perceptions of individuals with criminal records by more than 0.8 standard deviation (SD) units, compared to those presented with the Trump advertisement alone\", \"page\": 11}]}, {\"claim\": \"The counter-narrative intervention successfully decreased support for the use of stigmatizing political advertisements.\", \"quotes\": [{\"text\": \"exposure to the counter-narrative significantly decreased support for the Trump advertisement, relative to the Trump advertisement alone ( β̂2 = −0.172 SE = 0.048).\", \"page\": 11}]}], \"scope_and_limits\": [{\"claim\": \"The study's findings may be limited by the single time-point survey design and the potential for social desirability bias or the Hawthorne effect.\", \"quotes\": [{\"text\": \"First, it could be the case that participants were subject to the Hawthorne effect, resulting in outcomes being driven – in some capacity – by social desirability bias.\", \"page\": 17}]}, {\"claim\": \"The study does not provide information on how these effects might change over longer periods or in different electoral contexts.\", \"quotes\": [{\"text\": \"the extent to which these results would replicate in other contexts and in less-transparent designs is unclear, as is the durability of effects.\", \"page\": 17}]}], \"theoretical_positioning\": [{\"claim\": \"The paper utilizes social categorization theory to explain how stigmatizing labels can lead to group homogenization and spillover effects.\", \"quotes\": [{\"text\": \"Leaning upon social categorization theory, propagating such labels on Trump may thereby spillover, impacting constituents’ perspectives of individuals with records more broadly.\", \"page\": 1}]}], \"interlocutor_claim\": [{\"claim\": \"The author notes that some research suggests that the Democratic Party might use negative advertisements to encourage engagement among the party base.\", \"quotes\": [{\"text\": \"One study found that anger-inducing political advertisements bolstered support and encouraged action specifically amongst members of the party producing the advertisement [33].\", \"page\": 3}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "```json\n{\"text\": \"Both H2A and H2B were supported, namely, exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records (β̂0 = −0.835, SE = 0.044)\", \"page\": 11}\n```"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "```json\n{\"text\": \"Both H2A and H2B were supported, namely, exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records (β̂0 = −0.835, SE = 0.044)\", \"page\": 11}\n```"
+    },
+    {
+      "step": "drop",
+      "slot": "key_findings",
+      "why": "no confirmed quote",
+      "claim": "The Trump advertisement using the label 'convicted criminal' significantly decreased positive perceptions of individuals with criminal records among Democrats."
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "failed",
+      "raw": "```json\n{\"text\": \"exposure to the Trump advertisement alone significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049).\", \"page\": 11}\n```"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 2,
+      "result": "failed",
+      "raw": "```json\n{\"text\": \"exposure to the Trump advertisement alone significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049).\", \"page\": 11}\n```"
+    },
+    {
+      "step": "drop",
+      "slot": "key_findings",
+      "why": "no confirmed quote",
+      "claim": "Exposure to the Trump advertisement increased feelings that elected officials were motivated by public service rather than self-interest."
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "scope_and_limits",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"the extent to which these results would replicate in other contexts and in less-transparent designs is unclear, as is the durability of effects.\", \"page\": 17}\n```"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    }
+  ]
+}

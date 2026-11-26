@@ -1,0 +1,307 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E3",
+    "L3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and event-driven variation in the US and Canada across the three topics (Q1). The methods aim (Q2) is only in the quote, not the claim."
+      },
+      {
+        "partial": [
+          "Q3"
+        ],
+        "note": "Only the vaccination correlate of Q3; ideological leaning and conspiracy content not named."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Frames the question as whether events 'cause' spikes; the paper says spikes are 'linked to' events and 'direct causal evidence is not available' (p.17)."
+          }
+        ],
+        "note": "Event-driven variation, Q1's temporal half (repeat of Q1). Spikes are presupposed, not reported as a finding, so no misplaced F3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording ('significantly higher ... in both countries'), credited per C1's decision. No B1 catch."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "US vaccination correlation (F2's US half) placed in central_claim. 'Tangible public health implications' is the abstract's wording; not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Short-lived event-linked spikes: the finding F3, placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Over 50 million tweets with exact dates (Oct 9, 2020 to Jan 4, 2021) and keyword/topic filtering; the US/Canada split is not given, treated as detail."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "partial": [
+          "E4",
+          "E3"
+        ],
+        "note": "Geocoding tools named but not that locations come from the profile location field (partial E4); two-step profile/activity classifier without the external validation (partial E3)."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter records: the validation half of E3."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Keyword lists for the initial filter (p.5). Accurate method detail; the asymmetry is not stated as a limit here, so no L4."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Four topics including conspiracy, hashtag annotation and fine-tuned domain-adapted RoBERTa."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Subsampling approximation of the polarization index (p.11). Accurate; not in the gold."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Vaccination rates one year after the tweets; election and case data not named."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Canadian parties merged into two families because the classifier confused them (p.8). The method behind L8, stated as method, not as a limit (as the earlier judge decided)."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Voter-registration validation (30,000+ users, 74.35% / 73.35%; p.8-10): validation half of E3."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Duplicates entry 8 (party families merged)."
+      },
+      {
+        "partial": [
+          "E4"
+        ],
+        "note": "OSM/ArcGIS agreement within one degree (p.6); still does not say the input is the profile location field, so E4 is not completed or joined."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1",
+          "F6"
+        ],
+        "note": "US half of F1 (masks and vaccines higher, lockdowns mixed); Canada's non-significance not stated. Delaware and Idaho named as outliers without direction: part of F6."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "partial": [
+          "F3"
+        ],
+        "note": "Events (Trump lockdown tweets, Biden's vaccination; Tables 9 and p.18) tied to spikes; that spikes last only days is not stated. 'Triggered' echoes the paper's 'event-triggered' wording (p.21); not flagged."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Conservatives tweet conspiracy content at higher rates ('tweeted', not 'endorsed', so not F-x3) plus the US small negative / Canada no correlation. Quote covers only the US correlation; still in the paper."
+      },
+      {
+        "partial": [
+          "F5"
+        ],
+        "match": [
+          "F7"
+        ],
+        "note": "Canada lower overall (F5's first half; the weaker association with conservatism not stated). Quebec highest with the English-only caveat (F7)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Appended entry. Event-triggered spikes lasting a few days with rise-and-decay (p.1, p.19)."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says users from the liberal party family retweeted American vaccine content eight times more than Canadian content; the paper says 'Canadians' did so, citing refs 94 and 95 (p.24), with no party breakdown."
+          }
+        ],
+        "note": "Appended entry. Also a cited result, not this paper's finding."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "Appended entry. Positive correlation in Canada with few points (S3 Fig caption, p.26): accurate per F2's note, Canada half of F2 (already matched by entry 1). Does not point out the conflict with the abstract's 'notably weaker', so no B2 catch."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Appended entry. Aggregate polarization not correlated with pandemic severity (S6 Fig caption, p.27). Accurate; not in the gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "partial": [
+          "L6"
+        ],
+        "note": "Suggestive, not causal, because of the time gap (L5). 'Complexity of social factors' and the quote gesture at L6, but the claim limits it to the vaccination correlation."
+      },
+      {
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported locations, VPNs and bots; the possible inflation of partisan distance not stated."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Semantic-similarity proxy may miss signals; sarcasm example left out (detail)."
+      },
+      {
+        "match": [
+          "L9"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Duplicates entry 0."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Duplicates part of entry 2, with dates."
+      },
+      {
+        "partial": [
+          "L3"
+        ],
+        "note": "Bots may inflate apparent semantic distance: the second half of L3. With entry 3 (self-reported locations, VPNs, bots) the note states all of L3."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Duplicates entry 6."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approach chosen over network-based methods. No T0."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Group-specific lexicons make topic conditioning necessary (p.4): the prior-work claim I7 that the method handles, placed here (as the earlier judge did). 'Stronger proxy' follows the paper's 'more likely reflects'; not flagged."
+      },
+      {
+        "partial": [
+          "T3"
+        ],
+        "note": "Adds geographic and event-driven resolution; does not say it agrees with earlier findings on right-leaning regions."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "partial": [
+          "I7"
+        ],
+        "note": "The topic-conditioning point (p.4). The prior-work claim that groups have their own lexicon is in the quote, not the claim, and 'disputes the assumption' attributes the naive view to no one; the paper's own wording rejects it ('does not necessarily indicate'), so not flagged."
+      },
+      {
+        "partial": [
+          "I1"
+        ],
+        "note": "Builds on and extends prior work (p.22), but the prior claim is given only as 'partisan divergence in pandemic response', not that right-leaning states were more divided."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Owen et al. (correct for ref. 94): reduced negative sentiment in 2020, contrasted with the paper's Canadian result."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F6"
+        ],
+        "note": "Delaware high; Arkansas, Alabama, Idaho low (p.23): F6, framed as disputing a generalization attributed to no one. The paper itself says the pattern 'was not universal'; not flagged."
+      }
+    ]
+  }
+}

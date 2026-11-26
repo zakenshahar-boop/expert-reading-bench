@@ -1,0 +1,203 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Subnational and event-driven variation across the U.S. and Canada (abstract). The methods aim (Q2) is in the quote but not in the claim."
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Added entry. The three correlates (p.3)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Cross-national differences between the U.S. and Canada as a question, in the abstract's words (p.1). Accurate; no gold question. Related to C2's cross-national part, but stated as a question, not a claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision), plus the U.S. vaccination correlation (F2, U.S. half) placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1"
+        ],
+        "note": "'Over 50 million tweets from late 2020' (abstract): no exact dates or U.S./Canada split. 'Segmented by region and political affiliation' names no method for E3 or E4."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings and C-index separation of partisan users."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Case data and vaccination records (two of E6's three outside sources; no election results, no one-year lag). Voter registration is mentioned only as data 'for validation', without saying the party labels were checked, so no E3 credit."
+      },
+      {
+        "partial": [
+          "E3"
+        ],
+        "note": "Added entry. Two-step profile/activity classifier; validation against election results not stated (voter registration only mentioned in entry 2), so not joined."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Added entry. Three topics plus conspiracy; annotated hashtags and RoBERTa classifiers (p.5)."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Added entry. Profile location text geocoded with OpenStreetMap and ArcGIS (p.6)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Subsampling approximation of the index (p.11). Accurate; not in the gold."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording ('both countries'), true to the paper; no masks/vaccines vs lockdowns split here and no Canadian non-significance. No B1 catch."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Events plus 'short-lived' (few days, p.1). 'Triggered' echoes the paper's own 'event-triggered variation' (p.21); not flagged."
+      },
+      {
+        "partial": [
+          "F5"
+        ],
+        "note": "U.S. more divided than Canada (p.23): F5's first half (lower Canadian polarization); the weaker Canadian association is not stated."
+      },
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "U.S. masks and vaccines significant, lockdowns not (p.16): F1's U.S. half. With entry 0 the note still lacks F1's Canadian non-significance, so not joined."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "English-only, bias especially in Canada; Quebec not named. Credited as the substance of L7 (Quebec is the paper's example)."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported locations can be wrong; VPNs, bots and the possible inflation of partisan distance not stated."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Added entry. Semantic similarity only a proxy that may miss signals (p.24)."
+      },
+      {
+        "partial": [
+          "L8"
+        ],
+        "note": "Added entry. Bloc Québécois supporters excluded; the merging of parties into left and right families is not stated."
+      },
+      {
+        "match": [
+          "L9"
+        ],
+        "note": "Added entry. Party labels rely on self-reported information (p.24)."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added entry. Keyword strategies differ between countries (p.25)."
+      },
+      {
+        "match": [],
+        "note": "Added entry. States the time gap between tweets and vaccination rates but not its consequence (that the correlation is only suggestive). Under 'a limitation needs its consequence' this earns no L5 credit."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Social, political and cultural factors beyond the analysis (p.25), the sentence after L6. Accurate; not a separate gold limit."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approach complementing lexicon methods (p.3), as in the calibration note. No T0."
+      },
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Added entry. Extends earlier research linking right-leaning regions to polarization with geographic and temporal resolution (p.22)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Earlier studies found right-leaning regions more divided; the paper builds on and extends them (p.22). Jiang et al. is correct for ref. 17 (first in the cited list)."
+      },
+      {
+        "partial": [
+          "I4"
+        ],
+        "note": "Added entry. The cross-partisan consensus claim (p.24) without its source (ref. 103) or the paper's point that social media did not mirror it."
+      },
+      {
+        "partial": [
+          "I3"
+        ],
+        "note": "Added entry. Reduced negative sentiment in Canadian vaccine tweets (ref. 94's finding, p.24) without naming the source or the paper's contrast with it. Stated as a bare fact, not attributed."
+      }
+    ]
+  }
+}

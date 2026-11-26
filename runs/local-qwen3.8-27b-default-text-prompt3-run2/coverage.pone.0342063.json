@@ -1,0 +1,131 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Both halves, hesitancy and booster uptake."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "note": "Zip codes matched to 2020 election vote shares (E3). Online survey of 683 participants, March 8 to April 19, 2023, without Qualtrics Panels or the convenience sample (E1 partial). N only, no screening figures (E2 partial). Self-reported status and 'validated hesitancy scales', the AAVS items only in the quote (E5 partial). 'Validated' is close to the paper's CFA and reliability check, not flagged."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Linear and logistic regressions with the interaction and full controls."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1; the status half is not stated."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Both hesitancy interactions significant, steeper in conservative climates; liberals-regardless part not stated in the slot. 'Effect of conservatism' not flagged (the paper speaks of moderation and average effects)."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "partial": [
+          "F3"
+        ],
+        "note": "Vaccine-status interaction not significant with the mandates explanation (F4). Booster-status interaction significant, without shape (F3 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (60% vs under 35%); liberal half missing, so F3 is not joined."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Effect modification not tested, with the consequence (average effects, may mask subgroup heterogeneity)."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "'Influences' wording not flagged, following the earlier match of the same phrasing."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Both literatures separately, interaction 'for the first time' (paper: 'first assessment', p.7)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Fridman, Levin and Heiman are refs 6, 7 and 8 in the cited range 6-12: correct."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Rönn et al. (ref. 19) correct; vaccination-rate half of I3 (the booster-rate study, ref. 20, is not given). 'Climate effect' not flagged, as in earlier matches."
+      }
+    ]
+  }
+}

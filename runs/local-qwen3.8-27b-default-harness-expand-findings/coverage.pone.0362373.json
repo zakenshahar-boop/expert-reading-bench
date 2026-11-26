@@ -1,0 +1,250 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "note": "Asks whether the substance use and friendship link documented in heterogeneous schools holds in AI-majority schools: Q2, and the role of substance use (Q3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Depression and AI identity, without substance use and demographics in this entry (substance use is in entry 0)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3",
+          "I6"
+        ],
+        "note": "Not a question but the paper's implication: network prevention strategies presuming ties founded on substance use may not work here (C3 and I6, both misplaced). 'May not be effective' keeps the paper's hedge ('may not be as effective as previously thought')."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "Structural mechanisms and demographic homophily rather than substance use (C1; 'driven'/'drivers' is the abstract's wording, and depression/AI identity also follow the abstract). 'Challenging the assumption that risky behavior organizes peer ties' is the conventional assumption the paper disputes (I4), credited as misplaced as in the calibration. C3 not credited: no network-based prevention programs or call for culturally grounded theory in the claim, only in the quote."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "Cross-sectional network survey, 9th/10th grade, three Northern Plains reservation schools (E1). N = 247 as in the abstract, without the 263/77% stage (E2 partial). ERGMs named, without per-school estimation or AMEs (E3 partial)."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "'Purposively selected' follows the paper's 'purposefully selected'."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Peer-perception imputation with the sensitivity analysis excluding imputed cases; 6.5%-8.5% matches p.6."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Tablets, Network Canvas and school hours are accurate (p.6); 77% overall response rate without the 263 count (E2 partial). With entry 0's 247, still no 263: not joined."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "CES-D (six questions, p.7) and the six-item MEIM adaptation with alpha 0.722; the binary substance use measures are not given."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Series of ERGMs per school: a base model plus one model per substance, 4 x 3 = 12 (p.9, p.12), with AMEs for comparison across schools."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F7"
+        ],
+        "note": "Robustness check with structural terms and substance use only, confirming the nulls are not an artifact of overcontrol: F7, a finding."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Goodness-of-fit against 100 simulated networks for all 12 models; accurate to p.12, not a gold answer."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note calls reciprocity and transitivity 'the strongest and most consistent' structural drivers; the paper says the endogenous effects were 'strong and consistent' and ranks nothing as strongest (the outdegree AME in School A, -0.060, is larger in size than transitivity's)."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Gender, grade and sexual orientation homophily. 'Consistently significant across all three schools' holds for gender and grade; for sexual orientation at least one category is significant in each school (Table 3), so not flagged. 'Replicating the broader literature' fits gender and grade; the paper calls sexual orientation homophily understudied, a small tilt not flagged."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Both exceptions named and located correctly."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Indegree centralized only in the private preparatory school: the incoming half of F5. Substance-use homophily only in School B is a detail of F1 (p.15, which includes the marijuana p<0.10 result); no second point. 'Calibrates' follows p.14."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Outgoing-tie centralization in all three schools: the other half of F5 (incoming half in entry 4)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional with both consequences (selection vs influence, association vs cause)."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "One developmental epoch, one time point, life course and school transitions."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Both imputation limitations, including possible inflation of similarity among connected adolescents."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Tribal governance and sovereignty as future research (p.17); accurate, not a gold answer (as in the calibration)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Call for more qualitative research (p.17); accurate, not a gold answer."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "'ERGM-based adolescent network tradition' is a vague T1; moving beyond generalizations from heterogeneous settings is the testing/disputing half of T3, without what is replicated. 'Extended' is not the rejected 'revises' claim about theory; not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T2",
+          "T1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x3",
+            "text": "The note says the paper extends the ERGM framework 'by showing how cultural values (egalitarianism, kinship) moderate degree effects'; no cultural value is measured, and the paper says only that the absence of centralized popularity in Schools A and B 'may reflect the stronger operation of egalitarian norms' (p.14). The quoted sentence speaks of institutional context, not culture."
+          }
+        ],
+        "note": "The cultural-context argument (T2) and endogenous processes (T1), but presented as a demonstrated result; half credit with the F-x3 flag."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4",
+          "C3"
+        ],
+        "note": "Rejecting the risky-behavior assumption (I4) and challenging the assumptions underpinning network-based prevention programs (C3, the abstract's wording); both misplaced."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Strengths-based alternative: the paper says prevention 'may center on strengths-based connections' and suggests exploring strength-based characteristics 'as valuable frameworks' (p.16-17). 'Propose a shift' is close to the paper's wording; not flagged, not a gold answer."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Receiver effects and homophily in heterogeneous schools, disputed for AI-majority schools. Attribution checked: Ali et al. 2014 is ref 13; Schaefer et al. 2012 (ref 11), Schaefer et al. 2013 and Haas & Schaefer 2014 (ref 22) are listed in Table 1 for substance use homophily."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Non-AI depression findings (negative receiver effects, depression homophily, p.14 ref 46) contrasted with the null here: the non-AI depression claim is not a gold interlocutor answer; the null is the depression half of F4 (misplaced, as in the calibration)."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "The presumption that friendship ties are partly founded on substance use, disputed for AI-majority settings. Hunter et al. 2019 is ref 47 (cited on p.16 for intervention research built on the link) and Valente 2012 is ref 45 (network interventions, p.14); the presumption sentence itself has no citation, but attributing it to that literature is fair. Not flagged."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Rees, Freng and Winfree 2014 (ref 17), fewer reciprocated friendships, descriptive analysis."
+      }
+    ]
+  }
+}

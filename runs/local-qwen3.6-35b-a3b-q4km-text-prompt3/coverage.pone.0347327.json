@@ -1,0 +1,106 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Geographic and temporal (event-driven) variation across US and Canada. Conspiracy and vaccination correlates (Q3) and the methods aim (Q2) not stated."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 ('significantly higher in both'), credited per its decision; plus the vaccination correlation with the weaker Canadian result (F2), placed here. No B1 or B2 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E5",
+          "E4",
+          "E3"
+        ],
+        "note": "'Over 50 million tweets' from late 2020 to early 2021, no split by country (E1 partial); three topics without conspiracy or the classifiers (E5 partial); 'geolocating users' without the profile location field (E4 partial); 'classifying by partisan affiliation' without the two-step method or validation (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "First quote NOT IN PAPER (spliced with an ellipsis); the Alberta quote is in the paper, so the entry is grounded. Canadian non-significance not stated."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Only quote NOT IN PAPER (spliced with an ellipsis). Content is the US half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "First quote NOT IN PAPER, second in the paper. Conservatives tweet conspiracy content at higher rates (paper: both countries) and the small negative US correlation; Canada null not stated."
+      },
+      {
+        "match": [
+          "F7"
+        ],
+        "note": "Second quote (p.24) in the paper. Quebec highest with the English-only caveat. Uncertain: credited in full although it says 'over vaccines' rather than overall."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6",
+          "L2"
+        ],
+        "note": "Correlations do not imply causation (L6) and engaged Twitter users, not the broader public (L2)."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L7"
+        ],
+        "note": "Only quote NOT IN PAPER (spliced with an ellipsis). Content is L7."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T1"
+        ],
+        "note": "Only quote NOT IN PAPER (spliced, page given as 2). Content is T1."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Only quote NOT IN PAPER (spliced with an ellipsis). Content is I1."
+      }
+    ]
+  }
+}

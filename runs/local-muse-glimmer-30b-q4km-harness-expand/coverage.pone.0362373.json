@@ -1,0 +1,261 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use (Q3); 'individual characteristics' without demographics, depression or AI identity named (Q1 partial). Same call as the calibration judge."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Not a question but the paper's stance of moving beyond generalizations from heterogeneous schools (T3 testing half). 'Argues against applying' is close to the paper's 'moves beyond generalizations'; not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I1"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I1",
+            "text": "The note says the paper argues against the assumption that substance use is linked to friendship formation and popularity in adolescent networks; the paper accepts that link in racially heterogeneous schools (the quoted sentence, and 'Research in diverse school settings has consistently demonstrated', p.2) and disputes only its generalization to AI-majority schools."
+          }
+        ],
+        "note": "The interlocutor claim (I1) stated in the question slot with the dispute placed in the wrong scope; half credit and a flag, as the calibration judge did for the same error in slot 7."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "The challenge to network-based prevention assumptions is C3 (an implication), not a question; no call for culturally grounded theory in the claim."
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Repeats entry 0 (the quote names all four attribute groups, the claim does not); 'arguing against generalizing' echoes the paper's 'moves beyond generalizations', not flagged."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C3"
+        ],
+        "note": "Abstract's 'structural and demographic commonalities rather than risky behaviors' is C1. The challenge to network-based prevention is C3 without the call for culturally grounded theory and interventions (in the quote, not the claim)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Data source matches E1; ERGMs named without per-school estimation, terms or AMEs (E3 partial)."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Cross-sectional social network survey in three Northern Plains reservation schools; repeats E1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "Response rates (77%, 72/76/84%) without either count; no wrong pairing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Directed friendship nominations via Network Canvas; the up-to-10 limit is in the next entry. Measure domains given only as 'individual measures', no E5 credit."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Up to 10 closest friends; analysis restricted to responding 9th and 10th graders is accurate (p.7)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Peer-perception imputation; no sensitivity analysis."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Substance use measure (binary, self-reported ever-use)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "CES-D (six questions, p.7) and six adapted MEIM items: the rest of E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "ERGMs via ergm/MCMC MLE and AMEs via ergMargins (accurate, p.8-9); per-school estimation and structural plus attribute terms not stated in this or any other entry."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity and transitivity in all three schools; 'universal' is the paper's wording (abstract, p.13)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Core null on sender, receiver and homophily; exceptions not named (as in the calibration notes)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade only; sexual orientation homophily not mentioned."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Depression and AI identity; 'substantively unrelated' follows the paper's 'substantively negligible'/'not substantively associated'."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Three schools on one reservation, may not generalize. 'Cross-sectional' is named without the inference it limits, so no L3."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Selection versus influence."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Association, not causation; repeats L3."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Heterogeneous schools; repeats L1."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate (data availability statement, p.2): data are tribally owned and not public. Not a gold answer."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Moving beyond generalizations from heterogeneous schools (paper's wording, p.3): the testing half of T3, without what is replicated and what is disputed."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I1",
+            "text": "The note says the paper challenges the prevailing assumption that substance use is linked to friendship formation and popularity, without the scope; the paper disputes the generalization of that link to AI-majority schools ('unlike what is often observed in studies of other adolescent populations', the quote), not the link in heterogeneous schools."
+          }
+        ],
+        "note": "The disputing half of T3 for the substance use link. Milder than question entry 2 because 'from prior adolescent network research' and the quote keep the contrast with other populations; flagged mild."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Challenge to network-based prevention plus the call for culturally grounded theories and interventions: C3 in full, in the wrong slot. 'Challenging' is the paper's wording; not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Testing whether heterogeneous-school patterns hold in AI-majority schools: the testing half of T3. Entries 0, 1 and 3 never say the structural and demographic patterns replicate, so T3 is not joined."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I2",
+            "text": "The note says the paper disputes Rees, Freng and Winfree's finding in AI-majority settings; the paper builds on that study, notes it was descriptive and did not model endogenous processes (p.2), and in the limitations says its own findings may not extend to heterogeneous schools 'where Rees, Freng, and Winfree [17] observed different network characteristics' (p.16). It never disputes the finding."
+          }
+        ],
+        "note": "Finding and its descriptive character stated correctly; the stance is wrong, so half credit and a flag."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "The heterogeneous-school link between substance use and friendship and popularity (I1), without the paper's dispute of its generalization."
+      }
+    ]
+  }
+}

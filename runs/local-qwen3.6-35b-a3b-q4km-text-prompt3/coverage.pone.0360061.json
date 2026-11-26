@@ -1,0 +1,81 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "ungrounded": ["Q3"],
+        "note": "The claim is Q3 ('rather than solely with deprivation or personality'), but its only quote is a spliced passage marked NOT IN PAPER."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": ["C1"],
+        "misplaced": ["F3"],
+        "note": "Interest, knowledge and participation are given as examples, not as the strongest associations, so F1 is not credited. 'Hostile users are more active with greater potential reach' is F3 in the wrong slot, with the paper's 'potential'. One of the two quotes (p.1) is in the paper."
+      }
+    ],
+    "evidence": [
+      {
+        "match": ["E1"],
+        "partial": ["E3"],
+        "note": "Panel survey linked to X/Twitter behavioral data is E1. American users 2019-2021 is part of E3 (no YouGov, no waves). 'Cross-sectional, panel, and exploratory count models' does not name pooled OLS or RI-CLPM, so no E5 credit. The p.1 quote is in the paper; the other two are not."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": ["F1"],
+        "note": "Positive association only; the strongest indicators are not named."
+      },
+      {
+        "match": [],
+        "partial": ["F2"],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger for users with higher leader-directed affective polarization, 'particularly for participatory engagement'. The paper says it is 'often' stronger descriptively, that the moderation evidence is 'not uniform', and that the results are only 'partially consistent with Expectation 2' (p.13-14). The entry keeps the participation emphasis but drops the partial-support qualification."
+          }
+        ]
+      },
+      {
+        "match": ["F3"]
+      },
+      {
+        "match": [],
+        "partial": ["F5"],
+        "note": "Within-person increases in online engagement followed by higher hostility; says the relationship is reciprocal ('suggesting', as the paper's 'may be reciprocal') but not that the reverse pattern is weaker."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": ["L2", "L1", "L6"],
+        "note": "Not causal (L2), may not generalize beyond X/Twitter (L1), Big Five controls do not test Dark Triad accounts (L6; 'not measured' is not said, but the Dark Triad part is). The quote for the causal part is NOT IN PAPER, but the entry has two faithful quotes, so it is credited. 'Does not generalize' is read as 'is not shown to generalize'; not flagged."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": ["T2", "T3"],
+        "note": "Extending the revisionist view to online hostility is T2 and T3, but the only quote is spliced and marked NOT IN PAPER."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": ["I3", "I4"],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "C-x2",
+            "text": "Says the paper 'disputes the prior emphasis' that hostility is 'primarily explained' by grievance or personality. The paper 'does not seek to adjudicate between these literatures' (p.3) and says hostility is 'not only' associated with those explanations but also with engagement (p.15)."
+          }
+        ],
+        "note": "Names the grievance account (I3) and the personality account without the small-segment finding (I4 in part), with the wrong stance; would be partial credit at most if grounded. The only quote is marked NOT IN PAPER."
+      }
+    ]
+  }
+}

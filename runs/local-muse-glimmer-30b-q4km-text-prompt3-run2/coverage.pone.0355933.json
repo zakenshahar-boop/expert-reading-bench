@@ -1,0 +1,85 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Spillover onto perceptions (Q1) and the counter-narrative (Q2). Phrased 'how ... mitigates', which presumes the result, but the subject is Q2; not flagged. Representation is only in the quote, so no Q3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "All three parts ('greatly ameliorates' is close to the abstract's 'vastly ameliorated')."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E4"
+        ],
+        "note": "Survey experiment on U.S. Democrats (E1 without Prolific/online platform, pre-registration or dates), three arms (part of E2, no N or arm identities in the claim), standardized indices for perceptions and representation (part of E4; ad support and motives not named)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "note": "F5 (quality of Democratic representation decreased vs ad alone). The value-of-representation increase (H1C, 0.79 SD) is accurate but not a gold answer."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory predicting spillover from salience and exemplars. Not credited T4 (no statement that the study carries the theory to the ad and tests it), though the second quote is T4's span; borderline."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ]
+      }
+    ]
+  }
+}

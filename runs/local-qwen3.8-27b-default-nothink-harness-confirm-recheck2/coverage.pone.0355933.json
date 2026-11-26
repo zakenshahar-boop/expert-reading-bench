@@ -1,0 +1,109 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "C1"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Spillover of the 'convicted criminal' ad onto perceptions of people with records (Q1); representation is only in the quote, not the claim."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad harm to perceptions and the counter-narrative's offset; the improvement in representation is in the next entry."
+      },
+      {
+        "match": [
+          "C2"
+        ],
+        "partial": [
+          "C1"
+        ],
+        "note": "C2 and the representation part of C1. 'Likely associated with a lower benchmark' is hedged; not flagged."
+      }
+    ],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "States the public-service-motives increase; the representation improvement is only offered as a suggestion ('suggesting a comparative improvement'), so partial."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "'More damaging for this group' is the paper's own wording (p.14). The main effect of system-impacted status is accurate extra detail."
+      },
+      {
+        "match": [
+          "F7"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2"
+        ],
+        "note": "Both limits; the claim attaches the image/label confound to the non-factorial design, but each consequence is stated correctly."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability and behavior; omits repeated exposure."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Grounds the argument in social categorization theory; no stance word (applies/extends), so no T4, as in the calibration note."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting as the basis of the counter-narrative. The second quote (p.15) is unrelated but the first is faithful."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Meta-analytic evidence on negative ads, used to question the Party's strategy."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Policy support distinct from perceptions of beneficiaries, social safety net analogy (p.3): accurate, not a gold answer. It does not name motivated reasoning, so not T3."
+      }
+    ]
+  }
+}

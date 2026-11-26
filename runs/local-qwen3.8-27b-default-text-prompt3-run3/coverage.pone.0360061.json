@@ -1,0 +1,146 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 is contained in Q3 and not credited twice; 'beyond' keeps the additive framing."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users 'have greater reach on the platform'. The paper says their greater engagement 'may thus provide them with a higher reach' and speaks of greater potential reach, not influence (p.1, p.15)."
+          }
+        ],
+        "note": "Lists the indicators but not which are strongest (the quote has it, the claim does not), so no F1. 'Greater reach' alone does not state F3's posting and follower result."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Six waves January 2019 to January 2021 of American panelists is E3 without naming YouGov (credited full; the panel and its timing are the substance). Only the post count is given for E2."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Cosine similarity to the combined 'political hate' vector; per-user averaging not mentioned. Validation list accurate (p.6-7)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says all analyses, including the RI-CLPM and count models, control for Big Five traits and demographics. The paper states those controls for the cross-sectional models (Fig 1-2), says the affective-polarization models control only age and gender (Fig 3-4), and gives no such controls for the RI-CLPM or count models."
+          }
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "States as a result that the associations 'are specific to political hostility' and that coefficients are larger for the primary measure. The paper says the largest associations are 'generally' for the primary measure (online participation is in fact larger for Perspective API, 0.267 vs 0.236) and that the pattern is 'consistent with the argument' that the behavior is specifically political hostility (p.11)."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Partial rather than uniform, clearest for participation, weaker for distal antecedents: the whole of F2."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Posts and followers; friends not mentioned (the 'less so' part), still F3's substance."
+      },
+      {
+        "match": [
+          "F6"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "note": "Refs 17-19 are Nie et al., Verba, Schlozman and Brady (checked); classical tradition T1, revisionist view T2, extending it T3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Almond and Verba are ref 20 (checked)."
+      }
+    ]
+  }
+}

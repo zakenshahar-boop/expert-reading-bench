@@ -1,0 +1,124 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Online convenience sample via Qualtrics Panels with dates (E1); N = 683 only (E2 partial)."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Linear for hesitancy, logistic for status, with the interaction term; demographic controls not mentioned."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Hesitancy interactions significant, without the shape; no other entry gives the shape, so F2 is not joined."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberal half of F3 (over 65% boosted regardless of climate)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (60% vs under 35%). Joined with [1]."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The authors' hedged interpretation (p.10), reported as a suggestion as the paper does; not the F-x1 mechanism claim. No gold or neutral item covers it."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Effect modification not tested, with the consequence (pooled associations may mask subgroup heterogeneity)."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "'Influences' wording not flagged, following the earlier match of the same phrasing."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Cowan, Mark and Reich (ref. 18) checked: correct."
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 (less hesitant and more boosted in liberal regions); the liberals-regardless half is only in a quote, not in the claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E6"
+        ],
+        "note": "Online survey of 683 US participants in early 2023: the data source, without the nonprobability convenience sample or Qualtrics Panels recruitment. N = 683 without the screening numbers (E2). The demographic controls are a fragment of E6."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Hesitancy interaction significant, without its shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberals-regardless half of F2; the steeper rise in conservative climates is not stated in this slot, so F2 is not joined."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (60% vs under 35%); liberals boosted anywhere is missing. 'Varied significantly' is fair since the booster interaction was significant."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'Did not significantly affect' is loose wording for a non-significant interaction; not flagged."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Zip-code data may miss other regional variables such as population density that could be associated with the results: proxy plus consequence."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Prior work treated orientation and climate separately; this study tests their interaction. Same call as the earlier judge on like wording (no 'first' needed)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Prior studies treated orientation or climate separately, not their interaction; the paper's building on them is implied by 'rather than how they interact'."
+      }
+    ]
+  }
+}

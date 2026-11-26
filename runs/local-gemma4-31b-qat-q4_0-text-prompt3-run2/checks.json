@@ -1,0 +1,456 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 4,
+      "in own quotes": 3,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "key_findings",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "Conservatives living in liberal regions are more likely to receive COVID-19 booster doses than those in conservative regions."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 1,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "While political climate interacts with conservatism regarding booster status, it does not significantly moderate initial vaccination status, potentially due to vaccine mandates."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "Politically liberal individuals tend to be less vaccine hesitant regardless of the political climate of their region."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 15,
+      "abstract": 4,
+      "introduction": 1,
+      "background": 0,
+      "methods": 1,
+      "results": 0,
+      "discussion": 9,
+      "other": 0,
+      "unknown": 0,
+      "first third": 6,
+      "middle third": 0,
+      "last third": 9
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 10,
+      "overlapped, any slot": 12,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F5",
+        "F6",
+        "L1",
+        "L5",
+        "L6",
+        "T0",
+        "T2",
+        "T3",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 4,
+      "in own quotes": 3,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The study investigates the regional and temporal variations of partisan polarization on social media regarding public health measures during the COVID-19 pandemic in the US and Canada."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 13,
+      "causal word not in quote": 0,
+      "hedge dropped": 0,
+      "items": []
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 12,
+      "abstract": 5,
+      "introduction": 1,
+      "background": 0,
+      "methods": 1,
+      "results": 2,
+      "discussion": 3,
+      "other": 0,
+      "unknown": 0,
+      "first third": 7,
+      "middle third": 2,
+      "last third": 3
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 10,
+      "overlapped, any slot": 10,
+      "core findings": 2,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q3",
+        "C2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L8",
+        "L9",
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "I2",
+        "I3",
+        "I4",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 1,
+      "in own quotes": 0,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 2439.0,
+          "where": "elsewhere in paper",
+          "claim": "The study used a survey experiment involving 2,439 self-identified Democratic voters in the United States."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 2,
+      "hedge dropped": 3,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The study investigates how stigmatizing labels in political advertisements affect Democrats' perceptions of people with criminal records and their sense of representation, and whether a counter-narrative can mitigate these negative effects."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "led to",
+          "claim": "The use of a counter-narrative before the advertisement led to a significant decrease in support for the advertisement."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "The study cannot distinguish between the effects caused by the visual image of the mugshot and the effects caused by the text of the label."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "cause",
+          "claim": "The authors utilize and extend social categorization theory to argue that salient group labels can cause negative spillover perceptions from a specific exemplar to a broader group."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors utilize and extend social categorization theory to argue that salient group labels can cause negative spillover perceptions from a specific exemplar to a broader group."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 14,
+      "abstract": 1,
+      "introduction": 3,
+      "background": 0,
+      "methods": 1,
+      "results": 4,
+      "discussion": 4,
+      "other": 0,
+      "unknown": 1,
+      "first third": 5,
+      "middle third": 5,
+      "last third": 4
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 13,
+      "overlapped, any slot": 13,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q2",
+        "Q4",
+        "C2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F3",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L3",
+        "L4",
+        "L5",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 1,
+      "in own quotes": 1,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 14,
+      "causal word not in quote": 2,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The results concerning posting frequency and follower counts should not be interpreted as a measure of formal network centrality or influence."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "lead to",
+          "claim": "The authors adopt and extend a revisionist perspective of political behavior, which suggests that the high levels of engagement usually seen as democratic boons can also lead to antagonistic information processing."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "causal",
+          "word": "lead to",
+          "claim": "The authors build on the claim from literature on political information processing that high levels of political engagement, such as strong partisanship, can lead to biased evaluations of news and arguments."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 14,
+      "abstract": 1,
+      "introduction": 1,
+      "background": 1,
+      "methods": 3,
+      "results": 5,
+      "discussion": 3,
+      "other": 0,
+      "unknown": 0,
+      "first third": 3,
+      "middle third": 3,
+      "last third": 8
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 11,
+      "overlapped, any slot": 12,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q2",
+        "C2",
+        "E3",
+        "E5",
+        "E6",
+        "F2",
+        "F4",
+        "F6",
+        "F7",
+        "L3",
+        "L4",
+        "L5",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T4",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 3,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 11,
+      "causal word not in quote": 1,
+      "hedge dropped": 0,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "causal",
+          "word": "influence",
+          "claim": "The study examines the factors that influence the formation of friendship networks among American Indian adolescents in the specific context of AI-majority reservation schools."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 12,
+      "abstract": 6,
+      "introduction": 2,
+      "background": 0,
+      "methods": 0,
+      "results": 1,
+      "discussion": 3,
+      "other": 0,
+      "unknown": 0,
+      "first third": 8,
+      "middle third": 0,
+      "last third": 4
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 7,
+      "overlapped, any slot": 7,
+      "core findings": 3,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F7",
+        "F8",
+        "L2",
+        "L4",
+        "L5",
+        "L6",
+        "T1",
+        "T2",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

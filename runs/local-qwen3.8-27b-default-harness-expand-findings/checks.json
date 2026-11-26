@@ -1,0 +1,835 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 28,
+      "in own quotes": 24,
+      "elsewhere in paper": 4,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 11.0,
+          "where": "elsewhere in paper",
+          "claim": "Political conservatism was measured with two items (social and economic) on an 11-point scale, and political climate was measured by the percentage of Republican votes in the participant's zip code from the 2020 presidential election."
+        },
+        {
+          "slot": "evidence",
+          "number": 683.0,
+          "where": "elsewhere in paper",
+          "claim": "Data quality screening reduced the initial 1,777 participants to a final sample of 683: 970 failed quality screens, and a further 115 were removed for missing or invalid zip code data."
+        },
+        {
+          "slot": "evidence",
+          "number": 664.0,
+          "where": "elsewhere in paper",
+          "claim": "The authors used linear and logistic regression models with 664–683 participants, finding significant interaction terms for vaccine hesitancy, booster hesitancy, and booster status, and reported that the most liberal participants were over 65% likely to get boosted regardless of climate while conservatives in conservative climates were less than 35% likely."
+        },
+        {
+          "slot": "evidence",
+          "number": 683.0,
+          "where": "elsewhere in paper",
+          "claim": "The authors used linear and logistic regression models with 664–683 participants, finding significant interaction terms for vaccine hesitancy, booster hesitancy, and booster status, and reported that the most liberal participants were over 65% likely to get boosted regardless of climate while conservatives in conservative climates were less than 35% likely."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 46,
+      "causal word not in quote": 1,
+      "hedge dropped": 5,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The interaction between political conservatism and conservative regional climate was not significant for vaccine status, which the authors attribute to the high prevalence of vaccine mandates."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "influenced",
+          "claim": "Liberals were less likely to be vaccine hesitant regardless of political climate, while conservatives' hesitancy was influenced by their regional political climate."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The authors did not assess the mechanism through which political climate influences vaccine decisions among conservative individuals."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The authors did not assess the mechanism linking political climate to conservative individuals' vaccination decisions."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "could",
+          "claim": "Although demographic covariates were controlled, the authors did not formally assess effect modification by these factors and cannot exclude aggregation effects such as Simpson's paradox."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The non-significant interaction for vaccine status (as opposed to the significant interactions for hesitancy outcomes) is attributed by the authors to the high prevalence of vaccine mandates."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 4,
+      "name authors": 4,
+      "all named authors cited at the quote": 3,
+      "some": 0,
+      "none": 1,
+      "items": [
+        {
+          "named": [
+            "Bradshaw",
+            "Fridman",
+            "Hao",
+            "Levin",
+            "Neely",
+            "Rönn"
+          ],
+          "not cited at the quote": [
+            "Bradshaw",
+            "Fridman",
+            "Hao",
+            "Levin",
+            "Neely",
+            "Rönn"
+          ],
+          "claim": "The authors attribute to prior researchers (citing Fridman et al., Levin & Bradshaw, Hao & Neely, Rönn et al., among others) the approach of studying political orientation or political climate as separate predictors of vaccine attitudes, and build on this by testing their interaction."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 56,
+      "abstract": 3,
+      "introduction": 7,
+      "background": 0,
+      "methods": 4,
+      "results": 13,
+      "discussion": 29,
+      "other": 0,
+      "unknown": 0,
+      "first third": 13,
+      "middle third": 14,
+      "last third": 29
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 18,
+      "overlapped, any slot": 22,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "E1",
+        "E3",
+        "E4",
+        "E7",
+        "F5",
+        "F6",
+        "T0",
+        "T2",
+        "I1",
+        "I4"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 37,
+      "in own quotes": 33,
+      "elsewhere in paper": 3,
+      "nowhere": 1,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper asks how partisan polarization varies by region, topic, and time during the early COVID-19 pandemic, and whether these patterns correlate with real-world outcomes like vaccination rates."
+        },
+        {
+          "slot": "evidence",
+          "number": 619000000.0,
+          "where": "nowhere",
+          "claim": "The raw dataset was a 1% real-time sample of all tweets collected via Twitter's official API, totaling roughly 619 million tweets before filtering."
+        },
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The US dataset comprised 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada from October 2020 to January 2021, filtered by political keywords and then topic-classified."
+        },
+        {
+          "slot": "evidence",
+          "number": 2021.0,
+          "where": "elsewhere in paper",
+          "claim": "The US dataset comprised 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada from October 2020 to January 2021, filtered by political keywords and then topic-classified."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 55,
+      "causal word not in quote": 4,
+      "hedge dropped": 5,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The paper argues that unconditioned language dissimilarity between groups is an unreliable indicator of polarization because groups naturally develop distinct lexicons, and that conditioning on a shared topic is necessary to isolate genuine partisan disagreement."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "Politically conservative regions exhibited significantly higher partisan polarization in both countries, especially the US, and there is a strong negative correlation between vaccine-related polarization and actual vaccination rates in the US."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "Polarization surges are event-driven and short-lived, typically lasting only a few days, with peaks coinciding with specific political or vaccine-related events."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "Geographic attribution relies on self-reported location fields, which may be inaccurate due to false, incomplete, or humorous locations, VPNs, or bots."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "affect",
+          "claim": "Bloc Québécois supporters were excluded from the Canadian partisan analysis, which may affect the completeness of the Canadian results."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "partly",
+          "claim": "The small number of Canadian regions analyzed limits the statistical power to detect significant associations between polarization and political vote margin or vaccination rates."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "The paper extends the tradition of computational, text-embedding-based approaches to measuring polarization, adopting a strictly text-based method due to restricted access to network-level data, and goes beyond prior studies by adding geographic and temporal resolution."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The paper theorizes that topic-conditioning is what transforms raw language dissimilarity into a valid proxy for polarization, since groups naturally use different lexicons but diverge in semantic understanding only when discussing the same contentious topic."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The paper attributes to Owen et al. [94] the finding of reduced negative sentiment in Canadian vaccine-related tweets between January and December 2020, and disputes this by showing no significant correlation between polarization and conspiracy content in Canada, arguing the relationship between polarization and sentiment is more complex."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 4,
+      "name authors": 3,
+      "all named authors cited at the quote": 2,
+      "some": 0,
+      "none": 1,
+      "items": [
+        {
+          "named": [
+            "Owen"
+          ],
+          "not cited at the quote": [
+            "Owen"
+          ],
+          "claim": "The paper attributes to Owen et al. [94] the finding of reduced negative sentiment in Canadian vaccine-related tweets between January and December 2020, and disputes this by showing no significant correlation between polarization and conspiracy content in Canada, arguing the relationship between polarization and sentiment is more complex."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 76,
+      "abstract": 8,
+      "introduction": 7,
+      "background": 0,
+      "methods": 18,
+      "results": 19,
+      "discussion": 22,
+      "other": 2,
+      "unknown": 0,
+      "first third": 27,
+      "middle third": 23,
+      "last third": 26
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 23,
+      "overlapped, any slot": 23,
+      "core findings": 2,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "C2",
+        "E3",
+        "E4",
+        "E5",
+        "F6",
+        "F7",
+        "L5",
+        "L8",
+        "T0",
+        "T2",
+        "I2",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 19,
+      "in own quotes": 5,
+      "elsewhere in paper": 14,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 2024.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper tests whether the Democratic Party's 2024 Trump advertisement, which labeled him a 'convicted criminal,' decreased Democrats' positive perceptions of people with criminal records, and whether a perspective-getting counter-narrative shown before the ad could mitigate those effects."
+        },
+        {
+          "slot": "evidence",
+          "number": 2439.0,
+          "where": "elsewhere in paper",
+          "claim": "Data were collected via the Prolific online platform in July 2025 from 2,439 self-identified Democratic Party members residing in the United States who spoke fluent English."
+        },
+        {
+          "slot": "evidence",
+          "number": 2025.0,
+          "where": "elsewhere in paper",
+          "claim": "The study is a three-arm survey experiment of 2,439 self-identified Democrats recruited via Prolific in July 2025, using the actual 2024 campaign mugshot stimulus and a counter-narrative excerpt from a Nevada article that combined perspective-getting with a redemption theme."
+        },
+        {
+          "slot": "evidence",
+          "number": 2024.0,
+          "where": "elsewhere in paper",
+          "claim": "The study is a three-arm survey experiment of 2,439 self-identified Democrats recruited via Prolific in July 2025, using the actual 2024 campaign mugshot stimulus and a counter-narrative excerpt from a Nevada article that combined perspective-getting with a redemption theme."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the claim from the perspective-getting literature (attributed to Todd & Galinsky 2014 and Harney 2023) that being provided with another person's perspective significantly increases empathy for out-group members, including incarcerated individuals, and extends this finding to the context of mitigating stigma from political messaging about criminal records."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2023.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the claim from the perspective-getting literature (attributed to Todd & Galinsky 2014 and Harney 2023) that being provided with another person's perspective significantly increases empathy for out-group members, including incarcerated individuals, and extends this finding to the context of mitigating stigma from political messaging about criminal records."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2007.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper draws on the meta-analytic finding attributed to Lau, Sigelman, and Rovner (2007) that negative campaign advertisements do not empirically support election success, using it to argue that the Democratic Party's stigmatizing strategy was counterproductive."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2024.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the finding from the labeling literature (attributed to Denver et al. 2024, Harris & Socia 2016, and Imhoff 2015) that stigmatizing labels like 'criminal' cause worse perceptions of individuals with records compared to person-first language, using this to predict that the 'convicted criminal' label on Trump would spill over to worsen Democrats' perceptions of people with records more broadly."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2016.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the finding from the labeling literature (attributed to Denver et al. 2024, Harris & Socia 2016, and Imhoff 2015) that stigmatizing labels like 'criminal' cause worse perceptions of individuals with records compared to person-first language, using this to predict that the 'convicted criminal' label on Trump would spill over to worsen Democrats' perceptions of people with records more broadly."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2015.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the finding from the labeling literature (attributed to Denver et al. 2024, Harris & Socia 2016, and Imhoff 2015) that stigmatizing labels like 'criminal' cause worse perceptions of individuals with records compared to person-first language, using this to predict that the 'convicted criminal' label on Trump would spill over to worsen Democrats' perceptions of people with records more broadly."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2016.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the finding attributed to Côté-Lussier (2016) that feeling angry towards those with criminal records is associated with greater support for more punitive justice system policy, using it to argue that stigmatizing language in campaign ads could increase support for punitive policy among Democrats."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 1979.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper applies Kahneman and Tversky's (1979) Prospect Theory to explain why exposure to the Trump advertisement improved perceived quality of Democratic representation, arguing that Trump may serve as a reference point against which other elected officials are judged as comparatively better."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2017.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper draws on the finding attributed to Kalla and Broockman (2017) that policy positions and elected officials taking action have a stronger causal effect on feelings of being represented than affect, using it to question whether the Democratic Party's affective strategy was the optimal approach for bolstering representation."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 74.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper builds on the finding (attributed to Macdonald et al., ref 74) that congressional candidates temper extreme primary messaging to appeal more moderately in general elections, using it to explain why the Democratic Party may have avoided the counter-narrative approach as strategically 'too radical.'"
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 48,
+      "causal word not in quote": 0,
+      "hedge dropped": 13,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks whether propagating stigmatizing labels like 'convicted criminal' on Trump in Democratic Party advertisements produces spillover effects that worsen Democrats' perceptions of individuals with criminal records more broadly, and whether perceived representation is affected."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper also asks whether providing a counter-narrative featuring a formerly system-involved representative can counteract the negative impacts of the stigmatizing advertisement."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The paper questions the strategic advisability of the negative ad approach, noting that prior evidence does not support negative campaign advertisements aiding election success and that Democrats tend to respond more to positive ads."
+        },
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks about the long-term implications of the Party's messaging for its representational capacity, specifically whether stigmatizing rhetoric decreases solidarity by constructing categories of deservingness for individuals with criminal records."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to the Trump advertisement with the 'convicted criminal' label significantly worsened Democrats' perceptions of individuals with criminal records, while simultaneously improving perceived feelings of representation by elected officials."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "A counter-narrative using perspective-getting with a formerly system-involved state representative substantially mitigated the negative effects of the advertisement on perceptions of individuals with criminal records."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "Because the advertisement image (Trump's mugshot with the label) was held constant across all treatment arms, the study cannot disentangle the effect of the image from the effect of the stigmatizing terminology."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The perceptions of individuals with criminal records index had only satisfactory reliability, and the range of measures capturing dimensions of representation was limited, both of which the authors flag as needing improvement."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "The authors acknowledge uncertainty about whether the counter-narrative intervention reduces stigma or instead constructs a new category of deservingness for those with records, noting future research should clarify this."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The author explicitly frames the findings as preliminary and states that well-powered and aptly-timed field experiments are needed to confirm and extend the results."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "could",
+          "claim": "One item in the perceptions index (whether labeling people as 'criminals' does more harm than good) moved in the opposite direction from the hypothesized effect, and the authors list multiple unresolvable explanations for this."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors extend social categorization theory to a new domain—political messaging—arguing that the salient application of a stigmatizing label to a high-profile exemplar (Trump) produces spillover perceptions that worsen views of the broader category (individuals with criminal records)."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The paper draws on the finding attributed to Kalla and Broockman (2017) that policy positions and elected officials taking action have a stronger causal effect on feelings of being represented than affect, using it to question whether the Democratic Party's affective strategy was the optimal approach for bolstering representation."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 7,
+      "name authors": 7,
+      "all named authors cited at the quote": 7,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 66,
+      "abstract": 4,
+      "introduction": 12,
+      "background": 0,
+      "methods": 10,
+      "results": 6,
+      "discussion": 31,
+      "other": 0,
+      "unknown": 3,
+      "first third": 20,
+      "middle third": 15,
+      "last third": 31
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 29,
+      "overlapped, any slot": 30,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q4",
+        "C2",
+        "E3",
+        "E5",
+        "E6",
+        "E7",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F11",
+        "L1",
+        "L6",
+        "T3",
+        "I4"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 19,
+      "in own quotes": 16,
+      "elsewhere in paper": 3,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 3643.0,
+          "where": "elsewhere in paper",
+          "claim": "The study combines two years of panel survey data (six waves, 2567 linked panelists, up to 3643 for X-only analyses) with scraped behavioral data from X/Twitter (9,250,180 posts)."
+        },
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The study recruited participants through YouGov's standing web panel in the United States, with initial recruitment in January 2019, an additional cohort in September 2020, and a final survey wave in January 2021; X/Twitter scraping ran from March 2019 to January 2021."
+        },
+        {
+          "slot": "evidence",
+          "number": 2469.0,
+          "where": "elsewhere in paper",
+          "claim": "A supervised classifier trained on 2,469 hand-labeled posts rated by four expert raters serves as an alternative robustness check for the political hostility measure, achieving 74% accuracy against a 50% baseline on a held-out test set."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 39,
+      "causal word not in quote": 0,
+      "hedge dropped": 5,
+      "items": [
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The study recruited participants through YouGov's standing web panel in the United States, with initial recruitment in January 2019, an additional cohort in September 2020, and a final survey wave in January 2021; X/Twitter scraping ran from March 2019 to January 2021."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "Controlling for the share of political posts among all posts does not weaken the results, indicating the findings are not an artifact of politically engaged users simply posting more about politics."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The associations between engagement and hostility are stronger among users with higher leader-directed affective polarization, with the clearest support for online and offline participation."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The paper attributes to the psychological literature (e.g., Moor & Anderson; Buckels et al.) the claim that the most severe online hostility can be attributed to a small segment of users with extreme personality traits such as Dark Triad traits and sadism, and builds on this by showing that political engagement is also positively associated with hostility beyond these personality-based explanations."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The socioeconomic and grievance-based literature (e.g., Pettigrew; Petersen et al.; Bail; Mutz; Silver) claims that online hostility is connected to experiences of deprivation, marginalization, or status threat among certain demographic groups. The paper builds on this by showing that political engagement is also positively associated with online political hostility, adding a correlate that is not reducible to deprivation or personality traits."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 4,
+      "name authors": 4,
+      "all named authors cited at the quote": 2,
+      "some": 2,
+      "none": 0,
+      "items": [
+        {
+          "named": [
+            "Bail",
+            "Mutz",
+            "Petersen",
+            "Pettigrew"
+          ],
+          "not cited at the quote": [
+            "Mutz"
+          ],
+          "claim": "The socioeconomic and grievance-based literature (e.g., Pettigrew; Petersen et al.; Bail; Mutz; Silver) claims that online hostility is connected to experiences of deprivation, marginalization, or status threat among certain demographic groups. The paper builds on this by showing that political engagement is also positively associated with online political hostility, adding a correlate that is not reducible to deprivation or personality traits."
+        },
+        {
+          "named": [
+            "Kam",
+            "Leeper",
+            "Lodge",
+            "Slothuus",
+            "Taber",
+            "de Vreese"
+          ],
+          "not cited at the quote": [
+            "Kam",
+            "de Vreese"
+          ],
+          "claim": "The political information processing literature (e.g., Leeper & Slothuus; Taber & Lodge; Kam; Slothuus & de Vreese) has found that indicators of political engagement are associated with biased processing of political information, especially among those high in political knowledge. The paper builds on this by extending the revisionist perspective from biased information processing to online political hostility on social media."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 58,
+      "abstract": 2,
+      "introduction": 3,
+      "background": 12,
+      "methods": 17,
+      "results": 12,
+      "discussion": 12,
+      "other": 0,
+      "unknown": 0,
+      "first third": 15,
+      "middle third": 15,
+      "last third": 28
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 24,
+      "overlapped, any slot": 24,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q2",
+        "C2",
+        "E6",
+        "F4",
+        "F6",
+        "L2",
+        "L7",
+        "L8",
+        "T2",
+        "T5",
+        "I2",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 19,
+      "in own quotes": 4,
+      "elsewhere in paper": 15,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 6.5,
+          "where": "elsewhere in paper",
+          "claim": "Missing substance use data (6.5%–8.5% per substance) were imputed using peer perception data, and sensitivity analyses excluding these cases confirmed the direction of every focal effect was unchanged."
+        },
+        {
+          "slot": "evidence",
+          "number": 8.5,
+          "where": "elsewhere in paper",
+          "claim": "Missing substance use data (6.5%–8.5% per substance) were imputed using peer perception data, and sensitivity analyses excluding these cases confirmed the direction of every focal effect was unchanged."
+        },
+        {
+          "slot": "evidence",
+          "number": 6.0,
+          "where": "elsewhere in paper",
+          "claim": "Depression was measured with a 6-item CES-D, and AI identity was measured with 6 items adapted from the MEIM Affirmation and Belonging subscale, which showed good internal consistency (Cronbach's α = 0.722)."
+        },
+        {
+          "slot": "evidence",
+          "number": 6.0,
+          "where": "elsewhere in paper",
+          "claim": "Depression was measured with a 6-item CES-D, and AI identity was measured with 6 items adapted from the MEIM Affirmation and Belonging subscale, which showed good internal consistency (Cronbach's α = 0.722)."
+        },
+        {
+          "slot": "evidence",
+          "number": 12.0,
+          "where": "elsewhere in paper",
+          "claim": "The authors estimated 12 ERGMs (a base model plus one model per substance for each school) and reported Average Marginal Effects using the ergMargins package to make coefficients interpretable and comparable across the three school networks."
+        },
+        {
+          "slot": "evidence",
+          "number": 12.0,
+          "where": "elsewhere in paper",
+          "claim": "Goodness-of-fit for all 12 models was assessed by comparing observed network statistics to 100 simulated networks on degree distributions, shared partner distributions, geodesic distances, and the triad census, with all observed statistics falling within the central range of simulated distributions."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 9.0,
+          "where": "elsewhere in paper",
+          "claim": "The data reflect only one developmental time point (9th and 10th grade) and a single cross-sectional observation, so patterns across the life course or during school transitions are not captured."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 10.0,
+          "where": "elsewhere in paper",
+          "claim": "The data reflect only one developmental time point (9th and 10th grade) and a single cross-sectional observation, so patterns across the life course or during school transitions are not captured."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper attributes to non-AI adolescent network researchers (e.g., Ali et al. 2014; Schaefer et al. 2012, 2013; Haas & Schaefer 2014) the claim that substance use consistently predicts friendship dynamics through positive receiver effects and homophily in racially heterogeneous schools, and disputes this claim for AI-majority reservation settings."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2012.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper attributes to non-AI adolescent network researchers (e.g., Ali et al. 2014; Schaefer et al. 2012, 2013; Haas & Schaefer 2014) the claim that substance use consistently predicts friendship dynamics through positive receiver effects and homophily in racially heterogeneous schools, and disputes this claim for AI-majority reservation settings."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2013.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper attributes to non-AI adolescent network researchers (e.g., Ali et al. 2014; Schaefer et al. 2012, 2013; Haas & Schaefer 2014) the claim that substance use consistently predicts friendship dynamics through positive receiver effects and homophily in racially heterogeneous schools, and disputes this claim for AI-majority reservation settings."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper attributes to non-AI adolescent network researchers (e.g., Ali et al. 2014; Schaefer et al. 2012, 2013; Haas & Schaefer 2014) the claim that substance use consistently predicts friendship dynamics through positive receiver effects and homophily in racially heterogeneous schools, and disputes this claim for AI-majority reservation settings."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2019.0,
+          "where": "elsewhere in paper",
+          "claim": "The network intervention literature (citing Hunter et al. 2019 and Valente 2012) presumes that friendship ties are, to some extent, founded on substance use behaviors, and the paper disputes this assumption as a basis for intervention design in AI-majority settings."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2012.0,
+          "where": "elsewhere in paper",
+          "claim": "The network intervention literature (citing Hunter et al. 2019 and Valente 2012) presumes that friendship ties are, to some extent, founded on substance use behaviors, and the paper disputes this assumption as a basis for intervention design in AI-majority settings."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "number": 2014.0,
+          "where": "elsewhere in paper",
+          "claim": "Rees, Freng, and Winfree (2014) reported that AI adolescents had fewer reciprocated friendships than White peers in heterogeneous school contexts, and the paper builds on this by noting their analysis was primarily descriptive and did not model endogenous network processes."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 33,
+      "causal word not in quote": 1,
+      "hedge dropped": 4,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "In AI-majority reservation schools, friendship formation is driven by structural mechanisms and demographic homophily rather than by substance use, depression, or AI identity, challenging the assumption that risky behavior organizes peer ties in this population."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "might",
+          "claim": "A robustness check estimated ERGMs containing only structural terms and substance use variables (excluding depression, AI identity, and demographic covariates), confirming that the null substance-use findings were not an artifact of overcontrol."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "appeared",
+          "claim": "Substance use (alcohol, tobacco, marijuana) showed no consistent or robust association with friendship dynamics, with only isolated non-replicated effects (alcohol homophily in School B, alcohol sender effect in School C)."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The authors argue that endogenous structural processes are universal in direction but calibrated by institutional and cultural context, extending the ERGM framework by showing how cultural values (egalitarianism, kinship) moderate degree effects."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors propose a shift toward strengths-based frameworks as an alternative to the risk-behavior-centered model for understanding and intervening in AI youth networks."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 4,
+      "name authors": 3,
+      "all named authors cited at the quote": 3,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 59,
+      "abstract": 7,
+      "introduction": 7,
+      "background": 0,
+      "methods": 14,
+      "results": 8,
+      "discussion": 23,
+      "other": 0,
+      "unknown": 0,
+      "first third": 16,
+      "middle third": 12,
+      "last third": 31
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 20,
+      "overlapped, any slot": 21,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q2",
+        "Q3",
+        "C2",
+        "E1",
+        "E2",
+        "E4",
+        "E6",
+        "F5",
+        "F7",
+        "F8",
+        "L6",
+        "T1",
+        "T2",
+        "I3",
+        "I5"
+      ]
+    }
+  }
+}

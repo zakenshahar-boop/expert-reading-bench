@@ -1,0 +1,509 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 18,
+      "in own quotes": 16,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "central_claim",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper finds a moderating role of regional political climate on the association between individual political conservatism and COVID-19 vaccine hesitancy and booster uptake, with conservatives showing lower hesitancy and higher booster likelihood in liberal climates."
+        },
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The study uses an online self-reported convenience sample of 683 US participants surveyed March 8 to April 19 2023 with zip-code linked 2020 presidential vote share as regional climate."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 32,
+      "causal word not in quote": 1,
+      "hedge dropped": 4,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The paper finds a moderating role of regional political climate on the association between individual political conservatism and COVID-19 vaccine hesitancy and booster uptake, with conservatives showing lower hesitancy and higher booster likelihood in liberal climates."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "Vaccine hesitancy was measured with a modified seven-item Attitudes towards Adult Vaccination Scale."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "Conservatives’ booster uptake is associated with their political climate while liberals’ uptake is not."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "The interaction for vaccination was not significant, suggesting a difference between attitudes and action possibly due to mandates."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The authors frame the study as testing political climate as a moderator of the link between individual political orientation and COVID-19 vaccine hesitancy and uptake."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 45,
+      "abstract": 8,
+      "introduction": 5,
+      "background": 0,
+      "methods": 15,
+      "results": 3,
+      "discussion": 14,
+      "other": 0,
+      "unknown": 0,
+      "first third": 23,
+      "middle third": 8,
+      "last third": 14
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 17,
+      "overlapped, any slot": 20,
+      "core findings": 3,
+      "core findings overlapped": 1,
+      "missed": [
+        "F1",
+        "F3",
+        "F5",
+        "F6",
+        "L6",
+        "T0",
+        "T1",
+        "T3",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 2,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper asks how partisan polarization varies subnationally and event-driven during COVID-19 pandemic in US and Canada, and how it relates to ideology, conspiracy content and vaccination."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 27,
+      "causal word not in quote": 1,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "Politically conservative regions showed significantly higher partisan polarization in both countries, especially in the US, and US vaccine polarization negatively correlates with vaccination rates."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "The authors position their work within computational text embedding studies of polarization and adopt a strictly text-based method due to restricted network data."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 36,
+      "abstract": 6,
+      "introduction": 5,
+      "background": 0,
+      "methods": 13,
+      "results": 4,
+      "discussion": 5,
+      "other": 0,
+      "unknown": 3,
+      "first third": 26,
+      "middle third": 4,
+      "last third": 6
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 13,
+      "overlapped, any slot": 15,
+      "core findings": 2,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q3",
+        "C2",
+        "E4",
+        "F1",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L7",
+        "L8",
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "I1",
+        "I3",
+        "I4",
+        "I6"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 7,
+      "in own quotes": 7,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 28,
+      "causal word not in quote": 0,
+      "hedge dropped": 7,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to the Democratic Trump ad labeling him a convicted criminal negatively shifts Democrats’ perceptions of people with criminal records but improves perceived representation, and a counter-stereotype narrative largely mitigates the negative perceptual effects."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The paper argues that Democratic Party ads labeling Trump as a convicted criminal spill over to worsen Democrats’ perceptions of people with criminal records, and that a counter-narrative featuring a formerly incarcerated representative can ameliorate those effects."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "Could",
+          "claim": "The counter-narrative stimulus was an edited excerpt from a November 5, 2024 Nevada Current article about a formerly incarcerated state assemblymember."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "The study cannot separate the effect of the mugshot image from the stigmatizing label text."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper is positioned within social categorization theory, using it to explain spillover of stigmatizing labels."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The paper positions itself against the claim that affective polarization drives political outcomes, citing recent experimental work that limits its impact to interpersonal dynamics."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "Prior literature is cited as claiming negative campaign advertisements help election success, which the authors dispute."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 36,
+      "abstract": 7,
+      "introduction": 7,
+      "background": 0,
+      "methods": 13,
+      "results": 3,
+      "discussion": 6,
+      "other": 0,
+      "unknown": 0,
+      "first third": 22,
+      "middle third": 8,
+      "last third": 6
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 10,
+      "overlapped, any slot": 12,
+      "core findings": 3,
+      "core findings overlapped": 0,
+      "missed": [
+        "Q2",
+        "Q3",
+        "Q4",
+        "E3",
+        "E4",
+        "E6",
+        "E7",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L1",
+        "L3",
+        "L5",
+        "L7",
+        "L8",
+        "L9",
+        "L11",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "I1",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 6,
+      "in own quotes": 6,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 39,
+      "causal word not in quote": 0,
+      "hedge dropped": 7,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggestive",
+          "claim": "The paper asks whether the associations between online political hostility and engagement indicators are stronger among users with higher affective polarization."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "Panelists were recruited in January 2019 and followed with five additional survey waves until January 2021."
+        },
+        {
+          "slot": "evidence",
+          "kind": "hedge",
+          "word": "seem",
+          "claim": "Internal efficacy was measured with three items including standard CPS questions and an ESS item."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "potential",
+          "claim": "The authors avoid claims about formal network influence or centrality."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The RI-CLPM results are not causal identification but temporal within-person associations."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The findings do not establish that engagement causes hostility."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "Early theories of political behavior are described as highlighting the positive democratic role of political engagement"
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 6,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 41,
+      "abstract": 4,
+      "introduction": 9,
+      "background": 9,
+      "methods": 13,
+      "results": 1,
+      "discussion": 5,
+      "other": 0,
+      "unknown": 0,
+      "first third": 22,
+      "middle third": 12,
+      "last third": 7
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 12,
+      "overlapped, any slot": 14,
+      "core findings": 3,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q2",
+        "C2",
+        "E4",
+        "E5",
+        "E6",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 11,
+      "in own quotes": 11,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 32,
+      "causal word not in quote": 1,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper questions whether established patterns of substance use and friendship formation hold in predominantly AI settings with different cultural norms"
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "effects on",
+          "claim": "Substance use shows no consistent sender, receiver, or homophily effects on friendship formation."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The authors position the work as testing whether friendship formation patterns established in racially heterogeneous schools hold in predominantly AI reservation school settings."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 38,
+      "abstract": 10,
+      "introduction": 8,
+      "background": 0,
+      "methods": 9,
+      "results": 4,
+      "discussion": 6,
+      "other": 0,
+      "unknown": 1,
+      "first third": 21,
+      "middle third": 7,
+      "last third": 10
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 18,
+      "overlapped, any slot": 18,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q3",
+        "Q4",
+        "C2",
+        "E3",
+        "E7",
+        "F5",
+        "F7",
+        "F8",
+        "L4",
+        "L5",
+        "L6",
+        "T1",
+        "T2",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

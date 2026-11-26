@@ -1,0 +1,131 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover onto perceptions of people with records (Q1) and sense of being represented (Q3); no counter-narrative question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x3",
+            "text": "Says 'stigmatizing labels in campaign advertisements' negatively affect perceptions, generalizing from the one Trump advertisement and attributing the effect to the labels. The stimulus was the mugshot with the label and the paper says image and words cannot be disentangled (p.17); its abstract says 'the Trump advertisement with the convicted criminal label'."
+          }
+        ],
+        "note": "All three parts of C1 stated."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E1 partial: survey experiment with self-identified U.S. Democrats, but no Prolific, dates or pre-registration in the claim. E2: total N and the three arms ('roughly evenly' level, as the earlier judge credited without arm counts; the counts are in the quotes). 'A Trump advertisement with a convicted criminal label' does not describe the mugshot stimulus, so no E3 credit."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the order (before the ad) and the comparison with the ad alone; the quote gives >0.8 SD. Credited in full as the earlier judge did for a similar entry without the magnitude."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gives the increase in feeling well represented only; no public-service motives, and does not name quality of Democratic representation."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "Adds that the counter-narrative led to 'a lower perception of its effectiveness'. The paper says both item coefficients were negative but only the explicit support item was significant (p.11); the effectiveness item was not."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "'The Trump advertisement's stigmatizing labels were more damaging' attributes the heterogeneous effect to the labels; the paper says 'the Trump advertisement exposure appeared to be significantly more damaging' (p.14) and cannot separate image from label (p.17)."
+          }
+        ],
+        "note": "Larger (ad) effects for system-impacted participants; the counter-narrative heterogeneity is not mentioned, but F6 is stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "AI agents completing the online survey (p.17)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Single time point, so persistence is unknown; not repeated exposure or behavior."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T4"
+        ],
+        "note": "T1; T4 partial for 'employ' the theory to argue spillover from an exemplar (applying it), without the extension/test."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Ref. 33, anger-inducing ads bolster support among the producing party's members (p.3). The paper's qualification is not stated; the earlier judge credited I2 without stance."
+      }
+    ]
+  }
+}

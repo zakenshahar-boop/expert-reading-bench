@@ -1,0 +1,102 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Geographic and temporal (event-driven) variation across US and Canada. Conspiracy and vaccination correlates (Q3) and the methods aim (Q2) not stated."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 ('significantly higher in both'), credited per its decision; plus the vaccination correlation with the weaker Canadian result (F2), placed here. No B1 or B2 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E5",
+          "E4",
+          "E3"
+        ],
+        "note": "'Over 50 million tweets' from late 2020 to early 2021, no split by country (E1 partial); three topics without conspiracy or the classifiers (E5 partial); 'geolocating users' without the profile location field (E4 partial); 'classifying by partisan affiliation' without the two-step method or validation (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher, masks and vaccines vs a mixed lockdown pattern (p.14, p.16); Canadian non-significance not stated. Second quote (Alberta) is in the paper."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "US half of F2; 'associated with' keeps the correlational wording. Canada half not stated in this slot."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Conservatives tweet conspiracy content at higher rates (paper: both countries; the note says US) and the small negative US correlation; the Canadian null result is not stated. 'Tweeted content', not 'endorsed', so not F-x3."
+      },
+      {
+        "match": [
+          "F7"
+        ],
+        "note": "Quebec highest (on vaccines, p.24; overall, p.14) with the English-only caveat. Uncertain: credited in full although it says 'over vaccines' rather than overall."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6",
+          "L2"
+        ],
+        "note": "Correlations do not imply causation (L6) and engaged Twitter users, not the broader public (L2)."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approaches, set against network-based ones. No T0. 'Extends' refers to the methods literature, not a stance on findings; not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Agrees with previous research on right-leaning states and extends it with geographic and temporal resolution (p.22)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Spillover of the 'convicted criminal' labeling onto Democrats' perceptions of people with records."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x3",
+            "text": "'Exposure to stigmatizing political labels like \"convicted criminal\" reduces positive perceptions' attributes the effect to the label; the stimulus was the mugshot with the label and the paper says the two cannot be disentangled (p.17). The quote says 'advertisement with the ... label'."
+          }
+        ],
+        "note": "Gives the harm to perceptions and the counter-narrative's mitigation; omits the representation improvement."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E2: total N and three arms. E1 partial: survey experiment with self-identified U.S. Democrats, no Prolific, pre-registration or dates. 'Trump advertisement with a stigmatizing label' and 'perspective-getting counter-narrative' are too thin for E3."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the ad increased perceptions that officials are motivated by self-interest rather than public service. The paper finds the opposite: the ad increased belief that officials are motivated by public service over self-interest (p.11, beta = 0.130; p.15)."
+          }
+        ],
+        "note": "Only quote is not in the paper (ellipsis splice), and the claim is wrong anyway: no credit."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory predicting spillover; no stance (apply/extend) stated, so no T4."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I4",
+          "I5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I4",
+            "text": "Says the author 'disputes' that anger-inducing ads 'might be the most effective way' to bolster support. The paper qualifies the evidence ('this is not necessarily concrete', p.3); no cited study claims 'most effective'. 'Perspective-getting is key to representation' is the author's proposal (p.3-4), not a cited finding."
+          }
+        ],
+        "note": "I4 partial: the anger-inducing-ads study and the paper's qualification. I5 partial: policy alignment matters for feelings of representation, given as the author's suggestion rather than as the cited experimental evidence."
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E5",
+    "E6",
+    "L5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "How attitudes and behaviour may have shifted from initial doses to boosters: accurate to p.7, not a gold question (the p.7 'may have' hedge is lost but it is framed as a question)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "The non-significant vaccination interaction and the mandates explanation (F4), placed in the question slot."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 (less hesitant and more boosted in liberal regions); the liberals-regardless half is only in a quote, not in the claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E6"
+        ],
+        "note": "Online survey of 683 US participants in early 2023: the data source, without the nonprobability convenience sample or Qualtrics Panels recruitment. N = 683 without the screening numbers (E2). The demographic controls are a fragment of E6."
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hesitancy half of E5 (seven modified AAVS items); booster hesitancy items from a 2022 survey also accurate. Status half in [5]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E7"
+        ],
+        "note": "Says quotas for race, income and gender (gender cap is on p.4) but not the four Black/White by above/below-median groups or why; the quotes carry the detail."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Self-reported vaccine and booster status (the other half of E5)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "OLS for hesitancy, logit GLMs for status; no interaction term here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Linear models with the interaction for hesitancy (Table 4 caption)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Logistic main-effects models (Table 5 caption); padding."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Logistic models with the interaction for status (Table 6 caption)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Hesitancy interaction significant, without its shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberals-regardless half of F2; the steeper rise in conservative climates is not stated in this slot, so F2 is not joined."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (60% vs under 35%); liberals boosted anywhere is missing. 'Varied significantly' is fair since the booster interaction was significant."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "'Did not significantly affect' is loose wording for a non-significant interaction; not flagged."
+      },
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No differences by race or gender in hesitancy or status: accurate to p.5 (Table 2), not in the gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Zip-code data may miss other regional variables such as population density that could drive the results: proxy plus consequence."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Effect modification not tested, without the consequence; the consequence is in [6]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Simpson's paradox / pooled associations as averages: the consequence half of L5."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Prior work treated orientation and climate separately; this study tests their interaction. Same call as the earlier judge on like wording (no 'first' needed)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Prior studies treated orientation or climate separately, not their interaction; the paper's building on them is implied by 'rather than how they interact'."
+      }
+    ]
+  }
+}

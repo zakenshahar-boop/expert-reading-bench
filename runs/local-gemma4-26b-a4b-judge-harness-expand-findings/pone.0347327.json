@@ -1,0 +1,279 @@
+{
+  "paper_id": "pone.0347327",
+  "model": "gemma4-26b-a4b-judge",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-gemma4-26b-a4b-judge-harness-expand (complete)",
+    "quotes confirmed",
+    "asked for more key findings (no limit of five)"
+  ],
+  "settings": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "seed": 1
+  },
+  "short_tokens": 600,
+  "long_tokens": 4000,
+  "model_calls": 3,
+  "input_tokens": 28385,
+  "output_tokens": 395,
+  "seconds": 11.9,
+  "summary": {
+    "quotes found": 42,
+    "pages corrected": 1,
+    "repairs that worked": 2,
+    "repair attempts": 2,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 3
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper investigates how partisan polarization manifested in online discourse regarding COVID-19 public health measures across different regions and topics in the US and Canada.\", \"quotes\": [{\"text\": \"We investigated regional and event-triggered variation in partisan division within social media debates surrounding COVID19 public health measures across American states and Canadian provinces.\", \"page\": 21}]}, {\"claim\": \"The paper explores whether the levels of partisan polarization in online discourse are influenced by the ideological leanings of different regions, exposure to conspiracy theory-related content, and vaccination rates.\", \"quotes\": [{\"text\": \"Specifically, we analyze millions of tweets to determine how polarization correlates with: (1) the ideological leanings of different regions; (2) exposure to conspiracy theory-related content; and (3) vaccination rates.\", \"page\": 3}]}, {\"claim\": \"The paper challenges the assumption that dissimilar language in online discussions necessarily indicates polarized political positions.\", \"quotes\": [{\"text\": \"dissimilar language alone does not necessarily indicate polarized positions.\", \"page\": 4}]}, {\"claim\": \"The study asks how geographic heterogeneity and specific political events influence online partisan polarization during the COVID-19 pandemic.\", \"quotes\": [{\"text\": \"This study introduces a novel computational approach to measure subnational and event-driven variation in partisan polarization and explores these dynamics across the United States and Canada.\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Partisan polarization during the pandemic was not uniform; it varied significantly by geography, political leaning, and specific public health topics, with conservative regions exhibiting higher polarization.\", \"quotes\": [{\"text\": \"we have demonstrated that polarization is not uniform but varies significantly by geography, political leaning, and public health topic, with substantial differences between the two countries.\", \"page\": 25}]}, {\"claim\": \"Conservative regions in both the United States and Canada exhibited higher levels of partisan polarization regarding COVID-19 public health measures.\", \"quotes\": [{\"text\": \"Our analysis reveals that politically conservative regions exhibited significantly higher levels of partisan polarization in both countries, with this effect particularly pronounced in the United States.\", \"page\": 1}]}, {\"claim\": \"There is a strong negative correlation between vaccine-related polarization and vaccination rates in the United States.\", \"quotes\": [{\"text\": \"We demonstrate a strong negative correlation between regional vaccination rates and the degree of polarization in vaccine-related discussions in the U.S.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The study analyzed millions of tweets from late 2020 from the United States and Canada, specifically focusing on discussions regarding lockdowns, masks, and vaccines.\", \"quotes\": [{\"text\": \"Analyzing over 50 million tweets from late 2020—a critical period of polarizing discourse during the pandemic’s early phase—we examine regional variations in discussions surrounding three key health interventions: lockdowns, masks, and vaccines.\", \"page\": 1}, {\"text\": \"We collected a large-scale dataset of COVID-19 political discussions on Twitter (now X) occurring between October 9, 2020, to January 4, 2021, comprising approximately 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada.\", \"page\": 4}]}, {\"claim\": \"Researchers used RoBERTa language models to create embeddings and the C-index to measure semantic distance between partisan groups.\", \"quotes\": [{\"text\": \"Specifically, we transform social media posts using RoBERTa, an open-source transformer-based language model [41]. We then measure polarization by quantifying how far apart the language of left and right-leaning users is positioned in this embedding space, using the C-index [42], a robust clustering measure.\", \"page\": 4}]}, {\"claim\": \"The researchers categorized users as conservative or liberal by cross-indexing profile metadata and activity patterns.\", \"quotes\": [{\"text\": \"We developed and validated a two-step approach for label propagation that classifies users as conservative or liberal by cross-indexing multiple metadata sources.\", \"page\": 4}]}, {\"claim\": \"User locations were determined using Open Street Map and the ArcGIS API to capture geographic heterogeneity.\", \"quotes\": [{\"text\": \"We processed this free-form text field using Open Street Map and the ArcGIS API, which both return latitude and longitude coordinates when a location is found.\", \"page\": 6}]}, {\"claim\": \"The study validated partisan classifications by comparing them against official election results and voter registration records.\", \"quotes\": [{\"text\": \"We further validated our party affiliation classifications by comparing them with real-world election data.\", \"page\": 8}]}, {\"claim\": \"The research integrated official public health data, including COVID-19 case counts and vaccination rates, for correlation analysis.\", \"quotes\": [{\"text\": \"We collected Twitter (X) data, COVID-19 case data from official government websites, vaccination rates from public health records, and U.S. voter registration records from state government portals.\", \"page\": 4}]}, {\"claim\": \"To manage computational complexity, an approximation algorithm was developed to estimate polarization through sampling.\", \"quotes\": [{\"text\": \"We developed an approximation algorithm that subsamples users while maintaining accuracy.\", \"page\": 11}]}, {\"claim\": \"The study utilizes a large-scale dataset of COVID-19 related tweets from October 2020 to January 2021, totaling approximately 12.5 million from the US and 46.6 million from Canada.\", \"quotes\": [{\"text\": \"We collected a large-scale dataset of COVID-19 political discussions on Twitter (now X) occurring between October 9, 2020, to January 4, 2021, comprising approximately 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada.\", \"page\": 4}]}, {\"claim\": \"The methodology involves using RoBERTa language models to transform tweets into vectors and calculating polarization via the C-index.\", \"quotes\": [{\"text\": \"Specifically, we transform social media posts using RoBERTa, an open-source transformer-based language model [41]. We then measure polarization by quantifying how far apart the language of left and right-leaning users is positioned in this embedding space, using the C-index [42], a robust clustering measure.\", \"page\": 4}]}, {\"claim\": \"The analysis examined three specific pandemic topics: lockdowns, masks, and vaccines.\", \"quotes\": [{\"text\": \"Our analysis focused on three specific pandemic-related topics: lockdowns, masks, and vaccines.\", \"page\": 4}]}, {\"claim\": \"The researchers validated their party affiliation classifications by comparing them against official voter registration records for several U.S. states.\", \"quotes\": [{\"text\": \"For further external validation of our U.S. party affiliation predictions, we matched Twitter users with primary voter registration records available for five states (Ohio, New York, Florida, Arkansas, North Carolina) and Washington DC.\", \"page\": 8}]}], \"key_findings\": [{\"claim\": \"Conservative regions in both the United States and Canada showed higher levels of partisan polarization regarding pandemic interventions.\", \"quotes\": [{\"text\": \"Our analysis reveals that politically conservative regions exhibited significantly higher levels of partisan polarization in both countries, with this effect particularly pronounced in the United States.\", \"page\": 1}]}, {\"claim\": \"In the United States, higher vaccine-related polarization in online discourse was strongly associated with lower regional vaccination rates.\", \"quotes\": [{\"text\": \"We demonstrate a strong negative correlation between regional vaccination rates and the degree of polarization in vaccine-related discussions in the U.S., suggesting tangible public health implications of online partisan division.\", \"page\": 1}]}, {\"claim\": \"Online partisan polarization surges are highly dynamic, typically characterized by sharp spikes linked to specific political events that last only a few days.\", \"quotes\": [{\"text\": \"By tracking the temporal evolution of polarization, we identify distinct spikes linked to specific political events and policy announcements. These polarization surges typically lasted only a few days, revealing the dynamic nature of online partisan discourse.\", \"page\": 1}]}, {\"claim\": \"The relationship between vaccine polarization and vaccination rates observed in the U.S. was notably weaker in Canada.\", \"quotes\": [{\"text\": \"This relationship was notably weaker in Canada, pointing to important cross-national differences in how political polarization manifests and impacts health behaviors.\", \"page\": 1}]}, {\"claim\": \"In the United States, vaccine-related polarization was strongly correlated with the Republican vote share, whereas lockdowns did not show such a relationship.\", \"quotes\": [{\"text\": \"We find strong, significant correlations in the US between Republican vote share and polarization around masks and vaccines, though not for lockdowns.\", \"page\": 16}]}, {\"claim\": \"Conservative partisans in both the United States and Canada engage in more conspiracy-related tweeting than progressive partisans.\", \"quotes\": [{\"text\": \"show that conservative partisans in both countries tweet conspiracy-related content at higher rates than progressive partisans.\", \"page\": 21}]}, {\"claim\": \"In the United States, there was a small but significant negative correlation between the volume of conspiracy-related tweets and aggregate daily polarization.\", \"quotes\": [{\"text\": \"When correlated with aggregate daily polarization (Fig 15 B and D, we find a small but significant negative correlation for the United States, while no significant correlation was observed for Canada.\", \"page\": 21}]}], \"scope_and_limits\": [{\"claim\": \"The study's polarization index reflects the discourse of politically active Twitter users and may not capture the views of the general public.\", \"quotes\": [{\"text\": \"While our polarization index reflects the discourse of politically engaged Twitter users, it nevertheless captures key dynamics of online debate that influence public narratives and align with observable regional outcomes.\", \"page\": 1}]}, {\"claim\": \"The methodology focuses on text-based measures and may miss subtle rhetorical nuances like sarcasm.\", \"quotes\": [{\"text\": \"Because our measure aggregates tweets into user-level embeddings, it captures overall partisan alignment at the user level, rather than fine-grained nuances in individual tweets. As a result, subtle rhetorical strategies such as sarcasm or indirect disagreement may be less apparent\", \"page\": 10}]}, {\"claim\": \"The analysis is limited to English-language tweets, which potentially biases the results for regions like Quebec.\", \"quotes\": [{\"text\": \"Fourth, we restricted our analysis to English-language tweets, which in Canada means we primarily captured perspectives of either anglophones or bilingual francophones — a potential source of bias. For example, the high polarization observed in Quebec regarding COVID-19 measures may be influenced by this language limitation.\", \"page\": 24}]}, {\"claim\": \"The authors do not establish causality between online polarization and offline health behaviors.\", \"quotes\": [{\"text\": \"While we cannot establish causality among conservative voting patterns, polarization scores, and vaccination rates, our results suggest polarized discourse played a significant role in shaping the heterogeneous vaccination landscape across the U.S.\", \"page\": 16}]}, {\"claim\": \"The results might be influenced by automated accounts that generate highly partisan content or use fake locations.\", \"quotes\": [{\"text\": \"Furthermore, the use of VPNs or fake accounts (including bots) may introduce additional error.\", \"page\": 25}, {\"text\": \"Automated accounts can contribute disproportionately to partisan discourse by generating large volumes of ideologically slanted content or amplifying existing narratives, potentially inflating the apparent semantic distance between political groups.\", \"page\": 25}]}, {\"claim\": \"The geolocation of users relies on self-reported information which could be inaccurate.\", \"quotes\": [{\"text\": \"geographic attribution of users depends on self-reported location fields processed through tools such as Open Street Map. While this is a reasonable approach, it is subject to inaccuracies if users provide false, incomplete, or\", \"page\": 24}]}, {\"claim\": \"The polarization measurement focuses on the discourse of politically engaged Twitter users rather than the general population.\", \"quotes\": [{\"text\": \"While our polarization index reflects the discourse of politically engaged Twitter users, it nevertheless captures key dynamics of online debate\", \"page\": 1}]}, {\"claim\": \"The researchers cannot establish a causal link between conservative voting patterns, polarization, and vaccination rates.\", \"quotes\": [{\"text\": \"While we cannot establish causality among conservative voting patterns, polarization scores, and vaccination rates, our results suggest polarized discourse played a significant role in shaping the heterogeneous vaccination landscape across the U.S.\", \"page\": 16}]}, {\"claim\": \"The study's findings regarding Quebec may be limited by the fact that the analysis was restricted to English-language content.\", \"quotes\": [{\"text\": \"we restricted our analysis to English-language tweets, which in Canada means we primarily captured perspectives of either anglophones or bilingual francophones — a potential source of bias.\", \"page\": 24}]}, {\"claim\": \"The authors caution that their findings represent a suggestive relationship rather than a definitive causal one due to temporal mismatches in data.\", \"quotes\": [{\"text\": \"As a result, correlations between polarization in vaccine-related discussions and later vaccination uptake should be understood as suggestive rather than causative.\", \"page\": 25}]}, {\"claim\": \"The researchers note that their results are correlations and do not imply causation.\", \"quotes\": [{\"text\": \"Finally, while several of our analyses rely on correlations, these results do not imply causation.\", \"page\": 25}]}], \"theoretical_positioning\": [{\"claim\": \"The authors position their work as extending research on partisan polarization by adding geographic and temporal dimensions to existing studies.\", \"quotes\": [{\"text\": \"However, we extended beyond these studies to characterize the geographic heterogeneity and temporal evolution of polarization, connecting features in our polarization metric to real-world events.\", \"page\": 22}]}, {\"claim\": \"The authors place their work within the computational tradition of using text embeddings and semantic representations to study polarization, positioning it as a scalable alternative to restricted network-based approaches.\", \"quotes\": [{\"text\": \"Consequently, our study adopts a strictly text-based method, which remains both accessible and scalable for analyzing large-scale digital discourse.\", \"page\": 3}]}, {\"claim\": \"The study uses semantic similarity as a proxy for polarization to address the limitation of traditional methods that may not account for group-specific lexicons.\", \"quotes\": [{\"text\": \"Our methodology leverages the demonstrated capacity of modern vector embeddings to represent language semantics.\", \"page\": 4}]}], \"interlocutor_claim\": [{\"claim\": \"The paper builds on the observation that conservative states in the U.S. show higher polarization in response to health interventions compared to liberal states, but adds that this pattern is not universal across all topics.\", \"quotes\": [{\"text\": \"This main finding is consistent with previous studies suggesting conservative states exhibited higher polarization (Fig 11) in response to public health interventions compared to liberal counterparts [10,62]. However, this pattern was not universal.\", \"page\": 23}]}, {\"claim\": \"The paper examines the idea that political discussions vary naturally across socio-demographic groups, but seeks to measure this through the lens of topic-conditioned language dissimilarity.\", \"quotes\": [{\"text\": \"Political discussions also vary naturally across socio-demographic groups, with each group developing its own lexicon and issue priorities [30–32]. This variation is well-documented not only among political elites but also in public discourse\", \"page\": 2}]}, {\"claim\": \"The study builds on research suggesting that online pandemic discussions exhibited distinct regional patterns characterized by the same partisan animosity that influenced public health compliance and epidemiological outcomes.\", \"quotes\": [{\"text\": \"A growing body of research confirms that online pandemic discussions [9,25–27] exhibited distinct regional patterns characterized by the same partisan animosity that influenced heterogeneous implementation of public health measures [25] and subsequent epidemiological outcomes [9].\", \"page\": 2}]}, {\"claim\": \"The authors build upon previous research that suggests the level of polarization on social media may be influenced by cross-border information flows.\", \"quotes\": [{\"text\": \"Importantly, most COVID-related conversations in Canada were heavily influenced by U.S. discussions, with Canadians retweeting American vaccine-related content eight times more frequently than Canadian content during our study period\", \"page\": 24}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "more: asked",
+      "slot": "key_findings",
+      "raw": "```json\n[\n  {\n    \"claim\": \"In the United States, vaccine-related polarization was strongly correlated with the Republican vote share, whereas lockdowns did not show such a relationship.\",\n    \"quotes\": [\n      {\n        \"text\": \"We find strong, significant correlations in the US between Republican vote share and polarization around masks and vaccines, though not for lockdowns.\",\n        \"page\": 15\n      }\n    ]\n  },\n  {\n    \"claim\": \"Conservative partisans in both the United States and Canada engage in more conspiracy-related tweeting than progressive partisans.\",\n    \"quotes\": [\n      {\n        \"text\": \"we show that conservative partisans in both countries tweet conspiracy-related content at higher rates than progressive partisans.\",\n        \"page\": 21\n      }\n    ]\n  },\n  {\n    \"claim\": \"In the United States, there was a small but significant negative correlation between the volume of conspiracy-related tweets and aggregate daily polarization.\",\n    \"quotes\": [\n      {\n        \"text\": \"In the United States (B), we find a statistically significant correlation −0.247 with CI=[−0.448,-0.023] (n= 88, p= 0.031) between these measures.\",\n        \"page\": 22\n      }\n    ]\n  }\n]\n```"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "page corrected"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"show that conservative partisans in both countries tweet conspiracy-related content at higher rates than progressive partisans.\", \"page\": 21}\n```"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "```json\n{\"text\": \"When correlated with aggregate daily polarization (Fig 15 B and D, we find a small but significant negative correlation for the United States, while no significant correlation was observed for Canada.\", \"page\": 21}\n```"
+    },
+    {
+      "step": "more: by slot",
+      "slot": "key_findings",
+      "offered": 3,
+      "added": 3
+    }
+  ]
+}

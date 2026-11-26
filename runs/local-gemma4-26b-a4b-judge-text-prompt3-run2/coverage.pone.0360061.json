@@ -1,0 +1,83 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x2",
+            "text": "Frames the question as a choice: hostility 'driven by' marginalization or personality, 'or' associated with engagement. The paper asks whether hostility is associated 'not only' with those explanations 'but also' with engagement (p.2) and 'does not seek to adjudicate between these literatures' (p.3)."
+          }
+        ],
+        "note": "Whether hostility is associated with engagement and its precursors is Q1; the either-or framing loses Q3's 'in addition to', so Q3 is not credited."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Indicators listed as examples, not as the strongest, so no F1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "'2019 to 2021' gives the period but not the YouGov panel or its waves; no E3 credit (as for 'two years' in the calibration note)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Higher activity and larger networks (followers and friends counts); accurate."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T2",
+          "T3"
+        ],
+        "note": "Only quote is NOT IN PAPER (altered 'hostility' to 'expression'); claim would be T2 and T3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": null,
+            "text": "Says the authors dispute an idea that hostile users are merely fringe actors. The paper attributes no such claim to other scholars; the abstract only says hostile users 'do not simply cater to fringe audiences', and the literature it cites worries the reverse (p.5)."
+          },
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users have 'significant reach'. The paper says 'greater potential reach', not evidence of network influence (p.15)."
+          }
+        ]
+      }
+    ]
+  }
+}

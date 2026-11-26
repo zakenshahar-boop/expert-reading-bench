@@ -1,0 +1,189 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "ungrounded": [
+          "Q3"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER (the paper says 'by asking whether', not 'we ask whether'); the claim is Q3."
+      },
+      {
+        "match": [],
+        "note": "Its only quote is marked NOT IN PAPER; the claim (the affective-polarization question) is accurate but not a gold answer, so it would be unlisted."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question (p.5), accurate but not a gold question; it states no result."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "C1 plus the strongest indicators, the distinctive part of F1."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the associations are stronger among more affectively polarized users, 'particularly for participation indicators'. The abstract says 'more pronounced for some indicators, especially online and offline participation'; the entry drops 'for some indicators', and the paper calls the support partial (p.14)."
+          }
+        ],
+        "note": "The moderation result with its participation qualifier, in the central-claim slot."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users are 'not fringe actors' and that their activity is 'giving them greater reach'. The paper says they 'do not simply cater to fringe audiences' and that this 'may thus provide them with a higher reach', i.e. greater potential reach, not evidence of influence (p.1, p.15)."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER; the claim is E1."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "2,567 linked panelists and over 9 million posts are given side by side without saying the posts came from the 2,567, so E2 is not joined wrongly. Survey responses linked to X handles is most of E1 (no 'panel'), credited partial since evidence[0] is ungrounded."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach and its validation; no cosine similarity to the 'political hate' vector or per-user averaging."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "OLS, RI-CLPM and count models; the quote covers OLS only but is faithful."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "AFINN and Perspective API, plus the supervised classifier (p.7, p.12)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "All six indicators positive with controls (p.11, p.15); the strongest indicators are not named here (they are in central_claim[0])."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the associations are 'significantly stronger' among more polarized users. The paper reports a descriptive split (4 vs 14 of 18 significant) and formal interactions of which 8 of 18 survive correction, concentrated in participation; the entry's 'especially for participation' and 'not uniform' keep the substance."
+          }
+        ],
+        "note": "Stronger, especially for participation, not uniform: the whole of F2."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Robustness across AFINN, Perspective API and the supervised classifier (p.11-12), accurate; F4 (larger for the primary measure) is not stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Does not say the antagonistic traits were not measured, but 'do not directly test' Dark Triad or sadism accounts is the substance of L6."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "'Originating in classical theories' describes where the revisionist view came from (Almond and Verba), not the classical engagement tradition as a framework the paper builds on, so T1 is not credited. The misinformation point is accurate (p.4)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I2",
+            "text": "Says the authors 'dispute' the classical view that engagement is a boon to democracy. The paper qualifies it: it builds on classical theories, which themselves acknowledged engagement could go too far (p.4, p.15), and adds that engagement is also associated with hostility."
+          }
+        ],
+        "note": "The classical claim is I2; the stance word is stronger than 'qualifies'."
+      }
+    ]
+  }
+}

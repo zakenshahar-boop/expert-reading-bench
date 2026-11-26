@@ -1,0 +1,306 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Accurate to p.7 (attitudes and behaviours from initial doses to boosters); not the paper's main question and not in the gold."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "T3"
+        ],
+        "note": "Added entry. The hedged social-pressure suggestion (p.10), reported as a suggestion: T3 content in the question slot. 'Without assessing it' is not said but the hedge is kept."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. Hedged speculation from p.10, accurate; not a question in the gold (as in earlier matches)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Added entry. Non-significant vaccine-status interaction with the mandates explanation: F4 in the question slot."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Both halves: conservatives in liberal climates less hesitant and more often boosted; liberals less hesitant regardless. 'Moderates' is the paper's own framing."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F1"
+        ],
+        "note": "Added entry. Main associations for all four outcomes (F1) and which interactions were significant; no shape of the interaction, so no C1 credit."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E7"
+        ],
+        "note": "Online survey via Qualtrics Panels, March 8 to April 19, 2023 (E1; 'convenience' not said, wording leniency as in earlier matches). N = 683 without the 1,777/970 screening figures (E2 partial). 'Quota-based sample of White and Black participants across income levels' gives the race and income quotas without the four groups or the median split (E7 partial)."
+      },
+      {
+        "match": [
+          "E4",
+          "E3"
+        ],
+        "note": "Two self-rated items (social, economic) on an 11-point scale; averaging not said, counted as E4. Percent Republican 2020 vote by zip code (E3)."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Linear and logistic regressions with the interaction term and the full control list."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Seven AAVS items modified for COVID-19, booster items and alpha; self-reported status is not stated anywhere in the slot."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "1,777 collected, 970 failed screens, 115 zip-code exclusions, final 683. The nine illogical open-ended responses are omitted; minor."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "CFA on the hesitancy items (p.5): accurate, not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Linear and logistic models; mostly restates findings (booster percentages, without the conservatives-in-liberal-climates 60%, so no misplaced F3).",
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": null,
+            "text": "Says the models used '664–683 participants'. The tables report n = 664 and Fig 2 gives 663 and 655 for the status models; 683 is the full sample, not a model N."
+          }
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Steeper rise of hesitancy with conservatism in conservative climates; the liberals-regardless half is in [4]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction significant with 'a similar pattern' (p.7, p.10): accurate, but no gold finding covers booster hesitancy alone (as in earlier matches)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 with 60% vs under 35%; the liberals-boosted-anywhere half is not stated in the slot."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says conservatives' hesitancy 'was influenced by' their regional political climate. The paper reports an association (abstract: 'conservatives' likelihood was associated with their political climate') and says it 'cannot assume causal or directional associations' (p.10)."
+          }
+        ],
+        "note": "Liberals low regardless of climate; conservatives' hesitancy depends on climate. Completes F2 with [0]."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "partial": [
+          "L5"
+        ],
+        "note": "Other zip-code differences such as population density (L1). Effect modification not tested is named without its consequence (L5 partial)."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "'Influences' wording not flagged, following the earlier match of the same phrasing."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Added entry. Pooled associations and Simpson's paradox, without saying effect modification was not tested (that is in [3] and [8])."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Added entry; repeats [4]."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Added entry; repeats [3]."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Added entry. Effect modification not tested and Simpson's paradox cannot be excluded."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Added entry; repeats [2]."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Added entry; repeats [1]."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Added entry; repeats [0]."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Added entry. A finding with the authors' explanation, not a limitation."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Both literatures and the extension by testing their interaction. 'Prior studies had not addressed' is true to the paper's 'first assessment' (p.7)."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Consistent with the two prior literatures (p.10); the novel-interaction part repeats T2 from [0]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T1"
+        ],
+        "note": "Added entry. The p.2 premise that political influence may extend to the political environment, i.e. the climate literature only. Calling it 'a theoretical perspective' is loose but names no theory; not flagged."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Added entry. The authors' hedged asymmetry interpretation (p.10), reported as a suggestion; no gold item."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "unsupported attribution",
+            "gold": "T-x3",
+            "text": "Says the authors position the work 'within a framework where political orientation moderates sensitivity to environment'. The paper offers this once as a speculation ('It could also be the case that conservative individuals are more influenced by their environments', p.10) and adopts no framework."
+          }
+        ],
+        "note": "Added entry. The hedged first half alone would be unlisted; the framework claim is the attribution."
+      },
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Added entry; repeats [0]."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Cowan et al. (ref. 18) checked against the reference list: correct."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Added entry. Rönn et al. (ref. 19) correct; vaccination-rate half of I3. 'Climate effect ... stronger for conservatives' is true to p.10, not flagged."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "note": "Added entry. Liu and Li (ref. 21), given as 'Liu et al.': correct."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Added entry. Refs 6, 7, 10 and 19 are Fridman, Levin and Bradshaw, Hao and Neely, Rönn: correct, cited in the sentence before 'Previous studies have focused on either...'."
+      }
+    ]
+  }
+}

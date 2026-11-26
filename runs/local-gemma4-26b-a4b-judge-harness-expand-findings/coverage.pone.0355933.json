@@ -1,0 +1,261 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E1"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Asks whether the 'convicted criminal' labeling in the advertisement spills over onto perceptions of people with records (Q1); phrased generally ('political advertisements'), which is acceptable for a question."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Whether the stigmatizing ad affects Democrats' feelings of being represented by their party (p.3 framing)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says 'political advertisements using stigmatizing labels for high-profile figures' reduce perceptions. The paper tested one advertisement (Trump's mugshot labeled 'CONVICTED CRIMINAL') and says replication in other contexts is unclear (p.17)."
+          }
+        ],
+        "note": "Gives the ad's harm to perceptions and the counter-narrative's mitigation; omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1",
+          "E3"
+        ],
+        "note": "E2: total N and three arms. E1 partial: survey experiment with U.S. Democrats (Prolific is in entry 3). E3 partial: ad by its 'convicted criminal' label, no mugshot."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate (perspective-getting counter-narrative meant to foster empathy, p.3-4); adds nothing beyond E3, which entry 6 gives."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Lists the outcome families but omits the ad-support index and the index details; 'value of representation' is a single item, not an index (minor, not flagged)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Prolific and the U.S. Democrat sample; 'survey experiment' is in entries 0 and 5. Together they give E1 (pre-registration and dates treated as detail, as in the calibration)."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Without the with/without covariates detail, as in the calibration."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "Repeats entry 0 (design, N, arms)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3: excerpt from a news article about a formerly incarcerated legislator (Jovan Jackson is named in the paper, p.4); redemption theme is in p.5."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "A finding (counter-narrative offset the ad's effect on perceptions) placed in the evidence slot."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'before the advertisement'; the quote gives the >0.8 SD comparison with the ad alone. Magnitude is detail."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "Says the counter-narrative decreased support for 'the use of stigmatizing political advertisements'. The outcome was support for this one Trump advertisement, relative to the ad alone (p.11)."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Generalizes to 'political advertisements labeling an individual as a \"convicted criminal\"'; the paper tested one advertisement (Trump's mugshot with the label) and says replication in other contexts is unclear (p.17)."
+          }
+        ],
+        "note": "'Associated with' is weaker than the paper's causal wording; not flagged."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'Exposure to a counter-narrative significantly increased the perceived value of diversity' drops that the counter-narrative came before the ad and is compared with the ad alone; there was no counter-narrative-only arm (p.10, p.16). The quote keeps the comparison."
+          }
+        ],
+        "note": "H1C (0.79 SD, p.11) is accurate but not a gold answer (same call as the calibration)."
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "'Exposure to a counter-narrative significantly decreased perceived quality of Democratic representation' drops 'relative to the Trump advertisement alone'; there was no counter-narrative-only arm. The quote keeps the comparison."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Public-service motives increase (correct direction), without the representation-quality increase. The quote (p.11, in the paper) speaks to the unhypothesized value and quality effects rather than motives."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Social desirability / Hawthorne concern is part of L4; omits that the manipulation check eases but does not rule it out. 'Single time-point survey design' is given without its consequence, so no L5 credit."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability ('longer periods') is part of L5; 'different electoral contexts' is vaguer than L6 (fielded after the election) and earns nothing."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L1"
+        ],
+        "note": "States the missing counter-narrative-only arm without its consequence; entry 6 gives the consequence."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gap to behavior/decision-making; durability is in entry 1; repeated exposure is never mentioned, so L5 is not joined (as in the calibration)."
+      },
+      {
+        "match": [
+          "L8"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Missing arm, budget reason and the consequence (cannot isolate the counter-narrative's effect)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Repeats the social desirability concern of entry 0; no manipulation-check qualification, so L4 is not joined."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory with homogenization and spillover; no stance stated, so no T4 (as in the calibration)."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting literature as the grounding of the counter-narrative intervention (p.3)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I4"
+        ],
+        "note": "Garbles I4: the cited study [33] found anger-inducing ads bolster support among the producing party's members; the entry gives this as a rationale the party might have had, which is how the paper uses it (p.3), but not the study's finding itself."
+      },
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Garbled wording ('negative campaigning does not empirically support election success'), but the substance is the meta-analytic claim [7] the paper builds on."
+      },
+      {
+        "match": [],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I2",
+            "text": "Says the author disputes that negative campaign ads are ineffective. The paper builds on the meta-analytic evidence that negative ads do not aid election success (p.2), and it qualifies the emotional-mobilization literature [30-32] ('this is not necessarily concrete', p.3) rather than endorsing it against I2."
+          }
+        ],
+        "note": "No credit."
+      }
+    ]
+  }
+}

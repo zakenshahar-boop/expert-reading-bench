@@ -1,0 +1,271 @@
+{
+  "paper_id": "pone.0355933",
+  "model": "muse-glimmer-30b-q4km",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-muse-glimmer-30b-q4km-harness-confirm (complete)",
+    "quotes confirmed",
+    "claims re-checked (version 2)"
+  ],
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "chat_template_kwargs": {
+      "reasoning_strength": "low"
+    },
+    "seed": 1
+  },
+  "short_tokens": 4000,
+  "long_tokens": 8000,
+  "model_calls": 14,
+  "input_tokens": 8869,
+  "output_tokens": 1910,
+  "seconds": 49.8,
+  "summary": {
+    "quotes found": 15,
+    "pages corrected": 0,
+    "repairs that worked": 0,
+    "repair attempts": 0,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 6,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper asks whether stigmatizing Democratic campaign labels applied to Trump spill over to worsen Democrats’ perceptions of people with criminal records and how representation perceptions are affected.\", \"quotes\": [{\"text\": \"To test for the possibility of stigmatizing language spillover, this preliminary study employs a survey experiment testing exposure to the Party’s advertisement, labeling Trump as a “convicted criminal” (n = 814) relative to no advertisement (n = 813), on Democrats’ perceptions of individuals with records\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Exposure to the Democratic Trump ad labeling him a convicted criminal negatively shifts Democrats’ perceptions of people with criminal records but improves perceived representation, and a counter-stereotype narrative largely mitigates the negative perceptual effects.\", \"quotes\": [{\"text\": \"Results suggest that exposure to the Trump advertisement with the “convicted criminal” label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation.\", \"page\": 1}, {\"text\": \"Findings suggest that the counter-stereotype vastly ameliorated the negative effects of the advertisement on Democrats’ perceptions of individuals with criminal records.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The study uses a three-arm online survey experiment with Democrats recruited via Prolific.\", \"quotes\": [{\"text\": \"The 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812).\", \"page\": 4}, {\"text\": \"The survey was fielded through Prolific, an online survey platform that is commonly utilized for conducting survey-based research, which has been demonstrated as a reliable platform for obtaining high-quality data.\", \"page\": 8}]}], \"key_findings\": [{\"claim\": \"Exposure to the Trump ad improved perceived feelings of representation among Democrats.\", \"quotes\": [{\"text\": \"exposure to the Trump advertisement with the “convicted criminal” label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation.\", \"page\": 1}]}], \"scope_and_limits\": \"not stated\", \"theoretical_positioning\": [{\"claim\": \"The paper is positioned within social categorization theory, using it to explain spillover of stigmatizing labels.\", \"quotes\": [{\"text\": \"Leaning upon social categorization theory, propagating such labels on Trump may thereby spillover, impacting constituents’ perspectives of individuals with records more broadly.\", \"page\": 1}, {\"text\": \"Specifically, social categorization theory articulates the implications and process of how individuals come to assign and distinguish individuals into groups, with much of the theory and evidence pointing to the importance of category salience and the role of group exemplars and prototypes\", \"page\": 2}]}], \"interlocutor_claim\": \"not stated\"}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "recheck2",
+      "slot": "question",
+      "claim": "The paper asks whether stigmatizing Democratic campaign labels applied to Trump spill over to worsen Democrats’ perceptions of people with criminal records and how representation perceptions are affected.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "direction",
+          "same"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "central_claim",
+      "claim": "Exposure to the Democratic Trump ad labeling him a convicted criminal negatively shifts Democrats’ perceptions of people with criminal records but improves perceived representation, and a counter-stereotype narrative largely mitigates the negative perceptual effects.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "direction",
+          "same"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "evidence",
+      "claim": "The study uses a three-arm online survey experiment with Democrats recruited via Prolific.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "The Trump advertisement alone significantly reduced positive perceptions of individuals with criminal records relative to no exposure.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "The counter-narrative presented before the ad greatly reduced support for the ad and improved perceptions of people with records.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Exposure to the Trump ad improved perceived feelings of representation among Democrats.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "direction",
+          "same"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "The counter-narrative decreased perceived quality of Democratic representation relative to the ad alone.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "scope_and_limits",
+      "claim": "The authors note the study is preliminary and call for well-powered field experiments to confirm and extend findings.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "scope_and_limits",
+      "claim": "The design cannot isolate the effect of the counter-narrative alone because it was always paired with the ad.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "theoretical_positioning",
+      "claim": "The paper is positioned within social categorization theory, using it to explain spillover of stigmatizing labels.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "interlocutor_claim",
+      "claim": "Prior literature is cited as claiming negative campaign advertisements help election success, which the authors dispute.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    }
+  ]
+}

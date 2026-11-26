@@ -7,5 +7,11 @@
   "gpt-6.2-astra": {"input": 8.00, "output": 40.00, "source": "https://developers.openai.com/api/docs/pricing"},
   "gpt-6.2-sol": {"input": 2.00, "output": 10.00, "source": "https://developers.openai.com/api/docs/pricing"},
   "gpt-4o": {"input": 2.50, "output": 10.00, "source": "https://developers.openai.com/api/docs/models/gpt-4o"}
+ },
+ "electricity": {
+  "note": "Local models that had one GPU to themselves are costed as electricity only: the GPU at its power limit for the whole request time. This is an upper bound on the GPU's draw (the contributor reports under 350 W sustained). The rest of the machine, idle time and the hardware are not counted. The rate is an example; scale by your own.",
+  "gpu": "NVIDIA RTX 3090, power limit 420 W", "watts": 420, "dollars_per_kwh": 0.20,
+  "models": ["gemma4-31b-qat-q4_0", "gemma4-26b-a4b-judge", "muse-glimmer-30b-q4km", "qwen3.6-35b-a3b-q4km"],
+  "source": "docs/local-runs-2026-11-25/gpu-time.md"
  }
 }

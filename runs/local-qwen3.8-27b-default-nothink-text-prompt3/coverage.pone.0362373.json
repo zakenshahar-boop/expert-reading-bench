@@ -1,0 +1,129 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "note": "Whether the substance use-friendship link from heterogeneous schools holds in AI-majority schools: Q2, and the substance-use question Q3."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C2"
+        ],
+        "note": "C1 in full ('rather than risky behaviors' is the abstract's wording). 'Unlike in other populations' gives the contrast of C2 without naming heterogeneous settings or 'weaker organizing principle'; partial. Exceptions not named, no catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Network data from 9th/10th graders in three Northern Plains reservation schools (E1, as the earlier judge credited without 'cross-sectional'). 247 is the abstract's analysis N and is not paired with 77% or the per-school survey counts in the claim (the p.6 quote gives those, correctly, for 263): E2 partial. ERGMs named only: E3 partial."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Structural terms and actor attributes of the models (E3 part); measures not specified, so no E5."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Primary drivers' is the abstract's wording (F-n1 characterization); reciprocity and transitivity named, all three schools."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract's wording: no consistent sending/receiving association. Homophily and the two exceptions not stated, so partial. 'Diverging from prior research in non-AI populations' is the paper's own contrast (p.1, p.13)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note says homophily on gender, grade and sexual orientation was significant and consistent across the schools; the paper says this of gender and grade only ('across all schools'), and says sexual orientation homophily was 'also significant and positive'. Table 3 shows it non-significant for the non-straight category in School B and only marginal (p<0.10) for straight students in School C."
+          }
+        ],
+        "note": "Gender, grade and sexual orientation homophily: F3 in full; the cross-school consistency is stretched for sexual orientation."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F5",
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x3",
+            "text": "The note says Schools A and B 'showed egalitarian constraints on popularity'; the paper reports only that their indegree distributions did not deviate from chance and says this 'may reflect the stronger operation of egalitarian norms' (p.14, p.15). The cultural interpretation is stated as a finding."
+          }
+        ],
+        "note": "Only quote marked NOT IN PAPER, so no credit. Content would be the School C half of F5 and the School C alcohol sender detail of F1."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L4"
+        ],
+        "note": "First quote NOT IN PAPER, second (developmental epoch, p.16) in paper, so the entry is grounded. Three schools/heterogeneous schools (L1); 'other developmental epochs' (L4)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional with both consequences (selection vs influence, association vs cause)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Moving beyond generalizations from heterogeneous settings is the testing half of T3 (paper's wording), without what is replicated and what is disputed; as the earlier judge credited."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "partial": [
+          "I6"
+        ],
+        "note": "The conventional 'risky behavior is a primary determinant' assumption, disputed (I4; p.16 'does not hold in our study'). Mentions network intervention strategies, part of I6, without the presumption that ties are founded on substance use being spelled out."
+      }
+    ]
+  }
+}

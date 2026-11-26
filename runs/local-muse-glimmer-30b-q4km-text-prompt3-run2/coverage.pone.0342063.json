@@ -1,0 +1,99 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservatives in liberal climates less hesitant and more likely boosted, but the liberals-regardless part of C1 is missing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E5"
+        ],
+        "note": "Convenience sample via Qualtrics Panels with dates (E1) and zip-code 2020 Republican vote share (E3). 'Outcomes measured by self-report and validated scales' is a vague nod to E5. Two of three quotes are in the paper (the p.3 NYT quote is marked NOT IN PAPER). 'Validated scales' not flagged: the AAVS is a published scale and the paper reports CFA and alpha = .93."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1 (positive associations with vaccine and booster hesitancy); the status half is not stated."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Both quotes marked NOT IN PAPER. The claim (interaction significant for both hesitancies and booster status, larger for conservatives in conservative climates) would have earned at most partial F2/F3."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Both halves of F3 (conservatives more likely boosted in liberal climates; liberals boosted regardless); percentages are detail."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "No gender or race differences in hesitancy or status (p.5): accurate, not in the gold."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3"
+        ],
+        "note": "Its only quote is marked NOT IN PAPER, so no credit."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Both literatures (orientation and climate) and the extension by testing their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Democratic vote share and vaccination rates (ref. 19), without county/state level or the booster-rate half, so partial. The quote that states it is marked NOT IN PAPER; credit stands on the second, faithful quote (the p.2 gap sentence), which does not itself state the claim. Unsure call."
+      }
+    ]
+  }
+}

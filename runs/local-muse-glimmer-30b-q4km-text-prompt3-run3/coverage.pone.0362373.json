@@ -1,0 +1,103 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use (Q3); 'individual characteristics' without demographics, depression or AI identity named (Q1 partial). Same call as the calibration judge."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural mechanisms and demographic homophily, substance use no consistent association with sending or receiving ties; 'driven by' follows the abstract's 'primary drivers'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Data source matches E1; ERGMs named without per-school estimation, terms or AMEs (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity and transitivity in all three schools; 'universal' is the paper's wording (abstract, p.13)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'No robust' sender, receiver or homophily effects follows the paper's 'no consistent or robust association'; exceptions not named."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note calls sexual orientation homophily 'strong and consistent' alongside gender and grade; the paper says only that it 'was also significant and positive' (p.13), and Table 3 shows it non-significant in School B (Other) and only borderline in School C (Straight). 'Strong ... across all schools' applies to gender and grade."
+          }
+        ],
+        "note": "All three homophily dimensions named; the strength for sexual orientation is tilted up."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional with both consequences (selection versus influence, causality)."
+      },
+      {
+        "match": [
+          "L1",
+          "L4"
+        ],
+        "note": "Three schools on one reservation (L1) and one developmental period (L4, credited under its decision when the developmental stage is mentioned). 'Limited to' carries the generalization consequence; the quote supports L1 only, which is enough for grounding."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "'Social network analysis and ERGM tradition' is a vague T1 without endogenous processes and actor effects; moving beyond generalizations is the testing half of T3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Finding only; no mention that the study was descriptive or that the paper builds on it."
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "paper_id": "pone.0347327",
+  "model": "muse-glimmer-30b-q4km",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-muse-glimmer-30b-q4km-text-prompt3 (repaired)",
+    "quotes confirmed"
+  ],
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "chat_template_kwargs": {
+      "reasoning_strength": "low"
+    },
+    "seed": 1
+  },
+  "short_tokens": 4000,
+  "long_tokens": 8000,
+  "model_calls": 2,
+  "input_tokens": 1675,
+  "output_tokens": 1167,
+  "seconds": 28.3,
+  "summary": {
+    "quotes found": 11,
+    "pages corrected": 0,
+    "repairs that worked": 2,
+    "repair attempts": 2,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper asks how partisan polarization varies subnationally and event-driven during COVID-19 pandemic in US and Canada, and how it relates to ideology, conspiracy content and vaccination.\", \"quotes\": [{\"text\": \"This study introduces a novel computational approach to measure subnational and event-driven variation in partisan polarization and explores these dynamics across the United States and Canada.\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Politically conservative regions showed significantly higher partisan polarization in both countries, especially in the US, and US vaccine polarization negatively correlates with vaccination rates.\", \"quotes\": [{\"text\": \"Our analysis reveals that politically conservative regions exhibited significantly higher levels of partisan polarization in both countries, with this effect particularly pronounced in the United States.\", \"page\": 1}, {\"text\": \"We demonstrate a strong negative correlation between regional vaccination rates and the degree of polarization in vaccine-related discussions in the U.S., suggesting tangible public health implications of online partisan division.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The study uses millions of geolocated Twitter tweets from late 2020 classified by party affiliation and topic via RoBERTa embeddings and C-index polarization metric.\", \"quotes\": [{\"text\": \"Analyzing over 50 million tweets from late 2020—a critical period of polarizing discourse during the pandemic’s early phase—we examine regional variations in discussions surrounding three key health interventions: lockdowns, masks, and vaccines.\", \"page\": 1}, {\"text\": \"We collected a large-scale dataset of COVID-19 political discussions on Twitter (now X) occurring between October 9, 2020, to January 4, 2021, comprising approximately 12.5 million tweets linked to the United States and 46.6 million tweets linked to Canada.\", \"page\": 4}]}], \"key_findings\": [{\"claim\": \"Conservative US states and provinces show higher overall polarization on COVID topics.\", \"quotes\": [{\"text\": \"In the United States (Fig 9), conservative states consistently show higher polarization overall and specifically in discussions related to masks and vaccines.\", \"page\": 14}]}, {\"claim\": \"US vaccine polarization is strongly negatively correlated with actual vaccination rates.\", \"quotes\": [{\"text\": \"Using official CDC vaccination data from a comparable period after vaccines became available (October 11, 2021 to January 3, 2022), we confirm a strong negative correlation (r = −0.77, p < 0.001) between vaccine polarization and vaccination rates.\", \"page\": 16}]}, {\"claim\": \"Polarization spikes last only a few days and coincide with specific political events.\", \"quotes\": [{\"text\": \"These polarization surges typically lasted only a few days, revealing the dynamic nature of online partisan discourse.\", \"page\": 1}]}, {\"claim\": \"Conservative partisans tweet conspiracy content at higher rates, with a small negative correlation to polarization in US.\", \"quotes\": [{\"text\": \"show that conservative partisans in both countries tweet conspiracy-related content at higher rates than progressive\", \"page\": 21}]}], \"scope_and_limits\": [{\"claim\": \"The authors note the polarization index reflects politically engaged Twitter users and cannot establish causality, and language limitation biases Canadian results.\", \"quotes\": [{\"text\": \"While our polarization index reflects the discourse of politically engaged Twitter users, it nevertheless captures key dynamics of online debate that influence public narratives and align with observable regional outcomes.\", \"page\": 1}, {\"text\": \"We did not observe a similar pattern in Canada, due to small sample size and the implementation of vaccine mandates.\", \"page\": 16}]}], \"theoretical_positioning\": [{\"claim\": \"The authors position their work within computational text embedding studies of polarization and adopt a strictly text-based method due to restricted network data.\", \"quotes\": [{\"text\": \"Consequently, our study adopts a strictly text-based method, which remains both accessible and scalable for analyzing large-scale digital discourse.\", \"page\": 3}]}], \"interlocutor_claim\": [{\"claim\": \"The paper attributes to prior literature the claim that US Democratic supporters were consistently more likely to adhere to social distancing, wear masks and get vaccinated compared to Republican counterparts.\", \"quotes\": [{\"text\": \"Extensive research now confirms that in the U.S., Democratic Party supporters were consistently more likely to adhere to social distancing guidelines [8–10], wear masks [11,12], and get vaccinated [13–15] compared to their Republican counterparts.\", \"page\": 2}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"In the United States (Fig 9), conservative states consistently show higher polarization overall and specifically in discussions related to masks and vaccines.\", \"page\": 14}"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"show that conservative partisans in both countries tweet conspiracy-related content at higher rates than progressive\", \"page\": 1}"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    }
+  ]
+}

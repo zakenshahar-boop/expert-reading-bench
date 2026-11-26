@@ -1,0 +1,124 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Conservatives in liberal climates less hesitant and more often boosted; 'liberals remain consistent regardless of climate' gives the liberal half without saying they are low (the p.8 quote supplies it). Counted as a full match; unsure."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ],
+        "note": "Online survey, 683, March to April 2023, without convenience sample or Qualtrics (E1 partial); N without screening figures (E2 partial); zip-code-level 2020 election results without the percent Republican measure (E3 partial); conservatism from two items, social and economic, without averaging or scale (E4 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Linear regression for hesitancy and GLMs for vaccine status with controls; the interaction term is not named anywhere in the slot, so not joined."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction significant for both hesitancy outcomes, without the shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberals low regardless of climate."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservatives in liberal climates less hesitant; with [1], F2 is joined."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster interaction: liberals stable, conservatives' likelihood associated with climate, without the direction; no other F3 entry."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "'Largely ignored' keeps the hedge of the paper's 'little research'."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I2",
+            "text": "Says the paper 'disputes the sufficiency' of prior work and argues 'the interaction is necessary to explain variance in hesitancy'. The paper builds on studies that looked at orientation or climate separately (p.2, p.10) and reports the interaction as a novel finding; it disputes nothing and makes no necessity claim."
+          }
+        ],
+        "note": "Prior studies treated orientation or climate separately, and the paper examines both together: I2. The conservatism-hesitancy claim of I1 is only in the quote, not the claim, so I1 not credited."
+      }
+    ]
+  }
+}

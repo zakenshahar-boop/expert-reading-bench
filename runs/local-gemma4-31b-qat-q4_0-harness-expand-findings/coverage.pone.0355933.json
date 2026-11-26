@@ -1,0 +1,206 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E3",
+    "L5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ],
+        "note": "Spillover of the 'convicted criminal' ad onto perceptions of people with records (Q1), effect on sense of representation (Q3), and whether the counter-narrative mitigates it (Q2)."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Restates the spillover question as an argument against the assumption that a label on Trump stays with Trump (p.2); repeats Q1, no extra point."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Policy support is distinct from perceptions of those the policies affect (p.3): accurate, not a gold answer (T3 needs the motivated-reasoning suggestion)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Gives all three parts of C1: harm to perceptions, improved feelings of representation, counter-narrative 'largely mitigates' (paper: 'vastly ameliorated', 'almost entirely ameliorated')."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1"
+        ],
+        "note": "E1 partial: survey experiment with self-identified U.S. Democrats, but no Prolific, dates or pre-registration in the claim. E2: total N and the three arms ('roughly evenly' level, as the earlier judge credited without arm counts; the counts are in the quotes). 'A Trump advertisement with a convicted criminal label' does not describe the mugshot stimulus, so no E3 credit."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Ad half of E3: mugshot labeled CONVICTED CRIMINAL with a description of its use."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Counter-narrative half of E3: edited excerpt from a 2024 news article about a formerly incarcerated assemblymember."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Seven-point Likert items and standardized indices (p.7): accurate, but names no outcome, so not E4."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Sample composition (59.4% women, 70.6% White, 21.4% system-impacted, p.8): accurate, not a gold answer."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the order (before the ad) and the comparison with the ad alone; the quote gives >0.8 SD. Credited in full as the earlier judge did for a similar entry without the magnitude."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Both the representation increase and the public-service-motives increase, as in the earlier judge's full F3. 'Unexpectedly' fits: representation quality was not hypothesized and H2B predicted a decrease in motives."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "H1C, value of diverse life experiences, counter-narrative first vs ad alone (0.79 SD, p.11): accurate with its comparison, not a gold answer."
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "H1F decrease in public-serving motives, counter-narrative first vs ad alone (p.11): accurate, not a gold answer. The Bonferroni caveat (F11) is only in the quote, not the claim."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "The ad's harm to perceptions larger for system-impacted participants (p.14)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Main effect of system-impacted status (p.13): accurate, not a gold answer (F6 is about larger treatment effects)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F7"
+        ],
+        "note": "Lists the racial-attitudes associations (p.13) as associations, but does not say racial attitudes were among the strongest predictors."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gives durability (with other contexts / less transparent designs, p.17); not repeated exposure or behavior."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Concern that AI agents completed the online survey (p.17)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Gap to behavior and decision-making."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Single versus repeated exposure."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T4"
+        ],
+        "note": "T1: social categorization, exemplar label spilling over to the group. T4 partial: 'applies' the theory to the Trump ad, but does not say it extends it or tests the predicted spillover."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Perspective-getting literature grounding the counter-narrative (p.3)."
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T5",
+            "text": "Says the author 'interprets the findings ... as an application of Prospect Theory'; the paper hedges: the results 'may simply be Prospect Theory in action' (p.15). Not stated as the framework, so not an unsupported attribution."
+          }
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref. 54 (incarceration may shift ideology rightward) and the paper's doubt about it outside stigmatizing messaging (p.4): accurate, not a gold interlocutor."
+      }
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E3",
+    "F2",
+    "L3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional (and topic) variation in online COVID-19 polarization in both countries; events not named, methods aim (Q2) not stated."
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "Q3",
+            "text": "Asks whether polarization is 'influenced by' ideological leaning, conspiracy exposure and vaccination rates; the paper asks how polarization 'correlates with' them (p.3), and vaccination rates come a year after the tweets."
+          }
+        ],
+        "note": "The three correlates of Q3."
+      },
+      {
+        "match": [],
+        "note": "The method's premise that dissimilar language alone does not indicate polarization (p.4): the paper's own reasoning, not a question it asks and not a gold answer. The earlier judge gave a similar entry nothing. The lexicon reason (I7) is not stated here."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Repeat of Q1 (geographic and event-driven variation). Q2's methods aim is in the quote, not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C2"
+        ],
+        "note": "Conclusion wording (p.25). The conservative-regions clause is part of C1, matched in full by the next entry."
+      },
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording ('higher in both countries'), credited per C1's decision; drops 'particularly in the U.S.'. No B1 catch."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "U.S. vaccination correlation, F2's U.S. half, placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E5"
+        ],
+        "note": "'Millions of tweets from late 2020' in both countries without dates or the per-country split (E1 partial); the three topics named without conspiracy or the classifiers (E5 partial)."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings and C-index separation of partisan groups."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Profile then activity classification; no validation in this entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Geocoding tools (OSM, ArcGIS) named, but not that locations come from the profile location field."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against election results and voter registration records: E3's second half."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Case data and vaccination rates; election results as an outside comparison and the one-year lag not stated."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Subsampling approximation of the polarization index (p.11). Accurate; not in the gold."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Period and per-country tweet counts."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "Repeat of E2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Three topics without conspiracy or the classifiers."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Voter registration validation only."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording, true to the paper; no masks/vaccines vs lockdowns split and no Canadian non-significance. No B1 catch."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2. 'Associated' keeps the correlation; not flagged."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes linked to events, lasting a few days."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Canada half of F2 in the abstract's wording ('notably weaker'), which the F2 note accepts as true to the paper. No B2 catch."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Politically engaged Twitter users, not the general public."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Text-based measure may miss sarcasm and similar nuance (p.10). Close enough to L1's semantic-similarity proxy."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "No causality established, from p.16; treated as L6 as the earlier judge did."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Bots and fake accounts producing partisan content or fake locations (p.25); self-reported location fields not stated here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported location fields may be inaccurate: L3's first half."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Repeat of L2."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "p.16 causality hedge, as the earlier judge credited it."
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "English-only restriction limiting the Quebec results."
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Suggestive, not causal, because of the temporal mismatch (p.25)."
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Extends with geographic and temporal dimensions; does not say it agrees with earlier findings that right-leaning regions were more divided. No T0."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding tradition, set against restricted network-based approaches."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I7",
+            "text": "Says the method addresses a limitation of 'traditional methods' that ignore group-specific lexicons; the paper says groups have their own lexicons (p.2, p.4) and that embeddings 'complement' lexicon-based strategies (p.3), not that traditional methods fail on this point."
+          }
+        ],
+        "note": "Group lexicons as the problem the topic-conditioned measure handles: I7, placed here."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Prior studies [10,62] on conservative states; 'not universal across all topics' misreads the quote's 'not universal' (which is about states such as Delaware), but the paper does report no lockdown association, so not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I7"
+        ],
+        "note": "Prior claim stated (groups vary in language, refs 30-32). The paper's relation to it is misdescribed: it conditions on topic so that lexicon differences are not read as polarization, it does not set out to measure that variation."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Prior research [9,25-27]: online pandemic discussion showed regional partisan patterns (p.2). Accurate apart from 'compliance' where the paper says 'implementation' of measures; not in the gold."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Canadian conversations heavily influenced by U.S. discussion [94,95] (p.24), recast as cross-border influence on polarization, which the paper itself suggests (p.18, p.26). Loose but not wrong; not in the gold."
+      }
+    ]
+  }
+}

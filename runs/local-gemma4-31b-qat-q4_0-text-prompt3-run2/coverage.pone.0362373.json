@@ -1,0 +1,110 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Generic: the factors that influence friendship formation in AI-majority reservation schools, with no attribute or structural pattern named. Q1 partial at most; unsure whether a question this general earns anything."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording, credited per the C1 decision."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Network data from 9th/10th graders in three Northern Plains reservation schools (E1; 'cross-sectional' not stated, as in the earlier judge's E1 call). N = 247 is the abstract's analysis sample, not paired with the 263 survey figures (E2 partial). ERGMs named, without per-school estimation, terms or AMEs (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "neutral": true,
+        "note": "Reciprocity and transitivity as main drivers (abstract's 'primary drivers', F-n1 neutral): naming them earns F2. Demographic homophily not in this entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording: no consistent association with sending or receiving ties. Homophily is not covered and the exceptions are not named, so F1 partial."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note says neither depression nor AI identity is 'significantly linked' to friendship formation; the paper says they were not substantively associated, and reports a statistically significant (negligible) depression sender effect in School B and small depression homophily estimates detectable in Schools B and C (p.13)."
+          }
+        ],
+        "note": "Substance of F4 kept; 'significantly' replaces the paper's 'substantively'."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade as primary demographic axes (paper's wording, p.13); sexual orientation not mentioned."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional design cannot tell selection from influence."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "T3",
+            "text": "The note says the authors 'revise existing adolescent social network theories' and that generalizations from heterogeneous populations 'do not accurately describe' AI-majority settings; the paper keeps the standard network framework, finds the structural effects align with prior research (p.14) and says it 'moves beyond generalizations'."
+          }
+        ],
+        "note": "Testing half of T3 credited as partial; 'revise' is the overstatement the T3 decision excludes (as the earlier judge flagged it)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Research in diverse schools links substance use to friendship via selection and influence (p.2; 'consistently' is the paper's word). The note does not say the paper disputes its generalization, nor the receiver/homophily specifics: I1 partial."
+      }
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "paper_id": "pone.0355933",
+  "model": "muse-glimmer-30b-q4km",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-muse-glimmer-30b-q4km-harness-expand (complete)",
+    "quotes confirmed",
+    "asked for more key findings (no limit of five)"
+  ],
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "chat_template_kwargs": {
+      "reasoning_strength": "low"
+    },
+    "seed": 1
+  },
+  "short_tokens": 4000,
+  "long_tokens": 8000,
+  "model_calls": 2,
+  "input_tokens": 23378,
+  "output_tokens": 1763,
+  "seconds": 62.6,
+  "summary": {
+    "quotes found": 39,
+    "pages corrected": 0,
+    "repairs that worked": 1,
+    "repair attempts": 1,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 4
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper asks whether stigmatizing Democratic campaign labels applied to Trump spill over to worsen Democrats’ perceptions of people with criminal records and how representation perceptions are affected.\", \"quotes\": [{\"text\": \"To test for the possibility of stigmatizing language spillover, this preliminary study employs a survey experiment testing exposure to the Party’s advertisement, labeling Trump as a “convicted criminal” (n = 814) relative to no advertisement (n = 813), on Democrats’ perceptions of individuals with records\", \"page\": 1}]}, {\"claim\": \"The paper asks whether providing a counter-narrative from a formerly system-involved representative before exposure to the Trump advertisement can counteract the advertisement’s potential negative impacts.\", \"quotes\": [{\"text\": \"Additionally, this study seeks to understand whether providing a counterexample to Trump – highlighting the perspective of a formerly system-involved representative on the propagation of this label by the Democratic party – may counter-act potential negative impacts of the Party’s Trump advertisement.\", \"page\": 4}]}, {\"claim\": \"The paper asks about the impact of reframing the Trump advertisement with a preliminary counter-narrative versus seeing the advertisement alone among self-identified Democrats.\", \"quotes\": [{\"text\": \"the impact of reframing that advertisement by juxtaposing it with a preliminary counter-narrative, exposing the perspective of a formerly system-involved leader and their take on the framing of Trump as a ‘criminal,’ relative to just the advertisement alone.\", \"page\": 4}]}, {\"claim\": \"The paper argues against relying on stigmatizing attacks in political messaging and in favor of elevating justice-involved voices within the party.\", \"quotes\": [{\"text\": \"While well-powered and aptly-timed field experiments are needed to confirm and extend these findings, utilizing political messaging that elevates dedicated, justice-involved voices within the party rather than rely on stigmatizing attacks should be strongly considered and tested.\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Exposure to the Democratic Trump ad labeling him a convicted criminal negatively shifts Democrats’ perceptions of people with criminal records but improves perceived representation, and a counter-stereotype narrative largely mitigates the negative perceptual effects.\", \"quotes\": [{\"text\": \"Results suggest that exposure to the Trump advertisement with the “convicted criminal” label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation.\", \"page\": 1}, {\"text\": \"Findings suggest that the counter-stereotype vastly ameliorated the negative effects of the advertisement on Democrats’ perceptions of individuals with criminal records.\", \"page\": 1}]}, {\"claim\": \"The paper argues that Democratic Party ads labeling Trump as a convicted criminal spill over to worsen Democrats’ perceptions of people with criminal records, and that a counter-narrative featuring a formerly incarcerated representative can ameliorate those effects.\", \"quotes\": [{\"text\": \"The purpose of this paper was to identify the potential for spillover harm that may have been caused in propagating stigmatizing labels (and/or images) on Trump, encouraging further inquiry.\", \"page\": 16}]}], \"evidence\": [{\"claim\": \"The study uses a three-arm online survey experiment with Democrats recruited via Prolific.\", \"quotes\": [{\"text\": \"The 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812).\", \"page\": 4}, {\"text\": \"The survey was fielded through Prolific, an online survey platform that is commonly utilized for conducting survey-based research, which has been demonstrated as a reliable platform for obtaining high-quality data.\", \"page\": 8}]}, {\"claim\": \"The final analytical sample comprised 2,439 participants after exclusions for attention checks, duplicates and bot screening.\", \"quotes\": [{\"text\": \"Overall, there were 2,439 participants as part of the final sample, a majority of which (59.4%) identified as women, with\", \"page\": 8}]}, {\"claim\": \"Participants were allocated approximately evenly across three treatment groups with specified ns.\", \"quotes\": [{\"text\": \"Thus, the 2,439 participants were allocated approximately evenly across one of three different treatment groups: a) the\", \"page\": 4}, {\"text\": \"Control group (n = 813); b) the Trump Ad Alone group (n = 814); and c) the Counter-Narrative First group (n = 812).\", \"page\": 4}]}, {\"claim\": \"The survey was fielded through Prolific between July 12th and 13th of 2025.\", \"quotes\": [{\"text\": \"The survey was fielded through Prolific, an online survey platform that is commonly utilized for conducting survey-based\", \"page\": 8}, {\"text\": \"research, which has been demonstrated as a reliable platform for obtaining high-quality data. 2,500 participants were\", \"page\": 8}, {\"text\": \"recruited for this study, between July 12th and 13th of 2025\", \"page\": 8}]}, {\"claim\": \"Eligibility required U.S. residence, fluent English and Democratic Party membership.\", \"quotes\": [{\"text\": \"This survey was fielded amongst individuals residing within the United States who spoke fluent English and were members of the Democratic Party.\", \"page\": 8}]}, {\"claim\": \"The counter-narrative stimulus was an edited excerpt from a November 5, 2024 Nevada Current article about a formerly incarcerated state assemblymember.\", \"quotes\": [{\"text\": \"This excerpt was from the article entitled, “Could a formerly incarcerated lawmaker reshape justice policy in the NV\", \"page\": 5}, {\"text\": \"Legislature?,” by Michael Lyle, published in the Nevada Current on November 5, 2024 [55]. The text was lightly edited for\", \"page\": 5}]}, {\"claim\": \"Treatment effect estimation used least squares regressions with heteroskedasticity-consistent standard error estimator HC-2.\", \"quotes\": [{\"text\": \"To estimate each ATE, least squares regressions with heteroskedasticity-consistent standard error estimators, HC-2, were utilized.\", \"page\": 10}]}], \"key_findings\": [{\"claim\": \"The Trump advertisement alone significantly reduced positive perceptions of individuals with criminal records relative to no exposure.\", \"quotes\": [{\"text\": \"Hypothesis 2A: Being presented with the Democratic party’s Trump advertisement alone, labeling him as a “convicted criminal,” will significantly decrease (positive) perceptions of individuals with criminal records, on average, relative to not being exposed to this advertisement\", \"page\": 7}]}, {\"claim\": \"The counter-narrative presented before the ad greatly reduced support for the ad and improved perceptions of people with records.\", \"quotes\": [{\"text\": \"Hypothesis 1B: Exposure to the counter-narrative first, describing a public service-oriented individual who has a criminal record, will significantly increase (positive) perceptions of individuals with criminal records, on average, relative to exposure to the advertisement of Trump being labeled as a “convicted criminal” alone.\", \"page\": 6}]}, {\"claim\": \"Exposure to the Trump ad improved perceived feelings of representation among Democrats.\", \"quotes\": [{\"text\": \"exposure to the Trump advertisement with the “convicted criminal” label had significant, negative impacts on Democrats’ perceptions of individuals with records, but improved perceived feelings of representation.\", \"page\": 1}]}, {\"claim\": \"The counter-narrative decreased perceived quality of Democratic representation relative to the ad alone.\", \"quotes\": [{\"text\": \"Hypothesis 1D: Exposure to the counter-narrative first, describing a public service-oriented individual who has a criminal record, will significantly decrease the perceived quality of Democratic representation in federal government, on average, relative to exposure to the advertisement of Trump being labeled as a “convicted criminal” alone.\", \"page\": 6}]}, {\"claim\": \"Exposure to the counter-narrative before the Trump ad increased perceived value of diversity of life experience in representation relative to the ad alone\", \"quotes\": [{\"text\": \"with the initial exposure to the counter-narrative demonstrating a 0.79 SD unit increase in the perceived value of diversity of life experience as an important component of strengthening democracy, relative to those only presented with the Trump\", \"page\": 11}]}, {\"claim\": \"Exposure to the Trump advertisement alone significantly increased participants’ beliefs that elected officials’ motivations were to serve the public versus self-interest relative to no exposure\", \"quotes\": [{\"text\": \"Both H2A and H2B were supported, namely, exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records ( β̂0 = −0.835, SE = 0.044) and significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049)\", \"page\": 11}]}, {\"claim\": \"Exposure to the counter-narrative before the Trump ad reduced perceived public-serving motives of elected officials relative to the ad alone\", \"quotes\": [{\"text\": \"Specifically, exposure to the counter-narrative significantly (at the α = 0.05 threshold without a multiple comparisons correction), reduced the extent to which participants believed that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂2 = −0.098, SE = 0.048)\", \"page\": 11}]}, {\"claim\": \"The counter-narrative first condition produced a significantly higher emotional reaction to the narrative than the control and Trump ad alone conditions\", \"quotes\": [{\"text\": \"Specifically, those assigned to the counter-narrative first condition reported significantly higher, on average, agreement to having an emotional response, relative to both the Control group (ATE = −0.156, robust SE = 0.047) and the Trump Ad Alone (ATE = −0.135, robust SE = 0.048)\", \"page\": 10}]}], \"scope_and_limits\": [{\"claim\": \"The authors note the study is preliminary and call for well-powered field experiments to confirm and extend findings.\", \"quotes\": [{\"text\": \"While well-powered and aptly-timed field experiments are needed to confirm and extend these findings, utilizing political messaging that elevates dedicated, justice-involved voices within the party rather than rely on stigmatizing attacks should be strongly considered and tested.\", \"page\": 1}]}, {\"claim\": \"The design cannot isolate the effect of the counter-narrative alone because it was always paired with the ad.\", \"quotes\": [{\"text\": \"Given that the design employed was not a full factorial (i.e., there was no way to isolate the specific effect of the counter-narrative alone, given the design,) direct comparisons between these two groups were not prioritized in hypothesis testing.\", \"page\": 10}]}, {\"claim\": \"The study cannot separate the effect of the mugshot image from the stigmatizing label text.\", \"quotes\": [{\"text\": \"it is not possible to disentangle the impact of the image from the stigmatizing terminology imposed, and thus, this is recommended for exploration in future work.\", \"page\": 17}]}, {\"claim\": \"A single time-point survey experiment leaves unanswered questions about replication and durability.\", \"quotes\": [{\"text\": \"the single time-point survey experimental approach is a useful first step, but leaves unanswered several key questions related to the ability of these results to replicate\", \"page\": 17}]}, {\"claim\": \"The paper cannot determine whether effects would persist, vary with repeated exposure, or translate to behavior.\", \"quotes\": [{\"text\": \"for how long do the effects of the counter-narrative prime before the advertisement and the advertisement itself persist\", \"page\": 17}]}, {\"claim\": \"Whether the findings would replicate during active campaign periods is unknown.\", \"quotes\": [{\"text\": \"Whether these results replicate during campaign periods is an open question, perhaps especially so for the advertisement’s impacts in particular.\", \"page\": 17}]}, {\"claim\": \"Potential social desirability and Hawthorne effects cannot be ruled out.\", \"quotes\": [{\"text\": \"helps alleviate some concerns but does not rule this out.\", \"page\": 17}]}], \"theoretical_positioning\": [{\"claim\": \"The paper is positioned within social categorization theory, using it to explain spillover of stigmatizing labels.\", \"quotes\": [{\"text\": \"Leaning upon social categorization theory, propagating such labels on Trump may thereby spillover, impacting constituents’ perspectives of individuals with records more broadly.\", \"page\": 1}, {\"text\": \"Specifically, social categorization theory articulates the implications and process of how individuals come to assign and distinguish individuals into groups, with much of the theory and evidence pointing to the importance of category salience and the role of group exemplars and prototypes\", \"page\": 2}]}, {\"claim\": \"The paper positions itself against the claim that affective polarization drives political outcomes, citing recent experimental work that limits its impact to interpersonal dynamics.\", \"quotes\": [{\"text\": \"recent robust experimental work suggests that affective polarization may not have meaningful impact on political outcomes, though may have some implications for interpersonal dynamics, particularly on dimensions of connection with members of party out-groups\", \"page\": 3}]}], \"interlocutor_claim\": [{\"claim\": \"Prior literature is cited as claiming negative campaign advertisements help election success, which the authors dispute.\", \"quotes\": [{\"text\": \"meta-analytic evidence does not empirically support the use of negative campaign advertisements to aid election success\", \"page\": 2}, {\"text\": \"prior evidence on the effects of negative campaign advertisements suggests that they tend to be utilized less by those leading in the polls\", \"page\": 2}]}, {\"claim\": \"Prior evidence is cited as suggesting that experiencing incarceration may shift ideologies further to the right, which the paper questions as possibly contingent on status quo political messaging\", \"quotes\": [{\"text\": \"Though some evidence suggests that experiencing incarceration may serve to shift ideologies further to the right [54], whether that would remain\", \"page\": 4}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "more: asked",
+      "slot": "key_findings",
+      "raw": "[{\"claim\": \"Exposure to the counter-narrative before the Trump ad increased perceived value of diversity of life experience in representation relative to the ad alone\", \"quotes\": [{\"text\": \"exposure to the initial exposure to the counter-narrative demonstrating a 0.79 SD unit increase in the perceived value of diversity of life experience as an important component of strengthening democracy, relative to those only presented with the Trump advertisement before answering outcome questions ( β̂2 = 0.790, SE = 0.047)\", \"page\": 11}]}, {\"claim\": \"Exposure to the Trump advertisement alone significantly increased participants’ beliefs that elected officials’ motivations were to serve the public versus self-interest relative to no exposure\", \"quotes\": [{\"text\": \"Both H2A and H2B were supported, namely, exposure to the Trump advertisement alone significantly decreased positive perceptions of individuals with criminal records ( β̂0 = −0.835, SE = 0.044) and significantly increased participants beliefs that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂0 = 0.130, SE = 0.049)\", \"page\": 11}]}, {\"claim\": \"Exposure to the counter-narrative before the Trump ad reduced perceived public-serving motives of elected officials relative to the ad alone\", \"quotes\": [{\"text\": \"Specifically, exposure to the counter-narrative significantly (at the α = 0.05 threshold without a multiple comparisons correction), reduced the extent to which participants believed that elected officials’ motivations were to serve the public, versus serving their own self-interest ( β̂2 = −0.098, SE = 0.048)\", \"page\": 11}]}, {\"claim\": \"The counter-narrative first condition produced a significantly higher emotional reaction to the narrative than the control and Trump ad alone conditions\", \"quotes\": [{\"text\": \"Specifically, those assigned to the counter-narrative first condition reported significantly higher, on average, agreement to having an emotional response, relative to both the Control group (ATE = −0.156, robust SE = 0.047) and the Trump Ad Alone (ATE = −0.135, robust SE = 0.048)\", \"page\": 10}]}]"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\"text\": \"with the initial exposure to the counter-narrative demonstrating a 0.79 SD unit increase in the perceived value of diversity of life experience as an important component of strengthening democracy, relative to those only presented with the Trump\", \"page\": 11}"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "more: by slot",
+      "slot": "key_findings",
+      "offered": 4,
+      "added": 4
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E6"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half for hesitancy and booster uptake; liberals-regardless half not stated. First quote is in the paper; the second (with an ellipsis) is marked NOT IN PAPER, so the entry stays grounded."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E3",
+          "E6"
+        ],
+        "note": "Online survey, 683, March 8 to April 19, 2023, without convenience sample or Qualtrics Panels (E1 partial); N without screening figures (E2 partial); zip-code-based election results without the percent Republican measure (E3 partial); names the conservatism by climate interaction (E6 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Linear regression for hesitancy and GLMs for vaccine status with controls (gender omitted from the list; minor). Booster status and logit link not named. With the interaction named in [0], joined as E6 (unsure: booster-status models are not mentioned)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction significant for vaccine and booster hesitancy, without the shape; the shape is in [1]."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Liberals low regardless; conservatives' hesitancy higher in conservative regions."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Both halves with direction; percentages in the quote."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two literatures studied separately and the extension by testing their interaction, called novel as the paper does."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I1",
+            "text": "Says the paper 'disputes or builds upon' the conservatism-hesitancy claim. The paper only builds on it: its results are 'consistent with previous findings' (p.10); nothing is disputed."
+          }
+        ],
+        "note": "Unsure whether the hedged 'disputes or builds upon' deserves a serious stance flag; flagged for consistency with the other notes' 'disputes the sufficiency' wording."
+      }
+    ]
+  }
+}

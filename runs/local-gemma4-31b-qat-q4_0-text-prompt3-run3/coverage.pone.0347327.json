@@ -1,0 +1,102 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and temporal variation across the U.S. and Canada regarding health interventions."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited), plus the link to lower vaccination rates (F2, U.S. half) placed here. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "partial": [
+          "E1",
+          "E5"
+        ],
+        "note": "'Over 50 million tweets from late 2020' without dates or split; three topics named without conspiracy or the classification method."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings and C-index separation of partisan users."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher (p.13 wording); no topic split and no Canadian non-significance."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2. 'Higher polarization strongly correlate with lower vaccination' is correlational; not flagged."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Event-linked, short-lived spikes. 'Triggered' echoes the paper's 'event-triggered variation' (p.21); not flagged."
+      },
+      {
+        "partial": [
+          "F2",
+          "F4"
+        ],
+        "note": "Conclusion wording (p.25): U.S. stronger than Canada on conspiracy and vaccination, with no detail. Same call as the calibration note's identical entry. 'Stronger in the U.S.' is not 'no similar pattern in Canada', so F2 is not joined with entry 1."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T3"
+        ],
+        "note": "Extends earlier work on partisan divisions with geographic and temporal analysis; the quotes give the 'in line with' agreement (p.22)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "unlisted": true,
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says the regional patterns were 'rooted in' partisan animosity; the paper says online discussions exhibited regional patterns 'characterized by the same partisan animosity' (p.2)."
+          }
+        ],
+        "note": "Jiang et al. is correct for ref. 25. Prior work that online pandemic discussion had regional partisan patterns, which motivates the paper's multidimensional approach (p.2-3). Accurate apart from the wording; no gold answer (I1 is the narrower claim that right-leaning regions were more divided)."
+      }
+    ]
+  }
+}

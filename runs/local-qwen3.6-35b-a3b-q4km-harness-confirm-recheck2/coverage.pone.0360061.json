@@ -1,0 +1,48 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": ["Q3"]
+      }
+    ],
+    "central_claim": [],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": ["F1"],
+        "note": "Positive association only; the strongest indicators are not named."
+      },
+      {
+        "match": [],
+        "partial": ["F2"],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger for users with higher leader-directed affective polarization, 'particularly for participatory engagement'. The paper says it is 'often' stronger descriptively, that the moderation evidence is 'not uniform', and that the results are only 'partially consistent with Expectation 2' (p.13-14). The entry keeps the participation emphasis but drops the partial-support qualification."
+          }
+        ]
+      },
+      {
+        "match": ["F3"]
+      },
+      {
+        "match": [],
+        "partial": ["F5"],
+        "note": "Within-person increases in online engagement followed by higher hostility; says the relationship is reciprocal ('suggesting', as the paper's 'may be reciprocal') but not that the reverse pattern is weaker."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": ["L2", "L1", "L6"],
+        "note": "Not causal (L2), may not generalize beyond X/Twitter (L1), Big Five controls do not test Dark Triad accounts (L6). No quote supports the causal part, but the entry has two faithful quotes, so it is credited. 'Does not generalize' read as 'is not shown to generalize'; not flagged."
+      }
+    ],
+    "theoretical_positioning": [],
+    "interlocutor_claim": []
+  }
+}

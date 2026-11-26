@@ -1,0 +1,119 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "All three parts: harm to perceptions, improved feelings of representation, counter-narrative's offset."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Survey experiment with self-identified Democrats on Prolific (E1; pre-registration and dates not given, as in the earlier judge's matches), 2,439 in the three arms (E2). E3 partial: the ad is described only as labeled 'convicted criminal' (no mugshot) and the counter-narrative only as about a formerly incarcerated legislator (not an edited news excerpt). The p.4 quote is faithful (the p.8 one is not)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Its only quote is marked not in paper."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the order (counter-narrative before the ad) and the comparison with the ad alone (p.11)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "'Perceived feelings of representation' and public-service motives; credited as the earlier judge did for the general wording of representation."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4",
+          "F5"
+        ],
+        "note": "Its only quote is marked not in paper."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F6"
+        ],
+        "note": "Its only quote is marked not in paper. Also gives the main effect of system-impacted status (accurate, not gold)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Durability, repeated exposure and behavior, from the single time-point design (p.17). 'Voting behavior' narrows the paper's 'decision-making and behavior'; not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L1",
+          "L2"
+        ],
+        "note": "Its only quote is marked not in paper."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Fielded after the election outcome was known (p.17)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "partial": [
+          "T2"
+        ],
+        "note": "SCT and spillover from labeling Trump (T1), applied to the campaign ad (T4). Names the 'counter-stereotype' intervention without the perspective-getting research behind it: partial T2, as for 'perspective-getting interventions' in the other notes."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Meta-analytic evidence (p.2); 'disputes the claim that negative ads are empirically supported' is the paper's use of it to question the strategy."
+      },
+      {
+        "match": [
+          "I5"
+        ]
+      }
+    ]
+  }
+}

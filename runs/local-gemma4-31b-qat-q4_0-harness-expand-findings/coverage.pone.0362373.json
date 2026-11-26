@@ -1,0 +1,212 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F1",
+    "F3",
+    "F5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Asks whether substance use, depression and AI identity are associated with ties (Q3 for the substance use part; Q1 partial: demographic attributes not named). 'How friendship networks are formed' is too general for Q4. The p.2 quote is Q2's span, but the entry text does not ask whether heterogeneous-school patterns generalize."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "The conventional assumption that risky behavior is a primary determinant of youth relationships, which the paper disputes (p.16): an interlocutor answer."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Challenging the assumptions of network-based prevention programs is C3 (without the call for culturally grounded theory); a claim, not a question."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural mechanisms and demographic homophily rather than risky behaviors: the abstract's own wording, credited per the C1 decision. Adding depression follows the abstract ('not substantively associated')."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Network data from 9th/10th graders in three Northern Plains reservation schools (E1; 'cross-sectional' not stated, as in the earlier judge's E1 call). N = 247 is the abstract's analysis sample, not paired with the 263 survey figures (E2 partial). ERGMs named, without per-school estimation, terms or AMEs (E3 partial)."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Lists the measured domains without the specific measures (as the earlier judge called the same sentence)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "Peer-perception imputation of refused substance use answers; sensitivity analysis not mentioned."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "AMEs for comparison across school networks. With entry 0 (ERGMs) this covers models and AMEs, but structural and attribute terms are not stated, so E3 is not joined."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "partial": [
+          "F3"
+        ],
+        "neutral": true,
+        "note": "Abstract's 'primary drivers' wording (F-n1, neutral): naming reciprocity and transitivity earns F2; 'demographic homophily' without naming gender, grade or sexual orientation in the entry text is F3 partial."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording: no consistent association with sending or receiving ties. Homophily is not covered and the exceptions are not named, so F1 partial. Joined with entries 7 and 8 (homophily only in School B, the School C sender exception): together they give no consistent sender, receiver or homophily pattern and the two exceptions."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Abstract wording ('not substantively associated')."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade homophily across all schools; sexual orientation not mentioned."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Incoming ties centralized only in School C (private preparatory school): one half of F5; outgoing centralization not mentioned."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Sexual orientation homophily, the remaining part of F3 (paper: 'significant and positive', AME range across schools). Joined with entry 3 (gender and grade)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Outgoing ties centralized in all schools: the other half of F5. Joined with entry 4."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Homophily exception only in School B, a detail of F1. Marijuana homophily (p < 0.10) is reported as 'observed', following the paper's own 'detected only in School B' (p.15) with no claim of significance; not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Alcohol sender exception in School C, a detail of F1. Stated without the paper's 'suggesting' hedge, but 'more likely to initiate nominations' is what a positive sender effect means; not flagged."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Three schools on one reservation; may not extend to AI youth in heterogeneous schools."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional plus selection versus influence."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "One developmental epoch; patterns may differ across the life course."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Associations, not causal effects in either direction; repeats L3."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Moving beyond generalizations from prior research is the testing half of T3 (paper's wording, p.2-3), without what is replicated and what is disputed."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Departure from established trends on substance use (p.16, paper's wording): the disputing half of T3. With entry 0 the testing and disputing halves are given, but not the replication of structural and demographic patterns, so T3 is not joined."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "Contesting the conventional 'risky behavior is a primary determinant' assumption is I4, an interlocutor answer; repeats the id from question entry 1."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Research in diverse schools links substance use to friendship via selection and influence (p.2; 'consistently' is the paper's word). The note does not say the paper disputes its generalization, nor the receiver/homophily specifics: I1 partial."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: prior non-AI research links depression to negative receiver effects and depression homophily (p.4, p.14). Not a gold interlocutor answer; Schaefer, Kornienko and Fox (I3) are not named and the withdrawal mechanism is not stated."
+      }
+    ]
+  }
+}

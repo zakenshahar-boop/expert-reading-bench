@@ -1,0 +1,252 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Q1 is contained in Q3 and not credited twice; 'beyond' keeps the additive framing."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 2 question (p.5), accurate but not a gold question."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The Expectation 3 question (p.5), accurate but not a gold question; it states no result."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F1",
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "States without qualification that the associations are stronger among more affectively polarized users. The paper says this holds for some indicators, clearest for online and offline participation and weaker or inconsistent for distal antecedents, and is only partially consistent with Expectation 2 (p.13-14)."
+          }
+        ],
+        "note": "C1 plus the strongest indicators (F1, misplaced). 'Hostile users have greater activity and potential reach' is the paper's own summary of F3 (p.15), misplaced. The moderation clause is stated without qualification: flagged, no F2 credit."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Posts and linked panelists are given as separate numbers, with the 3,643 X-only maximum, so E2 is not joined wrongly. Six waves over two years is part of E3; YouGov and the dates are not given."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach and its validation; no cosine similarity to the 'political hate' vector or per-user averaging."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "Pooled OLS and RI-CLPM, plus the negative-binomial count models (p.10), accurate."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "YouGov US panel, January 2019 to January 2021 (six waves are in evidence[0]); the September 2020 cohort and scraping dates are accurate (p.6)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate description of the leader thermometer measure (p.9)."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate validation detail: 2,469 expert-labelled posts, 74% accuracy against a 50% baseline on a held-out split (p.7)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: multiple imputation and FIML; Benjamini-Hochberg and Bonferroni within four families (p.10)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: 44-item BFI, alphas 0.82-0.87 (p.10)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "A robustness result in the evidence slot: political/hate components and the supervised classifier are 'broadly consistent with the main pattern' (p.12); accurate, not a gold answer."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "The political-relevance interaction check (p.12), accurate; 'supporting that the link is specific to political content' is close to the paper's 'consistent with the main association'. Not a gold answer."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F6"
+        ],
+        "note": "The share-of-political-posts control is F6, a finding, placed in evidence."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the associations 'are stronger' among more affectively polarized users, adding only that support is clearest for participation. The paper says the association is 'often' stronger, the moderation is not uniform and only partially consistent with Expectation 2, and exploratory outside the participation indicators (p.13-14)."
+          }
+        ],
+        "note": "Has the gradient (clearest for participation) but states the moderation as a general result without 'often', 'partially consistent' or 'exploratory for the rest'. The quote is the descriptive 4 vs 14 of 18 split (p.13)."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "The engagement-to-hostility direction with 'may be reciprocal' (the paper's wording); does not say the reverse pattern is weaker."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "States as a result that the associations 'are specific to political hostility' and that coefficients are larger for the primary measure. The paper says the largest associations are 'generally' for the primary measure (online participation is in fact larger for Perspective API, 0.267 vs 0.236) and that the pattern is 'consistent with the argument' that the behavior is specifically political hostility (p.11)."
+          }
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "The non-causal reading of the moderation analyses (p.5, p.14): a repeat of L2, not L8, since it does not say the moderation is exploratory outside participation."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "note": "Extending the revisionist / negative-side view to online hostility is T2 and T3; 'building on classical engagement theories' is T1 (p.15)."
+      },
+      {
+        "match": [
+          "T4"
+        ],
+        "note": "Not adjudicating between the grievance and personality literatures and asking whether engagement is also associated: the complementary stance. 'Third explanatory avenue' paraphrases 'a different possibility' (p.2)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Broader than cyberbullying/trolling and hate-speech studies (p.3), accurate; not a gold framework or stance."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Refs 34 and 35 are Moor and Anderson, and Buckels et al. (checked in paper.xml); 'builds on ... beyond these explanations' is the additive stance."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Refs 13-15, 36, 37 are Pettigrew, Petersen et al., Bail, Mutz and Silver (checked in paper.xml); the additive stance is right."
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Almond and Verba are ref 20 (checked)."
+      },
+      {
+        "match": [
+          "I5"
+        ],
+        "note": "Refs 21, 47, 48, 49 are Leeper and Slothuus, Taber and Lodge, Kam, Slothuus and de Vreese (checked); the knowledge point is stated."
+      }
+    ]
+  }
+}

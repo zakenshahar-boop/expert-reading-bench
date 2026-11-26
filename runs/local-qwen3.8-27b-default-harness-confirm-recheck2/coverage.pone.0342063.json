@@ -1,0 +1,107 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [],
+    "evidence": [
+      {
+        "match": [
+          "E4",
+          "E3"
+        ],
+        "note": "Two self-rated items (social, economic) on an 11-point scale; averaging not said, counted as E4. Percent Republican 2020 vote by zip code (E3). No data source (E1) in the slot."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Steeper rise of hesitancy with conservatism in conservative climates; the liberals-regardless half is in [4]."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction significant with 'a similar pattern' (p.7, p.10): accurate, but no gold finding covers booster hesitancy alone (as in earlier matches)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 with 60% vs under 35%; the liberals-boosted-anywhere half is not stated in the slot."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberals low regardless of climate; conservatives' hesitancy associated with climate. Completes F2 with [0]."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "partial": [
+          "L5"
+        ],
+        "note": "Other zip-code differences such as population density (L1). Effect modification not tested is named without its consequence (L5 partial)."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "'Influences' wording not flagged, following the earlier match of the same phrasing."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Both literatures and the extension by testing their interaction. 'Prior studies had not addressed' is true to the paper's 'first assessment' (p.7)."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Consistent with the two prior literatures (p.10); the novel-interaction part repeats T2 from [0]."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

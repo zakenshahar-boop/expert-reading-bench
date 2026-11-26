@@ -1,0 +1,137 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Rather than being solely/limited to' personality or deprivation = Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "The entry says 'this link is stronger for users with high affective polarization'. States without qualification that the engagement-hostility links are stronger among users high in affective polarization. The paper says this holds 'for some indicators, especially online and offline participation' (abstract), is 'partially consistent with Expectation 2 rather than a uniform confirmation of it' and is exploratory outside participation (p.14)."
+          }
+        ],
+        "note": "C1. The moderation clause carries the F-x2 flag."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Panel survey plus scraped X data is E1; American users from January 2019 to January 2021 is part of E3 (no YouGov or waves). Scraping began March 2019, but the survey panel began January 2019, so the period is not flagged."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "AFINN and Perspective API as robustness measures is E6; the SU approach is only named (no cosine similarity or averaging), partial E4."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association with all six indicators (accurate); the strongest ones are not named."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is more pronounced among users higher in leader-directed affective polarization 'especially regarding participation'. That keeps the paper's main qualification (clearest for participation, p.13-14), but drops 'for some indicators' and that support is only partial and exploratory elsewhere."
+          }
+        ],
+        "note": "Close to the abstract's own wording; 'especially regarding participation' carries the substance of F2's qualification, so full credit with a mild flag."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "More active, greater potential reach in followers and friends."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Within-person increases in online engagement followed by higher hostility; the weaker reverse pattern is not mentioned."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Observational, cannot establish causal relationships."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "X/Twitter in the US, may not apply to other platforms."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L6"
+        ],
+        "note": "Says only that Dark Triad and sadism were not measured; not the consequence (the Big Five controls cannot test those accounts). A limitation needs its consequence; the quote has it but the claim does not."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says the revisionist perspective 'suggests engagement can lead to biased processing'. The paper says engaged citizens 'may also be more likely' to process information in biased ways (p.2) and that engagement 'can be associated with' biased assessments (p.4). Hedged by 'suggests', but still an effect where the paper reports an association."
+          }
+        ],
+        "note": "Revisionist view extended to online political hostility."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3",
+          "I4"
+        ],
+        "note": "Names the grievance/status-threat account (I3) and the psychological-traits account (I4: sadism) as what existing research 'often attributes' hostility to; no stance, and the personality claim is not the small-segment, extreme-traits finding. 'Often attributes' matches the paper's 'emphasizes'/'often points to', so no flag."
+      }
+    ]
+  }
+}

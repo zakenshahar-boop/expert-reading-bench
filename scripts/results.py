@@ -60,7 +60,9 @@ def main() -> str:
               table(["Model", "Runs", "Coverage, mean", "Coverage by run", "Core findings, mean", "Quotes word for word", "Page correct",
                      "Serious flags by run", "Mild flags by run", "Coverage, strict rule", "Critical reading bonus"],
                     [r for _, r in sorted(rows, key=lambda x: -x[0])]), "",
-              "The local model's three runs are sampled (temperature 0.7, top-p 0.8, top-k 20, seeds 1 to 3). Its harness rows start from an earlier run at temperature 0. The strict rule gives half credit to an answer split across entries.", ""]
+              "Qwen3 4B's three runs are sampled (temperature 0.7, top-p 0.8, top-k 20, seeds 1 to 3). Its harness rows start from an earlier run at temperature 0. "
+              "The six other local setups were run by [Ellian-Eorwyn](https://github.com/Ellian-Eorwyn) on one RTX 3090 on 2026-11-25, each with its own sampling (docs/local-runs-2026-11-25/). "
+              "The strict rule gives half credit to an answer split across entries.", ""]
     rows = []
     for name, setting, run in HARNESS:
         t = run_totals(run)
@@ -68,7 +70,7 @@ def main() -> str:
                      f"{t['verbatim']}/{t['quotes']}"])
     lines += ["## With the harness", "",
               table(["Model", "Setting", "Coverage", "Core findings", "Serious flags", "Mild flags", "Claims", "Quotes word for word"], rows), "",
-              "Each harness row starts from the model's first run.", ""]
+              "Each harness row starts from the model's first run. The contributed local setups ran the harness with their own output allowances (docs/REPRODUCE.md).", ""]
     a = report(str(ROOT / "labeling" / "sample1"))
     lines += ["## The judge against the human labeler", "",
               f"Sample 1: {a['items']} accepted answers, weighted toward hard cases, labeled blind by the human labeler.", "",

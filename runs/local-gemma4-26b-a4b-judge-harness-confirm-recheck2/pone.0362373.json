@@ -1,0 +1,231 @@
+{
+  "paper_id": "pone.0362373",
+  "model": "gemma4-26b-a4b-judge",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-gemma4-26b-a4b-judge-harness-confirm (complete)",
+    "quotes confirmed",
+    "claims re-checked (version 2)"
+  ],
+  "settings": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "seed": 1
+  },
+  "short_tokens": 600,
+  "long_tokens": 4000,
+  "model_calls": 13,
+  "input_tokens": 4842,
+  "output_tokens": 86,
+  "seconds": 2.6,
+  "summary": {
+    "quotes found": 10,
+    "pages corrected": 0,
+    "repairs that worked": 0,
+    "repair attempts": 0,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 1,
+    "claims rewritten at re-check": 2,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper investigates whether substance use, depression, and AI identity are associated with friendship formation in American Indian-majority reservation schools.\", \"quotes\": [{\"text\": \"the role of substance use and other individual characteristics in friendship network formation within AI-majority reservation schools remains understudied.\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Friendship networks among AI adolescents in reservation schools are primarily associated with universal structural mechanisms and demographic homophily, while substance use, depression, and AI identity do not show significant associations.\", \"quotes\": [{\"text\": \"Results indicated that universal structural mechanisms (reciprocity, transitivity) and demographic homophily (gender, grade, sexual orientation) were primary drivers of friendship. However, unlike what is often observed in studies of other adolescent populations, substance use showed no consistent association with sending ties or receiving ties. Similarly, depression and AI identity were not substantively associated with friendship formation.\", \"page\": 1}]}], \"evidence\": \"not stated\", \"key_findings\": [{\"claim\": \"Universal structural processes like reciprocity and transitivity are fundamental to organizing AI adolescent friendships.\", \"quotes\": [{\"text\": \"In summary, the network structure of these AI adolescents is powerfully shaped by universal endogenous processes (reciprocity, transitivity) and demographic commonalities (gender, grade, sexual orientation).\", \"page\": 13}]}, {\"claim\": \"Demographic factors such as gender, grade, and sexual orientation are primary drivers of friendship formation.\", \"quotes\": [{\"text\": \"In summary, the network structure of these AI adolescents is powerfully shaped by universal endogenous processes (reciprocity, transitivity) and demographic commonalities (gender, grade, sexual orientation).\", \"page\": 13}]}, {\"claim\": \"Substance use behaviors do not consistently predict friendship formation in this population.\", \"quotes\": [{\"text\": \"Substance use demonstrated no consistent or robust association with friendship dynamics in this sample.\", \"page\": 13}]}, {\"claim\": \"Depression and AI identity are not significantly associated with the formation of friendship ties.\", \"quotes\": [{\"text\": \"Depression sender and receiver effects were substantively negligible across all schools; although the sender effect in School B reached statistical significance across model specifications owing to very small standard errors, its magnitude (AME < 0.001) indicates no meaningful association, and AI identity was largely unassociated with sending or receiving ties\", \"page\": 13}]}], \"scope_and_limits\": [{\"claim\": \"The findings may not be generalizable to American Indian youth in racially heterogeneous school settings.\", \"quotes\": [{\"text\": \"Our findings may not extend to AI youth in racially heterogeneous schools, where Rees, Freng, and Winfree [17] observed different network characteristics.\", \"page\": 16}]}], \"theoretical_positioning\": [{\"claim\": \"The authors position their work to move beyond generalizations derived from studies of racially heterogeneous school settings by exploring the unique relational ecology of AI-majority schools.\", \"quotes\": [{\"text\": \"By focusing on reservation schools, where AI youth are the norm rather than a statistical minority, this research moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds.\", \"page\": 2}]}], \"interlocutor_claim\": [{\"claim\": \"The authors dispute the assumption common in many network-based prevention programs that risky behaviors like substance use are primary determinants of adolescent friendships.\", \"quotes\": [{\"text\": \"Because the conventional assumption in much of the adolescent health literature, that risky behavior is a primary determinant of relationships in youth, does not hold in our study\", \"page\": 16}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "recheck2",
+      "slot": "question",
+      "claim": "The paper investigates whether substance use, depression, and AI identity influence friendship formation in American Indian-majority reservation schools.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "causal wording",
+          "influence"
+        ]
+      ],
+      "verdict": "rewritten",
+      "new_claim": "The paper investigates whether substance use, depression, and AI identity are associated with friendship formation in American Indian-majority reservation schools."
+    },
+    {
+      "step": "recheck2",
+      "slot": "central_claim",
+      "claim": "Friendship networks among AI adolescents in reservation schools are primarily driven by universal structural mechanisms and demographic homophily, while substance use, depression, and AI identity do not show significant associations.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "causal wording",
+          "driven"
+        ]
+      ],
+      "verdict": "rewritten",
+      "new_claim": "Friendship networks among AI adolescents in reservation schools are primarily associated with universal structural mechanisms and demographic homophily, while substance use, depression, and AI identity do not show significant associations."
+    },
+    {
+      "step": "recheck2",
+      "slot": "evidence",
+      "claim": "The study used social network data from 247 9th and 10th-grade students across three diverse schools on a Northern Plains reservation.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Universal structural processes like reciprocity and transitivity are fundamental to organizing AI adolescent friendships.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Demographic factors such as gender, grade, and sexual orientation are primary drivers of friendship formation.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Substance use behaviors do not consistently predict friendship formation in this population.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Depression and AI identity are not significantly associated with the formation of friendship ties.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "scope_and_limits",
+      "claim": "The findings may not be generalizable to American Indian youth in racially heterogeneous school settings.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "theoretical_positioning",
+      "claim": "The authors position their work to move beyond generalizations derived from studies of racially heterogeneous school settings by exploring the unique relational ecology of AI-majority schools.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "interlocutor_claim",
+      "claim": "The authors dispute the assumption common in many network-based prevention programs that risky behaviors like substance use are primary determinants of adolescent friendships.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "other view",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    }
+  ]
+}

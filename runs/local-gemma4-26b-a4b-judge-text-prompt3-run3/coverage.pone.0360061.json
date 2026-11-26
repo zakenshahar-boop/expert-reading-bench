@@ -1,0 +1,83 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [],
+        "partial": [
+          "Q3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "Q-x1",
+            "text": "Says the authors investigate whether hostility is 'driven by' engagement. The paper asks whether hostility is 'associated' with engagement (p.2) and states that its evidence 'does not establish that engagement causes hostility' (p.15)."
+          }
+        ],
+        "note": "Q3's substance ('rather than just') with a causal verb: half credit and a flag."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Indicators listed as examples, not as the strongest, so no F1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "Survey plus X data from linked users is E1; YouGov is part of E3; 2,567 linked users without the post count is part of E2."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users have higher 'reach'. The paper says 'greater activity and potential reach' and that this should not be read as evidence of network influence (p.15)."
+          }
+        ],
+        "note": "Only quote is NOT IN PAPER (punctuation altered); claim would be F3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I5"
+        ],
+        "note": "Only quote is NOT IN PAPER (merged and altered p.2 sentence). The claim (engaged citizens process information in biased ways) would be partial I5 at most: the knowledge part is missing."
+      }
+    ]
+  }
+}

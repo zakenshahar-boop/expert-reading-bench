@@ -1,0 +1,539 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 7,
+      "in own quotes": 5,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The study used online survey data from 683 participants collected between March 8 and April 19, 2023, with political climate measured by matching participants' zip codes to 2020 presidential election vote shares, and outcomes measured via self-reported vaccine/booster status and validated hesitancy scales."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "Using 2020 presidential election votes by zip code as a proxy for political climate means other zip code-based differences could be driving the observed associations."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 17,
+      "causal word not in quote": 1,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "effect of",
+          "claim": "The interaction between political conservatism and conservative regional climate was significant for both vaccine hesitancy and booster hesitancy, indicating that the effect of conservatism on hesitancy is stronger in conservative climates."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The mechanism through which political climate influences conservative individuals' vaccine decisions was not assessed."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "The authors position their work as extending the existing literature on political orientation and political climate separately by examining their interaction for the first time, framing it as a novel contribution to the field."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 2,
+      "all named authors cited at the quote": 2,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 22,
+      "abstract": 4,
+      "introduction": 3,
+      "background": 0,
+      "methods": 3,
+      "results": 2,
+      "discussion": 10,
+      "other": 0,
+      "unknown": 0,
+      "first third": 9,
+      "middle third": 3,
+      "last third": 10
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 14,
+      "overlapped, any slot": 18,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E7",
+        "F1",
+        "F5",
+        "F6",
+        "L5",
+        "T0",
+        "T2",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 11,
+      "in own quotes": 5,
+      "elsewhere in paper": 6,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper asks how partisan polarization varies across subnational regions and over time during the early COVID-19 pandemic in the US and Canada, and what relationship exists between this online polarization and public health outcomes such as vaccination rates."
+        },
+        {
+          "slot": "evidence",
+          "number": 50000000.0,
+          "where": "elsewhere in paper",
+          "claim": "The study analyzed approximately 50 million COVID-19-related tweets from October 9, 2020 to January 4, 2021, using RoBERTa embeddings and the C-index to measure polarization at the user level, validated against election results, census data, and voter registration records."
+        },
+        {
+          "slot": "evidence",
+          "number": 9.0,
+          "where": "elsewhere in paper",
+          "claim": "The study analyzed approximately 50 million COVID-19-related tweets from October 9, 2020 to January 4, 2021, using RoBERTa embeddings and the C-index to measure polarization at the user level, validated against election results, census data, and voter registration records."
+        },
+        {
+          "slot": "evidence",
+          "number": 2020.0,
+          "where": "elsewhere in paper",
+          "claim": "The study analyzed approximately 50 million COVID-19-related tweets from October 9, 2020 to January 4, 2021, using RoBERTa embeddings and the C-index to measure polarization at the user level, validated against election results, census data, and voter registration records."
+        },
+        {
+          "slot": "evidence",
+          "number": 4.0,
+          "where": "elsewhere in paper",
+          "claim": "The study analyzed approximately 50 million COVID-19-related tweets from October 9, 2020 to January 4, 2021, using RoBERTa embeddings and the C-index to measure polarization at the user level, validated against election results, census data, and voter registration records."
+        },
+        {
+          "slot": "evidence",
+          "number": 2021.0,
+          "where": "elsewhere in paper",
+          "claim": "The study analyzed approximately 50 million COVID-19-related tweets from October 9, 2020 to January 4, 2021, using RoBERTa embeddings and the C-index to measure polarization at the user level, validated against election results, census data, and voter registration records."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 13,
+      "causal word not in quote": 3,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "central_claim",
+          "kind": "causal",
+          "word": "impacts",
+          "claim": "Politically conservative regions exhibited significantly higher levels of partisan polarization in both countries, with a strong negative correlation between regional vaccination rates and vaccine-related polarization in the US, while this relationship was notably weaker in Canada, pointing to cross-national differences in how polarization impacts health behaviors."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "Politically conservative regions exhibited significantly higher levels of partisan polarization in both countries, with a strong negative correlation between regional vaccination rates and vaccine-related polarization in the US, while this relationship was notably weaker in Canada, pointing to cross-national differences in how polarization impacts health behaviors."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "causal",
+          "word": "driven",
+          "claim": "Polarization is event-driven and dynamic, with surges typically lasting only a few days, linked to specific political events and policy announcements."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "causal",
+          "word": "due to",
+          "claim": "The authors position their text-based embedding approach as an accessible and scalable alternative to network-based methods, which have become less feasible due to platform data restrictions, while acknowledging the methodological advantages of embedding-based models over traditional lexicon-based strategies."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 1,
+      "items": [
+        {
+          "named": [
+            "Owen"
+          ],
+          "not cited at the quote": [
+            "Owen"
+          ],
+          "claim": "The paper attributes to Owen et al. [94] the finding of reduced negative sentiment in Canadian vaccine-related tweets between January and December 2020, and disputes this by showing no statistically significant correlation between polarization and conspiracy-related tweet volume in Canada."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 17,
+      "abstract": 6,
+      "introduction": 2,
+      "background": 0,
+      "methods": 3,
+      "results": 2,
+      "discussion": 4,
+      "other": 0,
+      "unknown": 0,
+      "first third": 10,
+      "middle third": 3,
+      "last third": 4
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 10,
+      "overlapped, any slot": 10,
+      "core findings": 2,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q3",
+        "C2",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L8",
+        "L9",
+        "T0",
+        "T2",
+        "T3",
+        "I1",
+        "I2",
+        "I4",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 4,
+      "in own quotes": 4,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 16,
+      "causal word not in quote": 1,
+      "hedge dropped": 4,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks whether stigmatizing labels in Democratic campaign advertisements (labeling Trump as a convicted criminal) produce spillover effects on Democrats' perceptions of individuals with criminal records more broadly, and whether a counter-narrative featuring a formerly system-involved representative can mitigate these effects."
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to the Trump advertisement with the 'convicted criminal' label significantly worsened Democrats' perceptions of individuals with criminal records, but a counter-narrative featuring the perspective of a formerly system-involved state representative substantially ameliorated these negative effects."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "possible",
+          "claim": "The study cannot disentangle the effect of the mugshot image from the stigmatizing terminology imposed on it, as both were presented together consistently across all treatment arms."
+        },
+        {
+          "slot": "theoretical_positioning",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper extends social categorization theory by applying its mechanisms of category salience and group exemplars to the specific context of political campaign messaging, predicting that a highly salient exemplar (Trump labeled as a criminal) would produce spillover perceptions about the broader category of individuals with records."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "causal",
+          "word": "effects on",
+          "claim": "The paper attributes to prior meta-analytic research (Lau, Sigelman, and Rovner) the claim that negative campaign advertisements do not empirically aid election success, and builds on this to argue that the Democratic Party's stigmatizing strategy was not only ineffective for its stated electoral purpose but also produced harmful spillover effects on perceptions of individuals with criminal records."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 1,
+      "all named authors cited at the quote": 1,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 19,
+      "abstract": 4,
+      "introduction": 3,
+      "background": 0,
+      "methods": 1,
+      "results": 2,
+      "discussion": 6,
+      "other": 0,
+      "unknown": 3,
+      "first third": 8,
+      "middle third": 4,
+      "last third": 7
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 14,
+      "overlapped, any slot": 14,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q2",
+        "Q4",
+        "C2",
+        "E1",
+        "E3",
+        "E4",
+        "E6",
+        "E7",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "I1",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 2,
+      "in own quotes": 2,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 23,
+      "causal word not in quote": 0,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "suggestive",
+          "claim": "Whether the associations between engagement and hostility are conditional on affective polarization."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The classical political engagement literature holds that political engagement is a boon to democracy. The authors dispute this unidirectional positive view by showing that engagement is also associated with hostile political expression online, especially in polarized contexts."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 23,
+      "abstract": 3,
+      "introduction": 2,
+      "background": 2,
+      "methods": 5,
+      "results": 5,
+      "discussion": 6,
+      "other": 0,
+      "unknown": 0,
+      "first third": 7,
+      "middle third": 4,
+      "last third": 12
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 13,
+      "overlapped, any slot": 15,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q2",
+        "C2",
+        "E1",
+        "E3",
+        "F2",
+        "F4",
+        "F6",
+        "F7",
+        "L3",
+        "L4",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T4",
+        "T5",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 5,
+      "in own quotes": 3,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "scope_and_limits",
+          "number": 9.0,
+          "where": "elsewhere in paper",
+          "claim": "The data reflect only one developmental time point (9th and 10th grade) and cannot capture how network patterns change over the life course or across school transitions."
+        },
+        {
+          "slot": "scope_and_limits",
+          "number": 10.0,
+          "where": "elsewhere in paper",
+          "claim": "The data reflect only one developmental time point (9th and 10th grade) and cannot capture how network patterns change over the life course or across school transitions."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 19,
+      "causal word not in quote": 0,
+      "hedge dropped": 3,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper asks whether the well-established association between substance use and friendship formation, documented in racially heterogeneous schools, holds in AI-majority reservation schools."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "likely",
+          "claim": "Substance use (alcohol, tobacco, marijuana) showed no consistent or robust association with friendship tie formation in any of the three schools."
+        },
+        {
+          "slot": "interlocutor_claim",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The paper attributes to non-AI intervention researchers the claim that the substance use–friendship link has been used as a basis for effective network-based prevention interventions, and argues this basis does not hold in AI-majority schools."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 2,
+      "name authors": 1,
+      "all named authors cited at the quote": 0,
+      "some": 1,
+      "none": 0,
+      "items": [
+        {
+          "named": [
+            "Ali",
+            "Moody",
+            "Schaefer"
+          ],
+          "not cited at the quote": [
+            "Moody"
+          ],
+          "claim": "The paper attributes to prior non-AI network research (e.g., Schaefer et al., Moody et al., Ali et al.) the claim that substance use consistently predicts friendship dynamics through receiver effects and homophily in heterogeneous schools, and disputes this claim for AI-majority reservation settings."
+        }
+      ]
+    },
+    "where quotes come from": {
+      "faithful quotes": 29,
+      "abstract": 6,
+      "introduction": 4,
+      "background": 0,
+      "methods": 2,
+      "results": 7,
+      "discussion": 10,
+      "other": 0,
+      "unknown": 0,
+      "first third": 11,
+      "middle third": 1,
+      "last third": 17
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 14,
+      "overlapped, any slot": 15,
+      "core findings": 3,
+      "core findings overlapped": 3,
+      "missed": [
+        "Q1",
+        "Q3",
+        "C2",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F5",
+        "F7",
+        "F8",
+        "L2",
+        "L6",
+        "T1",
+        "T2",
+        "I1",
+        "I2",
+        "I3",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Both halves: conservatives in liberal regions less hesitant and more boosted, liberals less hesitant regardless."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey of 683 US participants (E1 without convenience sample, Qualtrics or dates; E2 without screening numbers). Climate from zip-code 2020 presidential results (E3)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1; the vaccination/boosting half is not stated."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Steeper association in conservative climates; liberal half in [2]."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberals-regardless half of F2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 (60% vs under 35%). 'Significantly more likely' is loose (the interaction was significant); not flagged."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Proxy that may overlap other regional variables (population density); quote gives the consequence."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says orientation and climate 'interact to influence COVID-19 vaccination'. The paper (p.7) calls it 'the first assessment of the potential interaction ... and COVID vaccination' and says it cannot assume causal or directional associations (p.10)."
+          }
+        ],
+        "note": "Presents the study as the first test of the interaction (T2). Does not name the two prior literatures, so no T1."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I3"
+        ],
+        "note": "Rönn et al. (ref. 19) checked: correct. Vaccination-rate half of I3 (booster rates, ref. 20, missing), no stance stated."
+      }
+    ]
+  }
+}

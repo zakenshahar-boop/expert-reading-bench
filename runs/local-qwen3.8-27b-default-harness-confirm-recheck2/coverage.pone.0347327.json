@@ -1,0 +1,131 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Regional, topical and temporal variation (Q1); of Q3's three correlates only vaccination rates is in the claim (the quote lists all three). The methods aim (Q2) is in the quote, not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 (credited per its decision), plus the U.S. vaccination correlation (F2) placed here, as the earlier judge did. No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "Period, both countries and corpus size ('approximately 50 million', the abstract's figure); the U.S./Canada split is detail."
+      },
+      {
+        "match": [
+          "E2"
+        ]
+      },
+      {
+        "match": [
+          "E4",
+          "E3"
+        ],
+        "note": "Profile-location geocoding (E4) and the two-step profile/activity classifier with validation against election results and voter records (E3)."
+      },
+      {
+        "partial": [
+          "E6"
+        ],
+        "note": "Vaccination rates a year after the tweets; election results and case data not named as outside comparisons."
+      }
+    ],
+    "key_findings": [
+      {
+        "partial": [
+          "F1"
+        ],
+        "note": "U.S. half of F1 (masks and vaccines, lockdowns mixed); Canada not mentioned."
+      },
+      {
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2. 'Tangible public health implications' is the abstract's own hedged wording; not flagged."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes tied to events, lasting a few days."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Both parts: conservatives tweet conspiracy-related content more (not 'endorse', so not F-x3), and the U.S. small negative / Canada null correlation."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6",
+          "L5"
+        ],
+        "note": "Correlational, not causal (L6), and suggestive because of the temporal mismatch (L5). The p.16 quote's 'played a significant role' is only in the quote, not the claim."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T3"
+        ],
+        "note": "Text-embedding literature, text-based rather than network-based (T1). 'Goes beyond prior studies by adding geographic and temporal resolution' is the extension half of T3; agreement with the earlier right-leaning finding not stated. No T0. 'In association with' restricted network data is a looser wording of the paper's reason; not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "I3",
+            "text": "Says the paper 'disputes' ref. 94's finding; the paper only says its Canadian result 'contrasts with' it (p.24) and does not say Owen et al. were wrong."
+          }
+        ],
+        "note": "Owen et al. is correct for ref. 94."
+      }
+    ]
+  }
+}

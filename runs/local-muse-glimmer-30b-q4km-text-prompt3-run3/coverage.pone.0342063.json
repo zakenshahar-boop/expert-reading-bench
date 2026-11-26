@@ -1,0 +1,108 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says the two 'interact to predict vaccine and booster hesitancy and uptake'. The interaction was significant for both hesitancies and booster status but not for initial vaccination status (OR = 1.02, p = .833, p.7)."
+          }
+        ],
+        "note": "Conservative half of C1; the liberal half is in the quote but not the claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E1",
+          "E2",
+          "E4"
+        ],
+        "note": "Online self-report survey with dates (partial E1: no convenience sample or Qualtrics), N = 683 (partial E2), conservatism as two 11-point items (partial E4: averaging and social/economic not stated), zip-code % Republican 2020 vote (E3). The p.3 quote is marked NOT IN PAPER; credit stands on the p.1 quote."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction significant for vaccine hesitancy, without its shape."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy interaction significant (p.7): accurate, but no gold finding covers booster hesitancy alone and no shape is given (as the earlier judge did)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Liberal halves of F2 (less hesitant regardless) and F3 (boosted regardless). With [2] it joins F3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Extends prior research on orientation and on climate by testing their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Hesitancy part of I1; the build-on stance is implicit."
+      }
+    ]
+  }
+}

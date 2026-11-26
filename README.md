@@ -40,20 +40,30 @@ The results also cover a harness: code around the model that checks and extends 
 
 Each large point is a model's mean over its runs. The small points are single papers in single runs, so the spread of a row shows how much a model varies from paper to paper. The diamond is the same model with its best harness setting.
 
-Here are the results for all the models I tested. I will add more soon.
+Here are the results for all the models tested so far. Rows marked local are open-weight models on a single machine. Qwen3 4B ran on a laptop; the other six local setups were run by [Ellian-Eorwyn](https://github.com/Ellian-Eorwyn) on one RTX 3090 (24 GB) and judged here by the same judge. I will add more soon.
 
 | Model | Runs | Reading score | Coverage | Range over runs | Core findings (of 14) | Quotes in the paper | Serious flags per run | Cost per paper |
 |---|---|---|---|---|---|---|---|---|
 | Claude Opus 5.5 | 3 | 77 | 78% | 76 to 79 | 12.7 | 664 of 664 | 0.7 | $0.29 |
 | GPT-6.2 Astra | 3 | 75 | 75% | 73 to 76 | 13.8 | 1,064 of 1,065 | 0 | $0.42 |
 | GPT-6.2 Sol | 3 | 74 | 75% | 72 to 76 | 13.8 | 1,231 of 1,234 | 0.3 | $0.14 |
+| Qwen3.8 27B, thinking low (local) | 3 | 46 | 48% | 45 to 51 | 10.8 | 348 of 354 | 1.3 | not timed |
 | Claude Haiku 5.5 | 3 | 37 | 38% | 37 to 40 | 10.2 | 253 of 255 | 0.7 | $0.006 |
+| Gemma 4 31B (local, QAT 4-bit) | 3 | 32 | 33% | 32 to 34 | 10.0 | 220 of 222 | 2.3 | 3.3 minutes, at most $0.005 |
+| Qwen3.8 27B, thinking off (local) | 3 | 30 | 39% | 38 to 40 | 9.3 | 320 of 367 | 2 | not timed |
+| Muse Glimmer 30B (local, 4-bit) | 3 | 26 | 29% | 24 to 32 | 9.3 | 204 of 220 | 1 | 0.9 minutes, at most $0.001 |
 | GPT-4o | 3 | 17 | 21% | 21 to 22 | 8.0 | 133 of 161 | 1 | $0.06 |
+| Gemma 4 26B-A4B (local, QAT 4-bit) | 3 | 17 | 22% | 21 to 24 | 4.5 | 136 of 162 | 3 | 15 seconds, at most $0.0004 |
+| Qwen3.6 35B-A3B (local, 4-bit) | 3 | 9 | 31% | 28 to 36 | 8.2 | 186 of 301 | 2.7 | 0.4 minutes, at most $0.0005 |
 | Qwen3 4B (local, 4-bit) | 3 | 9 | 17% | 9 to 23 | 6.2 | 261 of 437 | 14.3 | 4.4 minutes on a laptop |
 
-GPT-4o and the small local model are four points apart on coverage. The reading score separates them further, because the local model's notes carry far more wrong and unquotable entries.
+A model that fits on one 24 GB graphics card now reads better than the cheapest API model. Qwen3.8 27B with thinking on covers 48% against 38% for Claude Haiku 5.5, and quotes almost as faithfully. Turning its thinking off costs nine points of coverage and one quote in eight.
 
-The local model is also the only unstable one. Its runs are sampled, and in four of its fifteen notes it repeated one sentence pattern dozens of times in a single part and never reached the rest. That is why its range is 14 points where every other model's is 4 or less.
+The reading score separates models that coverage puts together. Qwen3.6 35B-A3B covers 31%, close to Gemma 4 31B, but more than a third of its quotes are not in the paper, so its reading score is 9 where Gemma's is 32. GPT-4o and Qwen3 4B are four points apart on coverage and further apart on the reading score for the same reason.
+
+Qwen3 4B is the only unstable model. Its runs are sampled, and in four of its fifteen notes it repeated one sentence pattern dozens of times in a single part and never reached the rest. That is why its range is 14 points. The contributed local setups are sampled too, and the widest of their ranges is 8 points.
+
+The contributed runs come with what served each model (file, quantization, sha256, engine, sampling) in [docs/local-runs-2026-11-25/](docs/local-runs-2026-11-25/). Each model used the sampling recommended for it, so settings differ between rows. The two Qwen3.8 rows ran on a server that was doing other work, with its own sampling and no seed, so they are not timed and cannot be repeated exactly.
 
 ### Coverage by paper and by part of the note
 
@@ -69,14 +79,16 @@ The strong models are even across papers. The parts of the note tell them apart:
 
 ![Cost per paper against coverage](docs/figures/cost.svg)
 
-Costs use the providers' standard rates on 22 November 2026 ([docs/prices.json](docs/prices.json)), without prompt caching. Every table is in [docs/RESULTS.md](docs/RESULTS.md), and the figures are redrawn from the saved results by `python3 scripts/make_figures.py`.
+API costs use the providers' standard rates on 22 November 2026 ([docs/prices.json](docs/prices.json)), without prompt caching.
+
+The cost of a local model is electricity only, and is not the same kind of number as an API price. It is the time the requests took on one RTX 3090, charged as if the card drew its full 420 W limit throughout, at an example rate of $0.20 per kWh. That makes it an upper bound for the card: by the contributor's account it stays under 350 W, which would lower every figure by a sixth. The rest of the machine, idle time and the price of the hardware are not counted. On those terms the full harness on Qwen3.6 35B-A3B reaches 59% coverage for a fifth of a cent a paper, and Gemma 4 31B, the slowest of the four, takes 17 minutes and two and a half cents. The two Qwen3.8 setups shared their GPU with other work, so they have no time or cost. The contributor's full table is in [docs/local-runs-2026-11-25/gpu-time.md](docs/local-runs-2026-11-25/gpu-time.md). Every table is in [docs/RESULTS.md](docs/RESULTS.md), and the figures are redrawn from the saved results by `python3 scripts/make_figures.py`.
 
 ## What we found
 
 1. Newer models quote faithfully; older and smaller ones do not. GPT-4o invents about one quote in five, in every run. The current models almost never do.
 2. The strongest models form one tier. Claude Opus 5.5 and the two GPT-6.2 models are three points apart, which is inside the variation between runs.
 3. Models differ in how they fall short, not only in how far. Some misquote, some stop early, some overstate. Each needs a different fix.
-4. A cheap model with the right harness lands near the expensive ones. Claude Haiku 5.5 goes from 37% to 69% coverage for about three cents a paper.
+4. A cheap model with the right harness lands near the expensive ones. Claude Haiku 5.5 goes from 37% to 69% coverage for about three cents a paper, and a local Qwen3.8 27B goes from 51% to 74% on one graphics card. The local models pay for it in flags, where Haiku does not.
 5. No model volunteered a contradiction. The papers contain five places where they disagree with themselves, such as an abstract that claims more than the results show. The task does not ask for these, and no model pointed one out in any run.
 
 ## The harness
@@ -104,7 +116,20 @@ The benchmark showed three ways of falling short, so the harness has a setting f
 | | plus claims re-checked | 31% | 7 | 0 | $0.008 |
 | | asked for more | 69% | 13 | 0 | $0.035 |
 
-Each harness row starts from the model's first run. For the local model that is a run at temperature 0, which scored 21% and did not loop; its three sampled runs in the table above average 17%. "Asked for more" here covers every part of the note, key findings included. The last GPT-4o cost is an estimate.
+The six contributed local setups, each through the same four settings. Each cell is coverage, with serious flags in brackets.
+
+| Model (local) | Alone | Quotes confirmed | Plus claims re-checked | Asked for more |
+|---|---|---|---|---|
+| Qwen3.8 27B, thinking low | 51% (2) | 52% (2) | 39% (1) | 74% (4) |
+| Qwen3.8 27B, thinking off | 38% (2) | 43% (2) | 33% (0) | 68% (5) |
+| Qwen3.6 35B-A3B | 28% (4) | 36% (3) | 24% (2) | 59% (6) |
+| Gemma 4 31B | 34% (2) | 34% (2) | 32% (2) | 53% (2) |
+| Muse Glimmer 30B | 24% (2) | 25% (2) | 16% (0) | 49% (3) |
+| Gemma 4 26B-A4B | 24% (2) | 28% (2) | 25% (2) | 49% (4) |
+
+The pattern from the API models holds. Confirming quotes helps exactly the models that misquote: Qwen3.6 35B-A3B, which had 53 of 95 quotes in the paper, gains eight points. Asking for more adds 19 to 31 points for every one of them. Re-checking claims costs coverage each time. What is new is that asking for more also raises the serious flags of five of the six, by one to three, where Claude Haiku 5.5 stayed at none.
+
+Each harness row starts from the model's first run. For Qwen3 4B that is a run at temperature 0, which scored 21% and did not loop; its three sampled runs in the table above average 17%. "Asked for more" here covers every part of the note, key findings included. The last GPT-4o cost is an estimate.
 
 How we got here, in short. The first idea was the obvious one: reject any claim whose quote is not in the paper. That helped the small model at once, because its wrong claims were disproportionately the ones it could not find a quote for. The second idea was to have the model check its own claims. It removed nearly all of the small model's serious errors, and it removed correct claims from an accurate model, so it is a setting for models that make many errors and stays off for the rest. The third came from looking at where the mid-sized models lost points: they were rarely wrong, they just wrote a third as much as the strong models. Asking for more, part by part, recovered most of that.
 
@@ -116,9 +141,12 @@ Two ideas were tested and dropped. Asking a small model for one part of the note
 - The harness results are single runs. The unassisted scores vary by up to four points across runs, so smaller differences should not be read into.
 - The judge is a model. It agreed with a human on 87% of a hard-case sample and errs slightly strict, which lowers every model's score by a similar amount. Individual scores were not checked one by one.
 - The gold answers start from what reviewers chose to comment on. That was only the baseline: a human labeler reviewed and corrected every answer. A note can be accurate and useful beyond them.
+- The six contributed local setups were run on someone else's machine. The replies and model settings are saved and the quote checks reproduce here exactly, but the runs themselves were not repeated here, and the harness ran with different output allowances than for the other models.
 - Costs are without prompt caching, which would lower the harness's cost, since it sends the same paper several times.
 
 ## How it was built
+
+The six local setups on one RTX 3090 (Gemma 4, Qwen3.6, Qwen3.8 and Muse Glimmer) were run and documented by [Ellian-Eorwyn](https://github.com/Ellian-Eorwyn), who also added the harness's provider for OpenAI-compatible servers.
 
 A human labeler reviewed every gold answer, set every scoring rule, and validated the automated judge on a blind sample. Most of the code and the first drafts of the gold answers were written with an AI assistant.
 

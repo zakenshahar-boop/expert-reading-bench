@@ -1,0 +1,106 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Whether the associations of substance use and individual characteristics with friendship found in heterogeneous schools apply in AI-majority schools: Q2 and Q3. Individual characteristics not itemized (Q1 partial)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "C1 credited. The note groups depression and AI identity under 'risky behaviors', a careless wording; the substance (no consistent association) matches the abstract, so not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3",
+          "E7"
+        ],
+        "note": "E1 as in the other notes ('cross-sectional' not stated). 247 (E2 partial), ERGMs (E3 partial), 'three different types of schools' with the p.6 quote naming them, but the entry text does not describe them (E7 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity and triadic closure strong and consistent (p.14)."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Gender, grade and sexual orientation homophily; 'primary axis' is the paper's wording for gender and grade and the abstract's 'primary drivers' covers all three."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No consistent sender, receiver or homophily association; exceptions not named (as the earlier judge credited F1 without them)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L1"
+        ],
+        "note": "Only the heterogeneous-school half; three schools on one reservation not stated."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional: no change over time, cannot tell selection from influence. 'Changes over time' is not the age or school-transition point of L4."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "T3",
+            "text": "The note says the authors 'revise the general conclusions' of adolescent peer network research; the paper finds structural effects in line with that research (p.14) and disputes only how far the substance use link generalizes."
+          }
+        ],
+        "note": "'Tradition of adolescent peer network research' is a vague T1 (as the earlier judge credited 'social network analysis tradition'); testing half of T3 with the 'revise' overstatement."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "note": "Research in diverse schools links substance use to friendship via selection and influence (p.2; 'consistently' is the paper's word). The note does not say the paper disputes its generalization, nor the receiver/homophily specifics: I1 partial."
+      }
+    ]
+  }
+}

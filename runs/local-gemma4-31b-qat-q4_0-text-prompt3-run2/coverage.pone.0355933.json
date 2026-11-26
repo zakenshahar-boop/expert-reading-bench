@@ -1,0 +1,112 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Q1 partial: 'stigmatizing labels in political advertisements' drops that the label was applied to Trump and spills over onto people with records in general; the quote has the specific case. Q3 and Q2 stated."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Harm to perceptions and the counter-narrative's near-complete offset ('almost entirely reversed', paper: 'almost entirely ameliorated'); omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "E1 partial: survey experiment with self-identified U.S. Democrats, no Prolific, dates or pre-registration. E2 partial: total N only (arms in next entry). 'Democratic voters' is loose (paper: self-identified Democrats / members of the Democratic Party) but not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "The three arms, random assignment; arm counts only in the quote. With the previous entry states E2."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Advertisement labeling Trump' names the ad, not the label alone; no F-x1 flag."
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps the order (before the ad) and the comparison with the ad alone; the quote gives >0.8 SD. Credited in full as the earlier judge did for a similar entry without the magnitude."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gives the public-service-motives increase only, not the representation-quality increase."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Whether results hold during an actual campaign; the July 2025 date is not given, but the consequence is."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ],
+        "note": "'Utilize and extend' social categorization theory to the exemplar spillover case (T1, T4), as the earlier judge credited 'extend'."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref. 54 (incarceration may shift ideology rightward), which the paper questions (p.4); accurate, not a gold interlocutor. 'Build on' is loose; the paper only questions it."
+      }
+    ]
+  }
+}

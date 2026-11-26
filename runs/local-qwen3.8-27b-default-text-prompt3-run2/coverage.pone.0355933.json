@@ -1,0 +1,138 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Spillover (Q1) and whether the counter-narrative mitigates it (Q2); representation is only in the quote."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad's harm and the counter-narrative's offset; omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "note": "Survey experiment on Prolific with 2,439 self-identified Democrats in three arms (counts in the quote); as the calibration judge credited."
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Keeps 'before the advertisement' and 'relative to the advertisement alone'."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "'Counter to the authors' hypotheses' for both outcomes. The paper says the quality-of-representation effect was 'not hypothesized' (p.11), not counter to a hypothesis. For public-service motives the estimate does run against H2B's stated direction, although the paper calls H2B supported (the F-n1 tension)."
+          }
+        ],
+        "note": "Names quality of Democratic representation and the public-service motives increase (F3)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "note": "Larger ad effect for system-impacted respondents (p.13-14); the counter-narrative heterogeneity is not stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability only (plus other contexts); repeated exposure and behavior are missing."
+      },
+      {
+        "match": [
+          "L11"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "'Positioning the study as a bridge between these two traditions': the paper uses perspective-getting research to ground the counter-narrative (p.3, p.15) but never presents the study as bridging it with social categorization theory."
+          }
+        ],
+        "note": "Perspective-getting and counter-stereotype literature as the grounding of the counter-narrative (T2)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x2",
+            "text": "Says the paper argues the Democratic strategy 'was not only ineffective for its stated electoral purpose but also produced harmful spillover effects on perceptions of individuals with criminal records'. The study tests no electoral effect, and the author calls the work 'preliminary evidence of potential effects of the Democratic Party's messaging strategy' (p.16), the 'potential for spillover harm that may have been caused'. Real-world campaign harm stated as established."
+          }
+        ],
+        "note": "Meta-analysis attribution correct (Lau, Sigelman & Rovner). Partial because the substance is inflated with a serious flag."
+      }
+    ]
+  }
+}

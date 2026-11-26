@@ -1,0 +1,151 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "note": "Whether the substance use and friendship association from heterogeneous schools holds in AI-majority schools (Q2; quote p.2 is Q2's span), role of substance use (Q3)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "Q4",
+          "Q1"
+        ],
+        "note": "Generic: which structural and individual-level factors shape the networks. Names no structural pattern (Q4 partial) and no specific attribute (Q1 partial)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "The abstract's 'rather than risky behaviors' wording, credited per the gold decision."
+      },
+      {
+        "match": [
+          "C3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "Original network survey data, 9th/10th grade, three Northern Plains reservation schools (E1, as in the calibration; cross-sectional not stated). N = 247 as in the abstract (E2 partial); ERGMs (E3 partial)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3",
+          "E5"
+        ],
+        "note": "Structural terms and actor attributes in the models (E3 part); measured domains listed without the measures (E5 partial, as the calibration did for a domain list)."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "'Strong and consistent' is the paper's wording."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Exceptions not named. 'In any of the three schools' is slightly strong given the alcohol homophily exception in School B (p<0.01), but the paper's own p.16 says substance use 'is not associated with relational patterns', so not flagged (cf. B1; not a catch)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade only; no sexual orientation."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Incoming-tie centralization only in School C (half of F5). 'Potentially reflecting egalitarian norms' keeps the paper's hedge ('may reflect', p.15); not flagged."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "One time point for 9th/10th graders; life course and school transitions."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Peer-perception imputation may be biased; the possible inflation of similarity among friends is not stated. 'Sensitivity analyses confirmed the null findings held' fits 'reverse no substantive conclusion' (p.7)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "SNA/ERGM and adolescent peer network literature (vague T1); challenging generalizability from heterogeneous settings is half of T3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Receiver effects and homophily, disputed for AI-majority schools. Moody et al. 2011 (ref 6), Ali et al. 2014 (ref 13) and Schaefer et al. appear in Table 1 for these effects."
+      },
+      {
+        "match": [
+          "I6"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note says the link was used as a basis for 'effective' network-based prevention interventions; the paper says intervention research built on it had 'promising results' (p.16)."
+          }
+        ],
+        "note": "Non-AI intervention research built on the substance use and friendship link, and the paper argues this basis does not hold for AI youth: I6."
+      }
+    ]
+  }
+}

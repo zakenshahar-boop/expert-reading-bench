@@ -1,0 +1,131 @@
+{
+  "paper_id": "pone.0362373",
+  "model": "chat",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-qwen3.8-27b-default-nothink-text-prompt3 (complete)",
+    "quotes confirmed"
+  ],
+  "settings": {},
+  "short_tokens": 600,
+  "long_tokens": 4000,
+  "model_calls": 1,
+  "input_tokens": 2013,
+  "output_tokens": 38,
+  "seconds": null,
+  "summary": {
+    "quotes found": 18,
+    "pages corrected": 0,
+    "repairs that worked": 1,
+    "repair attempts": 1,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 0,
+    "claims rewritten at re-check": 0,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper asks whether the established link between substance use and friendship formation in adolescent networks holds true in American Indian (AI)-majority reservation schools, where cultural contexts differ from racially heterogeneous settings.\", \"quotes\": [{\"text\": \"This study examines the structural and relational foundations of friendship networks among AI adolescents in their unique cultural context.\", \"page\": 1}, {\"text\": \"It remains unclear whether these patterns hold in settings where the student population is predominantly AI and where cultural norms surrounding kinship, community, and identity may differently orient relational processes.\", \"page\": 2}]}], \"central_claim\": [{\"claim\": \"Unlike in other populations, substance use does not consistently predict friendship formation among AI adolescents; instead, friendship ties are organized by universal structural mechanisms and demographic homophily rather than risky behaviors.\", \"quotes\": [{\"text\": \"These findings reveal a distinct relational ecology within AI-majority reservation schools, where peer ties are organized around structural and demographic commonalities rather than risky behaviors.\", \"page\": 1}, {\"text\": \"Substance use demonstrated no consistent or robust association with friendship dynamics in this sample.\", \"page\": 13}]}], \"evidence\": [{\"claim\": \"The study uses social network data from 247 ninth and tenth-grade students across three schools on a Northern Plains reservation, analyzed using Exponential Random Graph Models (ERGMs).\", \"quotes\": [{\"text\": \"Using social network data from 9th and 10th-grade students (N = 247) across three schools on a Northern Plains reservation, we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties.\", \"page\": 1}, {\"text\": \"We had an overall response rate of 77% across the three schools. Specifically, 72% of eligible students completed surveys in School A (n = 52 out of 72), 76% in School B (n = 140 out of 184), and 84% in School C (n = 71 out of 84), for a total sample size of 263.\", \"page\": 6}]}, {\"claim\": \"The analysis included endogenous structural processes (reciprocity, transitivity, degree effects) and actor-level characteristics such as demographics, substance use, depression, and AI identity.\", \"quotes\": [{\"text\": \"Models assessed endogenous structural processes (reciprocity, transitivity, degree effects) and actor-level characteristics, including demographic factors, substance use (alcohol, tobacco, marijuana), depression, and AI identity.\", \"page\": 1}]}], \"key_findings\": [{\"claim\": \"Universal structural mechanisms like reciprocity and transitivity were primary drivers of friendship in all three schools.\", \"quotes\": [{\"text\": \"Results indicated that universal structural mechanisms (reciprocity, transitivity) and demographic homophily (gender, grade, sexual orientation) were primary drivers of friendship.\", \"page\": 1}]}, {\"claim\": \"Substance use showed no consistent association with sending or receiving friendship ties, diverging from prior research in non-AI populations.\", \"quotes\": [{\"text\": \"However, unlike what is often observed in studies of other adolescent populations, substance use showed no consistent association with sending ties or receiving ties.\", \"page\": 1}]}, {\"claim\": \"Depression and AI identity were not substantively associated with friendship formation.\", \"quotes\": [{\"text\": \"Similarly, depression and AI identity were not substantively associated with friendship formation.\", \"page\": 1}]}, {\"claim\": \"Demographic homophily regarding gender, grade, and sexual orientation was significant and consistent across the schools.\", \"quotes\": [{\"text\": \"Strong and significant homophily was present for gender and grade across all schools, indicating that shared gender identity and grade level are primary axes of friendship formation.\", \"page\": 13}]}, {\"claim\": \"School C exhibited a centralized popularity structure and a positive sender effect for alcohol use, unlike Schools A and B which showed egalitarian constraints on popularity.\", \"quotes\": [{\"text\": \"School C also showed a significant positive sender effect for alcohol use, the only such effect across all schools and substances\", \"page\": 15}]}], \"scope_and_limits\": [{\"claim\": \"The findings are limited to three schools on one reservation and may not extend to AI youth in racially heterogeneous schools or other developmental epochs.\", \"quotes\": [{\"text\": \"Furthermore, we acknowledge that these data reflect only one developmental epoch of adolescents at one time point.\", \"page\": 16}]}, {\"claim\": \"The cross-sectional design prevents the distinction between selection and influence processes, so results should be interpreted as associations rather than causal effects.\", \"quotes\": [{\"text\": \"More importantly, cross-sectional ERGMs cannot analytically distinguish selection processes—adolescents choosing friends with similar attributes—from influence processes—friends becoming more similar to one another over time\", \"page\": 16}, {\"text\": \"Accordingly, the results reported here should be interpreted as associations between actor attributes and friendship tie formation, not as evidence that substance use, depression, or AI identity causally affect friendship formation\", \"page\": 16}]}], \"theoretical_positioning\": [{\"claim\": \"The authors position their work as moving beyond generalizations derived from racially heterogeneous settings to provide culturally and contextually grounded insights into AI adolescent social worlds.\", \"quotes\": [{\"text\": \"By focusing on reservation schools, where AI youth are the norm rather than a statistical minority, this research moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds.\", \"page\": 3}, {\"text\": \"These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are culturally and contextually grounded in the lived experiences of AI youth.\", \"page\": 1}]}], \"interlocutor_claim\": [{\"claim\": \"The paper disputes the prevailing assumption in adolescent health literature and prior network intervention strategies that risky behavior, specifically substance use, is a primary determinant of friendship relationships.\", \"quotes\": [{\"text\": \"Because the conventional assumption in much of the adolescent health literature, that risky behavior is a primary determinant of relationships in youth, does not hold in our study, which may also mean that common network intervention strategies aimed at reducing substance use may not be as effective as previously thought\", \"page\": 16}, {\"text\": \"In non-AI samples, substance use homophily and receiver effects are consistently positive and often substantial in magnitude\", \"page\": 14}]}]}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "repair",
+      "slot": "key_findings",
+      "attempt": 1,
+      "result": "repaired",
+      "raw": "{\n\"text\": \"School C also showed a significant positive sender effect for alcohol use, the only such effect across all schools and substances\",\n\"page\": 15\n}"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    }
+  ],
+  "seconds_left_out": "the GPU was shared during this run, so its time says nothing about the model"
+}

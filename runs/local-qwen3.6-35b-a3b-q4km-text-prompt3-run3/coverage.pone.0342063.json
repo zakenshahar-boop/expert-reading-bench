@@ -1,0 +1,115 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C1"
+        ],
+        "note": "Both quotes marked NOT IN PAPER (ellipsis splices). Would be a full C1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "ungrounded": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "Both quotes marked NOT IN PAPER (p.1 and p.3 text spliced together). Would be partial E1, E2, E3."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Quote marked NOT IN PAPER (wrong page, splice). Would be a full F1."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Quote marked NOT IN PAPER (splice). Would be partial F2 (interaction stronger in conservative regions); 'effect' not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2",
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says conservatives' behavior is 'heavily influenced by their local political environment'. The paper reports associations, says environmental factors 'may impact' booster decisions, and cannot assume causal or directional associations (p.10)."
+          }
+        ],
+        "note": "Quote marked NOT IN PAPER (splice). Would be partial F2 and F3 (liberal halves)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3 with the 60% vs under 35% quote. 'Suggesting environmental factors influence booster uptake' follows the paper's own 'these findings suggest that environmental factors ... may impact' (p.10); not flagged."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F4"
+        ],
+        "note": "Quote marked NOT IN PAPER (splice). Would be partial F4 (mandates only in the quote)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L2",
+          "L4"
+        ],
+        "note": "Quote marked NOT IN PAPER (splice). Would be L2 and L4."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L3",
+          "L1"
+        ],
+        "note": "Quote marked NOT IN PAPER (splice). Would be L3 and L1."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Combines the separate orientation and climate literatures by testing their interaction, a gap they identify (p.2 quote)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "I1"
+        ],
+        "note": "Quote marked NOT IN PAPER (p.2 and p.10 spliced). Would be a full I1 (builds on and replicates the conservatism-hesitancy association)."
+      }
+    ]
+  }
+}

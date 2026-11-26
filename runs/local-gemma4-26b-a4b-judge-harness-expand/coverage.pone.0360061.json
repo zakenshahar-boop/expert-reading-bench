@@ -1,0 +1,261 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "E3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Rather than just' marginalization or personality is Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "Q-x1",
+            "text": "Asks whether engagement 'reduce[s]' or 'increase[s]' hostility. The paper asks about associations; its own theory section is hedged ('may be associated with rather than diminish', p.4), so the tilt is mild."
+          }
+        ],
+        "note": "The direction of the engagement-hostility association is Q1 (distinct framing from entry 0, which is Q3)."
+      },
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "Repeats entry 0."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "Says the links are stronger among users with high affective polarization, without qualification. The paper says the associations are more pronounced 'for some indicators, especially online and offline participation' (abstract), and that the results are only 'partially consistent with Expectation 2' (p.14)."
+          }
+        ],
+        "note": "C1 stated; the appended moderation clause drops the paper's qualification, so no F2 credit here."
+      },
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Repeat of C1; indicators as examples, not as the strongest."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "The descriptive 'often stronger' moderation result keeps the paper's hedge; a finding (only part of F2: participation not named) placed in central_claim."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Panel survey linked with X data is E1; YouGov is part of E3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "2,567 linked panelists without the post count (E2 part); multiple waves from 2019 to 2021 (E3 part, without YouGov or the number of waves)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach only."
+      },
+      {
+        "match": [
+          "E6"
+        ]
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of survey measures (p.8)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate list of controls (p.9-10)."
+      },
+      {
+        "match": [
+          "E5"
+        ]
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Repeats entry 0 (longitudinal YouGov survey plus X data)."
+      },
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Distance to the 'political hate' vector; per-user averaging not mentioned (as in the calibration match)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Positive association stated; the strongest indicators are not named."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x2",
+            "text": "States without qualification that the relationship is stronger for highly affectively polarized users. The paper says this is 'often' the case descriptively, clearest for participation, weaker or inconsistent for distal antecedents, and only 'partially consistent with Expectation 2' (p.13-14); the entry's own quote says 'often'."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users have higher 'reach'. The paper says 'greater activity and potential reach' and that this should not be read as evidence of network influence (p.15)."
+          }
+        ],
+        "note": "More posts and followers; friends (the weaker part) omitted."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Omits 'ordinary party supporters' but states the leader-not-party limit."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Names Dark Triad and sadism accounts as untested; omits that those traits were not measured."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Repeat of L2. The p.5 quote is about the indicators (L3) but the claim does not state L3."
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x1",
+            "text": "Says engagement is not 'the sole cause' of hostility, which presupposes that it is a cause. The paper says its evidence 'does not establish that engagement causes hostility' and that sophistication or partisan involvement may be common causes of both (p.15-16)."
+          }
+        ],
+        "note": "The common-cause caveat is part of L2 (repeat)."
+      },
+      {
+        "match": [
+          "L2",
+          "L7"
+        ],
+        "note": "L2 repeat plus the network-influence limit."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Repeats entry 0."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "T4"
+        ],
+        "note": "'Moving beyond purely psychological or socioeconomic explanations' is the additive stance, but not that the paper does not adjudicate or reject them (as in the calibration partial)."
+      },
+      {
+        "match": [
+          "T2",
+          "T3"
+        ],
+        "note": "Repeats entry 0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "misplaced": [
+          "T2"
+        ],
+        "note": "The dark-side view of engagement drawn from motivated reasoning and polarization research is T2's framework, not a specific interlocutor claim; I5 (bias worse among the knowledgeable) is not stated."
+      },
+      {
+        "match": [
+          "I3"
+        ],
+        "note": "Grievance accounts (marginalization, status threat); 'instead examine whether' is the paper's own wording (p.3), not a rejection."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I1",
+          "I5"
+        ],
+        "note": "Engagement can become excessive [20] is Almond and Verba's point without naming them; biased processing among the engaged is I5 without the knowledge part. 'Lead to' follows the paper's own wording ('exacerbated', p.4), not flagged."
+      }
+    ]
+  }
+}

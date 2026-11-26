@@ -24,6 +24,15 @@ MODELS = [("qwen", "Qwen3 4B (local)", [f"qwen3-4b-4bit-prompt3-sample{i}" for i
           ("sol", "GPT-6.2 Sol", ["gpt-6.2-sol-text-prompt3" + x for x in THREE]),
           ("astra", "GPT-6.2 Astra", ["gpt-6.2-astra-text-prompt3" + x for x in THREE]),
           ("opus", "Claude Opus 5.5", ["opus-5-5-text-prompt3" + x for x in THREE])]
+# Local models run by Ellian-Eorwyn (https://github.com/Ellian-Eorwyn) on one RTX 3090 (2026-11-25; docs/local-runs-2026-11-25/). Each has three runs and the
+# four harness settings, started from its first run.
+CONTRIBUTED = [("gemma31", "Gemma 4 31B (local)", "local-gemma4-31b-qat-q4_0"),
+               ("qwen38", "Qwen3.8 27B, thinking low (local)", "local-qwen3.8-27b-default"),
+               ("qwen38off", "Qwen3.8 27B, thinking off (local)", "local-qwen3.8-27b-default-nothink"),
+               ("muse", "Muse Glimmer 30B (local)", "local-muse-glimmer-30b-q4km"),
+               ("gemma26", "Gemma 4 26B-A4B (local)", "local-gemma4-26b-a4b-judge"),
+               ("qwen36", "Qwen3.6 35B-A3B (local)", "local-qwen3.6-35b-a3b-q4km")]
+MODELS += [(mid, name, [prefix + "-text-prompt3" + x for x in THREE]) for mid, name, prefix in CONTRIBUTED]
 HARNESS = [
     ("Qwen3 4B (local)", "Model alone", "qwen3-4b-4bit-prompt3"),
     ("Qwen3 4B (local)", "Quotes confirmed", "qwen3-4b-harness-confirm"),
@@ -39,6 +48,10 @@ HARNESS = [
     ("Claude Haiku 5.5", "Quotes confirmed, asked for more", "haiku-5-5-harness-expand"),
     ("Claude Haiku 5.5", "Asked for more, key findings too", "haiku-5-5-harness-expand-findings"),
 ]
+HARNESS += [(name, setting, prefix + suffix) for _, name, prefix in CONTRIBUTED for setting, suffix in (
+    ("Model alone", "-text-prompt3"), ("Quotes confirmed", "-harness-confirm"),
+    ("Quotes confirmed, claims re-checked", "-harness-confirm-recheck2"),
+    ("Quotes confirmed, asked for more", "-harness-expand"), ("Asked for more, key findings too", "-harness-expand-findings"))]
 PAPERS = [("0360061", "Online hostility"), ("0342063", "Vaccine hesitancy"), ("0355933", "Criminal record labels"),
           ("0347327", "COVID polarization"), ("0362373", "Adolescent networks")]
 SLOTS = [("question", "Question"), ("central_claim", "Central claim"), ("evidence", "Evidence"), ("key_findings", "Key findings"),

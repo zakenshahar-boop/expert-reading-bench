@@ -1,0 +1,144 @@
+{
+  "paper_id": "pone.0360061",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "note": "'Beyond' / 'rather than just' deprivation or personality is Q3's 'not only ... but also'; Q1 is contained in Q3 and not credited twice."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Indicators listed as examples, not as strongest; 'suggesting engaged users may be more hostile' is hedged. The p.15 'not only' quote is not stated in the claim, so no C2."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x1",
+            "text": "Says hostile users have 'greater ... reach'. The paper says greater 'potential reach' (p.2, p.15) and that it 'may' give them higher reach (p.1), not evidence of influence."
+          }
+        ],
+        "note": "Posts more, more friends and followers is F3 in the wrong slot; 'greater reach' for 'potential reach' (mild)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Survey plus scraped X data (E1); 2,567 linked users is part of E2, not joined to the post count. The paper's X-only analyses go up to 3,643, but 2,567 is the number linking survey and X data, so no flag."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E4"
+        ],
+        "note": "Names the SU word-embedding approach and its validation only; no cosine similarity to the 'political hate' vector or per-user averaging."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "note": "OLS and RI-CLPM both named in the claim (quotes give cross-sectional analyses and RI-CLPM); count models accurate extra detail."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Particularly political interest, knowledge, and online participation' gives the strongest indicators."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F-x2",
+            "text": "Says the association is stronger among more affectively polarized users, 'particularly for participatory indicators'. The paper says the support is partial, clearest for participation and weaker or inconsistent for distal antecedents, and exploratory for the remaining indicators (p.13-14); 'particularly' keeps the participation focus but drops that the support is only partial."
+          }
+        ],
+        "note": "Both quotes are marked NOT IN PAPER, so no credit; the claim would otherwise be partial F2 with the same mild flag as in the other notes."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Forward within-person pattern only; nothing on the weaker reverse pattern."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Leader-directed, not party-directed; the consequence for the moderation analyses is stated."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2",
+          "T3"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I3"
+        ],
+        "partial": [
+          "I4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C-x2",
+            "text": "Says the paper 'disputes or builds upon' a claim that hostility is 'primarily explained' by marginalization, status threat or personality, 'arguing instead that political engagement is a key factor'. The paper attributes no 'primarily' claim to those literatures and 'does not seek to adjudicate between these literatures' (p.3, the entry's own quote); it presents engagement as an additional correlate. 'Or builds upon' and 'a key factor' (not the factor) keep the tilt mild."
+          }
+        ],
+        "note": "Grievance account (I3); personality account given only as 'traits like sadism', not the small-segment, extreme-traits finding (I4 partial). Stance hedged between disputing and building on."
+      }
+    ]
+  }
+}

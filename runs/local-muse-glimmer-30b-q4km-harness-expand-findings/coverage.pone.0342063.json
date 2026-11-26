@@ -1,0 +1,244 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 (conservatives in liberal climates less hesitant); the liberals-regardless part is not stated. 'Moderates' is the paper's own framing, not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservatives less hesitant and more likely boosted in liberal climates; the liberals-regardless part is again missing, so no join with [0]."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online self-reported survey, US, March 8 to April 19 2023: the data source without the kind of sample (nonprobability convenience) or the recruiter (Qualtrics Panels), so partial E1. N = 683 alone is partial E2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E1"
+        ],
+        "note": "Qualtrics Panels recruitment and quality screens (part of E1)."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [
+          "E3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "Hesitancy scale half of E5; self-reported status is not in this slot."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Booster hesitancy items from a 2022 survey (ref. 25): accurate, not in the gold."
+      },
+      {
+        "match": [
+          "E1",
+          "E3"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Online self-reported convenience sample, US, dates: E1 without Qualtrics (the earlier judge gave a full E1 to an entry missing 'convenience'). Zip-code 2020 vote share as climate repeats E3; N = 683 is partial E2."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "CFA and adequate reliability of the hesitancy scales (p.5): accurate, not in the gold. 'Validated items' not flagged (AAVS is a published scale; CFA reported)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "OLS and logistic regression with the controls, but the conservatism by climate interaction term is not mentioned."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction significant for vaccine (and booster) hesitancy, without its shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberal half of F2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster-uptake interaction exists, without its shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberals' uptake independent of climate and conservatives' tied to it, without the direction (conservatives in liberal climates more likely boosted). Not joined with [2]: the direction is missing from both."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of F2 (conservatives in liberal climates less hesitant). With [0] and [1] it joins F2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Vaccine-hesitancy part of F1."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Vaccine-status part of F1. Not joined with [5]: the booster hesitancy and boosting parts of F1 are stated nowhere in the slot."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Proxy with its consequence (other zip-code differences could drive the associations)."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Online-access part of the sample limit; first quote (self-report) is irrelevant, the second supports it."
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Duplicate of [0]."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Duplicate of [1]."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Non-significant vaccination interaction and the mandates explanation: the F4 finding in the limits slot."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Duplicate of [3]."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1"
+        ],
+        "note": "Names only the political-climate literature (p.2), not the orientation literature or the extension. 'Can influence' is the paper's own wording, not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "Q1"
+        ],
+        "note": "Restates the research question (climate as moderator) as positioning; it does not say the paper combines two literatures, so not T2. Unsure call."
+      },
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Extends prior research by testing the interaction. The claim does not name the two literatures (only its quote does), so no T1 here and no join with [0]."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Prior work studied orientation and climate separately, little on their interaction (p.2); the build-on stance is implied by the gap."
+      },
+      {
+        "match": [
+          "I1"
+        ]
+      }
+    ]
+  }
+}

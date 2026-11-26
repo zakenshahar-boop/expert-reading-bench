@@ -1,0 +1,98 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "partial": [
+          "Q3"
+        ],
+        "note": "Geographic and temporal variation (Q1); political leaning and public health outcomes are two of Q3's three correlates (no conspiracy)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1, credited per its decision; plus the US vaccination correlation 'not observed in Canada' (p.16 wording), F2 placed here. No catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E4",
+          "E3",
+          "E2",
+          "E5"
+        ],
+        "note": "First quote in the paper, second NOT IN PAPER. Over 50 million tweets without split (E1); geolocating without the profile field (E4); party classification without method (E3); 'semantic embedding-based index (C-index)' without RoBERTa or left/right separation (E2); three topics without conspiracy or classifiers (E5)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "First quote NOT IN PAPER, second in the paper. US strong negative correlation, Canada weak or absent: both halves of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6",
+          "F1"
+        ],
+        "note": "Second quote NOT IN PAPER; abstract quote in the paper. Exceptions in general terms, no states named (F6 partial); lead-in 'conservative regions generally showed higher polarization' (F1 partial)."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "First quote NOT IN PAPER, second in the paper. Conservatives in both countries tweet conspiracy content more; US negative correlation, Canada none. Not F-x3."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6",
+          "L5"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text embeddings, complementing lexicon methods, set against restricted network data. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Prior research that online pandemic discussion showed regional patterns of partisan animosity (p.2, [9,25-27]), which the paper extends. Accurate, but not I1: it does not say right-leaning regions were more divided (the second quote does, the claim does not). Uncertain: could be read as partial I1."
+      }
+    ]
+  }
+}

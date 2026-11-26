@@ -1,0 +1,229 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use (Q3); depression and AI identity without the demographic attributes (Q1 part). 'Influence' follows the quoted 'role'; not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "The 'primary determinant' assumption the paper disputes is an interlocutor answer (I4)."
+      },
+      {
+        "match": [
+          "Q2"
+        ],
+        "note": "Whether established understandings of substance use (and depression) as bases of friendship hold for AI youth in reservation settings: the substance of Q2, without naming heterogeneous schools."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F1",
+            "text": "The note says substance use, depression and AI identity 'do not show significant associations'; the paper reports no consistent association, with two statistically significant alcohol exceptions (sender effect in School C, p < 0.05; homophily in School B, p < 0.01), and a depression sender effect in School B that is statistically significant but negligible (AME < 0.001, p.13)."
+          }
+        ],
+        "note": "Structural and demographic organization plus the substance-use null; 'primarily driven by' is the abstract's wording."
+      },
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Substance-use (and depression) half of C1 only."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Network data from 9th/10th graders in three Northern Plains reservation schools (E1, as the earlier judge credited without 'cross-sectional'); N = 247 without naming the stage (E2 part). 'Three diverse schools' does not say how the schools differ: E7 not credited."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "ERGMs only."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Structural terms (E3 part)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Actor attributes in the models (E3 part); per-school estimation and AMEs never stated, so E3 is not joined."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Repeats entry 0; quote adds the cross-sectional survey. 'Three diverse schools' again not E7."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity and transitivity as fundamental organizing processes; quote is the paper's summary."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Gender, grade and sexual orientation homophily; 'primary drivers' is the abstract's characterization (cf. F-n1), not flagged."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Core null without the two exceptions, as the earlier judge credited 'no consistent or robust association'."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note says depression and AI identity are 'not significantly associated' with friendship ties; the paper says depression effects were 'substantively negligible' and that the School B depression sender effect reached statistical significance (AME < 0.001, p.13). The AI identity part is accurate."
+          }
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L1"
+        ],
+        "note": "Heterogeneous-school part only; the three-schools-on-one-reservation basis is not stated."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional plus selection versus influence."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Association versus cause without the cross-sectional design, as the earlier judge called a like entry."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "One time point, patterns may differ across the life course."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "partial": [
+          "L1"
+        ],
+        "note": "Repeats entries 0 and 1."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Moving beyond generalizations from heterogeneous schools is the testing half of T3, without what is replicated and what is disputed (same call as the earlier judge)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Challenge to prevention-program assumptions (C3, an implication) and that substance use may not be a primary driver in AI-majority contexts (dispute half of T3). Hedged with 'suggesting'."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the authors argue existing theories 'must be adapted'; the paper calls for theories that are culturally and contextually grounded (abstract) and does not say it adapts or revises the network framework."
+          }
+        ],
+        "note": "Call for culturally grounded theory is C3."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "The 'primary determinant' assumption (I4), disputed. The note places it in network-based prevention programs, which the abstract also links to the challenged assumptions; I6 not credited separately."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I1",
+            "text": "The note says the authors 'build upon' research showing that substance use and depression typically shape friendship in non-AI populations; the paper uses that research as a benchmark and reports that its substance-use and depression findings do not hold in this AI-majority sample (p.14)."
+          }
+        ],
+        "note": "The non-AI literature linking substance use (and depression) to friendship is I1's claim; the stance is wrong."
+      },
+      {
+        "match": [
+          "I4"
+        ],
+        "note": "Repeats entry 0 without the prevention-program attribution; 'does not hold in our study' is in the quote."
+      }
+    ]
+  }
+}

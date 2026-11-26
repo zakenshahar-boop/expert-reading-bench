@@ -1,0 +1,282 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Geographic and temporal (event-driven) variation across US and Canada. Conspiracy and vaccination correlates (Q3) and the methods aim (Q2) not stated."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Not a question. Political discussion varies by socio-demographic group lexicon, so dissimilar language alone is not polarization: the prior-work claim I7, placed here."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I2"
+        ],
+        "note": "Not a question. The paper's text-based choice against network-based methods because network data became restricted: I2, placed here, without 'highly effective in prior work'. 'Argues against relying on' is close to the paper's own wording; not flagged."
+      },
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Repeat of Q1 (subnational and event-driven variation, US vs Canada). Q2's methods aim is in the quote but not the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Abstract wording for C1 ('significantly higher in both'), credited per its decision; plus the vaccination correlation with the weaker Canadian result (F2), placed here. No B1 or B2 catch."
+      },
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "Repeat: abstract wording for C1 and the US half of F2, placed here."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F3"
+        ],
+        "note": "Event spikes lasting a few days: F3, placed here."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E5",
+          "E4",
+          "E3"
+        ],
+        "note": "'Over 50 million tweets' from late 2020 to early 2021, no split by country (E1 partial); three topics without conspiracy or the classifiers (E5 partial); 'geolocating users' without the profile location field (E4 partial); 'classifying by partisan affiliation' without the two-step method or validation (E3 partial)."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Subsampling approximation of the polarization index (p.11). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E3"
+        ],
+        "note": "Validation against voter registration records (accuracies 74.35% and 73.35%, p.10) only."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "US vaccination correlation (r = -0.77) with rates a year later: a finding, placed in evidence."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "US conspiracy-volume correlation: part of F4, placed in evidence."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Canada no conspiracy-volume correlation: part of F4, placed in evidence."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "note": "About 50 million tweets, US and Canada, October 9, 2020 to January 4, 2021. Split by country treated as detail. Uncertain: full credit without the 12.5M/46.6M split."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings, C-index distance between partisan user embeddings."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Two-step profile and activity classifier, validated against election results and voter records."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "note": "COVID case/death data and vaccination rates; election results and the one-year lag not stated."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Conservative regions higher, masks and vaccines vs a mixed lockdown pattern (p.14, p.16); Canadian non-significance not stated. Second quote (Alberta) is in the paper."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "US half of F2; 'associated with' keeps the correlational wording. Canada half not stated in this slot."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Conservatives tweet conspiracy content at higher rates (paper: both countries; the note says US) and the small negative US correlation; the Canadian null result is not stated. 'Tweeted content', not 'endorsed', so not F-x3."
+      },
+      {
+        "match": [
+          "F7"
+        ],
+        "note": "Quebec highest (on vaccines, p.24; overall, p.14) with the English-only caveat. Uncertain: credited in full although it says 'over vaccines' rather than overall."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Weaker Canadian association between conservatism and polarization, with Alberta and Saskatchewan vs BC and Ontario (p.23-24). Lower overall Canadian polarization not stated; does not say the Canadian association is non-significant, so no F1 join."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6",
+          "L2"
+        ],
+        "note": "Correlations do not imply causation (L6) and engaged Twitter users, not the broader public (L2)."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "Repeat of L6 for vaccination, plus 'no single explanation' for the conservative-polarization link (p.23), accurate."
+      },
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Semantic similarity proxy may miss signals (p.24); sarcasm example not given."
+      },
+      {
+        "match": [
+          "L9"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "L3"
+        ],
+        "note": "Self-reported locations can be false or incomplete; VPNs and fake accounts add error. The possible inflation of partisan distance is in the quote but not the claim. Uncertain partial."
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ]
+      },
+      {
+        "match": [
+          "L2",
+          "L6"
+        ],
+        "note": "Repeats L2 and L6."
+      },
+      {
+        "match": [
+          "L7"
+        ],
+        "note": "Repeat of L7."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approaches, set against network-based ones. No T0. 'Extends' refers to the methods literature, not a stance on findings; not flagged."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I7"
+        ],
+        "note": "Socio-demographic linguistic differences do not indicate polarization, so the measure conditions on topic (p.4): the prior-work claim I7 the method must handle, placed here (same call as the calibration)."
+      },
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Repeat of T1: text-embedding approaches, extended with a topic-conditioned, geographic metric. No T0; not T3 (no agreement with earlier findings on right-leaning regions)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Agrees with previous research on right-leaning states and extends it with geographic and temporal resolution (p.22)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I7"
+        ],
+        "note": "The topic-conditioning premise (p.4): dissimilar language alone does not indicate polarization. That is the consequence of I7's prior-work claim (each group has its own lexicon, [40]), which the entry does not state. The paper itself rejects that view, so 'disputes/challenges' is not flagged (same as the calibration 'notion' call). Uncertain."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Ref. 96 (vaccine hesitancy linked to party in Canada, Conservatives more likely to refuse) and the mandates explanation (p.24). Accurate; not in the gold."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I7"
+        ],
+        "note": "Repeat of the previous I7 entry. The topic-conditioning premise (p.4): dissimilar language alone does not indicate polarization. That is the consequence of I7's prior-work claim (each group has its own lexicon, [40]), which the entry does not state. The paper itself rejects that view, so 'disputes/challenges' is not flagged (same as the calibration 'notion' call). Uncertain."
+      }
+    ]
+  }
+}

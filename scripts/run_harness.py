@@ -104,10 +104,47 @@ class OpenAIModel:
         return reply.choices[0].message.content or ""
 
 
+class Endpoint:
+    """Any OpenAI-compatible chat endpoint, such as a local llama.cpp or NInfer server. --body (JSON) is sent with
+    every call (the model's own sampling, chat_template_kwargs, a seed), and --headers with every request. One retry
+    after a failed call, then the error stops the paper."""
+
+    def __init__(self, name: str, args):
+        self.url, self.name, self.timeout = args.url, name, args.timeout
+        self.settings = json.loads(args.body or "{}")
+        self.headers = json.loads(args.headers or "{}")
+        self.calls, self.tokens_in, self.tokens_out = 0, 0, 0
+
+    def ask(self, content: str, keep: bool, max_tokens: int) -> str:
+        import urllib.request
+        self.calls += 1
+        body = {"model": self.name, "messages": [{"role": "user", "content": content}], "max_tokens": max_tokens,
+                "stream": False, **self.settings}
+        for attempt in (1, 2):
+            try:
+                req = urllib.request.Request(self.url, data=json.dumps(body).encode(),
+                                             headers={"Content-Type": "application/json", **self.headers})
+                with urllib.request.urlopen(req, timeout=self.timeout) as r:
+                    out = json.loads(r.read())
+                break
+            except OSError:
+                if attempt == 2:
+                    raise
+                time.sleep(10)
+        usage = out.get("usage") or {}
+        self.tokens_in += usage.get("prompt_tokens") or 0
+        self.tokens_out += usage.get("completion_tokens") or 0
+        return out["choices"][0]["message"].get("content") or ""  # a server that splits thinking off keeps it apart
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
-    ap.add_argument("--provider", choices=["mlx", "anthropic", "openai"], default="mlx")
+    ap.add_argument("--provider", choices=["mlx", "anthropic", "openai", "http"], default="mlx")
+    ap.add_argument("--url", help="http: the chat completions URL")
+    ap.add_argument("--body", help="http: JSON merged into every request (sampling, chat_template_kwargs, seed)")
+    ap.add_argument("--headers", help="http: JSON of extra request headers")
+    ap.add_argument("--timeout", type=float, default=1800, help="http: seconds per call")
     ap.add_argument("--name", required=True, help="folder name under runs/")
     ap.add_argument("--from-run", help="start from the notes of an earlier run instead of asking slot by slot")
     ap.add_argument("--reuse-extract", help="re-read the slot-by-slot replies saved in an earlier harness run")
@@ -126,7 +163,7 @@ def main() -> None:
     ap.add_argument("--long-tokens", type=int, default=2500, help="output allowance for calls with the paper")
     args = ap.parse_args()
 
-    model = {"mlx": Local, "anthropic": Claude, "openai": OpenAIModel}[args.provider](args.model, args)
+    model = {"mlx": Local, "anthropic": Claude, "openai": OpenAIModel, "http": Endpoint}[args.provider](args.model, args)
     out_dir = ROOT / "runs" / args.name
     out_dir.mkdir(parents=True, exist_ok=True)
     papers = args.papers or sorted(p.name for p in (ROOT / "data" / "plos").iterdir() if p.is_dir())
@@ -169,7 +206,8 @@ def main() -> None:
                    "completions rejected": sum(1 for t in trace if t["step"] == "complete" and t["result"].startswith("rejected")),
                    "claims added": sum(t.get("added", 0) for t in trace if t["step"].startswith("more: ") and "added" in t)}
         record = {"paper_id": pid, "model": args.model, "track": "text", "prompt_version": PROMPT_VERSION, "provider": args.provider,
-                  "harness": steps, "model_calls": model.calls - calls0,
+                  "harness": steps, "settings": getattr(model, "settings", None), "short_tokens": args.short_tokens,
+                  "long_tokens": args.long_tokens, "model_calls": model.calls - calls0,
                   "input_tokens": model.tokens_in - in0, "output_tokens": model.tokens_out - out0, "seconds": round(time.time() - t0, 1),
                   "summary": summary, "raw": json.dumps(note, ensure_ascii=False), "trace": trace}
         (out_dir / f"{pid}.json").write_text(json.dumps(record, indent=2, ensure_ascii=False))

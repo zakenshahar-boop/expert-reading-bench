@@ -1,0 +1,113 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2",
+    "F3"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "States both halves: conservatives in liberal climates less hesitant and more likely boosted, liberals largely unaffected. 'Significantly moderates' is not flagged: the interaction is significant for hesitancy and booster status, the outcomes the entry names."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "Online survey, US, early 2023, N = 683 and 2020 vote share by zip code: no convenience sample or Qualtrics Panels (E1), no exclusion figures (E2), and the vote share is not said to be % Republican (E3)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Hesitancy and uptake halves both stated; the p.7 booster hesitancy quote is in the paper."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Liberal halves of F2 (low hesitancy regardless of climate) and F3 (boosted regardless of climate)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2",
+          "F3"
+        ],
+        "note": "Conservative halves of F2 (less hesitant in liberal climates) and F3 (more likely boosted in liberal climates); the p.1 quote is in the paper."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "Vaccine-status interaction not significant, without the mandates explanation (which is only in the quote)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L1"
+        ],
+        "note": "Cross-sectional with its consequence (L2); zip-code vote share confounded by other regional factors such as population density (L1). The cross-sectional quote is in the paper, so the entry is grounded."
+      },
+      {
+        "match": [
+          "L4",
+          "L3"
+        ],
+        "note": "Online panel of White and Black participants only, may not generalize (L4). 'Relies on self-reported data susceptible to bias' credited as L3 although the bias types are not named; the self-report quote is in the paper."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Two previously separate literatures (orientation, climate) combined by testing their interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I5"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I5",
+            "text": "Says the paper disputes the notion that political orientation is the sole or primary predictor of hesitancy. The paper cites ref. 18 (orientation has become a better predictor than demographics, fear and trust, p.2) as background it builds on, and never argues against it."
+          },
+          {
+            "type": "overclaim",
+            "gold": "C-x1",
+            "text": "Says regional context 'significantly alters the behavior of conservative individuals' and that environmental factors 'play a crucial role'. The paper reports associations, says only that environmental factors 'may impact' booster decisions, did not assess the mechanism, and cannot assume causal or directional associations (p.10)."
+          }
+        ],
+        "note": "The cited claim (ref. 18, quoted from p.2) is I5, so partial credit for naming it; the stance is reversed and the causal wording is stronger than the paper."
+      }
+    ]
+  }
+}

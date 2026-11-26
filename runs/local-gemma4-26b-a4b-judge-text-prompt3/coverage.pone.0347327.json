@@ -1,0 +1,114 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional (and topic) variation in online COVID-19 polarization in both countries; events not named, methods aim (Q2) not stated."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "ungrounded": [
+          "C2"
+        ],
+        "note": "Both quotes NOT IN PAPER (paraphrased composites of p.1 and p.25). Would be C2 with part of C1."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E5"
+        ],
+        "note": "'Millions of tweets from late 2020' in both countries without dates or the per-country split (E1 partial); the three topics named without conspiracy or the classifiers (E5 partial)."
+      },
+      {
+        "match": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings and C-index separation of partisan groups."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Abstract wording, true to the paper; no masks/vaccines vs lockdowns split and no Canadian non-significance. No B1 catch."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2. 'Associated' keeps the correlation; not flagged."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes linked to events, lasting a few days."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Canada half of F2 in the abstract's wording ('notably weaker'), which the F2 note accepts as true to the paper. No B2 catch."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ],
+        "note": "Politically engaged Twitter users, not the general public."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "L1"
+        ],
+        "note": "Only quote NOT IN PAPER (p.10 sentence altered). Would be L1."
+      },
+      {
+        "match": [
+          "L7"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "note": "No causality established, from p.16; treated as L6 as the earlier judge did."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "ungrounded": [
+          "T3"
+        ],
+        "note": "Only quote NOT IN PAPER (splices a p.25 sentence onto p.22). Would be partial T3: extension only, no agreement stated. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Prior studies [10,62] on conservative states; 'not universal across all topics' misreads the quote's 'not universal' (which is about states such as Delaware), but the paper does report no lockdown association, so not flagged."
+      }
+    ]
+  }
+}

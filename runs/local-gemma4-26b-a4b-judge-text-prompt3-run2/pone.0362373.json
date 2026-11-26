@@ -1,0 +1,23 @@
+{
+  "paper_id": "pone.0362373",
+  "model": "gemma4-26b-a4b-judge",
+  "served_model": "gemma4-26b-a4b-judge",
+  "engine": "llamacpp",
+  "track": "text",
+  "prompt_version": 3,
+  "settings": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "seed": 2
+  },
+  "max_tokens": 16000,
+  "run": 2,
+  "stop_reason": "stop",
+  "prompt_tokens": 21649,
+  "output_tokens": 830,
+  "reasoning_tokens": null,
+  "seconds": 12.9,
+  "raw": "```json\n{\"slots\": {\"question\": [{\"claim\": \"The study investigates whether substance use and other individual characteristics influence friendship formation in American Indian-majority reservation schools, as most previous research has focused on racially heterogeneous settings.\", \"quotes\": [{\"text\": \"the role of substance use and other individual characteristics in friendship network formation within AI-majority reservation schools remains understudied.\", \"page\": 1}]}],\n\"central_claim\": [{\"claim\": \"In American Indian-majority reservation schools, friendship networks are organized around structural mechanisms and demographic commonalities (such as gender, grade, and sexual orientation) rather than substance use, depression, or AI identity.\", \"quotes\": [{\"text\": \"These findings reveal a distinct relational ecology within AI-majority reservation schools, where peer ties are organized around structural and demographic commonalities rather than risky behaviors.\", \"page\": 1}]}],\n\"evidence\": [{\"claim\": \"The authors used social network data from 247 students in 9th and 10th grade across three different types of schools on a Northern Plains reservation.\", \"quotes\": [{\"text\": \"Using social network data from 9th and 10th-grade students (N = 247) across three schools on a Northern Plains reservation, we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties.\", \"page\": 1}]}],\n\"key_findings\": [{\"claim\": \"Universal structural mechanisms like reciprocity and transitivity are primary drivers of friendship in these networks.\", \"quotes\": [{\"text\": \"Results indicated that universal structural mechanisms (reciprocity, transitivity, degree effects) and demographic homophily (gender, grade, sexual orientation) were primary drivers of friendship.\", \"page\": 1}]}],\n{\"claim\": \"Substance use, including alcohol, tobacco, and marijuana, showed no consistent association with sending or receiving friendship ties.\", \"quotes\": [{\"text\": \"substance use showed no consistent association with sending ties or receiving ties.\", \"page\": 1}]}],\n{\"claim\": \"Demographic homophily for gender, grade, and sexual orientation was a consistent driver of friendship formation.\", \"quotes\": [{\"text\": \"Strong and significant homophily was present for gender and grade across all schools, indicating that shared gender identity and grade level are primary axes of friendship formation.\", \"page\": 13}]}],\n{\"claim\": \"Depression and AI identity were not substantively associated with the formation of friendship ties.\", \"quotes\": [{\"text\": \"Similarly, depression and AI identity were not substantively associated with friendship formation.\", \"page\": 1}]}],\n\"scope_and_limits\": [{\"claim\": \"The study is limited to three schools on a single reservation and may not represent AI youth in racially heterogeneous settings.\", \"quotes\": [{\"text\": \"Our findings may not extend to AI youth in racially heterogeneous schools, where Rees, Freng, and Winfree [17] observed different network characteristics.\", \"page\": 16}]}],\n\"theoretical_positioning\": [{\"claim\": \"The authors place their work in the context of adolescent network research, specifically looking to move beyond generalizations derived from racially heterogeneous settings to understand the unique architecture of AI social worlds.\", \"quotes\": [{\"text\": \"By focusing on reservation schools, where AI youth are the norm rather than a statistical minority, this research moves beyond generalizations derived from prior research and contributes new insights into the unique architecture of AI adolescent social worlds.\", \"page\": 2}]}],\n\"interlocutor_claim\": [{\"claim\": \"The authors build upon research by Rees, Freng, and Winfree, who found that AI adolescents in heterogeneous school contexts had fewer reciprocated friendships than White peers.\", \"quotes\": [{\"text\": \"One study that did focus specifically on AI youth network characteristics is Rees, Freng, and Winfree [17], who used Add Health to describe AI networks in heterogeneous school contexts, finding that AI adolescents had fewer reciprocated friendships than White peers.\", \"page\": 2}]}]}```",
+  "reasoning": ""
+}

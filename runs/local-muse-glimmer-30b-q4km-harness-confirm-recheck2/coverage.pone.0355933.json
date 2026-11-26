@@ -1,0 +1,54 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover onto perceptions of people with records (Q1) and how representation perceptions are affected (Q3). The counter-narrative question (Q2) is not in the claim."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Gives all three parts: harm to perceptions, improved representation, and the counter-narrative's near-removal of the harm ('vastly ameliorated', abstract)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2"
+        ],
+        "note": "Online survey experiment with Democrats on Prolific (E1, without pre-registration or dates). 'Three-arm' is part of E2; the claim gives neither the arms' identities nor the N (those are only in the quote)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Abstract wording ('improved perceived feelings of representation'). The labeler's F3 decision asks for the named outcome (quality of Democratic representation) and the public-service motives result; neither is given."
+      }
+    ],
+    "scope_and_limits": [],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory explaining spillover. Not credited T4: the entry does not say the study carries the theory to a campaign ad and tests its prediction (same call as the earlier judge on a similar entry)."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

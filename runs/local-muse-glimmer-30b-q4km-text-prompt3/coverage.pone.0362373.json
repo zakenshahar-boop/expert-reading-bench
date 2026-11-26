@@ -1,0 +1,100 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use (Q3); 'individual characteristics' without demographics, depression or AI identity named (Q1 partial). Same call as the calibration judge."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C3"
+        ],
+        "note": "Abstract's 'structural and demographic commonalities rather than risky behaviors' is C1. The challenge to network-based prevention is C3 without the call for culturally grounded theory and interventions (in the quote, not the claim)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3"
+        ],
+        "note": "Data source matches E1; ERGMs named without per-school estimation, terms or AMEs (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "note": "Reciprocity and transitivity in all three schools; 'universal' is the paper's wording (abstract, p.13)."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Core null on sender, receiver and homophily; exceptions not named (as in the calibration notes)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Gender and grade only; sexual orientation homophily not mentioned."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Depression and AI identity; 'substantively unrelated' follows the paper's 'substantively negligible'/'not substantively associated'."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Three schools on one reservation, may not generalize. 'Cross-sectional' is named without the inference it limits, so no L3."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "note": "Moving beyond generalizations from heterogeneous schools (paper's wording, p.3): the testing half of T3, without what is replicated and what is disputed."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "flags": [
+          {
+            "type": "wrong stance",
+            "gold": "I2",
+            "text": "The note says the paper disputes Rees, Freng and Winfree's finding in AI-majority settings; the paper builds on that study, notes it was descriptive and did not model endogenous processes (p.2), and in the limitations says its own findings may not extend to heterogeneous schools 'where Rees, Freng, and Winfree [17] observed different network characteristics' (p.16). It never disputes the finding."
+          }
+        ],
+        "note": "Finding and its descriptive character stated correctly; the stance is wrong, so half credit and a flag."
+      }
+    ]
+  }
+}

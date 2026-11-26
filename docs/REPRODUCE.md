@@ -50,6 +50,12 @@ Settings used, all recorded in each reply file:
 | gpt-4o | gpt-4o-2024-08-06 | temperature 0 (it does not take a reasoning effort), max 16,000 completion tokens |
 | Qwen3-4B-Instruct-2507, 4-bit, mlx | local | three runs with `--temp 0.7 --top-p 0.8 --top-k 20 --seed 1` (then 2, 3), max 6,000 tokens; one earlier run at temperature 0, the starting point of its harness rows |
 
+Six further local setups were run by [Ellian-Eorwyn](https://github.com/Ellian-Eorwyn) on one RTX 3090 on 2026-11-25, through
+llama.cpp and NInfer servers. Their model files, quantizations, SHA-256 hashes, engines, and sampling settings are in `docs/local-runs-2026-11-25/`.
+The two Qwen3.8 27B setups ran on a production server with its own sampling (no temperature
+or seed was sent) while other work shared the GPU, so they cannot be repeated exactly and
+their time is not reported.
+
 Every model gets the same prompt (`grb/task.py`, prompt version 3): the paper as text with
 `[page N]` markers, taken from the PDF with `pdftotext`.
 
@@ -57,11 +63,17 @@ Harness settings (`grb/harness.py`), each starting from a saved run:
 
 | Setting | Command |
 |---|---|
-| Quotes confirmed | `python scripts/run_harness.py --provider <mlx/anthropic/openai> --model <id> --name <folder> --from-run runs/<base run>` |
+| Quotes confirmed | `python scripts/run_harness.py --provider <mlx/anthropic/openai/http> --model <id> --name <folder> --from-run runs/<base run>` |
 | ... claims re-checked | add `--recheck 2`, with `--from-run` pointing at the quotes-confirmed folder |
 | ... asked for more | add `--expand` |
 | ... key findings too | add `--more-findings`, with `--from-run` pointing at the asked-for-more folder |
 | Thin entries completed (off by default) | add `--complete` |
+
+Provider `http` is any OpenAI-compatible chat server (a local llama.cpp, for example):
+`--url <chat completions URL>`, `--body '<JSON sent with every call: sampling, seed>'`,
+`--headers '<JSON>'`. The contributed local runs used it, with 600 output tokens for short
+calls and 4,000 for long ones (4,000 and 8,000 for models that think first); each file
+records its `short_tokens`, `long_tokens` and `settings`.
 
 Each harness reply file also holds a `trace`: every model call and every decision the
 harness made (found, page corrected, repaired, dropped, rewritten, added).
@@ -82,6 +94,7 @@ Agreement of the judge with a human labeler is in `docs/RESULTS.md`.
 | Folder | What it is |
 |---|---|
 | `<model>-text-prompt3`, `-run2`, `-run3` | The three runs of each model on the task |
+| `local-<model>-...` | The contributed local runs of 2026-11-25, same suffixes as below |
 | `<model>-harness-confirm` | Quotes confirmed |
 | `<model>-harness-confirm-recheck2` | Quotes confirmed, claims re-checked |
 | `<model>-harness-expand` | Quotes confirmed, asked for more |

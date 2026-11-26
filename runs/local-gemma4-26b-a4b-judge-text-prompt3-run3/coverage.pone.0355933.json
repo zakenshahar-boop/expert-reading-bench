@@ -1,0 +1,78 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad's harm to perceptions and counter-stereotype's mitigation; omits the representation improvement. 'Stigmatizing labels for Trump' keeps the case; not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E2"
+        ],
+        "partial": [
+          "E1",
+          "E3"
+        ],
+        "note": "E2: total N and three arms. E1 partial: no Prolific, pre-registration or dates. E3 partial: ad labeled 'CONVICTED CRIMINAL' (no mugshot) and counter-narrative about a formerly system-involved state representative (no news excerpt)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "wrong direction",
+            "gold": "F3",
+            "text": "Says the ad 'increases perceived self-interest motives of elected officials'. The paper finds the ad increased belief that officials are motivated by public service over self-interest (p.11, beta = 0.130), as the entry's own quote says."
+          }
+        ],
+        "note": "Only quote is not in the paper ('(positive)' inserted). The perceptions half would be F1; the motives half is wrong."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L8",
+          "L1"
+        ],
+        "note": "First quote (p.1, field experiments needed) is in the paper, so the entry is grounded; the second (full factorial) quote is not in the paper. Credited both parts under the one-faithful-quote rule."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "partial": [
+          "T4"
+        ],
+        "note": "T1 with category salience and exemplars. 'Applies ... to predict' spillover from a prominent figure gives the 'applies' half of T4, not the extension/test."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate to p.2 (negative ads used less by poll leaders; Democrats respond more to positive ads); not a gold answer (same call as the calibration)."
+      }
+    ]
+  }
+}

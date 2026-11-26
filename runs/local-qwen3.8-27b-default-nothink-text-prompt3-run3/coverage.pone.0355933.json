@@ -1,0 +1,130 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover onto perceptions (Q1) and onto Democrats' sense of representation (Q3)."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Ad harm and counter-narrative offset; omits the improvement in representation. First quote NOT IN PAPER, second faithful."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1",
+          "E2"
+        ],
+        "note": "Survey experiment via Prolific with 2,439 self-identified Democrats in three named arms (counts not given; calibration judge credited E2 for 'roughly even' arms). E1 without the dates or pre-registration, as in the calibration note."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "note": "Both halves of E3."
+      },
+      {
+        "match": [
+          "E5"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "Least squares with heteroskedasticity-consistent SEs (E5, as in the calibration note). Outcome indices without the ad-support index (partial E4)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ]
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F5"
+        ],
+        "partial": [
+          "F3"
+        ],
+        "note": "F5: counter-narrative lowered perceived quality of Democratic representation relative to the ad alone. F3 partial: the ad raised quality of representation, but the public-service-motives increase is not stated."
+      },
+      {
+        "match": [
+          "F6"
+        ],
+        "note": "'More damaging for this group' is the paper's own wording (p.14). The main effect of system-impacted status is accurate extra detail."
+      },
+      {
+        "match": [
+          "F7"
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1",
+          "L2"
+        ],
+        "note": "Both limits stated."
+      },
+      {
+        "match": [
+          "L6"
+        ],
+        "partial": [
+          "L5"
+        ],
+        "note": "Fielded after the election, open for active campaigns (L6). Durability and voting behavior without repeated exposure (partial L5)."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "'Positions itself within' social categorization theory; no stance word, so no T4."
+      },
+      {
+        "match": [
+          "T2"
+        ]
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Also gives the [6] finding that Democrats respond more to positive ads; accurate."
+      }
+    ]
+  }
+}

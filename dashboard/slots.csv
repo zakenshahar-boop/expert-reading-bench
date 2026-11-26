@@ -41,3 +41,45 @@ opus.key_findings,opus,Claude Opus 5.5,key_findings,Key findings,75.0,114.0
 opus.scope_and_limits,opus,Claude Opus 5.5,scope_and_limits,Scope and limits,107.5,120.0
 opus.theoretical_positioning,opus,Claude Opus 5.5,theoretical_positioning,Theory,43.5,63.0
 opus.interlocutor_claim,opus,Claude Opus 5.5,interlocutor_claim,Interlocutors,62.0,87.0
+gemma31.question,gemma31,Gemma 4 31B (local),question,Question,20.0,48.0
+gemma31.central_claim,gemma31,Gemma 4 31B (local),central_claim,Central claim,13.5,30.0
+gemma31.evidence,gemma31,Gemma 4 31B (local),evidence,Evidence,30.5,99.0
+gemma31.key_findings,gemma31,Gemma 4 31B (local),key_findings,Key findings,46.0,114.0
+gemma31.scope_and_limits,gemma31,Gemma 4 31B (local),scope_and_limits,Scope and limits,47.0,120.0
+gemma31.theoretical_positioning,gemma31,Gemma 4 31B (local),theoretical_positioning,Theory,21.0,63.0
+gemma31.interlocutor_claim,gemma31,Gemma 4 31B (local),interlocutor_claim,Interlocutors,9.0,87.0
+qwen38.question,qwen38,"Qwen3.8 27B, thinking low (local)",question,Question,23.5,48.0
+qwen38.central_claim,qwen38,"Qwen3.8 27B, thinking low (local)",central_claim,Central claim,15.5,30.0
+qwen38.evidence,qwen38,"Qwen3.8 27B, thinking low (local)",evidence,Evidence,53.0,99.0
+qwen38.key_findings,qwen38,"Qwen3.8 27B, thinking low (local)",key_findings,Key findings,56.0,114.0
+qwen38.scope_and_limits,qwen38,"Qwen3.8 27B, thinking low (local)",scope_and_limits,Scope and limits,71.5,120.0
+qwen38.theoretical_positioning,qwen38,"Qwen3.8 27B, thinking low (local)",theoretical_positioning,Theory,31.0,63.0
+qwen38.interlocutor_claim,qwen38,"Qwen3.8 27B, thinking low (local)",interlocutor_claim,Interlocutors,19.0,87.0
+qwen38off.question,qwen38off,"Qwen3.8 27B, thinking off (local)",question,Question,22.5,48.0
+qwen38off.central_claim,qwen38off,"Qwen3.8 27B, thinking off (local)",central_claim,Central claim,16.0,30.0
+qwen38off.evidence,qwen38off,"Qwen3.8 27B, thinking off (local)",evidence,Evidence,39.0,99.0
+qwen38off.key_findings,qwen38off,"Qwen3.8 27B, thinking off (local)",key_findings,Key findings,48.5,114.0
+qwen38off.scope_and_limits,qwen38off,"Qwen3.8 27B, thinking off (local)",scope_and_limits,Scope and limits,57.0,120.0
+qwen38off.theoretical_positioning,qwen38off,"Qwen3.8 27B, thinking off (local)",theoretical_positioning,Theory,21.5,63.0
+qwen38off.interlocutor_claim,qwen38off,"Qwen3.8 27B, thinking off (local)",interlocutor_claim,Interlocutors,15.0,87.0
+muse.question,muse,Muse Glimmer 30B (local),question,Question,21.0,48.0
+muse.central_claim,muse,Muse Glimmer 30B (local),central_claim,Central claim,14.5,30.0
+muse.evidence,muse,Muse Glimmer 30B (local),evidence,Evidence,26.0,99.0
+muse.key_findings,muse,Muse Glimmer 30B (local),key_findings,Key findings,42.5,114.0
+muse.scope_and_limits,muse,Muse Glimmer 30B (local),scope_and_limits,Scope and limits,30.5,120.0
+muse.theoretical_positioning,muse,Muse Glimmer 30B (local),theoretical_positioning,Theory,20.5,63.0
+muse.interlocutor_claim,muse,Muse Glimmer 30B (local),interlocutor_claim,Interlocutors,9.0,87.0
+gemma26.question,gemma26,Gemma 4 26B-A4B (local),question,Question,16.0,48.0
+gemma26.central_claim,gemma26,Gemma 4 26B-A4B (local),central_claim,Central claim,12.5,30.0
+gemma26.evidence,gemma26,Gemma 4 26B-A4B (local),evidence,Evidence,24.5,99.0
+gemma26.key_findings,gemma26,Gemma 4 26B-A4B (local),key_findings,Key findings,17.5,114.0
+gemma26.scope_and_limits,gemma26,Gemma 4 26B-A4B (local),scope_and_limits,Scope and limits,32.0,120.0
+gemma26.theoretical_positioning,gemma26,Gemma 4 26B-A4B (local),theoretical_positioning,Theory,16.0,63.0
+gemma26.interlocutor_claim,gemma26,Gemma 4 26B-A4B (local),interlocutor_claim,Interlocutors,7.0,87.0
+qwen36.question,qwen36,Qwen3.6 35B-A3B (local),question,Question,21.5,48.0
+qwen36.central_claim,qwen36,Qwen3.6 35B-A3B (local),central_claim,Central claim,13.5,30.0
+qwen36.evidence,qwen36,Qwen3.6 35B-A3B (local),evidence,Evidence,27.5,99.0
+qwen36.key_findings,qwen36,Qwen3.6 35B-A3B (local),key_findings,Key findings,42.0,114.0
+qwen36.scope_and_limits,qwen36,Qwen3.6 35B-A3B (local),scope_and_limits,Scope and limits,38.5,120.0
+qwen36.theoretical_positioning,qwen36,Qwen3.6 35B-A3B (local),theoretical_positioning,Theory,23.0,63.0
+qwen36.interlocutor_claim,qwen36,Qwen3.6 35B-A3B (local),interlocutor_claim,Interlocutors,9.0,87.0

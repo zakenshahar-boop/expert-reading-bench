@@ -1,0 +1,125 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1",
+          "Q2"
+        ],
+        "note": "Role of substance use (Q3); 'other individual characteristics' without depression or AI identity (Q1 partial, calibration). 'Challenging the assumption that risky behaviors drive social ties as they do in diverse settings' frames the generalization question as a challenge: Q2 partial (same call as the text-prompt3 note)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Structural and demographic drivers, substance use not consistently associated (C1); contrast with heterogeneous schools (C2). The depression and AI identity nulls are F4, a finding. 'Driven by' follows the abstract's 'primary drivers'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Cross-sectional survey of 9th/10th graders in three Northern Plains reservation schools (E1). N = 247 without naming the stage (E2 part); ERGMs with structural and actor terms, no per-school estimation or AMEs (E3 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note says sexual orientation homophily, with gender and grade, was significant across all schools; the paper says gender and grade homophily held 'across all schools' and sexual orientation homophily was 'also significant and positive' (p.13), and Table 3 shows it only marginal or non-significant for one category in Schools B and C."
+          }
+        ],
+        "note": "'Primary axis' is the paper's wording for gender and grade; the 'across all schools' extension to sexual orientation is flagged mild."
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No consistent or robust association (F1, exceptions not named). 'Contradicting the well-documented link' follows p.16 ('well-documented') and p.13 ('diverges notably')."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "First quote NOT IN PAPER, second quote faithful, so grounded."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F5",
+          "F1"
+        ],
+        "note": "Only quote marked NOT IN PAPER. Would have been F5 partial and F1 partial.",
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x3",
+            "text": "The note says the tribal schools (A and B) 'showed' / 'exhibit' / 'reflect' egalitarian norms; no norm was measured. The paper finds only that indegree was not centralized there and says this 'may reflect the stronger operation of egalitarian norms' (p.14, p.15). An interpretation reported as a result."
+          }
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1",
+          "L3"
+        ],
+        "note": "Both quotes marked NOT IN PAPER. Would have been L1 and L3 (selection versus influence).",
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L1",
+            "text": "The note says the findings 'cannot be generalized' to AI youth in racially heterogeneous schools or other reservations; the paper says they 'may not extend' to AI youth in racially heterogeneous schools (p.16) and that they represent only three schools on one reservation."
+          }
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "SNA and ERGMs named without the endogenous/actor-attribute structure (vague T1); applying it to an AI-majority context to challenge assumptions is the testing half of T3. 'Challenge universal assumptions about adolescent network formation' is broad (the paper replicates the structural patterns) but reads as challenging the assumption of universality; not flagged. 'Extending' not flagged (calibration)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "First quote NOT IN PAPER, second (p.14) faithful, so grounded. Same call as I1 elsewhere: source given as prior heterogeneous-school research; not flagged."
+      }
+    ]
+  }
+}

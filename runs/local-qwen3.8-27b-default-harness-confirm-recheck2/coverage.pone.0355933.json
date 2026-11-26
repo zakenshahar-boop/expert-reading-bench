@@ -1,0 +1,90 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Spillover of the label/advertisement onto perceptions of people with records (Q1) and the effect on perceived representation (Q3); wording follows the paper's own question (p.4)."
+      },
+      {
+        "match": [
+          "Q2"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Counter-narrative part of C1. 'Substantially mitigated' matches the abstract's 'vastly ameliorated'; the quote gives the order (preceded by)."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E4"
+        ],
+        "note": "Lists all six outcomes and that they are indices/Likert items; the item counts (five-item, two-item) are detail. Borderline match vs partial."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Both the representation and the public-service-motives increases, as the calibration judge credited. 'Suggesting a comparative benchmarking effect' is the author's hedged interpretation reported as a suggestion."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L6"
+        ]
+      },
+      {
+        "match": [
+          "L5"
+        ],
+        "note": "Durability, repeated exposure and behavior; the quote is the lead-in sentence but the claim states all three parts (p.17)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "AI-generated responses as a concern for online panels, with the paper's own mitigation (Prolific's low rates)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T4"
+        ]
+      },
+      {
+        "match": [
+          "T5"
+        ],
+        "note": "Reported as a suggestion ('suggesting ... may'), as the calibration judge credited."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

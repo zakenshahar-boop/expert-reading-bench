@@ -1,0 +1,453 @@
+{
+  "pone.0342063": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 3,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 12,
+      "causal word not in quote": 0,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "may",
+          "claim": "The sample was limited to White and Black participants recruited via an online platform, limiting generalizability."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 13,
+      "abstract": 4,
+      "introduction": 1,
+      "background": 0,
+      "methods": 0,
+      "results": 1,
+      "discussion": 7,
+      "other": 0,
+      "unknown": 0,
+      "first third": 5,
+      "middle third": 1,
+      "last third": 7
+    },
+    "overlap with gold quotes": {
+      "gold answers": 32,
+      "overlapped, same slot": 4,
+      "overlapped, any slot": 6,
+      "core findings": 3,
+      "core findings overlapped": 0,
+      "missed": [
+        "Q1",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "L1",
+        "L5",
+        "L6",
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "I1",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0347327": {
+    "numbers in claims": {
+      "numbers": 2,
+      "in own quotes": 1,
+      "elsewhere in paper": 1,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "question",
+          "number": 19.0,
+          "where": "elsewhere in paper",
+          "claim": "The paper investigates how partisan polarization manifested in online discourse regarding COVID-19 public health measures across different regions and topics in the US and Canada."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 13,
+      "causal word not in quote": 0,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "suggesting",
+          "claim": "In the United States, higher vaccine-related polarization in online discourse was strongly associated with lower regional vaccination rates."
+        },
+        {
+          "slot": "scope_and_limits",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "The authors do not establish causality between online polarization and offline health behaviors."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 0,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 14,
+      "abstract": 6,
+      "introduction": 0,
+      "background": 0,
+      "methods": 3,
+      "results": 1,
+      "discussion": 4,
+      "other": 0,
+      "unknown": 0,
+      "first third": 8,
+      "middle third": 2,
+      "last third": 4
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 7,
+      "overlapped, any slot": 8,
+      "core findings": 2,
+      "core findings overlapped": 0,
+      "missed": [
+        "Q2",
+        "Q3",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L8",
+        "L9",
+        "T0",
+        "T1",
+        "T2",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I6",
+        "I7"
+      ]
+    }
+  },
+  "pone.0355933": {
+    "numbers in claims": {
+      "numbers": 0,
+      "in own quotes": 0,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 6,
+      "causal word not in quote": 1,
+      "hedge dropped": 1,
+      "items": [
+        {
+          "slot": "question",
+          "kind": "causal",
+          "word": "impacts",
+          "claim": "Does using stigmatizing labels like \"convicted criminal\" in political advertisements have significant, negative impacts on Democrats' perceptions of individuals with records and several dimensions of perceived representation?"
+        },
+        {
+          "slot": "central_claim",
+          "kind": "hedge",
+          "word": "suggest",
+          "claim": "Exposure to political advertisements using stigmatizing labels for high-profile figures reduces positive perceptions of people with criminal records among Democrats, but providing a counter-narrative through perspective-getting can mitigate these negative effects."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 0,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 7,
+      "abstract": 4,
+      "introduction": 0,
+      "background": 0,
+      "methods": 0,
+      "results": 0,
+      "discussion": 2,
+      "other": 0,
+      "unknown": 1,
+      "first third": 4,
+      "middle third": 1,
+      "last third": 2
+    },
+    "overlap with gold quotes": {
+      "gold answers": 45,
+      "overlapped, same slot": 4,
+      "overlapped, any slot": 4,
+      "core findings": 3,
+      "core findings overlapped": 0,
+      "missed": [
+        "Q2",
+        "Q3",
+        "Q4",
+        "C2",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    }
+  },
+  "pone.0360061": {
+    "numbers in claims": {
+      "numbers": 3,
+      "in own quotes": 1,
+      "elsewhere in paper": 2,
+      "nowhere": 0,
+      "items": [
+        {
+          "slot": "evidence",
+          "number": 2019.0,
+          "where": "elsewhere in paper",
+          "claim": "The dataset consists of 2,567 panelists whose X handles were linked to survey responses, spanning multiple waves from 2019 to 2021."
+        },
+        {
+          "slot": "evidence",
+          "number": 2021.0,
+          "where": "elsewhere in paper",
+          "claim": "The dataset consists of 2,567 panelists whose X handles were linked to survey responses, spanning multiple waves from 2019 to 2021."
+        }
+      ]
+    },
+    "strength of claim": {
+      "entries with quotes": 12,
+      "causal word not in quote": 0,
+      "hedge dropped": 2,
+      "items": [
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "suggests",
+          "claim": "The relationship between engagement and hostility is stronger for users experiencing high levels of affective polarization."
+        },
+        {
+          "slot": "key_findings",
+          "kind": "hedge",
+          "word": "to a lesser extent",
+          "claim": "Hostile social media users tend to have higher levels of activity and reach, including more followers and posts."
+        }
+      ]
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 13,
+      "abstract": 1,
+      "introduction": 3,
+      "background": 0,
+      "methods": 2,
+      "results": 3,
+      "discussion": 4,
+      "other": 0,
+      "unknown": 0,
+      "first third": 4,
+      "middle third": 2,
+      "last third": 7
+    },
+    "overlap with gold quotes": {
+      "gold answers": 37,
+      "overlapped, same slot": 9,
+      "overlapped, any slot": 9,
+      "core findings": 3,
+      "core findings overlapped": 2,
+      "missed": [
+        "Q1",
+        "Q2",
+        "C2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "L2",
+        "L3",
+        "L4",
+        "L6",
+        "L7",
+        "L8",
+        "T1",
+        "T2",
+        "T4",
+        "T5",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6"
+      ]
+    }
+  },
+  "pone.0362373": {
+    "numbers in claims": {
+      "numbers": 0,
+      "in own quotes": 0,
+      "elsewhere in paper": 0,
+      "nowhere": 0,
+      "items": []
+    },
+    "strength of claim": {
+      "entries with quotes": 9,
+      "causal word not in quote": 0,
+      "hedge dropped": 0,
+      "items": []
+    },
+    "attribution (interlocutor slot)": {
+      "entries": 1,
+      "name authors": 0,
+      "all named authors cited at the quote": 0,
+      "some": 0,
+      "none": 0,
+      "items": []
+    },
+    "where quotes come from": {
+      "faithful quotes": 9,
+      "abstract": 2,
+      "introduction": 1,
+      "background": 0,
+      "methods": 0,
+      "results": 4,
+      "discussion": 2,
+      "other": 0,
+      "unknown": 0,
+      "first third": 3,
+      "middle third": 0,
+      "last third": 6
+    },
+    "overlap with gold quotes": {
+      "gold answers": 36,
+      "overlapped, same slot": 5,
+      "overlapped, any slot": 5,
+      "core findings": 3,
+      "core findings overlapped": 1,
+      "missed": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "F2",
+        "F3",
+        "F5",
+        "F7",
+        "F8",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "T1",
+        "T2",
+        "I1",
+        "I2",
+        "I3",
+        "I5",
+        "I6"
+      ]
+    }
+  }
+}

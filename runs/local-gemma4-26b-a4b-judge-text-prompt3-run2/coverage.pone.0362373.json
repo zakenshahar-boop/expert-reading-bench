@@ -1,0 +1,74 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q3"
+        ],
+        "partial": [
+          "Q1"
+        ],
+        "note": "Substance use (Q3) and 'other individual characteristics' (Q1 part). The clause about prior research in heterogeneous settings is motivation, not the Q2 question of whether those patterns hold; not credited, as the earlier judge did for a like entry."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Structural and demographic organization rather than substance use, depression or AI identity: follows the abstract's 'rather than risky behaviors'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E7"
+        ],
+        "note": "E1 as credited by the earlier judge; N = 247 without naming the stage (E2 part); 'three different types of schools' without saying which (E7 part)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Quote marked NOT IN PAPER (adds 'degree effects' to the abstract sentence)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Three schools on one reservation, may not extend to AI youth in heterogeneous settings."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3",
+          "T1"
+        ],
+        "note": "Testing half of T3 (moving beyond generalizations from heterogeneous settings). 'Adolescent network research' is a vague T1, like the earlier judge's partial for 'social network analysis tradition'."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I2"
+        ],
+        "note": "Rees, Freng and Winfree's finding and that the paper builds on it, without the paper's remark that the analysis was descriptive."
+      }
+    ]
+  }
+}

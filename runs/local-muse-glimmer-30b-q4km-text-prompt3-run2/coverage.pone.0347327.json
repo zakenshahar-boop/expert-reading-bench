@@ -1,0 +1,100 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ],
+        "note": "Regional and temporal variation in both countries."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "note": "Abstract wording, credited per C1's decision. 'Polarization correlates with public health outcomes' is too vague (no vaccination, direction or country) for misplaced F2; not flagged, since the conclusion says the U.S. showed correlations with public health outcomes (p.25). No B1 catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Large corpus from late 2020 without dates or split (E1 partial); text-embedding index conditioned on region, time and topic, without C-index or left/right separation (E2 partial). Geolocation and party classification named without method."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "U.S. half of F2."
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "note": "Spikes last a few days and coincide with political events."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F6"
+        ],
+        "note": "Exceptions stated generically, no states named."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Canada half of F2 in the abstract's 'notably weaker' wording, which the F2 note accepts as true to the paper. With entry 0 gives all of F2. No B2 catch."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Quote is p.3 (show_note labels it p.1). Conservative regions higher on masks and vaccines; no lockdown exception and no Canadian non-significance. Applying 'masks and vaccines' to provinces goes slightly beyond p.14 (U.S.), but p.3 says both countries on 'these topics'; not flagged."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2",
+          "L6"
+        ],
+        "note": "Engaged Twitter users (L2); 'limits to ... causality' read as causality not established (L6), lenient on wording. Generalizability point folded into L2."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "One quote marked NOT IN PAPER, the other in the paper, so credited. T1; 'extend them' refers to the method, not T3. No T0."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "neutral": true,
+        "note": "Background on Democratic adherence to distancing, masks and vaccines (p.2): the neutral I-n1."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Prior research: online pandemic discussion showed regional patterns of partisan animosity (refs 9, 25-27, p.2). Accurately attributed; background, not in the gold."
+      }
+    ]
+  }
+}

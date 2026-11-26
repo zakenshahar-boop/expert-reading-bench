@@ -1,0 +1,313 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F5"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "partial": [
+          "Q2"
+        ],
+        "note": "Names substance use, depression, AI identity and demographics (Q1, Q3 as in the opus-5-5 text-prompt3-run3 call). 'Challenging assumptions derived from racially heterogeneous settings' gestures at the generalization question (Q2) but frames it as a challenge, not a question: partial. 'Shape' not flagged (calibration)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "I6",
+          "C3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "I6",
+            "text": "The note says prevailing network-based prevention programs are 'likely ineffective' for AI youth; the paper says the null 'may also mean that common network intervention strategies aimed at reducing substance use may not be as effective as previously thought' (p.16)."
+          }
+        ],
+        "note": "Not a question. The presumption that ties are founded on substance use/risky behavior, disputed for these schools, is I6; the challenge to prevention programs is C3."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "C3",
+            "text": "The note says the paper argues theories and interventions 'should shift' to strengths-based connections; the paper says insight into alternative predictors is crucial for strategies that 'may center on strengths-based connections rather than social ties rooted in risky behavior' (p.16)."
+          }
+        ],
+        "note": "Not a question; the call for culturally grounded interventions is part of C3."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Gap statement accurate to p.1-2 ('remain poorly understood'). The setting contrast alone is not credited as Q2 (calibration)."
+      },
+      {
+        "match": [],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Not a question; challenge to the assumptions of network-based prevention programs and the need for culturally grounded approaches is C3. Repeats the id."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "note": "Structural and demographic organization rather than substance use (C1, abstract wording); divergence from racially heterogeneous schools is C2 (as in earlier calls). Calling depression a 'risky behavior' is loose wording; the depression null is true, not separately credited here."
+      },
+      {
+        "match": [
+          "C1",
+          "C2"
+        ],
+        "misplaced": [
+          "F4"
+        ],
+        "note": "Same substance as entry 0 plus depression and AI identity (F4, a finding). 'Contradicts findings from studies of other adolescent populations' is attached to the whole list; for AI identity the paper says its role in friendship 'has not been examined' (p.4), so the contrast fits substance use and depression only. Read as a loose summary, not flagged."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Data source (E1; 'cross-sectional' absent but earlier calls credit E1 without it). N = 247 from the abstract without naming the stage (E2 part); ERGMs with structural and actor terms, no per-school estimation or AMEs (E3 part)."
+      },
+      {
+        "match": [
+          "E7"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E6"
+        ],
+        "flags": [
+          {
+            "type": "unsupported detail",
+            "gold": "E6",
+            "text": "The note says peer perceptions were used for '6.5% to 8.5% of participants'; the paper gives 6.5% (alcohol), 5.7% (tobacco) and 8.5% (marijuana) (p.6), so the range is 5.7% to 8.5%."
+          }
+        ],
+        "note": "Peer-perception imputation; the sensitivity analysis excluding imputed cases is not mentioned."
+      },
+      {
+        "match": [
+          "E4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "CES-D part of E5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E5"
+        ],
+        "note": "MEIM AI identity part of E5. Not joined: no entry gives the yes/no substance use measures."
+      },
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Repeats entry 0; quote adds 'cross-sectional'."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "No consistent sender, receiver or homophily association; exceptions not named (full match as in calibration)."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note says sexual orientation homophily, with gender and grade, was significant across all schools; the paper says gender and grade homophily held 'across all schools' and sexual orientation homophily was 'also significant and positive' (p.13), and Table 3 shows it only marginal or non-significant for one category in Schools B and C."
+          }
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5",
+          "F1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim",
+            "gold": "F-x3",
+            "text": "The note says the tribal schools (A and B) 'showed' / 'exhibit' / 'reflect' egalitarian norms; no norm was measured. The paper finds only that indegree was not centralized there and says this 'may reflect the stronger operation of egalitarian norms' (p.14, p.15). An interpretation reported as a result."
+          }
+        ],
+        "note": "Incoming ties centralized only in School C (half of F5; outgoing centralization not mentioned); the School C alcohol sender effect is an F1 exception (detail of F1)."
+      },
+      {
+        "match": [
+          "F2"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Outgoing ties centralized in every school: one half of F5."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Incoming ties centralized only in School C: the other half of F5 (joined with entry 5)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "L1",
+            "text": "The note says the findings 'cannot be generalized' to AI youth in racially heterogeneous schools or other reservations; the paper says they 'may not extend' to AI youth in racially heterogeneous schools (p.16) and that they represent only three schools on one reservation."
+          }
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional design plus selection versus influence."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Association versus cause; repeats L3."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "Developmental stages and school transitions."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L1"
+        ],
+        "note": "Heterogeneous-school part of L1, in the paper's own 'may not' wording; repeats the id."
+      },
+      {
+        "match": [],
+        "unlisted": true,
+        "note": "Accurate: the paper calls for future research on local governance (p.17). Not a gold limit (calibration)."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "partial": [
+          "L1"
+        ],
+        "note": "Cross-sectional design and selection versus influence (L3); heterogeneous-school part of L1. Only the L1 quote is given, but it is faithful, so the entry is grounded."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3",
+          "T1"
+        ],
+        "note": "Testing whether findings from heterogeneous settings generalize ('moves beyond generalizations'): the testing half of T3, without what is replicated and what is disputed. 'Social network analysis traditions' is a vague T1. 'Extends' not flagged (calibration)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "misplaced": [
+          "C3",
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "T3",
+            "text": "The note says the paper 'revises' network-based prevention assumptions; the paper says its findings 'challenge assumptions underpinning many network-based prevention programs' (p.1). Same call as the calibration note."
+          }
+        ],
+        "note": "Challenge to prevention assumptions (C3) with the abstract's structural-and-demographic summary (C1); 'challenging the universal applicability of models derived from heterogeneous settings' is the disputing half of T3."
+      },
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "SNA with ERGMs (vague T1); applying it where generalizations may not hold (testing half of T3). Repeats ids; not joined: no entry gives the replication of structural and demographic patterns in this slot."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Heterogeneous-school findings (receiver effects and homophily) that the paper disputes. The entry does not spell out that the dispute is only about AI-majority schools, but it gives the source as prior research in heterogeneous schools, not the scope of the dispute; not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "I1"
+        ],
+        "misplaced": [
+          "T2"
+        ],
+        "note": "Risky behaviors as a status basis in diverse schools (p.4) is part of I1; the cultural counter-argument (communal well-being, egalitarianism) is T2, reported as an argument, which is how the paper presents it (p.4). Close to the wrong-stance case in qwen3-4b-4bit-prompt3-sample2, but here the dispute is scoped to AI communities ('arguing instead that in AI communities'), so not flagged."
+      },
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Disputes the generalization to AI-majority schools, explicitly scoped. 'Does not hold' follows p.16."
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+model,setting,runs,gpu_to_itself,minutes_per_paper,input_tokens_per_paper,output_tokens_per_paper,calls_per_paper,wh_per_paper_at_most,dollars_per_paper_at_most,run_folders
+Gemma 4 26B-A4B,Model alone,3,True,0.25,20554,1128,1.0,1.8,0.0004,"local-gemma4-26b-a4b-judge-text-prompt3, local-gemma4-26b-a4b-judge-text-prompt3-run2, local-gemma4-26b-a4b-judge-text-prompt3-run3"
+Gemma 4 26B-A4B,Quotes confirmed,1,True,0.35,25320,1484,3.4,2.4,0.0005,local-gemma4-26b-a4b-judge-text-prompt3 + local-gemma4-26b-a4b-judge-harness-confirm
+Gemma 4 26B-A4B,"Quotes confirmed, asked for more",1,True,0.92,160343,3971,15.4,6.4,0.0013,local-gemma4-26b-a4b-judge-text-prompt3 + local-gemma4-26b-a4b-judge-harness-expand
+Gemma 4 26B-A4B,"Asked for more, key findings too",1,True,1.07,182555,4309,17.4,7.5,0.0015,local-gemma4-26b-a4b-judge-text-prompt3 + local-gemma4-26b-a4b-judge-harness-expand + local-gemma4-26b-a4b-judge-harness-expand-findings
+Gemma 4 26B-A4B,"Quotes confirmed, claims re-checked",1,True,0.4,32525,1540,19.4,2.8,0.0006,local-gemma4-26b-a4b-judge-text-prompt3 + local-gemma4-26b-a4b-judge-harness-confirm + local-gemma4-26b-a4b-judge-harness-confirm-recheck2
+Qwen3.6 35B-A3B,Model alone,3,True,0.38,20720,1973,1.0,2.6,0.0005,"local-qwen3.6-35b-a3b-q4km-text-prompt3, local-qwen3.6-35b-a3b-q4km-text-prompt3-run2, local-qwen3.6-35b-a3b-q4km-text-prompt3-run3"
+Qwen3.6 35B-A3B,Quotes confirmed,1,True,0.49,32134,2196,6.8,3.4,0.0007,local-qwen3.6-35b-a3b-q4km-text-prompt3 + local-qwen3.6-35b-a3b-q4km-harness-confirm
+Qwen3.6 35B-A3B,"Quotes confirmed, asked for more",1,True,1.16,168946,5526,18.6,8.1,0.0016,local-qwen3.6-35b-a3b-q4km-text-prompt3 + local-qwen3.6-35b-a3b-q4km-harness-expand
+Qwen3.6 35B-A3B,"Asked for more, key findings too",1,True,1.3,189695,5805,19.6,9.1,0.0018,local-qwen3.6-35b-a3b-q4km-text-prompt3 + local-qwen3.6-35b-a3b-q4km-harness-expand + local-qwen3.6-35b-a3b-q4km-harness-expand-findings
+Qwen3.6 35B-A3B,"Quotes confirmed, claims re-checked",1,True,0.56,39489,2231,21.0,3.9,0.0008,local-qwen3.6-35b-a3b-q4km-text-prompt3 + local-qwen3.6-35b-a3b-q4km-harness-confirm + local-qwen3.6-35b-a3b-q4km-harness-confirm-recheck2
+Muse Glimmer 30B,Model alone,3,True,0.88,18315,1701,1.0,6.2,0.0012,"local-muse-glimmer-30b-q4km-text-prompt3, local-muse-glimmer-30b-q4km-text-prompt3-run2, local-muse-glimmer-30b-q4km-text-prompt3-run3"
+Muse Glimmer 30B,Quotes confirmed,1,True,1.05,19053,1948,1.6,7.4,0.0015,local-muse-glimmer-30b-q4km-text-prompt3 + local-muse-glimmer-30b-q4km-harness-confirm
+Muse Glimmer 30B,"Quotes confirmed, asked for more",1,True,4.16,131757,8487,9.2,29.1,0.0058,local-muse-glimmer-30b-q4km-text-prompt3 + local-muse-glimmer-30b-q4km-harness-expand
+Muse Glimmer 30B,"Asked for more, key findings too",1,True,4.72,150472,9462,10.4,33.0,0.0066,local-muse-glimmer-30b-q4km-text-prompt3 + local-muse-glimmer-30b-q4km-harness-expand + local-muse-glimmer-30b-q4km-harness-expand-findings
+Muse Glimmer 30B,"Quotes confirmed, claims re-checked",1,True,1.83,25512,3810,14.6,12.8,0.0026,local-muse-glimmer-30b-q4km-text-prompt3 + local-muse-glimmer-30b-q4km-harness-confirm + local-muse-glimmer-30b-q4km-harness-confirm-recheck2
+Gemma 4 31B,Model alone,3,True,3.31,20557,3933,1.0,23.2,0.0046,"local-gemma4-31b-qat-q4_0-text-prompt3, local-gemma4-31b-qat-q4_0-text-prompt3-run2, local-gemma4-31b-qat-q4_0-text-prompt3-run3"
+Gemma 4 31B,Quotes confirmed,1,True,2.78,20557,3249,1.0,19.4,0.0039,local-gemma4-31b-qat-q4_0-text-prompt3 + local-gemma4-31b-qat-q4_0-harness-confirm
+Gemma 4 31B,"Quotes confirmed, asked for more",1,True,14.97,145133,18609,7.8,104.8,0.021,local-gemma4-31b-qat-q4_0-text-prompt3 + local-gemma4-31b-qat-q4_0-harness-expand
+Gemma 4 31B,"Asked for more, key findings too",1,True,17.48,166654,21646,9.4,122.3,0.0245,local-gemma4-31b-qat-q4_0-text-prompt3 + local-gemma4-31b-qat-q4_0-harness-expand + local-gemma4-31b-qat-q4_0-harness-expand-findings
+Gemma 4 31B,"Quotes confirmed, claims re-checked",1,True,5.42,28470,8955,20.0,38.0,0.0076,local-gemma4-31b-qat-q4_0-text-prompt3 + local-gemma4-31b-qat-q4_0-harness-confirm + local-gemma4-31b-qat-q4_0-harness-confirm-recheck2
+"Qwen3.8 27B, thinking on",Model alone,3,False,,20748,7758,1.0,,,"local-qwen3.8-27b-default-text-prompt3, local-qwen3.8-27b-default-text-prompt3-run2, local-qwen3.8-27b-default-text-prompt3-run3"
+"Qwen3.8 27B, thinking on",Quotes confirmed,1,False,,21035,8430,1.2,,,local-qwen3.8-27b-default-text-prompt3 + local-qwen3.8-27b-default-harness-confirm
+"Qwen3.8 27B, thinking on","Quotes confirmed, asked for more",1,False,,147317,26261,8.2,,,local-qwen3.8-27b-default-text-prompt3 + local-qwen3.8-27b-default-harness-expand
+"Qwen3.8 27B, thinking on","Asked for more, key findings too",1,False,,168585,28804,9.4,,,local-qwen3.8-27b-default-text-prompt3 + local-qwen3.8-27b-default-harness-expand + local-qwen3.8-27b-default-harness-expand-findings
+"Qwen3.8 27B, thinking on","Quotes confirmed, claims re-checked",1,False,,34780,15893,24.8,,,local-qwen3.8-27b-default-text-prompt3 + local-qwen3.8-27b-default-harness-confirm + local-qwen3.8-27b-default-harness-confirm-recheck2
+"Qwen3.8 27B, thinking off",Model alone,3,False,,20720,2225,1.0,,,"local-qwen3.8-27b-default-nothink-text-prompt3, local-qwen3.8-27b-default-nothink-text-prompt3-run2, local-qwen3.8-27b-default-nothink-text-prompt3-run3"
+"Qwen3.8 27B, thinking off",Quotes confirmed,1,False,,26457,2503,4.0,,,local-qwen3.8-27b-default-nothink-text-prompt3 + local-qwen3.8-27b-default-nothink-harness-confirm
+"Qwen3.8 27B, thinking off","Quotes confirmed, asked for more",1,False,,154942,4954,12.0,,,local-qwen3.8-27b-default-nothink-text-prompt3 + local-qwen3.8-27b-default-nothink-harness-expand
+"Qwen3.8 27B, thinking off","Asked for more, key findings too",1,False,,176780,5379,13.4,,,local-qwen3.8-27b-default-nothink-text-prompt3 + local-qwen3.8-27b-default-nothink-harness-expand + local-qwen3.8-27b-default-nothink-harness-expand-findings
+"Qwen3.8 27B, thinking off","Quotes confirmed, claims re-checked",1,False,,38179,2568,26.2,,,local-qwen3.8-27b-default-nothink-text-prompt3 + local-qwen3.8-27b-default-nothink-harness-confirm + local-qwen3.8-27b-default-nothink-harness-confirm-recheck2

@@ -1,0 +1,114 @@
+{
+  "paper_id": "pone.0347327",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Geographic and temporal variation (Q1) and the correlates: voting, vaccination, conspiracy (Q3). Methods aim (Q2) not stated."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "F2"
+        ],
+        "note": "C1 without 'significantly' (follows p.13/p.25); plus the vaccination correlation, notably weaker in Canada (F2), placed here. No catch."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E5"
+        ],
+        "note": "About 59 million tweets (12.5M + 46.6M) Oct 2020 to Jan 2021 in both countries: E1, split by country treated as detail. Four topics named but no hashtags/classifiers (E5 partial). Uncertain: E1 given in full without the per-country split."
+      },
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E4"
+        ],
+        "note": "Two-step profile then activity classifier, validated against election results and voter records (E3). 'Geolocated' with the 'provided location information' quote but the claim does not say profile field (E4 partial). Two of three quotes NOT IN PAPER; the first is in the paper."
+      },
+      {
+        "match": [],
+        "partial": [
+          "E2"
+        ],
+        "note": "RoBERTa embeddings and the C-index, but 'semantic distance between user embeddings' does not say it is the separation between left- and right-leaning users. Uncertain partial."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "First quote NOT IN PAPER, Alberta quote in the paper. Conservative regions higher, masks and vaccines vs lockdowns; Canadian non-significance not stated ('in both countries' follows the abstract and p.13)."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "US half of F2; 'associated with' keeps the correlational wording. Canada half not stated in this slot."
+      },
+      {
+        "match": [
+          "F3"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F4"
+        ],
+        "note": "US small negative correlation and Canada none; conservatives' higher conspiracy-posting rate not stated."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L6",
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L7",
+          "L5"
+        ],
+        "note": "English-only (Quebec) and the 2020 tweets vs 2021 vaccination mismatch (suggestive, not causal)."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Text-embedding approaches, set against network-based ones. No T0. 'Extends' refers to the methods literature, not a stance on findings; not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [],
+        "partial": [
+          "I7"
+        ],
+        "note": "The topic-conditioning premise (p.4): dissimilar language alone does not indicate polarization. That is the consequence of I7's prior-work claim (each group has its own lexicon, [40]), which the entry does not state. 'Disputes the assumption' names no one, but the paper itself rejects that view, so not flagged (same as the calibration 'notion' call). Uncertain."
+      }
+    ]
+  }
+}

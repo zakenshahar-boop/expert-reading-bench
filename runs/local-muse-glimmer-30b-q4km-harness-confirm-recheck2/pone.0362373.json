@@ -1,0 +1,235 @@
+{
+  "paper_id": "pone.0362373",
+  "model": "muse-glimmer-30b-q4km",
+  "track": "text",
+  "prompt_version": 3,
+  "provider": "http",
+  "harness": [
+    "notes from local-muse-glimmer-30b-q4km-harness-confirm (complete)",
+    "quotes confirmed",
+    "claims re-checked (version 2)"
+  ],
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "chat_template_kwargs": {
+      "reasoning_strength": "low"
+    },
+    "seed": 1
+  },
+  "short_tokens": 4000,
+  "long_tokens": 8000,
+  "model_calls": 11,
+  "input_tokens": 5565,
+  "output_tokens": 1875,
+  "seconds": 46.6,
+  "summary": {
+    "quotes found": 12,
+    "pages corrected": 0,
+    "repairs that worked": 0,
+    "repair attempts": 0,
+    "claims dropped, no quote": 0,
+    "claims dropped at re-check": 4,
+    "claims rewritten at re-check": 1,
+    "entries completed": 0,
+    "completions rejected": 0,
+    "claims added": 0
+  },
+  "raw": "{\"slots\": {\"question\": [{\"claim\": \"The paper asks how substance use and individual characteristics shape friendship network formation within AI-majority reservation schools, a gap in existing research.\", \"quotes\": [{\"text\": \"the role of substance use and other individual characteristics in friendship network formation within AI-majority reservation schools remains understudied.\", \"page\": 1}]}], \"central_claim\": [{\"claim\": \"Peer ties in AI-majority reservation schools are organized by structural and demographic commonalities rather than by risky behaviors, challenging assumptions used in network-based prevention.\", \"quotes\": [{\"text\": \"These findings reveal a distinct relational ecology within AI-majority reservation schools, where peer ties are organized around structural and demographic commonalities rather than risky behaviors.\", \"page\": 1}, {\"text\": \"These findings challenge assumptions underpinning many network-based prevention programs and underscore the critical need for theories and interventions that are culturally and contextually grounded in the lived experiences of AI youth.\", \"page\": 1}]}], \"evidence\": [{\"claim\": \"The study uses social network data from 9th and 10th graders in three Northern Plains reservation schools analyzed with ERGMs.\", \"quotes\": [{\"text\": \"Using social network data from 9th and 10th-grade students (N = 247) across three schools on a Northern Plains reservation, we employed exponential random graph models (ERGMs) to analyze factors shaping friendship ties.\", \"page\": 1}]}], \"key_findings\": [{\"claim\": \"Reciprocity and transitivity are strong universal structural drivers of friendship in all three schools.\", \"quotes\": [{\"text\": \"Reciprocity was positive and highly significant in every model, indicating a robust tendency for mutual friendship nominations.\", \"page\": 13}]}, {\"claim\": \"Substance use shows no consistent sender, receiver, or homophily association with friendship formation.\", \"quotes\": [{\"text\": \"Substance use demonstrated no consistent or robust association with friendship dynamics in this sample.\", \"page\": 13}]}, {\"claim\": \"Gender and grade homophily are primary axes of friendship formation across schools.\", \"quotes\": [{\"text\": \"Strong and significant homophily was present for gender and grade across all schools, indicating that shared gender identity and grade level are primary axes of friendship formation.\", \"page\": 13}]}], \"scope_and_limits\": \"not stated\", \"theoretical_positioning\": \"not stated\", \"interlocutor_claim\": \"not stated\"}}",
+  "trace": [
+    {
+      "step": "confirm",
+      "slot": "question",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "central_claim",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "evidence",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "key_findings",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "scope_and_limits",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "theoretical_positioning",
+      "result": "found"
+    },
+    {
+      "step": "confirm",
+      "slot": "interlocutor_claim",
+      "result": "found"
+    },
+    {
+      "step": "recheck2",
+      "slot": "question",
+      "claim": "The paper asks how substance use and individual characteristics shape friendship network formation within AI-majority reservation schools, a gap in existing research.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "central_claim",
+      "claim": "Peer ties in AI-majority reservation schools are organized by structural and demographic commonalities rather than by risky behaviors, challenging assumptions used in network-based prevention.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "evidence",
+      "claim": "The study uses social network data from 9th and 10th graders in three Northern Plains reservation schools analyzed with ERGMs.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Reciprocity and transitivity are strong universal structural drivers of friendship in all three schools.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Substance use shows no consistent sender, receiver, or homophily effects on friendship formation.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ],
+        [
+          "causal wording",
+          "effects on"
+        ]
+      ],
+      "verdict": "rewritten",
+      "new_claim": "Substance use shows no consistent sender, receiver, or homophily association with friendship formation."
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Gender and grade homophily are primary axes of friendship formation across schools.",
+      "asked": [
+        [
+          "support",
+          "yes"
+        ]
+      ],
+      "verdict": "kept",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "key_findings",
+      "claim": "Depression and AI identity are substantively unrelated to friendship sending, receiving, or homophily.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "scope_and_limits",
+      "claim": "The authors note the sample is limited to three schools on one reservation and is cross-sectional, so findings may not generalize.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "theoretical_positioning",
+      "claim": "The authors position the work as moving beyond generalizations from heterogeneous-school network literature to provide culturally grounded insights for AI adolescent social worlds.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    },
+    {
+      "step": "recheck2",
+      "slot": "interlocutor_claim",
+      "claim": "Rees, Freng, and Winfree claim AI adolescents have fewer reciprocated friendships than White peers in heterogeneous school contexts, a descriptive finding the paper disputes in AI-majority settings.",
+      "asked": [
+        [
+          "support",
+          "no"
+        ]
+      ],
+      "verdict": "dropped",
+      "new_claim": null
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "paper_id": "pone.0355933",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1",
+          "Q3"
+        ],
+        "note": "Effects of the labeling ad on Democrats' perceptions of people with records (Q1) and on dimensions of perceived representation (Q3). The question's 'negative impacts' wording is the abstract's, phrased as a question; not flagged."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "Says 'political advertisements using stigmatizing labels for high-profile figures' reduce perceptions. The paper tested one advertisement (Trump's mugshot labeled 'CONVICTED CRIMINAL') and says replication in other contexts is unclear (p.17)."
+          }
+        ],
+        "note": "Gives the ad's harm to perceptions and the counter-narrative's mitigation; omits that the ad improved feelings of representation."
+      }
+    ],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [
+          "F4"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F4",
+            "text": "Says the counter-narrative decreased support for 'the use of stigmatizing political advertisements'. The outcome was support for this one Trump advertisement, relative to the ad alone (p.11)."
+          }
+        ]
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "partial": [
+          "L4"
+        ],
+        "note": "Social desirability / Hawthorne concern is part of L4; omits that the manipulation check eases but does not rule it out. 'Single time-point survey design' is given without its consequence, so no L5 credit."
+      },
+      {
+        "match": [],
+        "partial": [
+          "L5"
+        ],
+        "note": "Durability ('longer periods') is part of L5; 'different electoral contexts' is vaguer than L6 (fielded after the election) and earns nothing."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1"
+        ],
+        "note": "Social categorization theory explaining spillover of labels; no stance stated."
+      }
+    ],
+    "interlocutor_claim": []
+  }
+}

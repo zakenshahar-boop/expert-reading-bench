@@ -1,0 +1,83 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 (conservatives in liberal climates less hesitant); the liberals-regardless part is not stated. 'Moderates' is the paper's own framing, not flagged."
+      }
+    ],
+    "evidence": [],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Interaction significant for vaccine (and booster) hesitancy, without its shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberal half of F2; the steeper rise for conservatives in conservative climates is not stated in this slot."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster-uptake interaction exists, without its shape."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Liberals' uptake independent of climate and conservatives' tied to it, without the direction (conservatives in liberal climates more likely boosted). Not joined with [2]: the direction is missing from both."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L2"
+        ]
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1"
+        ],
+        "note": "Names only the political-climate literature (p.2), not the orientation literature or the extension. 'Can influence' is the paper's own wording, not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Prior work studied orientation and climate separately, little on their interaction (p.2); the build-on stance is implied by the gap."
+      }
+    ]
+  }
+}

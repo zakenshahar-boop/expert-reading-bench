@@ -1,0 +1,98 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half of C1 for both hesitancy and boosters; that liberals are low in hesitancy or likely boosted regardless of climate is not stated. 'Moderates' is the paper's own framing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey, US, March to April 2023 (E1) without the nonprobability convenience sample or Qualtrics Panels; final N = 683 (E2) without the 1,777 collected and 970 screened out."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "partial": [
+          "F1"
+        ],
+        "note": "Hesitancy half of F1 (positive main associations with vaccine and booster hesitancy, p.7); the vaccination and boosting half is not stated here."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Conservative half of the hesitancy interaction; the liberal half is in another entry."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Booster-status interaction is significant (p.10), without its shape or direction."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberal half of the hesitancy interaction (low regardless of climate, p.10)."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Unmeasured regional factors such as population density may be associated with the findings: the consequence of the zip-code proxy (p.10)."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T2"
+        ],
+        "note": "Extends prior work by testing the interaction; does not say the prior literatures each studied orientation or climate, so no T1 (the quote does, the claim does not)."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Builds on the conservatism-hesitancy and uptake association; quote p.10 cites refs 6, 7, 10, 19."
+      }
+    ]
+  }
+}

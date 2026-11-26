@@ -1,0 +1,156 @@
+[
+  {
+    "name": "gemma4-26b-a4b-judge",
+    "label": "Gemma 4 26B-A4B it, QAT UD-Q4_K_XL (thinking off)",
+    "model": "Google Gemma 4 26B-A4B it (mixture of experts, ~4B active), QAT",
+    "source": {
+      "repo": "Unsloth's GGUF of the QAT model (repo id not recorded)"
+    },
+    "file": "gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf",
+    "size_gb": 14.25,
+    "sha256": "dcf179a91153e3a7ece792e48ef872180d9d6ef9b7677f0a0bd3e83cfe624d5e",
+    "format": "GGUF",
+    "quant": "Unsloth Dynamic UD-Q4_K_XL",
+    "speculative_decoding": null,
+    "engine": "llamacpp",
+    "served_context": 65536,
+    "request": {
+      "model": "gemma4-26b-a4b-judge",
+      "max_tokens": 16000,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "seed": "the run number (1)"
+    },
+    "gpu_to_itself": true
+  },
+  {
+    "name": "qwen3.6-35b-a3b-q4km",
+    "label": "Qwen3.6-35B-A3B UD-Q4_K_M (thinking off)",
+    "model": "Qwen3.6-35B-A3B (mixture of experts, ~3B active)",
+    "source": {
+      "repo": "Unsloth's GGUF, their MTP build (repo id not recorded)"
+    },
+    "file": "Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+    "size_gb": 22.66,
+    "sha256": "0b21525e972670ed59e1812e170b27c26355381f0656ecc4e25617ece7dac58b",
+    "format": "GGUF",
+    "quant": "Unsloth Dynamic UD-Q4_K_M",
+    "speculative_decoding": null,
+    "engine": "llamacpp",
+    "served_context": 131072,
+    "request": {
+      "model": "qwen3.6-35b-a3b-q4km",
+      "max_tokens": 16000,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "seed": "the run number (1)"
+    },
+    "gpu_to_itself": true
+  },
+  {
+    "name": "muse-glimmer-30b-q4km",
+    "label": "Meta Muse Glimmer 30B dense, Q4_K_M (always thinks; strength low)",
+    "model": "Meta Muse Glimmer 30B (dense); always thinks, strength set per request",
+    "source": {
+      "repo": "meta-models/Muse-Glimmer-30B-GGUF",
+      "path": "Muse-Glimmer-30B-KQuant-17GB-Q4_K_M.gguf"
+    },
+    "file": "Muse-Glimmer-30B-KQuant-17GB-Q4_K_M.gguf",
+    "size_gb": 16.76,
+    "sha256": "4cc57c0f51040a226e5a72cc47b7613f7772950e460a665f7083de89f183f60e",
+    "format": "GGUF",
+    "quant": "official KQuant Q4_K_M",
+    "speculative_decoding": null,
+    "engine": "llamacpp",
+    "served_context": 49152,
+    "request": {
+      "model": "muse-glimmer-30b-q4km",
+      "max_tokens": 16000,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "chat_template_kwargs": {
+        "reasoning_strength": "low"
+      },
+      "seed": "the run number (1)"
+    },
+    "gpu_to_itself": true
+  },
+  {
+    "name": "gemma4-31b-qat-q4_0",
+    "label": "Gemma 4 31B it, QAT q4_0 (thinking off)",
+    "model": "Google Gemma 4 31B it (dense), QAT",
+    "source": {
+      "repo": "google/gemma-4-31B-it-qat-q4_0-gguf",
+      "path": "gemma-4-31B_q4_0-it.gguf"
+    },
+    "file": "gemma-4-31B_q4_0-it.gguf",
+    "size_gb": 17.65,
+    "sha256": "179cfb99212709597eae5929112cfca677e1bbf566178b479ae1da0c4772874b",
+    "format": "GGUF",
+    "quant": "official QAT q4_0",
+    "speculative_decoding": null,
+    "engine": "llamacpp",
+    "served_context": 49152,
+    "request": {
+      "model": "gemma4-31b-qat-q4_0",
+      "max_tokens": 16000,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "seed": "the run number (1)"
+    },
+    "gpu_to_itself": true
+  },
+  {
+    "name": "qwen3.8-27b-default",
+    "label": "Qwen3.8 27B stock (NInfer, qwen3_8_27b-v013.ninfer, DFlash2), thinking low",
+    "model": "Qwen3.8-27B (stock; dense, hybrid linear/full attention): the model the agent here runs every day",
+    "source": {
+      "repo": "WarlaxZ/Qwen3.8-27B-NInfer-3090",
+      "revision": "d47f2732d369acaec76dc44228f67c72b081df2f",
+      "path": "qwen3_8_27b.ninfer"
+    },
+    "file": "qwen3_8_27b-v013.ninfer",
+    "size_gb": 18.98,
+    "sha256": "7f2a0086a071ee932c66106e1552d118a85cfec8ddef13c67a54cd64abb39706",
+    "format": "NInfer artifact (v0.13 container), as published",
+    "quant": "the qwen3_8_27b recipe (mixed 4/5/8-bit, ~5.6 bits per weight)",
+    "speculative_decoding": "DFlash2",
+    "engine": "ninfer",
+    "served_context": null,
+    "request": {
+      "model": "think",
+      "max_tokens": 16000,
+      "reasoning_effort": "low"
+    },
+    "gpu_to_itself": false
+  },
+  {
+    "name": "qwen3.8-27b-default-nothink",
+    "label": "Qwen3.8 27B stock (NInfer, qwen3_8_27b-v013.ninfer, DFlash2), thinking off",
+    "model": "Qwen3.8-27B (stock; dense, hybrid linear/full attention): the model the agent here runs every day",
+    "source": {
+      "repo": "WarlaxZ/Qwen3.8-27B-NInfer-3090",
+      "revision": "d47f2732d369acaec76dc44228f67c72b081df2f",
+      "path": "qwen3_8_27b.ninfer"
+    },
+    "file": "qwen3_8_27b-v013.ninfer",
+    "size_gb": 18.98,
+    "sha256": "7f2a0086a071ee932c66106e1552d118a85cfec8ddef13c67a54cd64abb39706",
+    "format": "NInfer artifact (v0.13 container), as published",
+    "quant": "the qwen3_8_27b recipe (mixed 4/5/8-bit, ~5.6 bits per weight)",
+    "speculative_decoding": "DFlash2",
+    "engine": "ninfer",
+    "served_context": null,
+    "request": {
+      "model": "chat",
+      "max_tokens": 16000
+    },
+    "gpu_to_itself": false
+  }
+]

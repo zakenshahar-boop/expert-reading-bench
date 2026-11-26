@@ -1,0 +1,116 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "note": "Whether factors from heterogeneous schools, specifically substance use, apply in AI-majority schools."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "partial": [
+          "C2"
+        ],
+        "note": "C1 in full. 'Does not significantly predict' drops 'consistently'; it is no stronger than the paper's own p.16 'substance use is not associated with relational patterns', so not flagged (as the earlier judge decided); no catch of B1. 'Unlike in non-AI populations' gives the contrast of C2 without 'weaker organizing principle'."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E2",
+          "E3"
+        ],
+        "note": "Cross-sectional network data from 9th/10th graders in three reservation schools (E1). 247 without stage, and not paired with the per-school survey counts in the claim (E2 partial). ERGMs (E3 partial)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [],
+        "ungrounded": [
+          "F1"
+        ],
+        "note": "Only quote NOT IN PAPER. Content is F1 (sender, receiver and homophily null) without exceptions."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F2"
+        ],
+        "note": "Only quote NOT IN PAPER."
+      },
+      {
+        "match": [],
+        "ungrounded": [
+          "F3"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": "F3",
+            "text": "The note says gender, grade and sexual orientation homophily showed strong and significant effects across all schools; the paper says this of gender and grade, and Table 3 shows sexual orientation homophily non-significant for the non-straight category in School B and marginal for straight students in School C."
+          }
+        ],
+        "note": "Only quote NOT IN PAPER, so no credit."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "First quote NOT IN PAPER, p.15 AI identity homophily quote in paper. Depression negligible and AI identity homophily non-significant: F4."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [],
+        "ungrounded": [
+          "L1"
+        ],
+        "note": "Only quote NOT IN PAPER."
+      },
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional and selection versus influence."
+      },
+      {
+        "match": [
+          "L4"
+        ],
+        "note": "One developmental epoch, one time point, life course and school transitions."
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T3"
+        ],
+        "misplaced": [
+          "C3"
+        ],
+        "note": "Moving beyond generalizations is the testing half of T3. Challenging the assumptions of network-based prevention programs (paper's word 'challenge', p.1) is C3, a central claim; the call for culturally grounded theory is in the quote, not the claim. Credited as misplaced."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "First quote NOT IN PAPER; the p.16 quote grounds it. Prior non-AI research links substance use to friendship through selection and influence (p.2), and the paper disputes that this holds in AI-majority schools: I1, stance correct."
+      }
+    ]
+  }
+}

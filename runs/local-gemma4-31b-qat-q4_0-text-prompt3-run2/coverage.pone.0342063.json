@@ -1,0 +1,112 @@
+{
+  "paper_id": "pone.0342063",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [
+    "F2"
+  ],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q1"
+        ]
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [],
+        "partial": [
+          "C1"
+        ],
+        "note": "Conservative half only (hesitancy); liberals-regardless and booster parts missing."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E3"
+        ],
+        "partial": [
+          "E1",
+          "E2"
+        ],
+        "note": "Online survey of 683 US participants (E1 without convenience sample, Qualtrics or dates; E2 without screening numbers). Climate from zip-code 2020 presidential results: E3, though '% Republican' is not spelled out (the paper's quote names the source)."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "'Independently correlate' fits models with both predictors and controls; not flagged."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Steeper rise in conservative climates; liberal half in [3]."
+      },
+      {
+        "match": [
+          "F4"
+        ],
+        "note": "Also mentions the booster-status interaction."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F2"
+        ],
+        "note": "Liberals-regardless half of F2."
+      },
+      {
+        "match": [],
+        "partial": [
+          "F3"
+        ],
+        "note": "Conservative half of F3, without liberals or figures."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L1"
+        ],
+        "note": "Proxy that may overlook other regional factors (population density)."
+      },
+      {
+        "match": [
+          "L3"
+        ]
+      },
+      {
+        "match": [
+          "L4"
+        ]
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [
+          "T1",
+          "T2"
+        ],
+        "note": "Separate prior literatures, extended by testing the interaction."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I2"
+        ],
+        "note": "Existing studies treated orientation or climate in isolation; the paper's building on them is not stated but is the point of the entry."
+      }
+    ]
+  }
+}

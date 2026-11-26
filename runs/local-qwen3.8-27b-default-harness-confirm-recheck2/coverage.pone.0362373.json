@@ -1,0 +1,114 @@
+{
+  "paper_id": "pone.0362373",
+  "judged_by": "Matched by a Claude Opus 5.5 agent on 2026-11-25; not yet checked by the labeler.",
+  "joined": [],
+  "entries": {
+    "question": [
+      {
+        "match": [
+          "Q2",
+          "Q3"
+        ],
+        "note": "Asks whether the substance use and friendship link documented in heterogeneous schools holds in AI-majority schools: Q2, and the role of substance use (Q3)."
+      }
+    ],
+    "central_claim": [
+      {
+        "match": [
+          "C1"
+        ],
+        "misplaced": [
+          "I4"
+        ],
+        "note": "Structural mechanisms and demographic homophily rather than substance use (C1; worded as 'associated with'; depression/AI identity also follow the abstract). 'Challenging the assumption that risky behavior organizes peer ties' is the conventional assumption the paper disputes (I4), credited as misplaced as in the calibration. C3 not credited: no network-based prevention programs or call for culturally grounded theory in the claim, only in the quote."
+      }
+    ],
+    "evidence": [
+      {
+        "match": [
+          "E1"
+        ],
+        "partial": [
+          "E3",
+          "E2"
+        ],
+        "note": "Cross-sectional network survey, 9th/10th grade, three Northern Plains reservation schools (E1). N = 247 as in the abstract, without the 263/77% stage (E2 partial). ERGMs named, without per-school estimation or AMEs (E3 partial)."
+      },
+      {
+        "match": [
+          "E7"
+        ],
+        "note": "'Purposively selected' follows the paper's 'purposefully selected'."
+      },
+      {
+        "match": [
+          "E6"
+        ],
+        "note": "Peer-perception imputation with the sensitivity analysis excluding imputed cases; 6.5%-8.5% matches p.6."
+      }
+    ],
+    "key_findings": [
+      {
+        "match": [
+          "F2"
+        ],
+        "flags": [
+          {
+            "type": "overclaim (mild)",
+            "gold": null,
+            "text": "The note calls reciprocity and transitivity 'the strongest and most consistent' structural drivers; the paper says the endogenous effects were 'strong and consistent' and ranks nothing as strongest (the outdegree AME in School A, -0.060, is larger in size than transitivity's)."
+          }
+        ]
+      },
+      {
+        "match": [
+          "F1"
+        ],
+        "note": "Both exceptions named and located correctly."
+      },
+      {
+        "match": [
+          "F4"
+        ]
+      },
+      {
+        "match": [],
+        "partial": [
+          "F5"
+        ],
+        "note": "Indegree centralized only in the private preparatory school: the incoming half of F5. Substance-use homophily only in School B is a detail of F1 (p.15, which includes the marijuana p<0.10 result); no second point. 'Calibrates' follows p.14."
+      }
+    ],
+    "scope_and_limits": [
+      {
+        "match": [
+          "L3"
+        ],
+        "note": "Cross-sectional with both consequences (selection vs influence, association vs cause)."
+      },
+      {
+        "match": [
+          "L2"
+        ]
+      }
+    ],
+    "theoretical_positioning": [
+      {
+        "match": [],
+        "partial": [
+          "T1",
+          "T3"
+        ],
+        "note": "'ERGM-based adolescent network tradition' is a vague T1; moving beyond generalizations from heterogeneous settings is the testing/disputing half of T3, without what is replicated. 'Extended' is not the rejected 'revises' claim about theory; not flagged."
+      }
+    ],
+    "interlocutor_claim": [
+      {
+        "match": [
+          "I1"
+        ],
+        "note": "Receiver effects and homophily in heterogeneous schools, disputed for AI-majority schools. Attribution checked: Ali et al. 2014 is ref 13; Schaefer et al. 2012 (ref 11), Schaefer et al. 2013 and Haas & Schaefer 2014 (ref 22) are listed in Table 1 for substance use homophily."
+      }
+    ]
+  }
+}
